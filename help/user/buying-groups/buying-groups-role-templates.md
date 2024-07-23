@@ -3,9 +3,9 @@ title: Comprar plantillas de rol de grupo
 description: Obtenga información acerca de la definición de una plantilla de rol para utilizarla como componente de grupo comprador.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,23 @@ En un mercado B2B, las decisiones de compra suelen ser tomadas por varios indivi
 
 1. Agregue una regla para cada rol que desee definir para la plantilla.
 
-   En la versión actual hay seis funciones: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` y `Other`.
+* Elija **[!UICONTROL Comprar rol de grupo]** de la lista.
 
-   ![Lista de funciones de grupo de compra](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+  En la versión actual hay seis funciones: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` y `Other`.
 
-   * Elija una función de la lista.
+![Lista de funciones de grupo de compra](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-   * Haga clic en **[!UICONTROL Agregar condición]**.
+* Defina **[!UICONTROL Ponderación]** para el rol, el cual se usa para calcular la puntuación de participación.
+
+  El valor de cada opción se traduce en un porcentaje para el cálculo de puntuación: [!UICONTROL Trivial] = 20, [!UICONTROL Menor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Importante] = 80 y [!UICONTROL Vital] = 100.
+
+  Por ejemplo, una plantilla de función con funciones que utilizan Vital, Importante y Normal se convierte a continuación como 100/240, 80/240, 60/240.
+
+* **[!UICONTROL Agregar condiciones para la asignación automática]**: seleccione esta casilla de verificación para agregar condiciones para la asignación automática de miembros al grupo de compra que cumplan la condición. Si la casilla de verificación no está seleccionada, la adición de condiciones NO es obligatoria.
+
+* **[!UICONTROL Necesario para la puntuación de integridad]**. Seleccione esta casilla de verificación para el rol si desea que sea un requisito para calcular una puntuación de integridad. —>
+
+* Haga clic en **[!UICONTROL Agregar condición]**.
 
    * En el cuadro de diálogo de condición, expanda la lista de **[!UICONTROL atributos de persona]** y busque un atributo que desee usar para que coincida con el rol. Arrástrela a la derecha y suéltela en el espacio de filtro.
 
@@ -77,19 +87,15 @@ En un mercado B2B, las decisiones de compra suelen ser tomadas por varios indivi
 
    * Haga clic en **[!UICONTROL Listo]**.
 
-   Para cada rol adicional que desee incluir en la plantilla, haga clic en **[!UICONTROL Agregar otro rol]** y defina una o más condiciones que coincidan con el rol.
+Para cada rol adicional que desee incluir en la plantilla, haga clic en **[!UICONTROL Agregar otro rol]** y defina una o más condiciones que coincidan con el rol.
 
-   ![Plantilla de roles con varios roles definidos](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+![Plantilla de roles con varios roles definidos](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. Si la plantilla está lista para usarse, haga clic en **[!UICONTROL Publish]** en la parte superior derecha.
 
    La publicación de la plantilla la establece en el estado _Activo_ y la hace disponible para asociarla con un interés de solución. Debe haber al menos una función definida para publicar la plantilla de funciones.
 
    Los cambios se guardarán automáticamente en el estado _Borrador_. Si no está listo para publicar la plantilla de roles, haga clic en la flecha izquierda (atrás) situada en la parte superior de la página y vuelva a la lista Plantillas de roles.
-<!-- 
-< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
-
-Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## Editar una plantilla de funciones de borrador
 

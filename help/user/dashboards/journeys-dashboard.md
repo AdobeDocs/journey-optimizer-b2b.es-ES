@@ -3,16 +3,16 @@ title: Panel de información general de recorrido
 description: Obtenga información acerca de la información proporcionada por el tablero Información general de Recorrido y cómo puede ayudarle a supervisar y administrar su estrategia de Recorrido de cuentas.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 3223a1379fad0da8b46af8c2f3929e79fafbd256
+source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Panel de información general de recorrido
 
-Este panel proporciona una vista completa de la participación y muestra métricas en tiempo real de interacciones de cuenta e individuales a través de gráficos circulares de instantáneas y gráficos de líneas que revelan tendencias a lo largo del tiempo. Le ayuda a monitorizar y a diseñar estrategias para sus esfuerzos de participación de forma eficaz.
+Este tablero proporciona una visión general completa de un recorrido de cuentas seleccionado, en el que se detalla el progreso de las cuentas mediante gráficos circulares y de líneas que categoriza y cuantifica las finalizaciones, las actividades en curso y las anulaciones a lo largo del tiempo. Ayuda a los especialistas en marketing a evaluar la eficacia de los canales de correo electrónico y SMS a través de métricas clave de envío y participación.
 
 ## Estado del recorrido
 
@@ -85,7 +85,3 @@ Haga clic en el botón en la esquina superior derecha para ocultar o mostrar cua
 * [!UICONTROL Fecha de entrada]
 * [!UICONTROL Fecha de salida]
 * [!UICONTROL Número de días en el Recorrido]
-
-Filtro global:
-
-Filtro de fecha

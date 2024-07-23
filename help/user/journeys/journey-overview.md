@@ -3,9 +3,9 @@ title: Recorridos de cuenta
 description: Obtenga información acerca de los recorridos de cuenta y cómo puede crearlos y administrarlos.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 59407f21319ff1b84e4fd001c4e92cfff61c57c9
+source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Defina un compromiso basado en las ventas que incluya correo electrónico, SMS y
 
 Esta tabla incluye la capacidad de búsqueda por nombre y creado por. Ordenar no está disponible actualmente.
 
-Puede personalizar la tabla mostrada haciendo clic en el icono de columnas en la esquina superior derecha y activando o desactivando las casillas de verificación.
+Puede personalizar la tabla mostrada si hace clic en el icono _Columnas_ en la esquina superior derecha y activa o desactiva las casillas de verificación.
 
 ![Elija las columnas que desea mostrar en la lista de recorridos de la cuenta](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ Haga clic en el nombre (mostrado como un vínculo) en la lista _[!UICONTROL reco
 
 ![Espacio de trabajo de recorrido de cuenta](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-El encabezado editor de cada recorrido incluye:
+El encabezado del editor de cada recorrido de cuenta incluye:
 
 * nombre del recorrido
 * Capacidad para editar el nombre (icono _Editar_)

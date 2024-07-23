@@ -3,52 +3,22 @@ title: Nodos del Recorrido de cuentas
 description: Obtenga información acerca de los tipos de nodos que puede utilizar para crear las recorridos de cuenta.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: 90946e472ba4757a2594e4303495a20ceb4fc890
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1748'
 ht-degree: 2%
 
 ---
 
 # Nodos del Recorrido de cuentas
 
-Después de [crear un recorrido de cuenta](journey-overview.md#create-an-account-journey) y [agregar la audiencia](journey-overview.md#add-the-account-audience-for-your-journey), genere el recorrido mediante nodos.
+Después de [crear un recorrido de cuenta](journey-overview.md#create-an-account-journey) y [agregar la audiencia](journey-overview.md#add-the-account-audience-for-your-journey), genere el recorrido mediante nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos.
 
-## Tipos de nodo
+Cree su recorrido de cuentas combinando los diferentes nodos de acción, evento y orquestación como un escenario de varios pasos y canales cruzados. Cada nodo de un recorrido representa un paso a lo largo de una ruta lógica.
 
-| Tipo de nodo | Función |
-| --------- | ------- |
-| [Audiencia de la cuenta](journey-overview.md#add-the-account-audience-for-your-journey) | Audiencia de la cuenta de entrada para el recorrido. Este nodo siempre es el primero y se crea automáticamente de forma predeterminada |
-| [Acción en personas](#add-a-people-action) | Enviar email |
-| | Cambiar calificación |
-| | Asignar persona al grupo de compra |
-| | Quitar persona del grupo de compra |
-| | Añadir a Marketo Campaign |
-| | Crear momento interesante para el posible cliente |
-| [Acción en las cuentas](#add-an-account-action) | Cambiar valor de datos |
-| | Quitar cuenta del Recorrido (actual) |
-| | Agregar cuenta a (otro) Recorrido |
-| | Crear momento interesante de la cuenta |
-| | Agregar a la lista de cuentas de Marketo (implícito) |
-| [Eventos para personas](#add-a-people-event) | Cambios en el valor de los datos |
-| | Cambio de puntuación |
-| | Abre el email |
-| | Hace clic en el vínculo del correo electrónico |
-| | Hace clic en un vínculo de una página web |
-| | Asignado a grupo comprador |
-| | Eliminado del grupo de compra |
-| [Eventos para cuentas](#add-an-account-event) | Cambio en el valor de datos de cuenta |
-| | Tiene un momento interesante |
-| [Dividido por personas](#add-a-split-path-by-people-node) | Atributos de los leads |
-| | Valor de datos cambiado (como el filtro en el historial de actividades) |
-| | Abrió el email |
-| | Hizo clic en el vínculo del email |
-| | Hizo clic en un vínculo de una página web |
-| | Ha tenido un momento interesante |
-| | Miembro del grupo comprador |
-| [Dividido por cuentas](#add-a-split-path-by-account-node) | Cambio en el valor de los datos de cuenta (por ejemplo, al filtrar el historial de actividades) |
-| [Esperar](#wait) | Disponible en nivel de cuenta |
-| [Combinar rutas](#merge-paths) | |
+## Nodo Audiencia de cuenta
+
+El nodo [Audiencia de cuenta](journey-overview.md#add-the-account-audience-for-your-journey) define la audiencia de cuenta de entrada (creada y administrada en Adobe Experience Platform) para el recorrido. Este nodo siempre es el primero y se crea automáticamente de forma predeterminada.
 
 ## Realizar una acción
 
@@ -57,6 +27,23 @@ Ejecute una acción como enviar un correo electrónico, cambiar la puntuación, 
 **Acción en cuentas**: la acción se aplica a todas las personas que forman parte de cuentas en esta ruta.
 
 **Acción en personas**: la acción se aplica a todas las personas de esta ruta. Se puede utilizar una acción en personas dentro de la ruta dividida por personas o por ruta dividida por cuentas.
+
+| Contexto del nodo | Función | Restricciones |
+| ------------ | -------- | ----------- |
+| [Personas](#add-a-people-action) | Asignar a grupo de compra | Seleccionar interés de solución<br/>Seleccionar rol |
+| | Eliminar del grupo de compra | Seleccionar interés de solución |
+| | Enviar SMS | Creación de SMS |
+| | Añadir a campaña de solicitud de Marketo Engage | Seleccione el espacio de trabajo del Marketo Engage<br/>Seleccionar campaña de solicitud |
+| | Cambiar la partición de personas en Marketo Engage | Nueva partición |
+| | Momento interesante de la persona | Escriba<br/>Descripción |
+| | Cambiar calificación | Nombre de puntuación<br/>Cambiar |
+| | Enviar email | Crear nuevo correo electrónico<br/>Seleccionar correo electrónico del Marketo Engage |
+| [Cuentas](#add-an-account-action) | Enviar alerta de ventas | Seleccionar interés de solución<br/>Enviar correo electrónico a |
+| | Agregar cuenta a (otro) Recorrido | Seleccionar Recorrido de cuenta activa |
+| | Actualizar estado del grupo de compra | Interés de la solución<br/>Estado (obligatorio, máximo 50 caracteres) |
+| | Quitar cuenta del Recorrido (actual) | Seleccionar Recorrido de cuenta activa |
+| | Momento interesante de la cuenta | Escriba (correo electrónico, hito o web)<br/>Descripción (opcional) |
+| | Valor de datos de cambio de cuenta | Seleccionar atributo<br/>Nuevo valor |
 
 ### Agregar una acción de cuenta
 
@@ -94,6 +81,20 @@ La audiencia avanza al siguiente paso del recorrido cuando se produce un evento.
 **Escuchar eventos en cuentas**: Si al menos una persona de una cuenta déclencheur un evento, la cuenta avanza al siguiente paso del recorrido.
 
 **Escuchar eventos de personas**: los eventos de personas solo se pueden aplicar en una ruta de acceso de cuenta; no está disponible para un nodo dividido por personas.
+
+| Contexto del nodo | Función | Restricciones |
+| ------------ | -------- | ----------- |
+| [Personas](#add-a-people-event) | Cambios en el valor de los datos | Atributo<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
+| | Hace clic en el vínculo del correo electrónico | Correo electrónico<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
+| | Asignado a grupo comprador | Interés en la solución<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
+| | Abre el email | Correo electrónico<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
+| | Se cambia el puntaje | Nombre de puntuación<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
+| | Eliminado del grupo de compra | Interés de la solución<br/>Fecha de la actividad (opcional)<br/>Tiempo de espera (opcional) |
+| [Cuentas](#add-an-account-event) | Cambio en el estado del grupo de compra | Interés en la solución<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
+| | Cambio en la puntuación de integridad | Interés en la solución<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
+| | La cuenta tuvo un momento interesante | Type<br/>Restricciones adicionales (opcional)<br/>Timeout (opcional) |
+| | Cambio en la puntuación de participación | Interés en la solución<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
+| | Cambio en el valor de datos de cuenta | Atributo<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
 
 ### Agregar un evento de cuenta
 
@@ -141,6 +142,10 @@ Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento.
 
 Divida la audiencia en función de las condiciones del filtro.
 
+>[!NOTE]
+>
+>Se admite un máximo de 25 rutas.
+
 **Dividir rutas por cuentas**: las rutas divididas por cuentas pueden incluir acciones y eventos de personas y cuentas, y estas rutas se pueden dividir más.
 
 _¿Cómo funciona un nodo de ruta dividida por cuentas?_
@@ -162,9 +167,16 @@ _¿Cómo funciona un nodo de ruta dividida por personas?_
 
 ![nodo de Recorrido: rutas divididas por personas](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
->[!NOTE]
->
->Se admite un máximo de 25 rutas.
+| Contexto del nodo | Condiciones de ruta | Descripción |
+| ------------ | -------- | ----------- |
+| [Personas](#add-a-split-path-by-people-node) | Atributos de la persona | |
+| | Valor de datos cambiado (como el filtro en el historial de actividades) | |
+| | Abrió el email | |
+| | Hizo clic en el vínculo del email | |
+| | Hizo clic en un vínculo de una página web | |
+| | Ha tenido un momento interesante | |
+| | Miembro del grupo comprador | |
+| [Cuentas](#add-a-split-path-by-account-node) | Cambio en el valor de los datos de cuenta (por ejemplo, al filtrar el historial de actividades) | |
 
 ### Adición de una ruta dividida por nodo de cuenta
 
@@ -267,4 +279,3 @@ Las diferentes rutas del recorrido se pueden combinar y descombinar con este nod
    Ahora debería ver que las rutas se combinan para que las cuentas de las rutas seleccionadas se combinen en una sola ruta y puedan continuar avanzando a través del recorrido.
 
 1. Si es necesario, puede anular la combinación de rutas volviendo a las propiedades del nodo de combinación y desactivando la casilla de verificación de las rutas que desee eliminar.
-
