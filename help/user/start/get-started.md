@@ -1,10 +1,11 @@
 ---
 title: Introducción a Journey Optimizer B2B Edition
 description: Como nuevo usuario de Journey Optimizer B2B Edition, obtenga información sobre las áreas clave para comenzar.
-source-git-commit: f38dc43681d7c12f6ae5e69978e5950fd9526f4c
+exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 3%
+source-wordcount: '623'
+ht-degree: 8%
 
 ---
 
@@ -16,15 +17,15 @@ En función de su organización, los administradores pueden definir varios tipos
 
 >[!BEGINTABS]
 
->[!TAB Inicio rápido para un administrador]
+>[!TAB Inicio rápido del administrador]
 
 Antes de que su equipo pueda empezar a utilizar las funciones de Adobe Journey Optimizer B2B Edition, es necesario realizar varios pasos para preparar su entorno. Siga estos pasos para que el ingeniero de datos y el experto en marketing puedan empezar a trabajar con Adobe Journey Optimizer B2B Edition.
 
-Como administrador del sistema, debe comprender los perfiles de producto y asignar permisos para la administración de zonas protegidas y la configuración de canal. También debe configurar los entornos limitados y administrarlos para los perfiles de producto disponibles. A continuación, puede asignar integrantes del equipo a los perfiles de producto. Estas funcionalidades pueden gestionarlas los administradores de productos que tengan acceso a Adobe Admin Console. [Más información sobre Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
+Como administrador del sistema, debe comprender los perfiles de producto y asignar permisos para la administración de zonas protegidas y la configuración de canal. También debe configurar los entornos limitados y administrarlos para los perfiles de producto disponibles. A continuación, puede asignar integrantes del equipo a los perfiles de producto. Estas funcionalidades pueden gestionarlas los administradores de productos que tengan acceso a Adobe Admin Console. [Obtenga más información acerca de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
 
 Obtenga información acerca de la administración de acceso en las siguientes páginas:
 
-1. **Cree zonas protegidas** para dividir las instancias en entornos virtuales independientes y aislados. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **Crear zonas protegidas** para dividir las instancias en entornos virtuales independientes y aislados. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
 
 1. **Configurar el perfil del producto**. Un perfil de producto es un conjunto de derechos unitarios en Adobe Experience Platform que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. [Más información](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -36,7 +37,7 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 
 1. **Configure y habilite el uso de Adobe Experience Manager Assets** para equipos que usan Assets como Cloud Service de recursos digitales para la administración centralizada de recursos. [Más información](../admin/configure-aem-repositories.md)
 
->[!TAB Inicio rápido para un experto en marketing]
+>[!TAB Inicio rápido para especialistas en marketing]
 
 Como especialista en marketing o en _Recorrido de cuentas_, usted es responsable de diseñar recorridos y crear contenido. Puede empezar a trabajar con Adobe Journey Optimizer B2B Edition después de que el administrador del sistema y el ingeniero de datos preparen su entorno y le concedan acceso.
 
@@ -46,7 +47,7 @@ Consulte las secciones siguientes para configurar su primer recorrido, añadir r
 
 1. **Crear grupos de compra**. Defina los componentes clave para alcanzar sus metas y objetivos empresariales, y cree grupos de compra que identifiquen a los miembros para sus listas de cuentas objetivo. [Más información](../buying-groups/buying-groups-overview.md)
 
-1. **Crear y administrar recursos**. Adobe Experience Manager Assets proporciona un único repositorio centralizado de recursos que puede utilizar para rellenar los mensajes. [Más información](../content/assets-overview.md)
+1. **Creación y administración de recursos**. Adobe Experience Manager Assets proporciona un único repositorio centralizado de recursos que puede utilizar para rellenar los mensajes. [Más información](../content/assets-overview.md)
 
 1. **Agregar plantillas de correo electrónico dinámicas y personalizadas**. Aproveche las funcionalidades de personalización y contenido dinámico de Journey Optimizer B2B Edition para adaptar el mensaje a su audiencia. [Más información](../content/email-templates.md)
 

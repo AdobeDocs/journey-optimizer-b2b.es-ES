@@ -1,15 +1,15 @@
 ---
-title: Audiencias de cuenta
+title: Públicos de la cuenta
 description: Obtenga información acerca de las audiencias de cuenta y cómo habilitan los recorridos basados en cuentas.
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
-
-# Audiencias de cuenta
+# Públicos de la cuenta
 
 Una audiencia es un conjunto de personas que comparten comportamientos o características similares. Journey Optimizer B2B Edition utiliza las funcionalidades de segmentación de cuentas que se encuentran en las ediciones B2B y B2P de Adobe Real-time Customer Data Platform. Con la segmentación de cuentas, los usuarios pueden generar audiencias de cuenta aprovechando los datos de cualquiera de las entidades B2B del sistema. Estas audiencias de cuenta sirven como entradas para los recorridos de cuenta de Journey Optimizer B2B Edition, lo que facilita la activación y personalización sin problemas.
 

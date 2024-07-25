@@ -3,7 +3,7 @@ title: Comprar plantillas de rol de grupo
 description: Obtenga información acerca de la definición de una plantilla de rol para utilizarla como componente de grupo comprador.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
+source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -55,41 +55,41 @@ En un mercado B2B, las decisiones de compra suelen ser tomadas por varios indivi
 
 1. Agregue una regla para cada rol que desee definir para la plantilla.
 
-* Elija **[!UICONTROL Comprar rol de grupo]** de la lista.
+   * Elija **[!UICONTROL Comprar rol de grupo]** de la lista.
 
-  En la versión actual hay seis funciones: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` y `Other`.
+     En la versión actual hay seis funciones: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` y `Other`.
 
-![Lista de funciones de grupo de compra](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+     ![Lista de funciones de grupo de compra](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-* Defina **[!UICONTROL Ponderación]** para el rol, el cual se usa para calcular la puntuación de participación.
+   * Defina **[!UICONTROL Ponderación]** para el rol, el cual se usa para calcular la puntuación de participación.
 
-  El valor de cada opción se traduce en un porcentaje para el cálculo de puntuación: [!UICONTROL Trivial] = 20, [!UICONTROL Menor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Importante] = 80 y [!UICONTROL Vital] = 100.
+     El valor de cada opción se traduce en un porcentaje para el cálculo de puntuación: [!UICONTROL Trivial] = 20, [!UICONTROL Menor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Importante] = 80 y [!UICONTROL Vital] = 100.
 
-  Por ejemplo, una plantilla de función con funciones que utilizan Vital, Importante y Normal se convierte a continuación como 100/240, 80/240, 60/240.
+     Por ejemplo, una plantilla de función con funciones que utilizan Vital, Importante y Normal se convierte a continuación como 100/240, 80/240, 60/240.
 
-* **[!UICONTROL Agregar condiciones para la asignación automática]**: seleccione esta casilla de verificación para agregar condiciones para la asignación automática de miembros al grupo de compra que cumplan la condición. Si la casilla de verificación no está seleccionada, la adición de condiciones NO es obligatoria.
+   * **[!UICONTROL Agregar condiciones para la asignación automática]**: seleccione esta casilla de verificación para agregar condiciones para la asignación automática de miembros al grupo de compra que cumplan la condición. Si la casilla de verificación no está seleccionada, la adición de condiciones NO es obligatoria.
 
-* **[!UICONTROL Necesario para la puntuación de integridad]**. Seleccione esta casilla de verificación para el rol si desea que sea un requisito para calcular una puntuación de integridad. —>
+   * **[!UICONTROL Necesario para la puntuación de integridad]**. Seleccione esta casilla de verificación para el rol si desea que sea un requisito para calcular una puntuación de integridad. —>
 
-* Haga clic en **[!UICONTROL Agregar condición]**.
+   * Haga clic en **[!UICONTROL Agregar condición]**.
 
-   * En el cuadro de diálogo de condición, expanda la lista de **[!UICONTROL atributos de persona]** y busque un atributo que desee usar para que coincida con el rol. Arrástrela a la derecha y suéltela en el espacio de filtro.
+      * En el cuadro de diálogo de condición, expanda la lista de **[!UICONTROL atributos de persona]** y busque un atributo que desee usar para que coincida con el rol. Arrástrela a la derecha y suéltela en el espacio de filtro.
 
-     ![Atributo de arrastre de condición para agregar plantilla de roles](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+        ![Atributo de arrastre de condición para agregar plantilla de roles](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-   * Utilice el atributo para crear un filtro coincidente con uno o más valores.
+      * Utilice el atributo para crear un filtro coincidente con uno o más valores.
 
-     En el ejemplo siguiente, se utiliza el atributo Job title para identificar una coincidencia para Decision Maker. Cualquier valor del título que comience por `Director` o `Sr Director` se evalúa como verdadero para la condición.
+        En el ejemplo siguiente, se utiliza el atributo Job title para identificar una coincidencia para Decision Maker. Cualquier valor del título que comience por `Director` o `Sr Director` se evalúa como verdadero para la condición.
 
-     ![Ejemplo de condición de plantilla de roles usando el cargo](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
+        ![Ejemplo de condición de plantilla de roles usando el cargo](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * Si es necesario, agregue otro atributo y condición que restrinja aún más los criterios para una coincidencia en la función.
+      * Si es necesario, agregue otro atributo y condición que restrinja aún más los criterios para una coincidencia en la función.
 
-   * Haga clic en **[!UICONTROL Listo]**.
+      * Haga clic en **[!UICONTROL Finalizado]**.
 
-Para cada rol adicional que desee incluir en la plantilla, haga clic en **[!UICONTROL Agregar otro rol]** y defina una o más condiciones que coincidan con el rol.
+   Para cada rol adicional que desee incluir en la plantilla, haga clic en **[!UICONTROL Agregar otro rol]** y defina una o más condiciones que coincidan con el rol.
 
-![Plantilla de roles con varios roles definidos](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   ![Plantilla de roles con varios roles definidos](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. Si la plantilla está lista para usarse, haga clic en **[!UICONTROL Publish]** en la parte superior derecha.
 

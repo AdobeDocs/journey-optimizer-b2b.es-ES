@@ -2,9 +2,9 @@
 title: Inicio de sesión y página de inicio
 description: Obtenga información sobre cómo acceder a la aplicación Journey Optimizer B2B Edition y utilizar la información de la página principal.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: d5712562beb6038601bea6b91c511a796bc6ddd7
+source-git-commit: 13c25bf654c4cbc35589866d817de224065ab861
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -17,52 +17,63 @@ Con Adobe Journey Optimizer B2B Edition, puede orquestar recorridos de cuenta y 
 -->
 Para acceder a [!DNL Adobe Journey Optimizer B2B Edition], conéctese a Adobe Experience Cloud con su Adobe ID y seleccione [!DNL Journey Optimizer B2B Edition].
 
-![Comprando página de exploración de grupo](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![aplicaciones de Adobe Experience Platform](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
 La página de inicio se muestra al iniciar sesión en Adobe Experience Platform y seleccionar la aplicación Adobe Journey Optimizer B2B Edition. Esta página proporciona una visión general del estado actual de las iniciativas B2B de Journey Optimizer en forma de perspectivas refinadas y acceso rápido a los módulos relevantes. También proporciona información sobre la siguiente acción ideal que debe realizarse y dónde encontrar el conjunto completo de tutoriales y documentación.
 
-Journey Optimizer B2B Edition tiene dos perfiles de usuario principales: un experto en marketing y un administrador. Cada persona tiene una página de inicio específica para diferentes etapas de madurez (nuevas o avanzadas). El contenido de la página se basa en lo que cada persona necesita en términos de información y en las siguientes acciones que debe realizar. Estas páginas también incluyen acceso a **Asistente de IA**, que ayuda a los usuarios a obtener información rápida sobre cualquier pregunta o tema específico que necesiten<!-- and to obtain specific recommendations for their challenges or objectives-->.
+Journey Optimizer B2B Edition tiene dos perfiles de usuario principales: un experto en marketing y un administrador. Cada persona tiene una página de inicio específica para diferentes etapas de madurez (nuevas o avanzadas). El contenido de la página se basa en lo que cada persona necesita en términos de información y en las siguientes acciones que debe realizar. Estas páginas también incluyen acceso a [Asistente de IA](./start/ai-assistant.md), que ayuda a los usuarios a obtener información rápida sobre cualquier pregunta o tema específico que necesiten<!-- and to obtain specific recommendations for their challenges or objectives-->.
 
-## Especialista en marketing - nuevo usuario
+![Página de inicio de Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-La página de inicio del especialista en marketing de un nuevo usuario consta de tres filas que ayudan al especialista en marketing a acostumbrarse a Journey Optimizer B2B y a sus funcionalidades. También proporciona una vista de los recorridos más recientes que se han creado, que pueden servir como punto de partida para un nuevo usuario.
+* **Especialista en marketing - nuevo usuario** - La página de inicio de _Especialista en marketing_ para un usuario nuevo le ayuda a familiarizarse con Journey Optimizer B2B y sus capacidades. Incluye una guía guiada para que el nuevo experto en marketing obtenga una guía de incorporación para que pueda comprender los matices del sistema y ser eficiente en el desarrollo de estrategias e iniciativas de marketing B2B.
+* **Especialista en marketing - usuario avanzado**: la página de inicio de _Especialista en marketing_ para un especialista en marketing avanzado les ayuda a obtener más información sobre el progreso actual de las iniciativas y sobre acciones específicas, así como sobre la siguiente mejor acción que debe realizarse junto con un acceso rápido a las secciones relevantes.
+* **Administrador - nuevo usuario** — La página de inicio de _Administrador_ para un administrador nuevo les ayuda a familiarizarse con Journey Optimizer B2B Edition y sus funcionalidades. Incluye una guía guiada para que el nuevo administrador obtenga un recorrido de incorporación paso a paso para comprender los matices del sistema y ser eficiente en el desarrollo de estrategias e iniciativas de marketing B2B.
+* **Administrador - usuario avanzado** — La página de inicio de _Administrador_ de un administrador avanzado le ayudará a obtener más información sobre el estado actual de la instancia y sobre las acciones específicas que se pueden realizar para que sea más eficiente y eficaz para los especialistas en marketing.
 
-La primera fila consiste en una guía guiada para que el nuevo experto en marketing obtenga una guía de incorporación para que pueda comprender los matices del sistema y ser eficiente en el desarrollo de estrategias e iniciativas de marketing B2B.
+<!-- 
 
-La segunda fila consiste en los recorridos B2B recientes de AJO que se han creado en toda la plataforma para que el experto en marketing pueda inspirarse en las prácticas recomendadas para crear un recorrido de cuenta.
+## Marketer - new user
 
-La tercera fila consiste en recursos de aprendizaje que pueden ayudar a un experto en marketing a obtener más información sobre un tema específico.
+The Marketer home page for a new user consists of three rows that assist the marketer in getting accustomed to Journey Optimizer B2B and its capabilities. It also provides a view of the latest journeys that have been created, which can serve as a starting point for a new user.
 
-## Especialista en marketing: usuario avanzado
+The first row consists of a guided walkthrough for the new marketer to obtain an onboarding walkthrough so that they can understand the nuances of the system and become efficient in developing B2B marketing strategies and initiatives.
 
-La página de inicio del especialista en marketing para un experto en marketing avanzado consta de cuatro filas que ayudan al especialista en marketing a obtener más información sobre el progreso actual de las iniciativas y sobre acciones específicas, así como sobre la siguiente mejor acción que debe realizarse junto con un acceso rápido a las secciones relevantes.
+The second row consists of the recent AJO B2B journeys that have been created across the platform so that the marketer can get inspiration for the best practices to create an account journey.
 
-La primera fila consiste en el siguiente conjunto de acciones que un experto en marketing B2B puede realizar en función de las acciones anteriores realizadas y del estado actual de la iniciativa, lo que permite al usuario realizar el siguiente movimiento que se ajuste al objetivo de las iniciativas y le ayude a alcanzar los objetivos rápidamente.
+The third row consists of the learning resources that can help a marketer gain more information on a specific topic.
 
-La segunda fila consiste en los recursos más recientes a los que ha accedido el especialista en marketing para facilitar su localización y la realización de actualizaciones sobre los mismos.
+## Marketer - advanced user
 
-La tercera fila consta de los indicadores de rendimiento clave que pueden ayudar al experto en marketing a medir el rendimiento general de las iniciativas de marketing.
+The Marketer home page for an advanced marketer consists of four rows that assists the marketer in obtaining more information on the current progress of the initiatives and on specific actions and on the next best action to be taken along with quick access to relevant sections.
 
-La cuarta fila consiste en recursos de aprendizaje que pueden ayudar a un experto en marketing a obtener más información sobre un tema específico.
+The first row consists of the next set of actions that a B2B marketer can take based on the previous actions taken and the current state of the initiative, which provides a prompt for the user to make the next move that would align to the objective of the initiatives and help them reach the goals quickly.
 
-## Administrador - nuevo usuario
+The second row consists of the most recent assets accessed by the marketer to make it easier for the marketer to locate them and make updates to the same.
 
-La página de inicio de _Admin_ para un administrador nuevo consta de tres filas que le ayudan a acostumbrarse a Journey Optimizer B2B Edition y sus funcionalidades, y le proporcionan una vista de los recorridos más recientes que se han creado y que pueden servir como punto de partida para un usuario nuevo.
+The third row consists of the Key Performance Indicators that can help the marketer gauge the overall performance of the marketing initiatives.
 
-La primera fila consiste en una guía guiada para el nuevo experto en marketing a fin de obtener un recorrido de incorporación paso a paso para comprender los matices del sistema y ser eficiente en el desarrollo de estrategias e iniciativas de marketing B2B con AJO B2B.
+The fourth row consists of the learning resources that can help a marketer gain more information on a specific topic.
 
-La segunda fila consiste en los recursos recientes utilizados por los especialistas en marketing B2B en una sola tabla para facilitar al administrador saber qué recursos están actualmente bajo foco.
+## Administrator - new user
 
-La tercera fila consta de recursos de aprendizaje que ayudan a un administrador a obtener más información sobre un tema específico.
+The _Admin_ home page for a new administrator consists of three rows that assists the administrator in getting accustomed to Journey Optimizer B2B Edition and its capabilities, and provides a view of the latest journeys that have been created that can serve as a starting point for a new user.
 
-## Administrador - usuario avanzado
+The first row consists of a guided walkthrough for the new marketer to obtain a step-by-step onboarding journey to understand the nuances of the system and become efficient in developing B2B marketing strategies and initiatives with AJO B2B.
 
-La página de inicio _Admin_ de un administrador avanzado consta de cuatro filas que ayudan al administrador a obtener más información sobre el estado actual de la instancia y sobre las acciones específicas que se pueden realizar para que sea más eficiente y eficaz para los especialistas en marketing.
+The second row consists of the recent assets used by the B2B marketers in a single table to make it easier for the administrator to know which assets are currently under focus.
 
-La primera fila consta del siguiente conjunto de acciones que un administrador puede realizar en función de las acciones anteriores realizadas y del estado actual de la instancia. Sirve como mensaje para que el administrador realice las actualizaciones necesarias en los parámetros de las instancias, como permisos de usuario o cualquier configuración de módulo específica.
+The third row consists of the learning resources that would help an administrator gain more information on a specific topic.
 
-La segunda fila consiste en los recursos recientes utilizados por los especialistas en marketing B2B en una sola tabla para facilitar al administrador saber qué recursos están actualmente bajo foco.
+## Administrator - advanced user
 
-La tercera fila consta de los indicadores de rendimiento clave que ayudarían a los administradores a medir el progreso de la instancia en términos de parámetros operativos como usuarios y uso.
+The _Admin_ home page for an advanced administrator consists of four rows that assists the administrator in obtaining more information about the current status of the instance and on specific actions that can be taken to make it more efficient and effective for the marketers.
 
-La cuarta fila consta de recursos de aprendizaje que ayudan al administrador a obtener más información sobre un tema específico.
+The first row consists of the next set of actions that an administrator can take based on the previous actions taken and the current state of the instance. It serves as a prompt for the administrator to make the necessary updates to the parameters of the instances such as user permissions or any specific module configurations.
+
+The second row consists of the recent assets used by the B2B marketers in a single table to make it easier for the administrator to know which assets are currently under focus.
+
+The third row consists of the Key Performance Indicators that would help the administrators gauge the progress of the instance in terms of operational parameters such as users and usage.
+
+The fourth row consists of the learning resources that would help the administrator gain more information on a specific topic.
+
+-->
