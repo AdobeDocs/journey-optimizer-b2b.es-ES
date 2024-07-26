@@ -3,7 +3,7 @@ title: Creación de grupos de compra
 description: Aprenda a crear grupos de compra.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -47,7 +47,7 @@ La primera página proporciona instrucciones sobre los requisitos previos/compon
 
 El cuadro de diálogo de confirmación proporciona un resumen del proceso de compra de grupos y una hora estimada para la finalización. Para confirmar e iniciar el proceso, haga clic en **[!UICONTROL Crear]**.
 
-![Cuadro de diálogo de confirmación de creación de grupos de compra](./assets/buying-groups-create-confirm.png){width="425" zoomable="no"}
+![Cuadro de diálogo de confirmación de creación de grupos de compra](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
 Puede navegar al usuario a la pestaña Interés de la solución y mostrar el recuento de trabajos creados para el interés de la solución.
 

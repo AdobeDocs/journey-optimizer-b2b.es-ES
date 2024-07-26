@@ -3,9 +3,9 @@ title: Panel de información general de grupos de compra
 description: Obtenga información acerca del panel Información general de grupos de compra y cómo habilita el envío de ventas desde el equipo de marketing.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Obtenga información sobre la progresión de sus grupos de compra con la vista E
 
 Para interactuar con los datos, utilice el menú de acción en la esquina superior derecha.
 
-![Haga clic en el icono para acceder al menú de acciones](./assets/buying-group-more-menu.png){width="400"}
+![Haga clic en el icono para acceder al menú de acciones](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL Obtener detalles]
 
@@ -58,7 +58,7 @@ Elija **[!UICONTROL Obtener detalles]** para obtener un análisis detallado de l
 
 ![Exploración detallada de los datos del gráfico](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-Los filtros globales aplicados al panel se transfieren y no se pueden cambiar desde esta página.
+Los filtros globales aplicados al panel se transfieren.
 
 Haga clic en el icono del menú de acción en la parte superior derecha y elija **[!UICONTROL Ver más]** para [ver datos e información ampliados](#view-more).
 
@@ -86,4 +86,4 @@ Elija **[!UICONTROL Ver más]** para obtener datos y perspectivas ampliados. La 
 
 ![Ver datos extendidos](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-Para descargar los datos, haga clic en **[!UICONTROL Descargar CSV]** en la esquina superior derecha.
+Para descargar los datos, haga clic en **[!UICONTROL Descargar CSV]** en la parte superior derecha.

@@ -3,9 +3,9 @@ title: Creación de correo electrónico
 description: Obtenga información sobre cómo crear contenido de correo electrónico personalizado que se utiliza en Recorridos de cuenta.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: cae7aa7faa67bd1888b85051ff247848b6c3c072
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1314'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Puede configurar los envíos de correo electrónico en un Recorrido de cuentas c
 1. Para la _[!UICONTROL acción sobre personas]_, elige **[!UICONTROL Enviar correo electrónico]**.
 1. Para el _[!UICONTROL origen del correo electrónico]_, elija **[!UICONTROL Crear nuevo correo electrónico]**.
 
-   También puede seleccionar la opción `Select email from Adobe Marketo Engage` para utilizar uno de los correos electrónicos creados previamente en Marketo Engage y enviarlo como parte del Recorrido de cuentas.
+   También puede seleccionar la opción _[!UICONTROL Seleccionar correo electrónico de Adobe Marketo Engage]_ para usar uno de los correos electrónicos creados previamente en Marketo Engage y enviarlo como parte del Recorrido de cuentas.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 
 1. Seleccione la ficha **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido de las que se realiza un seguimiento.
 
-   Puede modificar el Tipo de seguimiento o la Etiqueta y añadir etiquetas si es necesario.
+   Puede modificar _Tracking Type_ o _Label_ y agregar etiquetas si es necesario.
 
 Si es necesario, puede personalizar aún más su correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** desde el menú avanzado. El editor de código permite editar el código fuente del correo electrónico, como añadir etiquetas de seguimiento o de HTML personalizadas.
 
