@@ -3,9 +3,9 @@ title: Recursos
 description: Obtenga información acerca de la administración de recursos en Journey Optimizer B2B Edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Utilice recursos a medida que crea sus correos electrónicos, plantillas de corr
 
 ### Elegir un origen de recursos
 
-Si tiene una suscripción de Experience Manager Assets as a Cloud Service junto con el Adobe Marketo Engage Design Studio predeterminado, puede elegir recursos de imagen de cualquier origen. Para ello, debe seleccionar el origen de la imagen en el momento de la creación para un nuevo correo electrónico, plantilla de correo electrónico o fragmento visual. O bien, puede seleccionar el origen de la imagen cuando edite el contenido. La selección solo se aplica a la experiencia de edición y puede cambiar el origen de la imagen para acceder a los recursos de otra biblioteca cuando sea necesario.
+Si tiene una suscripción al as a Cloud Service de Experience Manager Assets junto con el Adobe Marketo Engage Design Studio predeterminado, puede elegir recursos de imagen de cualquier origen. Para ello, debe seleccionar el origen de la imagen en el momento de la creación para un nuevo correo electrónico, plantilla de correo electrónico o fragmento visual. O bien, puede seleccionar el origen de la imagen cuando edite el contenido. La selección solo se aplica a la experiencia de edición y puede cambiar el origen de la imagen para acceder a los recursos de otra biblioteca cuando sea necesario.
 
-Creación de un correo electrónico
+_**Creación de un recurso de contenido**_: para elegir un origen de imagen al crear un correo electrónico, una plantilla de correo electrónico o un fragmento, establezca el **[!UICONTROL origen de imagen]** en el cuadro de diálogo cuando lo cree.
 
-Edición de un correo electrónico: para elegir un origen de recurso de imagen en el editor visual, use el selector **[!UICONTROL Seleccionar origen de imagen]** de la parte superior del lienzo.
+_**Edición de un recurso de contenido**_: para elegir un origen de recurso de imagen en el editor visual, use el selector **[!UICONTROL Seleccionar origen de imagen]** de la parte superior del lienzo.
 
 ### Añadir recursos al contenido
 
