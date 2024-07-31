@@ -3,9 +3,9 @@ title: Creación de correo electrónico
 description: Obtenga información sobre cómo crear contenido de correo electrónico personalizado que se utiliza en Recorridos de cuenta.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: ce38e378ad316fb379cb649a4592ed831250296d
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1294'
 ht-degree: 1%
 
 ---
@@ -88,8 +88,8 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 
 1. Inserte campos de personalización para personalizar el contenido a partir de atributos de perfiles, suscripciones a audiencias, atributos contextuales, etc.
 
-1. Haga clic en **[!UICONTROL Habilitar contenido de condición]** para agregar contenido dinámico y adaptar el contenido a los perfiles de destino según las reglas condicionales.
-
+<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
+-->
 1. Seleccione la ficha **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido de las que se realiza un seguimiento.
 
    Puede modificar _Tracking Type_ o _Label_ y agregar etiquetas si es necesario.
