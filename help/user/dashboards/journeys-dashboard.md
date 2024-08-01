@@ -1,9 +1,9 @@
 ---
-title: Panel de información general de recorrido
+title: Tablero de información general de recorrido
 description: Obtenga información acerca de la información proporcionada por el panel Información general de Recorrido y cómo puede ayudarle a supervisar y administrar su estrategia de recorrido de cuentas.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 18e22383c9f9294d209f4c8a6f9f04f074881186
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 1%

@@ -2,7 +2,8 @@
 title: Configuración de repositorios de recursos de Experience Manager
 description: Obtenga información sobre cómo configurar una conexión a repositorios de Experience Manager Assets para utilizarla en la creación de contenido de Journey Optimizer B2B Edition.
 feature: Assets, Integrations
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -15,7 +16,7 @@ Adobe Journey Optimizer B2B Edition se integra con Adobe Experience Manager Asse
 
 Adobe Experience Manager Cloud Manager está organizado en programas y cada programa tiene varios entornos y repositorios ([Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Al configurar Adobe Experience Manager Assets en Adobe Journey Optimizer B2B Edition, se configuran las conexiones a cada repositorio que desea utilizar para acceder a los recursos digitales.
 
-## Prerrequisitos
+## Requisitos previos
 
 * AEM Genere las credenciales de servicio para el entorno deseado en el Developer Console sin encabezado de la ([Más información](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).
 * Adquiera los certificados necesarios para la conexión. Como práctica recomendada, asegúrese de que restan al menos seis meses para la caducidad de los certificados. Los certificados caducan cada 365 días.

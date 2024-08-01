@@ -1,9 +1,9 @@
 ---
-title: Nodos del Recorrido de cuentas
+title: Nodos de Recorrido de cuenta
 description: Obtenga información acerca de los tipos de nodos que puede utilizar para crear las recorridos de cuenta.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 90946e472ba4757a2594e4303495a20ceb4fc890
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 2%
@@ -30,7 +30,7 @@ Ejecute una acción como enviar un correo electrónico, cambiar la puntuación, 
 
 | Contexto del nodo | Función | Restricciones |
 | ------------ | -------- | ----------- |
-| [Personas](#add-a-people-action) | Asignar a grupo de compra | Seleccionar interés de solución<br/>Seleccionar rol |
+| [People](#add-a-people-action) | Asignar a grupo de compra | Seleccionar interés de solución<br/>Seleccionar rol |
 | | Eliminar del grupo de compra | Seleccionar interés de solución |
 | | Enviar SMS | Creación de SMS |
 | | Añadir a campaña de solicitud de Marketo Engage | Seleccione el espacio de trabajo del Marketo Engage<br/>Seleccionar campaña de solicitud |
@@ -84,7 +84,7 @@ La audiencia avanza al siguiente paso del recorrido cuando se produce un evento.
 
 | Contexto del nodo | Función | Restricciones |
 | ------------ | -------- | ----------- |
-| [Personas](#add-a-people-event) | Cambios en el valor de los datos | Atributo<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
+| [People](#add-a-people-event) | Cambios en el valor de los datos | Atributo<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
 | | Hace clic en el vínculo del correo electrónico | Correo electrónico<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
 | | Asignado a grupo comprador | Interés en la solución<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
 | | Abre el email | Correo electrónico<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
@@ -169,7 +169,7 @@ _¿Cómo funciona un nodo de ruta dividida por personas?_
 
 | Contexto del nodo | Condiciones de ruta | Descripción |
 | ------------ | -------- | ----------- |
-| [Personas](#add-a-split-path-by-people-node) | Atributos de la persona | |
+| [People](#add-a-split-path-by-people-node) | Atributos de la persona | |
 | | Valor de datos cambiado (como el filtro en el historial de actividades) | |
 | | Abrió el email | |
 | | Hizo clic en el vínculo del email | |
@@ -200,7 +200,7 @@ _¿Cómo funciona un nodo de ruta dividida por personas?_
 
      ![Nodo de ruta de división: lógica de filtro de condiciones](./assets/node-split-conditions.png){width="700" zoomable="yes"}
 
-   * Haga clic en **[!UICONTROL Listo]**.
+   * Haga clic en **[!UICONTROL Finalizado]**.
 
 1. Para agregar más rutas, haga clic en **[!UICONTROL Agregar ruta]** y repita los pasos anteriores para agregar las condiciones aplicables a esta ruta.
 
@@ -228,7 +228,7 @@ _¿Cómo funciona un nodo de ruta dividida por personas?_
 
    * Ajuste las condiciones aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todas las condiciones de atributo o cualquier condición.
 
-   * Haga clic en **[!UICONTROL Listo]**.
+   * Haga clic en **[!UICONTROL Finalizado]**.
 
 1. Para agregar más rutas, haga clic en **[!UICONTROL Agregar ruta]** y repita los pasos anteriores para agregar las condiciones aplicables a esta ruta.
 

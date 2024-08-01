@@ -3,7 +3,7 @@ title: Panel de información general de grupos de compra
 description: Obtenga información acerca del panel Información general de grupos de compra y cómo habilita el envío de ventas desde el equipo de marketing.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 1%

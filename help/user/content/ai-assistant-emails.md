@@ -3,7 +3,7 @@ title: Asistente de IA para la creación de correo electrónico
 description: Aprenda a utilizar el Asistente de IA para optimizar el contenido de correo electrónico que se utiliza en los Recorridos de cuenta.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: f4f52919b9455277325a511a67c99daef42699f0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: Recorridos de cuenta
 description: Obtenga información acerca de los recorridos de cuenta y cómo puede crearlos y administrarlos.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 1%

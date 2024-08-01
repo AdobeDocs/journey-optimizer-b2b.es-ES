@@ -1,9 +1,9 @@
 ---
-title: Comprar grupos
+title: Grupos de compra
 description: Obtenga información sobre la compra de grupos y sus componentes.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e107c4c7c4e86c57b70d90e0f42d71454bc832a9
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 6%
@@ -58,9 +58,9 @@ En el panel de navegación de la izquierda, expande **[!UICONTROL Cuentas]** y h
 
 La página _[!UICONTROL Grupos de compra]_ está organizada en fichas:
 
-| Ficha | Descripción |
+| Tabulación | Descripción |
 | --- | ----------- |
-| [!UICONTROL Información general] | Esta ficha es la predeterminada y muestra el [panel Grupos de compra](../dashboards/buying-groups-dashboard.md). |
+| Información general de  | Esta ficha es la predeterminada y muestra el [panel Grupos de compra](../dashboards/buying-groups-dashboard.md). |
 | [!UICONTROL Examinar] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compra existentes. </li><li>Busque comprando el nombre del grupo. </li><li>Filtrar por interés de solución. </li><li>Profundice en los detalles del grupo de compra. </li><li>Crear un grupo de compra. Eliminar un grupo de compra.</li></ul> |
 | [!UICONTROL Intereses de la solución] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compra existentes. </li><li>Busque comprando el nombre del grupo. </li><li>Acceda y edite las propiedades de interés de la solución. </li><li>Cree un interés de solución. </li><li>Eliminar un interés de solución. </li><li>Ver y eliminar trabajos del grupo de compra. </li></ul> |
 | [!UICONTROL Plantillas de roles] | Esta pestaña admite las siguientes actividades: <ul><li>Vea la lista de plantillas de funciones existentes. </li><li>Buscar por nombre de plantilla de funciones. </li><li>Acceda y edite las propiedades y condiciones de la plantilla de funciones. </li><li>Cree una plantilla de funciones. </li><li>Eliminar una plantilla de funciones. </li></ul> |
@@ -95,9 +95,9 @@ Los siguientes ejemplos ilustran el cálculo de la puntuación de participación
 
 **Grupo de compra 1** - puntuación de participación = 22.15
 
-| Usuario | Función | Peso de rol | Acción | Hoy | ayer | Peso de acción | Puntaje |
+| Usuario | Función | Peso de rol | Acción | Hoy | ayer | Peso de acción | Puntuación |
 | ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Adam | Decisionista | 80 % | Sitio web visitado | 1000 | 2 | 1 | 22 |
+| Adam | Decisionista | 80 % | Sitio web visitado | 1000 | 2 | 1 | 22 |
 | | | | Se hizo clic en el correo electrónico | 1 | 0 | 1 | 1 |
 | | | | Pub descargado | 1 | 3 | 1 | 4 |
 | Bob | Influenciador | 15 % | Sitio web visitado | 1 | 2 | 1 | 3 |
@@ -105,9 +105,9 @@ Los siguientes ejemplos ilustran el cálculo de la puntuación de participación
 
 **Grupo de compra 2** - puntuación de participación = 8,55
 
-| Usuario | Función | Peso de rol | Acción | Hoy | ayer | Peso de acción | Puntaje |
+| Usuario | Función | Peso de rol | Acción | Hoy | ayer | Peso de acción | Puntuación |
 | ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Alvin | Decisionista | 80 % | Sitio web visitado | 3 | 2 | 1 | 5 |
+| Alvin | Decisionista | 80 % | Sitio web visitado | 3 | 2 | 1 | 5 |
 | | | | Se hizo clic en el correo electrónico | 1 | 0 | 1 | 1 |
 | | | | Pub descargado | 1 | 3 | 1 | 4 |
 | Bret | Influenciador | 15 % | Sitio web visitado | 1 | 2 | 1 | 3 |

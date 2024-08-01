@@ -3,7 +3,7 @@ title: Creación de SMS
 description: Aprenda a enviar mensajes de texto (SMS) a sus clientes en sus dispositivos móviles y a personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1879'
 ht-degree: 0%

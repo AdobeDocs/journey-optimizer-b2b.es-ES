@@ -1,9 +1,9 @@
 ---
-title: Plantillas de correo electrónico
+title: Plantillas de email
 description: Aprenda a crear y editar plantillas de correo electrónico que se puedan utilizar para crear correos electrónicos de recorrido de cuentas de forma fácil y eficaz.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '2622'
 ht-degree: 0%

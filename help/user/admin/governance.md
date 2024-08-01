@@ -1,7 +1,8 @@
 ---
 title: Funciones de gobernanza
 description: Obtenga información acerca de las funciones de gobernanza que están disponibles actualmente en Journey Optimizer B2B Edition.
-source-git-commit: 1353defe804947617a4d7489592d380bf372c7df
+exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
