@@ -3,10 +3,10 @@ title: Grupos de compra
 description: Obtenga información sobre la compra de grupos y sus componentes.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 6%
+source-wordcount: '1186'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ Para las actividades de ventas y marketing B2B, las cuentas son clave para cualq
 
 ![Diagrama de funciones de cuenta](assets/account-roles-diagram.png){width="800"}
 
-En la cuenta podría haber un subconjunto de personas que forman el _grupo comprador_. Estas personas son las que en última instancia toman la decisión de compra, por lo que necesitan una atención especial del experto en marketing y es posible que necesiten que se les entregue información diferente a la de las demás personas asociadas con la cuenta. Los grupos de compra pueden incluir un grupo diferente de personas para diferentes líneas u ofertas de productos. Por ejemplo, un producto de ciberseguridad suele requerir la aprobación de una compra por parte de un director de información o un responsable de seguridad, y un representante del departamento legal, pero un producto de seguimiento de errores suele tener un vicepresidente de ingeniería y un Director de TI como miembros del grupo comprador.
+En la cuenta podría haber un subconjunto de personas que forman el _grupo comprador_. Estas son las personas que finalmente toman la decisión de compra, por lo que necesitan una atención especial del experto en marketing y podrían necesitar una información diferente que las demás personas asociadas con la cuenta. Los grupos de compra pueden incluir un grupo diferente de personas para diferentes líneas u ofertas de productos. Por ejemplo, un producto de ciberseguridad suele requerir la aprobación de una compra por parte de un director de información o un responsable de seguridad, y un representante del departamento legal, pero un producto de seguimiento de errores suele tener un vicepresidente de ingeniería y un Director de TI como miembros del grupo comprador.
 
 ## Componentes clave
 
@@ -52,7 +52,7 @@ Puede aumentar la eficacia del marketing estableciendo grupos de compra en Journ
 
 1. Se utiliza en un recorrido de cuentas a través del interés de solución asociado.
 
-## Acceso a grupos y componentes de compra
+## Ver grupos y componentes de compra
 
 En el panel de navegación de la izquierda, expande **[!UICONTROL Cuentas]** y haz clic en **[!UICONTROL Comprar grupos]**.
 
@@ -87,28 +87,68 @@ La puntuación de integridad del grupo de compra se vuelve a calcular cada vez q
 
 ### Puntuación de participación del grupo comprador
 
-La puntuación de participación se utiliza para evaluar la eficacia de sus programas de marketing en función de las actividades de comportamiento de grupo de compra rastreadas a través de los recorridos. Esta puntuación se deriva de la actividad durante los últimos 30 días. Cualquier cambio de función en una plantilla requiere volver a calcular la puntuación de participación para todos los grupos compradores creados con esa plantilla. En el cálculo de la puntuación de participación solo se evalúan las actividades entrantes.
+La puntuación de participación en el grupo de compra es un número que determina la participación de los miembros de un grupo de compra, en función de las actividades que realizan. Cualquier actividad entrante realizada por los miembros del grupo comprador en los últimos 30 días se utiliza para calcular la puntuación.
 
-La puntuación mostrada se redondea (por ejemplo, una puntuación de 75,89999 se muestra como 76), no hay límite superior para la puntuación para GA y hay un límite de frecuencia diario de 20.
+Hay un límite de frecuencia diario de 20 para cada actividad. Si un miembro de un grupo comprador realiza la misma actividad más de 20 veces al día, el recuento de la actividad se limita a 20 y no a un número superior.
 
-Los siguientes ejemplos ilustran el cálculo de la puntuación de participación:
+La puntuación mostrada se redondea. Por ejemplo, una puntuación de 75,89999 se muestra como 76.
 
-**Grupo de compra 1** - puntuación de participación = 22.15
+#### Ponderación
 
-| Usuario | Función | Peso de rol | Acción | Hoy | ayer | Peso de acción | Puntuación |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Adam | Decisionista | 80 % | Sitio web visitado | 1000 | 2 | 1 | 22 |
-| | | | Se hizo clic en el correo electrónico | 1 | 0 | 1 | 1 |
-| | | | Pub descargado | 1 | 3 | 1 | 4 |
-| Bob | Influenciador | 15 % | Sitio web visitado | 1 | 2 | 1 | 3 |
-| Calvin | Profesional | 5 % | Sitio web visitado | 1 | 1 | 1 | 2 |
+Los usuarios pueden asignar _ponderación_ a cada rol en la plantilla de roles para asignar diferentes ponderaciones a un rol a fin de calcular la puntuación de participación.
 
-**Grupo de compra 2** - puntuación de participación = 8,55
+![Establezca la ponderación en cada rol de la plantilla de roles](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-| Usuario | Función | Peso de rol | Acción | Hoy | ayer | Peso de acción | Puntuación |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Alvin | Decisionista | 80 % | Sitio web visitado | 3 | 2 | 1 | 5 |
-| | | | Se hizo clic en el correo electrónico | 1 | 0 | 1 | 1 |
-| | | | Pub descargado | 1 | 3 | 1 | 4 |
-| Bret | Influenciador | 15 % | Sitio web visitado | 1 | 2 | 1 | 3 |
-| Leva | Profesional | 5 % | Sitio web visitado | 1 | 1 | 1 | 2 |
+Cada nivel de ponderación se traduce en un valor, que se utiliza para calcular la puntuación de participación:
+
+* [!UICONTROL Trivial] = 20
+* [!UICONTROL Menor] = 40
+* [!UICONTROL Normal] = 60
+* [!UICONTROL Importante] = 80
+* [!UICONTROL Vital] = 100
+
+Una plantilla de roles con tres roles ponderados como _[!UICONTROL Vital]_, _[!UICONTROL Importante]_ y _[!UICONTROL Normal]_ se convierte en los siguientes porcentajes ponderados:
+
+| Función | Ponderación | Valor back-end | Cálculo del valor | Porcentaje |
+|-------------- |--------- |------------- |------------------ |---------- |
+|               |          |              |                   |           |
+| Decisionista | Vital | 100 | 100/240 | 41,67 % |
+| Influenciador | Importante | 80 | 80/240 | 33,33 % |
+| Profesional | Normal | 60 | 60/240 | 25 % |
+|               | Total | 240 |                   |           |
+
+#### Ejemplo de cálculo
+
+El siguiente ejemplo ilustra el cálculo de la puntuación de participación utilizando el porcentaje de peso de función descrito, el recuento de actividades entrantes para cada miembro del grupo comprador y un límite diario de 20 para cada evento (si se ha producido varias veces).
+
+| Función | Miembro | Tipo de actividad | Recuento de ayer | Recuento de hoy | Cálculo | Puntuación total |
+|-------------- |--------- |-------------|-----------------|-------------|------|-----------|
+|               |          |             |                 |             |      |           |
+| Decisionista | Adam | Sitio web visitado | 37 | 15 | 20 + 15 | 35 |
+|               |          | Correo electrónico clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Marcar | Sitio web visitado | 5 | 3 | 5 + 3 | 8 |
+|               |          | Correo electrónico clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          | Pub descargado | 3 | 2 | 3 + 2 | 5 |
+| **Puntuación total para encargados de tomar decisiones** |         |             |                 |             |      | **52** |
+|               |          |             |                 |             |      |           |
+| Influenciador | John | Sitio web visitado | 19 | 9 | 19 + 9 | 28 |
+| **Puntuación total de influenciadores** |         |             |                 |             |      | **28** |
+|               |          |             |                 |             |      |           |
+| Profesional | Bob | Correo electrónico clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Paul | Correo electrónico clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Calvin | Correo electrónico clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          | Sitio web visitado | 1 | 7 | 1 + 7 | 8 |
+|               |          | Pub descargado | 1 | 2 | 1 + 2 | 3 |
+| **Puntuación total de los practicantes** |         |             |                 |             |      | **17** |
+
+La puntuación de participación final se calcula aplicando la ponderación para cada una de las puntuaciones de rol:
+
+| Función | Puntuación total del rol | Peso de rol % | Puntuación X peso % |
+|-------------- |---------------- |------------- |---------------- |
+| Responsables | 52 | 41,67 % | 21,67 |
+| Personas con influencia en medios sociales | 28 | 33,33 % | 9,33 |
+| Profesionales | 17 | 25 % | 4,25 |
+| **Puntuación de participación final** |                |             | **35,25** |
