@@ -1,11 +1,11 @@
 ---
 title: Información general sobre Adobe Journey Optimizer B2B Edition
-description: Descubra las funciones clave, los casos de uso y las arquitecturas de Adobe Journey Optimizer B2B Edition.
+description: Descubra las funciones clave, casos de uso y arquitecturas de la edición B2B de Adobe Journey Optimizer.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
