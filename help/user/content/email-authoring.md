@@ -3,10 +3,10 @@ title: Creación de correo electrónico
 description: Obtenga información sobre cómo crear contenido de correo electrónico personalizado que se utiliza en Recorridos de cuenta.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 1%
+source-wordcount: '1323'
+ht-degree: 2%
 
 ---
 
@@ -179,7 +179,12 @@ Se pueden detectar dos tipos de alertas:
 
    * `The email version of the message is empty`: este error se muestra cuando no se ha configurado el contenido del correo electrónico.
 
-## Comprobación y prueba del correo electrónico
+## Comprobación y prueba del correo electrónico {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_preview_simulate"
+>title="Compruebe cómo se procesa el contenido"
+>abstract="Cuando se define el contenido, se puede obtener una vista previa del mismo y comprobar si la renderización es correcta para el canal que se está utilizando."
 
 Cuando se define el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo, enviar pruebas y controlar su renderización en clientes populares de escritorio, móviles y basados en web. Si ha insertado contenido personalizado, puede obtener una vista previa de cómo se muestra este contenido en el mensaje mediante los datos del perfil de prueba.
 
