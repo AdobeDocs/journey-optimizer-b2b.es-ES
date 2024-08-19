@@ -3,10 +3,10 @@ title: Plantillas de email
 description: Aprenda a crear y editar plantillas de correo electrónico que se puedan utilizar para crear correos electrónicos de recorrido de cuentas de forma fácil y eficaz.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
 workflow-type: tm+mt
-source-wordcount: '2622'
-ht-degree: 0%
+source-wordcount: '2670'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,17 @@ Se abre la página _[!UICONTROL Diseña tu plantilla]_ y proporciona varias opci
 
 ![Elija cómo desea comenzar con el diseño de la plantilla de correo electrónico](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Diseñe desde cero
+### Diseñe desde cero {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Adición de componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño de la plantilla. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido de la plantilla."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="Acerca de los componentes de contenido"
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una plantilla."
 
 Utilice el diseñador de correo electrónico para definir la estructura del contenido del correo electrónico. Al agregar y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar la forma del contenido del correo electrónico reutilizable en cuestión de segundos.
 
