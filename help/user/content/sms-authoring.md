@@ -6,7 +6,7 @@ exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
 source-wordcount: '1908'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -200,12 +200,12 @@ Puede configurar envíos de mensajes de texto en un Recorrido de cuentas cuando 
 
    El número de destinatario siempre está asignado al campo `Lead.mobilePhone` del Marketo Engage.
 
-## Simulación del contenido del mensaje de texto {#preview-test}
+## Simule el contenido del mensaje de texto {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Compruebe cómo se procesa el contenido"
->abstract="Cuando se define el contenido, se puede obtener una vista previa del mismo y comprobar si la renderización es correcta para el canal que se está utilizando."
+>abstract="Una vez definido el contenido, puede previsualizarlo y comprobar si el procesamiento es correcto según el canal que utilice."
 
 Cuando se define el contenido del mensaje, puede utilizar perfiles de prueba para simular (previsualizar) su contenido. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje mediante los datos del perfil de prueba.
 

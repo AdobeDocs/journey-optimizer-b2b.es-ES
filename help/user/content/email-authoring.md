@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -62,7 +62,7 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 >
 >Utilice AI Assistant en Adobe Journey Optimizer B2B Edition, con tecnología de IA generativa, para elevar el contenido al siguiente nivel. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos, contenido de texto de destino y obteniendo recomendaciones del asistente de IA para imágenes que resuenen con su audiencia. [Más información](./ai-assistant-emails.md)
 
-### Diseñe su correo electrónico desde cero {#design-from-scratch}
+### Diseñe el correo electrónico desde cero {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
@@ -209,12 +209,12 @@ Se pueden detectar dos tipos de alertas:
 
    * `The email version of the message is empty`: este error se muestra cuando no se ha configurado el contenido del correo electrónico.
 
-## Comprobación y prueba del correo electrónico {#preview-test}
+## Compruebe y pruebe el correo electrónico {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Compruebe cómo se procesa el contenido"
->abstract="Cuando se define el contenido, se puede obtener una vista previa del mismo y comprobar si la renderización es correcta para el canal que se está utilizando."
+>abstract="Una vez definido el contenido, puede previsualizarlo y comprobar si el procesamiento es correcto según el canal que utilice."
 
 Cuando se define el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo, enviar pruebas y controlar su renderización en clientes populares de escritorio, móviles y basados en web. Si ha insertado contenido personalizado, puede obtener una vista previa de cómo se muestra este contenido en el mensaje mediante los datos del perfil de prueba.
 

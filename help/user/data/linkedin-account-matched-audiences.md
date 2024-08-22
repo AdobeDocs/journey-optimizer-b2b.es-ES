@@ -6,7 +6,7 @@ hide: true
 source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -16,12 +16,12 @@ Journey Optimizer B2B Edition ofrece la capacidad de generar audiencias de Linke
 
 Antes de iniciar un flujo de datos desde Journey Optimizer B2B Edition, debe tener al menos una instancia del [(Empresas) Conector de destino de audiencia coincidente de LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) con una cuenta de LinkedIn Campaign Manager configurada en la aplicación de Experience Platform.
 
-## Configuración de una nueva conexión de cuenta de LinkedIn {#linkedin-destination-setup}
+## Configure una nueva conexión de cuenta de LinkedIn {#linkedin-destination-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
->title="Se requiere la configuración de destino de linkedIn"
->abstract="Envíe cuentas filtradas por grupos de compra a un destino de LinkedIn para interactuar con posibles miembros del grupo de compra. Puede crear hasta 10 flujos de datos para 10 grupos diferentes de cuentas filtradas. Para empezar a usar esta función, primero añada un destino de LinkedIn."
+>title="Se requiere la configuración de destino de LinkedIn"
+>abstract="Envíe cuentas filtradas por grupos de compra a un destino de LinkedIn para interactuar con posibles miembros del grupo de compras. Puede crear hasta 10 flujos de datos para 10 grupos diferentes de cuentas filtradas. Para empezar a usar esta función, primero añada un destino de LinkedIn."
 
 1. En Experience Platform, vaya a **[!UICONTROL Conexiones]** > **[!UICONTROL Destinos]** en el panel de navegación izquierdo y seleccione la pestaña **[!UICONTROL Catálogo]**.
 
