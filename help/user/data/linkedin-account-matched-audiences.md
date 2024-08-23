@@ -1,11 +1,9 @@
 ---
 title: Audiencias coincidentes con cuentas de linkedIn
 description: Aprenda a conectar una cuenta de LinkedIn y activar un flujo de datos para comprar grupos.
-hidefromtoc: true
-hide: true
-source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '682'
 ht-degree: 8%
 
 ---
@@ -25,15 +23,29 @@ Antes de iniciar un flujo de datos desde Journey Optimizer B2B Edition, debe ten
 
 1. En Experience Platform, vaya a **[!UICONTROL Conexiones]** > **[!UICONTROL Destinos]** en el panel de navegación izquierdo y seleccione la pestaña **[!UICONTROL Catálogo]**.
 
-1. En el catálogo, busque el conector **[!UICONTROL (Empresas) Audiencia coincidente con LinkedIn]** y haga clic en **[!UICONTROL Configurar]**.
+1. En el catálogo, busque el conector **[!UICONTROL (Empresas) Audiencia coincidente con LinkedIn]**.
+
+   >[!TIP]
+   >
+   >Puede encontrar rápidamente el conector ingresando `LinkedIn` en el cuadro de búsqueda.
+
+1. En la tarjeta del conector, haga clic en el icono _Más_ (**...**) y elija **[!UICONTROL Configurar nuevo destino]**.
 
    ![Acceda al conector de audiencias coincidentes de LinkedIn (Compañías)](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. Seleccione **[!UICONTROL Nueva cuenta]** > **[!UICONTROL Conectarse a LinkedIn]**.
+1. Seleccione **[!UICONTROL Nueva cuenta]** y haga clic en **[!UICONTROL Conectar con destino]**.
+
+   ![Conectar una nueva cuenta de LinkedIn](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. Proporcione sus credenciales de LinkedIn e inicie sesión.
 
-   La cuenta de LinkedIn está conectada como destino.
+   Después de la autenticación, la cuenta de LinkedIn se conecta como destino en Experience Platform.
+
+   ![Se muestra la confirmación de conexión de la cuenta](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+
+   >[!IMPORTANT]
+   >
+   >En este momento, **no** escribe los _[!UICONTROL detalles del destino]_. Solo se necesita la conexión.
 
 ## Actualizar los detalles de la cuenta
 

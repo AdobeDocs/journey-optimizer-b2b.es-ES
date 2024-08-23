@@ -3,7 +3,7 @@ title: Grupos de compra
 description: Obtenga información sobre la compra de grupos y sus componentes.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
+source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 5%
@@ -11,7 +11,7 @@ ht-degree: 5%
 ---
 
 
-# Comprar grupos
+# Grupos de compras
 
 Para las actividades de ventas y marketing B2B, las cuentas son clave para cualquier estrategia. Cada cuenta tiene un grupo de personas asociadas a ella y estas personas pueden ser empleados de la cuenta o contratistas que trabajen con la cuenta. Las cuentas son jerárquicas y los productos pueden venderse en diferentes niveles de la jerarquía. Por ejemplo, Adobe Experience Platform podría venderse a nivel corporativo a una cuenta de nivel superior, mientras que Adobe Photoshop podría venderse a una cuenta que represente a una división o departamento dentro de una organización, como un departamento de diseño dentro de una corporación más grande.
 
@@ -85,7 +85,7 @@ Por ejemplo, si hay cuatro funciones dentro de un grupo comprador y tres de las 
 
 La puntuación de integridad del grupo de compra se vuelve a calcular cada vez que se crea o actualiza un grupo de compra.
 
-### Puntuación de participación del grupo comprador
+### Puntuación de participación de grupo de compras
 
 La puntuación de participación en el grupo de compra es un número que determina la participación de los miembros de un grupo de compra, en función de las actividades que realizan. Cualquier actividad entrante realizada por los miembros del grupo comprador en los últimos 30 días se utiliza para calcular la puntuación.
 
@@ -109,7 +109,7 @@ Cada nivel de ponderación se traduce en un valor, que se utiliza para calcular 
 
 Una plantilla de roles con tres roles ponderados como _[!UICONTROL Vital]_, _[!UICONTROL Importante]_ y _[!UICONTROL Normal]_ se convierte en los siguientes porcentajes ponderados:
 
-| Función | Ponderación | Valor back-end | Cálculo del valor | Porcentaje |
+| Función | Ponderación | Valor del sistema | Cálculo del valor | Porcentaje |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 | Decisionista | Vital | 100 | 100/240 | 41,67 % |
