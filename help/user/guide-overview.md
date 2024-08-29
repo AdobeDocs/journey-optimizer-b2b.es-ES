@@ -2,9 +2,9 @@
 title: Documentación de Adobe Journey Optimizer B2B Edition
 description: Aprenda a utilizar las funciones de Adobe Journey Optimizer B2B Edition para organizar recorridos de cuenta y de grupo de compra mediante IA generativa integrada y automatización líder del sector.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
+source-git-commit: b0622b8224f581c76c43966537d1f576316d4068
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '490'
 ht-degree: 4%
 
 ---
@@ -18,12 +18,13 @@ A continuación se muestra un ejemplo de las mejoras más recientes del producto
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
-<!-- 
->[!TAB LinkedIn Account Matched Audiences]
 
-Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration.
+>[!TAB Audiencias coincidentes con la cuenta de LinkedIn]
 
-[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Learn about LinkedIn Account Matched Audiences"} -->
+Genere audiencias de LinkedIn Ad mediante Audiencias coincidentes con la cuenta para que pueda desempeñar funciones vacías en sus grupos de compra. Al definir un conjunto de filtros de grupo de compra, puede mantener una audiencia coincidente con LinkedIn para segmentar a los posibles clientes que coincidan con los parámetros del grupo de compra. Esta función aprovecha Destinos de Experience Platform para administrar algunos aspectos de la integración.
+
+[!BADGE Más información]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Obtenga información sobre las Audiencias coincidentes con cuentas de LinkedIn"}
+
 >[!TAB Asistente de IA]
 
 Póngase al día rápidamente con los conceptos de marketing basados en cuentas y conozca las funciones de Journey Optimizer B2B Edition diseñadas para maximizar las estrategias de su equipo.
