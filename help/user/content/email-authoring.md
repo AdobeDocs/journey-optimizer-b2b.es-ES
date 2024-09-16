@@ -1,12 +1,12 @@
 ---
 title: Creación de correo electrónico
-description: Obtenga información sobre cómo crear contenido de correo electrónico personalizado que se utiliza en Recorridos de cuenta.
+description: Obtenga información sobre cómo crear contenido de correo electrónico personalizado que se utiliza en un Recorrido de cuentas.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 14%
+source-wordcount: '1221'
+ht-degree: 13%
 
 ---
 
@@ -65,121 +65,116 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 ### Diseñe el correo electrónico desde cero {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Adición de componentes de estructura"
->abstract="Los componentes de estructura definen el diseño del correo electrónico. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
-
->[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="Adición de componentes de estructura"
 >abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido de la página de aterrizaje."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Adición de componentes de estructura"
->abstract="Los componentes de estructura definen el diseño del fragmento. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del fragmento."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de un correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="Acerca de los componentes de contenido"
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje."
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de un fragmento."
+Utilice el editor de contenido visual para definir la estructura del contenido del correo electrónico. Al agregar y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar la forma del contenido del correo electrónico reutilizable en cuestión de segundos.
 
-1. En la página de inicio de Designer, seleccione la opción **[!UICONTROL Diseñar desde cero]**.
+1. En la página de inicio de _[!UICONTROL Diseña tu plantilla]_, selecciona la opción **[!UICONTROL Diseñar desde cero]**.
 
-1. Para iniciar el diseño de contenido, arrastre un elemento desde **[!UICONTROL Structures]** y suéltelo en el lienzo.
+1. [Agregar estructura y contenido](#add-structure-and-content) al mensaje de correo electrónico.
+1. [Agregar recursos de imagen](#add-assets) al mensaje de correo electrónico.
+1. [Personalizar el contenido del correo electrónico](#personalize-content).
+1. [Revisar y actualizar vínculos](#preview-and-edit-linked-urls).
 
-   Repita este paso para cada componente de estructura para construir el diseño del correo electrónico.
-
-1. Agregue tantos elementos de _Structures_ como necesite y edite la configuración de cada uno en el panel de la derecha.
-
-   Seleccione el componente de columna n:n para definir el número de columnas que desea (entre tres y 10). También puede definir el ancho de cada columna moviendo las flechas debajo de la columna.
-
-   Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de estructura. Solo se pueden eliminar columnas vacías.
-
-1. Expanda la sección **[!UICONTROL Contenido]** y agregue tantos elementos como necesite a uno o más componentes de estructura.
-
-1. Si es necesario, puede realizar personalizaciones adicionales para cada componente en las fichas _[!UICONTROL Configuración]_ o _[!UICONTROL Estilo]_.
-
-   Por ejemplo, puede cambiar el estilo del texto, el relleno o el margen de cada componente.
-
-1. Desde el Selector de recursos, puede seleccionar directamente los recursos almacenados en la biblioteca de Assets.
-
-   Haga doble clic en la carpeta que contiene los recursos. Arrastre y suelte los elementos en un componente de estructura.
-
-1. Inserte campos de personalización para personalizar el contenido a partir de atributos de perfiles, suscripciones a audiencias, atributos contextuales, etc.
-
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
-1. Seleccione la ficha **[!UICONTROL Vínculos]** del panel izquierdo para mostrar todas las direcciones URL del contenido de las que se realiza un seguimiento.
-
-   Puede modificar _Tracking Type_ o _Label_ y agregar etiquetas si es necesario.
-
-Si es necesario, puede personalizar aún más su correo electrónico haciendo clic en **[!UICONTROL Cambiar al editor de código]** desde el menú avanzado. El editor de código permite editar el código fuente del correo electrónico, como añadir etiquetas de seguimiento o de HTML personalizadas.
+<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->No puede volver al diseñador visual para este correo electrónico después de cambiar al editor de código.
+>You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
 Cuando finalice el contenido, haga clic en **[!UICONTROL Simular contenido]** en la parte superior para comprobar la renderización. Puede elegir la vista de escritorio o la vista móvil.
 
-Cuando esté listo, haga clic en Guardar.
+Cuando esté satisfecho con el contenido, haga clic en **[!UICONTROL Guardar]**.
 
 ### Importación de contenido de HTML existente
 
-El contenido importado puede ser:
+{{$include /help/_includes/content-design-import.md}}
 
-* Archivo de HTML con una hoja de estilos incorporada
-* Carpeta .zip que incluye un archivo de HTML, la hoja de estilos (.css) y archivos de imagen
+![importar contenido html en un archivo zip](./assets/email-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
->No hay restricciones en la estructura de archivos .zip. Sin embargo, las referencias deben ser relativas y ajustarse a la estructura de árbol de la carpeta .zip.
+>El uso de una etiqueta `<table>` como primera capa en un archivo de HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de capa superior.
 
-_Para importar un archivo que contenga contenido de HTML:_
-
-1. En la página de inicio de Email Designer, seleccione **[!UICONTROL Importar HTML]**.
-
-1. Arrastre y suelte el archivo HTML o .zip que contiene el contenido del HTML y haga clic en [!UICONTROL Importar].
-
-   Cuando finalice la carga de contenido del HTML, el contenido estará en _modo de compatibilidad_. En este modo, solo puede personalizar el texto, agregar vínculos o incluir recursos en el contenido.
+Puede personalizar el contenido importado según sea necesario con las herramientas visuales del editor de correo electrónico.
 
 ### Seleccionar una plantilla
 
-Puede elegir entre:
+{{$include /help/_includes/content-design-select-template.md}}
 
-* Plantillas de muestra. La interfaz de Journey Optimizer ofrece 20 plantillas de correo electrónico predeterminadas entre las que puede elegir.
+## Añadir estructura y contenido {#structure-content}
 
-* Plantillas guardadas.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Adición de componentes de estructura"
+>abstract="Los componentes de estructura definen el diseño del correo electrónico. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
 
-* Una plantilla personalizada que creó desde cero con el menú _Plantillas_ o que guardó desde un correo electrónico en un recorrido con la opción _[!UICONTROL Guardar como plantilla de contenido]_.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="Acerca de los componentes de contenido"
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de un correo electrónico."
 
-_Para empezar a crear contenido con una de las plantillas de ejemplo o guardadas:_
+{{$include /help/_includes/content-design-components.md}}
 
-1. Acceda a _Email Designer_ desde el área de trabajo de edición de contenido de correo electrónico.
+### Añadir fragmentos
 
-   En la página _[!UICONTROL Crear su correo electrónico]_, la pestaña **[!UICONTROL Plantillas de ejemplo]** está seleccionada de forma predeterminada.
+En el editor de contenido visual, el icono _Fragmentos_ se muestra a la izquierda. En el siguiente ejemplo se describen los pasos para agregar fragmentos al contenido de la plantilla.
 
-1. Para usar una plantilla personalizada, selecciona la pestaña **[!UICONTROL Plantillas guardadas]**.
+1. Para abrir la lista de fragmentos, haga clic en el icono _Fragmentos_.
 
-   Se muestra la lista de todas las plantillas de contenido creadas en la zona protegida actual. Puede ordenarlos por nombre, última modificación o última creación.
+   Puede hacer lo siguiente:
 
-1. Seleccione la plantilla que desee en la lista.
+   * Ordenar el listado.
+   * Examine, busque o filtre la lista.
+   * Cambiar entre las vistas Miniaturas y Lista.
+   * Actualice la lista para reflejar cualquiera de los fragmentos creados recientemente.
 
-1. Después de seleccionar una categoría, puede desplazarse entre todas las plantillas de dicha categoría (de ejemplo o guardadas según su selección) utilizando las flechas derecha e izquierda.
+   ![Seleccionar un fragmento de la lista](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Usar esta plantilla]** en la parte superior derecha de la página.
+1. Arrastre y suelte cualquiera de los fragmentos en el marcador de posición del componente estructural.
 
-1. Edite el contenido según sea necesario en _Email Designer_.
+   El editor procesa el fragmento dentro de la sección o el elemento de la estructura de correo electrónico.
+
+El contenido del fragmento se actualiza dinámicamente dentro de la estructura para mostrar cómo aparece el contenido en el correo electrónico.
+
+>[!TIP]
+>
+>Si desea agregar el fragmento para que ocupe todo el diseño horizontal dentro del correo electrónico, agregue una estructura de columna 1:1 y, a continuación, arrastre y suelte el fragmento en él.
+
+Una vez guardado el correo electrónico, aparecerá en la página de detalles del fragmento al seleccionar la pestaña _[!UICONTROL Utilizado por]_ en el resumen. Los fragmentos agregados a una plantilla de correo electrónico no se pueden editar dentro de la plantilla (el contenido se define mediante el fragmento de origen).
+
+### Añadir recursos
+
+{{$include /help/_includes/content-design-assets.md}}
+
+### Desplazamiento por las capas, la configuración y los estilos
+
+{{$include /help/_includes/content-design-navigation.md}}
+
+### Personalizar contenido
+
+{{$include /help/_includes/content-design-personalization.md}}
+
+### Editar seguimiento de URL vinculadas
+
+{{$include /help/_includes/content-design-links.md}}
+
+### Ver opciones
+
+Aproveche las opciones de vista y validación de contenido disponibles en el editor de correo electrónico visual.
+
+* Acercar/alejar el contenido en las opciones de zoom preestablecidas.
+
+* Cambie la visualización del contenido en Escritorio, Móvil o Solo texto/Texto sin formato.
+   * Haz clic en el icono _Ojo_ para obtener una vista previa del contenido en varios dispositivos.
+   * Seleccione uno de los dispositivos predeterminados o introduzca dimensiones personalizadas para obtener una vista previa del contenido.
 
 ## Comprobación de alertas
 
