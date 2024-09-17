@@ -3,9 +3,9 @@ title: Grupos de compra
 description: Obtenga información sobre la compra de grupos y sus componentes.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1193'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ Para las actividades de ventas y marketing B2B, las cuentas son clave para cualq
 ![Diagrama de funciones de cuenta](assets/account-roles-diagram.png){width="800"}
 
 En la cuenta podría haber un subconjunto de personas que forman el _grupo comprador_. Estas son las personas que finalmente toman la decisión de compra, por lo que necesitan una atención especial del experto en marketing y podrían necesitar una información diferente que las demás personas asociadas con la cuenta. Los grupos de compra pueden incluir un grupo diferente de personas para diferentes líneas u ofertas de productos. Por ejemplo, un producto de ciberseguridad suele requerir la aprobación de una compra por parte de un director de información o un responsable de seguridad, y un representante del departamento legal, pero un producto de seguimiento de errores suele tener un vicepresidente de ingeniería y un Director de TI como miembros del grupo comprador.
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](#overview-video)
 
 ## Componentes clave
 
@@ -152,3 +154,7 @@ La puntuación de participación final se calcula aplicando la ponderación para
 | Personas con influencia en medios sociales | 28 | 33,33 % | 9,33 |
 | Profesionales | 17 | 25 % | 4,25 |
 | **Puntuación de participación final** |                |             | **35,25** |
+
+## Vídeo de información general
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

@@ -3,9 +3,9 @@ title: Intereses de solución
 description: Obtenga información acerca de los intereses de las soluciones y cómo puede definirlos para usarlos en sus grupos de compra.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Intereses de solución
 
 Antes de crear grupos de compra, debes saber qué estás vendiendo y a quién quieres dirigir. Su estrategia de marketing y ventas debe estar alineada para que pueda añadir el interés de la solución para los grupos de compra.
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
 ## Acceder y examinar los intereses de la solución
 
@@ -84,3 +86,7 @@ No se puede eliminar ningún interés de solución que esté actualmente en uso 
    Si un recorrido de cuentas o un trabajo de grupo de compra está utilizando actualmente el interés de la solución, la acción abre un cuadro de diálogo informativo que le advierte de que no se puede eliminar. Haga clic en [!UICONTROL Aceptar], lo que anula la eliminación.
 
 1. Haga clic en **[!UICONTROL Eliminar]** para confirmar la eliminación, o bien puede anular el proceso haciendo clic en _[!UICONTROL Cancelar]_.
+
+## Vídeo de información general
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

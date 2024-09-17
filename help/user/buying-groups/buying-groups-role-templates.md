@@ -3,9 +3,9 @@ title: Comprar plantillas de rol de grupo
 description: Obtenga información acerca de la definición de una plantilla de rol para utilizarla como componente de grupo comprador.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Comprar plantillas de rol de grupo
 
 En un mercado B2B, las decisiones de compra suelen ser tomadas por varios individuos. Esas personas participan en el proceso de adopción de decisiones de acuerdo con su función dentro de la organización. Cree plantillas de función Grupo de compra que contengan estas definiciones de función según cada tipo de oferta de producto o caso de uso de cuenta.
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
 ## Acceso y exploración de plantillas de función
 
@@ -130,3 +132,7 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
    ![Cambiar prioridad de rol](./assets/roles-template-delete.png){width="700"}
 
 1. En el cuadro de diálogo, haga clic en **[!UICONTROL Eliminar]** para confirmar.
+
+## Vídeo de información general
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
