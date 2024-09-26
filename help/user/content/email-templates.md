@@ -6,7 +6,7 @@ exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
 source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -83,7 +83,7 @@ Puede personalizar el contenido importado según sea necesario con las herramien
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="Adición de componentes de estructura"
->abstract="Los componentes de estructura definen el diseño de la plantilla. Arrastre y suelte un componente **Structure** en el lienzo para diseñar en inicio el contenido de la plantilla."
+>abstract="Los componentes de estructura definen el diseño de la plantilla. Arrastre y suelte un componente de **Estructura** en el lienzo para empezar a diseñar el contenido de la plantilla."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
