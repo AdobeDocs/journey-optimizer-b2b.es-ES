@@ -2,7 +2,7 @@
 title: Notas de la versión
 description: Últimas notas de la versión de Adobe Journey Optimizer edición B2B
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
+source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 <tbody>
 <tr>
 <td>
-<p>Los fragmentos visuales se administran mediante un ciclo de vida de estado, donde el estado del fragmento determina su disponibilidad para utilizarse en un correo electrónico o plantilla de correo electrónico, y los cambios que puede realizar en él. Esto facilita la administración del contenido reutilizado según el calendario promocional y de comunicaciones. <a href="../content/fragments#fragment-status-and-lifecycle">Más información</a>
+<p>Los fragmentos visuales se administran mediante un ciclo de vida de estado, donde el estado del fragmento determina su disponibilidad para utilizarse en un correo electrónico o plantilla de correo electrónico, y los cambios que puede realizar en él. Esto facilita la administración del contenido reutilizado según el calendario promocional y de comunicaciones. <a href="../content/fragments.md#fragment-status-and-lifecycle">Más información</a>
 </td>
 </tr>
 </tbody>
