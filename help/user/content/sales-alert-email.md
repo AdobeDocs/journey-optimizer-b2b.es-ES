@@ -3,9 +3,9 @@ title: Correo electrónico de alerta de ventas
 description: Aprenda a incluir un correo electrónico de alerta de ventas automatizado en los recorridos de la cuenta.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 33bd8f68ae581d974fc52f94df6f2249d9493325
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '494'
 ht-degree: 3%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 3%
 Un _correo electrónico de alerta de ventas_ indica la transferencia de grupos de compra a Ventas. El correo electrónico contiene un resumen del grupo de compra e información sobre los miembros del grupo de compra y sus actividades.
 
 Como experto en marketing, puede configurar un nodo de correo electrónico de alerta de ventas en los recorridos de su cuenta para avisar al equipo de ventas sobre la finalización del recorrido para grupos de compra específicos. En el nodo, puede especificar las direcciones de correo electrónico del equipo de ventas o un alias de distribución que llegue a un conjunto de cuentas.
-
->[!NOTE]
->
->El correo electrónico de alerta de ventas se envía si el grupo comprador tiene al menos cuatro miembros con la función de grupo comprador asignada y el grupo contiene una persona con la función _Responsable de la toma de decisiones_ o _Influenciador_.
 
 ## Contenido de correo electrónico
 
