@@ -1,17 +1,17 @@
 ---
 title: Inicio de sesión y página de inicio
-description: Obtenga información sobre cómo acceder a la aplicación Journey Optimizer B2B Edition y utilizar la información de la página principal.
+description: Obtenga información sobre cómo acceder a la aplicación de Journey Optimizer B2B edition y utilizar la información de la página principal.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f7f9531cce6447b4715f0e76b0fd8ce57715f519
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
 # Inicio de sesión y página de inicio
 
-Con Adobe Journey Optimizer B2B Edition, puede orquestar recorridos de cuenta y de grupo de compra mediante IA generativa integrada y automatización líder del sector para maximizar la demanda de ofertas específicas mediante grupos de compra cualificados para marketing.
+Con la edición B2B de Adobe Journey Optimizer puede organizar los recorridos de la cuenta y de los grupos de compras mediante la IA generativa integrada y la automatización líder del sector para maximizar la demanda de ofertas específicas mediante grupos de compras cualificados para marketing.
 
 <!-- Requirements?
 -->
@@ -19,16 +19,20 @@ Para acceder a [!DNL Adobe Journey Optimizer B2B Edition], conéctese a Adobe Ex
 
 ![aplicaciones de Adobe Experience Platform](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-La página de inicio se muestra al iniciar sesión en Adobe Experience Platform y seleccionar la aplicación Adobe Journey Optimizer B2B Edition. Esta página proporciona una visión general del estado actual de las iniciativas B2B de Journey Optimizer en forma de perspectivas refinadas y acceso rápido a los módulos relevantes. También proporciona información sobre la siguiente acción ideal que debe realizarse y dónde encontrar el conjunto completo de tutoriales y documentación.
+La página de inicio se muestra al iniciar sesión en Adobe Experience Platform y seleccionar la aplicación de Adobe Journey Optimizer B2B edition. Esta página proporciona información general sobre el estado actual de las iniciativas B2B de Journey Optimizer en forma de <!-- refined insights and--> acceso rápido a los módulos relevantes. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-Journey Optimizer B2B Edition tiene dos perfiles de usuario principales: un experto en marketing y un administrador. Cada persona tiene una página de inicio específica para diferentes etapas de madurez (nuevas o avanzadas). El contenido de la página se basa en lo que cada persona necesita en términos de información y en las siguientes acciones que debe realizar. Estas páginas también incluyen acceso a [Asistente de IA](./start/ai-assistant.md), que ayuda a los usuarios a obtener información rápida sobre cualquier pregunta o tema específico que necesiten<!-- and to obtain specific recommendations for their challenges or objectives-->.
+![Página de inicio de Journey Optimizer B2B edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-![Página de inicio de Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
+Journey Optimizer B2B edition tiene dos perfiles de usuario principales: un _**experto en marketing**_ y un _**administrador**_. Cada persona tiene una página de inicio específica para diferentes etapas de madurez (nuevas o avanzadas). El contenido de la página se basa en lo que cada persona necesita en términos de información y en las siguientes acciones que debe realizar.
 
 * **Especialista en marketing - nuevo usuario** - La página de inicio de _Especialista en marketing_ para un usuario nuevo le ayuda a familiarizarse con Journey Optimizer B2B y sus capacidades. Incluye una guía guiada para que el nuevo experto en marketing obtenga una guía de incorporación para que pueda comprender los matices del sistema y ser eficiente en el desarrollo de estrategias e iniciativas de marketing B2B.
 * **Especialista en marketing - usuario avanzado**: la página de inicio de _Especialista en marketing_ para un especialista en marketing avanzado les ayuda a obtener más información sobre el progreso actual de las iniciativas y sobre acciones específicas, así como sobre la siguiente mejor acción que debe realizarse junto con un acceso rápido a las secciones relevantes.
-* **Administrador - nuevo usuario** — La página de inicio de _Administrador_ para un administrador nuevo les ayuda a familiarizarse con Journey Optimizer B2B Edition y sus funcionalidades. Incluye una guía guiada para que el nuevo administrador obtenga un recorrido de incorporación paso a paso para comprender los matices del sistema y ser eficiente en el desarrollo de estrategias e iniciativas de marketing B2B.
+* **Administrador - nuevo usuario** — La página de inicio de _Administrador_ para un administrador nuevo les ayuda a familiarizarse con Journey Optimizer B2B edition y sus funcionalidades. Incluye una guía guiada para que el nuevo administrador obtenga un recorrido de incorporación paso a paso para comprender los matices del sistema y ser eficiente en el desarrollo de estrategias e iniciativas de marketing B2B.
 * **Administrador - usuario avanzado** — La página de inicio de _Administrador_ de un administrador avanzado le ayudará a obtener más información sobre el estado actual de la instancia y sobre las acciones específicas que se pueden realizar para que sea más eficiente y eficaz para los especialistas en marketing.
+
+La sección _[!UICONTROL A la que se ha accedido recientemente]_ proporciona una lista de los recursos a los que se ha accedido más recientemente para el experto en marketing o el administrador. Utilice esta lista para ir directamente al recurso en el que ha trabajado recientemente sin navegar por una serie de páginas de recursos y búsquedas.
+
+La página también incluye acceso a [Ayudante de IA](./start/ai-assistant.md), que ayuda a los usuarios a obtener información rápida sobre cualquier pregunta o tema específico que necesiten.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 

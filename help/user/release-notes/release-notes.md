@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Últimas notas de la versión de Adobe Journey Optimizer edición B2B
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
+source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 15%
+source-wordcount: '402'
+ht-degree: 9%
 
 ---
 
@@ -16,6 +16,42 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente nuevas funciones, mejor
 Journey Optimizer B2B Edition está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obtener información sobre los derechos, las protecciones de rendimiento y las limitaciones.
+
+## Notas de la versión de septiembre de 2024 {#Sept-2024}
+
+**Fecha de la versión**: 7 de octubre de 2024
+
+Esta versión incorpora las siguientes nuevas funciones y mejoras:
+
+<table>
+<thead>
+<tr>
+<th><strong>Biblioteca de recursos central mejorada</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La biblioteca de recursos _central_ mejorada permite utilizar todos los recursos de imagen de la instancia de Marketo Engage en los espacios de trabajo de Design Studio. Existen protecciones integradas que impiden realizar ediciones en los recursos del Marketo Engage desde Journey Optimizer B2B edition, así como eliminar y mover operaciones. Estas protecciones garantizan que los recursos de origen (Marketo Engage Design Studio) se mantengan, al tiempo que permiten una lectura y reutilización sin problemas en Journey Optimizer B2B edition. <a href="../content/marketo-engage-design-studio.md">Más información</a>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Recursos a los que se ha accedido recientemente</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La página de inicio de la aplicación para B2B edition de Journey Optimizer ahora incluye la sección _[!UICONTROL a la que se ha accedido recientemente], que proporciona una lista de los recursos a los que ha accedido más recientemente el experto en marketing o el administrador. Puede utilizar esta lista para ir directamente al recurso en el que ha trabajado recientemente sin navegar por una serie de páginas de recursos y búsquedas. Proporciona información adicional sobre la modificación para que pueda tomar la decisión sobre cuál de los recursos necesita una modificación adicional de la última sesión. Para los recursos de correo electrónico, muestra el recorrido de la cuenta en el que se utiliza el recurso de correo electrónico. <a href="../home-page.md">Más información</a>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notas de la versión de agosto de 2024 {#Aug-2024}
 
@@ -47,7 +83,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 <tbody>
 <tr>
 <td>
-<p>Los fragmentos visuales se administran mediante un ciclo de vida de estado, donde el estado del fragmento determina su disponibilidad para utilizarse en un correo electrónico o plantilla de correo electrónico, y los cambios que puede realizar en él. Esto facilita la administración del contenido reutilizado según el calendario promocional y de comunicaciones. <a href="../content/fragments.md#fragment-status-and-lifecycle">Más información</a>
+<p>Los fragmentos visuales ahora se administran mediante un ciclo vital de estado. El estado del fragmento determina su disponibilidad para utilizarlo en un correo electrónico o plantilla de correo electrónico, y los cambios que puede realizar en él. Este flujo de trabajo facilita la administración del contenido reutilizado según el calendario promocional y de comunicaciones. <a href="../content/fragments.md#fragment-status-and-lifecycle">Más información</a>
 </td>
 </tr>
 </tbody>
