@@ -1,19 +1,23 @@
 ---
 title: Campos XDM
-description: Revise los campos de atributos predeterminados que se sincronizan entre Adobe Experience Platform y Journey Optimizer B2B Edition.
+description: Revise los campos de atributos predeterminados que se sincronizan entre Adobe Experience Platform y Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: b38878ca063967e6c1ae56617674af52c10913df
+source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 16%
+source-wordcount: '965'
+ht-degree: 15%
 
 ---
 
 # Campos XDM
 
-Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuenta empresarial de XDM y Persona empresarial de XDM. Los datos se sincronizan periódicamente entre Adobe Experience Platform y Journey Optimizer B2B Edition. En las secciones siguientes se enumeran los conjuntos predeterminados de atributos.
+Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuenta empresarial de XDM y Persona empresarial de XDM. Los datos se sincronizan periódicamente entre Adobe Experience Platform y Journey Optimizer B2B edition. En las secciones siguientes se enumeran los conjuntos predeterminados de atributos.
 
 ## Atributos de persona empresarial de XDM
+
+>[!IMPORTANT]
+>
+>Se requiere el atributo `workEmail.Address`. Si está vacía para un miembro de la audiencia de una cuenta, esa persona no se ingiere y se omite en los recorridos de la cuenta y en los grupos de compra que hacen referencia a la audiencia.
 
 | [Propiedad](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Nombre para mostrar | Nombre para mostrar de Journey Optimizer B2B | Tipo de datos | Descripción |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -37,11 +41,15 @@ Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuent
 | `workAddress.postalCode` | Código postal | Código postal | Cadena | El código postal de la ubicación. Los códigos postales no están disponibles en todos los países. En algunos países, solo contiene parte del código postal. |
 | `workAddress.state` | Estado | Estado | Cadena | El nombre del estado de la dirección. Es un campo de forma libre. |
 | `workAddress.street1` | Calle 1 | Dirección | Cadena | Información principal de la dirección postal, número de piso, número de calle y nombre de la calle. |
-| `workEmail.address` | Dirección | Correo electrónico | Cadena | La dirección técnica, por ejemplo, `<name@domain.com>`, tal como se define comúnmente en RFC2822 y estándares subsiguientes. |
+| `workEmail.address` | Dirección | Correo electrónico | Cadena | **Campo obligatorio** <br/>La dirección técnica, por ejemplo, `<name@domain.com>`, tal como se define comúnmente en RFC2822 y estándares subsiguientes. |
 | `workEmail.status` | Estado | Email suspendido | Cadena | Una indicación de la capacidad de uso de la dirección de correo electrónico. |
 | `workPhone.number` | Número | Número de teléfono | Cadena | Número de teléfono de trabajo. |
 
 ## Atributos de cuenta empresarial de XDM
+
+>[!IMPORTANT]
+>
+>Se requiere el atributo `accountName`. Si está vacía para una cuenta en una audiencia de cuenta, esa cuenta no se ingiere y se omite en los recorridos de cuentas y grupos de compra que hacen referencia a la audiencia.
 
 | [Propiedad](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | Nombre para mostrar | Nombre para mostrar de Journey Optimizer B2B | Tipo de datos | Descripción |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -51,7 +59,7 @@ Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuent
 | `accountBillingAddress.region` | Región | Región de dirección | Cadena | La parte de región, condado o distrito de la dirección de facturación. |
 | `accountBillingAddress.state` | Estado | Estado | Cadena | El nombre del estado de la dirección de facturación. Es un campo de forma libre. |
 | `accountBillingAddress.street1` | Calle 1 | Calle 1 | Cadena | Información principal de la dirección de facturación, que generalmente incluye el número del apartamento, el número de la calle y el nombre de la calle. |
-| `accountName` | Nombre | Nombre | Cadena | Nombre de la empresa. Se permiten hasta 255 caracteres en este campo. |
+| `accountName` | Nombre | Nombre | **Campo obligatorio** <br/>Cadena | Nombre de la empresa. Se permiten hasta 255 caracteres en este campo. |
 | `accountOrganization.annualRevenue.amount` | Ingresos anuales | Ingresos anuales | Número | Cantidad estimada de los ingresos anuales de la organización. |
 | `accountOrganization.industry` | Industria | Industria | Cadena | La industria atribuida a la organización. Es un campo de forma libre, y es recomendable usar un valor estructurado para consultas o usar la propiedad `xdm:classifier`. |
 | `accountOrganization.logoUrl` | URL de logotipo | URL de logotipo | Cadena | Ruta que combinar con la URL de una instancia de Salesforce (por ejemplo, `https://yourInstance.salesforce.com/`) para generar una URL para solicitar la imagen de perfil de red social asociada con la cuenta. La URL generada devuelve un redireccionamiento HTTP (código 302) a la imagen de perfil de la red social de la cuenta. |
