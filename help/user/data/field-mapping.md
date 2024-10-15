@@ -2,7 +2,7 @@
 title: Campos XDM
 description: Revise los campos de atributos predeterminados que se sincronizan entre Adobe Experience Platform y Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
+source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 15%
@@ -59,7 +59,7 @@ Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuent
 | `accountBillingAddress.region` | Región | Región de dirección | Cadena | La parte de región, condado o distrito de la dirección de facturación. |
 | `accountBillingAddress.state` | Estado | Estado | Cadena | El nombre del estado de la dirección de facturación. Es un campo de forma libre. |
 | `accountBillingAddress.street1` | Calle 1 | Calle 1 | Cadena | Información principal de la dirección de facturación, que generalmente incluye el número del apartamento, el número de la calle y el nombre de la calle. |
-| `accountName` | Nombre | Nombre | **Campo obligatorio** <br/>Cadena | Nombre de la empresa. Se permiten hasta 255 caracteres en este campo. |
+| `accountName` | Nombre | Nombre | Cadena | **Campo obligatorio** <br/>Nombre de la compañía. Se permiten hasta 255 caracteres en este campo. |
 | `accountOrganization.annualRevenue.amount` | Ingresos anuales | Ingresos anuales | Número | Cantidad estimada de los ingresos anuales de la organización. |
 | `accountOrganization.industry` | Industria | Industria | Cadena | La industria atribuida a la organización. Es un campo de forma libre, y es recomendable usar un valor estructurado para consultas o usar la propiedad `xdm:classifier`. |
 | `accountOrganization.logoUrl` | URL de logotipo | URL de logotipo | Cadena | Ruta que combinar con la URL de una instancia de Salesforce (por ejemplo, `https://yourInstance.salesforce.com/`) para generar una URL para solicitar la imagen de perfil de red social asociada con la cuenta. La URL generada devuelve un redireccionamiento HTTP (código 302) a la imagen de perfil de la red social de la cuenta. |
