@@ -6,7 +6,7 @@ exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
 source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
 workflow-type: tm+mt
 source-wordcount: '2041'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -227,7 +227,7 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Compruebe cómo se procesa el contenido"
->abstract="Cuando se define el contenido, se puede obtener una vista previa del mismo y comprobar la renderización del canal que se está utilizando."
+>abstract="Una vez definido el contenido, puede previsualizarlo y comprobar el renderizado según el canal que utilice."
 
 Cuando se define el contenido del mensaje, puede utilizar perfiles de prueba para simular (previsualizar) su contenido. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje mediante los datos del perfil de prueba.
 
