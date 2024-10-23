@@ -1,32 +1,46 @@
 ---
 title: Trabajo con Marketo Engage Assets
-description: Obtenga información sobre el uso de la integración de administración de recursos de Marketo Engage Design Studio en Journey Optimizer B2B Edition.
+description: Obtenga información sobre el uso de la integración de administración de recursos de Marketo Engage Design Studio en Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
 
 # Uso de recursos de Marketo Engage
 
-Marketo Engage Design Studio es la fuente de recursos predeterminada para Journey Optimizer B2B Edition, y puede administrar y utilizar fácilmente los recursos disponibles en el contenido de los recorridos de su cuenta.
+Marketo Engage Design Studio es la fuente de recursos predeterminada para Journey Optimizer B2B edition y le permite administrar y utilizar fácilmente los recursos disponibles en el contenido de los recorridos de su cuenta.
+
+En Marketo Engage, las organizaciones de marketing utilizan espacios de trabajo para organizar sus recursos de contenido y ayudar a los equipos a acceder al recurso correcto. Los espacios de trabajo bien definidos son especialmente útiles para las grandes empresas que tienen una gran cartera de ofertas de productos o que operan a nivel mundial con diferentes requisitos para la comercialización en diferentes regiones.
+
+## Administración central de activos
+
+De manera predeterminada, hay un área de trabajo de **_[!UICONTROL Journey Optimizer B2B edition]_** que puede usar específicamente para el contenido de recorrido de su cuenta. Los recursos que agrega a este espacio de trabajo no están visibles ni disponibles para usarlos en Marketo Engage. Para los recursos que residen en esta área de trabajo, tiene la gama completa de funciones de administración de recursos en Journey Optimizer B2B edition. Estas funciones incluyen:
+
+* Reemplazar
+* Eliminar
+* Mover
+
+Assets que reside en los espacios de trabajo del Marketo Engage está limitado al acceso de solo lectura para su uso en correos electrónicos, plantillas de correo electrónico y fragmentos. Puede añadir nuevos recursos a estos espacios de trabajo y descargar una copia de un recurso.
 
 ## Examen y acceso a recursos
 
-Para acceder a los recursos de Adobe Marketo Engage Design Studio desde Journey Optimizer B2B Edition, vaya al panel de navegación izquierdo y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Assets]**. Esta acción abre una página de lista con todos los recursos enumerados.
+Para acceder a los recursos de Adobe Marketo Engage desde Journey Optimizer B2B edition, vaya al panel de navegación izquierdo y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Assets]**. Esta acción abre una página de lista con todos los recursos enumerados.
 
-![Examinar recursos de Marketo Engage](assets/assets-list-page.png){width="600" zoomable="yes"}
+![Examinar recursos de Marketo Engage](assets/assets-list-page.png){width="800" zoomable="yes"}
 
-* Para ver los recursos por carpeta, abra la estructura de carpetas haciendo clic en el icono _Mostrar carpetas_ en la parte superior izquierda.
+El espacio de trabajo de Journey Optimizer B2B edition está seleccionado de forma predeterminada. Los demás espacios de trabajo se enumeran a continuación.
 
-* Para ordenar la tabla por cualquiera de las columnas, haga clic en el título de la columna.
+* Para ver los recursos por área de trabajo y carpeta, abra la estructura haciendo clic en el icono _Mostrar carpetas_ en la parte superior izquierda.
 
-* Para buscar un recurso de imagen dentro de la carpeta seleccionada, introduzca una cadena de texto en la barra de búsqueda.
+* Para ordenar la tabla por cualquiera de las columnas, haga clic en el título de la columna. La flecha de la fila de título indica la columna de ordenación y el orden actuales.
 
-* Para personalizar las columnas que se muestran en la tabla, haga clic en el icono _Personalizar tabla_ en la parte superior derecha.
+* Para buscar un recurso de imagen dentro del espacio de trabajo o la carpeta seleccionados, introduzca una cadena de texto en la barra de búsqueda.
+
+* Para personalizar las columnas que se muestran en la tabla, haga clic en el icono _Personalizar tabla_ ( ![Personalizar tabla](../assets/do-not-localize/icon-column-settings.svg) ) en la parte superior derecha.
 
   Seleccione las columnas que desee mostrar en el listado y haga clic en **[!UICONTROL Aplicar]**.
 
@@ -34,27 +48,31 @@ Para acceder a los recursos de Adobe Marketo Engage Design Studio desde Journey 
 
 Haga clic en el nombre de cualquier recurso para abrir la página de detalles del recurso.
 
+![Acceder a los detalles del recurso](assets/assets-details.png){width="700" zoomable="yes"}
+
 ## Ver recursos utilizados por referencias
 
-En la página de detalles del recurso, haga clic en la ficha **[!UICONTROL Utilizado por]** para ver los detalles de dónde se utiliza actualmente el recurso en Journey Optimizer B2B Edition, en correos electrónicos, plantillas de correo electrónico y fragmentos.
+En la página de detalles del recurso, haga clic en la ficha **[!UICONTROL Utilizado por]** para ver los detalles de dónde se utiliza actualmente el recurso en Journey Optimizer B2B edition, en correos electrónicos, plantillas de correo electrónico y fragmentos.
 
 >[!IMPORTANT]
 >
 >Cualquier recurso que esté _EN USO_ en cualquiera de los correos electrónicos, plantillas de correo electrónico o fragmentos **no se puede** eliminar.
 
-Las referencias se muestran por categoría: _Correo electrónico_, _Plantilla de correo electrónico_ o _Fragmento_. Los correos electrónicos de Journey Optimizer B2B Edition están incrustados y creados en recorrido, por lo que el recorrido principal del correo electrónico que utiliza el recurso se muestra en las referencias.
+El panel muestra las referencias por categoría: _Correo electrónico_, _Plantilla de correo electrónico_ o _Fragmento_. Los correos electrónicos de Journey Optimizer B2B edition están incrustados y creados en recorrido, por lo que el recorrido principal del correo electrónico que utiliza el recurso se muestra en las referencias.
 
 Al hacer clic en el vínculo, se le redirige al correo electrónico, la plantilla de correo electrónico o el fragmento correspondiente donde se utiliza el recurso.
 
+![Ver los elementos de contenido que utilizan el recurso](assets/assets-used-by.png){width="700" zoomable="yes"}
+
 ## Añadir recursos
 
-Desde la página de lista de Assets, puede agregar recursos de imagen a Adobe Marketo Engage Design Studio.
+Desde la página de lista de Assets, puede agregar recursos de imagen al espacio de trabajo de Journey Optimizer B2B edition o a un espacio de trabajo de Marketo Engage.
 
 1. Haga clic en **[!UICONTROL Agregar Assets]** en la parte superior derecha.
 
 1. En el cuadro de diálogo _[!UICONTROL Agregar recursos]_, arrastre y suelte uno o más archivos del sistema en el cuadro de archivo.
 
-   ![Agregar recursos a Marketo Engage Design Studio](./assets/assets-add-dialog.png){width="500" zoomable="yes"}
+   ![Agregar recursos a un área de trabajo](./assets/assets-add-dialog.png){width="500"}
 
    También puede hacer clic en el vínculo _[!UICONTROL Seleccionar un archivo del equipo]_ para usar el sistema de archivos local y buscar y seleccionar archivos.
 
@@ -62,7 +80,11 @@ Desde la página de lista de Assets, puede agregar recursos de imagen a Adobe Ma
 
    Los nombres de archivo de las imágenes seleccionadas se muestran en el cuadro de diálogo. Los nombres de los archivos de recursos deben ser únicos (en todas las carpetas) y, si ya existe un archivo con el nombre, se muestra un mensaje. Los nombres pueden tener un máximo de 100 caracteres y no pueden contener caracteres especiales (como `;`, `:`, `\` y `|`).
 
-1. Seleccione la carpeta de destino para almacenar los recursos mediante el selector de carpetas.
+1. Seleccione el espacio de trabajo o la carpeta de destino para almacenar los recursos.
+
+   >[!NOTE]
+   >
+   >Si selecciona una ubicación en el área de trabajo de _[!UICONTROL Journey Optimizer B2B edition]_, podrá administrar el recurso en la aplicación. Si agrega el recurso a un espacio de trabajo de Marketo Engage, las funciones de administración de recursos solo están disponibles en Marketo Engage Design Studio.
 
 1. Para sobrescribir (reemplazar) archivos al cargar uno o más archivos con un nombre de archivo existente, active la casilla de verificación **[!UICONTROL Sobrescribir archivos existentes]**.
 
@@ -72,15 +94,19 @@ Desde la página de lista de Assets, puede agregar recursos de imagen a Adobe Ma
 
 Cualquier recurso que esté actualmente en uso en cualquiera de los correos electrónicos, plantillas de correo electrónico o fragmentos no se puede eliminar. Compruebe las referencias de utilizadas antes de iniciar una eliminación de recursos. Además, una acción de eliminación no se puede deshacer, por lo que debe comprobarla antes de iniciar una acción de eliminación.
 
-Puede eliminar un recurso mediante cualquiera de los siguientes métodos:
+Utilice cualquiera de los siguientes métodos para eliminar un recurso que resida en el espacio de trabajo _[!UICONTROL Journey Optimizer B2B edition]_:
 
 * Vaya a los detalles del recurso, haga clic en **[!UICONTROL ... Más]** en la parte superior derecha y elige **[!UICONTROL Eliminar]** de las opciones.
 
-  ![Acciones de acceso para el recurso](./assets/assets-details-more-menu.png){width="500" zoomable="yes"}
+  ![Acciones de acceso para el recurso](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
-* En la página de listado de _[!UICONTROL Assets]_, haga clic en los _puntos suspensivos_ (**[!UICONTROL ...]**) junto al elemento del recurso y elija **[!UICONTROL Eliminar]** de las opciones.
+* En la página de listado de _[!UICONTROL Assets]_, haga clic en el icono _Más_ (**[!UICONTROL ...]**) que está junto al elemento del recurso y elija **[!UICONTROL Eliminar]** de las opciones.
 
-  ![Acciones de acceso para el recurso](./assets/assets-list-file-more-menu.png){width="500" zoomable="yes"}
+  ![Acciones de acceso para el recurso](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
+
+  >[!NOTE]
+  >
+  >Solo los recursos que residen en el área de trabajo _[!UICONTROL Journey Optimizer B2B edition]_ tienen funciones de administración de recursos disponibles en el menú _Más_.
 
 Esta acción abre un cuadro de diálogo de confirmación. Puede anular el proceso haciendo clic en **[!UICONTROL Cancelar]** o en **[!UICONTROL Eliminar]** para confirmar la eliminación.
 
@@ -88,15 +114,15 @@ Si el recurso está en uso, la acción abre un cuadro de diálogo informativo qu
 
 ## Reemplazar recursos
 
-Puede reemplazar un recurso mediante cualquiera de los siguientes métodos:
+Utilice cualquiera de los siguientes métodos para reemplazar un recurso que reside en el espacio de trabajo _[!UICONTROL Journey Optimizer B2B edition]_:
 
 * Vaya a los detalles del recurso, haga clic en **[!UICONTROL ... Más]** en la parte superior derecha y elige **[!UICONTROL Reemplazar]** de las opciones.
 
-* En la página de listado de _[!UICONTROL Assets]_, haga clic en los _puntos suspensivos_ (**[!UICONTROL ...]**) junto al elemento del recurso y elija **[!UICONTROL Reemplazar]** entre las opciones.
+* En la página de listado de _[!UICONTROL Assets]_, haga clic en el icono _Más_ (**[!UICONTROL ...]**) que está junto al elemento del recurso y elija **[!UICONTROL Reemplazar]** entre las opciones.
 
 En el cuadro de diálogo _[!UICONTROL Reemplazar recurso]_, arrastre y suelte el archivo de reemplazo desde el sistema al cuadro de archivo. También puede hacer clic en el vínculo _[!UICONTROL Seleccionar un archivo del equipo]_ para usar el sistema de archivos local y seleccionar un archivo. (Si selecciona varios archivos en el sistema local, se utilizará el primer archivo seleccionado para el reemplazo.)
 
-![Reemplazar cuadro de diálogo de recursos](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
+![Reemplazar cuadro de diálogo de recursos](./assets/assets-replace-dialog.png){width="500"}
 
 Para continuar, haga clic en **[!UICONTROL Reemplazar]**. Puede anular el proceso haciendo clic en **[!UICONTROL Cancelar]**.
 
@@ -118,11 +144,11 @@ En la página del listado (_[!UICONTROL Administración de contenido]_ > _[!UICO
 
 ![Recursos seleccionados](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-Puede realizar las siguientes acciones masivas:
+Puede realizar las siguientes acciones masivas con los recursos seleccionados que residen en el espacio de trabajo de _[!UICONTROL Journey Optimizer B2B edition]_:
 
 +++Mover recursos
 
-1. En el banner de selección, haga clic en **Mover**.
+1. En el banner de selección, haga clic en **[!UICONTROL Mover]**.
 
    Esta acción abre el cuadro de diálogo _[!UICONTROL Mover Assets]_, que muestra los nombres de los recursos seleccionados y le permite seleccionar la carpeta _destino_ a la que desea mover estos recursos.
 
@@ -162,9 +188,9 @@ Puede realizar las siguientes acciones masivas:
 
 ## Aplicar acciones de nivel de carpeta
 
-Puede aplicar acciones a una carpeta o recursos dentro de la carpeta. Haga clic en el icono de puntos suspensivos (**...**) de la carpeta para mostrar las opciones de acciones que contiene.
+En el área de trabajo de _[!UICONTROL Journey Optimizer B2B edition]_, puede aplicar acciones a una carpeta o recursos dentro de la carpeta. Haga clic en el icono _Más_ (**...**) que se encuentra junto a la carpeta para mostrar las acciones que puede aplicarle.
 
-![Aplicar acciones a una carpeta o recursos de la carpeta](./assets/assets-folder-menu-options.png){width="500"}
+![Aplicar acciones a una carpeta o recursos de la carpeta](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
 Puede realizar las siguientes acciones en el nivel de carpeta:
 
@@ -238,15 +264,17 @@ Al archivar una carpeta, no se puede buscar en los archivos que contiene. Utilic
 
 +++
 
-## Uso de recursos en el contenido del correo electrónico
+## Uso de recursos en el contenido
 
 Assets se puede utilizar en el correo electrónico de su equipo, en la creación de plantillas de correo electrónico o en la creación de fragmentos visuales desde el editor de contenido visual.
 
-En la interfaz de usuario del editor visual, seleccione el icono _Selector de recursos_ en la barra lateral izquierda.
+En la interfaz de usuario del diseñador visual, seleccione el icono _Selector de recursos_ ( ![Selección de Assets](../assets/do-not-localize/icon-assets-design.svg) ) en la barra lateral izquierda.
 
-![Recursos seleccionados](./assets/content-assets-selector-icon.png){width="700" zoomable="yes"}
+Esta acción cambia el panel Herramientas, que muestra una lista estructurada de los recursos disponibles en el espacio de trabajo seleccionado. Seleccione el espacio de trabajo que desea mostrar para elegir un recurso.
 
-Esta acción cambia el panel Herramientas que muestra una lista de los recursos disponibles. Existen varios métodos para agregar un recurso de imagen al lienzo visual:
+![Recursos seleccionados](./assets/asset-design-workspace-select.png){width="700" zoomable="yes"}
+
+Existen varios métodos para agregar un recurso de imagen al lienzo visual:
 
 * Arrastre y suelte una miniatura de imagen desde el panel de navegación izquierdo.
 
@@ -262,4 +290,4 @@ Esta acción cambia el panel Herramientas que muestra una lista de los recursos 
 
    * Escriba texto en el campo _Buscar_ para filtrar los elementos mostrados y buscar una coincidencia del nombre del recurso.
 
-  ![Use los filtros y el campo de búsqueda para encontrar el recurso que necesita](./assets/assets-select-dialog-marketo-filtered.png){width="600" zoomable="yes"}
+  ![Use los filtros y el campo de búsqueda para encontrar el recurso que necesita](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}

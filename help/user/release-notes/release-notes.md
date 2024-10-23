@@ -2,9 +2,9 @@
 title: Notas de la versión
 description: Últimas notas de la versión de Adobe Journey Optimizer edición B2B
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
+source-git-commit: 235f54e4db84554f83076070b0d549e29141ba6e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '420'
 ht-degree: 9%
 
 ---
@@ -32,7 +32,8 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 <tbody>
 <tr>
 <td>
-<p>La biblioteca de recursos _central_ mejorada permite utilizar todos los recursos de imagen de la instancia de Marketo Engage en los espacios de trabajo de Design Studio. Existen protecciones integradas que impiden realizar ediciones en los recursos del Marketo Engage desde Journey Optimizer B2B edition, así como eliminar y mover operaciones. Estas protecciones garantizan que los recursos de origen (Marketo Engage Design Studio) se mantengan, al tiempo que permiten una lectura y reutilización sin problemas en Journey Optimizer B2B edition. <a href="../content/marketo-engage-design-studio.md">Más información</a>
+<p>La <i>biblioteca de recursos central</i> mejorada le permite utilizar todos los recursos de imagen de su instancia de Marketo Engage en los espacios de trabajo de Design Studio. Existen protecciones integradas que impiden realizar ediciones en los recursos del Marketo Engage desde Journey Optimizer B2B edition, así como eliminar y mover operaciones. Estas protecciones garantizan que los recursos de origen (Marketo Engage Design Studio) se mantengan, al tiempo que permiten una lectura y reutilización sin problemas en Journey Optimizer B2B edition. </p>
+<p>Para los recursos que se utilizan exclusivamente en Journey Optimizer B2B edition, un espacio de trabajo específico proporciona funciones completas de administración de recursos. <a href="../content/marketo-engage-design-studio.md">Más información</a></p>
 </td>
 </tr>
 </tbody>
@@ -47,7 +48,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 <tbody>
 <tr>
 <td>
-<p>La página de inicio de la aplicación para B2B edition de Journey Optimizer ahora incluye la sección _[!UICONTROL a la que se ha accedido recientemente], que proporciona una lista de los recursos a los que ha accedido más recientemente el experto en marketing o el administrador. Puede utilizar esta lista para ir directamente al recurso en el que ha trabajado recientemente sin navegar por una serie de páginas de recursos y búsquedas. Proporciona información adicional sobre la modificación para que pueda tomar la decisión sobre cuál de los recursos necesita una modificación adicional de la última sesión. Para los recursos de correo electrónico, muestra el recorrido de la cuenta en el que se utiliza el recurso de correo electrónico. <a href="../home-page.md">Más información</a>
+<p>La página de inicio de la aplicación Journey Optimizer B2B edition ahora incluye la sección <i>[!UICONTROL a la que se ha accedido recientemente]</i>, que proporciona una lista de los recursos a los que se ha accedido más recientemente para el experto en marketing o el administrador. Puede utilizar esta lista para ir directamente al recurso en el que ha trabajado recientemente sin navegar por una serie de páginas de recursos y búsquedas. Proporciona información adicional sobre la modificación para que pueda tomar la decisión sobre cuál de los recursos necesita una modificación adicional de la última sesión. Para los recursos de correo electrónico, muestra el recorrido de la cuenta en el que se utiliza el recurso de correo electrónico. <a href="../home-page.md">Más información</a>
 </td>
 </tr>
 </tbody>
