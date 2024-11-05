@@ -2,10 +2,10 @@
 title: Documentación de la edición B2B de Adobe Journey Optimizer
 description: Aprenda a utilizar las funciones de Adobe Journey Optimizer B2B edition para organizar recorridos de cuenta y de grupo de compra mediante IA generativa integrada y una automatización líder del sector.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: a1cbb0270f5174b8a16b783aaef7a890abb81a32
+source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 7%
 
 ---
 
@@ -13,15 +13,27 @@ ht-degree: 9%
 
 ## Novedades
 
-A continuación se muestra un ejemplo de las mejoras más recientes del producto y la documentación de Journey Optimizer B2B Edition.
+A continuación se muestra una muestra de las mejoras más recientes del producto y la documentación de Journey Optimizer B2B edition.
 
 >[!BEGINTABS]
 
+>[!TAB Contenido condicional]
+
+Utilice contenido condicional para adaptar el contenido del correo electrónico en función de reglas condicionales. Defina las reglas mediante atributos de perfil o eventos contextuales. Puede crear reglas condicionales en el generador de reglas y almacenarlas para su reutilización en los recorridos de la cuenta.
+
+[!BADGE Más información]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Más información sobre el contenido condicional"}
+
+>[!TAB Acción de personas - Agregar o quitar de la lista]
+
+En un recorrido de cuentas, use el nodo de acción _Agregar a la lista_ para agregar personas a una lista estática de Marketo Engage. Estas listas le proporcionan flexibilidad total para reutilizar y segmentar audiencias específicas. Puede crear una lista y luego crear una campaña a su alrededor, o agregar una persona directamente a una campaña existente. Además, usa la acción _Eliminar de la lista_ de personas para refinar y cambiar tu segmentación en el Marketo Engage según la progresión del recorrido de la cuenta.
+
+[!BADGE Más información]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="Obtenga información sobre cómo agregar a la lista y quitar de la lista"}
+
 >[!TAB Biblioteca de recursos central]
 
-Utilice todos los recursos de imagen de la instancia de Marketo Engage en los espacios de trabajo de Design Studio. Las protecciones integradas impiden realizar ediciones en los recursos del Marketo Engage desde Journey Optimizer B2B edition. Estas protecciones garantizan que los recursos de origen del Marketo Engage se mantengan, al tiempo que permiten una lectura y reutilización sin problemas en Journey Optimizer B2B edition. Para los recursos que se utilizan exclusivamente en Journey Optimizer B2B edition, un espacio de trabajo específico proporciona funciones completas de administración de recursos.
+Utilice los recursos de imagen de la instancia de Marketo Engage en los espacios de trabajo de Design Studio. Las protecciones integradas impiden realizar ediciones en los recursos del Marketo Engage desde Journey Optimizer B2B edition. Estas protecciones garantizan que los recursos de origen del Marketo Engage se mantengan, al tiempo que permiten una lectura y reutilización sin problemas en Journey Optimizer B2B edition. Para los recursos que se utilizan exclusivamente en Journey Optimizer B2B edition, un espacio de trabajo específico proporciona funciones completas de administración de recursos.
 
-[!BADGE Más información]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="Obtenga información acerca de la administración de activos centrales"}
+[!BADGE Más información]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="Obtenga información acerca de la administración central de recursos"}
 
 >[!TAB Audiencias coincidentes con la cuenta de LinkedIn]
 
@@ -31,19 +43,13 @@ Genere audiencias de LinkedIn Ad mediante Audiencias coincidentes con la cuenta 
 
 >[!TAB Asistente de IA]
 
-Póngase al día rápidamente con los conceptos de marketing basados en cuentas y conozca las funciones de Journey Optimizer B2B Edition diseñadas para maximizar las estrategias de su equipo.
+Póngase al día rápidamente con los conceptos de marketing basados en cuentas y conozca las funciones de Journey Optimizer B2B edition diseñadas para maximizar las estrategias de su equipo.
 
 [!BADGE Más información]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Más información sobre el Asistente de IA"}
 
 Lleve su contenido al siguiente nivel con el asistente de IA para el contenido de correo electrónico en Adobe Journey Optimizer B2B edition, con tecnología de IA generativa. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos, contenido de texto de destino e incluso imágenes específicamente diseñadas para interesar a su audiencia.
 
 [!BADGE Más información]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Obtenga información sobre el asistente de IA para correo electrónico"}
-
->[!TAB Fragmentos visuales]
-
-Cree componentes reutilizables como bloques de contenido personalizados para que los integrantes del equipo de marketing los utilicen en la combinación del contenido del correo electrónico para mejorar el proceso de diseño.
-
-[!BADGE Más información]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Más información sobre los fragmentos visuales"}
 
 >[!ENDTABS]
 
@@ -104,12 +110,12 @@ Descubra los componentes de un grupo comprador y comprenda los conceptos básico
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Creación de contenido"><br/>
-      <strong>Contenido de Recorrido</strong><br/><a href="./content/email-authoring.md">Creación de correo electrónico</a><br/><a href="./content/ai-assistant-emails.md">Asistente de IA para correo electrónico</a><br/><a href="./content/sms-authoring.md">Creación de SMS</a>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="contenido de recorrido"><br/>
+      <strong>Contenido de Recorrido</strong><br/><a href="./content/email-authoring.md">Creación de correo electrónico</a><br/><a href="./content/ai-assistant-emails.md">Asistente de IA para correo electrónico</a><br/><a href="./content/sales-alert-email.md">Correo electrónico de alerta de ventas</a><br/><a href="./content/sms-authoring.md">Creación de SMS</a>
     </td>
         <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Recursos de contenido"><br/>
-      <strong>Administración de contenido</strong><br/><a href="./content/assets-overview.md">Información general de Assets</a><br/><a href="./content/email-templates.md">Plantillas de correo electrónico</a><br/><a href="./content/fragments.md">Fragmentos visuales</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Gestión de contenido"><br/>
+      <strong>Administración de contenido</strong><br/><a href="./content/assets-overview.md">Información general de Assets</a><br/><a href="./content/email-templates.md">Plantillas de correo electrónico</a><br/><a href="./content/fragments.md">Fragmentos visuales</a><br/><a href="./content/conditional-content.md">Contenido condicional</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Perspectivas y paneles"><br/>
@@ -126,7 +132,7 @@ Descubra los componentes de un grupo comprador y comprenda los conceptos básico
 <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=es" target="_blank">Documentación</a> - <a href="https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Documentación</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
 </td></tr>
 <tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home" target="_blank">Documentación</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriales para desarrolladores</a>

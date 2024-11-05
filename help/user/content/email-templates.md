@@ -1,22 +1,22 @@
 ---
 title: Plantillas de email
-description: Aprenda a crear y editar plantillas de correo electrónico que se puedan utilizar para crear correos electrónicos de recorrido de cuentas de forma fácil y eficaz.
+description: Aprenda a administrar y crear plantillas de correo electrónico que se puedan usar para crear correos electrónicos de recorrido de cuentas de forma fácil y eficaz.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 3%
+source-wordcount: '1396'
+ht-degree: 0%
 
 ---
 
 # Plantillas de correo electrónico
 
-Para un proceso de diseño acelerado y mejorado, puede crear plantillas de correo electrónico independientes para reutilizar el contenido personalizado en los recorridos de cuenta de Adobe Journey Optimizer B2B Edition. A través de las plantillas, los integrantes del equipo orientados al contenido pueden trabajar en el contenido del correo electrónico fuera de los recorridos. Los estrategas de marketing pueden reutilizar y adaptar estas plantillas independientes dentro de sus recorridos de cuenta. Por ejemplo, un miembro del equipo está a cargo solo del contenido, sin acceso a los recorridos de la cuenta. Sin embargo, pueden crear una plantilla de correo electrónico que los especialistas en marketing pueden seleccionar como punto de partida para las comunicaciones por correo electrónico y personalizarla según los requisitos del recorrido.
+Para un proceso de diseño acelerado y mejorado, puede crear plantillas de correo electrónico independientes para reutilizar el contenido personalizado en los recorridos de cuenta de Adobe Journey Optimizer B2B edition. A través de las plantillas, los integrantes del equipo orientados al contenido pueden trabajar en el contenido del correo electrónico fuera de los recorridos. Los estrategas de marketing pueden reutilizar y adaptar estas plantillas independientes dentro de sus recorridos de cuenta. Por ejemplo, un miembro del equipo está a cargo solo del contenido, sin acceso a los recorridos de la cuenta. Sin embargo, pueden crear una plantilla de correo electrónico que los especialistas en marketing pueden seleccionar como punto de partida para las comunicaciones por correo electrónico y personalizarla según los requisitos del recorrido.
 
 ## Acceso y administración de plantillas de correo electrónico
 
-Para acceder a las plantillas de correo electrónico en Adobe Journey Optimizer edición B2B, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**. Esta acción abre una página de lista con todas las plantillas de correo electrónico creadas en la instancia enumeradas en una tabla.
+Para acceder a las plantillas de correo electrónico en Adobe Journey Optimizer B2B edition, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**. Esta acción abre una página de lista con todas las plantillas de correo electrónico creadas en la instancia enumeradas en una tabla.
 
 La tabla está ordenada por la columna _[!UICONTROL Modificado]_, con las plantillas actualizadas más recientemente en la parte superior de la lista de forma predeterminada. Haga clic en el título de la columna para cambiar entre ascendente y descendente.
 
@@ -28,9 +28,9 @@ Personalice las columnas que desee mostrar en la tabla haciendo clic en el icono
 
 Desde la página del listado, puede realizar las acciones descritas en las siguientes secciones.
 
-## Crear plantillas de correo electrónico
+## Creación de una plantilla de correo electrónico
 
-Puede crear una nueva plantilla de correo electrónico a partir de la página de lista de plantillas de correo electrónico haciendo clic en **[!UICONTROL Crear plantilla]** en la parte superior derecha.
+Puede crear una plantilla de correo electrónico a partir de la página de lista de plantillas de correo electrónico haciendo clic en **[!UICONTROL Crear plantilla]** en la parte superior derecha.
 
 1. En el cuadro de diálogo, escriba un **[!UICONTROL Nombre]** y una **[!UICONTROL Descripción]** útiles (opcionales).
 
@@ -48,21 +48,23 @@ Se abre la página _[!UICONTROL Diseña tu plantilla]_ y proporciona varias opci
 
 ![Elija cómo desea comenzar con el diseño de la plantilla de correo electrónico](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
+Después de seleccionar el método que desea usar para iniciar el diseño de la plantilla de correo electrónico, use el diseñador visual para [crear el contenido de la plantilla de correo electrónico](./email-template-authoring.md).
+
 ### Diseñe desde cero
 
 Utilice el editor de contenido visual para definir la estructura del contenido del correo electrónico. Al agregar y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar la forma del contenido del correo electrónico reutilizable en cuestión de segundos.
 
 >[!NOTE]
 >
->Las herramientas de diseño disponibles equivalen a las herramientas utilizadas para la creación de [correos electrónicos](./email-authoring.md). La diferencia es que este contenido se guarda como una plantilla que se puede reutilizar en varios nodos de correo electrónico de envío dentro de los recorridos de la cuenta.
+>Las herramientas de diseño disponibles equivalen a las herramientas utilizadas para la creación de [correos electrónicos](./email-authoring.md). La diferencia es que este contenido se guarda como una plantilla que se puede reutilizar en varios nodos _enviar correo electrónico_ dentro de los recorridos de la cuenta.
 
 1. En la página de inicio de _[!UICONTROL Diseña tu plantilla]_, selecciona la opción **[!UICONTROL Diseñar desde cero]**.
 
-1. [Agregar estructura y contenido](#add-structure-and-content) a la plantilla.
+1. [Agregar estructura y contenido](./email-authoring.md#add-structure-and-content) a la plantilla.
 
 ### Importar HTML
 
-Adobe Journey Optimizer B2B Edition le permite importar contenido existente del HTML para diseñar sus plantillas de correo electrónico.
+Adobe Journey Optimizer B2B edition le permite importar contenido existente del HTML para diseñar sus plantillas de correo electrónico.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -72,89 +74,11 @@ Adobe Journey Optimizer B2B Edition le permite importar contenido existente del 
 >
 >El uso de una etiqueta `<table>` como primera capa en un archivo de HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de capa superior.
 
-Puede personalizar el contenido importado según sea necesario con las herramientas visuales del editor de correo electrónico.
+Puede personalizar el contenido importado según sea necesario con el diseñador visual.
 
 ### Seleccionar una plantilla de diseño
 
 {{$include /help/_includes/content-design-select-template.md}}
-
-## Añadir estructura y contenido {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Adición de componentes de estructura"
->abstract="Los componentes de estructura definen el diseño de la plantilla. Arrastre y suelte un componente de **Estructura** en el lienzo para empezar a diseñar el contenido de la plantilla."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una plantilla."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Añadir fragmentos
-
-En el editor de contenido visual, el icono _Fragmentos_ se muestra a la izquierda. En el siguiente ejemplo se describen los pasos para agregar fragmentos al contenido de la plantilla.
-
-1. Para abrir la lista de fragmentos, haga clic en el icono _Fragmentos_.
-
-   Puede hacer lo siguiente:
-
-   * Ordenar el listado.
-   * Examine, busque o filtre la lista.
-   * Cambiar entre las vistas Miniaturas y Lista.
-   * Actualice la lista para reflejar cualquiera de los fragmentos creados recientemente.
-
-   ![Seleccionar un fragmento de la lista](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Arrastre y suelte cualquiera de los fragmentos en el marcador de posición del componente estructural.
-
-   El editor procesa el fragmento dentro de la sección o el elemento de la estructura de correo electrónico.
-
-El contenido del fragmento se actualiza dinámicamente dentro de la estructura para mostrar cómo aparece el contenido en el correo electrónico.
-
->[!TIP]
->
->Si desea agregar el fragmento para que ocupe todo el diseño horizontal dentro del correo electrónico, agregue una estructura de columna 1:1 y, a continuación, arrastre y suelte el fragmento en él.
-
-Una vez guardado el correo electrónico, aparecerá en la página de detalles del fragmento al seleccionar la pestaña _[!UICONTROL Utilizado por]_ en el resumen. Los fragmentos agregados a una plantilla de correo electrónico no se pueden editar dentro de la plantilla (el contenido se define mediante el fragmento de origen).
-
-### Añadir recursos
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Desplazamiento por las capas, la configuración y los estilos
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Personalizar contenido
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Editar seguimiento de URL vinculadas
-
-{{$include /help/_includes/content-design-links.md}}
-
-### Ver opciones
-
-Aproveche las opciones de vista y validación de contenido disponibles en el editor de correo electrónico visual.
-
-* Acercar/alejar el contenido en las opciones de zoom preestablecidas.
-
-* Cambie la visualización del contenido en Escritorio, Móvil o Solo texto/Texto sin formato.
-   * Haz clic en el icono _Ojo_ para obtener una vista previa del contenido en varios dispositivos.
-   * Seleccione uno de los dispositivos predeterminados o introduzca dimensiones personalizadas para obtener una vista previa del contenido.
-
-### Más opciones
-
-Desde el selector _Más opciones_ del editor de contenido visual, puede realizar las siguientes acciones:
-
-![Haga clic en Más para acceder a las acciones de plantilla](./assets/visual-designer-more-menu.png){width="500"}
-
-* **Restablecer plantilla**: haga clic en esta opción para borrar el lienzo visual del diseñador de correo electrónico a una pizarra en blanco y reiniciar la creación de contenido.
-* **Guardar como fragmento**: guarde todo o parte de él como un fragmento para reutilizarlo en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para los fragmentos y agréguelos a la lista de fragmentos disponibles.
-* **Cambia tu diseño** - Vuelve a la página _Diseña tu plantilla_. Desde aquí, puede realizar cualquier acción como se describe en la sección &quot;Crear plantillas de correo electrónico&quot;.
-* **HTML de exportación**: descargue el contenido del lienzo visual en su sistema local en formato de HTML empaquetado como archivo zip.
 
 ## Ver detalles de plantilla de correo electrónico
 
@@ -178,7 +102,7 @@ En la página de detalles de las plantillas de correo electrónico, haga clic en
 
 ![Haga clic en la ficha Utilizado por para comprobar el uso de la plantilla](./assets/template-details-used-by.png){width="400"}
 
-Los correos electrónicos de Journey Optimizer B2B Edition están incrustados y creados en recorrido, por lo que el recorrido principal del correo electrónico que utiliza la plantilla se muestra en las referencias.
+Los correos electrónicos de Journey Optimizer B2B edition están incrustados y creados en recorrido, por lo que el recorrido principal del correo electrónico que utiliza la plantilla se muestra en las referencias.
 
 * Al hacer clic en el vínculo, se le redirige al correo electrónico de recorrido correspondiente donde se utiliza la plantilla de correo electrónico.
 

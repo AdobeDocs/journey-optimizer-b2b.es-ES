@@ -2,20 +2,34 @@
 title: Notas de la versión
 description: Últimas notas de la versión de Adobe Journey Optimizer edición B2B
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 235f54e4db84554f83076070b0d549e29141ba6e
+source-git-commit: ce241e3d5412e38f3f2bc833d9eca6ee567697f3
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 9%
+source-wordcount: '673'
+ht-degree: 11%
 
 ---
 
-# Notas de la versión de Journey Optimizer B2B Edition
+# Notas de la versión de Journey Optimizer B2B edition
 
-Adobe Journey Optimizer B2B Edition ofrece continuamente nuevas funciones, mejoras en las funciones existentes y correcciones de errores.
+Adobe Journey Optimizer B2B edition ofrece continuamente nuevas funciones, mejoras en las funciones existentes y correcciones de errores.
 
-Journey Optimizer B2B Edition está creado de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
+Journey Optimizer B2B edition se creó de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obtener información sobre los derechos, las protecciones de rendimiento y las limitaciones.
+
+## Notas de la versión de octubre de 2024 {#Oct-2024}
+
+**Fecha de la versión**: 29 de octubre de 2024
+
+Esta versión incorpora las siguientes nuevas funciones y mejoras:
+
+| Tipo | Elemento | Descripción |
+| ---- | ---- | ----------- |
+| Nueva función | Contenido condicional en plantillas de correo electrónico | Personalice el contenido del correo electrónico en función del comportamiento del destinatario y las características del perfil, tanto a nivel de cuenta como de posible cliente. <p>A medida que crea un correo electrónico para el recorrido de la cuenta en el diseñador de correo electrónico, utilice reglas condicionales para definir varias variantes para cualquier componente de contenido. <a href="../content/conditional-content.md">Más información</a> |
+| Nueva función | Agregar a la lista y quitar de la lista para los nodos de acción de personas de recorrido | Personalice el contenido del correo electrónico en función del comportamiento del destinatario y las características del perfil, tanto a nivel de cuenta como de posible cliente. <a href="../journeys/journey-nodes.md#action-nodes">Más información</a> |
+| Nueva función | Gobernanza de contenido y bloqueo de componentes | Para garantizar el cumplimiento de los diseños de contenido aprobados, utilice las funciones de control de contenido para bloquear los componentes de contenido de plantillas de correo electrónico. Con la gobernanza de contenido activada en la plantilla de correo electrónico, los especialistas en marketing solo pueden modificar los elementos permitidos para mantenerla alineada con la estrategia de contenido. <a href="../content/template-content-governance.md">Más información</a> |
+| Mejora | Nuevas plantillas de correo electrónico listas para usar | La biblioteca de plantillas de ejemplo ahora incluye plantillas de correo electrónico adicionales diseñadas para los especialistas en marketing B2B. Utilice estas plantillas de ejemplo como punto de partida y añada su propia marca y mensajería. <a href="../content/email-templates.md#select-a-design-template">Más información</a> |
+| Mejora | Configuración de canal de correo electrónico | La configuración de correo electrónico ahora está visible en la interfaz de B2B edition de Journey Optimizer. Puede revisar rápidamente las configuraciones actuales y los administradores pueden hacer clic en _[!UICONTROL Editar configuración]_ para ir directamente a la configuración en Marketo Engage y actualizarla según los requisitos de su organización. <a href="../admin/configure-channels-emails.md">Más información</a> |
 
 ## Notas de la versión de septiembre de 2024 {#Sept-2024}
 
@@ -23,36 +37,10 @@ Revise la [descripción del producto](https://helpx.adobe.com/legal/product-desc
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
-<table>
-<thead>
-<tr>
-<th><strong>Biblioteca de recursos central mejorada</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La <i>biblioteca de recursos central</i> mejorada le permite utilizar todos los recursos de imagen de su instancia de Marketo Engage en los espacios de trabajo de Design Studio. Existen protecciones integradas que impiden realizar ediciones en los recursos del Marketo Engage desde Journey Optimizer B2B edition, así como eliminar y mover operaciones. Estas protecciones garantizan que los recursos de origen (Marketo Engage Design Studio) se mantengan, al tiempo que permiten una lectura y reutilización sin problemas en Journey Optimizer B2B edition. </p>
-<p>Para los recursos que se utilizan exclusivamente en Journey Optimizer B2B edition, un espacio de trabajo específico proporciona funciones completas de administración de recursos. <a href="../content/marketo-engage-design-studio.md">Más información</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Recursos a los que se ha accedido recientemente</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La página de inicio de la aplicación Journey Optimizer B2B edition ahora incluye la sección <i>[!UICONTROL a la que se ha accedido recientemente]</i>, que proporciona una lista de los recursos a los que se ha accedido más recientemente para el experto en marketing o el administrador. Puede utilizar esta lista para ir directamente al recurso en el que ha trabajado recientemente sin navegar por una serie de páginas de recursos y búsquedas. Proporciona información adicional sobre la modificación para que pueda tomar la decisión sobre cuál de los recursos necesita una modificación adicional de la última sesión. Para los recursos de correo electrónico, muestra el recorrido de la cuenta en el que se utiliza el recurso de correo electrónico. <a href="../home-page.md">Más información</a>
-</td>
-</tr>
-</tbody>
-</table>
+| Tipo | Elemento | Descripción |
+| ---- | ---- | ----------- |
+| Mejora | Biblioteca de recursos central | La _biblioteca de recursos central_ mejorada le permite utilizar todos los recursos de imagen de su instancia de Marketo Engage en los espacios de trabajo de Design Studio. Existen protecciones integradas que impiden realizar ediciones en los recursos del Marketo Engage desde Journey Optimizer B2B edition, así como eliminar y mover operaciones. Estas protecciones garantizan que los recursos de origen (Marketo Engage Design Studio) se mantengan, al tiempo que permiten una lectura y reutilización sin problemas en Journey Optimizer B2B edition.<p>Para los recursos que se utilizan exclusivamente en Journey Optimizer B2B edition, un espacio de trabajo específico proporciona funciones completas de administración de recursos. <a href="../content/marketo-engage-design-studio.md">Más información</a> |
+| Nueva función | Recursos a los que se ha accedido recientemente | La página de inicio de la aplicación Journey Optimizer B2B edition ahora incluye la sección _[!UICONTROL A la que se ha accedido recientemente]_, que proporciona una lista de los recursos a los que ha accedido más recientemente el experto en marketing o el administrador. Puede utilizar esta lista para ir directamente al recurso en el que ha trabajado recientemente sin navegar por una serie de páginas de recursos y búsquedas. <p>La lista proporciona información adicional sobre la modificación para que pueda tomar la decisión sobre cuál de los recursos necesita más modificaciones desde la última sesión. Para los recursos de correo electrónico, muestra el recorrido de la cuenta en el que se utiliza el recurso de correo electrónico. <a href="../home-page.md">Más información</a> |
 
 ## Notas de la versión de agosto de 2024 {#Aug-2024}
 
@@ -60,32 +48,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
-<table>
-<thead>
-<tr>
-<th><strong>Audiencias coincidentes con cuentas de linkedIn</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Genere audiencias de LinkedIn Ad mediante Audiencias coincidentes con la cuenta para que pueda desempeñar funciones vacías en sus grupos de compra. Al definir un conjunto de filtros de grupo de compra, puede mantener una audiencia coincidente con LinkedIn para segmentar a los posibles clientes que coincidan con los parámetros del grupo de compra. Esta función aprovecha Destinos de Experience Platform para administrar algunos aspectos de la integración. <a href="../data/linkedin-account-matched-audiences.md">Más información</a>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Ciclo de vida de estado de los fragmentos visuales</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Los fragmentos visuales ahora se administran mediante un ciclo vital de estado. El estado del fragmento determina su disponibilidad para utilizarlo en un correo electrónico o plantilla de correo electrónico, y los cambios que puede realizar en él. Este flujo de trabajo facilita la administración del contenido reutilizado según el calendario promocional y de comunicaciones. <a href="../content/fragments.md#fragment-status-and-lifecycle">Más información</a>
-</td>
-</tr>
-</tbody>
-</table>
+| Tipo | Elemento | Descripción |
+| ---- | ---- | ----------- |
+| Nueva función | Audiencias coincidentes con cuentas de linkedIn | Genere audiencias de LinkedIn Ad mediante Audiencias coincidentes con la cuenta para que pueda desempeñar funciones vacías en sus grupos de compra. Al definir un conjunto de filtros de grupo de compra, puede mantener una audiencia coincidente con LinkedIn para segmentar a los posibles clientes que coincidan con los parámetros del grupo de compra. <p>Esta función aprovecha Destinos de Experience Platform para administrar algunos aspectos de la integración. <a href="../data/linkedin-account-matched-audiences.md">Más información</a> |
+| Mejora | Ciclo de vida de estado para fragmentos de contenido visual | Los fragmentos visuales ahora se administran mediante un ciclo vital de estado. El estado del fragmento determina su disponibilidad para utilizarlo en un correo electrónico o plantilla de correo electrónico, y los cambios que puede realizar en él. <p>Este flujo de trabajo mejorado facilita la administración del contenido reutilizado según el calendario promocional y de comunicaciones. <a href="../content/fragments.md#fragment-status-and-lifecycle">Más información</a> |

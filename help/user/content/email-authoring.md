@@ -3,16 +3,16 @@ title: Creación de correo electrónico
 description: Obtenga información sobre cómo crear contenido de correo electrónico personalizado que se utiliza en un Recorrido de cuentas.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 13%
+source-wordcount: '1428'
+ht-degree: 10%
 
 ---
 
 # Creación de correo electrónico
 
-Utilice Adobe Journey Optimizer B2B Edition para enviar mensajes de correo electrónico a sus clientes. Puede crear, personalizar y previsualizar mensajes en el Diseñador de correo electrónico.
+Utilice Adobe Journey Optimizer B2B edition para enviar mensajes de correo electrónico a sus clientes. Puede crear, personalizar y obtener una vista previa de los mensajes en el diseñador visual.
 
 ## Añadir una acción de correo electrónico en un recorrido de cuenta
 
@@ -60,7 +60,7 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 
 >[!TIP]
 >
->Utilice AI Assistant en Adobe Journey Optimizer B2B Edition, con tecnología de IA generativa, para elevar el contenido al siguiente nivel. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos, contenido de texto de destino y obteniendo recomendaciones del asistente de IA para imágenes que resuenen con su audiencia. [Más información](./ai-assistant-emails.md)
+>Utilice el asistente de IA en Adobe Journey Optimizer B2B edition, con tecnología de IA generativa, para elevar el contenido al siguiente nivel. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos, contenido de texto de destino y obteniendo recomendaciones del asistente de IA para imágenes que resuenen con su audiencia. [Más información](./ai-assistant-emails.md)
 
 ### Diseñe el correo electrónico desde cero {#design-from-scratch}
 
@@ -109,6 +109,10 @@ Puede personalizar el contenido importado según sea necesario con las herramien
 
 {{$include /help/_includes/content-design-select-template.md}}
 
+>[!NOTE]
+>
+> Las plantillas guardadas pueden tener configuraciones de gobernanza (bloqueo de contenido) aplicadas a uno o varios componentes. El diseñador visual proporciona directrices sobre los componentes bloqueados cuando [crea un correo electrónico a partir de una plantilla controlada](./email-authoring-governance.md).
+
 ## Añadir estructura y contenido {#structure-content}
 
 >[!CONTEXTUALHELP]
@@ -146,9 +150,9 @@ El contenido del fragmento se actualiza dinámicamente dentro de la estructura p
 
 >[!TIP]
 >
->Si desea agregar el fragmento para que ocupe todo el diseño horizontal dentro del correo electrónico, agregue una estructura de columna 1:1 y, a continuación, arrastre y suelte el fragmento en él.
+>Para agregar el fragmento de modo que ocupe todo el diseño horizontal dentro del correo electrónico, agregue una estructura de columna 1:1 y, a continuación, arrastre y suelte el fragmento en él.
 
-Una vez guardado el correo electrónico, aparecerá en la página de detalles del fragmento al seleccionar la pestaña _[!UICONTROL Utilizado por]_ en el resumen. Los fragmentos agregados a una plantilla de correo electrónico no se pueden editar dentro de la plantilla (el contenido se define mediante el fragmento de origen).
+Una vez guardado el correo electrónico, aparecerá en la página de detalles del fragmento al seleccionar la pestaña _[!UICONTROL Utilizado por]_ en el resumen. Los fragmentos agregados a una plantilla de correo electrónico no se pueden editar dentro de la plantilla: el fragmento de origen define el contenido.
 
 ### Añadir recursos
 
@@ -173,8 +177,20 @@ Aproveche las opciones de vista y validación de contenido disponibles en el edi
 * Acercar/alejar el contenido en las opciones de zoom preestablecidas.
 
 * Cambie la visualización del contenido en Escritorio, Móvil o Solo texto/Texto sin formato.
-   * Haz clic en el icono _Ojo_ para obtener una vista previa del contenido en varios dispositivos.
+   * Haz clic en el icono _Ver_ para obtener una vista previa del contenido entre dispositivos.
    * Seleccione uno de los dispositivos predeterminados o introduzca dimensiones personalizadas para obtener una vista previa del contenido.
+
+### Más opciones
+
+En el menú _[!UICONTROL Más...]_ de la parte superior del diseñador de correo electrónico, puede realizar las siguientes acciones:
+
+![Haga clic en Más para acceder a las acciones de plantilla](./assets/email-designer-more-menu.png){width="500"}
+
+* **[!UICONTROL Restablecer correo electrónico]**: haga clic en esta opción para borrar el lienzo del diseñador de correo electrónico visual de una pizarra en blanco y reiniciar la creación del contenido.
+* **[!UICONTROL Guardar como fragmento]**: guarde todo o parte del correo electrónico como un fragmento para reutilizarlo en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para el fragmento y guárdelo en la lista de fragmentos disponibles.
+* **[!UICONTROL Cambia tu diseño]** - Vuelve a la página _Diseña tu correo electrónico_. Desde allí, puede elegir otra plantilla para reiniciar el proceso de diseño o elegir diseñar el contenido desde cero en un lienzo negro.\
+* **[!UICONTROL Guardar como plantilla de contenido]** - Guarde el cuerpo del correo electrónico como una plantilla de correo electrónico para reutilizarla en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para la plantilla y guárdela en la lista de plantillas de correo electrónico guardadas.
+* **[!UICONTROL HTML de exportación]**: descargue el contenido del lienzo visual en su sistema local en formato de HTML empaquetado como archivo zip.
 
 ## Comprobación de alertas
 

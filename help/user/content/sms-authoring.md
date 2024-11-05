@@ -3,122 +3,18 @@ title: Creación de SMS
 description: Aprenda a enviar mensajes de texto (SMS) a sus clientes en sus dispositivos móviles y a personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: e38ec0f128e811fd4ac21c624d9018854b91c78b
+source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
 workflow-type: tm+mt
-source-wordcount: '2041'
-ht-degree: 2%
+source-wordcount: '1370'
+ht-degree: 3%
 
 ---
 
 # Creación de SMS
 
-Utilice Adobe Journey Optimizer B2B Edition para enviar mensajes de texto (SMS) a sus clientes en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
+Utilice Adobe Journey Optimizer B2B edition para enviar mensajes de texto (SMS) a sus clientes en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
 
-## Configuraciones de SMS
-
-Adobe Journey Optimizer B2B Edition envía mensajes de texto a través de proveedores de servicios SMS (o proveedores de pasarela SMS). Antes de crear tu mensaje SMS, configura tu proveedor de servicios desde la configuración de _Administrador_.
-
-### Proveedores de servicios de pasarela SMS
-
-Adobe Journey Optimizer B2B Edition se integra actualmente con proveedores de terceros que ofrecen servicios de mensajería de texto de forma independiente. Los proveedores admitidos para los mensajes de texto son Sinch, Twilio e Infobip.
-
-Antes de configurar un canal SMS en Adobe Journey Optimizer B2B edition, debe crear una cuenta con uno de estos proveedores para obtener el token de API y el ID de servicio. Estas credenciales son necesarias para configurar la conexión entre Adobe Journey Optimizer B2B edition y el proveedor aplicable.
-
->[!IMPORTANT]
->
->El uso de los servicios de mensajería de texto está sujeto a términos y condiciones adicionales del proveedor correspondiente. Como soluciones de terceros, Sinch, Twilio e Infobip están disponibles para los usuarios de Adobe Journey Optimizer B2B Edition a través de una integración. El Adobe no controla y no es responsable de los productos de terceros. Para cualquier problema o solicitud de asistencia relacionada con los servicios de mensajería de texto (SMS), póngase en contacto con su proveedor.
-
-### Verificar una configuración de API de SMS existente
-
->[!NOTE]
->
->Los ajustes descritos solo son accesibles para los usuarios con privilegios de administrador de SMS.
-
-1. En el panel de navegación izquierdo, expanda la sección **[!UICONTROL Administrador]** y haga clic en **[!UICONTROL Canales]**.
-
-   ![Acceder a la configuración de credenciales de API de SMS](./assets/config-sms-api.png){width="800" zoomable="yes"}
-
-1. En el panel de navegación, seleccione **[!UICONTROL Credenciales de API]**.
-
-   La página lista las configuraciones de API disponibles para su instancia.
-
-1. Si es necesario, haga clic en el icono _Filtro_ ( ![Mostrar u ocultar el icono de filtros](../assets/do-not-localize/icon-filter.svg) ) y seleccione las opciones para mostrar la lista de credenciales de API configuradas por el proveedor de servicios SMS o el creador.
-
-   ![Haga clic en el icono Filtro para restringir la lista de credenciales de la API](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
-
-### Creación de nuevas credenciales de API para un proveedor de servicios SMS
-
->[!BEGINTABS]
-
->[!TAB Sinch]
-
-_Para configurar Sinch como su proveedor de SMS con Adobe Journey Optimizer B2B edition:_
-
-1. En el panel de navegación izquierdo, expanda la sección **[!UICONTROL Administrador]** y haga clic en **[!UICONTROL Configuración]**.
-
-1. Haga clic en **[!UICONTROL Crear nuevas credenciales de API]** en la parte superior derecha de la lista _[!UICONTROL Credenciales de API]_.
-
-1. Configure las credenciales de la API de SMS:
-
-   ![Configurar las credenciales de la API de SMS de Sinch](./assets/config-sms-api-sinch.png){width="500"}
-
-   * **[!UICONTROL Proveedor de SMS]**: elige `Sinch` como proveedor de SMS.
-
-   * **[!UICONTROL Nombre]** - Escriba un nombre para su credencial de API.
-
-   * **[!UICONTROL ID de servicio]** y **[!UICONTROL token de API]**: accede a la página de API desde tu cuenta de Sinch (puedes encontrar tus credenciales en la pestaña SMS).
-
-   Para obtener más información sobre cómo encontrar esta información en tu cuenta de Sinch, consulta la [documentación para desarrolladores de Sinch](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
-
-1. Haga clic en **[!UICONTROL Enviar]** cuando se hayan completado los detalles de configuración de las credenciales de la API.
-
->[!TAB Twilio]
-
-_Para configurar Twilio como su proveedor de SMS con Adobe Journey Optimizer B2B edition:_
-
-1. En el panel de navegación izquierdo, expanda la sección **[!UICONTROL Administrador]** y haga clic en **[!UICONTROL Configuración]**.
-
-1. Haga clic en **[!UICONTROL Crear nuevas credenciales de API]** en la parte superior derecha de la lista _[!UICONTROL Credenciales de API]_.
-
-1. Configure las credenciales de la API de SMS:
-
-   ![Configurar las credenciales de la API de Twilio SMS](./assets/config-sms-api-twilio.png){width="500"}
-
-   * **[!UICONTROL Proveedor de SMS]**: elige `Twilio` como proveedor de SMS.
-
-   * **[!UICONTROL Nombre]** - Escriba un nombre para su definición de credencial de API.
-
-   * **[!UICONTROL SID de cuenta]** y **[!UICONTROL token de autenticación]**: acceda al panel _Información de cuenta_ de la página del panel de la consola de Twilio para encontrar sus credenciales.
-
-   Para obtener más información acerca de cómo encontrar esta información para su cuenta de Twilio, consulte el [Centro de ayuda de Twilio](https://help.twilio.com/articles/14726256820123-What-is-a-Twilio-Account-SID-and-where-can-I-find-it-).
-
-1. Haga clic en **[!UICONTROL Enviar]** en la parte superior derecha de la página cuando se hayan completado los detalles de configuración de las credenciales de la API.
-
->[!TAB Infobip]
-
-_Para configurar Infobip como su proveedor de SMS con Adobe Journey Optimizer B2B Edition:_
-
-1. En el panel de navegación izquierdo, expanda la sección **[!UICONTROL Administrador]** y haga clic en **[!UICONTROL Configuración]**.
-
-1. Haga clic en **[!UICONTROL Crear nuevas credenciales de API]** en la parte superior derecha de la lista _[!UICONTROL Credenciales de API]_.
-
-1. Configure las credenciales de la API de SMS:
-
-   ![Configurar las credenciales de la API de SMS de Infobip](./assets/config-sms-api-infobip.png){width="500"}
-
-   * **[!UICONTROL Proveedor de SMS]**: elige `Infobip` como proveedor de SMS.
-
-   * **[!UICONTROL Nombre]** - Escriba un nombre para su definición de credencial de API.
-
-   * **[!UICONTROL URL base de API]** y **[!UICONTROL clave de API]**: accede a la página de inicio de la interfaz web o a la página de administración de claves de API de tu cuenta de Infobip para encontrar tus credenciales.
-
-   Para obtener más información acerca de cómo encontrar esta información para su cuenta de Infobip, consulte la [documentación de Infobip](https://www.infobip.com/docs/api/_blank).
-
-1. Haga clic en **[!UICONTROL Enviar]** en la parte superior derecha de la página cuando se hayan completado los detalles de configuración de las credenciales de la API.
-
->[!ENDTABS]
-
-Al hacer clic en _[!UICONTROL Enviar]_, las credenciales se validan y guardan inmediatamente, lo que le redirige a la página del listado de _[!UICONTROL credenciales de la API]_. Si las credenciales enviadas no son válidas, el sistema muestra un mensaje de error en la página del listado. En este caso, puede optar por cancelar la configuración o actualizarla y enviarla de nuevo.
+Antes de crear mensajes SMS para los recorridos de la cuenta, asegúrate de que el [proveedor de servicios SMS está configurado](../admin/configure-channels-sms.md) desde la configuración de _[!UICONTROL Administrador]_.
 
 ## Añadir una acción SMS en un recorrido de cuenta
 
@@ -269,4 +165,4 @@ Journey Optimizer B2B edition permite administrar la exclusión en mensajes SMS 
 
 * De forma predeterminada, si un posible cliente ha optado por no recibir comunicaciones de su parte, el perfil correspondiente se excluye de los envíos de SMS posteriores
 
-* Este consentimiento de posible cliente proveniente de diferentes fuentes (como AEP o el proveedor de servicios SMS) se sincroniza con Journey Optimizer B2B Edition. Actualmente, solo admite un estado de consentimiento único por posible cliente a nivel de instancia (un posible cliente &quot;John Doe&quot; se suscribe o cancela la suscripción a todos los SMS promocionales en la instancia). Actualmente no admite la doble inclusión en el consentimiento a nivel de marca/lista de suscripción individual.
+* Este consentimiento de posible cliente proveniente de diferentes fuentes (como AEP o el proveedor de servicios SMS) se sincroniza con Journey Optimizer B2B edition. Actualmente, solo admite un estado de consentimiento único por posible cliente a nivel de instancia (un posible cliente &quot;John Doe&quot; se suscribe o cancela la suscripción a todos los SMS promocionales en la instancia). Actualmente no admite la doble inclusión en el consentimiento a nivel de marca/lista de suscripción individual.

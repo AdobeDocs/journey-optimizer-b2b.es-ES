@@ -1,12 +1,12 @@
 ---
 title: Nodos de Recorrido de cuenta
-description: Obtenga información acerca de los tipos de nodos que puede utilizar para crear las recorridos de cuenta.
+description: Obtenga información acerca de los tipos de nodos que puede utilizar para crear las recorridos de cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
 workflow-type: tm+mt
-source-wordcount: '1748'
-ht-degree: 2%
+source-wordcount: '2142'
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,14 @@ ht-degree: 2%
 
 Después de [crear un recorrido de cuenta](journey-overview.md#create-an-account-journey) y [agregar la audiencia](journey-overview.md#add-the-account-audience-for-your-journey), genere el recorrido mediante nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos.
 
-Cree su recorrido de cuentas combinando los diferentes nodos de acción, evento y orquestación como un escenario de varios pasos y canales cruzados. Cada nodo de un recorrido representa un paso a lo largo de una ruta lógica.
+Cree su recorrido de cuentas combinando los diferentes nodos de acción, evento y orquestación como un escenario de varios pasos y canales cruzados. Cada nodo de un recorrido representa un paso a lo largo de una ruta lógica. Utilice los siguientes tipos de nodos para construir un recorrido de cuentas:
+
+* [Público de cuenta](#account-audience-node)
+* [Realizar una acción](#take-an-action)
+* [Escuchar un evento](#listen-for-an-event)
+* [Dividir rutas](#split-paths)
+* [Espera](#wait)
+* [Combinar rutas](#merge-paths)
 
 ## Nodo Audiencia de cuenta
 
@@ -22,28 +29,32 @@ El nodo [Audiencia de cuenta](journey-overview.md#add-the-account-audience-for-y
 
 ## Realizar una acción
 
-Ejecute una acción como enviar un correo electrónico, cambiar la puntuación, etc.
+Ejecute una acción como enviar un correo electrónico, cambiar una puntuación, asignar a un grupo comprador, etc.
 
 **Acción en cuentas**: la acción se aplica a todas las personas que forman parte de cuentas en esta ruta.
 
 **Acción en personas**: la acción se aplica a todas las personas de esta ruta. Se puede utilizar una acción en personas dentro de la ruta dividida por personas o por ruta dividida por cuentas.
 
-| Contexto del nodo | Función | Restricciones |
-| ------------ | -------- | ----------- |
-| [People](#add-a-people-action) | Asignar a grupo de compra | Seleccionar interés de solución<br/>Seleccionar rol |
-| | Eliminar del grupo de compra | Seleccionar interés de solución |
-| | Enviar SMS | Creación de SMS |
+### Acciones y restricciones {#action-nodes}
+
+| Contexto del nodo | Acción | Restricciones |
+| ------------ | ------ | ----------- |
+| [People](#add-a-people-action) | Agregar a Lista | Seleccione el espacio de trabajo del Marketo Engage<br/>Nombre de lista |
 | | Añadir a campaña de solicitud de Marketo Engage | Seleccione el espacio de trabajo del Marketo Engage<br/>Seleccionar campaña de solicitud |
+| | Asignar a grupo de compra | Seleccionar interés de solución<br/>Seleccionar rol |
 | | Cambiar la partición de personas en Marketo Engage | Nueva partición |
-| | Momento interesante de la persona | Escriba<br/>Descripción |
 | | Cambiar calificación | Nombre de puntuación<br/>Cambiar |
+| | Momento interesante de la persona | Escriba<br/>Descripción |
+| | Eliminar del grupo de compra | Seleccionar interés de solución |
+| | Quitar de Lista | Seleccione el espacio de trabajo del Marketo Engage<br/>Nombre de lista |
 | | Enviar email | Crear nuevo correo electrónico<br/>Seleccionar correo electrónico del Marketo Engage |
-| [Cuentas](#add-an-account-action) | Enviar alerta de ventas | Seleccionar interés de solución<br/>Enviar correo electrónico a |
-| | Agregar cuenta a (otro) Recorrido | Seleccionar Recorrido de cuenta activa |
-| | Actualizar estado del grupo de compra | Interés de la solución<br/>Estado (obligatorio, máximo 50 caracteres) |
-| | Quitar cuenta del Recorrido (actual) | Seleccionar Recorrido de cuenta activa |
+| | Enviar SMS | Creación de SMS |
+| [Cuentas](#add-an-account-action) | Valor de datos de cambio de cuenta | Seleccionar atributo<br/>Nuevo valor |
 | | Momento interesante de la cuenta | Escriba (correo electrónico, hito o web)<br/>Descripción (opcional) |
-| | Valor de datos de cambio de cuenta | Seleccionar atributo<br/>Nuevo valor |
+| | Agregar cuenta a (otro) Recorrido | Seleccionar Recorrido de cuenta activa |
+| | Quitar cuenta del Recorrido | Seleccionar Recorrido de cuenta activa |
+| | Enviar alerta de ventas | Seleccionar interés de solución<br/>Enviar correo electrónico a |
+| | Actualizar estado del grupo de compra | Seleccione el interés de la solución<br/>Estado (obligatorio, máximo 50 caracteres) |
 
 ### Agregar una acción de cuenta
 
@@ -82,19 +93,23 @@ La audiencia avanza al siguiente paso del recorrido cuando se produce un evento.
 
 **Escuchar eventos de personas**: los eventos de personas solo se pueden aplicar en una ruta de acceso de cuenta; no está disponible para un nodo dividido por personas.
 
-| Contexto del nodo | Función | Restricciones |
-| ------------ | -------- | ----------- |
-| [People](#add-a-people-event) | Cambios en el valor de los datos | Atributo<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
-| | Hace clic en el vínculo del correo electrónico | Correo electrónico<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
-| | Asignado a grupo comprador | Interés en la solución<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
-| | Abre el email | Correo electrónico<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
-| | Se cambia el puntaje | Nombre de puntuación<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
+### Eventos y restricciones {#event-nodes}
+
+| Contexto del nodo | Evento | Restricciones |
+| ------------ | ----- | ----------- |
+| [People](#add-a-people-event) | Asignado a grupo comprador | Interés en la solución<br/>Restricciones adicionales (opcional): <ul><li>Función</li><li>Fecha de la actividad</li></ul><br/>Tiempo de espera (opcional) |
+| | Hace clic en el vínculo del correo electrónico | Correo electrónico<br/>Restricciones adicionales (opcional): <ul><li>Vínculo</li><li>Identificación del vínculo</li><li>Es un dispositivo móvil</li><li>Device</li><li>Plataforma</li><li>Explorador</li><li>Es contenido predictivo</li><li>Es actividad del bot</li><li>Patrón de actividad de bot</li><li>Explorador</li><li>Fecha de la actividad</li><li>Mín. número de veces</li></ul><br/>Tiempo de espera (opcional) |
+| | Haga clic en el enlace en SMS | Correo electrónico<br/>Restricciones adicionales (opcional):<ul><li>Vínculo</li><li>Device</li><li>Plataforma</li><li>Fecha de la actividad</li><li>Mín. número de veces</li></ul><br/>Tiempo de espera (opcional) |
+| | Cambios en el valor de los datos | Atributo de persona<br/>Restricciones adicionales (opcional):<ul><li>Nuevo valor</li><li>Valor anterior</li><li>Razón</li><li>Origen</li><li>Fecha de la actividad</li><li>Mín. número de veces</li></ul><br/>Tiempo de espera (opcional) |
+| | Abre el email | Correo electrónico<br/>Restricciones adicionales (opcional): <ul><li>Vínculo</li><li>Identificación del vínculo</li><li>Es un dispositivo móvil</li><li>Device</li><li>Plataforma</li><li>Explorador</li><li>Es contenido predictivo</li><li>Es actividad del bot</li><li>Patrón de actividad de bot</li><li>Explorador</li><li>Fecha de la actividad</li><li>Mín. número de veces</li></ul><br/>Tiempo de espera (opcional) |
 | | Eliminado del grupo de compra | Interés de la solución<br/>Fecha de la actividad (opcional)<br/>Tiempo de espera (opcional) |
-| [Cuentas](#add-an-account-event) | Cambio en el estado del grupo de compra | Interés en la solución<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
-| | Cambio en la puntuación de integridad | Interés en la solución<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
-| | La cuenta tuvo un momento interesante | Type<br/>Restricciones adicionales (opcional)<br/>Timeout (opcional) |
-| | Cambio en la puntuación de participación | Interés en la solución<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
-| | Cambio en el valor de datos de cuenta | Atributo<br/>Restricciones adicionales (opcional)<br/>Tiempo de espera (opcional) |
+| | Se cambia el puntaje | Nombre de puntuación<br/>Restricciones adicionales (opcional):<ul><li>Cambiar</li><li>Nuevo puntaje</li><li>Urgencia</li><li>Prioridad</li><li>Puntaje relativo</li><li>Urgencia relativa</li><li>Fecha de la actividad</li><li>Mín. número de veces</li></ul><br/>Tiempo de espera (opcional) |
+| | Devoluciones de SMS | Mensaje SMS<br/>Restricciones adicionales (opcional):<ul><li>Fecha de la actividad</li><li>Número mínimo de veces</li></ul><br/>Tiempo de espera (opcional) |
+| [Cuentas](#add-an-account-event) | La cuenta tuvo un momento interesante | Escriba (correo electrónico, hito o web)<br/>restricciones adicionales (opcionales):<ul><li>Descripción</li><li>Origen</li><li>Fecha de la actividad</li></ul> <br/>Tiempo de espera (opcional) |
+| | Cambio en el valor de datos de cuenta | Atributo<br/>Restricciones adicionales (opcional):<ul><li>Nuevo valor</li><li>Valor anterior</li><li>Fecha de la actividad</li></ul> <br/>Tiempo de espera (opcional) |
+| | Cambio en el estado del grupo de compra | Interés en la solución<br/>Restricciones adicionales (opcional):<ul><li>Nuevo estado</li><li>Estado anterior</li><li>Fecha de la actividad</li></ul>Tiempo de espera de <br/> (opcional) |
+| | Cambio en la puntuación de integridad | Interés en la solución<br/>Restricciones adicionales (opcional):<ul><li>Nuevo puntaje</li><li>Puntuación anterior</li><li>Fecha de la actividad</li></ul>Tiempo de espera de <br/> (opcional) |
+| | Cambio en la puntuación de participación | Interés en la solución<br/>Restricciones adicionales (opcional):<ul><li>Nuevo puntaje</li><li>Puntuación anterior</li><li>Fecha de la actividad</li></ul>Tiempo de espera de <br/> (opcional) |
 
 ### Agregar un evento de cuenta
 
@@ -126,7 +141,7 @@ La audiencia avanza al siguiente paso del recorrido cuando se produce un evento.
 
 ### Añadir un tiempo de espera a un nodo de evento
 
-Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento. El recorrido finaliza después del tiempo de espera.
+Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento. El recorrido finaliza después de un tiempo de espera.
 
 1. Habilite la opción timeout.
 
@@ -146,18 +161,18 @@ Divida la audiencia en función de las condiciones del filtro.
 >
 >Se admite un máximo de 25 rutas.
 
-**Dividir rutas por cuentas**: las rutas divididas por cuentas pueden incluir acciones y eventos de personas y cuentas, y estas rutas se pueden dividir más.
+**Dividir rutas por cuentas**: las rutas divididas por cuentas pueden incluir acciones y eventos de personas y cuentas. Estas rutas se pueden dividir más.
 
 _¿Cómo funciona un nodo de ruta dividida por cuentas?_
 
 * Cuando agrega un nodo de ruta dividida y elige _Account_, cada ruta que se agrega incluye un nodo final con la capacidad de agregar nodos a cada borde.
 * Es posible dividir la ruta por cuentas repetidamente, como en una manera anidada. Una ruta dividida incluye una opción para no añadir la ruta predeterminada.
-* Las cuentas o personas que no cumplen los requisitos para una de las rutas divididas no avanzan en el recorrido.
+* Si una cuenta o persona no cumple los requisitos para una de las rutas divididas, no avanza en el recorrido.
 * Estas rutas se pueden combinar mediante un nodo de combinación.
 
 ![nodo de Recorrido - dividir rutas por cuenta](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
-**Dividir rutas por personas**: las rutas divididas por personas solo pueden incluir acciones de personas, y estas rutas no se pueden dividir de nuevo. Las rutas se unen automáticamente.
+**Dividir rutas por personas**: las rutas se dividen por personas y solo pueden incluir acciones de personas. Estas rutas no se pueden volver a dividir y se vuelven a unir automáticamente.
 
 _¿Cómo funciona un nodo de ruta dividida por personas?_
 
@@ -167,16 +182,17 @@ _¿Cómo funciona un nodo de ruta dividida por personas?_
 
 ![nodo de Recorrido: rutas divididas por personas](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
+### Condiciones de ruta {#path-conditions}
+
 | Contexto del nodo | Condiciones de ruta | Descripción |
-| ------------ | -------- | ----------- |
-| [People](#add-a-split-path-by-people-node) | Atributos de la persona | |
-| | Valor de datos cambiado (como el filtro en el historial de actividades) | |
-| | Abrió el email | |
-| | Hizo clic en el vínculo del email | |
-| | Hizo clic en un vínculo de una página web | |
-| | Ha tenido un momento interesante | |
-| | Miembro del grupo comprador | |
-| [Cuentas](#add-a-split-path-by-account-node) | Cambio en el valor de los datos de cuenta (por ejemplo, al filtrar el historial de actividades) | |
+| ------------ | --------------- | ----------- |
+| [People](#add-a-split-path-by-people-node) | [!UICONTROL Atributos de persona] | Atributos del perfil de la persona, incluidos: <ul><li>Ciudad</li><li>País</li><li>Fecha de nacimiento</li><li>Dirección de correo electrónico</li><li>Email no válido</li><li>Email suspendido</li><li>Nombre</li><li>Región del estado inferida</li><li>Cargo</li><li>Apellido</li><li>Número de teléfono móvil</li><li>Número de teléfono</li><li>Código postal</li><li>Estado</li><li>Suscripción cancelada</li><li>Razón de la cancelación de la suscripción</li></ul> |
+| | [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico asociadas con el recorrido: <ul><li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico]</li><li>Abrió el email</li><li>Se entregó el email</li><li>Se envió email</li></ul> Estas condiciones se evalúan utilizando un mensaje de correo electrónico seleccionado de anteriormente en el recorrido. |
+| | [!UICONTROL Historial de actividades] > [!UICONTROL Se ha cambiado el valor de los datos] | Se ha producido un cambio de valor en un atributo de persona seleccionado. Estos tipos de cambio incluyen: <ul><li>Nuevo valor</li><li>Valor anterior</li><li>Razón</li><li>Origen</li><li>Fecha de la actividad</li><li>Mín. número de veces</li></ul> |
+| | [!UICONTROL Historial de actividades] > [!UICONTROL Ha tenido un momento interesante] | Actividad de momento interesante que se define en la instancia de Marketo Engage asociada. Las restricciones incluyen: ul><li>Hito</li><li>Correo electrónico</li><li>Web</li></ul> |
+| | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <ul><li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Función</li></ul> |
+| [Cuentas](#add-a-split-path-by-account-node) | Atributos de la cuenta | Atributos del perfil de cuenta, incluidos: <ul><li>Ingresos anuales</li><li>Ciudad</li><li>País</li><li>Cantidad de empleados</li><li>Industria</li><li>Nombre</li><li>Código SIC</li><li>Estado</li></ul> |
+| | [!UICONTROL Filtros especiales] > [!UICONTROL Tiene grupo de compra] | La cuenta tiene o no miembros de grupos de compra evaluados según uno o más de los siguientes criterios: <ul><li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li></ul> |
 
 ### Adición de una ruta dividida por nodo de cuenta
 
@@ -236,7 +252,7 @@ _¿Cómo funciona un nodo de ruta dividida por personas?_
 
 1. Por último, puede agregar una ruta predeterminada para las personas no cualificadas para las rutas anteriores. Si no, el recorrido termina para estas personas
 
-Cuando haya definido condiciones para cada ruta en la que vaya a dividir la audiencia en personas, puede agregar las acciones que desee llevar a cabo con las personas.
+Cuando haya definido condiciones para cada ruta para dividir la audiencia en personas, puede agregar las acciones que desee realizar con las personas.
 
 >[!NOTE]
 >
@@ -276,6 +292,6 @@ Las diferentes rutas del recorrido se pueden combinar y descombinar con este nod
 
    ![nodo de Recorrido - rutas de combinación](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
-   Ahora debería ver que las rutas se combinan para que las cuentas de las rutas seleccionadas se combinen en una sola ruta y puedan continuar avanzando a través del recorrido.
+   En este punto, las rutas se combinan para que las cuentas de las rutas seleccionadas se combinen en una sola ruta que pueda continuar avanzando a través del recorrido.
 
 1. Si es necesario, puede anular la combinación de rutas volviendo a las propiedades del nodo de combinación y desactivando la casilla de verificación de las rutas que desee eliminar.
