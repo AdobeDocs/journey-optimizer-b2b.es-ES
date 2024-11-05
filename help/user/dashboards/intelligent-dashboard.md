@@ -7,19 +7,19 @@ hidefromtoc: true
 source-git-commit: f27b0247be252a655e7fb68ee637efdabea959fc
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 3%
+ht-degree: 60%
 
 ---
 
 # Panel de control inteligente
 
 
-## Fases del grupo de compra {#buying-group-stages}
+## Fases del grupo de compras {#buying-group-stages}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
->title="Fases del grupo de compra"
->abstract="Este gráfico proporciona una visión general de la progresión del grupo de compra en diferentes etapas en función de las reglas de transición configuradas en la página de administración. La primera barra indica el número de grupos de compra en una fase específica en la primera fecha del lapso de tiempo seleccionado en comparación con el número de grupos de compra en la última fecha del periodo de tiempo seleccionado."
+>title="Fases del grupo de compras"
+>abstract="Este gráfico ofrece información general sobre la progresión del grupo de compras en diferentes etapas en función de las reglas de transición configuradas en la página de administración. La primera barra indica el número de grupos de compra de una fase específica en la primera fecha del lapso de tiempo seleccionado en comparación con el número de grupos de compra en la última fecha del lapso de tiempo seleccionado."
 
 Texto de marcador de posición para describir más detalles/ejemplo de la sección Fases de grupos de compras.
 
@@ -27,39 +27,39 @@ Texto de marcador de posición para describir más detalles/ejemplo de la secci�
 
 Marcador de posición para obtener una descripción general de las secciones destacadas del grupo comprador
 
-### Principales 5 grupos de compras por participación {#top-5-by-engagement}
+### 5 principales grupos de compras por participación {#top-5-by-engagement}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
->title="Principales 5 grupos de compras por participación"
->abstract="Principales grupos de compra comprometidos en función de su puntuación de participación normalizada."
+>title="5 principales grupos de compras por participación"
+>abstract="Los principales grupos de compra comprometidos en función de su puntuación de participación normalizada."
 
 Texto de marcador de posición para describir más detalles/ejemplo de los 5 grupos principales de compras por sección de participación.
 
-### Principales 5 grupos de compra de alta velocidad {#top-5-by-velocity}
+### 5 principales grupos de compra de alta velocidad {#top-5-by-velocity}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_velocity"
->title="Principales 5 grupos de compra de alta velocidad"
->abstract="Comprar grupos en función de la velocidad con la que progresan por etapas."
+>title="5 principales grupos de compra de alta velocidad"
+>abstract="Grupos de compra en función de la velocidad a la que avanzan por las etapas."
 
 Texto de marcador de posición para describir más detalles/ejemplo de la sección Principales 5 grupos de compra de alta velocidad.
 
-### Principales 5 grupos de compradores estancados {#top-5-stagnant}
+### 5 principales grupos de compradores estancados {#top-5-stagnant}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_stagnant"
->title="Principales 5 grupos de compradores estancados"
->abstract="Grupos de compra estancados que no progresan a través de etapas a pesar de la alta puntuación de integridad."
+>title="5 principales grupos de compradores estancados"
+>abstract="Los grupos de compra estancados que no avanzan por las etapas a pesar de la alta puntuación de completitud."
 
 Texto de marcador de posición para describir más detalles/ejemplo de la sección Principales 5 grupos de compras estancadas.
 
-## Aumento de cuenta {#account-surge}
+## Auge de la cuenta {#account-surge}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_surge"
->title="Aumento de cuenta"
->abstract="Cuentas con un cambio significativo en el impulso de participación dentro del lapso de tiempo seleccionado."
+>title="Auge de la cuenta"
+>abstract="Cuentas con un cambio significativo en el impulso de la participación dentro del lapso de tiempo seleccionado."
 
 Texto de marcador de posición para describir más detalles/ejemplo para la sección Aumento de cuenta.
 
@@ -67,12 +67,12 @@ Texto de marcador de posición para describir más detalles/ejemplo para la secc
 
 Marcador de posición para obtener una descripción general de las secciones destacadas del grupo comprador
 
-### Cuentas en aumento {#surging-accounts}
+### Cuentas en auge {#surging-accounts}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_surging"
->title="Cuentas en aumento"
->abstract="Cuentas con un aumento significativo del impulso de participación en el lapso de tiempo seleccionado "
+>title="Cuentas en auge"
+>abstract="Cuentas con un aumento significativo del impulso de la participación en el lapso de tiempo seleccionado "
 
 Texto de marcador de posición para describir más detalles/ejemplo para la sección Cuentas emergentes.
 
@@ -85,20 +85,20 @@ Texto de marcador de posición para describir más detalles/ejemplo para la secc
 
 Texto de marcador de posición para describir más detalles/ejemplo para la sección Cuentas de riesgo.
 
-## Cobertura del contacto {#contact-coverage}
+## Cobertura de contactos {#contact-coverage}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_coverage"
->title="Cobertura del contacto"
->abstract="Muestra el número de contactos con una función específica asociada con un interés de solución. La asignación de la función y el interés de la solución se basan en la plantilla de grupo de compra."
+>title="Cobertura de contactos"
+>abstract="Muestra el número de contactos con una función específica asociada a un interés de solución. La asignación de la función y el interés de la solución se basan en la plantilla de grupo de compra."
 
 Texto de marcador de posición para describir más detalles/ejemplo para la sección Cobertura de contacto.
 
-## Superposición de contactos {#contact-overlap}
+## Solapamiento de contactos {#contact-overlap}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
->title="Superposición de contactos"
->abstract="Lista de contactos que forman parte de más de un grupo de compra como resultado de estar asociados con varios intereses de soluciones."
+>title="Solapamiento de contactos"
+>abstract="Lista de contactos que forman parte de más de un grupo de compra como resultado de estar asociados a múltiples intereses de la solución."
 
 Texto de marcador de posición para describir más detalles/ejemplo para la sección Superposición de contactos.
