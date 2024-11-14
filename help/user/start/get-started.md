@@ -2,7 +2,7 @@
 title: Introducción a Journey Optimizer B2B edition
 description: Como nuevo usuario de la edición B2B de Journey Optimizer, obtenga información sobre las áreas clave para comenzar.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: ed736c7366ad3fa5c4023947b1c3c4cef7097e2e
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 10%
@@ -37,9 +37,9 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 
 1. **Configure la entrega de correo electrónico** en Marketo Engage, lo que permite a su equipo enviar contenido de correo electrónico desde los recorridos de la cuenta. [Más información](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
 
-1. **Configurar servicios de SMS**. Configure uno de los proveedores de SMS de terceros admitidos que ofrecen servicios de mensajería de texto de forma independiente y configure las credenciales de la cuenta en Adobe Journey Optimizer B2B edition. [Más información](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
+1. **Configurar servicios de SMS**. Configure uno de los proveedores de SMS de terceros admitidos que ofrecen servicios de mensajería de texto de forma independiente y configure las credenciales de la cuenta en Adobe Journey Optimizer B2B edition. [Más información](../admin/configure-channels-sms.md)
 
-1. **Configure y habilite el uso de Adobe Experience Manager Assets** para equipos que usan Assets como Cloud Service de recursos digitales para la administración centralizada de recursos. [Más información](../admin/configure-aem-repositories.md)
+1. **Configure y habilite el uso de Adobe Experience Manager Assets** para equipos que usan Assets as a Cloud Service para la administración centralizada de recursos digitales. [Más información](../admin/configure-aem-repositories.md)
 
 >[!TAB Inicio rápido para especialistas en marketing]
 
