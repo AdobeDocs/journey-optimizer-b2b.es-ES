@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo asignar integrantes del equipo a p
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 8335e47021df16d0e423c9cc270bf8a6e23834fc
+source-git-commit: 97a9932a8a2a1c7a37dcc110b59cee70a61b5763
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1055'
 ht-degree: 3%
 
 ---
@@ -57,14 +57,14 @@ Antes de poder usar el Admin Console para administrar usuarios dentro de su equi
 Al conceder a los usuarios acceso a una solución de Adobe, no necesariamente desea darles acceso completo. Los perfiles de producto permiten que cada solución tenga su propio conjunto de permisos de usuario. Utilice el Admin Console para asignar perfiles de producto.
 
 Para obtener más información sobre el uso de perfiles de producto para las autorizaciones de usuario, consulte [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html){target="_blank"} en la documentación de Admin Console.
-
+<!--
 >[!BEGINSHADEBOX]
 
-Cuando agrega un usuario al perfil de producto del Marketo Engage, se agrega posteriormente al rol _Usuario estándar_ dentro del área de trabajo predeterminada de la suscripción del Marketo Engage. Esta función les otorga a todos los _usuarios estándar_ permisos para el Marketo Engage en ese área de trabajo. Actualmente, todos los usuarios de Journey Optimizer B2B edition deben ser usuarios Marketo Engage. Un administrador de Marketo Engage puede restringir el acceso actualizando los permisos del rol _Usuario estándar_ o moviendo al usuario a otro rol de usuario de Marketo Engage con permisos más restrictivos.
+When you add a user to the Marketo Engage product profile, they are subsequently added to the _Standard User_ role within the Default workspace of the Marketo Engage subscription. This role grants them all _Standard User_ permissions for Marketo Engage in that workspace. Currently, all Journey Optimizer B2B Edition users are required to be Marketo Engage users. A Marketo Engage administrator can restrict access by updating the permissions for the _Standard User_ role or by moving the user to a different Marketo Engage user role with more restrictive permissions.
 
-Para obtener más información acerca de la administración de estos permisos en el Marketo Engage, consulte [Administración de roles y permisos de usuarios](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} en la documentación del Marketo Engage.
+For more information about managing these permissions within Marketo Engage, see [Managing User Roles and Permissions](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in the Marketo Engage documentation.
 
->[!ENDSHADEBOX]
+>[!ENDSHADEBOX]-->
 
 >[!NOTE]
 >
