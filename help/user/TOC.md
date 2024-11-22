@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: dbc6fb9e41817def4e141518c1a5b2702441ae60
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 40%
+source-wordcount: '161'
+ht-degree: 41%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 40%
    + [Información general](./buying-groups/buying-groups-overview.md)
    + [Intereses de solución](./buying-groups/solution-interests.md)
    + [Plantillas de roles](./buying-groups/buying-groups-role-templates.md)
+   + [Fases del grupo de compras](./buying-groups/buying-group-stages.md)
    + [Creación de grupos de compra](./buying-groups/buying-groups-create.md)
 + Recorridos de cuenta {#account-journeys}
    + [Información general](./journeys/journey-overview.md)

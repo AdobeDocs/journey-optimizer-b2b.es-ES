@@ -3,9 +3,9 @@ title: Intereses de solución
 description: Obtenga información acerca de los intereses de las soluciones y cómo puede definirlos para usarlos en sus grupos de compra.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Antes de crear grupos de compra, debes saber qué estás vendiendo y a quién qu
 
 ## Acceder y examinar los intereses de la solución
 
-1. En la página de inicio de Adobe Experience Platform, haga clic en Adobe Journey Optimizer B2B Edition.
+1. En la página de inicio de Adobe Experience Platform, haga clic en Adobe Journey Optimizer B2B edition.
 
 1. En el panel de navegación izquierdo, haz clic en **[!UICONTROL Comprar grupos]**.
 
@@ -48,13 +48,21 @@ Antes de crear un interés de solución, debe tener una plantilla de funciones a
 
 1. Elija una **[!UICONTROL plantilla de roles]** (obligatorio).
 
-   Haga clic en el selector y elija una plantilla de funciones activa en la lista mostrada. Solo puede asociar una plantilla de roles activa con un interés de solución.
+   Haga clic en **[!UICONTROL Seleccionar plantilla de roles]** y elija una plantilla de roles activa en la lista del cuadro de diálogo. Solo puede asociar una plantilla de roles activa con un interés de solución. Haga clic en **[!UICONTROL Guardar]** para volver a la página _[!UICONTROL Crear interés de solución]_, en la que se muestra la plantilla de roles seleccionada.
 
-   ![Ficha Interés de la solución](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![Agregar una plantilla de funciones al interés de la solución](assets/solution-interest-create.png){width="700" zoomable="yes"}
+
+1. Seleccione el **[!UICONTROL modelo de fase de grupo de compra]** para usar la progresión de fase de grupo de compra (opcional).
+
+   Para obtener más información acerca del uso de fases de grupos de compras para realizar el seguimiento de la progresión de cuentas, consulte [Fases de grupos de compras](./buying-group-stages.md).
+
+1. Habilitar la configuración **[!UICONTROL Actualizar grupos de compras existentes]** (opcional).
+
+   Cuando esta opción está habilitada, todos los grupos de compra existentes vinculados con el interés de la solución se actualizan a través del ciclo de sincronización de 24 horas.
 
 1. Haga clic en **[!UICONTROL Crear]** en la esquina superior derecha.
 
-   El nuevo interés de la solución se muestra en Intereses de la solución
+   El nuevo interés de la solución se muestra en la lista _[!UICONTROL Intereses de la solución]_.
 
 ## Editar el interés de una solución
 
@@ -68,6 +76,10 @@ En cualquier momento, puede cambiar el nombre y la descripción de una solución
    ![Menú más de interés para la solución](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. Si es necesario, actualice el nombre (obligatorio y único) y la descripción (opcional).
+
+1. Si es necesario, seleccione el **[!UICONTROL modelo de fase de grupo de compra]** para rastrear la progresión de la fase de grupo de compra.
+
+   Para obtener más información acerca del uso de fases de grupos de compras para realizar un seguimiento de la progresión de los recorridos en comparación con las ventas, consulte [Fases de grupos de compras](./buying-group-stages.md).
 
 1. Si es necesario, cambia la configuración **[!UICONTROL Actualizar grupos de compras existentes]**.
 
