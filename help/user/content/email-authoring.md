@@ -224,7 +224,7 @@ Se pueden detectar dos tipos de alertas:
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
->title="Compruebe cómo se procesa el contenido"
+>title="Compruebe cómo se representa el contenido"
 >abstract="Una vez definido el contenido, puede previsualizarlo y comprobar si el procesamiento es correcto según el canal que utilice."
 
 Cuando se define el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo, enviar pruebas y controlar su renderización en clientes populares de escritorio, móviles y basados en web. Si ha insertado contenido personalizado, puede obtener una vista previa de cómo se muestra este contenido en el mensaje mediante los datos del perfil de prueba.

@@ -2,10 +2,11 @@
 title: Contenido condicional
 description: Aprenda a crear variaciones de contenido y aplicar reglas condicionales al crear contenido de correo electrónico para recorridos de cuenta.
 feature: Email Authoring, Content
-source-git-commit: 15a5144554f25634efa29efc42d41350b19c2bfb
+exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -15,7 +16,7 @@ El contenido condicional le permite adaptar el contenido del correo electrónico
 
 Para agregar contenido condicional a los mensajes de correo electrónico, Adobe Journey Optimizer permite aplicar reglas condicionales almacenadas en la biblioteca _Conditions_. Aplique reglas condicionales dentro del diseñador de correo electrónico a medida que [crea un correo electrónico dentro de un recorrido de cuenta](./email-authoring.md).
 
-## Adición de contenido condicional a correos electrónicos {#email-content}
+## Añadir contenido condicional a correos electrónicos {#email-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"

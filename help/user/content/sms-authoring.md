@@ -122,7 +122,7 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
->title="Compruebe cómo se procesa el contenido"
+>title="Compruebe cómo se representa el contenido"
 >abstract="Una vez definido el contenido, puede previsualizarlo y comprobar el renderizado según el canal que utilice."
 
 Cuando se define el contenido del mensaje, puede utilizar perfiles de prueba para simular (previsualizar) su contenido. Si ha insertado contenido personalizado, puede comprobar cómo se muestra este en el mensaje mediante los datos del perfil de prueba.
