@@ -4,7 +4,7 @@ description: Obtenga información sobre el uso del Adobe Express para editar im�
 feature: Assets, Content
 hide: true
 hidefromtoc: true
-source-git-commit: 34b18ccffce2cad8f11246bfc59a5ba59a954e7d
+source-git-commit: 941400fc55e418496318fe8182cd918d0643388e
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -21,5 +21,4 @@ ht-degree: 0%
 Adobe Journey Optimizer B2B edition se integra de forma nativa con Adobe Express y le permite acceder a un conjunto de herramientas de edición de imágenes de Adobe Express. Puede utilizar estas herramientas para modificar las imágenes almacenadas en Journey Optimizer B2B edition Workspace para el repositorio de recursos del Marketo Engage conectado. La integración ofrece las siguientes ventajas clave:
 
 * Se ha aumentado la reutilización del contenido mediante la edición y el guardado de nuevos recursos de imagen en Journey Optimizer B2B edition.
-
 * Se ha reducido el tiempo y el esfuerzo para actualizar los recursos de imagen o crear nuevas versiones de los recursos de imagen existentes.
