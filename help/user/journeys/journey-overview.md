@@ -3,21 +3,23 @@ title: Recorridos de cuenta
 description: Obtenga información acerca de los recorridos de cuenta y cómo puede crearlos y administrarlos.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 1%
+source-wordcount: '1141'
+ht-degree: 2%
 
 ---
 
 
 # Recorridos de cuenta
 
+Cree y ejecute recorridos personalizados para cada grupo comprador y miembro del grupo comprador mediante la participación automatizada en correos electrónicos, SMS, eventos y mucho más. Con los recorridos de cuenta, puede optimizar la generación de demanda y la calificación del grupo de compra, así como impulsar una demanda más cualificada para sus programas de adquisición, ampliación de ventas/ventas cruzadas y retención.
+
 Defina un compromiso basado en las ventas que incluya correo electrónico, SMS y más recorridos de cuenta interna para coordinar el marketing entrante con las actividades de ventas salientes de cada miembro del grupo comprador.
 
 ## Acceso y exploración de recorridos de cuenta
 
-1. En la página de inicio de Adobe Experience Platform, haga clic en Adobe Journey Optimizer B2B Edition.
+1. En la página de inicio de Adobe Experience Platform, haga clic en Adobe Journey Optimizer B2B edition.
 
 1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL recorridos de cuenta]**.
 
@@ -54,7 +56,7 @@ El encabezado del editor de cada recorrido de cuenta incluye:
 
 Las siguientes acciones están disponibles en el encabezado:
 
-* **Publish**: puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique, el estado del Recorrido cambiará a _Activo_. Si el recorrido tiene errores, el botón aparece atenuado con información de contenido: `Resolve errors before publishing`.
+* **Publish**: puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique, el estado del recorrido cambiará a _Activo_. Si el recorrido tiene errores, el botón aparece atenuado con información de contenido: `Resolve errors before publishing`.
 * **Duplicado**: esta acción es similar a una función de clonación, pero el recorrido duplicado no incluye ningún recurso.
 * **Cerca de nuevas entradas**: si cierra un recorrido, las cuentas que se encuentran actualmente en el recorrido continuarán su ruta de acceso en el recorrido y no podrá haber más entradas al recorrido. No se puede reiniciar un recorrido cerrado. Puede duplicar un recorrido cerrado.
 * **Anular**: si detiene un recorrido, las cuentas del recorrido detienen inmediatamente su progreso y no puede producirse ninguna otra entrada al recorrido. Un recorrido detenido no se puede reiniciar. Si bloquea nuevas entradas sin detener el progreso de la gente, considere en su lugar cerrar el recorrido.
@@ -86,35 +88,19 @@ Para empezar con un recorrido de cuentas, cree el recorrido y, a continuación, 
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-### Añada la audiencia de la cuenta para su recorrido
-
-El recorrido de una cuenta siempre comienza con la Audiencia de la cuenta, donde puede agregar entradas al recorrido.
-
-1. Haga clic en el nodo **[!UICONTROL Audiencia de la cuenta]** para mostrar las propiedades del nodo a la derecha.
-
-   ![Nodo de audiencia de cuenta](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
-
-1. Haga clic en **[!UICONTROL Agregar audiencia de cuenta]**.
-
-   Puede seleccionar un segmento de audiencia seleccionado anteriormente haciendo clic en _[!UICONTROL Agregar audiencias]_.
-
-1. Para crear un nuevo segmento de audiencia, seleccione **[!UICONTROL Audiencias de cuenta]** en el panel de navegación izquierdo.
-
-1. Haga clic en **[!UICONTROL Crear audiencia]** y siga los pasos descritos en la [guía del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
-
 ### Componentes básicos de un recorrido
 
-El _lienzo de recorrido_ es la zona central del diseñador de recorridos. Es en esta zona donde puede agregar nodos de recorrido y configurarlos. Haga clic en un nodo para abrir su panel de propiedades a la derecha del lienzo y establecerlo según el diseño.
+El _mapa de recorrido_ es la zona central del diseñador de recorridos. Es en esta zona donde puede agregar nodos de recorrido y configurarlos. Haga clic en un nodo para abrir su panel de propiedades a la derecha del lienzo y establecerlo según el diseño. Un recorrido de cuenta siempre comienza con un [nodo de audiencia de cuenta](./account-audience-nodes.md) donde puede agregar datos a su recorrido.
 
-Puede crear su recorrido utilizando cualquiera de estos tipos de nodos:
+Después de crear un recorrido de cuentas y agregar la audiencia, genere el recorrido con los nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos utilizando los siguientes tipos de nodos para crear un recorrido de cuentas:
 
-* [Escuchar un evento](journey-nodes.md#listen-for-an-event)
-* [Realizar una acción](journey-nodes.md#take-an-action)
-* [Dividir rutas](journey-nodes.md#split-paths)
-* [Espera](journey-nodes.md#wait)
-* [Combinar rutas](journey-nodes.md#merge-paths)
+* [Realizar una acción](./action-nodes.md)
+* [Escuchar un evento](./listen-for-event-nodes.md)
+* [Dividir rutas](./split-merge-paths-nodes.md)
+* [Espera](./wait-nodes.md)
+* [Combinar rutas](./split-merge-paths-nodes.md)
 
-### Barandillas de protección
+### Mecanismos de protección
 
 Para ayudarle a crear un recorrido sin que se produzcan errores, se han implementado los siguientes carriles de protección:
 
@@ -134,7 +120,7 @@ Para ayudarle a crear un recorrido sin que se produzcan errores, se han implemen
 
 1. Vaya al editor de recorrido.
 
-1. En las propiedades del nodo, a la derecha, haga clic en el icono _Eliminar_ (papelera).
+1. En las propiedades del nodo, a la derecha, haga clic en el icono _Eliminar_ ( ![Icono Eliminar](../assets/do-not-localize/icon-delete.svg) ).
 
 1. En el cuadro de diálogo de conformación, haga clic en **[!UICONTROL Eliminar]**.
 
@@ -142,7 +128,7 @@ Para ayudarle a crear un recorrido sin que se produzcan errores, se han implemen
 
 1. Vaya al editor de recorrido.
 
-1. Haga clic en el icono de signo más ( **+** ) en la ruta y agregue el nodo de ruta dividida.
+1. Haga clic en el icono de signo más (**+** ) en la ruta y agregue el [nodo de ruta dividida](./split-merge-paths-nodes.md#split-paths).
 
 1. En las propiedades del nodo a la derecha, seleccione **[!UICONTROL Cuenta]**.
 
@@ -150,11 +136,11 @@ Para ayudarle a crear un recorrido sin que se produzcan errores, se han implemen
 
    Con cada ruta creada en el recorrido, aparece una nueva tarjeta de ruta en las propiedades.
 
-1. Vaya a una de las rutas del recorrido y añada nodos de acción o evento a esta ruta mediante el icono más.
+1. Vaya a una de las rutas del recorrido y agregue los nodos [action](./action-nodes.md) o [event](./listen-for-event-nodes.md) a esta ruta mediante el icono más.
 
-1. Seleccione el nodo de ruta dividida para abrir las propiedades a la derecha.
+1. Seleccione el nodo [ruta dividida](./split-merge-paths-nodes.md) para abrir las propiedades a la derecha.
 
-   Tenga en cuenta que las rutas que tienen nodos en ellas no se pueden eliminar.
+   Las rutas que tienen nodos no se pueden eliminar.
 
 1. Para eliminar estas rutas, primero debe eliminar todos los nodos de esa ruta.
 
@@ -181,3 +167,7 @@ Cuando publica un recorrido, puede comenzar inmediatamente o en una fecha futura
 1. Haga clic en **[!UICONTROL Guardar]**.
 
    Cuando estés listo para publicar tu recorrido, puedes revisar esta configuración cuando hagas clic en _[!UICONTROL Publish]_.
+
+### Publish y un recorrido de cuentas
+
+

@@ -2,9 +2,9 @@
 title: Introducción a Journey Optimizer B2B edition
 description: Como nuevo usuario de la edición B2B de Journey Optimizer, obtenga información sobre las áreas clave para comenzar.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '664'
 ht-degree: 10%
 
 ---
@@ -40,6 +40,8 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 1. **Configurar servicios de SMS**. Configure uno de los proveedores de SMS de terceros admitidos que ofrecen servicios de mensajería de texto de forma independiente y configure las credenciales de la cuenta en Adobe Journey Optimizer B2B edition. [Más información](../admin/configure-channels-sms.md)
 
 1. **Configure y habilite el uso de Adobe Experience Manager Assets** para equipos que usan Assets as a Cloud Service para la administración centralizada de recursos digitales. [Más información](../admin/configure-aem-repositories.md)
+
+1. **Configure las definiciones de eventos de experiencia de Adobe Experience Platform (AEP)** para los equipos responsables de la creación de recorridos de cuenta que escuchan eventos de experiencia de AEP. [Más información](../admin/configure-aep-events.md)
 
 >[!TAB Inicio rápido para especialistas en marketing]
 

@@ -1,11 +1,11 @@
 ---
 title: Plantillas de email
-description: Aprenda a administrar y crear plantillas de correo electrónico que se puedan usar para crear correos electrónicos de recorrido de cuentas de forma fácil y eficaz.
+description: Aprenda a administrar y crear plantillas de correo electrónico que se utilizan para crear correos electrónicos de recorrido de cuentas de forma fácil y eficaz.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
+source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1316'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Para un proceso de diseño acelerado y mejorado, puede crear plantillas de corre
 
 Para acceder a las plantillas de correo electrónico en Adobe Journey Optimizer B2B edition, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**. Esta acción abre una página de lista con todas las plantillas de correo electrónico creadas en la instancia enumeradas en una tabla.
 
-La tabla está ordenada por la columna _[!UICONTROL Modificado]_, con las plantillas actualizadas más recientemente en la parte superior de la lista de forma predeterminada. Haga clic en el título de la columna para cambiar entre ascendente y descendente.
+La tabla está ordenada por la columna _[!UICONTROL Modificada]_ de forma predeterminada, con las plantillas actualizadas más recientemente en la parte superior. Haga clic en el título de la columna para cambiar entre ascendente y descendente.
 
 Para buscar una plantilla por nombre, escriba una cadena de texto en la barra de búsqueda. Haga clic en el icono _Filtro_ en la parte superior izquierda para filtrar la lista según las fechas de creación o modificación, y las plantillas que haya creado o modificado.
 
@@ -26,7 +26,7 @@ Para buscar una plantilla por nombre, escriba una cadena de texto en la barra de
 
 Personalice las columnas que desee mostrar en la tabla haciendo clic en el icono _Personalizar tabla_ de la parte superior derecha. Seleccione las columnas que desea mostrar y haga clic en **[!UICONTROL Aplicar]**.
 
-Desde la página del listado, puede realizar las acciones descritas en las siguientes secciones.
+Desde la lista mostrada de plantillas, puede realizar las acciones descritas en las secciones siguientes.
 
 ## Creación de una plantilla de correo electrónico
 
@@ -35,12 +35,6 @@ Puede crear una plantilla de correo electrónico a partir de la página de lista
 1. En el cuadro de diálogo, escriba un **[!UICONTROL Nombre]** y una **[!UICONTROL Descripción]** útiles (opcionales).
 
    ![Introduzca las propiedades iniciales de la nueva plantilla de correo electrónico](./assets/templates-create-dialog.png){width="400"}
-
-1. Establezca el **[!UICONTROL origen de imagen]** inicial.
-
-   Si tiene una suscripción al as a Cloud Service de Experience Manager Assets junto con el Adobe Marketo Engage Design Studio predeterminado, puede elegir recursos de imagen de cualquier origen. Para ello, debe seleccionar el origen de la imagen en el momento de la creación de una plantilla de correo electrónico o fragmento visual. Sin embargo, también puede seleccionar el origen de la imagen cuando edite el contenido.
-
-   Para obtener más información sobre los orígenes de imagen, consulte [Assets](./assets-overview.md).
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
@@ -94,7 +88,7 @@ En la página de lista Plantillas, haga clic en el nombre de una plantilla de co
 
 * Si hay alertas activas (errores y advertencias para la plantilla de correo electrónico), haga clic en **[!UICONTROL Alertas]** en la parte superior derecha para ver la información.
 
-  Aunque estas alertas no prohíben el uso de la plantilla de correo electrónico para la creación de correos electrónicos, esta información proporciona visibilidad a los especialistas en marketing de su equipo sobre lo que podría no funcionar y las actualizaciones necesarias antes de que se pueda utilizar para la entrega.
+  Estas alertas no prohíben el uso de la plantilla de correo electrónico para la creación de correos electrónicos. La información proporciona a los especialistas en marketing de su equipo visibilidad sobre lo que podría no funcionar y las actualizaciones necesarias antes de poder utilizarlo para la entrega.
 
 ## Ver plantilla de correo electrónico utilizada por referencias
 
@@ -115,7 +109,7 @@ Esta acción se puede realizar desde:
 * La página de detalles: haga clic en **[!UICONTROL Editar plantilla de correo electrónico]**.
 * La página del listado: haga clic en los puntos suspensivos (**...**) junto a una plantilla de correo electrónico y elija **[!UICONTROL Editar]**.
 
-Esta acción lo lleva a la página _Diseñar su plantilla_ o a la página del editor de contenido visual en función del último estado guardado de la plantilla de correo electrónico. Desde aquí puede editar el contenido de su plantilla de correo electrónico según sea necesario. Consulte [Crear plantillas de correo electrónico](#create-email-templates) para obtener información sobre las opciones de edición.
+Esta acción lo lleva a la página _Diseñar su plantilla_ o a la página del editor de contenido visual (según el último estado guardado de la plantilla de correo electrónico). Desde aquí puede editar el contenido de su plantilla de correo electrónico según sea necesario. Consulte [Crear plantillas de correo electrónico](#create-email-templates) para obtener información sobre las opciones de edición.
 
 ## Duplicar plantillas de correo electrónico
 
@@ -150,7 +144,7 @@ En la página de lista de plantillas de correo electrónico, seleccione varias p
 
 **[!UICONTROL Eliminar]**: puede eliminar hasta un máximo de 20 plantillas al mismo tiempo. Un cuadro de diálogo de confirmación le permite anular la acción o confirmar la eliminación de las plantillas.
 
-## Creación de un correo electrónico a partir de una plantilla guardada
+## Crear un correo electrónico a partir de una plantilla guardada
 
 Desde la pantalla _Crear tu correo electrónico_, usa la sección _Seleccionar plantilla de diseño_ para empezar a crear tu contenido a partir de una plantilla.
 

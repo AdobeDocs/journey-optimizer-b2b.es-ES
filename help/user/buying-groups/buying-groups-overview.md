@@ -3,9 +3,9 @@ title: Grupos de compra
 description: Descubra cómo los grupos de compras en Journey Optimizer B2B edition pueden aumentar la eficacia del marketing al identificar y segmentar miembros para sus listas de cuentas.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1259'
 ht-degree: 5%
 
 ---
@@ -77,7 +77,7 @@ Use la ficha _[!UICONTROL Examinar]_ para ver la lista de grupos compradores. Pu
 
 ## Detalles del grupo de compra
 
-Para acceder a los detalles de un grupo comprador, haz clic en el nombre del grupo comprador en la pestaña _[!UICONTROL Examinar]_.
+Para acceder a los detalles de un grupo comprador, haz clic en el nombre del grupo comprador en la pestaña _[!UICONTROL Examinar]_. [Más información](./buying-group-details.md)
 
 ![Detalles del grupo de compra](assets/buying-group-details.png){width="600" zoomable="yes"}
 

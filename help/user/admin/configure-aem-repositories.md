@@ -1,9 +1,9 @@
 ---
 title: Configuración de repositorios de recursos de Experience Manager
-description: Obtenga información sobre cómo configurar una conexión a repositorios de Experience Manager Assets para utilizarla en la creación de contenido de Journey Optimizer B2B Edition.
+description: Obtenga información sobre cómo configurar una conexión a repositorios de Experience Manager Assets para utilizarla en la creación de contenido de Journey Optimizer B2B edition.
 feature: Assets, Integrations
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -12,15 +12,17 @@ ht-degree: 0%
 
 # Configuración de repositorios de recursos de Experience Manager
 
-Adobe Journey Optimizer B2B Edition se integra con Adobe Experience Manager Assets as a Cloud Service, lo que permite algo más que usar recursos como correos electrónicos en un recorrido de cuenta. Garantiza la transparencia al intercambiar información con Experience Manager Assets. Configure la conexión al Adobe de Experience Assets para habilitar esta capacidad.
+Adobe Journey Optimizer B2B edition se integra con Adobe Experience Manager Assets as a Cloud Service, lo que permite algo más que usar recursos como correos electrónicos en un recorrido de cuenta. Garantiza la transparencia al intercambiar información con Experience Manager Assets. Configure la conexión al Adobe de Experience Assets para habilitar esta capacidad.
 
-Adobe Experience Manager Cloud Manager está organizado en programas y cada programa tiene varios entornos y repositorios ([Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Al configurar Adobe Experience Manager Assets en Adobe Journey Optimizer B2B Edition, se configuran las conexiones a cada repositorio que desea utilizar para acceder a los recursos digitales.
+Adobe Experience Manager Cloud Manager está organizado en programas y cada programa tiene varios entornos y repositorios ([Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Al configurar Adobe Experience Manager Assets en Adobe Journey Optimizer B2B edition, se configuran las conexiones a cada repositorio que desea utilizar para acceder a los recursos digitales.
+
+{{aem-assets-licensing-note}}
 
 ## Requisitos previos
 
 * AEM Genere las credenciales de servicio para el entorno deseado en el Developer Console sin encabezado de la ([Más información](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).
 * Adquiera los certificados necesarios para la conexión. Como práctica recomendada, asegúrese de que restan al menos seis meses para la caducidad de los certificados. Los certificados caducan cada 365 días.
-* Adobe Journey Optimizer B2B Edition admite el acceso a una fuente de administración de recursos digitales a la vez. Asegúrese de que los recursos necesarios estén disponibles en Adobe Experience Manager antes de cambiar.
+* Adobe Journey Optimizer B2B edition admite el acceso a una fuente de administración de recursos digitales a la vez. Asegúrese de que los recursos necesarios estén disponibles en Adobe Experience Manager antes de cambiar.
 
 >[!IMPORTANT]
 >
@@ -66,7 +68,7 @@ Cuando termine de configurar los repositorios, los integrantes del equipo pueden
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B Edition admite el acceso a una fuente de administración de recursos digitales a la vez durante la creación de contenido. 
+>Adobe Journey Optimizer B2B edition admite el acceso a una fuente de administración de recursos digitales a la vez durante la creación de contenido. 
 
 ## Reemplazar un certificado
 
@@ -74,7 +76,7 @@ Los certificados caducan cada 365 días desde la fecha de creación. Sustitúyal
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B Edition se comunica con los recursos del Experience Manager para obtener información de uso. La conexión debe permanecer activa para que la sincronización de datos de uso sea fiable y para evitar discrepancias en los datos. A los usuarios administradores se les notifica sobre los certificados que caducan mediante las notificaciones en la aplicación. También pueden anotar las fechas de caducidad en la subsección de Assets, Administración de recursos digitales, en el área de Administración.
+>Adobe Journey Optimizer B2B edition se comunica con los recursos del Experience Manager para obtener información de uso. La conexión debe permanecer activa para que la sincronización de datos de uso sea fiable y para evitar discrepancias en los datos. A los usuarios administradores se les notifica sobre los certificados que caducan mediante las notificaciones en la aplicación. También pueden anotar las fechas de caducidad en la subsección de Assets, Administración de recursos digitales, en el área de Administración.
 
 1. En la página de administración de recursos digitales, busque la lista de los repositorios configurados.
 
@@ -110,7 +112,7 @@ Puede ver el archivo JSON de certificado asociado a la conexión al repositorio.
 
 ## Eliminación de una conexión al repositorio
 
-Al eliminar un repositorio, se elimina el acceso de los usuarios al entorno de Experience Manager Assets en Journey Optimizer B2B Edition.
+Al eliminar un repositorio, se elimina el acceso de los usuarios al entorno de Experience Manager Assets en Journey Optimizer B2B edition.
 
 1. En la página _[!UICONTROL Administración de recursos digitales]_, busque la lista de repositorios de recursos configurados.
 

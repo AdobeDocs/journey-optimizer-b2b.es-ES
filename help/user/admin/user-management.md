@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo asignar integrantes del equipo a p
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 97a9932a8a2a1c7a37dcc110b59cee70a61b5763
+source-git-commit: 2d9a58182f8ca3aec9e806e343571b14f22456f1
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 3%
+source-wordcount: '1838'
+ht-degree: 1%
 
 ---
 
@@ -17,8 +17,8 @@ Una vez completado el aprovisionamiento y enlazados los entornos limitados, comp
 
 1. [Crear un perfil de producto de Marketo Engage](#marketo-engage-profile) en el Admin Console (solo para la nueva instancia de Marketo Engage).
 1. [Crear un grupo de usuarios](#create-user-group) en el Admin Console.
-1. [Crear una función](#create-role) en Permisos de AEP.
-1. [Agregar usuarios](#add-users) al Admin Console.
+1. [Editar funciones integradas](#edit-roles) o [crear una función personalizada](#create-a-custom-role) con permisos de Journey Optimizer B2B edition.
+1. [Agregar usuarios](#add-users) o [grupos](#add-user-groups-to-a-role) a los roles.
 
 Como administrador, puede completar estas tareas en Adobe Admin Console, que es un lugar central para administrar las licencias y los usuarios de productos de Adobe. En el Admin Console, puede crear y administrar usuarios en una sola ubicación en lugar de en las distintas soluciones individuales. Consulte la página [descripción general del Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html) para obtener más información sobre sus funciones y capacidades.
 
@@ -74,7 +74,7 @@ For more information about managing these permissions within Marketo Engage, see
 
 1. Seleccione la ficha **[!UICONTROL Productos]**.
 
-1. Abra la instancia de Market Engage en la que desea agregar el perfil y haga clic en Nuevo perfil.
+1. Abra la instancia de Marketo Engage donde desee agregar el perfil y haga clic en **[!UICONTROL Nuevo perfil]**.
 
    ![Admin Console - Instancia de Marketo Engage - Nuevo perfil](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
 
@@ -117,69 +117,11 @@ Para obtener más información sobre cómo se usan los grupos de usuarios para a
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Crear una función en Permisos de AEP {#create-role}
-
-Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a un perfil de producto. Cada permiso se recopila en una funcionalidad, como recorridos o grupos de compra, que representa las diferentes funcionalidades u objetos de Journey Optimizer B2B edition.
-
-El área _Permisos_ de Adobe Experience Platform es donde los administradores pueden definir roles de usuario y directivas de acceso para administrar permisos de acceso para características y objetos dentro de una aplicación de producto. En esta aplicación, puede crear y administrar funciones, así como asignar los permisos de recursos deseados para estas. Los permisos también le permiten administrar las etiquetas, las zonas protegidas y los usuarios asociados a una función específica.
-
-Para obtener más información, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación del Experience Platform.
+## Adición de usuarios a un grupo
 
 >[!NOTE]
 >
->Para completar los siguientes pasos, debe ser administrador de productos de Adobe Experience Platform.
-
-1. Vaya a [experience.adobe.com](https://experience.adobe.com/).
-
-1. En el panel _[!UICONTROL Acceso rápido]_, seleccione **[!UICONTROL Permisos]**.
-
-   >[!NOTE]
-   >
-   >Si no ve _[!UICONTROL Permisos]_, es posible que tenga que hacer clic en **[!UICONTROL Ver todos]** y seleccionarlo entre las aplicaciones disponibles.
-
-   ![Experience Platform - Permisos de acceso](./assets/aep-permissions.png){width="700" zoomable="yes"}
-
-1. Seleccione **[!UICONTROL Roles]** en el panel de navegación izquierdo y seleccione **[!UICONTROL Crear rol]**.
-
-1. En el cuadro de diálogo _[!UICONTROL Crear nuevo rol]_, escriba un nombre para el rol, como _AJO B2B_, y una descripción (opcional).
-
-1. Haga clic en **[!UICONTROL Confirmar]**.
-
-1. Seleccione las zonas protegidas.
-
-   ![Experience Platform - agregar zonas protegidas para el nuevo rol](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
-
-1. Añada los permisos de perfil:
-
-   * En la lista _[!UICONTROL Recursos]_ de la izquierda, busque el elemento **[!UICONTROL Administración de perfiles]** y haga clic en el icono de signo más (**+**) para agregar el atributo.
-
-   * Para el atributo, agregue los siguientes permisos:
-      * [!UICONTROL Ver segmentos]
-      * [!UICONTROL Administrar segmentos]
-      * [!UICONTROL Ver perfiles]
-      * [!UICONTROL Administrar perfiles]
-      * [!UICONTROL Ver perfil B2B]
-      * [!UICONTROL Administrar perfil B2B]
-
-   ![Experience Platform - agregar perfiles para el nuevo rol](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
-
-1. Haga clic en **[!UICONTROL Guardar]** en la parte superior derecha.
-
-1. Vaya a los detalles de la función y seleccione la pestaña **[!UICONTROL Grupos de usuarios]**.
-
-1. Haga clic en **[!UICONTROL Agregar grupos]**.
-
-   ![Experience Platform - agregar perfiles para el nuevo rol](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
-
-1. Seleccione la casilla de verificación situada junto al grupo de usuarios que creó anteriormente en el Admin Console.
-
-1. Haga clic en **[!UICONTROL Guardar]**.
-
-## Agregar usuarios al grupo en el Admin Console
-
->[!NOTE]
->
->Un Admin Console de sistemas o de productos puede realizar estos pasos.
+>Un Admin Console del sistema puede realizar estos pasos.
 
 Para obtener información acerca de la administración de usuarios, consulte [usuarios Admin Console](https://helpx.adobe.com/es/enterprise/using/user-groups.html) en la documentación de Admin Console.
 
@@ -198,5 +140,184 @@ Para obtener información acerca de la administración de usuarios, consulte [us
    * Seleccione el grupo de usuarios que creó anteriormente.
 
    * Haga clic en **[!UICONTROL Aplicar]**.
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+## Editar funciones para permisos de productos {#edit-roles}
+
+Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a un perfil de producto. Cada permiso se recopila en una funcionalidad, como recorridos o grupos de compra, que representa las diferentes funcionalidades u objetos de Journey Optimizer B2B edition.
+
+El área _Permisos_ de Adobe Experience Platform es donde los administradores pueden definir roles de usuario y directivas de acceso para administrar permisos de acceso para características y objetos dentro de una aplicación de producto. En esta aplicación, puede crear y administrar funciones, así como asignar los permisos de recursos deseados para estas. Los permisos también le permiten administrar los entornos limitados y los usuarios asociados a una función específica.
+
+Para obtener más información acerca de los permisos de funciones en el Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación del Experience Platform.
+
+### Permisos de productos B2B
+
+Los siguientes permisos rigen el acceso a las funciones de Journey Optimizer B2B edition:
+
+| Categoría | Descripción | Permisos |
+| -------- | ----------- | ---------- |
+| Listas de cuentas B2B | Configure, administre, visualice y publique permisos para listas de cuentas B2B. Estos permisos incluyen acciones como agregar, quitar, importar y eliminar cuentas de listas de cuentas. | <li>Administrar listas de cuentas B2B |
+| Configuraciones de administración B2B | Configure, administre y visualice permisos para configuraciones administrativas B2B. Estos permisos incluyen conexiones de administración de recursos digitales, repositorios de recursos y eventos. | <li>Administrar configuraciones de administración B2B |
+| Assets B2B | Configure, administre y visualice permisos para recursos B2B. Estos permisos incluyen correos electrónicos, SMS, páginas de aterrizaje, fragmentos, plantillas e imágenes. | <li>Administración de Assets B2B <li>Administrar plantillas B2B <li>Administrar fragmentos B2B |
+| Grupos de compra B2B | Configure, administre y visualice permisos para grupos de compra B2B. Estos permisos incluyen intereses de la solución, funciones, plantillas y el estado del grupo de compra. | <li>Administrar grupos de compra B2B |
+| Configuraciones de canal B2B | Configure, administre y visualice permisos para configuraciones de canal B2B. Estos permisos incluyen configuración para límites de comunicación, credenciales de API y configuración de seguridad. | <li>Administrar configuraciones de canales B2B |
+| Paneles B2B | Configure y vea permisos para paneles B2B. Estos permisos incluyen la participación en la cuenta, la compra de etapas de grupo, las cuentas emergentes y la cobertura de contactos. | <li>Administración de paneles B2B |
+| Recorridos B2B | Configuración, administración, visualización y publicación de permisos para recorridos B2B. Estos permisos incluyen acciones de cuenta y persona, detectores de eventos y rutas divididas | <li>Administración de Recorridos B2B |
+
+### Funciones integradas B2B
+
+Cuando su organización tiene el producto Journey Optimizer B2B edition aprovisionado, Experience Platform incluye un conjunto de funciones integradas (predeterminadas) que puede utilizar para administrar el acceso a las funciones del producto:
+
+| Función | Permisos |
+| ---- | ----------- |
+| Administrador de Recorrido B2B | <li>Administración de Recorridos B2B <li>Administrar grupos de compra B2B <li>Administrar listas de cuentas B2B <li>Ver tablero inteligente B2B <li>Ver tablero de perspectivas B2B |
+| Administrador de canales B2B | <li>Administración de Assets B2B <li>Administrar plantillas B2B <li>Administrar fragmentos B2B |
+| Administrador del sistema B2B | <li>Administrar configuraciones de canales B2B <li>Administrar configuraciones de administración B2B |
+| Usuario de ventas B2B | <li>Ver tablero inteligente |
+
+### Editar permisos de funciones
+
+Para las funciones integradas o personalizadas, puede decidir en cualquier momento agregar o eliminar permisos. Si modifica una función predeterminada o personalizada, afectará a todos los usuarios asignados a la función.
+
+En el ejemplo siguiente, se desea añadir permisos relacionados con el recurso Recorridos B2B para usuarios asignados a la función Administrador de canales B2B. Este cambio permite que los usuarios de esa función también administren recorridos de cuenta.
+
+>[!NOTE]
+>
+>Un Admin Console del sistema puede realizar estos pasos.
+
+_Para cambiar los permisos de un rol:_
+
+1. Vaya a [experience.adobe.com](https://experience.adobe.com/).
+
+1. En el panel _[!UICONTROL Acceso rápido]_, seleccione **[!UICONTROL Permisos]**.
+
+   >[!NOTE]
+   >
+   >Si no ve _[!UICONTROL Permisos]_, es posible que tenga que hacer clic en **[!UICONTROL Ver todos]** y seleccionarlo entre las aplicaciones disponibles.
+
+   ![Experience Platform - Permisos de acceso](./assets/aep-permissions.png){width="700" zoomable="yes"}
+
+1. Seleccione **[!UICONTROL Roles]** en el panel de navegación izquierdo.
+
+1. Haga clic en el nombre de rol de **_Administrador de canales B2B_**.
+
+1. En la página de detalles, haga clic en **[!UICONTROL Editar]** en la parte superior derecha.
+
+   ![Experience Platform - editar el rol](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+
+   En el editor de funciones, el menú _[!UICONTROL Recursos]_ muestra la lista de recursos que se aplican al Experience Cloud: productos de aplicaciones con tecnología de Platform.
+
+   Puede introducir _B2B_ en la herramienta de búsqueda para filtrar la lista de permisos de productos B2B.
+
+1. Haga clic en el icono _Agregar_ (**+**) para el recurso de Recorridos B2B.
+
+   ![Experience Platform - editar el rol](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
+
+1. En la tarjeta de permisos _[!UICONTROL Recorridos B2B]_, seleccione **[!UICONTROL Administrar Recorridos de cuenta B2B]**.
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+   ![Experience Platform - editar el rol](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+
+1. Haga clic en **[!UICONTROL Cerrar]** para volver a la página de detalles.
+
+### Adición de usuarios a una función
+
+>[!NOTE]
+>
+>Un Admin Console del sistema puede realizar estos pasos.
+
+1. Abra los detalles de la función y seleccione la ficha **[!UICONTROL Usuarios]**.
+
+   Esta pestaña muestra una lista de todos los usuarios asignados a la función.
+
+1. Haga clic en **[!UICONTROL Agregar usuarios]**.
+
+   ![Experience Platform - agregar usuarios al rol](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
+
+1. En el cuadro de diálogo _[!UICONTROL Agregar usuarios]_, busque y seleccione los usuarios que desee agregar al rol.
+
+   * Puede utilizar la herramienta Buscar para filtrar la lista de usuarios.
+
+   * Seleccione la casilla de verificación de cada usuario.
+
+   ![Experience Platform - Cuadro de diálogo Agregar usuarios](./assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
+
+1. Haga clic en **[!UICONTROL Guardar]** cuando haya seleccionado todos los usuarios que desea agregar.
+
+### Agregar grupos de usuarios a un rol
+
+>[!NOTE]
+>
+>Un Admin Console del sistema puede realizar estos pasos.
+
+Para obtener información acerca de la administración de usuarios, consulte [usuarios Admin Console](https://helpx.adobe.com/es/enterprise/using/user-groups.html) en la documentación de Admin Console.
+
+1. Abra los detalles de la función y seleccione la ficha **[!UICONTROL Grupos de usuarios]**.
+
+   Esta pestaña muestra una lista de todos los grupos de usuarios asignados a la función.
+
+1. Haga clic en **[!UICONTROL Agregar grupos]**.
+
+   ![Experience Platform - agregar usuarios al rol](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+
+1. En el cuadro de diálogo _[!UICONTROL Agregar grupos]_, busque y seleccione los grupos que desee agregar al rol.
+
+   * Puede utilizar la herramienta Buscar para filtrar la lista de grupos de usuarios.
+
+   * Seleccione la casilla de verificación de cada grupo de usuarios.
+
+   ![Experience Platform - Cuadro de diálogo Agregar grupos](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
+
+1. Haga clic en **[!UICONTROL Guardar]** cuando haya seleccionado todos los usuarios que desea agregar.
+
+## Crear una función personalizada
+
+>[!NOTE]
+>
+>Un Admin Console del sistema puede realizar estos pasos.
+
+1. Seleccione **[!UICONTROL Roles]** en el panel de navegación izquierdo y seleccione **[!UICONTROL Crear rol]**.
+
+1. En el cuadro de diálogo _[!UICONTROL Crear nuevo rol]_, escriba un nombre para el rol, como _Especialistas en marketing B2B_, y una descripción (opcional).
+
+1. Haga clic en **[!UICONTROL Confirmar]**.
+
+1. Seleccione las zonas protegidas.
+
+   ![Experience Platform - agregar zonas protegidas para el nuevo rol](./assets/aep-permissions-role-sandboxes.png){width="700" zoomable="yes"}
+
+1. Añada los permisos de perfil:
+
+   * En la lista _[!UICONTROL Recursos]_ de la izquierda, busque el elemento **[!UICONTROL Administración de perfiles]** y haga clic en el icono _Agregar_ (**+**) para agregar el atributo.
+
+   * Para el atributo, agregue los siguientes permisos:
+      * [!UICONTROL Ver segmentos]
+      * [!UICONTROL Administrar segmentos]
+      * [!UICONTROL Ver perfiles]
+      * [!UICONTROL Administrar perfiles]
+      * [!UICONTROL Ver perfil B2B]
+      * [!UICONTROL Administrar perfil B2B]
+
+   ![Experience Platform - agregar perfiles para el nuevo rol](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
+
+1. Añadir permisos de productos B2B:
+
+   Consulte la lista de [permisos de producto B2B](#b2b-product-permissions) para determinar qué capacidades de producto desea para la función.
+
+   En la lista _[!UICONTROL Recursos]_ de la izquierda, busque los elementos **[!UICONTROL B2B]** y haga clic en el icono _Agregar_ (**+**) para agregar cada atributo que desee habilitar para el rol.
+
+   Puede introducir _B2B_ en la herramienta de búsqueda para filtrar la lista de permisos de productos B2B.
+
+1. Haga clic en **[!UICONTROL Guardar]** en la parte superior derecha.
+
+1. Vaya a los detalles de la función y seleccione la pestaña **[!UICONTROL Grupos de usuarios]**.
+
+1. Haga clic en **[!UICONTROL Agregar grupos]**.
+
+   ![Experience Platform - agregar perfiles para el nuevo rol](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+
+1. Seleccione la casilla de verificación situada junto al grupo de usuarios que creó anteriormente en el Admin Console.
 
 1. Haga clic en **[!UICONTROL Guardar]**.

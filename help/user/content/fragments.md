@@ -1,18 +1,18 @@
 ---
 title: Fragmentos
-description: Aprenda a crear y utilizar fragmentos de contenido visual como componentes reutilizables para correos electrónicos y plantillas de correo electrónico en Adobe Journey Optimizer B2B Edition.
+description: Aprenda a crear y utilizar fragmentos de contenido visual como componentes reutilizables para correos electrónicos y plantillas de correo electrónico en Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
+source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2679'
 ht-degree: 3%
 
 ---
 
 # Fragmentos
 
-Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos y plantillas de correo electrónico en Adobe Journey Optimizer B2B Edition. Normalmente es un bloque de contenido (texto, imagen o ambos) que se puede crear previamente e insertar rápidamente en un correo electrónico o plantilla de correo electrónico. Con esta funcionalidad, puede generar varios bloques de contenido personalizados para que los utilicen los integrantes del equipo de marketing a fin de combinar el contenido del correo electrónico para mejorar el proceso de diseño. Los casos de uso comunes incluyen bloques de contenido de encabezado/pie de página para correo electrónico, banners de invitación a eventos y saludos de temporada.
+Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos y plantillas de correo electrónico en Adobe Journey Optimizer B2B edition. Normalmente es un bloque de contenido (texto, imagen o ambos) que se puede crear previamente e insertar rápidamente en un correo electrónico o plantilla de correo electrónico. Con esta funcionalidad, puede generar varios bloques de contenido personalizados para que los utilicen los integrantes del equipo de marketing a fin de combinar el contenido del correo electrónico para mejorar el proceso de diseño. Los casos de uso comunes incluyen bloques de contenido de encabezado/pie de página para correo electrónico, banners de invitación a eventos y saludos de temporada.
 
 Para aprovechar al máximo los fragmentos de sus flujos de trabajo:
 
@@ -21,11 +21,11 @@ Para aprovechar al máximo los fragmentos de sus flujos de trabajo:
 
 ## Fragmentos visuales
 
-Los fragmentos visuales son bloques visuales predefinidos creados con el editor de contenido visual que se pueden reutilizar en varios correos electrónicos o plantillas de correo electrónico. El ámbito actual de Journey Optimizer B2B Edition y esta documentación son solo los fragmentos visuales. Los fragmentos basados en expresiones aún no son compatibles con Journey Optimizer B2B Edition.
+Los fragmentos visuales son bloques visuales predefinidos creados con el editor de contenido visual que se pueden reutilizar en varios correos electrónicos o plantillas de correo electrónico. El ámbito actual de Journey Optimizer B2B edition y esta documentación son solo los fragmentos visuales. Los fragmentos basados en expresiones aún no son compatibles con Journey Optimizer B2B edition.
 
 ## Acceso y administración de fragmentos
 
-Para acceder a los fragmentos visuales en Adobe Journey Optimizer B2B Edition, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Fragmentos]**. Esta acción abre una página de lista con todos los fragmentos creados en la instancia enumerados en una tabla.
+Para acceder a los fragmentos visuales en Adobe Journey Optimizer B2B edition, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Fragmentos]**. Esta acción abre una página de lista con todos los fragmentos creados en la instancia enumerados en una tabla.
 
 ![Acceder a la biblioteca de fragmentos](./assets/fragments-list.png){width="700" zoomable="yes"}
 
@@ -45,7 +45,7 @@ El estado del fragmento determina su disponibilidad para utilizarlo en un correo
 
 >[!IMPORTANT]
 >
->El estado del fragmento se introdujo en la versión de agosto de Journey Optimizer B2B Edition. Todos los fragmentos creados antes de esta versión tienen el estado _Borrador_, aunque se utilicen en un correo electrónico o una plantilla. Si realiza cualquier cambio en estos fragmentos, debe publicar el fragmento para propagar los cambios.
+>El estado del fragmento se introdujo en la versión de agosto de B2B edition para Journey Optimizer. Todos los fragmentos creados antes de esta versión tienen el estado _Borrador_, aunque se utilicen en un correo electrónico o una plantilla. Si realiza cualquier cambio en estos fragmentos, debe publicar el fragmento para propagar los cambios.
 
 ### Filtrado de la lista de fragmentos
 
@@ -63,7 +63,7 @@ En el cuadro de diálogo, seleccione las columnas que desea mostrar y haga clic 
 
 ## Creación de fragmentos
 
-Puede crear nuevos fragmentos visuales en Journey Optimizer B2B Edition haciendo clic en **[!UICONTROL Crear fragmento]** en la parte superior derecha.
+Puede crear nuevos fragmentos visuales en Journey Optimizer B2B edition haciendo clic en **[!UICONTROL Crear fragmento]** en la parte superior derecha.
 
 1. En el cuadro de diálogo _[!UICONTROL Crear fragmento]_, escriba un **[!UICONTROL Nombre]** y una **[!UICONTROL Descripción]** útiles (opcional).
 
@@ -141,13 +141,13 @@ Salga de la vista en cualquier momento haciendo clic en la flecha _Atrás_ en la
 
 ## Ver fragmento utilizado por referencias
 
-En la página de detalles del fragmento, haga clic en la ficha **[!UICONTROL Utilizado por]** para ver los detalles de dónde se utiliza actualmente el fragmento en Journey Optimizer B2B Edition, en correos electrónicos, plantillas de correo electrónico y fragmentos.
+En la página de detalles del fragmento, haga clic en la ficha **[!UICONTROL Utilizado por]** para ver los detalles de dónde se utiliza actualmente el fragmento en Journey Optimizer B2B edition, en correos electrónicos, plantillas de correo electrónico y fragmentos.
 
 >[!IMPORTANT]
 >
 >No se puede eliminar ningún fragmento que esté en uso actualmente en ningún correo electrónico o plantilla de correo electrónico.
 
-Las referencias se muestran según la categoría: _Correo electrónico_ o _Plantilla de correo electrónico_. Los correos electrónicos de Journey Optimizer B2B Edition están incrustados y creados en recorridos de cuenta, por lo que el recorrido principal del correo electrónico que utiliza el fragmento se muestra en las referencias.
+Las referencias se muestran según la categoría: _Correo electrónico_ o _Plantilla de correo electrónico_. Los correos electrónicos de Journey Optimizer B2B edition están incrustados y creados en recorridos de cuenta, por lo que el recorrido principal del correo electrónico que utiliza el fragmento se muestra en las referencias.
 
 ![Utilizado por referencias para el fragmento](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
 
@@ -216,7 +216,7 @@ Las ediciones en un fragmento dependen de su estado actual:
 
 1. Si desea actualizar el contenido, haga clic en **[!UICONTROL Crear versión de borrador]** en la parte superior derecha.
 
-   Haga clic en **[!UICONTROL Aceptar]** en el cuadro de diálogo para abrir la versión de borrador en el diseñador visual. Puede cambiar el [origen de la imagen](./assets-overview.md#choose-an-asset-source) si es necesario.
+   Haga clic en **[!UICONTROL Aceptar]** en el cuadro de diálogo para abrir la versión de borrador en el diseñador visual.
 
    ![Cuadro de diálogo Crear versión de borrador](./assets/fragments-create-draft-version.png){width="300"}
 

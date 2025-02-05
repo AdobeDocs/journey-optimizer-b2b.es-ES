@@ -3,10 +3,10 @@ title: Comprar plantillas de rol de grupo
 description: Obtenga información acerca de la definición de una plantilla de rol para utilizarla como componente de grupo comprador.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
+source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 0%
+source-wordcount: '1125'
+ht-degree: 3%
 
 ---
 
@@ -61,6 +61,14 @@ En un mercado B2B, las decisiones de compra suelen ser tomadas por varios indivi
 
 Después de crear la plantilla, esta se abrirá en el espacio de trabajo y se le pedirá que defina las funciones. La tarjeta de la primera función se muestra de forma predeterminada.
 
+Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condiciones_ para determinar los miembros asignados al rol. Utilice los siguientes tipos de filtros para definir las condiciones de un rol:
+
+| Tipo | Condición |
+| ---- | --------- |
+| Atributos de la persona | <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Número de fax <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Segundo nombre <li>Número de teléfono móvil <li>Número de teléfono <li>Código postal <li>Estado <li>Suscripción cancelada <li>Razón de la cancelación de la suscripción |
+| Filtros especiales | <li>Miembro de la lista |
+| Datos de intención | Intento de categoría <li>Intento del producto <li>Intento de palabra clave<br/>[Más información acerca de los datos de intención](../admin/intent-data.md). |
+
 1. Para la primera tarjeta de función, defina las propiedades de la función.
 
    * Elija **[!UICONTROL Comprar rol de grupo]** de la lista.
@@ -102,6 +110,16 @@ Después de crear la plantilla, esta se abrirá en el espacio de trabajo y se le
 1. Para cada rol adicional que desee incluir en la plantilla, haga clic en **[!UICONTROL Agregar otro rol]** y repita los pasos 1 y 2 para definir el rol.
 
    ![Plantilla de roles con varios roles definidos](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX &quot;inscripción a la lista de Marketo Engage&quot;]
+
+En Marketo Engage, _Campañas inteligentes_ comprueba la pertenencia de los programas para asegurarte de que los posibles clientes no reciban correos electrónicos duplicados y no sean miembros de varios flujos de correos electrónicos al mismo tiempo. En Journey Optimizer B2B, puede comprobar la pertenencia a la lista de Marketo Engage como condición para la plantilla de funciones a fin de eliminar la duplicación en la compra de actividades de recorrido y pertenencia a grupos.
+
+Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** al espacio de filtro. A continuación, complete la definición del filtro para evaluar la pertenencia a una o varias listas de Marketo Engage.
+
+![Condición de plantilla de roles para pertenencia a lista de Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+
+>[!ENDSHADEBOX]
 
 Los cambios se guardarán automáticamente en el estado _Borrador_. Si no está listo para publicar la plantilla de roles, haga clic en la flecha izquierda (atrás) en la parte superior de la página y vuelva a la lista _[!UICONTROL Plantillas de roles]_.
 
