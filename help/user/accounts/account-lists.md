@@ -1,7 +1,10 @@
 ---
 title: Listas de cuentas
 description: Obtenga información acerca de las listas de cuentas y cómo los especialistas en marketing pueden utilizarlas para segmentar cuentas a través de recorridos de cuenta.
-source-git-commit: c44721af93275297a90c6f7c0c3683ade6847658
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+hidefromtoc: true
+hide: true
+source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -232,4 +235,3 @@ Por ejemplo, puede tener una ruta de recorrido por la que enviar un correo elect
 1. Para **[!UICONTROL Seleccionar lista de cuentas estáticas activas]**, elija la lista de cuentas a la que desea quitar cuentas.
 
    ![Seleccionar Agregar a la lista de cuentas](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-

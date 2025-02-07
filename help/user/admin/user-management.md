@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo asignar integrantes del equipo a p
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 2d9a58182f8ca3aec9e806e343571b14f22456f1
+source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1311'
 ht-degree: 1%
 
 ---
@@ -150,77 +150,77 @@ Los permisos son derechos unitarios que le permiten definir las autorizaciones a
 El área _Permisos_ de Adobe Experience Platform es donde los administradores pueden definir roles de usuario y directivas de acceso para administrar permisos de acceso para características y objetos dentro de una aplicación de producto. En esta aplicación, puede crear y administrar funciones, así como asignar los permisos de recursos deseados para estas. Los permisos también le permiten administrar los entornos limitados y los usuarios asociados a una función específica.
 
 Para obtener más información acerca de los permisos de funciones en el Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación del Experience Platform.
+<!-- 
+### B2B product permissions
 
-### Permisos de productos B2B
+The following permissions govern access to Journey Optimizer B2B Edition capabilities:
 
-Los siguientes permisos rigen el acceso a las funciones de Journey Optimizer B2B edition:
-
-| Categoría | Descripción | Permisos |
+| Category | Description | Permissions |
 | -------- | ----------- | ---------- |
-| Listas de cuentas B2B | Configure, administre, visualice y publique permisos para listas de cuentas B2B. Estos permisos incluyen acciones como agregar, quitar, importar y eliminar cuentas de listas de cuentas. | <li>Administrar listas de cuentas B2B |
-| Configuraciones de administración B2B | Configure, administre y visualice permisos para configuraciones administrativas B2B. Estos permisos incluyen conexiones de administración de recursos digitales, repositorios de recursos y eventos. | <li>Administrar configuraciones de administración B2B |
-| Assets B2B | Configure, administre y visualice permisos para recursos B2B. Estos permisos incluyen correos electrónicos, SMS, páginas de aterrizaje, fragmentos, plantillas e imágenes. | <li>Administración de Assets B2B <li>Administrar plantillas B2B <li>Administrar fragmentos B2B |
-| Grupos de compra B2B | Configure, administre y visualice permisos para grupos de compra B2B. Estos permisos incluyen intereses de la solución, funciones, plantillas y el estado del grupo de compra. | <li>Administrar grupos de compra B2B |
-| Configuraciones de canal B2B | Configure, administre y visualice permisos para configuraciones de canal B2B. Estos permisos incluyen configuración para límites de comunicación, credenciales de API y configuración de seguridad. | <li>Administrar configuraciones de canales B2B |
-| Paneles B2B | Configure y vea permisos para paneles B2B. Estos permisos incluyen la participación en la cuenta, la compra de etapas de grupo, las cuentas emergentes y la cobertura de contactos. | <li>Administración de paneles B2B |
-| Recorridos B2B | Configuración, administración, visualización y publicación de permisos para recorridos B2B. Estos permisos incluyen acciones de cuenta y persona, detectores de eventos y rutas divididas | <li>Administración de Recorridos B2B |
+| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
+| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
+| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments|
+| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups |
+| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
+| B2B Dashboards |Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>Manage B2B Dashboards |
+| B2B Journeys | Configure manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths | <li>Manage B2B Journeys |
 
-### Funciones integradas B2B
+### B2B built-in roles
 
-Cuando su organización tiene el producto Journey Optimizer B2B edition aprovisionado, Experience Platform incluye un conjunto de funciones integradas (predeterminadas) que puede utilizar para administrar el acceso a las funciones del producto:
+When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
 
-| Función | Permisos |
+| Role | Permissions |
 | ---- | ----------- |
-| Administrador de Recorrido B2B | <li>Administración de Recorridos B2B <li>Administrar grupos de compra B2B <li>Administrar listas de cuentas B2B <li>Ver tablero inteligente B2B <li>Ver tablero de perspectivas B2B |
-| Administrador de canales B2B | <li>Administración de Assets B2B <li>Administrar plantillas B2B <li>Administrar fragmentos B2B |
-| Administrador del sistema B2B | <li>Administrar configuraciones de canales B2B <li>Administrar configuraciones de administración B2B |
-| Usuario de ventas B2B | <li>Ver tablero inteligente |
+| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Intelligent Dashboard <li>View B2B Insights Dashboard |
+| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
+| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
+| B2B Sales User | <li>View Intelligent Dashboard |
 
-### Editar permisos de funciones
+### Edit role permissions
 
-Para las funciones integradas o personalizadas, puede decidir en cualquier momento agregar o eliminar permisos. Si modifica una función predeterminada o personalizada, afectará a todos los usuarios asignados a la función.
+For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it impacts every user assigned to the role.
 
-En el ejemplo siguiente, se desea añadir permisos relacionados con el recurso Recorridos B2B para usuarios asignados a la función Administrador de canales B2B. Este cambio permite que los usuarios de esa función también administren recorridos de cuenta.
+In the following example, you want to add permissions related to the B2B Journeys resource for users assigned to the B2B Channel Manager role. This change enables users for that role to manage account journeys also.
 
 >[!NOTE]
 >
->Un Admin Console del sistema puede realizar estos pasos.
+>An Admin Console system administrator can perform these steps.
 
-_Para cambiar los permisos de un rol:_
+_To change the permissions for a role:_
 
-1. Vaya a [experience.adobe.com](https://experience.adobe.com/).
+1. Go to [experience.adobe.com](https://experience.adobe.com/).
 
-1. En el panel _[!UICONTROL Acceso rápido]_, seleccione **[!UICONTROL Permisos]**.
+1. In the _[!UICONTROL Quick access]_ panel, select **[!UICONTROL Permissions]**.
 
    >[!NOTE]
    >
-   >Si no ve _[!UICONTROL Permisos]_, es posible que tenga que hacer clic en **[!UICONTROL Ver todos]** y seleccionarlo entre las aplicaciones disponibles.
+   >If you don't see _[!UICONTROL Permissions]_, you may need to click **[!UICONTROL View all]** and select it from the available applications.
 
-   ![Experience Platform - Permisos de acceso](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-1. Seleccione **[!UICONTROL Roles]** en el panel de navegación izquierdo.
+1. Select **[!UICONTROL Roles]** in the left navigation.
 
-1. Haga clic en el nombre de rol de **_Administrador de canales B2B_**.
+1. Click the **_B2B Channel Manager_** role name.
 
-1. En la página de detalles, haga clic en **[!UICONTROL Editar]** en la parte superior derecha.
+1. In the details page, click **[!UICONTROL Edit]** at the top right.
 
-   ![Experience Platform - editar el rol](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
 
-   En el editor de funciones, el menú _[!UICONTROL Recursos]_ muestra la lista de recursos que se aplican al Experience Cloud: productos de aplicaciones con tecnología de Platform.
+   In the role editor, the _[!UICONTROL Resources]_ menu displays the list of resources that apply to the Experience Cloud - Platform powered applications products.
 
-   Puede introducir _B2B_ en la herramienta de búsqueda para filtrar la lista de permisos de productos B2B.
+   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions. 
+   
+1. Click the _Add_ icon (**+**) for the B2B Journeys resource.
 
-1. Haga clic en el icono _Agregar_ (**+**) para el recurso de Recorridos B2B.
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
 
-   ![Experience Platform - editar el rol](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
+1. In the _[!UICONTROL B2B Journeys]_ permissions card, select **[!UICONTROL Manage B2B Account Journeys]**.
 
-1. En la tarjeta de permisos _[!UICONTROL Recorridos B2B]_, seleccione **[!UICONTROL Administrar Recorridos de cuenta B2B]**.
+1. Click **[!UICONTROL Save]**.
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
 
-   ![Experience Platform - editar el rol](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
-
-1. Haga clic en **[!UICONTROL Cerrar]** para volver a la página de detalles.
+1. Click **[!UICONTROL Close]** to return to the details page. -->
 
 ### Adición de usuarios a una función
 
