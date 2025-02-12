@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: bb2c790dbef3202b871e1362a1ca091666888368
+source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 38%
+source-wordcount: '221'
+ht-degree: 37%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 38%
    + [Utilizar el asistente de IA](./start/ai-assistant.md)
 + Recorridos de cuenta {#account-journeys}
    + [Información general](./journeys/journey-overview.md)
+   + [detalles del recorrido](./journeys/journey-details.md)
    + [nodo de recorrido](./journeys/journey-nodes.md)
    + Nodos de recorrido {#journey-nodes}
       + [Público de cuenta](./journeys/account-audience-nodes.md)
@@ -45,9 +46,10 @@ ht-degree: 38%
       + [Detalles del grupo de compra](./buying-groups/buying-group-details.md)
       + [Creación de grupos de compra](./buying-groups/buying-groups-create.md)
       + [Exportar lista de cuentas](./audiences/account-list-export.md)
-      + [Audiencias coincidentes con cuentas de linkedIn](./data/linkedin-account-matched-audiences.md)
+      + [Audiencias coincidentes con cuentas de LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Comprar filtros de grupo en Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + [Listas de cuentas](./accounts/account-lists.md)
+   + [Detalles de la cuenta](./accounts/account-details.md)
    + [Campos XDM](./data/field-mapping.md)
 + Gestión de contenido {#content-management}
    + Recursos {#assets}
@@ -55,7 +57,7 @@ ht-degree: 38%
       + Recursos de Marketo Engage {#marketo-engage-dam}
          + [Uso de recursos de Marketo Engage](./content/marketo-engage-design-studio.md)
          + [Edición de imágenes con Adobe Express](./content/image-edit-adobe-express.md)
-      + [Recursos de imagen del Experience Manager](./content/aem-assets.md)
+      + [Recursos de imagen de Experience Manager](./content/aem-assets.md)
    + Plantillas {#templates}
       + [Gobernanza de contenido](./content/template-content-governance.md)
       + Plantillas de correo electrónico {#email-templates}
@@ -70,10 +72,9 @@ ht-degree: 38%
    + [Contenido condicional](./content/conditional-content.md)
 + Paneles de perspectivas {#dashboards}
    + [Panel de control inteligente](./dashboards/intelligent-dashboard.md)
-   + [Detalles de la cuenta](./accounts/account-details.md)
-   + [Resumen de grupos de compra](./dashboards/buying-groups-dashboard.md)
    + [Información general de participación](./dashboards/engagement-dashboard.md)
-   + [Información general del recorrido](./dashboards/journeys-dashboard.md)
+   + [Resumen de grupos de compra](./dashboards/buying-groups-dashboard.md)
+   + [Resumen de Recorridos de cuenta](./dashboards/journeys-dashboard.md)
 + Administración {#admin}
    + [Administración de usuarios](./admin/user-management.md)
    + [Datos de intención](./admin/intent-data.md)

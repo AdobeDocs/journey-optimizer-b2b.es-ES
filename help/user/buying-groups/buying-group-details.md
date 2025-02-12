@@ -2,7 +2,8 @@
 title: Detalles del grupo de compra
 description: Obtenga información sobre el acceso a información detallada y a resúmenes de IA generativos para comprar grupos en Journey Optimizer B2B edition.
 feature: Buying Groups
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: f14301dc-d605-4ed2-8867-6a49675019de
+source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 5%
@@ -11,7 +12,7 @@ ht-degree: 5%
 
 # Detalles del grupo de compra
 
-Al hacer clic en el nombre de un grupo de compra desde cualquier lugar de Journey Optimizer B2B edition, se muestran los detalles del grupo de compra. Esta información proporciona información útil sobre el grupo comprador, incluidos resúmenes generativos de IA.
+Al hacer clic en el nombre de un grupo de compra desde cualquier lugar de Journey Optimizer B2B edition, se muestran los detalles del grupo de compra. Esta descripción general proporciona información útil sobre el grupo comprador, incluidos resúmenes de IA generativos.
 
 ![Acceder a los detalles del grupo de compra](./assets/buying-group-details.png){width="800" zoomable="yes"}
 

@@ -1,75 +1,57 @@
 ---
-title: Tablero de información general de recorrido
+title: Tablero general de Recorridos de cuenta
 description: Obtenga información acerca de la información proporcionada por el panel Información general de Recorrido y cómo puede ayudarle a supervisar y administrar su estrategia de recorrido de cuentas.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8df1e44d5d978249ffc6e95b3a383644358d1d66
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 1%
+source-wordcount: '372'
+ht-degree: 2%
 
 ---
 
-# Panel de información general de recorrido
+# Panel general de Recorridos de cuenta
 
-Este tablero proporciona una visión general completa de un recorrido de cuentas seleccionado, en el que se detalla el progreso de las cuentas mediante gráficos circulares y de líneas que categoriza y cuantifica las finalizaciones, las actividades en curso y las anulaciones a lo largo del tiempo. Ayuda a los especialistas en marketing a evaluar la eficacia de los canales de correo electrónico y SMS a través de métricas clave de envío y participación.
+Este tablero proporciona una visión general completa de los recorridos activos de la cuenta, en la que se detalla el progreso de la cuenta mediante los diagramas de círculos y barras que categorizan y cuantifican las finalizaciones y las actividades de participación. Ayuda a los especialistas en marketing a evaluar la eficacia de los canales de correo electrónico y SMS a través de métricas clave de envío y participación.
 
 Esta descripción general está disponible para los recorridos de cuentas publicadas y los datos tardan aproximadamente cuatro horas en empezar a rellenar los gráficos y tablas.
 
 ![descripción general del Recorrido](./assets/journey-overview.png){width="700" zoomable="yes"}
 
-## Estado del recorrido
+## Distribución de tasa de finalización de recorrido
 
-Este gráfico circular ofrece un desglose de los estados de recorrido, y categoriza las cuentas en `Completed`, `In Progress` y `Aborted`. Cada segmento está claramente etiquetado con los porcentajes y números de cuenta correspondientes en el borde exterior del gráfico.
+Este gráfico ilustra la distribución de los recorridos según su tasa de finalización y se clasifica en cuatro bandas de puntuación distintas. La cifra central representa el número total de recorridos y proporciona una instantánea rápida del progreso general. Los colores segmentados indican la proporción de recorridos dentro de cada rango de puntuación, lo que le permite evaluar las tendencias de finalización de un vistazo.
 
-## Finalización de recorridos a lo largo del tiempo
+Para ver información más detallada, haga clic en el icono de menú **...** en la parte superior derecha.
 
-Este gráfico de líneas registra el número de cuentas que han completado su recorrido a lo largo del tiempo. El eje horizontal asigna la cronología, mientras que el eje vertical cuantifica las cuentas, lo que proporciona una vista directa de las tendencias de finalización.
+![distribución de tasa de finalización de Recorridos](./assets/journey-completion-rate-distribution.png){width="500"}
 
-## Widgets de rendimiento de recorrido
+## Recorridos por tipo de participación
 
-Esta sección presenta dos métricas vitales:
+Este gráfico de barras muestra la distribución de los recorridos en función del tipo de participación y le ayuda a identificar qué participaciones se utilizaron más en los distintos recorridos. Cada barra representa un tipo de participación específico, con su longitud que indica el número de recorridos con actividades de ese tipo. Esta visualización proporciona una comprensión clara e inmediata de las tendencias de participación dentro de los recorridos de la cuenta.
 
-* **[!UICONTROL Tasa de finalización de Recorridos]** - Porcentaje de cuentas que han completado correctamente su recorrido.
-* **[!UICONTROL duración del Recorrido]**: el tiempo promedio que tardan las cuentas en completar su recorrido.
+Para ver información más detallada, haga clic en el icono de menú **...** en la parte superior derecha.
 
-## Tablas de rendimiento de correo electrónico y SMS
+![distribución de tasa de finalización de Recorridos](./assets/journeys-by-engagement-type.png){width="500"}
 
-Las tablas de rendimiento proporcionan una visión detallada de la eficacia de los canales de correo electrónico y SMS. Cada tabla muestra métricas, como tasas de entrega y tasas de clics, para evaluar el impacto de cada punto de contacto de comunicación.
+## Interactúe con los datos
 
-**[!UICONTROL Rendimiento de correo electrónico]** columnas de tabla:
+Para interactuar con los datos, utilice el menú **...** en la parte superior derecha de cada gráfico.
 
-* _[!UICONTROL Nombre del recurso]_ - nombre del recurso
-* _[!UICONTROL Enviado]_ - número de correos electrónicos enviados
-* _[!UICONTROL Tasa de entrega]_: número de correos electrónicos enviados dividido por el número de correos electrónicos enviados
-* _[!UICONTROL Tasa de apertura]_: número de correos electrónicos abiertos dividido por el número de envíos
-* _[!UICONTROL Tasa de clics]_: número de correos electrónicos en los que se hizo clic dividido por el número de envíos
+### [!UICONTROL Obtener detalles]
 
-**[!UICONTROL Rendimiento de SMS]** columnas de tabla:
+Para el gráfico circular, elija **[!UICONTROL Obtener detalles]** para obtener un análisis detallado de los datos.
 
-* _[!UICONTROL Nombre del recurso]_ - nombre del recurso
-* _[!UICONTROL Enviado]_: número de mensajes SMS enviados
-* _[!UICONTROL Tasa de entrega]_: número de mensajes SMS enviados dividido por el número enviado
-* _[!UICONTROL Tasa de clics]_: número de mensajes SMS en los que se hizo clic dividido por el número de mensajes entregados
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+![Obtener detalles para acceder a los datos del gráfico](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-## Interacción mejorada
+Puede hacer clic en el menú _Más_ (**...**) en la parte superior derecha y elegir **[!UICONTROL Ver más]** para [ver datos extendidos](#view-more).
 
-Siga interactuando con los datos mediante el icono de acción (**...**) en la parte superior derecha de cada gráfico o tabla.
+### [!UICONTROL Ver más]
 
-### Obtención de detalles
+Elija **[!UICONTROL Ver más]** para ver datos y perspectivas ampliados.
 
-Para el gráfico de _[!UICONTROL estado de Recorrido]_, elija **[!UICONTROL Explorar en profundidad]** para un análisis detallado de los estados de las cuentas individuales.
+![Ver datos extendidos](./assets/journeys-by-engagement-view-more.png){width="700" zoomable="yes"}
 
-![Exploración detallada de los datos del gráfico](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
-<!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+La ventana emergente que se muestra incluye un gráfico y una tabla que muestran el desglose de los datos del recorrido.
 
-### Ver más
-
-Elija **[!UICONTROL Ver más]** para acceder a datos e información ampliados. La ventana emergente que se muestra proporciona un desglose de los datos.
-
-Para descargar los datos, haga clic en **[!UICONTROL Descargar CSV]** en la parte superior derecha.
-
-![Ver datos extendidos](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}
+Para descargar los datos, haga clic en **[!UICONTROL Descargar CSV]** en la parte superior derecha de la tabla de datos. Para volver al panel _Información general_, haga clic en **[!UICONTROL Cerrar]**.
