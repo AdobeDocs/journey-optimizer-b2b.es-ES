@@ -2,9 +2,10 @@
 title: Escuchar un evento
 description: Obtenga información acerca del tipo de nodo Escuchar un evento que puede utilizar para organizar las recorridos de su cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: a1247b0cdab586f2bca1c0e495d5db2069d2645b
+exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1368'
 ht-degree: 13%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 13%
 # Escuchar un evento
 
 Agregue el nodo _Escuchar un evento_ para mover la audiencia al siguiente paso en el recorrido de la cuenta cuando se produzca un evento.
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
 >[!NOTE]
 >
@@ -62,8 +65,8 @@ Escuche un evento basado en personas cuando desee mover la cuenta hacia adelante
 | | Eliminado del grupo de compra | Interés de la solución<br/>Fecha de la actividad (opcional)<br/>Tiempo de espera (opcional) |
 | | Se cambia el puntaje | Nombre de puntuación<br/><br/>Restricciones adicionales (opcional):<li>Cambiar</li><li>Nuevo puntaje</li><li>Urgencia</li><li>Prioridad</li><li>Puntaje relativo</li><li>Urgencia relativa</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
 | | Devoluciones de SMS | Mensaje SMS<br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Número mínimo de veces</li><br/>Tiempo de espera (opcional) |
-| Marketo Engage | Visita la página web | Página web <br/> Seleccione una o varias páginas de Marketo Engage para que coincidan. <br/><br/>Restricciones adicionales (opcional): <li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Motor de búsqueda</li><li>Consulta de búsqueda</li><li>Token</li><li>Explorador</li><li>Plataforma</li><li>Device</li><li>Fecha de la actividad</li> |
-| | Completa el formulario | Formulario <br/>: seleccione uno o más formularios de Marketo Engage para que coincidan.  <br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Plataforma</li><li>Device</li><br/>Tiempo de espera (opcional) |
+| Marketo Engage | Visita la página web | Página web <br/> Seleccione una o más páginas de Marketo Engage para que coincidan. <br/><br/>Restricciones adicionales (opcional): <li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Motor de búsqueda</li><li>Consulta de búsqueda</li><li>Token</li><li>Explorador</li><li>Plataforma</li><li>Device</li><li>Fecha de la actividad</li> |
+| | Completa el formulario | Formulario <br/>: seleccione uno o varios formularios de Marketo Engage para que coincidan.  <br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Plataforma</li><li>Device</li><br/>Tiempo de espera (opcional) |
 | Adobe Experience Platform | Definición del evento | Tipo de evento <br/><br/>Restricciones adicionales (opcional): <li>Campos</li> <br/>Restricciones adicionales (no admitidas): <li>Fecha de la actividad</li><li>Mín. número de veces</li>Tiempo de espera de <br/> (opcional) |
 
 ### Añadir un evento de personas
@@ -80,15 +83,15 @@ Escuche un evento basado en personas cuando desee mover la cuenta hacia adelante
 
 1. Haga clic en **[!UICONTROL Editar evento]** y defina los detalles del evento.
 
-### Escuchar evento de Marketo Engage
+### Escuchar el evento de Marketo Engage
 
-Si tiene páginas web creadas en la instancia de Marketo Engage conectada, puede almacenar en déclencheur un evento basado en una visita o no visita a páginas web de Marketo Engage, así como formularios de Marketo Engage que se hayan rellenado o no.
+Si tiene páginas web creadas en la instancia de Marketo Engage conectada, puede almacenar en déclencheur un evento basado en una visita o no visita a páginas web de Marketo Engage, así como formularios de Marketo Engage que se rellenaron o no.
 
 1. Seleccione un nodo **[!UICONTROL Listen for an event]** en el editor de recorrido.
 
 1. En las propiedades del nodo a la derecha, elija **[!UICONTROL Personas]** para el tipo de evento.
 
-1. Haga clic en la flecha del selector **[!UICONTROL Seleccionar evento de personas]** y desplace el menú hasta la sección **[!UICONTROL Marketo Engage]**.
+1. Haga clic en la flecha del selector **[!UICONTROL Seleccionar evento de personas]** y desplace el menú a la sección **[!UICONTROL Marketo Engage]**.
 
 1. Seleccione un tipo de actividad de participación en el mercado:
 
@@ -99,7 +102,7 @@ Si tiene páginas web creadas en la instancia de Marketo Engage conectada, puede
 
 1. Haga clic en **[!UICONTROL Editar evento]** y defina una o más páginas web para que coincidan y cualquier restricción adicional para el evento.
 
-   * (Obligatorio) En el cuadro de diálogo _[!UICONTROL Editar evento]_, defina la restricción **[!UICONTROL Página web]** o Rellena el formulario. Use **[!UICONTROL is]** (predeterminado) para hacer coincidir una o más páginas o formularios seleccionados. Use **[!UICONTROL no es]** para hacer coincidir en todas las visitas/formularios de página con la exclusión de una o más páginas/formularios seleccionados. O bien, use **[!UICONTROL es cualquier]** para que coincida con cualquier visita a la página web del Marketo Engage o formulario rellenado.
+   * (Obligatorio) En el cuadro de diálogo _[!UICONTROL Editar evento]_, defina la restricción **[!UICONTROL Página web]** o Rellena el formulario. Use **[!UICONTROL is]** (predeterminado) para hacer coincidir una o más páginas o formularios seleccionados. Use **[!UICONTROL no es]** para hacer coincidir en todas las visitas/formularios de página con la exclusión de una o más páginas/formularios seleccionados. O bien, use **[!UICONTROL es cualquier]** para que coincida con cualquier visita a una página web de Marketo Engage o formulario rellenado.
 
    * (Opcional) Haga clic en **[!UICONTROL Agregar restricción]** y elija el campo que desea utilizar para la restricción. Establezca el operador y el valor del campo.
 
@@ -119,7 +122,7 @@ Los administradores pueden configurar definiciones de eventos basadas en Adobe E
 
 1. [Crear y publicar una definición de evento de AEP](../admin/configure-aep-events.md).
 
-2. En un recorrido de cuenta, agregue un nodo _Escuchar un evento_ y seleccione una definición de evento de Experience Platform para un evento basado en personas.
+2. En un recorrido de cuenta, agrega un nodo _Escuchar un evento_ y selecciona una definición de evento de Experience Platform para un evento basado en personas.
 
 _Para incluir un evento de experiencia en el recorrido:_
 
@@ -175,5 +178,6 @@ Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento.
 
    ![nodo de evento de Recorrido - establecer ruta de tiempo de espera](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
+## Vídeo de información general
 
-
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

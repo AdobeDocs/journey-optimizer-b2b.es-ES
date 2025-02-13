@@ -2,9 +2,10 @@
 title: Dividir y combinar rutas
 description: Obtenga información acerca de los tipos de nodos de rutas de acceso divididas y rutas de acceso de combinación que puede utilizar para organizar los recorridos de la cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: af6e89b25ca20e14ec9a4c2ed4c8d632ad7c12dc
+exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1519'
 ht-degree: 4%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 4%
 # Dividir y combinar rutas
 
 Utilice los nodos de ruta divididos y combinados en el recorrido de la cuenta para organizar los recorridos de la cuenta. Puede segmentar la audiencia según las condiciones que defina y combinar los segmentos para continuar.
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
 ## Dividir rutas
 
@@ -144,13 +147,13 @@ _¿Cómo funciona un nodo de ruta dividida por personas?_
 
 1. Habilite la opción **[!UICONTROL Otras personas]** para agregar una ruta predeterminada para las personas que no coinciden con las rutas definidas. Si no, el recorrido termina para estas personas.
 
->[!BEGINSHADEBOX &quot;inscripción a la lista de Marketo Engage&quot;]
+>[!BEGINSHADEBOX &quot;inscripción a la lista Marketo Engage&quot;]
 
-En Marketo Engage, _Campañas inteligentes_ comprueba la pertenencia de los programas para asegurarte de que los posibles clientes no reciban correos electrónicos duplicados y no sean miembros de varios flujos de correos electrónicos al mismo tiempo. En Journey Optimizer B2B, puede comprobar la pertenencia a la lista de Marketo Engage como condición para que las personas dividan la ruta y así eliminar la duplicación en las actividades de recorrido.
+En Marketo Engage, _Campañas inteligentes_ comprueba la pertenencia de los programas para asegurarte de que los posibles clientes no reciban correos electrónicos duplicados y no sean miembros de varios flujos de correos electrónicos al mismo tiempo. En Journey Optimizer B2B, puede comprobar la pertenencia a listas de Marketo Engage como condición para que las personas puedan dividir la ruta y ayudar a eliminar la duplicación en las actividades de recorrido.
 
-Para ello, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** al espacio de filtro y complete la definición de filtro para evaluar la pertenencia a una o más listas de Marketo Engage.
+Para ello, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** al espacio de filtro y complete la definición del filtro para evaluar la pertenencia a una o más listas de Marketo Engage.
 
-![Condición de división de ruta por personas para pertenencia a lista de Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![Condición de división de ruta por personas para la pertenencia a la lista de Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -185,3 +188,7 @@ Agregue un nodo _Combinar rutas_ para combinar diferentes rutas divididas por cu
    En este punto, las rutas se combinan para que las cuentas de las rutas seleccionadas se combinen en una sola ruta que pueda continuar avanzando a través del recorrido.
 
 1. Si es necesario, puede anular la combinación de rutas volviendo a las propiedades del nodo de rutas de combinación y desactivando la casilla de verificación de las rutas que desee eliminar.
+
+## Vídeo de información general
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

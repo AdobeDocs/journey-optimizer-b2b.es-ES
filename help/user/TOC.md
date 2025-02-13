@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 37%
+source-wordcount: '226'
+ht-degree: 36%
 
 ---
 
@@ -21,14 +21,15 @@ ht-degree: 37%
    + [Utilizar el asistente de IA](./start/ai-assistant.md)
 + Recorridos de cuenta {#account-journeys}
    + [Información general](./journeys/journey-overview.md)
-   + [detalles del recorrido](./journeys/journey-details.md)
-   + [nodo de recorrido](./journeys/journey-nodes.md)
+   + [Creación y publicación de un recorrido](./journeys/create-publish-journey.md)
+   + [nodos de recorrido](./journeys/journey-nodes.md)
    + Nodos de recorrido {#journey-nodes}
       + [Público de cuenta](./journeys/account-audience-nodes.md)
       + [Realizar una acción](./journeys/action-nodes.md)
       + [Escuchar un evento](./journeys/listen-for-event-nodes.md)
       + [Dividir y combinar rutas](./journeys/split-merge-paths-nodes.md)
       + [Espera](./journeys/wait-nodes.md)
+   + [detalles del recorrido](./journeys/journey-details.md)
 + Contenido de recorrido {#journey-content}
    + Canal de correo electrónico {#email-channel}
       + [Creación de correo electrónico](./content/email-authoring.md)
