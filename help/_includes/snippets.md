@@ -1,9 +1,9 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 ## Configuración de datos por intención {#intent-data-note}
 
 >[!NOTE]
->Los datos de intención también se pueden incluir en la página cuando se configuran para la instancia de Journey Optimizer B2B edition. Para obtener más información acerca del modelo de detección de intención y cómo enviar palabras clave, vea [Datos por intención](../user/admin/intent-data.md).
 >
+>Los datos de intención se incluyen en la página cuando se configuran para la instancia de Journey Optimizer B2B edition. Para obtener más información acerca del modelo de detección de intención y cómo enviar palabras clave, productos y categorías, vea [Datos por intención](../user/admin/intent-data.md).
 
-## AEM nota de licencia de recursos de {#aem-assets-licensing-note}
+## nota de licencia de AEM assets {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->Las licencias para AEM Assets as a Cloud Service y la licencia de Dynamic Media son requisitos previos para la integración. Debe asegurarse de que [Dynamic Media con API abierta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esté habilitado.<br/>
->Según el contrato y la configuración, se puede acceder directamente al as a Cloud Service de Adobe Experience Manager Assets desde Adobe Journey Optimizer B2B edition al diseñar contenido visual.
+>Las licencias para AEM Assets y las licencias de as a Cloud Service y Dynamic Media son requisitos previos para la integración. Debe asegurarse de que [Dynamic Media con API abierta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esté habilitado.<br/>
+>Según el contrato y la configuración, se puede acceder directamente a Adobe Experience Manager Assets as a Cloud Service desde Adobe Journey Optimizer B2B edition al diseñar contenido visual.
 
 ## Creación de contenido: componentes, paso de estructuras {#structures-step}
 
