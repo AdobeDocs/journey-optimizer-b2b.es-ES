@@ -3,10 +3,10 @@ title: Panel de control inteligente
 description: Obtenga información acerca del tablero inteligente, que proporciona una vista completa de las métricas de grupos de compras y cuentas
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 15%
+source-wordcount: '1568'
+ht-degree: 11%
 
 ---
 
@@ -30,13 +30,17 @@ El Intelligent Dashboard también proporciona acceso a las páginas de detalles 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Fases del grupo de compras"
->abstract="Este gráfico proporciona una visión general de la progresión del grupo de compra en diferentes fases en función de las reglas de transición configuradas. La primera barra indica el número de grupos de compra de una fase específica en la primera fecha del lapso de tiempo seleccionado en comparación con el número de grupos de compra en la última fecha del lapso de tiempo seleccionado."
+>abstract="Este gráfico proporciona una visión general de la progresión del grupo de compra en diferentes fases en función de las reglas de transición configuradas. La primera barra indica el número de grupos de compra en una fase específica en la primera fecha del lapso de tiempo seleccionado en comparación con la última fecha del periodo de tiempo seleccionado."
 
 El gráfico _[!UICONTROL Fases del grupo de compra]_ proporciona una descripción general de la progresión del grupo de compra en diferentes etapas ([según las reglas de transición configuradas por un administrador](../buying-groups/buying-group-stages.md)).
 
+>[!NOTE]
+>
+>La disponibilidad de las fases del grupo de compra requiere la configuración de las fases del grupo de compra. Consulte [Fases de grupos de compras](../buying-groups/buying-group-stages.md) para obtener información detallada sobre las fases y cómo definir y habilitar las fases para los grupos de compras.
+
 ![El grupo de compras organiza la visualización de datos](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
-El gráfico utiliza las fases del grupo de compra de la versión publicada más recientemente del modelo de fases del grupo de compra. Cada etapa se refleja mediante dos barras. La primera barra indica el número de grupos de compra en la primera fecha del lapso de tiempo seleccionado. Y el segundo (en comparación) es el número de grupos de compra en la última fecha del lapso de tiempo. Puede pasar el ratón sobre cada barra para ver el número de grupos de compra en cada etapa.
+El gráfico utiliza las fases del grupo de compra de la versión publicada más recientemente del modelo de fases del grupo de compra. Hay dos bares para cada escenario. La primera barra indica el número de grupos de compra en la primera fecha del lapso de tiempo seleccionado. Y el segundo (en comparación) es el número de grupos de compra en la última fecha del lapso de tiempo. Puede pasar el ratón sobre cada barra para ver el número de grupos de compra en cada etapa.
 
 ![Pase el ratón sobre la barra para ver los números detallados](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"}
 
@@ -104,6 +108,8 @@ Cada tarjeta incluye los siguientes datos:
    * Los datos de cada fila se organizan en columnas: el nombre del producto, la intensidad de la intención del producto y las palabras clave principales por la intensidad de la intención.
    * El orden de clasificación es de mayor a menor para la categoría, el producto y las palabras clave. Si uno o varios de los tipos tienen la misma seguridad de intención, la ordenación utiliza el orden alfabético.
 
+  {{intent-data-note}}
+
 En la parte superior derecha del panel _Aspectos destacados del grupo de compra_, haz clic en **[!UICONTROL Ver todo]** para navegar a la página de la lista Grupos de compra.
 
 ### Filtro de atributos {#attribute-filter-bg-highlights}
@@ -130,6 +136,10 @@ Utilice el filtro de fecha en la parte superior derecha para cambiar el interval
 >abstract="Cuentas con un cambio significativo en el impulso de la participación dentro del lapso de tiempo seleccionado."
 
 La sección _[!UICONTROL Cuentas emergentes]_ muestra una visualización de las cuentas con un cambio significativo en el momento de participación dentro del lapso de tiempo seleccionado.
+
+>[!NOTE]
+>
+>Los datos de aumento de cuenta se limitan a cuentas que fueron introducidas por Journey Optimizer B2B edition en una audiencia de cuenta a través de recorridos de cuenta o grupos de compra.
 
 ![Visualización de datos de aumento de cuenta](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -171,6 +181,10 @@ Utilice el filtro de fecha en la parte superior derecha para cambiar el interval
 
 La sección _[!UICONTROL Aspectos destacados del grupo de compra]_ está organizada en dos filas para obtener información sobre las cuentas de interés para su organización.
 
+>[!NOTE]
+>
+>Los datos de resaltado de cuenta se limitan a cuentas que fueron introducidas por Journey Optimizer B2B edition en una audiencia de cuenta a través de recorridos de cuenta o grupos de compra.
+
 ![Aspectos destacados de la cuenta](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
 * **Cuentas emergentes**: esta fila muestra las cuentas con un aumento significativo en el momento de participación durante el lapso de tiempo seleccionado.
@@ -187,6 +201,8 @@ Cada tarjeta incluye los siguientes datos:
    * La ventana emergente de detalles muestra el nombre de la categoría con el nivel de intención en la parte superior.
    * Los datos de cada fila se organizan en columnas: el nombre del producto, la intensidad de la intención del producto y las palabras clave principales por la intensidad de la intención.
    * El orden de clasificación es de mayor a menor para la categoría, el producto y las palabras clave. Si uno o varios de los tipos tienen la misma seguridad de intención, la ordenación utiliza el orden alfabético.
+
+  {{intent-data-note}}
 <!-- 
 At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
 
@@ -213,6 +229,10 @@ Utilice el filtro de fecha en la parte superior derecha para cambiar el interval
 >abstract="Muestra el número de contactos con una función específica asociada a un interés de solución. La asignación de la función y el interés de la solución se basan en la plantilla de grupo de compra."
 
 La sección _[!UICONTROL Cobertura de contactos]_ muestra una visualización del número de contactos con una función específica asociada con un interés de solución. La asignación de la función y el interés de la solución se basan en la plantilla de grupo de compra.
+
+>[!NOTE]
+>
+>Los datos de cobertura de contactos se basan en los grupos de compra creados en la instancia de Journey Optimizer B2B edition.
 
 ![Visualización de datos de aumento de cuenta](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -241,6 +261,10 @@ Haga clic en el icono _Filtro_ ( ![Icono de filtro](../assets/do-not-localize/ic
 >abstract="Lista de contactos que forman parte de más de un grupo de compra como resultado de estar asociados con varios intereses de soluciones."
 
 La sección _[!UICONTROL Superposición de contactos]_ muestra una lista de contactos que forman parte de más de un grupo de compras como resultado de estar asociados con varios intereses de soluciones.
+
+>[!NOTE]
+>
+>Los datos de superposición de contactos se basan en los grupos de compras creados en la instancia de Journey Optimizer B2B edition.
 
 ![Tabla de superposición de contactos](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 
