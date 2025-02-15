@@ -2,9 +2,10 @@
 title: Detalles de Recorrido
 description: Obtenga información acerca de la información proporcionada por la página de detalles de recorrido y cómo puede ayudarle a supervisar y administrar el recorrido de cuentas publicado.
 feature: Dashboards, Account Journeys
-source-git-commit: cbacc678d01850e3eb3901c44994ddf849a63d7c
+exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
+source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -25,6 +26,13 @@ Esta sección presenta dos métricas de finalización:
 
 * **[!UICONTROL Estado del Recorrido]**: este gráfico circular ofrece un desglose de los estados de recorrido al categorizar las cuentas en _Completadas_, _En curso_ y _Anuladas_. Cada segmento está etiquetado con los porcentajes y números de cuenta correspondientes en el borde exterior del gráfico.
 * **[!UICONTROL Finalización de Recorridos a lo largo del tiempo]**: este gráfico de líneas realiza un seguimiento del número de cuentas que han completado su recorrido a lo largo del tiempo. El eje horizontal asigna la cronología, mientras que el eje vertical cuantifica las cuentas, lo que proporciona una vista directa de las tendencias de finalización.
+
+## participación de recorrido
+
+Esta sección presenta dos métricas de finalización:
+
+* **[!UICONTROL Participación por cuentas]**: este gráfico circular segmenta las cuentas de un recorrido en las categorías _Participado_ y _No comprometido_. La figura central muestra el recuento total. Esta visualización proporciona una comprensión rápida de la participación general de la cuenta.
+* **Participación de personas**: esta visualización muestra el número total de personas calificadas como _comprometidas_ en un recorrido.
 
 ## rendimiento del recorrido
 
