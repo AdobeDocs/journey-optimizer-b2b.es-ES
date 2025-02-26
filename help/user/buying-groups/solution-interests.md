@@ -3,7 +3,7 @@ title: Intereses de solución
 description: Conozca los intereses de la solución y cómo puede definirlos para usarlos dentro de sus grupos de compra.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
+source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Antes de crear grupos compradores, debes saber qué estás vendiendo y a quién 
 
    ![Ficha Interés de la solución](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   La pestaña proporciona una lista de inventario de todos los intereses de la solución existentes. Proporciona la siguiente información en formato de columna: _[!UICONTROL Nombre]_, _[!UICONTROL Plantilla de roles]_, _[!UICONTROL Comprar trabajos de creación de grupos]_, _[!UICONTROL Última actualización el]_, _[!UICONTROL Actualizado el]_, _[!UICONTROL Creado el]_ y _[!UICONTROL Creado el]_
+   La pestaña proporciona una lista de inventario de todos los intereses de la solución existentes. Muestra la siguiente información en formato de columna: _[!UICONTROL Nombre]_, _[!UICONTROL Plantilla de roles]_, _[!UICONTROL Comprar trabajos de creación de grupos]_, _[!UICONTROL Última actualización el]_, _[!UICONTROL Actualizado el]_, _[!UICONTROL Creado el]_ y _[!UICONTROL Creado el]_
 
    La lista está ordenada de forma predeterminada por la columna _[!UICONTROL Última actualización el]_. Haga clic en el título de la columna en el encabezado para alternar el orden entre descendente y ascendente.
 
@@ -58,7 +58,7 @@ Antes de crear un interés de solución, debe tener una plantilla de funciones a
 
 1. Habilitar la configuración **[!UICONTROL Actualizar grupos de compras existentes]** (opcional).
 
-   Cuando esta opción está habilitada, todos los grupos de compra existentes vinculados con el interés de la solución se actualizan a través del ciclo de sincronización de 24 horas.
+   Cuando esta opción está habilitada, todos los grupos de compra existentes asociados con el interés de la solución se actualizan a través del ciclo de sincronización de 7 días.
 
 1. Haga clic en **[!UICONTROL Crear]** en la esquina superior derecha.
 
