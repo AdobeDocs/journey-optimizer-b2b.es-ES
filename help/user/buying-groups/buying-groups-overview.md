@@ -3,10 +3,10 @@ title: Grupos de compra
 description: Descubra cómo los grupos de compras en Journey Optimizer B2B edition pueden aumentar la eficacia del marketing al identificar y segmentar miembros para sus listas de cuentas.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
+source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 5%
+source-wordcount: '1788'
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ Para las actividades de ventas y marketing B2B, las cuentas son clave para cualq
 
 ![Diagrama de funciones de cuenta](assets/account-roles-diagram.png){width="800"}
 
-En la cuenta podría haber un subconjunto de personas que forman el _grupo comprador_. Estas son las personas que finalmente toman la decisión de compra, por lo que necesitan una atención especial del experto en marketing y podrían necesitar una información diferente que las demás personas asociadas con la cuenta. Los grupos de compra pueden incluir un grupo diferente de personas para diferentes líneas u ofertas de productos. Por ejemplo, un producto de ciberseguridad suele requerir la aprobación de una compra por parte de un director de información o un responsable de seguridad, y un representante del departamento legal, pero un producto de seguimiento de errores suele tener un vicepresidente de ingeniería y un Director de TI como miembros del grupo comprador.
+En la cuenta podría haber un subconjunto de personas que forman el _grupo comprador_. Estas son las personas que finalmente toman la decisión de compra, por lo que necesitan una atención especial del experto en marketing y podrían necesitar una información diferente que las demás personas asociadas con la cuenta. Los grupos de compra pueden incluir un grupo diferente de personas para diferentes líneas u ofertas de productos. Por ejemplo, un producto de ciberseguridad suele requerir la aprobación de una compra por parte de un director de información o un director de seguridad, y un representante del departamento legal, pero un producto de seguimiento de errores suele tener como miembros del grupo de compra a un vicepresidente de ingeniería y un director de TI.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](#overview-video)
 
@@ -91,11 +91,58 @@ La puntuación de integridad del grupo de compra se vuelve a calcular cada vez q
 
 ### Puntuación de participación de grupo de compras
 
-La puntuación de participación en el grupo de compra es un número que determina la participación de los miembros de un grupo de compra, en función de las actividades que realizan. Cualquier actividad entrante realizada por los miembros del grupo comprador en los últimos 30 días se utiliza para calcular la puntuación.
+La puntuación de participación en el grupo de compra es un número que determina la participación de los miembros de un grupo de compra, en función de las actividades que realizan.
 
-Hay un límite de frecuencia diario de 20 para cada actividad. Si un miembro de un grupo comprador realiza la misma actividad más de 20 veces al día, el recuento de la actividad se limita a 20 y no a un número superior.
+* El cálculo de puntuación de participación comienza en cuanto se genera el grupo comprador.
+* Cualquier actividad entrante realizada por los miembros del grupo comprador en los últimos 30 días se utiliza para calcular la puntuación.
+* Con la ventana de 30 días y a medida que las actividades caduquen, la puntuación podría bajar.
+* Hay un límite de frecuencia diario de 20 para cada actividad. Si un miembro de un grupo comprador realiza la misma actividad más de 20 veces al día, el recuento de la actividad se limita a 20 y no a un número superior.
+* La puntuación mostrada se redondea. Por ejemplo, una puntuación de 75,89999 se muestra como 76.
 
-La puntuación mostrada se redondea. Por ejemplo, una puntuación de 75,89999 se muestra como 76.
++++Actividades utilizadas para la puntuación
+
+| Nombre de la actividad | Descripción | Tipo de participación | Recuento máximo de frecuencia diaria | Peso de la actividad |
+| --- | --- | --- | --- | --- |
+| Registrarse para el evento | Registra un evento asociado a una campaña | Evento | 20 | 60 |
+| Asistir a evento | Asiste a un evento de campaña | Evento | 20 | 90 |
+| Abrir correo electrónico | Abre un correo electrónico | Correo electrónico | 20 | 30 |
+| Hacer clic en el correo electrónico | Hace clic en un vínculo de un correo electrónico | Correo electrónico | 20 | 30 |
+| Abrir correo electrónico de ventas | Abre un correo de ventas | Correo electrónico | 20 | 30 |
+| Hacer clic en el correo electrónico de ventas | Hace clic en un vínculo de un correo electrónico de ventas | Correo electrónico | 20 | 30 |
+| Momento interesante | Tiene un momento interesante | Revisado | 20 | 60 |
+| Pulsar la notificación de inserción | Recibe una notificación push | Dispositivo móvil | 20 | 30 |
+| Actividad en la aplicación móvil | Realiza una actividad en una aplicación móvil | Dispositivo móvil | 20 | 30 |
+| Sesión en la aplicación móvil | Está activo en la sesión de la aplicación móvil | Dispositivo móvil | 20 | 30 |
+| Completar formulario de anuncios de Facebook para clientes potenciales | Rellena y envía un formulario de anuncios de posibles clientes en una página de Facebook | Social | 20 | 30 |
+| Haga clic en la llamada a la acción de RTP | Hace clic en una llamada a la acción personalizada | Web | 20 | 60 |
+| Ver mensaje dentro de la aplicación | Visualiza un mensaje en la aplicación | Dispositivo móvil | 20 | 30 |
+| Pulsar mensaje dentro de la aplicación | Toca un mensaje en la aplicación | Dispositivo móvil | 20 | 30 |
+| Suscribirse a SMS | Suscribe a las comunicaciones por SMS | SMS | 20 | 90 |
+| Responder al correo electrónico de ventas | Respuestas a un correo electrónico de ventas | Correo electrónico | 20 | 30 |
+| Participó en un diálogo | Interactúa con un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
+| Interactuó con un documento en el diálogo | Interactúa con un documento en un diálogo de Dynamic Chat | Chat | 20 | 90 |
+| Programó una reunión en el diálogo | Programa una cita en un diálogo de Dynamic Chat | Chat | 20 | 90 |
+| Alcanzó el objetivo del diálogo | Alcanza un objetivo en un cuadro de diálogo de Dynamic Chat |  | 20 | 90 |
+| Ha respondido a un sondeo en el seminario web | Responde a una encuesta en un evento de seminario web | Chat | 20 | 90 |
+| Ha hecho clic en llamada a la acción en el seminario web | Hace clic en un vínculo de llamada a la acción en un evento de seminario web | Llamar a un | 20 | 30 |
+| Descargas de recursos en el seminario web | Descarga un archivo o recurso en un evento de seminario web | Evento | 20 | 60 |
+| Realiza preguntas en el seminario web | Hace preguntas en un evento de seminario web | Evento | 20 | 60 |
+| Asistió al evento | Ha asistido a un evento | Evento | 20 | 60 |
+| Interactuó con un agente en el diálogo | Interactúa con un agente en un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
+| Ha hecho clic en un vínculo del chat en el diálogo | Hace clic en un vínculo de un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
+| Ha participado en un flujo conversacional | Interactúa con un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| Ha programado una reunión en el flujo conversacional | Programa una cita en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| Se ha alcanzado el objetivo del flujo conversacional | Alcanza un objetivo en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| Ha interactuado con un documento en el flujo conversacional | Interactúa con un documento en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| Ha interactuado con un agente en el flujo conversacional | Se involucra con un agente en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| Ha hecho clic en un vínculo del chat en el flujo conversacional | Hace clic en un vínculo de un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| Haga clic en Vínculo en SMS V2 | Hace clic en un vínculo de un mensaje SMS | SMS | 20 | 90 |
+
+>[!NOTE]
+>
+>Las actividades de puntuación de participación se registran en el registro de actividades [de Marketo Engage para una persona](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+
++++
 
 #### Ponderación
 
