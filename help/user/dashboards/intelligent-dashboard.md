@@ -3,10 +3,10 @@ title: Panel de control inteligente
 description: Obtenga información acerca del tablero inteligente, que proporciona una vista completa de las métricas de grupos de compras y cuentas
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 11%
+source-wordcount: '1688'
+ht-degree: 10%
 
 ---
 
@@ -24,6 +24,19 @@ El Intelligent Dashboard también proporciona acceso a las páginas de detalles 
 * Detección de intención de persona, grupo de compra y cuenta
 
 {{intent-data-note}}
+
+Para utilizar la información y las perspectivas proporcionadas por el Intelligent Dashboard, la instancia de Journey Optimizer B2B edition debe disponer de los elementos necesarios:
+
+| Tipo | Requisito |
+| ---- | ----------- |
+| [Fases de grupos de compras](#buying-group-stages) | Configure las fases del grupo de compra **y** para agregar a los grupos de compra creados. |
+| [Puntos destacados del grupo de compra](#buying-group-highlights) | Configure las fases del grupo de compra **y** para agregar a los grupos de compra creados. |
+| [Aumento de cuenta](#surging-accounts) | Uno o más recorridos publicados **o** crearon grupos de compra. |
+| [Aspectos destacados de la cuenta](#account-highlights) | Uno o más recorridos publicados **o** crearon grupos de compra. |
+| [Cobertura de contacto](#contact-coverage) | Uno o más grupos de compra creados (etapas no necesarias). |
+| [Superposición de contactos](#contact-overlap) | Uno o más grupos de compra creados (etapas no necesarias). |
+| [Página de detalles de la cuenta](../accounts/account-details.md) | Uno o más recorridos publicados. |
+| [Página de detalles del grupo de compra](../buying-groups/buying-group-details.md) | Uno o más grupos de compra creados (etapas no necesarias). |
 
 ## Fases del grupo de compras {#buying-group-stages}
 
@@ -139,7 +152,7 @@ La sección _[!UICONTROL Cuentas emergentes]_ muestra una visualización de las 
 
 >[!NOTE]
 >
->Los datos de aumento de cuenta se limitan a cuentas que fueron introducidas por Journey Optimizer B2B edition en una audiencia de cuenta a través de recorridos de cuenta o grupos de compra.
+>Los datos de aumento de cuenta se limitan a cuentas que Journey Optimizer B2B edition ingiere en una audiencia de cuenta a través de recorridos de cuenta o grupos de compra.
 
 ![Visualización de datos de aumento de cuenta](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -179,11 +192,11 @@ Utilice el filtro de fecha en la parte superior derecha para cambiar el interval
 >title="Cuentas en riesgo"
 >abstract="Cuentas con una disminución significativa del impulso de participación en el lapso de tiempo seleccionado."
 
-La sección _[!UICONTROL Aspectos destacados del grupo de compra]_ está organizada en dos filas para obtener información sobre las cuentas de interés para su organización.
+La sección _[!UICONTROL Aspectos destacados de la cuenta]_ está organizada en dos filas para obtener información sobre las cuentas de interés para su organización.
 
 >[!NOTE]
 >
->Los datos de resaltado de cuenta se limitan a cuentas que fueron introducidas por Journey Optimizer B2B edition en una audiencia de cuenta a través de recorridos de cuenta o grupos de compra.
+>Los datos de resaltado de cuenta se limitan a cuentas que Journey Optimizer B2B edition ingiere en una audiencia de cuenta a través de recorridos de cuenta o grupos de compra.
 
 ![Aspectos destacados de la cuenta](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 

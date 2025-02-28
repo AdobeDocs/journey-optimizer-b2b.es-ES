@@ -1,9 +1,9 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Los datos de intención se incluyen en la página cuando se configuran para la instancia de Journey Optimizer B2B edition. Para obtener más información acerca del modelo de detección de intención y cómo enviar palabras clave, productos y categorías, vea [Datos por intención](../user/admin/intent-data.md).
+>Los datos de intención se incluyen cuando se configuran para la instancia de Journey Optimizer B2B edition. También requiere que se publiquen uno o más recorridos **o** que hayan creado grupos compradores. Para obtener más información acerca del modelo de detección de intención y cómo enviar palabras clave, productos y categorías, vea [Datos por intención](../user/admin/intent-data.md).
 
 ## nota de licencia de AEM assets {#aem-assets-licensing-note}
 
