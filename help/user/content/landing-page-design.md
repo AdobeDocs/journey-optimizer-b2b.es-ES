@@ -5,10 +5,11 @@ feature: Content
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
+source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 9%
+ht-degree: 18%
 
 ---
 
@@ -21,7 +22,7 @@ Después de [crear una página de aterrizaje](./landing-pages.md#create-a-landin
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_structure"
 >title="Añadir componentes de estructura a la página de aterrizaje"
->abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte un componente **Structure** en el lienzo para diseñar el contenido de la página."
+>abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte un componente de **Estructura** en el lienzo para empezar a diseñar el contenido de la página."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_content_components"
@@ -71,4 +72,4 @@ Desde el menú _[!UICONTROL Más ...]_ de la parte superior del diseñador visua
 * **[!UICONTROL Restablecer página de aterrizaje]**: haga clic en esta opción para borrar el lienzo del diseñador visual de una pizarra en blanco y reiniciar la creación del contenido de la página.
 * **[!UICONTROL Cambia tu diseño]** - Vuelve a la página de inicio de _[!UICONTROL Crear tu página de aterrizaje principal]_. Desde allí, puede elegir otra plantilla para reiniciar el proceso de diseño o elegir diseñar la página desde cero en un lienzo en blanco.
 <!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
-* **[!UICONTROL HTML de exportación]**: descargue el contenido del lienzo visual en su sistema local en formato de HTML empaquetado como archivo zip.
+* **[!UICONTROL Exportar HTML]**: descargue el contenido del lienzo visual en su sistema local en formato HTML empaquetado como archivo zip.

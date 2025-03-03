@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
 source-wordcount: '1688'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -43,7 +43,7 @@ Para utilizar la información y las perspectivas proporcionadas por el Intellige
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Fases del grupo de compras"
->abstract="Este gráfico proporciona una visión general de la progresión del grupo de compra en diferentes fases en función de las reglas de transición configuradas. La primera barra indica el número de grupos de compra en una fase específica en la primera fecha del lapso de tiempo seleccionado en comparación con la última fecha del periodo de tiempo seleccionado."
+>abstract="Este gráfico proporciona una visión general de la progresión del grupo de compras en diferentes fases en función de las reglas de transición configuradas. La primera barra indica el número de grupos de compras de una fase específica en la primera fecha del lapso de tiempo seleccionado en comparación con la última fecha del lapso de tiempo seleccionado."
 
 El gráfico _[!UICONTROL Fases del grupo de compra]_ proporciona una descripción general de la progresión del grupo de compra en diferentes etapas ([según las reglas de transición configuradas por un administrador](../buying-groups/buying-group-stages.md)).
 
@@ -81,7 +81,7 @@ Haga clic en el icono _Filtro_ ( ![Editar icono](../assets/do-not-localize/icon-
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-## Puntos destacados del grupo de compra {#buying-group-highlights}
+## Características destacadas del grupo de compras {#buying-group-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
@@ -180,7 +180,7 @@ Utilice el filtro de fecha en la parte superior derecha para cambiar el interval
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
-## Aspectos destacados de cuenta {#account-highlights}
+## Características destacadas de la cuenta {#account-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_surging"
@@ -271,7 +271,7 @@ Haga clic en el icono _Filtro_ ( ![Icono de filtro](../assets/do-not-localize/ic
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="Solapamiento de contactos"
->abstract="Lista de contactos que forman parte de más de un grupo de compra como resultado de estar asociados con varios intereses de soluciones."
+>abstract="Lista de contactos que forman parte de más de un grupo de compras como resultado de estar asociados a múltiples intereses de la solución."
 
 La sección _[!UICONTROL Superposición de contactos]_ muestra una lista de contactos que forman parte de más de un grupo de compras como resultado de estar asociados con varios intereses de soluciones.
 
