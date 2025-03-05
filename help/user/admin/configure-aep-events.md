@@ -1,23 +1,24 @@
 ---
-title: Configuración de eventos del Experience Platform
+title: Configuración de eventos de Experience Platform
 description: Obtenga información acerca del tipo de nodo Espera que puede utilizar para organizar las recorridos de la cuenta en Journey Optimizer B2B edition.
 feature: Setup
-source-git-commit: e6f9be8ad43dfe4f314cb0462bc548a0957f5f0f
+exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
 
-# Configuración de definiciones de eventos del Experience Platform
+# Configuración de definiciones de eventos de Experience Platform
 
 Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de dos pasos:
 
 1. Cree y publique una definición de evento de AEP.
 
-2. En un recorrido de cuenta, agregue un nodo _Escuchar un evento_ y [seleccione una definición de evento de AEP como evento de personas](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+2. En un recorrido de cuenta, agrega un nodo _Escuchar un evento_ y [selecciona una definición de evento de AEP como evento de personas](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-Cada definición de evento requiere la siguiente entrada del Experience Platform:
+Cada definición de evento requiere la siguiente entrada de Experience Platform:
 
 * **_Esquema_**: esquema XDM que define la estructura de datos del evento de experiencia. Debe basarse en un evento de experiencia y estar habilitado para el perfil.
 
@@ -39,11 +40,13 @@ Cuando cree y administre definiciones de eventos para satisfacer sus objetivos o
 
 * Journey Optimizer B2B edition admite un máximo de 50 definiciones de eventos.
 
+* Los recorridos de cuenta pueden detectar eventos de experiencia de AEP que se incorporan mediante las funciones de flujo continuo de AEP, como Web SDK o la API HTTP.
+
 * Solo una definición de evento de AEP puede utilizar un esquema combinado y un conjunto de tipos de evento. Cuando crea una definición de evento utilizando un esquema (por ejemplo, `My Schema`) y un tipo de evento (por ejemplo, `Web Webpagedetails Page Views`), ninguna otra definición de evento puede utilizar la combinación de `My Schema` y `Web Webpagedetails Page Views`.
 
 * Una definición de evento se puede utilizar en más de un recorrido de cuentas.
 
-* Los eventos de experiencia de AEP se pueden utilizar con fines de toma de decisiones dentro de un recorrido de cuenta, pero no se conservan. Por lo tanto, no se puede aprovechar ningún registro histórico de Eventos de experiencia de AEP dentro de Journey Optimizer B2B edition.
+* Los eventos de experiencia de AEP se pueden utilizar con fines de toma de decisiones dentro de un recorrido de cuenta, pero no se conservan. Por lo tanto, no se puede aprovechar ningún registro histórico de eventos de experiencia de AEP en Journey Optimizer B2B edition.
 
 * No se admiten las restricciones de _fecha de la actividad_ y _número mínimo de veces_.
 
@@ -73,7 +76,7 @@ En la lista _[!UICONTROL Definiciones de eventos]_, la columna **[!UICONTROL Est
 | -------------------- | ----------- |
 | Borrador | Cuando se crea una definición de evento, está en estado de borrador. Permanece en este estado hasta que se publica para su uso en recorridos de cuenta. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Publicar<li>Eliminar |
 | Publicadas | Al publicar una definición de evento, pasa a estar disponible para su uso en recorridos de cuenta. No se pueden modificar los detalles. Acciones disponibles:<br/><ul><li>Disponible para _escuchar un nodo de recorrido de evento_<li>Crear versión de borrador<li>Eliminar (si no está en uso) |
-| Publicado (con borrador) | Cuando se crea un borrador a partir de una definición de evento publicada, la versión publicada permanece disponible para su uso en recorridos de cuenta y la versión de borrador se puede modificar. Si publica la versión de borrador, reemplazará la versión publicada actual y la definición del evento se actualizará para los recorridos de cuenta en los que aún no se haya ejecutado. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Versión de borrador de Publish<li>Descartar versión de borrador<li>Eliminar (si no está en uso) |
+| Publicado (con borrador) | Cuando se crea un borrador a partir de una definición de evento publicada, la versión publicada permanece disponible para su uso en recorridos de cuenta y la versión de borrador se puede modificar. Si publica la versión de borrador, reemplazará la versión publicada actual y la definición del evento se actualizará para los recorridos de cuenta en los que aún no se haya ejecutado. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Publicar versión de borrador<li>Descartar versión de borrador<li>Eliminar (si no está en uso) |
 
 ![Ciclo de vida del estado del fragmento](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -135,7 +138,7 @@ Para buscar una definición de evento por nombre, introduzca una cadena de texto
 
    ![La nueva definición de evento de borrador aparece en la página](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-## Publish y definición de evento
+## Publicación de una definición de evento
 
 Cuando esté seguro de que la definición del evento de borrador está completa y es correcta para sus necesidades, puede publicarla para que esté disponible para su uso en recorridos de cuenta. Una vez publicada la definición del evento, puede crear una versión de borrador si necesita realizar cambios en ella. Sin embargo, no puede cambiar el esquema y solo puede agregar tipos de eventos y campos (no puede eliminarlos).
 
@@ -149,11 +152,11 @@ Cuando esté seguro de que la definición del evento de borrador está completa 
 
    Si es necesario, revise la configuración antes de publicar. Puede [editar el borrador](#edit-an-event-definition) si no cumple con sus requisitos.
 
-1. Haga clic en **[!UICONTROL Publish]** en la parte superior derecha.
+1. Haga clic en **[!UICONTROL Publicar]** en la parte superior derecha.
 
-1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Publish]**.
+1. En el diálogo de confirmación, haga clic en **[!UICONTROL Publicar]**.
 
-   ![Cuadro de diálogo de evento de Publish](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![Cuadro de diálogo de evento de publicación](./assets/configuration-events-publish-dialog.png){width="300"}
 
    El estado de la definición del evento cambia a _Publicado_ y ahora está [disponible para su uso en recorridos de cuenta](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -189,9 +192,9 @@ Siga los pasos según el estado:
 
    Los cambios se guardan automáticamente en el borrador.
 
-1. Cuando la definición del evento cumpla sus criterios y desee que esté disponible para los recorridos de la cuenta de usuario, haga clic en **[!UICONTROL Publish]**.
+1. Cuando la definición del evento cumpla sus criterios y desee que esté disponible para las recorridos de la cuenta de usuario, haga clic en **[!UICONTROL Publicar]**.
 
-1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Publish]**.
+1. En el diálogo de confirmación, haga clic en **[!UICONTROL Publicar]**.
 
    El estado de la definición del evento cambia a _Publicado_ y ahora está disponible para su uso en recorridos de cuenta.
 
@@ -221,11 +224,11 @@ Siga los pasos según el estado:
 
    Los cambios se guardan automáticamente en el borrador.
 
-1. Cuando la definición del evento de borrador cumpla sus criterios y desee reemplazar la versión publicada actual para usarla en los recorridos de cuenta, haga clic en **[!UICONTROL Publish Draft]**.
+1. Cuando la definición del evento de borrador cumpla sus criterios y desee reemplazar la versión publicada actual para usarla en los recorridos de cuenta, haga clic en **[!UICONTROL Publicar borrador]**.
 
-1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Publish]**.
+1. En el diálogo de confirmación, haga clic en **[!UICONTROL Publicar]**.
 
-   ![Cuadro de diálogo de borrador de Publish](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Cuadro de diálogo Publicar borrador](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Cuando publica la versión de borrador, reemplaza la versión publicada actual y la definición del evento se actualiza para los recorridos de cuenta en los que ya está en uso, pero que aún no se han ejecutado.
 
@@ -243,11 +246,11 @@ Al abrir una definición de evento _Publicado (con borrador)_, la ficha Versión
 
    Los cambios se guardan automáticamente en el borrador.
 
-1. Cuando la definición del evento de borrador cumpla sus criterios y desee reemplazar la versión publicada actual para usarla en los recorridos de cuenta, haga clic en **[!UICONTROL Publish Draft]**.
+1. Cuando la definición del evento de borrador cumpla sus criterios y desee reemplazar la versión publicada actual para usarla en los recorridos de cuenta, haga clic en **[!UICONTROL Publicar borrador]**.
 
-1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Publish]**.
+1. En el diálogo de confirmación, haga clic en **[!UICONTROL Publicar]**.
 
-   ![Cuadro de diálogo de borrador de Publish](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Cuadro de diálogo Publicar borrador](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Cuando publica la versión de borrador, reemplaza la versión publicada actual y la definición del evento se actualiza para los recorridos de cuenta en los que ya está en uso, pero que aún no se han ejecutado.
 
