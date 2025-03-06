@@ -3,9 +3,9 @@ title: Dividir y combinar rutas
 description: Obtenga información acerca de los tipos de nodos de rutas de acceso divididas y rutas de acceso de combinación que puede utilizar para organizar los recorridos de la cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: e0fc061b55af4fd79248c2255db94280ee41e2c8
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1584'
 ht-degree: 4%
 
 ---
@@ -28,10 +28,11 @@ Agregue un nodo _Split paths_ para definir una o más rutas segmentadas según a
 
 _¿Cómo funciona un nodo de ruta dividida por cuentas?_
 
-* Cuando agrega un nodo de ruta dividida y elige _Account_, cada ruta que se agrega incluye un nodo final con la capacidad de agregar nodos a cada borde.
-* Es posible dividir la ruta por cuentas repetidamente, como en una manera anidada. Una ruta dividida incluye una opción para no añadir la ruta predeterminada.
-* Si una cuenta o persona no cumple los requisitos para una de las rutas divididas, no avanza en el recorrido.
-* Estas rutas se pueden combinar mediante un nodo de combinación.
+* Cada ruta que agregue incluirá un nodo final con la capacidad de agregar nodos a cada borde.
+* Dividir por nodos de cuenta se puede anidar: puede dividir la ruta por cuentas repetidamente.
+* Evalúa las rutas de arriba a abajo. Si una cuenta coincide para la primera y la segunda ruta, solo continúa en la primera ruta.
+* Se pueden combinar dos o más rutas mediante un nodo de combinación.
+* Admite la definición de una ruta de acceso de _[!UICONTROL Otras cuentas]_, donde puede agregar acciones o eventos para cuentas que no coincidan con uno de los segmentos o rutas definidos.
 
 ![nodo de Recorrido - dividir rutas por cuenta](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
@@ -39,10 +40,11 @@ _¿Cómo funciona un nodo de ruta dividida por cuentas?_
 
 _¿Cómo funciona un nodo de ruta dividida por personas?_
 
-* _Dividir ruta por personas_ nodos son nodos agrupados. Las rutas se combinan automáticamente para que todas las personas de la audiencia puedan pasar al siguiente paso sin perder el contexto de la cuenta.
-* _No se pueden anidar los nodos de la ruta dividida por personas_; no se puede agregar la ruta dividida para personas en una ruta que se encuentre en este nodo agrupado.
-* Los nodos de ruta dividida incluyen una opción para omitir una ruta predeterminada de modo que las cuentas o personas sin una ruta coincidente no avancen en el recorrido.
-* _Los nodos de_ de la ruta dividida por personas admiten el uso de _relaciones entre la cuenta y la persona_, lo que permite filtrar a las personas según su rol (como contratista o empleado a tiempo completo), tal como se define en las plantillas de roles.
+* Funciones dentro de una combinación de combinación de combinación dividida _agrupada_. Las rutas divididas se combinan automáticamente para que todas las personas de la audiencia puedan pasar al siguiente paso sin perder el contexto de la cuenta.
+* Los nodos divididos por personas no se pueden anidar; no se puede agregar una ruta dividida para las personas en una ruta que se encuentre en este nodo agrupado.
+* Evalúa las rutas de arriba a abajo. Si una persona coincide para la primera y la segunda ruta, solo continúa por la primera ruta.
+* Admite el uso de _relaciones cuenta-persona_, que le permite filtrar a las personas según su rol (como contratista o empleado a tiempo completo), tal como se define en las plantillas de roles.
+* Admite la definición de una ruta de acceso de _[!UICONTROL Otras personas]_, donde puede agregar acciones o eventos para personas que no coincidan con uno de los segmentos o rutas definidos.
 
 ![nodo de Recorrido: rutas divididas por personas](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -96,7 +98,9 @@ _¿Cómo funciona un nodo de ruta dividida por personas?_
 
    ![Nodo de ruta dividida - reordenar rutas](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Otras cuentas]** para agregar una ruta predeterminada para las cuentas que no coinciden con las rutas definidas. Si no, el recorrido termina para estas personas.
+1. Habilite la opción **[!UICONTROL Otras cuentas]** para definir la ruta predeterminada de las cuentas que no coinciden con los segmentos o rutas definidos.
+
+   Cuando esta opción no está habilitada, el recorrido finaliza para las cuentas que no coinciden con un segmento o ruta definida dentro de la división.
 
 ### Agregar un nodo de ruta dividida por personas
 
@@ -145,13 +149,15 @@ _¿Cómo funciona un nodo de ruta dividida por personas?_
 
    ![Nodo de ruta dividida - reordenar rutas](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
 
-1. Habilite la opción **[!UICONTROL Otras personas]** para agregar una ruta predeterminada para las personas que no coinciden con las rutas definidas. Si no, el recorrido termina para estas personas.
+1. Habilite la opción **[!UICONTROL Otras personas]** para agregar una ruta predeterminada para las personas que no coinciden con las rutas definidas.
+
+   Cuando esta opción no está habilitada, las personas que no coinciden con un segmento o ruta definida pasan la división y continúan con el siguiente paso del recorrido.
 
 >[!BEGINSHADEBOX &quot;inscripción a la lista Marketo Engage&quot;]
 
 En Marketo Engage, _Campañas inteligentes_ comprueba la pertenencia de los programas para asegurarte de que los posibles clientes no reciban correos electrónicos duplicados y no sean miembros de varios flujos de correos electrónicos al mismo tiempo. En Journey Optimizer B2B, puede comprobar la pertenencia a listas de Marketo Engage como condición para que las personas puedan dividir la ruta y ayudar a eliminar la duplicación en las actividades de recorrido.
 
-Para ello, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** al espacio de filtro y complete la definición del filtro para evaluar la pertenencia a una o más listas de Marketo Engage.
+Para usar la pertenencia a una lista en una condición dividida, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** al espacio de filtro. Complete la definición del filtro para evaluar la pertenencia a una o varias listas de Marketo Engage.
 
 ![Condición de división de ruta por personas para la pertenencia a la lista de Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
