@@ -3,10 +3,10 @@ title: Creación de correo electrónico
 description: Obtenga información sobre cómo crear contenido de correo electrónico personalizado que se utiliza en un Recorrido de cuentas.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 10%
+source-wordcount: '1268'
+ht-degree: 12%
 
 ---
 
@@ -22,11 +22,11 @@ Puede configurar los envíos de correo electrónico en un Recorrido de cuentas c
 1. Para la _[!UICONTROL acción sobre personas]_, elige **[!UICONTROL Enviar correo electrónico]**.
 1. Para el _[!UICONTROL origen del correo electrónico]_, elija **[!UICONTROL Crear nuevo correo electrónico]**.
 
-   También puede seleccionar la opción _[!UICONTROL Seleccionar correo electrónico de Adobe Marketo Engage]_ para usar uno de los correos electrónicos creados previamente en Marketo Engage y enviarlo como parte del Recorrido de cuentas.
+   También puedes seleccionar la opción _[!UICONTROL Seleccionar correo electrónico de Adobe Marketo Engage]_ para usar uno de los correos electrónicos creados previamente en Marketo Engage y enviarlo como parte del Recorrido de cuenta.
 
    >[!NOTE]
    >
-   >Si crea un correo electrónico por primera vez, asegúrese de que el canal de correo electrónico esté configurado desde Adobe Marketo Engage. Para obtener más información, consulte [Garantizar la entrega de correos electrónicos](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) en la documentación del Marketo Engage.
+   >Si crea un correo electrónico por primera vez, asegúrese de que el canal de correo electrónico esté configurado desde Adobe Marketo Engage. Para obtener más información, consulte [Garantizar la entrega de correos electrónicos](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) en la documentación de Marketo Engage.
 
    ![Realizar una acción: enviar un correo electrónico](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -50,13 +50,13 @@ Esta acción inicia el Designer de correo electrónico, donde puede elegir cómo
 
 * [Diseñe su correo electrónico desde cero](#design-your-email-from-scratch) mediante la interfaz de Designer de correo electrónico.
 
-* [Importe contenido existente del HTML](#import-existing-html-content) desde un archivo o una carpeta .zip.
+* [Importe contenido existente de HTML](#import-existing-html-content) desde un archivo o una carpeta .zip.
 
 * [Seleccione una plantilla existente](#select-a-template) de una lista de plantillas de correo electrónico integradas o personalizadas.
 
 Para configurar y personalizar la línea de asunto con el editor de expresiones, haga clic en el icono _Personalization_ y agregue cualquiera de los tokens de Marketo Engage.
 
-Después de crear y personalizar el contenido del correo electrónico, puede exportarlo para su validación o uso posterior. Haga clic en **[!UICONTROL HTML de exportación]** para guardar el contenido como archivo .zip que incluye el HTML y los recursos.
+Después de crear y personalizar el contenido del correo electrónico, puede exportarlo para su validación o uso posterior. Haga clic en **[!UICONTROL Exportar HTML]** para guardar el contenido como un archivo .zip que incluya su HTML y sus recursos.
 
 >[!TIP]
 >
@@ -93,7 +93,7 @@ Cuando finalice el contenido, haga clic en **[!UICONTROL Simular contenido]** en
 
 Cuando esté satisfecho con el contenido, haga clic en **[!UICONTROL Guardar]**.
 
-### Importación de contenido de HTML existente
+### Importar contenido existente de HTML
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -101,7 +101,7 @@ Cuando esté satisfecho con el contenido, haga clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
->El uso de una etiqueta `<table>` como primera capa en un archivo de HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de capa superior.
+>El uso de una etiqueta `<table>` como primera capa de un archivo HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de la capa superior.
 
 Puede personalizar el contenido importado según sea necesario con las herramientas visuales del editor de correo electrónico.
 
@@ -129,30 +129,9 @@ Puede personalizar el contenido importado según sea necesario con las herramien
 
 ### Añadir fragmentos
 
-En el editor de contenido visual, el icono _Fragmentos_ se muestra a la izquierda. En el siguiente ejemplo se describen los pasos para agregar fragmentos al contenido de la plantilla.
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. Para abrir la lista de fragmentos, haga clic en el icono _Fragmentos_.
-
-   Puede hacer lo siguiente:
-
-   * Ordenar el listado.
-   * Examine, busque o filtre la lista.
-   * Cambiar entre las vistas Miniaturas y Lista.
-   * Actualice la lista para reflejar cualquiera de los fragmentos creados recientemente.
-
-   ![Seleccionar un fragmento de la lista](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Arrastre y suelte cualquiera de los fragmentos en el marcador de posición del componente estructural.
-
-   El editor procesa el fragmento dentro de la sección o el elemento de la estructura de correo electrónico.
-
-El contenido del fragmento se actualiza dinámicamente dentro de la estructura para mostrar cómo aparece el contenido en el correo electrónico.
-
->[!TIP]
->
->Para agregar el fragmento de modo que ocupe todo el diseño horizontal dentro del correo electrónico, agregue una estructura de columna 1:1 y, a continuación, arrastre y suelte el fragmento en él.
-
-Una vez guardado el correo electrónico, aparecerá en la página de detalles del fragmento al seleccionar la pestaña _[!UICONTROL Utilizado por]_ en el resumen. Los fragmentos agregados a una plantilla de correo electrónico no se pueden editar dentro de la plantilla: el fragmento de origen define el contenido.
+Una vez guardado el correo electrónico, aparecerá en la página de detalles del fragmento al seleccionar la pestaña _[!UICONTROL Utilizado por]_ en el resumen.
 
 ### Añadir recursos
 
@@ -190,7 +169,7 @@ En el menú _[!UICONTROL Más...]_ de la parte superior del diseñador de correo
 * **[!UICONTROL Guardar como fragmento]**: guarde todo o parte del correo electrónico como un fragmento para reutilizarlo en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para el fragmento y guárdelo en la lista de fragmentos disponibles.
 * **[!UICONTROL Cambia tu diseño]** - Vuelve a la página _Diseña tu correo electrónico_. Desde allí, puede elegir otra plantilla para reiniciar el proceso de diseño o elegir diseñar el contenido desde cero en un lienzo negro.\
 * **[!UICONTROL Guardar como plantilla de contenido]** - Guarde el cuerpo del correo electrónico como una plantilla de correo electrónico para reutilizarla en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para la plantilla y guárdela en la lista de plantillas de correo electrónico guardadas.
-* **[!UICONTROL HTML de exportación]**: descargue el contenido del lienzo visual en su sistema local en formato de HTML empaquetado como archivo zip.
+* **[!UICONTROL Exportar HTML]**: descargue el contenido del lienzo visual en su sistema local en formato HTML empaquetado como archivo zip.
 
 ## Comprobación de alertas
 
@@ -208,7 +187,7 @@ Se pueden detectar dos tipos de alertas:
      >
      >Los mensajes de correo electrónico de estilo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales.
 
-   * `Text version of HTML is empty`: no olvide definir una versión de texto de su cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido del HTML.
+   * `Text version of HTML is empty`: no olvide definir una versión de texto de su cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido de HTML.
 
    * `Empty link is present in email body`: compruebe que todos los vínculos del correo electrónico sean correctos.
 
