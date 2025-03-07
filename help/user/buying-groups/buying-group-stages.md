@@ -3,9 +3,9 @@ title: Fases del grupo de compra
 description: Obtenga información sobre la compra de fases de grupo y cómo puede definirlas para rastrear la progresión de los recorridos en comparación con los objetivos de ventas.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ Las etapas de compra de grupos están diseñadas para seguir la progresión de l
 Defina las fases dentro de un solo modelo de ensayo y defina varias fases y el flujo de transición entre ellas. Se designan una o más fases para la entrada en el ciclo vital. El modelo también permite la progresión no lineal, donde puede especificar transiciones de una etapa a otra, como de la etapa A a las etapas B, C o D. Se requiere que se designe una etapa como la etapa de éxito, como una compra o un contrato firmado. Es opcional que se designe otra etapa como de fracaso, como un contrato rechazado o la compra de una solución de la competencia a otro proveedor. Esto se logra a través de [paneles inteligentes](../dashboards/intelligent-dashboard.md) que muestran el progreso de los grupos de compras en términos de completar una oportunidad de venta o convertirla en un cliente.
 
 ![Ejemplo de las fases del grupo de compra](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](#overview-video)
 
 ## Defina el modelo de fases del grupo de compra
 
@@ -159,7 +161,7 @@ Para ver el modelo de dibujo:
 
    También puede hacer clic en _[!UICONTROL Cancelar]_ para cerrar el cuadro de diálogo y volver a la página de detalles del modelo sin ningún cambio.
 
-## Publish el modelo de etapas de grupo de compra
+## Publicación del modelo de fases de grupo de compra
 
 Si no hay errores de validación, el modelo se puede publicar. Cuando se publica, cambia a un estado _Activo_ y se puede usar para avanzar en la compra de etapas de grupo en los recorridos de cuenta.
 
@@ -171,9 +173,9 @@ Si no hay errores de validación, el modelo se puede publicar. Cuando se publica
 
    Si es necesario realizar revisiones, edite las fases del modelo.
 
-1. Haga clic en **[!UICONTROL Publish]**.
+1. Haga clic en **[!UICONTROL Publicar]**.
 
-1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Publish]**.
+1. En el diálogo de confirmación, haga clic en **[!UICONTROL Publicar]**.
 
    Al volver a la página de detalles del modelo, el modelo se designa como _[!UICONTROL Activo]_. Haga clic en la flecha _Atrás_ en la parte superior izquierda para regresar a la página de fichas _[!UICONTROL Fases]_.
 
@@ -345,3 +347,7 @@ Utilice la ocurrencia de un cambio de fase de grupo de compra para mover la cuen
    ![nodo de Recorrido: escucha eventos en la cuenta](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. Continúe con los demás cambios y guarde el recorrido.
+
+## Vídeo de información general
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

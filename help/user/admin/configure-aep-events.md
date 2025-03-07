@@ -2,17 +2,22 @@
 title: Configuración de eventos de Experience Platform
 description: Obtenga información acerca del tipo de nodo Espera que puede utilizar para organizar las recorridos de la cuenta en Journey Optimizer B2B edition.
 feature: Setup
+soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
 
 # Configuración de definiciones de eventos de Experience Platform
 
-Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de dos pasos:
+Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent).
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](#overview-video)
+
+El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de dos pasos:
 
 1. Cree y publique una definición de evento de AEP.
 
@@ -273,3 +278,7 @@ Puede eliminar una definición de evento si un recorrido de cuentas publicado no
 1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Eliminar]**.
 
    ![Confirme que desea eliminar la definición del evento](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
+
+## Vídeo de información general
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

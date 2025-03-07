@@ -1,19 +1,19 @@
 ---
-title: Audiencias coincidentes con cuentas de linkedIn
+title: Audiencias coincidentes con cuentas de LinkedIn
 description: Aprenda a conectar una cuenta de LinkedIn y activar un flujo de datos para comprar grupos.
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 00315c9d245d8d19954643e4dd51920ae2baafbe
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 8%
+source-wordcount: '742'
+ht-degree: 7%
 
 ---
 
-# Audiencias coincidentes con cuentas de linkedIn
+# Audiencias coincidentes con cuentas de LinkedIn
 
-Journey Optimizer B2B Edition ofrece la capacidad de generar audiencias de LinkedIn Ad a través de audiencias coincidentes con la cuenta y está diseñado para ayudarle a completar funciones vacías en sus grupos de compra. Al definir un conjunto de filtros de grupo de compra, puede mantener una audiencia coincidente con LinkedIn para segmentar a los posibles clientes que coincidan con los parámetros del grupo de compra. Esta función aprovecha Destinos de Experience Platform para administrar algunos aspectos de la integración. Hay un límite de diez flujos de datos.
+Journey Optimizer B2B edition ofrece la capacidad de generar audiencias de anuncios de LinkedIn a través de audiencias coincidentes con la cuenta y está diseñado para ayudarle a completar funciones vacías en sus grupos de compra. Al definir un conjunto de filtros de grupo de compra, puede mantener una audiencia coincidente de LinkedIn para segmentar a los posibles clientes que coincidan con los parámetros del grupo de compra. Esta función aprovecha los destinos de Experience Platform para administrar algunos aspectos de la integración. Hay un límite de diez flujos de datos.
 
-Antes de iniciar un flujo de datos desde Journey Optimizer B2B Edition, debe tener al menos una instancia del [(Empresas) Conector de destino de audiencia coincidente de LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) con una cuenta de LinkedIn Campaign Manager configurada en la aplicación de Experience Platform.
+Antes de iniciar un flujo de datos desde Journey Optimizer B2B edition, debe tener al menos una instancia del [(Empresas) conector de destino de audiencia coincidente de LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) con una cuenta de Administrador de campañas de LinkedIn configurada en la aplicación de Experience Platform.
 
 ## Configure una nueva conexión de cuenta de LinkedIn {#linkedin-destination-setup}
 
@@ -24,7 +24,7 @@ Antes de iniciar un flujo de datos desde Journey Optimizer B2B Edition, debe ten
 
 1. En Experience Platform, vaya a **[!UICONTROL Conexiones]** > **[!UICONTROL Destinos]** en el panel de navegación izquierdo y seleccione la pestaña **[!UICONTROL Catálogo]**.
 
-1. En el catálogo, busque el conector **[!UICONTROL (Empresas) Audiencia coincidente con LinkedIn]**.
+1. En el catálogo, busque el conector **[!UICONTROL (Companies) LinkedIn Matched Audience]**.
 
    >[!TIP]
    >
@@ -32,7 +32,7 @@ Antes de iniciar un flujo de datos desde Journey Optimizer B2B Edition, debe ten
 
 1. En la tarjeta del conector, haga clic en el icono _Más_ (**...**) y elija **[!UICONTROL Configurar nuevo destino]**.
 
-   ![Acceda al conector de audiencias coincidentes de LinkedIn (Compañías)](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![Acceder al conector de audiencias coincidentes de (Companies) LinkedIn](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Nueva cuenta]** y haga clic en **[!UICONTROL Conectar con destino]**.
 
@@ -50,7 +50,7 @@ Antes de iniciar un flujo de datos desde Journey Optimizer B2B Edition, debe ten
 
 ## Actualizar los detalles de la cuenta
 
-El nombre y la descripción de la cuenta de LinkedIn son visibles para los grupos compradores en Journey Optimizer B2B Edition. Se recomienda actualizar esta información para que sea fácilmente identificable para los especialistas en marketing que trabajan con grupos de compra. Puede cambiar los detalles de la cuenta en la interfaz de usuario de Experience Platform o de Journey Optimizer B2B Edition.
+El nombre y la descripción de la cuenta de LinkedIn son visibles para los grupos de compra en Journey Optimizer B2B edition. Se recomienda actualizar esta información para que sea fácilmente identificable para los especialistas en marketing que trabajan con grupos de compra. Puede cambiar los detalles de la cuenta en la interfaz de usuario de Experience Platform o Journey Optimizer B2B edition.
 
 1. Vaya a **[!UICONTROL Conexiones]** > **[!UICONTROL Destinos]** en el panel de navegación izquierdo y seleccione la pestaña **[!UICONTROL Cuentas]**.
 
@@ -68,9 +68,9 @@ El nombre y la descripción de la cuenta de LinkedIn son visibles para los grupo
 
 >[!NOTE]
 >
->Si ya tiene diez flujos de datos, no puede crear otro. Si está en el máximo, elimine uno en Experience Platform antes de crear uno nuevo en Journey Optimizer B2B Edition.
+>Si ya tiene diez flujos de datos, no puede crear otro. Si se encuentra en el máximo, elimine uno en Experience Platform antes de crear uno nuevo en Journey Optimizer B2B edition.
 
-1. En Journey Optimizer B2B Edition, vaya a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos de compra]** en el panel de navegación izquierdo.
+1. En Journey Optimizer B2B edition, vaya a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos de compra]** en el panel de navegación izquierdo.
 
 1. Seleccione la ficha **[!UICONTROL Examinar]**.
 
@@ -80,9 +80,9 @@ El nombre y la descripción de la cuenta de LinkedIn son visibles para los grupo
 
 1. Asigne un nombre descriptivo al flujo de datos y una descripción (opcional).
 
-   Después de guardarlo, el nombre que especifique para el flujo de datos se antepone con _AJOB2B_ para ayudar a identificar el flujo de datos en el Experience Platform.
+   Después de guardarlo, el nombre que especifique para el flujo de datos se agregará con _AJOB2B_ para ayudar a identificar el flujo de datos en Experience Platform.
 
-1. Escriba el [identificador de cuenta de su cuenta de LinkedIn Campaign Manager](https://www.linkedin.com/help/lms/answer/a424270).
+1. Escriba el [identificador de cuenta de su cuenta de administrador de LinkedIn Campaign](https://www.linkedin.com/help/lms/answer/a424270).
 
    Puede encontrar su ID de cuenta por nombre de cuenta en la interfaz de usuario de Campaign Manager.
 
@@ -102,7 +102,7 @@ El nombre y la descripción de la cuenta de LinkedIn son visibles para los grupo
 
    Haga clic en **[!UICONTROL Guardar]** para agregar los filtros especificados.
 
-1. Haga clic en **[!UICONTROL Seleccionar destino de LinkedIn]** y elija el destino de LinkedIn configurado que desee usar.
+1. Haga clic en **[!UICONTROL Seleccionar destino de LinkedIn]** y elija el destino de LinkedIn configurado que desee utilizar.
 
    Tras la activación, esta configuración crea el flujo de datos utilizando la configuración de destino y un segmento virtual correspondiente.
 
@@ -111,3 +111,9 @@ El nombre y la descripción de la cuenta de LinkedIn son visibles para los grupo
    Vuelva a hacer clic en **[!UICONTROL Activar]** en el cuadro de diálogo de confirmación.
 
    Se muestra un banner con un vínculo al menú de flujos de datos en Experience Platform para que pueda comprobar el registro de flujo de datos.
+
+## Organizar participación de medios de pago
+
+Puede interactuar con los miembros de su cuenta a través de un canal de medios de pago, como audiencias de publicidad de LinkedIn, para adquirirlos, nutrirlos y calificarlos para ventas. Use un nodo _Realizar una acción_ en un recorrido de cuentas para automatizar la participación con los miembros clave de una cuenta a través de un canal externo que sea más adecuado para los distintos miembros de la cuenta.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

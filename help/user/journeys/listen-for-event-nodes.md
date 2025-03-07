@@ -3,10 +3,10 @@ title: Escuchar un evento
 description: Obtenga información acerca del tipo de nodo Escuchar un evento que puede utilizar para organizar las recorridos de su cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 13%
+source-wordcount: '1373'
+ht-degree: 12%
 
 ---
 
@@ -120,9 +120,11 @@ Si tiene páginas web creadas en la instancia de Marketo Engage conectada, puede
 
 Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de dos pasos:
 
-1. [Crear y publicar una definición de evento de AEP](../admin/configure-aep-events.md).
+1. [Cree y publique una definición de evento de AEP](../admin/configure-aep-events.md).
 
 2. En un recorrido de cuenta, agrega un nodo _Escuchar un evento_ y selecciona una definición de evento de Experience Platform para un evento basado en personas.
+
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](../admin/configure-aep-events.md#overview-video)
 
 _Para incluir un evento de experiencia en el recorrido:_
 
