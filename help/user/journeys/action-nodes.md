@@ -3,7 +3,7 @@ title: Realizar una acción
 description: Obtenga información acerca del tipo de nodo Realizar una acción que puede utilizar para organizar las recorridos de la cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -26,9 +26,9 @@ Utilice una acción en las cuentas cuando desee aplicar un cambio a todas las pe
 | ------ | ----------- |
 | [!UICONTROL Valor de datos de cambio de cuenta] | Seleccionar atributo<br/>Nuevo valor |
 | [!UICONTROL Momento interesante de la cuenta] | Escriba (correo electrónico, hito o web)<br/>Descripción (opcional) |
-| [!UICONTROL Agregar cuenta a (otro) Recorrido] | Seleccionar Recorrido de cuenta activa |
-| [!UICONTROL Agregar a la lista de cuentas] | Seleccione una lista de cuentas estáticas activas |
-| [!UICONTROL Quitar cuenta del Recorrido] | Seleccionar Recorrido de cuenta activa |
+| [!UICONTROL Agregar cuenta a (otro) Recorrido] | Seleccionar recorrido de cuenta activa |
+| [!UICONTROL Agregar a la lista de cuentas] | Seleccionar lista de cuentas estáticas activas |
+| [!UICONTROL Quitar cuenta del Recorrido] | Seleccionar recorrido de cuenta activa |
 | [!UICONTROL Quitar de la lista de cuentas] | Seleccione una lista de cuentas estáticas activas |
 | [!UICONTROL Enviar alerta de ventas] | Seleccionar interés de solución<br/>Enviar correo electrónico a |
 | [!UICONTROL Actualizar fase del grupo de compra] | Seleccione el interés de la solución<br/>Seleccione la fase de compra del grupo |
@@ -183,7 +183,7 @@ Utilice esta acción para enviar un mensaje SMS. Puede crear, personalizar y pre
 
 ### Acciones de Marketo Engage
 
-Las personas de Marketo Engage están diseñadas para coordinar la orquestación de marketing basada en cuentas en Journey Optimizer B2B edition con los esfuerzos de marketing basados en clientes potenciales en Marketo Engage. Utilice estas acciones para organizar la pertenencia a listas, las particiones de personas y las campañas de solicitud.
+Las acciones basadas en personas de Marketo Engage están diseñadas para coordinar la orquestación de marketing basada en cuentas en Journey Optimizer B2B edition con los esfuerzos de marketing basados en posibles clientes en Marketo Engage. Utilice estas acciones para organizar la pertenencia a listas, las particiones de personas y las campañas de solicitud.
 
 +++[!UICONTROL Agregar a lista]
 

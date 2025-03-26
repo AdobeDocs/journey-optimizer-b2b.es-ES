@@ -2,10 +2,10 @@
 title: Campos XDM
 description: Revise los campos de atributos predeterminados que se sincronizan entre Adobe Experience Platform y Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 332c25305377398c2338d4b1d4a61b7fcf814232
+source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 15%
+source-wordcount: '1372'
+ht-degree: 16%
 
 ---
 
@@ -79,26 +79,27 @@ Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuent
 | `accountPhone.number` | N/A | Número de teléfono de cuenta | Cadena | El número de teléfono asociado con la cuenta. |
 | `accountSourceType` | N/A | Tipo de origen | Cadena | Tipo de Source de la cuenta. |
 
-<!-- ## XDM Opportunity attributes
+## Atributos de oportunidad empresarial de XDM
 
-|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) |Display name |Journey Optimizer B2B display name |Data type |Description |
+Además, los datos de oportunidad se almacenan como atributos en la clase de oportunidad empresarial de XDM, que se puede asociar a la clase de cuenta empresarial de XDM mediante una relación de varios a uno, como se describe [aquí](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field).
+
+| [Propiedad](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md) | Nombre para mostrar | Nombre para mostrar de Journey Optimizer B2B | Tipo de datos | Descripción |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-|`opportunityName` | Opportunity Name   | ? |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
-|`opportunityDescription` | Opportunity Description   | ?    |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
-|`opportunityType` | Opportunity Type   | ?   | String | ?   |
-|`opportunityStage` | Opportunity Stage   | ?   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
-|`fiscalQuarter` | Fiscal Quarter   | ?   | String | The fiscal quarter that the opportunity is targeted.   |
-|`fiscalYear` | Fiscal Year   | ?   | String | The fiscal year that the opportunity is targeted.   |
-|`fiscalCategory` | Fiscal Category   | ?   | String | ?   |
-|`fiscalCategoryName` | Fiscal Category Name  | ?   | String | Forecast category name that is displayed in reports for a particular forecast category.   |
-|`isClosed` | Closed Flag  | ?   | String | Flag that indicates if the opportunity is closed.   |
-|`isWon` | Won Flag  | ?   | String | Flag that indicates if the opportunity is won.  |
-|`probabilityPercentage` | Probability Percentage  | ?   | String | Likelihood of closing the opportunity, stated as a percentage.  |
-|`opportunityAmount.amount` | Opportunity Amount  | ?   | String | Estimated total sale amount for the opportunity.   |
-|`expectedRevenue.amount` | Expected Revenue  | ?   | String | Calculated revenue based on the Amount and Probability.   |
-|`opportunityQuantity` | Opportunity Quantity  | ?   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
-|`expectedCloseDate` | Expected Close Date  | ?   | String | Expected date of closure for the opportunity.   |
-|`lastActivityDate` | Last Activity Date  | ?   | String | Last activity date for the opportunity.  |
-|`leadSource` | Lead Source  | ?   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
-|`nextStep` | Next Step  | ?   | String | Description of the next task for closing the opportunity.   |
--->
+| `expectedCloseDate` | Fecha de cierre esperada | Fecha de cierre de oportunidad prevista | Cadena | Fecha prevista de cierre de la oportunidad. |
+| `expectedRevenue.amount` | Ingreso esperado | Ingreso esperado total de la oportunidad | Cadena | Ingresos calculados basados en el importe y la probabilidad. |
+| `fiscalQuarter` | Trimestre fiscal | Trimestre fiscal de oportunidad | Cadena | El trimestre fiscal objetivo de la oportunidad. |
+| `fiscalYear` | Año fiscal | Año fiscal de oportunidad | Cadena | El año fiscal objetivo de la oportunidad. |
+| `forecastCategory` | Categoría de pronóstico | Categoría de pronóstico de oportunidad | Cadena | Categoría de pronóstico determinada por el valor de la fase de oportunidad. |
+| `forecastCategoryName` | Nombre de la categoría de pronóstico | Nombre de categoría de previsión de oportunidad | Cadena | Nombre de la categoría de pronóstico que se muestra en los informes de una categoría de pronóstico determinada. |
+| `isClosed` | Indicador cerrado | Oportunidad cerrada | Cadena | Indicador que indica si la oportunidad está cerrada. |
+| `isWon` | Indicador obtenido | Oportunidad ganada | Cadena | Indicador que indica si se ha ganado la oportunidad. |
+| `lastActivityDate` | Fecha de la última actividad | Fecha de la última actividad | Cadena | Fecha de la última actividad de la oportunidad. |
+| `leadSource` | Origen del lead | Origen del cliente potencial | Cadena | Source de la oportunidad, como un anunciante, un socio o la web. |
+| `nextStep` | Siguiente paso | Paso siguiente de la oportunidad | Cadena | Descripción de la siguiente tarea para cerrar la oportunidad. |
+| `opportunityAmount.amount` | Monto de la oportunidad | Monto total de la oportunidad | Cadena | Importe total de venta estimado de la oportunidad. |
+| `opportunityDescription` | Descripción de la oportunidad | Descripción de oportunidad | Cadena | Información adicional para describir la oportunidad, como posibles productos para vender o compras anteriores al cliente. |
+| `opportunityName` | Nombre de la oportunidad | Nombre de oportunidad | Cadena | Asunto o nombre descriptivo, como el pedido esperado o el nombre de la empresa, de la oportunidad. |
+| `opportunityQuantity` | Cantidad de la oportunidad | Cantidad de oportunidad | Cadena | Total de todos los valores de campo de cantidad de todos los productos en la lista de productos relacionados para la oportunidad. |
+| `opportunityStage` | Etapa de la oportunidad | Fase de oportunidad | Cadena | Fase de ventas de la oportunidad para ayudar al equipo de ventas en sus esfuerzos por ganarla. |
+| `opportunityType` | Tipo de oportunidad | Tipo de oportunidad | Cadena | Tipo asignado a la oportunidad, como _Empresa existente _ o _Nueva empresa_ |
+| `probabilityPercentage` | Porcentaje de probabilidad | Porcentaje de probabilidad de oportunidad | Cadena | Probabilidad de cerrar la oportunidad, expresada como porcentaje. |

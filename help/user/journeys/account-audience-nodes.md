@@ -1,17 +1,23 @@
 ---
 title: Nodos de audiencia de cuenta
-description: Obtenga información acerca del tipo de nodo de audiencia de cuenta que puede utilizar para organizar los recorridos de la cuenta en Journey Optimizer B2B edition.
+description: Obtenga información acerca del tipo de nodo de audiencia de cuenta que puede utilizar para definir la entrada de los recorridos de la cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # Nodos del recorrido de audiencia de cuenta
 
-El nodo Audiencia de cuenta define la audiencia de la cuenta de entrada (creada y administrada en Adobe Experience Platform) para el recorrido. Cuando [crea un recorrido de cuenta](./journey-overview.md#create-an-account-journey), siempre comienza con un nodo _Audiencia de cuenta_ donde puede agregar entradas al recorrido.
+El nodo Audiencia de cuenta define la audiencia de cuenta de entrada (creada y administrada en Adobe Experience Platform) para el recorrido. Cuando [crea un recorrido de cuenta](./journey-overview.md#create-an-account-journey), siempre comienza con un nodo _Audiencia de cuenta_ que define la entrada para el recorrido.
+
+Existen dos tipos de entrada que puede utilizar para este nodo:
+
+* **[Audiencia de cuenta](../audiences/account-audience-overview.md)**: Esta es la audiencia básica que se sincroniza desde el servicio de segmentación de Experience Platform.
+* **[Lista de cuentas](../accounts/account-lists.md)**: se trata de una colección de cuentas con nombre que puede utilizar para la orquestación de recorrido de destino. Una lista de cuentas se dirige a las cuentas con nombre según los criterios definidos, como el sector, la ubicación o el tamaño de la compañía.
 
 _Para establecer la audiencia del nodo:_
 
@@ -19,11 +25,25 @@ _Para establecer la audiencia del nodo:_
 
    ![Nodo de audiencia de cuenta](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Agregar audiencia de cuenta]**.
+1. Elija el tipo de entrada para que las cuentas introduzcan el recorrido:
 
-1. En el cuadro de diálogo _[!UICONTROL Agregar audiencia]_, seleccione un segmento de audiencia creado anteriormente y haga clic en **[!UICONTROL Agregar audiencia]**.
+   * **[!UICONTROL Audiencia de la cuenta]**
 
-   ![Nodo de audiencia de cuenta](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+     Elija este tipo y luego haga clic en **[!UICONTROL Agregar audiencia de cuenta]**.
+
+     En el cuadro de diálogo _[!UICONTROL Agregar audiencia]_, seleccione un segmento de audiencia creado anteriormente y haga clic en **[!UICONTROL Agregar audiencia]**.
+
+     ![Seleccione un segmento de audiencia para el nodo](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+
+   * **[!UICONTROL Lista de cuentas]**
+
+     Elija este tipo y haga clic en **[!UICONTROL Agregar lista de cuentas]**.
+
+     En el cuadro de diálogo _[!UICONTROL Seleccionar lista de cuentas activas]_, seleccione una lista de cuentas publicada anteriormente y haga clic en **[!UICONTROL Guardar]**.
+
+     ![Seleccione una lista de cuentas activas para el nodo](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
+
+     Vaya a [Listas de cuentas](../accounts/account-lists.md) para obtener información detallada sobre cómo crear y publicar listas de cuentas.
 
 _Para crear un segmento de audiencia:_
 
