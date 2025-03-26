@@ -2,9 +2,9 @@
 title: Documentación de la edición B2B de Adobe Journey Optimizer
 description: Aprenda a utilizar las funciones de Adobe Journey Optimizer B2B edition para organizar recorridos de cuenta y de grupo de compra mediante IA generativa integrada y una automatización líder del sector.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '680'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,13 @@ Con las licencias de Adobe Express Enterprise, puede aprovechar un conjunto comp
 
 [!BADGE Más información]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Obtenga información sobre la edición de imágenes con Adobe Express"}
 
->[!TAB Reenvío de eventos AEP]
+>[!TAB Campos personalizables de fragmento]
+
+Como diseñador de contenido, puede designar un parámetro para un componente del fragmento como editable. Esto permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones.
+
+[!BADGE Más información]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="Obtenga información sobre los campos personalizados para fragmentos de contenido"}
+
+>[!TAB Reenvío de eventos de AEP]
 
 Los administradores ahora pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP). Estas configuraciones permiten a los especialistas en marketing crear recorridos de cuenta que reaccionan a los eventos de experiencia de AEP.
 
