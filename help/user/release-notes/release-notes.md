@@ -2,9 +2,9 @@
 title: Notas de la versión
 description: Últimas notas de la versión de Adobe Journey Optimizer edición B2B
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
+source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1650'
 ht-degree: 9%
 
 ---
@@ -27,9 +27,8 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | ---- | ---- | ----------- |
 | Nueva función | Campos personalizables: fragmentos de contenido | Como diseñador de fragmentos de contenido, puede designar un parámetro para un componente del fragmento como editable. Esto permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones. <a href="../content/fragment-authoring.md#enable-custom-fields">Más información</a> |
 | Nueva función | Funciones integradas y permisos del producto B2B | Experience Platform ahora incluye un conjunto de funciones integradas (predeterminadas) que puede utilizar para administrar el acceso a las funciones de los productos B2B. <a href="../admin/user-management.md#b2b-built-in-roles">Más información</a> <br/>Los administradores ahora pueden definir funciones personalizadas en Adobe Experience Platform para incluir permisos de productos de Journey Optimizer B2B edition.  <a href="../admin/user-management.md#b2b-product-permissions">Más información</a> |
+| Nueva función | Tipos de duplicación de recorrido | Al duplicar un recorrido de cuenta, puede incluir detalles del nodo, excluyendo los correos electrónicos y mensajes SMS creados en Journey Optimizer B2B edition. Como alternativa, puede crear una copia esquemática de la estructura y los flujos de ruta, sin detalles ni configuración de nodo. <a href="../journeys/journey-overview.md#duplicate-journey">Más información</a> |
 | Mejora | Cuatro plantillas de correo electrónico de muestra adicionales | La biblioteca de plantillas de correo electrónico de ejemplo ahora incluye cuatro plantillas de SecureFinancial como ejemplos para volver a participar, informar, alimentar y dar ejemplos de contenido de comentarios |
-
-
 
 ## Notas de la versión 2025.1 {#Jan-2025}
 

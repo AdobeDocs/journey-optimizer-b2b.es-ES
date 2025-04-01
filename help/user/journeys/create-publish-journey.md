@@ -2,10 +2,11 @@
 title: Crear y publicar un Recorrido de cuenta
 description: Obtenga información sobre cómo crear y publicar recorridos de cuenta.
 feature: Account Journeys
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 0%
+source-wordcount: '773'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +34,7 @@ El _mapa de recorrido_ es la zona central del diseñador de recorridos. Es en es
 
 Después de crear un recorrido de cuentas y agregar la audiencia, genere el recorrido con los nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos utilizando los siguientes tipos de nodos para crear un recorrido de cuentas:
 
-* [Realizar una acción](./action-nodes.md)
+* [Iniciar una acción](./action-nodes.md)
 * [Escuchar un evento](./listen-for-event-nodes.md)
 * [Dividir rutas](./split-merge-paths-nodes.md)
 * [Espera](./wait-nodes.md)
@@ -109,7 +110,7 @@ Cuando publica un recorrido, puede comenzar inmediatamente o en una fecha futura
 
 ## Publicación de un recorrido de cuenta
 
-Si la recorrido de la cuenta no contiene errores, puede publicarla.
+Puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique, el estado del recorrido cambiará a _Activo_. Si el recorrido tiene errores, el botón _[!UICONTROL Publicar]_ aparece atenuado con información de contenido: `Resolve errors before publishing`.
 
 1. En la parte superior derecha del mapa de recorrido, haga clic en **[!UICONTROL Publicar]**.
 
