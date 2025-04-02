@@ -3,10 +3,10 @@ title: Dividir y combinar rutas
 description: Obtenga información acerca de los tipos de nodos de rutas de acceso divididas y rutas de acceso de combinación que puede utilizar para organizar los recorridos de la cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: bc264c94ff870733ee433a317bbbd885a30fc259
+source-git-commit: 0902e5569847be148bb5037c99cadf0b00c67b8c
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 4%
+source-wordcount: '1665'
+ht-degree: 6%
 
 ---
 
@@ -54,21 +54,19 @@ _¿Cómo funciona un nodo de ruta dividida por personas?_
 | ------------ | --------------- | ----------- |
 | [Cuentas](#add-a-split-path-by-account-node) | Atributos de la cuenta | Atributos del perfil de cuenta, incluidos: <li>Ingresos anuales</li><li>Ciudad</li><li>País</li><li>Cantidad de empleados</li><li>Industria</li><li>Nombre</li><li>Código SIC</li><li>Estado</li> |
 | | [!UICONTROL Filtros especiales] > [!UICONTROL Tiene grupo de compra] | La cuenta tiene o no miembros de grupos compradores. También se puede evaluar con uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li> |
+| | [!UICONTROL Filtros especiales] > [!UICONTROL Tiene oportunidad] | La cuenta está o no relacionada con una oportunidad. También se puede evaluar con uno o más de los siguientes atributos de oportunidad: <li>Monto<li>Fecha de cierre<li>Descripción<li>Ingreso esperado<li>Trimestre fiscal<li>Año fiscal<li>Categoría de pronóstico<li>Nombre de categoría del pronóstico<li>Está cerrado<li>Está ganado</li><li>Fecha de la última actividad</li><li>Origen de la persona<li>Nombre</li><li>Siguiente paso</li><li>Probabilidad<li>Cantidad<li>Fase</li><li>Tipo |
 | [Personas](#add-a-split-path-by-people-node) > [!UICONTROL Solo atributos de personas] | [!UICONTROL Atributos de persona] | Atributos del perfil de la persona, incluidos: <li>Ciudad</li><li>País</li><li>Fecha de nacimiento</li><li>Dirección de correo electrónico</li><li>Email no válido</li><li>Email suspendido</li><li>Nombre</li><li>Región del estado inferida</li><li>Cargo</li><li>Apellido</li><li>Número de teléfono móvil</li><li>Número de teléfono</li><li>Código postal</li><li>Estado</li><li>Suscripción cancelada</li><li>Razón de la cancelación de la suscripción</li> |
 | | [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico asociadas con el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico]</li><li>Abrió el email</li><li>Se entregó el email</li><li>Se envió email</li> Estas condiciones se evalúan utilizando un mensaje de correo electrónico seleccionado de anteriormente en el recorrido. |
 | | [!UICONTROL Historial de actividades] > [!UICONTROL Se ha cambiado el valor de los datos] | Se ha producido un cambio de valor en un atributo de persona seleccionado. Estos tipos de cambio incluyen: <li>Nuevo valor</li><li>Valor anterior</li><li>Razón</li><li>Origen</li><li>Fecha de la actividad</li><li>Mín. número de veces</li> |
 | | [!UICONTROL Historial de actividades] > [!UICONTROL Ha tenido un momento interesante] | Actividad de momento interesante que se define en la instancia de Marketo Engage asociada. Las restricciones incluyen: <li>Hito</li><li>Correo electrónico</li><li>Web</li> |
 | | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Función</li> |
 | | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro de la lista] | La persona es o no es miembro de una o más listas de Marketo Engage. |
+| | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del programa] | La persona es o no es miembro de uno o más programas de Marketo Engage. |
 | [Personas](#add-a-split-path-by-people-node) > [!UICONTROL Solo atributos de cuenta-persona] | Rol en atributos de cuenta | La persona tiene o no una función asignada en la cuenta. Restricciones opcionales: <li>Introduzca un nombre de rol</li> |
 
 <!-- 
 
 Add back for next release:
-
-Accounts:
-
-| | [!UICONTROL Special filters] > [!UICONTROL Has opportunity] | The account is or is not related to an opportunity. Can also be evaluated against one or more of the following opportunity attributes: <li>Amount<li>Close date<li>Description<li>Expected revenue<li>Fiscal quarter<li>Fiscal year<li>Forecast category<li>Forecast category name<li>Is closed<li>Is won</li><li>Last activity date</li><li>Person source<li>Name</li><li>Next step</li><li>Probability<li>Quantity<li>Stage</li><li>Type |
 
 People:
 
