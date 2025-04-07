@@ -2,9 +2,9 @@
 title: Notas de la versión
 description: Últimas notas de la versión de Adobe Journey Optimizer edición B2B
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
+source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1818'
 ht-degree: 9%
 
 ---
@@ -16,6 +16,19 @@ Adobe Journey Optimizer B2B edition ofrece continuamente nuevas funciones, mejor
 Journey Optimizer B2B edition se creó de forma nativa en [!DNL Adobe Experience Platform] y hereda sus últimas innovaciones y mejoras. Obtenga más información acerca de estos cambios en [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} para obtener información sobre los derechos, las protecciones de rendimiento y las limitaciones.
+
+## Notas de la versión 2025.3
+
+**Fecha de la versión**: miércoles, 01 de abril de 2025
+
+Esta versión incorpora las siguientes nuevas funciones y mejoras:
+
+| Tipo | Elemento | Descripción |
+| ---- | ---- | ----------- |
+| Nueva función | Listas de cuentas | Ahora puede crear una lista de cuentas estáticas o dinámicas para segmentar cuentas con nombre según los criterios definidos, como el sector, la ubicación o el tamaño de la compañía. <a href="../accounts/account-lists.md">Más información</a> |
+| Nueva función | Mis tokens para recorridos de cuenta | Ahora puede definir un conjunto de tokens personalizados con valores específicos del recorrido de la cuenta. Este conjunto de tokens personalizados se denomina _Mis tokens_ y cualquiera de ellos es para personalizar al crear correos electrónicos de recorrido. <a href="../content/personalization-my-tokens.md">Más información</a> |
+| Nueva función | Eliminar etapas de grupo de compra | Puede eliminar el modelo de fases de grupo de compra cuando esté en estado de borrador o publicado. Si se publica (activo), solo puede eliminarse cuando no esté asociado a un interés de solución. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Más información</a> |
+| Mejora | Recuentos de nodos de recorrido | Se ha mejorado la visibilidad de los recuentos de miembros del recorrido en el nivel de nodo. Utilice esta información para validar la progresión de la cuenta en un recorrido. |
 
 ## Notas de la versión 2025.2
 
