@@ -3,10 +3,10 @@ title: Grupos de compra
 description: Descubra cómo los grupos de compras en Journey Optimizer B2B edition pueden aumentar la eficacia del marketing al identificar y segmentar miembros para sus listas de cuentas.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
+source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 17%
+source-wordcount: '1784'
+ht-degree: 18%
 
 ---
 
@@ -64,7 +64,7 @@ La página _[!UICONTROL Grupos de compra]_ está organizada en fichas:
 | Tabulación | Descripción |
 | --- | ----------- |
 | Información general de  | Esta ficha es la predeterminada y muestra el [panel Grupos de compra](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Examinar] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compra existentes. </li><li>Busque comprando el nombre del grupo. </li><li>Filtrar por interés de solución. </li><li>Profundice en los detalles del grupo de compra. </li><li>Crear un grupo de compra. Eliminar un grupo de compra.</li></ul> |
+| [!UICONTROL Examinar] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compra existentes. </li><li>Busque comprando el nombre del grupo. </li><li>Filtrar por interés de solución. </li><li>Profundice en los detalles del grupo de compra. </li><li>Crear un grupo de compra. </li></ul> |
 | [!UICONTROL Intereses de la solución] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compra existentes. </li><li>Busque comprando el nombre del grupo. </li><li>Acceda y edite las propiedades de interés de la solución. </li><li>Cree un interés de solución. </li><li>Eliminar un interés de solución. </li><li>Ver y eliminar trabajos del grupo de compra. </li></ul> |
 | [!UICONTROL Plantillas de roles] | Esta pestaña admite las siguientes actividades: <ul><li>Vea la lista de plantillas de funciones existentes. </li><li>Buscar por nombre de plantilla de funciones. </li><li>Acceda y edite las propiedades y condiciones de la plantilla de funciones. </li><li>Cree una plantilla de funciones. </li><li>Eliminar una plantilla de funciones. </li></ul> |
 | [!UICONTROL Fases] | Esta pestaña admite las siguientes actividades: <ul><li>Ver el modelo de fases de grupos de compra existente. </li><li>Acceda y edite el borrador del modelo de fases de grupo de compra. </li><li>Cree el modelo de etapas de grupo de compra. </li></ul> |
@@ -176,21 +176,21 @@ El siguiente ejemplo ilustra el cálculo de la puntuación de participación uti
 |-------------- |--------- |-------------|-----------------|-------------|------|-----------|
 |               |          |             |                 |             |      |           |
 | Decisionista | Adam | Sitio web visitado | 37 | 15 | 20 + 15 | 35 |
-|               |          | Correo electrónico clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          | Correo electrónico en el que se ha hecho clic | 1 | 1 | 1 + 1 | 2 |
 |               |          |             |                 |             |      |           |
 |               | Marcar | Sitio web visitado | 5 | 3 | 5 + 3 | 8 |
-|               |          | Correo electrónico clicado | 1 | 1 | 1 + 1 | 2 |
+|               |          | Correo electrónico en el que se ha hecho clic | 1 | 1 | 1 + 1 | 2 |
 |               |          | Pub descargado | 3 | 2 | 3 + 2 | 5 |
 | **Puntuación total para encargados de tomar decisiones** |         |             |                 |             |      | **52** |
 |               |          |             |                 |             |      |           |
 | Influenciador | John | Sitio web visitado | 19 | 9 | 19 + 9 | 28 |
 | **Puntuación total de influenciadores** |         |             |                 |             |      | **28** |
 |               |          |             |                 |             |      |           |
-| Profesional | Bob | Correo electrónico clicado | 1 | 1 | 1 + 1 | 2 |
+| Profesional | Bob | Correo electrónico en el que se ha hecho clic | 1 | 1 | 1 + 1 | 2 |
 |               |          |             |                 |             |      |           |
-|               | Paul | Correo electrónico clicado | 1 | 1 | 1 + 1 | 2 |
+|               | Paul | Correo electrónico en el que se ha hecho clic | 1 | 1 | 1 + 1 | 2 |
 |               |          |             |                 |             |      |           |
-|               | Calvin | Correo electrónico clicado | 1 | 1 | 1 + 1 | 2 |
+|               | Calvin | Correo electrónico en el que se ha hecho clic | 1 | 1 | 1 + 1 | 2 |
 |               |          | Sitio web visitado | 1 | 7 | 1 + 7 | 8 |
 |               |          | Pub descargado | 1 | 2 | 1 + 2 | 3 |
 | **Puntuación total de los practicantes** |         |             |                 |             |      | **17** |
