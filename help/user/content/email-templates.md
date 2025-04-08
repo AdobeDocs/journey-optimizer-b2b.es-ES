@@ -3,9 +3,9 @@ title: Plantillas de email
 description: Aprenda a administrar y crear plantillas de correo electrónico que se utilizan para crear correos electrónicos de recorrido de cuentas de forma fácil y eficaz.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Para buscar una plantilla por nombre, escriba una cadena de texto en la barra de
 
 ![Acceda a la biblioteca de plantillas de correo electrónico y filtre por nombre y fechas](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-Personalice las columnas que desee mostrar en la tabla haciendo clic en el icono _Personalizar tabla_ de la parte superior derecha. Seleccione las columnas que desea mostrar y haga clic en **[!UICONTROL Aplicar]**.
+Personalice las columnas que desee mostrar en la tabla haciendo clic en el icono _Personalizar tabla_ ( ![Personalizar icono de tabla](../assets/do-not-localize/icon-column-settings.svg) ) en la parte superior derecha. Seleccione las columnas que desea mostrar y haga clic en **[!UICONTROL Aplicar]**.
 
 Desde la lista mostrada de plantillas, puede realizar las acciones descritas en las secciones siguientes.
 
@@ -38,7 +38,7 @@ Puede crear una plantilla de correo electrónico a partir de la página de lista
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-Se abre la página _[!UICONTROL Diseña tu plantilla]_ y proporciona varias opciones para crearla: _[!UICONTROL Diseña desde cero]_, _[!UICONTROL HTML de importación]_ o _[!UICONTROL Selecciona una plantilla de diseño]_.
+Se abre la página _[!UICONTROL Diseña tu plantilla]_ y proporciona varias opciones para crearla: _[!UICONTROL Diseña desde cero]_, _[!UICONTROL Importar HTML]_ o _[!UICONTROL Selecciona una plantilla de diseño]_.
 
 ![Elija cómo desea comenzar con el diseño de la plantilla de correo electrónico](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Utilice el editor de contenido visual para definir la estructura del contenido d
 
 ### Importar HTML
 
-Adobe Journey Optimizer B2B edition le permite importar contenido existente del HTML para diseñar sus plantillas de correo electrónico.
+Adobe Journey Optimizer B2B edition le permite importar contenido existente de HTML para diseñar sus plantillas de correo electrónico.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer B2B edition le permite importar contenido existente del 
 
 >[!NOTE]
 >
->El uso de una etiqueta `<table>` como primera capa en un archivo de HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de capa superior.
+>El uso de una etiqueta `<table>` como primera capa de un archivo HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de la capa superior.
 
 Puede personalizar el contenido importado según sea necesario con el diseñador visual.
 

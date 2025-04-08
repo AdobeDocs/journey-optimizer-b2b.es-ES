@@ -3,9 +3,9 @@ title: Creación de SMS
 description: Aprenda a enviar mensajes de texto (SMS) a sus clientes en sus dispositivos móviles y a personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1368'
 ht-degree: 3%
 
 ---
@@ -78,20 +78,20 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
 
 1. En el cuadro de diálogo, elija el tipo de URL que desea vincular:
 
-   * **[!UICONTROL Página de aterrizaje]**: elija esta opción para seleccionar cualquiera de las páginas de aterrizaje de Adobe Marketo Engage Design Studio aprobadas en la instancia de Marketo Engage. Seleccione el espacio de trabajo y, a continuación, la página de aterrizaje.
+   * **[!UICONTROL Página de aterrizaje]**: elija esta opción para seleccionar cualquiera de las páginas de aterrizaje de Adobe Marketo Engage aprobadas en la instancia de Marketo Engage. Seleccione el espacio de trabajo y, a continuación, la página de aterrizaje.
 
    * **[!UICONTROL Dirección URL externa]**: este tipo es cualquier dirección URL externa que escriba en el cuadro de texto.
 
 1. Si decide utilizar una página de aterrizaje, defina las opciones de seguimiento.
 
-   * **[!UICONTROL Habilitar seguimiento]** - Seleccione esta casilla de verificación para habilitar el seguimiento, lo que requiere _acortar_ la dirección URL. Para una página de aterrizaje, utiliza el subdominio Marketo Engage para la URL abreviada. Se muestra un ejemplo del formato de URL abreviado. La dirección URL real se crea cuando se envía el SMS al destinatario.
+   * **[!UICONTROL Habilitar seguimiento]** - Seleccione esta casilla de verificación para habilitar el seguimiento, lo que requiere _acortar_ la dirección URL. Para una página de aterrizaje, utiliza el subdominio de Marketo Engage para la URL abreviada. Se muestra un ejemplo del formato de URL abreviado. La dirección URL real se crea cuando se envía el SMS al destinatario.
 
    * **[!UICONTROL Incluir mkt_tok]** - Seleccione esta casilla de verificación para rastrear la actividad en un usuario.
 
      >[!NOTE]
      >
-     >Cuando permite el seguimiento pero deshabilita _[!UICONTROL Incluir mkt_tok]_, la dirección URL de destino no incluye el parámetro de cadena de consulta `mkt_tok` después del redireccionamiento. Este parámetro lo utilizan las páginas de aterrizaje de Marketo Engage y Munchkin para garantizar que el seguimiento de las actividades de la persona (como cuando una persona cancela la suscripción de un correo electrónico). No deshabilite esta opción a menos que el parámetro esté causando problemas en el sitio web.<br/>
-     >Para obtener más información sobre el uso de los códigos de seguimiento de Munchkin en el sitio web, consulte la [documentación del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Cuando permite el seguimiento pero deshabilita _[!UICONTROL Incluir mkt_tok]_, la dirección URL de destino no incluye el parámetro de cadena de consulta `mkt_tok` después del redireccionamiento. Este parámetro lo utilizan las páginas de aterrizaje de Marketo Engage y Munchkin para garantizar que el seguimiento de las actividades personales (como cuando una persona cancela la suscripción de un correo electrónico). No deshabilite esta opción a menos que el parámetro esté causando problemas en el sitio web.<br/>
+     >Para obtener más información sobre cómo usar los códigos de seguimiento de Munchkin en tu sitio web, consulta la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Cuadro de diálogo Agregar vínculo para mensaje SMS](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -116,7 +116,7 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
 
    ![Realizar una acción - enviar sms](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   El número de destinatario siempre está asignado al campo `Lead.mobilePhone` del Marketo Engage.
+   El número de destinatario siempre está asignado al campo `Lead.mobilePhone` en Marketo Engage.
 
 ### Simule el contenido del mensaje de texto {#preview-test}
 

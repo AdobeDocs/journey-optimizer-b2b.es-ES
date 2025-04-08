@@ -1,7 +1,7 @@
 ---
 title: 'Creación de contenido: componentes'
 description: Sección reutilizada sobre el uso de componentes y elementos de contenido para la creación de contenido
-source-git-commit: b41a32710f872e4935077a01b91b691f5dbeaeeb
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

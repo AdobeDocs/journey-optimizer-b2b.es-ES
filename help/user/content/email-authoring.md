@@ -3,10 +3,10 @@ title: Creación de correo electrónico
 description: Obtenga información sobre cómo crear contenido de correo electrónico personalizado que se utiliza en un Recorrido de cuentas.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 12%
+source-wordcount: '1297'
+ht-degree: 11%
 
 ---
 
@@ -144,6 +144,10 @@ Una vez guardado el correo electrónico, aparecerá en la página de detalles de
 ### Personalizar contenido
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+>[!NOTE]
+>
+>Si _[!UICONTROL Mis tokens]_ están definidos para el recorrido de la cuenta, también puede usar estos tokens específicos del recorrido para el contenido del correo electrónico. Consulte [Tokens personalizados para personalización de correo electrónico](./personalization-my-tokens.md) para obtener más información.
 
 ### Editar seguimiento de URL vinculadas
 

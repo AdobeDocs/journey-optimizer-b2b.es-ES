@@ -2,20 +2,18 @@
 title: Diseño de página de aterrizaje
 description: Aprenda a diseñar y crear contenido para sus páginas de aterrizaje que admitan recorridos y campañas de cuenta.
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
+source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 18%
+source-wordcount: '346'
+ht-degree: 17%
 
 ---
 
 # Diseño de página de aterrizaje
 
-Después de [crear una página de aterrizaje](./landing-pages.md#create-a-landing-page), use el diseñador visual para crear los componentes estructurales y de contenido en su página.
+Después de [crear una página de aterrizaje](./landing-pages.md#create-a-landing-page), use el espacio de diseño visual para crear los componentes estructurales y de contenido en su página.
 
 ## Añadir estructura y contenido {#structure-content-landing-page}
 
@@ -34,6 +32,10 @@ Después de [crear una página de aterrizaje](./landing-pages.md#create-a-landin
 ### Añadir recursos
 
 {{$include /help/_includes/content-design-assets.md}}
+
+### Añadir formularios
+
+{{$include /help/_includes/content-design-add-forms.md}}
 
 ### Desplazamiento por las capas, la configuración y los estilos
 
@@ -55,7 +57,7 @@ Puede seguir editando en la página de borrador. Cuando esté listo para mostrar
 
 ### Ver opciones
 
-Aproveche las opciones de vista y validación de contenido disponibles en el diseñador visual.
+Aproveche las opciones de vista y validación de contenido disponibles en el espacio de diseño visual.
 
 * Acercar/alejar el contenido en las opciones de zoom preestablecidas.
 
@@ -65,11 +67,11 @@ Aproveche las opciones de vista y validación de contenido disponibles en el dis
 
 ### Más opciones
 
-Desde el menú _[!UICONTROL Más ...]_ de la parte superior del diseñador visual, puede realizar las siguientes acciones:
+En el menú _[!UICONTROL Más...]_ de la parte superior del espacio de diseño visual, puede realizar las siguientes acciones:
 
 ![Haga clic en Más para acceder a las acciones de plantilla](./assets/landing-page-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Restablecer página de aterrizaje]**: haga clic en esta opción para borrar el lienzo del diseñador visual de una pizarra en blanco y reiniciar la creación del contenido de la página.
+* **[!UICONTROL Restablecer página de aterrizaje]**: haga clic en esta opción para borrar el lienzo de diseño visual de una pizarra en blanco y reiniciar la creación del contenido de la página.
 * **[!UICONTROL Cambia tu diseño]** - Vuelve a la página de inicio de _[!UICONTROL Crear tu página de aterrizaje principal]_. Desde allí, puede elegir otra plantilla para reiniciar el proceso de diseño o elegir diseñar la página desde cero en un lienzo en blanco.
 <!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
 * **[!UICONTROL Exportar HTML]**: descargue el contenido del lienzo visual en su sistema local en formato HTML empaquetado como archivo zip.

@@ -3,9 +3,9 @@ title: Fases del grupo de compra
 description: Obtenga información sobre la compra de fases de grupo y cómo puede definirlas para rastrear la progresión de los recorridos en comparación con los objetivos de ventas.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2344'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Las reglas de transición determinan cómo un grupo comprador puede pasar de una
 
 Mientras el modelo de etapas de grupo de compra permanezca en un estado _Borrador_, puede editar las etapas y las reglas de transición.
 
-Para ver el modelo de dibujo:
+_Para ver el modelo de borrador:_
 
 1. En el panel de navegación de la izquierda, ve a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos compradores]**.
 
@@ -186,6 +186,20 @@ Columns - Name, Status, Created by, Created date, Last updated by, Last update, 
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+
+## Eliminar el modelo de etapas de grupo de compra
+
+Puede eliminar el modelo de fases de grupo de compra cuando esté en estado de borrador o publicado. Si se publica (activo), solo puede eliminarse cuando no esté asociado a un interés de solución.
+
+1. En el panel de navegación de la izquierda, ve a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos compradores]**.
+
+1. En la página _Grupos de compra_, selecciona la pestaña **[!UICONTROL Fases]**.
+
+1. Haga clic en el icono de menú _Más_ (**...**) junto al nombre del modelo de fases y elija **[!UICONTROL Eliminar]**.
+
+   ![Menú Más del modelo de fases del grupo de compra](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. En el cuadro de diálogo, haga clic en **[!UICONTROL Eliminar]** para confirmar.
 
 ## Uso del modelo en recorridos de cuenta
 

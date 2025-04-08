@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 36%
+source-wordcount: '240'
+ht-degree: 43%
 
 ---
 
@@ -23,29 +23,30 @@ ht-degree: 36%
    + [Información general](./journeys/journey-overview.md)
    + [Creación y publicación de un recorrido](./journeys/create-publish-journey.md)
    + [nodos de recorrido](./journeys/journey-nodes.md)
-   + Nodos de recorrido {#journey-nodes}
+   + nodos de recorrido {#journey-nodes}
       + [Público de cuenta](./journeys/account-audience-nodes.md)
-      + [Realizar una acción](./journeys/action-nodes.md)
+      + [Iniciar una acción](./journeys/action-nodes.md)
       + [Escuchar un evento](./journeys/listen-for-event-nodes.md)
       + [Dividir y combinar rutas](./journeys/split-merge-paths-nodes.md)
       + [Espera](./journeys/wait-nodes.md)
    + [detalles del recorrido](./journeys/journey-details.md)
-+ Contenido de recorrido {#journey-content}
++ contenido de recorrido {#journey-content}
    + Canal de correo electrónico {#email-channel}
       + [Creación de correo electrónico](./content/email-authoring.md)
       + [Asistente de IA para la creación de correo electrónico](./content/ai-assistant-emails.md)
       + [Plantillas gobernadas](./content/email-authoring-governance.md)
       + [Correo electrónico de alerta de ventas](./content/sales-alert-email.md)
+   + [Tokens de personalización personalizados](./content/personalization-my-tokens.md)
    + [Creación de SMS](./content/sms-authoring.md)
 + Cuentas {#accounts}
    + [Públicos](./audiences/account-audience-overview.md)
-   + Comprando grupos {#buying-groups}
+   + Grupos de compras {#buying-groups}
       + [Información general](./buying-groups/buying-groups-overview.md)
       + [Intereses de solución](./buying-groups/solution-interests.md)
       + [Plantillas de roles](./buying-groups/buying-groups-role-templates.md)
       + [Fases del grupo de compras](./buying-groups/buying-group-stages.md)
       + [Detalles del grupo de compra](./buying-groups/buying-group-details.md)
-      + [Creación de grupos de compra](./buying-groups/buying-groups-create.md)
+      + [Crear grupos de compras](./buying-groups/buying-groups-create.md)
       + [Exportar lista de cuentas](./audiences/account-list-export.md)
       + [Audiencias coincidentes con cuentas de LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Comprar filtros de grupo en Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
@@ -64,12 +65,16 @@ ht-degree: 36%
       + Plantillas de correo electrónico {#email-templates}
          + [Información general](./content/email-templates.md)
          + [Creación de plantillas de correo electrónico](./content/email-template-authoring.md)
-      + [Plantillas de página de destino](./content/landing-page-templates.md)
+      + Plantillas de página de aterrizaje {#landing-page-templates}
+         + [Información general](./content/landing-page-templates.md)
+         + [Diseño de plantilla de página de aterrizaje](./content/landing-page-template-design.md)
    + Fragmentos {#visual-fragments}
       + [Información general](./content/fragments.md)
       + [Creación de fragmentos](./content/fragment-authoring.md)
-   + [Formularios](./content/forms.md)
-   + Páginas de aterrizaje {#landing-pages}
+   + Formularios {#forms}
+      + [Información general](./content/forms.md)
+      + [Diseño de formulario](./content/form-design.md)
+   + Páginas de destino {#landing-pages}
       + Información general de [](./content/landing-pages.md)
       + [Diseño de página de aterrizaje](./content/landing-page-design.md)
    + [Contenido condicional](./content/conditional-content.md)
@@ -81,7 +86,7 @@ ht-degree: 36%
 + Administración {#admin}
    + [Administración de usuarios](./admin/user-management.md)
    + [Datos de intención](./admin/intent-data.md)
-   + Canales {#channels}
+   + Canales {#channels}
       + [Configuraciones de correo electrónico](./admin/configure-channels-emails.md)
       + [Configuraciones de SMS](./admin/configure-channels-sms.md)
    + [Configuración de repositorios de AEM Assets](./admin/configure-aem-repositories.md)
