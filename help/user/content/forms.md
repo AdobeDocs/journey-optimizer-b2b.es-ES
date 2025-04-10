@@ -2,10 +2,11 @@
 title: Formularios
 description: Aprenda a crear formularios reutilizables que pueda incluir en sus páginas de aterrizaje.
 feature: Content
+badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2350'
 ht-degree: 1%
 
 ---

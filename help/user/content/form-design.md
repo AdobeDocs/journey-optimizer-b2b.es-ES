@@ -2,10 +2,11 @@
 title: Diseño de formulario
 description: Aprenda a diseñar formularios reutilizables utilizados para recopilar información de posibles clientes empresariales.
 feature: Content
+badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4e203a5d1fb0c9d9dc2a6bd14705b17335c98ee3
+source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '2054'
 ht-degree: 1%
 
 ---
