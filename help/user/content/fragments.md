@@ -3,7 +3,7 @@ title: Fragmentos
 description: Aprenda a crear y utilizar fragmentos de contenido visual como componentes reutilizables para correos electrónicos y plantillas de correo electrónico en Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 1%
@@ -41,7 +41,7 @@ El estado del fragmento determina su disponibilidad para utilizarlo en un correo
 
 | Estado | Descripción |
 | -------------------- | ----------- |
-| Borrador | Cuando crea un fragmento, está en estado de borrador. Permanece en este estado mientras define o edita el contenido visual hasta que lo publica para utilizarlo en un correo electrónico o plantilla de correo electrónico. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Editar en el diseñador visual<li>Publicar<li>Duplicado<li>Eliminar |
+| Borrador | Cuando crea un fragmento, está en estado de borrador. Permanece en este estado mientras define o edita el contenido visual hasta que lo publica para utilizarlo en un correo electrónico o plantilla de correo electrónico. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Editar en el diseñador visual<li>Publicación<li>Duplicado<li>Eliminar |
 | Publicadas | Al publicar un fragmento, pasa a estar disponible para su uso en un correo electrónico o plantilla de correo electrónico. El contenido de fragmento publicado no se puede modificar en el diseñador visual. Acciones disponibles:<br/><ul><li>Editar descripción<li>Añadir a un correo electrónico o plantilla<li>Crear versión de borrador<li>Duplicado<li>Eliminar (si no está en uso) |
 | Publicado con borrador | Cuando crea un borrador a partir de un fragmento publicado, la versión publicada permanece disponible para su uso en una plantilla de correo electrónico o correo electrónico, y el contenido del borrador se puede modificar en el diseñador visual. Si publica la versión de borrador, reemplazará la versión publicada actual y el contenido se actualizará en los correos electrónicos y las plantillas de correo electrónico donde esté en uso. Acciones disponibles:<br/><ul><li>Editar descripción<li>Añadir a un correo electrónico o plantilla<li>Editar versión de borrador en el diseñador visual<li>Publicar versión de borrador<li>Duplicado<li>Eliminar (si no está en uso) |
 
@@ -53,7 +53,7 @@ El estado del fragmento determina su disponibilidad para utilizarlo en un correo
 
 ### Filtrado de la lista de fragmentos
 
-Para buscar un fragmento por nombre, introduzca una cadena de texto en la barra de búsqueda para una coincidencia. Haga clic en el icono _Filtro_ ( ![Mostrar u ocultar el icono de filtros](../assets/do-not-localize/icon-filter.svg) ) para mostrar las opciones de filtro disponibles y cambiar la configuración para filtrar los elementos mostrados según los criterios especificados.
+Para búsqueda un fragmento por nombre, introduzca una cadena de texto en la barra de búsqueda para una coincidencia. Haga clic en el icono Filtrar __ (![Mostrar o ocultar icono](../assets/do-not-localize/icon-filter.svg) filtros) para mostrar las opciones de filtro disponibles y cambie la configuración para filtrar los elementos mostrados según sus criterios especificados.
 
 ![Filtrar los fragmentos mostrados](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
@@ -61,15 +61,15 @@ Para buscar un fragmento por nombre, introduzca una cadena de texto en la barra 
 
 Personalice las columnas que desee mostrar en la tabla haciendo clic en el icono _Personalizar tabla_ ( ![Personalizar icono de tabla](../assets/do-not-localize/icon-column-settings.svg) ) en la parte superior derecha.
 
-En el cuadro de diálogo, seleccione las columnas que desea mostrar y haga clic en **[!UICONTROL Aplicar]**.
+En el cuadro de diálogo, seleccione las columnas que desee mostrar y haga clic en **[!UICONTROL Aplicar]**.
 
-![Seleccione las columnas que desea mostrar](./assets/fragments-customize-table-dialog.png){width="300"}
+![Seleccione las columnas que desee mostrar](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## Creación de fragmentos
 
-Puede crear nuevos fragmentos visuales en Journey Optimizer B2B edition haciendo clic en **[!UICONTROL Crear fragmento]** en la parte superior derecha.
+Puede crear nuevos fragmentos visuales en Journey Optimizer B2B Edition haciendo clic **[!UICONTROL en Crear fragmento]** en la parte superior derecha.
 
-1. En el cuadro de diálogo _[!UICONTROL Crear fragmento]_, escriba un **[!UICONTROL Nombre]** y una **[!UICONTROL Descripción]** útiles (opcional).
+1. En el _[!UICONTROL cuadro de diálogo del fragmento]_ Crear, introduzca un nombre ]**y**[!UICONTROL  una Descripción ]**útiles**[!UICONTROL (opcional).
 
    Requisitos de fragmento:
 
@@ -93,7 +93,7 @@ Puede crear nuevos fragmentos visuales en Journey Optimizer B2B edition haciendo
    * [Añadir Assets](./fragment-authoring.md#add-assets)
    * [Desplazamiento por las capas, la configuración y los estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizar contenido](./fragment-authoring.md#personalize-content)
-   * [Habilitar campos personalizados](./fragment-authoring.md#enable-custom-fields)
+   * [Habilitar campos personalizados](./fragment-authoring.md#enable-fragment-customization)
    * [Editar seguimiento de URL vinculadas](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Haga clic en **[!UICONTROL Guardar]** en cualquier momento para guardar el fragmento de borrador.
@@ -163,20 +163,20 @@ Las ediciones en un fragmento dependen de su estado actual:
 
 1. Modifique cualquiera de los detalles, como el nombre y la descripción.
 
-   ![Detalles para fragmento con estado Borrador](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![Detalles para frament con estado de borrador](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. Para realizar cambios en el contenido en el diseñador visual, haga clic en **[!UICONTROL Editar fragmento]**.
+1. Para realizar cambios en los contenido del diseñador visual, haga clic **[!UICONTROL en Editar fragmento]**.
 
    Utilice las herramientas del diseñador visual según sea necesario:
 
    * [Añadir estructura y contenido](./fragment-authoring.md#add-structure-and-content)
-   * [Añadir Assets](./fragment-authoring.md#add-assets)
-   * [Desplazamiento por las capas, la configuración y los estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [añadir Assets](./fragment-authoring.md#add-assets)
+   * [Navegar por las capas, la configuración y los estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizar contenido](./fragment-authoring.md#personalize-content)
-   * [Habilitar campos personalizados](./fragment-authoring.md#enable-custom-fields)
-   * [Editar seguimiento de URL vinculadas](./fragment-authoring.md#edit-linked-url-tracking)
+   * [Habilitar campos personalizados](./fragment-authoring.md#enable-fragment-customization)
+   * [Editar vinculados URL seguimiento](./fragment-authoring.md#edit-linked-url-tracking)
 
-   Haga clic en **[!UICONTROL Guardar]** o **[!UICONTROL Guardar y cerrar]** para volver a los detalles del fragmento.
+   Haga clic en Guardar o en **[!UICONTROL Guardar y cerrar]** para volver a los detalles del fragmento **[!UICONTROL .]**
 
 1. Cuando el fragmento cumpla sus criterios y desee que esté disponible para utilizarlo en un correo electrónico o plantilla de correo electrónico, haga clic en **[!UICONTROL Publicar]**.
 
@@ -202,7 +202,7 @@ Las ediciones en un fragmento dependen de su estado actual:
    * [Añadir Assets](./fragment-authoring.md#add-assets)
    * [Desplazamiento por las capas, la configuración y los estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizar contenido](./fragment-authoring.md#personalize-content)
-   * [Habilitar campos personalizados](./fragment-authoring.md#enable-custom-fields)
+   * [Habilitar campos personalizados](./fragment-authoring.md#enable-fragment-customization)
    * [Editar seguimiento de URL vinculadas](./fragment-authoring.md#edit-linked-url-tracking)
 
    Haga clic en **[!UICONTROL Guardar]** o **[!UICONTROL Guardar y cerrar]** para volver a los detalles del fragmento.
@@ -231,7 +231,7 @@ Para actualizar el contenido:
    * [Añadir Assets](./fragment-authoring.md#add-assets)
    * [Desplazamiento por las capas, la configuración y los estilos](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalizar contenido](./fragment-authoring.md#personalize-content)
-   * [Habilitar campos personalizados](./fragment-authoring.md#enable-custom-fields)
+   * [Habilitar campos personalizados](./fragment-authoring.md#enable-fragment-customization)
    * [Editar seguimiento de URL vinculadas](./fragment-authoring.md#edit-linked-url-tracking)
 
    Haga clic en **[!UICONTROL Guardar]** o **[!UICONTROL Guardar y cerrar]** para volver a los detalles del fragmento.
@@ -265,11 +265,11 @@ Al crear o editar un correo electrónico o una plantilla de correo electrónico 
 
 1. Seleccione los diferentes elementos que desea incluir en el fragmento.
 
-   Para seleccionar varias estructuras, mantenga pulsado el botón Mayús o Control.
+   Para seleccionar varias estructuras, mantenga pulsada la botón Mayús o Control.
 
-   Solo se pueden seleccionar estructuras adyacentes entre sí y la interfaz no permite seleccionar elementos no adyacentes.
+   Solo puede seleccionar estructuras adyacentes entre sí y la interfaz no le permite seleccionar elementos no adyacentes.
 
-1. Con el contenido seleccionado, haz clic en **[!UICONTROL Crear]** en la parte superior derecha.
+1. Con la contenido seleccionada, haga clic **[!UICONTROL en Crear]** en la parte superior derecha.
 
 1. En el cuadro de diálogo, introduzca un nombre y una descripción útiles para el fragmento. Luego haga clic en **[!UICONTROL Crear]**.
 
@@ -277,13 +277,13 @@ Al crear o editar un correo electrónico o una plantilla de correo electrónico 
 
 ## Añadir fragmentos visuales al contenido del correo electrónico o de la plantilla
 
-Los fragmentos están diseñados para su reutilización y se pueden insertar para la creación de plantillas de correo electrónico y correo electrónico. Puede añadir hasta 30 fragmentos en un correo electrónico o plantilla. Los fragmentos se pueden anidar hasta un solo nivel.
+Los fragmentos están diseñados para su reutilización y pueden insertarse para correo electrónico y correo electrónico plantilla la creación. Puede agregar hasta 30 fragmentos a correo electrónico o plantilla. Los fragmentos pueden anidarse hasta un solo nivel.
 
 >[!BEGINTABS]
 
->[!TAB Agregar fragmentos a un correo electrónico]
+>[!TAB añadir fragmentos a un correo electrónico]
 
-1. Vaya a **[!UICONTROL Recorridos de cuenta]** y abra un recorrido recorrido existente o cree uno nuevo.
+1. Vaya a **[!UICONTROL Recorridos de la]** cuenta y abra un recorrido existente o cree uno nuevo.
 
 1. Crear un nodo [_[!UICONTROL Enviar correo electrónico ]_](./email-authoring.md#add-an-email-action-in-an-account-journey).
 

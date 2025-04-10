@@ -1,9 +1,9 @@
 ---
 title: 'Creación de contenido: uso de fragmentos'
 description: Sección reutilizada sobre el uso de fragmentos para la creación de contenido
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ En el siguiente ejemplo se describen los pasos para agregar fragmentos a medida 
 
 >[!BEGINSHADEBOX]
 
-**Campos editables**
+**Campos editables en fragmentos personalizables**
 
-Un fragmento visual puede incluir campos editables que se pueden personalizar. Los campos personalizados le permiten modificar parámetros al incorporar el fragmento en el contenido y crear una experiencia adaptada sin afectar al fragmento original. Si un fragmento incluido contiene componentes con campos editables, puede cambiar los valores predeterminados.
+Un fragmento visual puede incluir campos editables que se pueden personalizar. Los campos personalizados le permiten modificar parámetros al incorporar el fragmento en el contenido y crear una experiencia adaptada sin afectar al fragmento original. El autor del fragmento puede [diseñar el fragmento para la personalización](../user/content/fragment-authoring.md#enable-fragment-customization) de los componentes de texto, imagen y botón. Si un fragmento incluido contiene componentes con campos editables, puede cambiar los valores predeterminados para personalizarlos según el contenido.
 
 1. Seleccione el componente de fragmento.
 

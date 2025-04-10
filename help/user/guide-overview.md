@@ -2,7 +2,7 @@
 title: Documentación de la edición B2B de Adobe Journey Optimizer
 description: Aprenda a utilizar las funciones de Adobe Journey Optimizer B2B edition para organizar recorridos de cuenta y de grupo de compra mediante IA generativa integrada y una automatización líder del sector.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 7%
@@ -35,7 +35,7 @@ Con las licencias de Adobe Express Enterprise, puede aprovechar un conjunto comp
 
 Como diseñador de contenido, puede designar un parámetro para un componente del fragmento como editable. Esto permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones.
 
-[!BADGE Más información]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="Obtenga información sobre los campos personalizados para fragmentos de contenido"}
+[!BADGE Más información]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Obtenga información sobre los campos personalizados para fragmentos de contenido"}
 
 >[!TAB Reenvío de eventos de AEP]
 
@@ -96,7 +96,7 @@ Descubra los componentes de un grupo comprador y comprenda los conceptos básico
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Introducción"><br/>
-      <strong>Introducción</strong><br/><a href="home-page.md">Inicio de sesión y página de inicio</a><br/><a href="./start/get-started.md">Guía de inicio rápido</a> <br/><a href="./start/ai-assistant.md">Ayudante de IA</a>
+      <strong>Introducción</strong><br/><a href="home-page.md">Inicio de sesión y página de inicio</a><br/><a href="./start/get-started.md">Guía de inicio rápido</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Ayudante de IA</a>
     </td>
     <!--
     <td>
