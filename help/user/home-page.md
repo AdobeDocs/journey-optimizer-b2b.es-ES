@@ -2,7 +2,7 @@
 title: Inicio de sesión y página de inicio
 description: Obtenga información sobre cómo acceder a la aplicación de Journey Optimizer B2B edition y utilizar la información de la página principal.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: f7f9531cce6447b4715f0e76b0fd8ce57715f519
+source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 6%
@@ -32,7 +32,7 @@ Journey Optimizer B2B edition tiene dos perfiles de usuario principales: un _**e
 
 La sección _[!UICONTROL A la que se ha accedido recientemente]_ proporciona una lista de los recursos a los que se ha accedido más recientemente para el experto en marketing o el administrador. Utilice esta lista para ir directamente al recurso en el que ha trabajado recientemente sin navegar por una serie de páginas de recursos y búsquedas.
 
-La página también incluye acceso a [Ayudante de IA](./start/ai-assistant.md), que ayuda a los usuarios a obtener información rápida sobre cualquier pregunta o tema específico que necesiten.<!-- and to obtain specific recommendations for their challenges or objectives-->
+La página también incluye acceso a [Ayudante de IA](./ai-assistant/ai-assistant-overview.md), que ayuda a los usuarios a obtener información rápida sobre cualquier pregunta o tema específico que necesiten.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 
