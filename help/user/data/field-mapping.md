@@ -2,9 +2,9 @@
 title: Campos XDM
 description: Revise los campos de atributos predeterminados que se sincronizan entre Adobe Experience Platform y Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
+source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1342'
 ht-degree: 16%
 
 ---
@@ -31,8 +31,6 @@ Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuent
 
 | [Propiedad](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Nombre para mostrar | Nombre para mostrar de Journey Optimizer B2B | Tipo de datos | Descripción |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `b2b.companyName` | Nombre de la empresa | Nombre de la empresa | Cadena | Nombre de la compañía con la que está asociado un profesional. |
-| `b2b.companyWebsite` | Sitio web de empresa | Sitio web | Cadena | Sitio web de la compañía con la que está asociado un profesional. |
 | `b2b.isMarketingSuspended` | Indicador suspendido de marketing | Marketing suspendido | Booleano | El valor indica si el marketing está suspendido para la persona. |
 | `b2b.marketingSuspendedCause` | Causa de suspensión de marketing | Causa de suspensión de marketing | Cadena | Si el marketing está suspendido para la persona, esta propiedad proporciona el motivo por el que. |
 | `b2b.personStatus` | Estado de la persona | Estado del lead | Cadena | Campo que registra el estado actual de marketing/ventas de la persona. |
@@ -101,5 +99,5 @@ Además, los datos de oportunidad se almacenan como atributos en la clase de opo
 | `opportunityName` | Nombre de la oportunidad | Nombre de oportunidad | Cadena | Asunto o nombre descriptivo, como el pedido esperado o el nombre de la empresa, de la oportunidad. |
 | `opportunityQuantity` | Cantidad de la oportunidad | Cantidad de oportunidad | Cadena | Total de todos los valores de campo de cantidad de todos los productos en la lista de productos relacionados para la oportunidad. |
 | `opportunityStage` | Etapa de la oportunidad | Fase de oportunidad | Cadena | Fase de ventas de la oportunidad para ayudar al equipo de ventas en sus esfuerzos por ganarla. |
-| `opportunityType` | Tipo de oportunidad | Tipo de oportunidad | Cadena | Tipo asignado a la oportunidad, como _Empresa existente _ o _Nueva empresa_ |
+| `opportunityType` | Tipo de oportunidad | Tipo de oportunidad | Cadena | Tipo asignado a la oportunidad, como _Empresa existente_ o _Nueva empresa_ |
 | `probabilityPercentage` | Porcentaje de probabilidad | Porcentaje de probabilidad de oportunidad | Cadena | Probabilidad de cerrar la oportunidad, expresada como porcentaje. |
