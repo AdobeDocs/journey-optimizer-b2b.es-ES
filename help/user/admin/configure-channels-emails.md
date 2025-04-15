@@ -3,7 +3,7 @@ title: Configuraciones de correo electrónico
 description: Obtenga información sobre cómo acceder y revisar la configuración de correo electrónico de Marketo Engage.
 feature: Setup
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 796cb86f81aa18d8e616af527c22b3160df4f1b5
+source-git-commit: 3b4e4742a1913bed2b284f36be92f77b18383e0e
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Configuraciones de correo electrónico
 
-Adobe Journey Optimizer B2B edition aprovecha las funciones de canal y el seguimiento de eventos en Market Engage. Los administradores deben asegurarse de que las configuraciones de entrega y seguimiento estén implementadas para habilitar la entrega a través del canal para los especialistas en marketing. Para obtener información sobre los protocolos necesarios para la entrega de correo electrónico y el seguimiento mediante el Marketo Engage, consulte [Protocolos para el seguimiento y la entrega de correo electrónico](../start/email-protocols.md).
+Adobe Journey Optimizer B2B edition aprovecha las funciones de canal y el seguimiento de eventos en Marketo Engage. Los administradores deben asegurarse de que las configuraciones de entrega y seguimiento estén implementadas para habilitar la entrega a través del canal para los especialistas en marketing. Para obtener información sobre los protocolos necesarios para la entrega y el seguimiento de correo electrónico mediante Marketo Engage, consulte [Protocolos para el seguimiento y la entrega de correo electrónico](../start/email-protocols.md).
 
 ## Configuración de envío
 
@@ -36,11 +36,11 @@ Los parámetros de encabezado del correo electrónico definen los valores predet
 
 * **[!UICONTROL Etiqueta de origen]**: nombre mostrado para la dirección del remitente del correo electrónico.
 
-* **[!UICONTROL HTML de cancelación de suscripción]**: el HTML (para clientes de correo electrónico admitidos) que se muestra en correos electrónicos no operativos para explicar las acciones de cancelación de suscripción al destinatario. Este texto y los vínculos se anexan a la parte inferior.
+* **[!UICONTROL Cancelar la suscripción a HTML]**: HTML (para clientes de correo electrónico admitidos) que se muestra en correos electrónicos no operativos para explicar las acciones de cancelación de suscripción al destinatario. Este texto y los vínculos se anexan a la parte inferior.
 
 * **[!UICONTROL Texto para cancelar la suscripción]**: texto sin formato que se muestra en correos electrónicos que no funcionan para explicar las acciones de cancelación de suscripción al destinatario. Este texto y los vínculos se anexan a la parte inferior.
 
-* **[!UICONTROL Ver como HTML de página web]**: el HTML (para clientes de correo electrónico admitidos) utilizó para _Ver como página web_, que proporciona un vínculo para mostrar un correo electrónico en un explorador.
+* **[!UICONTROL Ver como página web HTML]**: HTML (para clientes de correo electrónico admitidos) utilizó para _Ver como página web_, que proporciona un vínculo para mostrar un correo electrónico en un explorador.
 
 * **[!UICONTROL Ver como texto de página web]**: texto sin formato utilizado para _Ver como página web_, que proporciona un vínculo para mostrar un correo electrónico en un explorador.
 
@@ -50,11 +50,11 @@ Para revisar los dominios de personalización de marca, haga clic en la ficha **
 
 ![Acceder a la configuración de dominios de personalización de marca](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Esta configuración define el dominio principal de uno o varios espacios de trabajo de Marketo Engage. Los nuevos correos electrónicos utilizan este dominio como predeterminado, pero los especialistas en marketing pueden anularlo por correo electrónico. Para obtener más información, consulte la [documentación del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Esta configuración define el dominio principal de uno o varios espacios de trabajo de Marketo Engage. Los nuevos correos electrónicos utilizan este dominio como predeterminado, pero los especialistas en marketing pueden anularlo por correo electrónico. Para obtener más información, consulte la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Si está comercializando varias marcas desde Journey Optimizer B2B edition y la instancia de Marketo Engage conectada y desea que cada una tenga sus propios vínculos de seguimiento de marca, puede agregar un dominio de marca adicional. Para obtener más información, consulte la [documentación del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Si está comercializando varias marcas desde Journey Optimizer B2B edition y la instancia de Marketo Engage conectada y desea que cada una tenga sus propios vínculos de seguimiento de marca, puede agregar un dominio de marca adicional. Para obtener más información, consulte la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Opciones de encabezado personalizado] {#custom-header-options}
 
@@ -78,11 +78,11 @@ La configuración es de solo lectura en Journey Optimizer B2B edition. Haga clic
 >
 >Para acceder y editar esta configuración en Adobe Marketo Engage, debe tener permisos de administrador de productos.
 
-Para obtener más información sobre cómo configurar los límites de comunicación, consulte la [documentación del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Para obtener más información sobre cómo configurar los límites de comunicación, consulte la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
 
 ## SPF/DKIM
 
-Mejore las tasas de envío de correo electrónico incorporando SPF (Marco de Política del Remitente) y DKIM (Correo Identificado por Claves de Dominio) en la configuración DNS. Estas tecnologías garantizan a los destinatarios que los correos electrónicos no son spam. Para evitar que los filtros de correo no deseado de los destinatarios rechacen correos electrónicos, asegúrese de que SPF y DKIM estén configurados para sus dominios.
+Mejore las tasas de envío de correo electrónico incorporando SPF (Marco de Política del Remitente) y DKIM (Domain Keys Identified Mail) en la configuración DNS. Estas tecnologías garantizan a los destinatarios que los correos electrónicos no son spam. Para evitar que los filtros de correo no deseado de los destinatarios rechacen correos electrónicos, asegúrese de que SPF y DKIM estén configurados para sus dominios.
 
 Para revisar la configuración actual, ve a **[!UICONTROL Administración]** > **[!UICONTROL Canales]**. En _[!UICONTROL Correo electrónico]_ en el panel de navegación, seleccione **[!UICONTROL SPF/DKIM]**.
 
@@ -110,9 +110,9 @@ Si ya tiene un registro SPF en la entrada DNS, agréguele lo siguiente:
 
 DKIM es un protocolo de autenticación que utilizan los receptores de correo electrónico para validar el remitente del mensaje. A menudo mejora la capacidad de entrega de correos electrónicos a la bandeja de entrada porque un destinatario puede estar seguro de que el mensaje no es una falsificación.
 
-Con la clave pública en el registro DNS y el dominio de envío activado en la instancia de Marketo Engage conectada, se utiliza la firma DKIM personalizada para los mensajes salientes. La firma DKIM personalizada incluye una firma digital cifrada con cada correo electrónico que se envía. Los receptores pueden descifrar la firma digital buscando la _clave pública_ en el DNS del dominio de envío. Si la clave del correo electrónico corresponde a la clave del registro DNS, es más probable que el servidor de correo receptor acepte el correo electrónico enviado a través del Marketo Engage.
+Con la clave pública en el registro DNS y el dominio de envío activado en la instancia de Marketo Engage conectada, se utiliza la firma personalizada de DKIM para los mensajes salientes. La firma personalizada de DKIM incluye una firma digital cifrada con cada correo electrónico que se envía. Los receptores pueden descifrar la firma digital buscando la _clave pública_ en el DNS del dominio de envío. Si la clave del correo electrónico corresponde a la clave del registro DNS, es más probable que el servidor de correo receptor acepte el correo electrónico enviado a través de Marketo Engage.
 
-Para obtener más información sobre la configuración de una firma DKIM personalizada para la entrega por correo electrónico, consulte la [documentación del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
+Para obtener más información sobre cómo configurar una firma de DKIM personalizada para el envío por correo electrónico, consulte la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
 
 ## Actividad de bots
 
@@ -145,4 +145,4 @@ La configuración es de solo lectura en Journey Optimizer B2B edition. Haga clic
 >
 >Para acceder y editar esta configuración en Adobe Marketo Engage, debe tener permisos de administrador de productos.
 
-Para obtener más información sobre cómo configurar las opciones de actividad de bots, consulte la [documentación del Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Para obtener más información sobre cómo configurar las opciones de actividad de bots, consulte la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
