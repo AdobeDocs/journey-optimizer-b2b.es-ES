@@ -3,10 +3,10 @@ title: Grupos de compras
 description: Descubra cómo los grupos de compras en Journey Optimizer B2B Edition pueden aumentar la eficacia del marketing al identificar y segmentar miembros para sus listas de cuentas.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 98%
+source-wordcount: '1782'
+ht-degree: 97%
 
 ---
 
@@ -36,10 +36,8 @@ Puede aumentar la eficacia del marketing estableciendo grupos de compras en Jour
 
 1. Crear grupos de compra.
 
-   Opciones:
-   * Usar [interés de solución](./solution-interests.md) y [plantilla de función](./buying-groups-role-templates.md)
-   * Usar importación de terceros
-   * Generar desde IA/ML
+   * Definir [interés de solución](./solution-interests.md) y [plantilla de rol](./buying-groups-role-templates.md)
+   * [Cree el grupo comprador](./buying-groups-create.md#create-buying-groups) y asigne [etapas del grupo comprador](./buying-group-stages.md).
 
 1. Identificar personas desaparecidas.
 
@@ -53,7 +51,7 @@ Puede aumentar la eficacia del marketing estableciendo grupos de compras en Jour
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Se utiliza en un recorrido de cuentas a través del interés de solución asociado.
+1. Utiliza el grupo de compras y tus recorridos de cuenta.
 
 ## Ver grupos y componentes de compra
 
@@ -140,7 +138,7 @@ La puntuación de participación en el grupo de compras es un número que determ
 
 >[!NOTE]
 >
->Las actividades de puntuación de participación se registran en el registro de actividad de Marketo Engage [de una persona](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>Las actividades de puntuación de participación se registran en el registro de actividades [de Marketo Engage para una persona](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
 
 +++
 

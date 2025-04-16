@@ -2,10 +2,10 @@
 title: Listas de cuentas
 description: Obtenga información acerca de las listas de cuentas y cómo los especialistas en marketing pueden utilizarlas para segmentar cuentas a través de recorridos de cuenta.
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 0%
+source-wordcount: '1621'
+ht-degree: 1%
 
 ---
 
@@ -20,21 +20,19 @@ Cuando una lista de cuentas se encuentra en estado _Activo_ (publicado), está d
 
 ## Acceso y exploración de listas de cuentas
 
-1. En la página de inicio de Adobe Experience Platform, haga clic en Adobe Journey Optimizer B2B edition.
+En el panel de navegación izquierdo, expanda **[!UICONTROL Cuentas]** y haga clic en **[!UICONTROL Listas de cuentas]**.
 
-1. En el panel de navegación izquierdo, expanda **[!UICONTROL Cuentas]** y haga clic en **[!UICONTROL Listas de cuentas]**.
+![Acceso a recorridos de cuenta](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![recorridos de cuenta de acceso](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+La página _[!UICONTROL Listas de cuentas]_ mostrada incluye las siguientes columnas:
 
-   La página _[!UICONTROL Listas de cuentas]_ mostrada incluye las siguientes columnas:
-
-   * [!UICONTROL Nombre] (haga clic en el nombre de la lista de cuentas para ver los detalles)
-   * [!UICONTROL Estado]
-   * [!UICONTROL Tipo]
-   * [!UICONTROL Última actualización el]
-   * [!UICONTROL Última actualización por]
-   * [!UICONTROL Fecha de creación]
-   * [!UICONTROL Creado por]
+* [!UICONTROL Nombre] (haga clic en el nombre de la lista de cuentas para ver los detalles)
+* [!UICONTROL Estado]
+* [!UICONTROL Tipo]
+* [!UICONTROL Última actualización el]
+* [!UICONTROL Última actualización]
+* [!UICONTROL Fecha de creación]
+* [!UICONTROL Creado por]
 
 Esta tabla incluye la capacidad de buscar por nombre. La función de ordenación no está disponible en este momento.
 
@@ -42,7 +40,7 @@ Puede personalizar la tabla mostrada si hace clic en el icono _Configuración de
 
 ![Elija las columnas que desea mostrar en la lista de recorridos de la cuenta](./assets/account-lists-list-columns.png){width="300"}
 
-Para ver la descripción de una lista de cuentas, haga clic en el icono _Información_ junto al nombre.
+Para ver la descripción de una lista de cuentas, haga clic en el icono _Información_ ( ![Icono de información](../assets/do-not-localize/icon-info.svg) ) junto al nombre.
 
 ## Crear una lista de cuentas
 

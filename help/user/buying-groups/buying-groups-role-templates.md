@@ -3,22 +3,20 @@ title: Comprar plantillas de rol de grupo
 description: Obtenga información acerca de la definición de una plantilla de rol para utilizarla como componente de grupo comprador.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 3%
+source-wordcount: '1115'
+ht-degree: 5%
 
 ---
 
-# Comprar plantillas de rol de grupo
+# Plantillas de función del grupo de compras
 
 En un mercado B2B, las decisiones de compra suelen ser tomadas por varios individuos. Esas personas participan en el proceso de adopción de decisiones de acuerdo con su función dentro de la organización. Cree plantillas de función Grupo de compra que contengan estas definiciones de función según cada tipo de oferta de producto o caso de uso de cuenta.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
 ## Acceso y exploración de plantillas de función
-
-1. En la página de inicio de Adobe Experience Platform, haga clic en Adobe Journey Optimizer B2B edition.
 
 1. En el panel de navegación izquierdo, haz clic en **[!UICONTROL Comprar grupos]**.
 
@@ -33,7 +31,7 @@ En un mercado B2B, las decisiones de compra suelen ser tomadas por varios indivi
    * [!UICONTROL Fecha de creación]
    * [!UICONTROL Creado por]
    * [!UICONTROL Última actualización]
-   * [!UICONTROL Última actualización por]
+   * [!UICONTROL Última actualización]
    * [!UICONTROL Publicado el]
    * [!UICONTROL Publicado por]
 
