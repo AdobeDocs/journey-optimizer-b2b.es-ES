@@ -1,20 +1,21 @@
 ---
-title: Exportar lista de cuentas
+title: Exportar la lista de cuentas
 description: Obtenga información sobre cómo exportar la lista de cuentas en función del filtro de grupos de compra.
-source-git-commit: c51ee8c8b58e8154c81f6a2ffada3f58a08eb6b4
-workflow-type: tm+mt
+exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
+source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Exportar lista de cuentas
+# Exportar la lista de cuentas
 
-Use la característica _Exportar lista de cuentas_ para exportar todas las cuentas o un conjunto de cuentas según el filtro que defina. El proceso de exportación genera un archivo CSV y envía la dirección URL del archivo almacenado dentro de una notificación de impulsos. Puede utilizar esta función para mover cuentas a plataformas de terceros cuando sea necesario.
+Use la característica _Exportar la lista de cuentas_ para exportar todas las cuentas o un conjunto de cuentas según el filtro que defina. El proceso de exportación genera un archivo CSV y envía la dirección URL del archivo almacenado dentro de una notificación de impulsos. Puede utilizar esta función para mover cuentas a plataformas de terceros cuando sea necesario.
 
-1. En Journey Optimizer B2B edition, vaya a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos de compra]** en el panel de navegación izquierdo.
+1. En Journey Optimizer B2B Edition, vaya a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos de compra]** en el panel de navegación izquierdo.
 
-1. Seleccione la ficha **[!UICONTROL Examinar]**.
+1. Seleccione la pestaña **[!UICONTROL Examinar]**. 
 
 1. Haga clic en **[!UICONTROL Exportar cuentas]** en la parte superior derecha.
 
@@ -24,7 +25,7 @@ Use la característica _Exportar lista de cuentas_ para exportar todas las cuent
 
    ![Especifique el filtrado de audiencia de la cuenta](./assets/export-accounts-dialog.png){width="400"}
 
-   Para la **[!UICONTROL puntuación de participación]**, el operador `Between` es inclusivo, al igual que los intervalos de porcentaje. Por ejemplo, 5.1 y 5 son _entre_ 5 y 6.
+   Para la **[!UICONTROL puntuación de participación]**, el operador `Between` es inclusivo, al igual que los intervalos de porcentaje. Por ejemplo, 5.1 y 5 son ambos _entre_ 5 y 6.
 
    Los parámetros de filtrado vacíos se tratan como `Is Any`.
 
@@ -38,4 +39,4 @@ Use la característica _Exportar lista de cuentas_ para exportar todas las cuent
    >
    >Si tiene una suscripción de notificación por correo electrónico configurada en las preferencias de cuenta de usuario de Adobe, puede ser una notificación por correo electrónico.
 
-   La página de la aplicación redirige a la ficha de exploración _Grupo de compra_ y el cuadro de diálogo de guardar archivo del sistema le pedirá que guarde el archivo en su sistema. Si necesita compartir los datos, puede utilizar el sistema de uso compartido de archivos de su equipo.
+   La página de la aplicación redirige a la pestaña de exploración _Grupo de compras_ y el cuadro de diálogo de guardar archivo del sistema le pedirá que guarde el archivo en su sistema. Si necesita compartir los datos, puede utilizar el sistema compartir archivos de su equipo.
