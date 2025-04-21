@@ -35,7 +35,7 @@ Con las licencias de Adobe Express Enterprise, puede aprovechar un conjunto comp
 
 Como diseñador de contenido, puede designar un parámetro para un componente del fragmento como editable. Esto permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones.
 
-[!BADGE Más información]{type=Informative url="/help/usuario/contenido/fragment-authoring.md#enable-fragment-customization" tooltip="Obtenga información sobre los campos personalizados para fragmentos de contenido"}
+[!BADGE Más información]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Obtenga información sobre los campos personalizados para fragmentos de contenido"}
 
 >[!TAB Reenvío de eventos de AEP]
 
