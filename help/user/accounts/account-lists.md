@@ -1,10 +1,11 @@
 ---
 title: Listas de cuentas
 description: Obtenga información acerca de las listas de cuentas y cómo los especialistas en marketing pueden utilizarlas para segmentar cuentas a través de recorridos de cuenta.
+badgeBeta: label="Disponibilidad limitada" type="informative" tooltip="Actualmente, esta función solo está disponible si se solicita"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1631'
 ht-degree: 1%
 
 ---
