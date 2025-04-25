@@ -3,9 +3,9 @@ title: Creación de SMS
 description: Aprenda a enviar mensajes de texto (SMS) a sus clientes en sus dispositivos móviles y a personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 3%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 Utilice Adobe Journey Optimizer B2B edition para enviar mensajes de texto (SMS) a sus clientes en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
 
-Antes de crear mensajes SMS para los recorridos de la cuenta, asegúrate de que el [proveedor de servicios SMS está configurado](../admin/configure-channels-sms.md) desde la configuración de _[!UICONTROL Administrador]_.
+Antes de crear mensajes SMS para recorridos de cuenta, asegúrate de que el [proveedor de servicio SMS está configurado](../admin/configure-channels-sms.md) desde la configuración de _[!UICONTROL Administrador]_.
 
 ## Añadir una acción SMS en un recorrido de cuenta
 
-Puede configurar envíos de mensajes de texto en un Recorrido de cuentas cuando agregue un nodo _[!UICONTROL Realizar una acción]_ y haga lo siguiente:
+Puede configurar envíos de mensajes de texto en un recorrido de cuentas cuando agregue un nodo _[!UICONTROL Realizar una acción]_ y haga lo siguiente:
 
 1. Para la _[!UICONTROL acción en]_ destino, elige **[!UICONTROL Personas]**.
 
@@ -34,7 +34,7 @@ Puede configurar envíos de mensajes de texto en un Recorrido de cuentas cuando 
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-   Se abre _el diseñador de contenido de Recorrido_; puede crear el mensaje y establecer las propiedades de SMS para enviarlo.
+   Se abre el _mapa de Recorrido_. Puede crear el mensaje y establecer las propiedades de SMS para enviarlo.
 
 ### Creación del mensaje SMS
 
