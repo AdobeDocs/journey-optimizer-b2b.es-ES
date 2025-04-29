@@ -3,16 +3,16 @@ title: Crear y publicar un Recorrido de cuenta
 description: Obtenga información sobre cómo crear y publicar recorridos de cuenta.
 feature: Account Journeys
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # Creación y publicación de un recorrido de cuenta
 
-Para empezar con un recorrido de cuentas, cree el recorrido y, a continuación, construya los nodos y el flujo de recorrido en el editor de recorridos.
+Para empezar con un recorrido de cuentas, cree el recorrido y, a continuación, construya los nodos y el flujo de recorrido en el mapa de recorrido.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
@@ -50,7 +50,7 @@ Para ayudarle a crear un recorrido sin que se produzcan errores, se han implemen
 
 ## Añadir un nodo
 
-1. Vaya al editor de recorrido.
+1. Vaya al mapa del recorrido.
 
 1. Haga clic en el icono de signo más ( **+** ) en la ruta y seleccione el tipo de nodo.
 
@@ -58,7 +58,7 @@ Para ayudarle a crear un recorrido sin que se produzcan errores, se han implemen
 
 ## Eliminación de un nodo
 
-1. Vaya al editor de recorrido.
+1. Vaya al mapa del recorrido.
 
 1. En las propiedades del nodo, a la derecha, haga clic en el icono _Eliminar_ ( ![Icono Eliminar](../assets/do-not-localize/icon-delete.svg) ).
 
@@ -66,7 +66,7 @@ Para ayudarle a crear un recorrido sin que se produzcan errores, se han implemen
 
 ## Adición y eliminación de una ruta
 
-1. Vaya al editor de recorrido.
+1. Vaya al mapa del recorrido.
 
 1. Haga clic en el icono de signo más (**+** ) en la ruta y agregue el [nodo de ruta dividida](./split-merge-paths-nodes.md#split-paths).
 

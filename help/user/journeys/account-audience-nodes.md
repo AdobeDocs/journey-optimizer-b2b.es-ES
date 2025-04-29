@@ -3,16 +3,16 @@ title: Nodos de audiencia de cuenta
 description: Obtenga información acerca del tipo de nodo de audiencia de cuenta que puede utilizar para definir la entrada de los recorridos de la cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 5%
 
 ---
 
 # Nodos del recorrido de audiencia de cuenta
 
-El nodo Audiencia de cuenta define la audiencia de cuenta de entrada (creada y administrada en Adobe Experience Platform) para el recorrido. Cuando [crea un recorrido de cuenta](./journey-overview.md#create-an-account-journey), siempre comienza con un nodo _Audiencia de cuenta_ que define la entrada para el recorrido.
+El nodo Audiencia de cuenta define las cuentas de entrada para el recorrido. Cuando [crea un recorrido de cuenta](./journey-overview.md#create-an-account-journey), siempre comienza con un nodo _Audiencia de cuenta_ que define la entrada para el recorrido.
 
 Existen dos tipos de entrada que puede utilizar para este nodo:
 
@@ -53,4 +53,4 @@ _Para crear un segmento de audiencia:_
 
    ![Crear un segmento de audiencia](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Siga los pasos descritos en la [Guía del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
+1. Siga los pasos descritos en la [guía del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.

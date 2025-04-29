@@ -2,10 +2,10 @@
 title: Documentación de Adobe Journey Optimizer B2B Edition
 description: Aprenda a utilizar las funciones de Adobe Journey Optimizer B2B Edition para organizar recorridos de cuenta y de grupo de compras mediante IA generativa integrada y una automatización líder del sector.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
+source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 99%
+source-wordcount: '719'
+ht-degree: 65%
 
 ---
 
@@ -13,9 +13,33 @@ ht-degree: 99%
 
 ## Novedades?
 
-A continuación, se muestra una muestra de las mejoras más recientes del producto y la documentación de Journey Optimizer B2B Edition.
+A continuación se muestra un ejemplo de las últimas incorporaciones y mejoras realizadas en la aplicación y documentación de Journey Optimizer B2B edition.
 
 >[!BEGINTABS]
+
+>[!TAB Listas de cuentas]
+
+Cree una lista de cuentas, que es una colección de cuentas con nombre que los especialistas en marketing pueden utilizar para la orquestación de recorridos de destino. Una lista de cuentas puede segmentar las cuentas con nombre según los criterios definidos, como el sector, la ubicación o el tamaño de la compañía.
+
+[!BADGE Más información]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Más información sobre las listas de cuentas"}
+
+>[!TAB Filtros de lista de cuenta para listas inteligentes]
+
+Ahora puede filtrar listas inteligentes de Marketo Engage con filtros de lista de cuentas. Estos filtros le permiten suprimir e incluir miembros de la lista de cuentas en todas las campañas y programas de Marketo Engage desde recorridos de cuenta en Journey Optimizer B2B edition.
+
+[!BADGE Más información]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Obtenga información sobre los filtros de lista de cuentas utilizados en las listas inteligentes de Marketo Engage"}
+
+>[!TAB Filtros de historial de inactividad]
+
+Recorridos de progreso basados en la inactividad dentro de campañas y programas de Marketo Engage, incluidos correo electrónico, momentos interesantes, cambios en el valor de los datos y páginas web visitadas.
+
+[!BADGE Más información]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="Obtenga información sobre los filtros de historial de inactividad"}
+
+>[!TAB duplicación de Recorrido]
+
+Duplique las estructuras de recorrido de la cuenta para minimizar los errores manuales y garantizar una configuración, flujos y rutas coherentes. En el recorrido duplicado, puede ajustar el contenido o las acciones, lo que facilita la administración de campañas más grandes y complejas&#x200B;.
+
+[!BADGE Más información]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-recorrido" tooltip="Obtenga información sobre la duplicación de recorridos"}
 
 >[!TAB Panel de información inteligente]
 
@@ -33,27 +57,9 @@ Con las licencias de Adobe Express Enterprise, puede aprovechar un conjunto comp
 
 >[!TAB Campos personalizables de fragmento]
 
-Como diseñador de contenido, puede designar un parámetro para un componente del fragmento como editable. Esto permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones.
+Como diseñador de contenido, puede designar un parámetro para un componente del fragmento como editable. Esta configuración permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones.
 
 [!BADGE Más información]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Obtenga información sobre los campos personalizados para fragmentos de contenido"}
-
->[!TAB Reenvío de eventos de AEP]
-
-Los administradores ahora pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP). Estas configuraciones permiten a los especialistas en marketing crear recorridos de cuenta que reaccionan a los eventos de experiencia de AEP.
-
-[!BADGE Más información]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Obtenga información acerca de las definiciones de eventos de AEP utilizadas para la orquestación de recorrido"}
-
->[!TAB Filtros de grupo de compras para listas inteligentes]
-
-Ahora puede ver y crear listas inteligentes con filtros de grupo de compras en Marketo Engage. Estos filtros le permiten suprimir e incluir miembros del grupo de compras en campañas y programas de Marketo Engage desde recorridos de cuenta en Journey Optimizer B2B Edition.
-
-[!BADGE Más información]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Obtenga información sobre los filtros de grupos de compra utilizados en las listas inteligentes de Marketo Engage"}
-
->[!TAB Contenido condicional]
-
-Utilice contenido condicional para adaptar el contenido del correo electrónico en función de las reglas condicionales. Defina las reglas mediante atributos de perfil o eventos contextuales. Puede crear reglas condicionales en el generador de reglas y almacenarlas para su reutilización en los recorridos de la cuenta.
-
-[!BADGE Más información]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Más información sobre el contenido condicional"}
 
 >[!ENDTABS]
 
@@ -64,15 +70,15 @@ Para obtener una lista completa de las nuevas características y mejoras, consul
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="./assets/launch.png" alt="Lanzamiento de los usos del producto"></a>
+    <a href="home-page.md"><img width="140px" src="./assets/launch.png" alt="Lanzamiento de los usos del producto"></a>
     <div><strong>Inicie sesión desde la página de inicio</strong><br/>Aprenda a lograr sus objetivos más rápido en Journey Optimizer B2B Edition con la página de inicio personalizada según su función.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="Grupos de compras"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="140px" src="./assets/communication.png" alt="Grupos de compras"></a>
     <div><strong>Cree su primer grupo de compras</strong><br/>Cree su primer grupo de compras en Journey Optimizer B2B Edition para automatizar el proceso de atraer y calificar contactos.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Recorridos de cuenta"></a>
+    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="Recorridos de cuenta"></a>
     <div><strong>Cree su primer recorrido de cuenta</strong><br/>Diseñe y organice recorridos de cuenta personalizados para armonizar el alcance del marketing con una participación segmentada. 
     </div>
     </td>

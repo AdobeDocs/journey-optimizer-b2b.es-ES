@@ -3,10 +3,10 @@ title: Escuchar un evento
 description: Obtenga información acerca del tipo de nodo Escuchar un evento que puede utilizar para organizar las recorridos de su cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '1373'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -29,15 +29,15 @@ Escuche un evento basado en la cuenta cuando desee mover la cuenta hacia adelant
 | Evento | Restricciones |
 | ----- | ----------- |
 | La cuenta tuvo un momento interesante | Escriba (correo electrónico, hito o web)<br/>restricciones adicionales (opcionales): <li>Descripción</li><li>Origen</li><li>Fecha de la actividad</li> <br/>Tiempo de espera (opcional) |
-| Cambio en el valor de datos de cuenta | Atributo<br/>Restricciones adicionales (opcional): <li>Nuevo valor</li><li>Valor anterior</li><li>Fecha de la actividad</li> <br/>Tiempo de espera (opcional) |
-| Cambio en la fase de grupo de compra | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nueva fase</li><li>Fase anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
-| Cambio en el estado del grupo de compra | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo estado</li><li>Estado anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
+| Cambio en el valor de los datos de la cuenta | Atributo<br/>Restricciones adicionales (opcional): <li>Nuevo valor</li><li>Valor anterior</li><li>Fecha de la actividad</li> <br/>Tiempo de espera (opcional) |
+| Cambio en la fase de grupo de compras | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nueva fase</li><li>Fase anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
+| Cambio en el estado del grupo de compras | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo estado</li><li>Estado anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
 | Cambio en la puntuación de integridad | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo puntaje</li><li>Puntuación anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
 | Cambio en la puntuación de participación | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo puntaje</li><li>Puntuación anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
 
 ### Agregar un evento de cuenta
 
-1. Vaya al editor de recorrido.
+1. Vaya al mapa del recorrido.
 
 1. Haga clic en el icono de signo más (**+** ) en una ruta y elija **[!UICONTROL Escuchar un evento]**.
 
@@ -57,21 +57,21 @@ Escuche un evento basado en personas cuando desee mover la cuenta hacia adelante
 
 | Tipo de entrada | Evento | Restricciones |
 | ---------- | ----- | ----------- |
-| Edición B2B de Journey Optimizer | Asignado a grupo comprador | Interés en la solución<br/><br/>Restricciones adicionales (opcional): <li>Función</li><li>Fecha de la actividad</li><br/>Tiempo de espera (opcional) |
+| Edición B2B de Journey Optimizer | Asignado a grupo de compras | Interés en la solución<br/><br/>Restricciones adicionales (opcional): <li>Función</li><li>Fecha de la actividad</li><br/>Tiempo de espera (opcional) |
 | | Hace clic en el vínculo del correo electrónico | Correo electrónico<br/><br/>Restricciones adicionales (opcional): <li>Vínculo</li><li>Identificación del vínculo</li><li>Es un dispositivo móvil</li><li>Device</li><li>Plataforma</li><li>Explorador</li><li>Es contenido predictivo</li><li>Es actividad del bot</li><li>Patrón de actividad de bot</li><li>Explorador</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
-| | Haga clic en el enlace en SMS | Correo electrónico<br/><br/>Restricciones adicionales (opcional): <li>Vínculo</li><li>Device</li><li>Plataforma</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
+| | Hace clic en el vínculo de SMS | Correo electrónico<br/><br/>Restricciones adicionales (opcional): <li>Vínculo</li><li>Device</li><li>Plataforma</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
 | | Cambios en el valor de los datos | Atributo de persona<br/><br/>Restricciones adicionales (opcional): <li>Nuevo valor</li><li>Valor anterior</li><li>Razón</li><li>Origen</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
-| | Abre el email | Correo electrónico<br/><br/>Restricciones adicionales (opcional): <li>Vínculo</li><li>Identificación del vínculo</li><li>Es un dispositivo móvil</li><li>Device</li><li>Plataforma</li><li>Explorador</li><li>Es contenido predictivo</li><li>Es actividad del bot</li><li>Patrón de actividad de bot</li><li>Explorador</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
-| | Eliminado del grupo de compra | Interés de la solución<br/>Fecha de la actividad (opcional)<br/>Tiempo de espera (opcional) |
-| | Se cambia el puntaje | Nombre de puntuación<br/><br/>Restricciones adicionales (opcional):<li>Cambiar</li><li>Nuevo puntaje</li><li>Urgencia</li><li>Prioridad</li><li>Puntaje relativo</li><li>Urgencia relativa</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
-| | Devoluciones de SMS | Mensaje SMS<br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Número mínimo de veces</li><br/>Tiempo de espera (opcional) |
-| Marketo Engage | Visita la página web | Página web <br/> Seleccione una o más páginas de Marketo Engage para que coincidan. <br/><br/>Restricciones adicionales (opcional): <li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Motor de búsqueda</li><li>Consulta de búsqueda</li><li>Token</li><li>Explorador</li><li>Plataforma</li><li>Device</li><li>Fecha de la actividad</li> |
+| | Abre el correo electrónico | Correo electrónico<br/><br/>Restricciones adicionales (opcional): <li>Vínculo</li><li>Identificación del vínculo</li><li>Es un dispositivo móvil</li><li>Device</li><li>Plataforma</li><li>Explorador</li><li>Es contenido predictivo</li><li>Es actividad del bot</li><li>Patrón de actividad de bot</li><li>Explorador</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
+| | Quitado del grupo de compras | Interés de la solución<br/>Fecha de la actividad (opcional)<br/>Tiempo de espera (opcional) |
+| | La puntuación ha cambiado | Nombre de puntuación<br/><br/>Restricciones adicionales (opcional):<li>Cambiar</li><li>Nuevo puntaje</li><li>Urgencia</li><li>Prioridad</li><li>Puntaje relativo</li><li>Urgencia relativa</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
+| | Rechazos de SMS | Mensaje SMS<br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Número mínimo de veces</li><br/>Tiempo de espera (opcional) |
+| Marketo Engage | Visitas a la página web | Página web <br/> Seleccione una o más páginas de Marketo Engage para que coincidan. <br/><br/>Restricciones adicionales (opcional): <li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Motor de búsqueda</li><li>Consulta de búsqueda</li><li>Token</li><li>Explorador</li><li>Plataforma</li><li>Device</li><li>Fecha de la actividad</li> |
 | | Completa el formulario | Formulario <br/>: seleccione uno o varios formularios de Marketo Engage para que coincidan.  <br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Plataforma</li><li>Device</li><br/>Tiempo de espera (opcional) |
 | Adobe Experience Platform | Definición del evento | Tipo de evento <br/><br/>Restricciones adicionales (opcional): <li>Campos</li> <br/>Restricciones adicionales (no admitidas): <li>Fecha de la actividad</li><li>Mín. número de veces</li>Tiempo de espera de <br/> (opcional) |
 
 ### Añadir un evento de personas
 
-1. Vaya al editor de recorrido.
+1. Vaya al mapa del recorrido.
 
 1. Haga clic en el icono de signo más (**+** ) en una ruta y elija **[!UICONTROL Escuchar un evento]**.
 
@@ -87,7 +87,7 @@ Escuche un evento basado en personas cuando desee mover la cuenta hacia adelante
 
 Si tiene páginas web creadas en la instancia de Marketo Engage conectada, puede almacenar en déclencheur un evento basado en una visita o no visita a páginas web de Marketo Engage, así como formularios de Marketo Engage que se rellenaron o no.
 
-1. Seleccione un nodo **[!UICONTROL Listen for an event]** en el editor de recorrido.
+1. Seleccione un nodo **[!UICONTROL Listen for an event]** del mapa de recorrido.
 
 1. En las propiedades del nodo a la derecha, elija **[!UICONTROL Personas]** para el tipo de evento.
 
@@ -114,7 +114,7 @@ Si tiene páginas web creadas en la instancia de Marketo Engage conectada, puede
 
 1. Si es necesario, establezca la opción **[!UICONTROL Tiempo de espera]** para limitar el período de tiempo para escuchar el evento (consulte [Agregar un tiempo de espera a un nodo de evento](#add-a-timeout-to-an-event-node)).
 
-1. En el editor de recorrido, añada el siguiente nodo que se ejecutará cuando se produzca el evento.
+1. En el mapa de recorrido, añada el siguiente nodo que se ejecutará cuando se produzca el evento.
 
 ### Escuchar un evento de experiencia
 
@@ -128,7 +128,7 @@ Los administradores pueden configurar definiciones de eventos basadas en Adobe E
 
 _Para incluir un evento de experiencia en el recorrido:_
 
-1. Seleccione un nodo **[!UICONTROL Listen for an event]** en el editor de recorrido.
+1. Seleccione un nodo **[!UICONTROL Listen for an event]** del mapa de recorrido.
 
 1. En las propiedades del nodo a la derecha, elija **[!UICONTROL Personas]** para el tipo de evento.
 
@@ -160,7 +160,7 @@ _Para incluir un evento de experiencia en el recorrido:_
 
 1. Si es necesario, establezca la opción **[!UICONTROL Tiempo de espera]** para limitar el período de tiempo para escuchar el evento (consulte [Agregar un tiempo de espera a un nodo de evento](#add-a-timeout-to-an-event-node)).
 
-1. En el editor de recorrido, añada el siguiente nodo que se ejecutará cuando se produzca el evento.
+1. En el mapa de recorrido, añada el siguiente nodo que se ejecutará cuando se produzca el evento.
 
 1. Complete los nodos restantes del recorrido y [publíquelo](./journey-overview.md).
 

@@ -2,7 +2,8 @@
 title: Nodos de espera
 description: Obtenga información acerca del tipo de nodo Espera que puede utilizar para organizar las recorridos de la cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Existen dos formas de definir el tiempo de espera:
 
 _Para definir un nodo de espera para el recorrido de su cuenta:_
 
-1. Vaya al editor de recorrido.
+1. Vaya al mapa del recorrido.
 
 1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **[!UICONTROL Esperar]**.
 

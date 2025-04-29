@@ -3,14 +3,14 @@ title: Realizar una acción
 description: Obtenga información acerca del tipo de nodo Realizar una acción que puede utilizar para organizar las recorridos de la cuenta en Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
+source-git-commit: db30486c23f6560beb72cd9d9b3a82b70a2e2ddd
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 1%
+source-wordcount: '1240'
+ht-degree: 3%
 
 ---
 
-# Realizar una acción
+# Iniciar una acción
 
 En el recorrido de su cuenta, puede agregar un nodo _[!UICONTROL Realizar una acción]_ para ejecutar una acción, como enviar un mensaje de correo electrónico, cambiar una puntuación, asignar a un grupo comprador, etc. Las acciones suelen ser lo que desea que ocurra como resultado de algún tipo de déclencheur, como un evento o una acción anterior.
 
@@ -36,7 +36,7 @@ Utilice una acción en las cuentas cuando desee aplicar un cambio a todas las pe
 
 ### Añadir una acción basada en cuentas
 
-1. Vaya al editor de recorrido.
+1. Vaya al mapa del recorrido.
 
 1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **[!UICONTROL Realizar una acción]**.
 
@@ -56,14 +56,14 @@ Utilice una acción en personas cuando desee aplicar un cambio a todas las perso
 
 | Contexto | Acción | Restricciones |
 | ------- | ------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Agregar a la audiencia de cliente externa] | Seleccionar audiencia de cliente externa |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Agregar a la audiencia de cliente externa] | Seleccionar el público externo del cliente |
 | | [!UICONTROL Asignar a grupo de compra] | Seleccionar interés de solución<br/>Seleccionar rol |
 | | [!UICONTROL Cambiar valor de datos] | Seleccionar atributo de persona<br/>Establecer nuevo valor |
 | | [!UICONTROL Cambiar puntuación] | Nombre de puntuación<br/>Cambio en la puntuación |
 | | [!UICONTROL Momento interesante para la persona] | Escriba<br/>Descripción |
-| | [!UICONTROL Quitar del grupo de compra] | Seleccionar interés de solución |
+| | [!UICONTROL Quitar del grupo de compra] | Seleccionar interés de la solución |
 | | [!UICONTROL Enviar correo electrónico] | Crear nuevo correo electrónico<br/>Seleccione un correo electrónico de Marketo Engage |
-| | [!UICONTROL Enviar SMS] | Creación de SMS |
+| | [!UICONTROL Enviar SMS] | Creación de un SMS |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Agregar a lista] | Seleccionar el espacio de trabajo de Marketo Engage<br/>Nombre de lista |
 | | [!UICONTROL Agregar a la campaña de solicitudes de Marketo Engage] | Seleccione el espacio de trabajo de Marketo Engage<br/>Seleccionar campaña de solicitud |
 | | [!UICONTROL Cambiar la partición de personas en Marketo Engage] | Nueva partición |
@@ -71,7 +71,7 @@ Utilice una acción en personas cuando desee aplicar un cambio a todas las perso
 
 ### Añadir una acción basada en personas
 
-1. Vaya al editor de recorrido.
+1. Vaya al mapa del recorrido.
 
 1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **[!UICONTROL Realizar una acción]**.
 
@@ -112,6 +112,10 @@ _Para crear una audiencia externa:_
 1. Haga clic en **[!UICONTROL Crear]**.
 
    El sistema crea la nueva audiencia y muestra un mensaje de confirmación. A continuación, puede utilizarla como audiencia existente para la acción del nodo.
+
+   >[!NOTE]
+   >
+   >Cuando se crea una nueva audiencia de cliente externa desde Journey Optimizer B2B edition, se predefine con un registro ficticio (`test@email.com`). Este registro se sobrescribe en cuanto se añade el primer perfil real a la audiencia externa desde el recorrido.
 
 _Para usar una audiencia existente:_
 

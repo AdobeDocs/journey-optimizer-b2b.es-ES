@@ -1,23 +1,26 @@
 ---
 title: Listas de cuentas
 description: Obtenga información acerca de las listas de cuentas y cómo los especialistas en marketing pueden utilizarlas para segmentar cuentas a través de recorridos de cuenta.
-badgeBeta: label="Disponibilidad limitada" type="informative" tooltip="Actualmente, esta función solo está disponible si se solicita"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
+source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1339'
 ht-degree: 1%
 
 ---
 
 # Listas de cuentas
 
-Una lista de cuentas es una colección de cuentas con nombre que los especialistas en marketing pueden utilizar para la orquestación de recorridos de destino. Una lista de cuentas puede segmentar las cuentas con nombre según los criterios definidos, como el sector, la ubicación o el tamaño de la compañía. Existen dos tipos de listas de cuentas:
+En Journey Optimizer B2B edition, una lista de cuentas es una colección de cuentas con nombre que los especialistas en marketing pueden utilizar para la orquestación de recorrido segmentada. Una lista de cuentas puede segmentar las cuentas con nombre según los criterios definidos, como el sector, la ubicación o el tamaño de la compañía. Existen dos tipos de listas de cuentas:
 
 * **Estática**: con una lista de cuentas estáticas, la lista solo cambia cuando agrega las cuentas. Puede agregar cuentas manualmente aplicando un conjunto de filtros para rellenar la lista basada en los datos de la cuenta actual, o agregar y quitar cuentas mediante un recorrido de cuentas.
 * **Dinámico**: con una lista de cuentas dinámicas, define un conjunto de filtros para depurar automáticamente la lista. El sistema utiliza este conjunto de filtros para agregar y quitar cuentas según los cambios en la información de las cuentas. Esta administración de listas es similar a la [segmentación de audiencias en Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
 
-Cuando una lista de cuentas se encuentra en estado _Activo_ (publicado), está disponible para usarla en recorridos de cuentas.
+Cuando una lista de cuentas está en estado _Activo_ (publicado), está disponible para [usarla en recorridos de cuentas y programas de Marketo Engage](./account-lists-journeys.md).
+
+>[!NOTE]
+>
+>Las listas de cuentas aprovechan los datos de cuentas de Marketo Engage para crear segmentos y listas de cuentas. Esto significa que si un segmento de cuenta de Adobe Experience Platform no se sincroniza activamente con Marketo Engage, es posible que las cuentas de ese segmento de Experience Platform no estén disponibles en las listas de cuentas de B2B edition de Journey Optimizer. Posteriormente, es posible que las personas de cuentas en segmentos de Experience Platform que no estén sincronizadas con Marketo Engage no se incluyan en los recuentos de miembros personales ni se contabilicen en eventos de déclencheur.
 
 ## Acceso y exploración de listas de cuentas
 
@@ -170,65 +173,3 @@ Puede continuar publicando una lista de cuentas dinámicas tan pronto como se co
 El estado de la lista de cuentas dinámicas cambia a _[!UICONTROL Live]_ y está disponible para [usar en un recorrido de cuentas](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
-
-## Uso de la lista de cuentas en recorridos de cuenta
-
-Existen tres formas de incorporar listas de cuentas activas (publicadas) en los recorridos de cuenta:
-
-### Nodo de audiencia de cuenta
-
-1. Seleccione **[!UICONTROL Lista de cuentas]** para el nodo de inicio _Audiencia de cuentas_.
-
-   ![Seleccionar opción de lista de cuentas para el nodo de audiencia de cuenta](../journeys/assets/node-audience-account-list.png){width="500"}
-
-1. Haga clic en **[!UICONTROL Agregar lista de cuentas]**.
-
-1. Seleccione la casilla de la lista de cuentas y haga clic en **[!UICONTROL Guardar]**.
-
-   ![Seleccionar opción de lista de cuentas para el nodo de audiencia de cuenta](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
-
-Las cuentas de la lista se mueven por el recorrido cuando se activa (publica).
-
-### Tomar un nodo de acción: agregar a la cuenta
-
-**_Solo listas de cuentas estáticas_**
-
-Agregar cuentas a una lista de cuentas estáticas usando [un nodo _Realizar una acción_](../journeys/action-nodes.md).
-
-Por ejemplo, puede tener una ruta de recorrido por la que enviar un correo electrónico y alguna cuenta realizar varias acciones como respuesta. Considera que esta actividad es un punto de cualificación en el recorrido y desea añadirlas a una lista de cuentas que se utiliza como audiencia para otro recorrido con un flujo diferente para cuentas cualificadas.
-
->[!NOTE]
->
->Si una cuenta ya está en la lista cuando se ejecuta el nodo, la acción se ignora.
-
-1. Seleccione la opción _[!UICONTROL Acción en]_ **[!UICONTROL Cuentas]**.
-
-1. Para _[!UICONTROL Acción en las cuentas]_, elija **[!UICONTROL Agregar a la lista de cuentas]**.
-
-   ![Seleccionar Agregar a la lista de cuentas](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
-
-1. Para **[!UICONTROL Seleccionar lista de cuentas estáticas activas]**, elija la lista de cuentas a la que desea agregar cuentas.
-
-   ![Seleccionar Agregar a la lista de cuentas](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
-
-### Tomar un nodo de acción: eliminar de la cuenta
-
-**_Solo listas de cuentas estáticas_**
-
-Quitar cuentas de una lista de cuentas estáticas mediante [un nodo _Realizar una acción_](../journeys/action-nodes.md).
-
-Por ejemplo, puede tener una ruta de recorrido por la que enviar un correo electrónico y alguna cuenta realizar varias acciones como respuesta. Considera que esta actividad es un punto de cualificación en el recorrido y desea eliminarlos de una lista de cuentas que se utiliza como audiencia para otro recorrido que envía correos electrónicos adicionales para que no duplique sus comunicaciones de cualificación.
-
->[!NOTE]
->
->Si una cuenta no está en la lista donde está programada para su eliminación, se omite la acción.
-
-1. Seleccione la opción _[!UICONTROL Acción en]_ **[!UICONTROL Cuentas]**.
-
-1. Para _[!UICONTROL Acción en cuentas]_, elija **[!UICONTROL Quitar de la lista de cuentas]**.
-
-   ![Seleccionar Agregar a la lista de cuentas](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
-
-1. Para **[!UICONTROL Seleccionar lista de cuentas estáticas activas]**, elija la lista de cuentas a la que desea quitar cuentas.
-
-   ![Seleccionar Agregar a la lista de cuentas](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
