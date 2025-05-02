@@ -3,8 +3,8 @@ user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
 source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 91%
    + [Protocolos de seguimiento y correo electrónico](./start/email-protocols.md)
 + Asistente de IA {#ai-assistant}
    + [Información general](./ai-assistant/ai-assistant-overview.md)
-   + [Habilitar el acceso al asistente de IA](./ai-assistant/enable-ai-assistant-access.md)
+   + [Habilitar el acceso al Asistente de IA](./ai-assistant/enable-ai-assistant-access.md)
    + [Guía de preguntas](./ai-assistant/question-guidance.md)
    + [Utilizar el Asistente de IA](./ai-assistant/use-ai-assistant.md)
-+ Recorridos de cuenta {#account-journeys}
++ Recorridos de la cuenta {#account-journeys}
    + [Información general](./journeys/journey-overview.md)
    + [Creación y publicación de un recorrido](./journeys/create-publish-journey.md)
-   + [Nodos de recorrido](./journeys/journey-nodes.md)
-   + Nodos de recorrido {#journey-nodes}
+   + [Nodos del recorrido](./journeys/journey-nodes.md)
+   + Nodos del recorrido {#journey-nodes}
       + [Público de cuenta](./journeys/account-audience-nodes.md)
       + [Iniciar una acción](./journeys/action-nodes.md)
       + [Escuchar un evento](./journeys/listen-for-event-nodes.md)
@@ -40,7 +40,7 @@ ht-degree: 91%
       + [Asistente de IA para la creación de correo electrónico](./content/ai-assistant-emails.md)
       + [Plantillas gobernadas](./content/email-authoring-governance.md)
       + [Correo electrónico de alerta de ventas](./content/sales-alert-email.md)
-   + [Tokens de personalización personalizados](./content/personalization-my-tokens.md)
+   + [Tókenes personalizados](./content/personalization-my-tokens.md)
    + [Creación de SMS](./content/sms-authoring.md)
 + Cuentas {#accounts}
    + [Públicos](./audiences/account-audience-overview.md)
@@ -73,7 +73,7 @@ ht-degree: 91%
          + [Creación de plantilla de correo electrónico](./content/email-template-authoring.md)
       + Plantillas de página de aterrizaje {#landing-page-templates}
          + [Información general](./content/landing-page-templates.md)
-         + [Diseño de plantilla de página de aterrizaje](./content/landing-page-template-design.md)
+         + [Diseño de plantilla de la página de aterrizaje](./content/landing-page-template-design.md)
    + Fragmentos {#visual-fragments}
       + [Información general](./content/fragments.md)
       + [Creación de fragmentos](./content/fragment-authoring.md)
@@ -84,7 +84,7 @@ ht-degree: 91%
       + [Información general](./content/landing-pages.md)
       + [Diseño de la página de aterrizaje](./content/landing-page-design.md)
    + [Contenido condicional](./content/conditional-content.md)
-+ Paneles de perspectivas {#dashboards}
++ Paneles de perspectivas  {#dashboards}
    + [Panel de control inteligente](./dashboards/intelligent-dashboard.md)
    + [Información general de participación](./dashboards/engagement-dashboard.md)
    + [Información general sobre los grupos de compras](./dashboards/buying-groups-dashboard.md)

@@ -4,8 +4,8 @@ description: Aprenda a utilizar las funciones de Adobe Journey Optimizer B2B Edi
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -78,7 +78,7 @@ Para obtener una lista completa de las nuevas características y mejoras, consul
     <div><strong>Cree su primer grupo de compras</strong><br/>Cree su primer grupo de compras en Journey Optimizer B2B Edition para automatizar el proceso de atraer y calificar contactos.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="Recorridos de cuenta"></a>
+    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="Recorridos de la cuenta"></a>
     <div><strong>Cree su primer recorrido de cuenta</strong><br/>Diseñe y organice recorridos de cuenta personalizados para armonizar el alcance del marketing con una participación segmentada. 
     </div>
     </td>
@@ -114,7 +114,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
       <strong>Grupos de compras</strong><br/><a href="./buying-groups/buying-groups-overview.md">Información general de los grupos de compra</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Plantillas de funciones</a><br/><a href="./buying-groups/solution-interests.md">Intereses de la solución</a><br/><a href="./buying-groups/buying-groups-create.md">Crear grupos de compras</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Recorridos de cuenta"><br/>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Recorridos de la cuenta"><br/>
       <strong>Recorridos de cuenta</strong><br/><a href="./journeys/journey-overview.md">Descripción general de recorridos</a><br/><a href="./journeys/journey-nodes.md">Nodos de recorrido</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Crear un recorrido de cuenta</a>
     </td>
   </tr>

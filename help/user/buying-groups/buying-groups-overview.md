@@ -5,8 +5,8 @@ feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,7 @@ La página _[!UICONTROL Grupos de compras]_ está organizada en pestañas:
 | Tabulación | Descripción |
 | --- | ----------- |
 | [!UICONTROL Información general] | Esta pestaña es la predeterminada y muestra el [panel Grupos de compras](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Examinar] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compras existentes. </li><li>Buscar por nombre de grupo de compras. </li><li>Filtrar por interés de solución. </li><li>Profundizar en los detalles del grupo de compras. </li><li>Crear un grupo de compra. </li></ul> |
+| [!UICONTROL Examinar] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compras existentes. </li><li>Buscar por nombre de grupo de compras. </li><li>Filtrar por interés de solución. </li><li>Profundizar en los detalles del grupo de compras. </li><li>Cree un grupo de compras. </li></ul> |
 | [!UICONTROL Intereses de la solución] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compras existentes. </li><li>Buscar por nombre de grupo de compras. </li><li>Acceder y editar las propiedades de interés de la solución. </li><li>Crear una solución de interés. </li><li>Eliminar un interés de solución. </li><li>Ver y eliminar trabajos del grupo de compras. </li></ul> |
 | [!UICONTROL Plantillas de funciones] | Esta pestaña admite las siguientes actividades: <ul><li>Vea la lista de plantillas de funciones existentes. </li><li>Busque por nombre de plantilla de funciones. </li><li>Acceder y editar las propiedades y condiciones de la plantilla de funciones. </li><li>Crear una plantilla de funciones. </li><li>Eliminar una plantilla de funciones. </li></ul> |
 | [!UICONTROL Fases] | Esta pestaña admite las siguientes actividades: <ul><li>Ver el modelo de fases de grupos de compras existente. </li><li>Acceder y editar el borrador del modelo de fases de grupo de compras. </li><li>Crear el modelo de fases de grupo de compras. </li></ul> |
@@ -138,7 +138,7 @@ La puntuación de participación en el grupo de compras es un número que determ
 
 >[!NOTE]
 >
->Las actividades de puntuación de participación se registran en el registro de actividades [de Marketo Engage para una persona](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>Las actividades de puntuación de la participación se registran en el [registro de actividades de una persona](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} de Marketo Engage.
 
 +++
 
