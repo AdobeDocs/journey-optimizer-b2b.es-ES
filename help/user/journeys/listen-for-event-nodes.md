@@ -118,7 +118,7 @@ Si tiene páginas web creadas en la instancia de Marketo Engage conectada, puede
 
 ### Escuchar un evento de experiencia
 
-Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de dos pasos:
+Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent). El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de dos pasos:
 
 1. [Cree y publique una definición de evento de AEP](../admin/configure-aep-events.md).
 

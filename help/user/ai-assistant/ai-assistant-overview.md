@@ -77,9 +77,9 @@ En el caso de las preguntas sobre perspectivas operativas, es posible que las re
 
 Actualmente, el ámbito de AI Assistant es el siguiente:
 
-* [Conocimiento del producto](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#product-knowledge): AI Assistant puede responder preguntas de conocimiento del producto para el Platform de datos del cliente en tiempo real y Adobe Systems Journey Optimizer B2B Edition.
+* [Conocimiento del producto](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home#product-knowledge): AI Assistant puede responder preguntas de conocimiento del producto para el Platform de datos del cliente en tiempo real y Adobe Systems Journey Optimizer B2B Edition.
 
-* [Perspectivas operativas](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights): puede hacer preguntas al Asistente de IA sobre perspectivas operativas para los siguientes objetos de datos: atributos, audiencias de cuenta, flujos de datos, conjuntos de datos, destinos, recorridos de cuenta, esquemas, fuentes, plantillas de grupos de compra e intereses de soluciones.
+* [Perspectivas operativas](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home#operational-insights): puede hacer preguntas al Asistente de IA sobre perspectivas operativas para los siguientes objetos de datos: atributos, audiencias de cuenta, flujos de datos, conjuntos de datos, destinos, recorridos de cuenta, esquemas, fuentes, plantillas de grupos de compra e intereses de soluciones.
 
 ### Privacidad, seguridad y gobernanza
 
@@ -91,7 +91,7 @@ El asistente de IA de Journey Optimizer B2B edition está diseñado con privacid
 
 * Debe tener un permiso explícito para interactuar con AI Assistant.
 
-   * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) y [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse).
+   * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions) y [Admin Console](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/browse).
 
    * Los permisos son granulares y el administrador de la zona protegida puede configurar qué usuarios pueden hacer diferentes categorías de preguntas (preguntas basadas en el conocimiento del producto con el asistente de IA o preguntas sobre perspectivas operativas).
 

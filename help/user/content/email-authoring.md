@@ -26,7 +26,7 @@ Puede configurar los envíos de correo electrónico en un Recorrido de cuentas c
 
    >[!NOTE]
    >
-   >Si crea un correo electrónico por primera vez, asegúrese de que el canal de correo electrónico esté configurado desde Adobe Marketo Engage. Para obtener más información, consulte [Garantizar la entrega de correos electrónicos](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) en la documentación de Marketo Engage.
+   >Si crea un correo electrónico por primera vez, asegúrese de que el canal de correo electrónico esté configurado desde Adobe Marketo Engage. Para obtener más información, consulte [Garantizar la entrega de correos electrónicos](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) en la documentación de Marketo Engage.
 
    ![Realizar una acción: enviar un correo electrónico](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 

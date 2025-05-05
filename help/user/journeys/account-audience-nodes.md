@@ -53,4 +53,4 @@ _Para crear un segmento de audiencia:_
 
    ![Crear un segmento de audiencia](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Siga los pasos descritos en la [guía del servicio de segmentación](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
+1. Siga los pasos descritos en la [guía del servicio de segmentación](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
