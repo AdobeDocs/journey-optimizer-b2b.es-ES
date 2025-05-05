@@ -39,7 +39,7 @@ La página de recorridos mostrada incluye las siguientes columnas:
 * [!UICONTROL Estado]
 * [!UICONTROL Descripción]
 * [!UICONTROL Creado por]
-* [!UICONTROL Última actualización el ]
+* [!UICONTROL Última actualización el &#x200B;]
 * [!UICONTROL Última actualización]
 * [!UICONTROL Publicado el]
 * [!UICONTROL Publicado por]
@@ -66,11 +66,11 @@ El estado de un recorrido puede cambiar según las acciones que se apliquen. En 
 
 | Estado | Descripción | Acciones disponibles |
 | ------ | ----------- | ----------------- |
-| _**Borrador**_ | Un recorrido sin publicar que se puede editar. | <ul><li>[Publicar](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplicado </li><li>Eliminar </li></ul> |
-| _**Activo**_ | El estado del recorrido cambia de Borrador a Activo cuando se publica un recorrido. En este estado, ya no se puede editar. | <ul><li>Duplicado </li><li>Cerrar nuevas entradas </li><li>Anular </li></ul> |
-| _**Cerrado a nuevas entradas**_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <ul><li>Duplicado </li><li>Anular </li></ul> |
-| _**Anulado**_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <ul><li>Duplicado </li><li>Eliminar </li></ul> |
-| _**Finalizado**_ | Cuando todas las cuentas de un recorrido completan el recorrido, el estado cambia de Activo o Cerrado a nuevas entradas a Finalizado. | <ul><li>Duplicado </li><li>Eliminar </li></ul> |
+| _&#x200B;**Borrador**&#x200B;_ | Un recorrido sin publicar que se puede editar. | <ul><li>[Publicar](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplicado </li><li>Eliminar </li></ul> |
+| _&#x200B;**Activo**&#x200B;_ | El estado del recorrido cambia de Borrador a Activo cuando se publica un recorrido. En este estado, ya no se puede editar. | <ul><li>Duplicado </li><li>Cerrar nuevas entradas </li><li>Anular </li></ul> |
+| _&#x200B;**Cerrado a nuevas entradas**&#x200B;_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <ul><li>Duplicado </li><li>Anular </li></ul> |
+| _&#x200B;**Anulado**&#x200B;_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <ul><li>Duplicado </li><li>Eliminar </li></ul> |
+| _&#x200B;**Finalizado**&#x200B;_ | Cuando todas las cuentas de un recorrido completan el recorrido, el estado cambia de Activo o Cerrado a nuevas entradas a Finalizado. | <ul><li>Duplicado </li><li>Eliminar </li></ul> |
 
 ## Administrar recorridos
 

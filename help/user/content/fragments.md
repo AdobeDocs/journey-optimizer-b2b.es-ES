@@ -69,7 +69,7 @@ En el cuadro de diálogo, seleccione las columnas que desee mostrar y haga clic 
 
 Puede crear nuevos fragmentos visuales en Journey Optimizer B2B Edition haciendo clic **[!UICONTROL en Crear fragmento]** en la parte superior derecha.
 
-1. En el _[!UICONTROL cuadro de diálogo del fragmento]_ Crear, introduzca un nombre ]**y**[!UICONTROL  una Descripción ]**útiles**[!UICONTROL (opcional).
+1. En el _[!UICONTROL cuadro de diálogo del fragmento]_ Crear, introduzca un nombre **y**&#x200B;[!UICONTROL &#x200B; una Descripción &#x200B;]&#x200B;**útiles**(opcional).
 
    Requisitos de fragmento:
 
@@ -285,7 +285,7 @@ Los fragmentos están diseñados para su reutilización y pueden insertarse para
 
 1. Vaya a **[!UICONTROL Recorridos de la]** cuenta y abra un recorrido existente o cree uno nuevo.
 
-1. Crear un nodo [_[!UICONTROL Enviar correo electrónico ]_](./email-authoring.md#add-an-email-action-in-an-account-journey).
+1. Crear un nodo [_[!UICONTROL Enviar correo electrónico &#x200B;]_](./email-authoring.md#add-an-email-action-in-an-account-journey).
 
 1. Cree o edite el contenido de [correo electrónico para el nodo](./email-authoring.md#create-the-email-content).
 

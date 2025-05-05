@@ -144,7 +144,7 @@ Puede acceder al generador de reglas condicionales desde el espacio de diseño d
 
    ![Todas las aplicaciones el expresión a evaluar](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
 
-   Si incluye más de un filtro, establezca la lógica ]**Filtrar**[!UICONTROL :
+   Si incluye más de un filtro, establezca la lógica **Filtrar**:
 
    * **[!UICONTROL Aplicar todos los filtros]** - El regla evalúa como verdadero si **todos los** filtros son verdaderos.
    * **[!UICONTROL Aplicar cualquier filtros]** - El regla evalúa como verdadero si **alguno** de los filtros es verdadero.
