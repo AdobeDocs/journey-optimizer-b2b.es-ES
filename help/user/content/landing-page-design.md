@@ -7,11 +7,11 @@ exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
 source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
-# Diseño de página de aterrizaje
+# Diseño de la página de aterrizaje
 
 Después de [crear una página de aterrizaje](./landing-pages.md#create-a-landing-page), use el espacio de diseño visual para crear los componentes estructurales y de contenido en su página.
 
@@ -24,7 +24,7 @@ Después de [crear una página de aterrizaje](./landing-pages.md#create-a-landin
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_content_components"
->title="Acerca de los componentes de contenido para páginas de aterrizaje"
+>title="Acerca de los componentes de contenido para las páginas de aterrizaje"
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje."
 
 {{$include /help/_includes/content-design-components.md}}
@@ -41,7 +41,7 @@ Después de [crear una página de aterrizaje](./landing-pages.md#create-a-landin
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### Personalizar contenido
+### Personalización del contenido
 
 {{$include /help/_includes/content-design-personalization.md}}
 

@@ -3,14 +3,15 @@ title: Diseño de plantilla de página de aterrizaje
 description: Aprenda a diseñar y crear contenido para plantillas de páginas de aterrizaje que los especialistas en marketing puedan reutilizar para crear páginas de aterrizaje.
 feature: Content
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
-source-git-commit: f0658fad82d6656bc052c1810530963404e29396
+exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
+source-git-commit: 4e203a5d1fb0c9d9dc2a6bd14705b17335c98ee3
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 8%
+ht-degree: 21%
 
 ---
 
-# Diseño de plantilla de página de aterrizaje
+# Diseño de plantilla de la página de aterrizaje
 
 Después de [crear una plantilla de página de aterrizaje](./landing-page-templates.md#create-a-landing-page-template), use el espacio de diseño visual para crear los componentes estructurales y de contenido en la plantilla de página.
 
@@ -19,11 +20,11 @@ Después de [crear una plantilla de página de aterrizaje](./landing-page-templa
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_template_structure"
 >title="Añadir componentes de estructura a la página de aterrizaje"
->abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte un componente **Structure** en el lienzo para diseñar en inicio el contenido de la plantilla de página."
+>abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte el componente **Estructura** en el lienzo para diseñar el contenido de la plantilla de la página."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_template_content_components"
->title="Acerca de los componentes de contenido para páginas de aterrizaje"
+>title="Acerca de los componentes de contenido para las páginas de aterrizaje"
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una plantilla de página de aterrizaje."
 
 {{$include /help/_includes/content-design-components.md}}
@@ -40,7 +41,7 @@ Después de [crear una plantilla de página de aterrizaje](./landing-page-templa
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### Personalizar contenido
+### Personalización del contenido
 
 {{$include /help/_includes/content-design-personalization.md}}
 
