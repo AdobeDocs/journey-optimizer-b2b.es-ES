@@ -91,7 +91,7 @@ El asistente de IA de Journey Optimizer B2B edition está diseñado con privacid
 
 * Debe tener permiso explícito para interactuar con el Ayudante de IA.
 
-   * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} y [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} y [Admin Console](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Los permisos son granulares y el administrador de la zona protegida puede configurar qué usuarios pueden hacer diferentes categorías de preguntas (preguntas basadas en el conocimiento del producto con el asistente de IA o preguntas sobre perspectivas operativas).
 
