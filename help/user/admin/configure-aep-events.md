@@ -281,4 +281,4 @@ Puede eliminar una definición de evento si un recorrido de cuentas publicado no
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448686/?learn=on&captions=spa)
