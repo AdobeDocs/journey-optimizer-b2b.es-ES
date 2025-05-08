@@ -4,16 +4,16 @@ description: Obtenga información acerca del tipo de nodo Espera que puede utili
 feature: Setup
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1768'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Configuración de definiciones de eventos de Experience Platform
 
-Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent).
+Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](#overview-video)
 
@@ -29,7 +29,7 @@ Cada definición de evento requiere la siguiente entrada de Experience Platform:
 
   >[!NOTE]
   >
-  >Póngase en contacto con el equipo de ingeniería para asegurarse de que se han definido los esquemas necesarios. [La creación de esquemas XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition) es un proceso complejo realizado por ingenieros de datos en función de los requisitos de casos de uso de su organización.
+  >Póngase en contacto con el equipo de ingeniería para asegurarse de que se han definido los esquemas necesarios. [La creación de esquemas XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} es un proceso complejo realizado por ingenieros de datos en función de los requisitos de casos de uso de su organización.
 
 * **_Tipos de eventos_**: eventType de XDM ExperienceEvent (máximo de 20 por definición de evento).
 
@@ -79,7 +79,7 @@ En la lista _[!UICONTROL Definiciones de eventos]_, la columna **[!UICONTROL Est
 
 | Estado | Descripción |
 | -------------------- | ----------- |
-| Borrador | Cuando se crea una definición de evento, está en estado de borrador. Permanece en este estado hasta que se publica para su uso en recorridos de cuenta. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Publicar<li>Eliminar |
+| Borrador | Cuando se crea una definición de evento, está en estado de borrador. Permanece en este estado hasta que se publica para su uso en recorridos de cuenta. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Publicación<li>Eliminar |
 | Publicadas | Al publicar una definición de evento, pasa a estar disponible para su uso en recorridos de cuenta. No se pueden modificar los detalles. Acciones disponibles:<br/><ul><li>Disponible para _escuchar un nodo de recorrido de evento_<li>Crear versión de borrador<li>Eliminar (si no está en uso) |
 | Publicado (con borrador) | Cuando se crea un borrador a partir de una definición de evento publicada, la versión publicada permanece disponible para su uso en recorridos de cuenta y la versión de borrador se puede modificar. Si publica la versión de borrador, reemplazará la versión publicada actual y la definición del evento se actualizará para los recorridos de cuenta en los que aún no se haya ejecutado. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Publicar versión de borrador<li>Descartar versión de borrador<li>Eliminar (si no está en uso) |
 
@@ -115,7 +115,7 @@ Para buscar una definición de evento por nombre, introduzca una cadena de texto
 
 1. Seleccione los **[!UICONTROL tipos de evento]** que se usarán para la definición del evento.
 
-   Los [tipos de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent#eventType) que seleccione determinan los eventos que están disponibles como restricciones para un nodo _Escuchar un evento_ en un recorrido de cuentas.
+   Los [tipos de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} que seleccione determinan los eventos que están disponibles como restricciones para un nodo _Escuchar un evento_ en un recorrido de cuentas.
 
    * Haga clic en **[!UICONTROL Seleccionar tipos de eventos]**.
    * En el cuadro de diálogo, seleccione uno o varios tipos de eventos de la lista (un máximo de 20).
@@ -281,4 +281,4 @@ Puede eliminar una definición de evento si un recorrido de cuentas publicado no
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3448686/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

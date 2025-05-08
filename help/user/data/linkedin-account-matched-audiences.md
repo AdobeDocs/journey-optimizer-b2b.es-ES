@@ -1,19 +1,19 @@
 ---
-title: Audiencias coincidentes con cuentas de LinkedIn
+title: Audiencias coincidentes de cuenta de LinkedIn
 description: Aprenda a conectar una cuenta de LinkedIn y activar un flujo de datos para comprar grupos.
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
-# Audiencias coincidentes con cuentas de LinkedIn
+# Audiencias coincidentes de cuenta de LinkedIn
 
 Journey Optimizer B2B edition ofrece la capacidad de generar audiencias de anuncios de LinkedIn a través de audiencias coincidentes con la cuenta y está diseñado para ayudarle a completar funciones vacías en sus grupos de compra. Al definir un conjunto de filtros de grupo de compra, puede mantener una audiencia coincidente de LinkedIn para segmentar a los posibles clientes que coincidan con los parámetros del grupo de compra. Esta función aprovecha los destinos de Experience Platform para administrar algunos aspectos de la integración. Hay un límite de diez flujos de datos.
 
-Antes de iniciar un flujo de datos desde Journey Optimizer B2B edition, debe tener al menos una instancia del [(Empresas) conector de destino de audiencia coincidente de LinkedIn](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/social/linkedin#connect) con una cuenta de Administrador de campañas de LinkedIn configurada en la aplicación de Experience Platform.
+Antes de iniciar un flujo de datos desde Journey Optimizer B2B edition, debe tener al menos una instancia del [(Empresas) conector de destino de audiencia coincidente de LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con una cuenta de Administrador de campañas de LinkedIn configurada en la aplicación de Experience Platform.
 
 ## Configure una nueva conexión de cuenta de LinkedIn {#linkedin-destination-setup}
 
@@ -70,9 +70,9 @@ El nombre y la descripción de la cuenta de LinkedIn son visibles para los grupo
 >
 >Si ya tiene diez flujos de datos, no puede crear otro. Si se encuentra en el máximo, elimine uno en Experience Platform antes de crear uno nuevo en Journey Optimizer B2B edition.
 
-1. En Journey Optimizer B2B edition, vaya a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos de compra]** en el panel de navegación izquierdo.
+1. En Journey Optimizer B2B Edition, vaya a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos de compra]** en el panel de navegación izquierdo.
 
-1. Seleccione la ficha **[!UICONTROL Examinar]**.
+1. Seleccione la pestaña **[!UICONTROL Examinar]**. 
 
 1. Haga clic en **[!UICONTROL Activar en destino de LinkedIn]** en la parte superior derecha.
 
@@ -96,7 +96,7 @@ El nombre y la descripción de la cuenta de LinkedIn son visibles para los grupo
 
    ![Especifique el filtrado de audiencia de la cuenta según los grupos compradores](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
 
-   Para la **[!UICONTROL puntuación de participación]**, el operador `Between` es inclusivo, al igual que los intervalos de porcentaje. Por ejemplo, 5.1 y 5 son _entre_ 5 y 6.
+   Para la **[!UICONTROL puntuación de participación]**, el operador `Between` es inclusivo, al igual que los intervalos de porcentaje. Por ejemplo, 5.1 y 5 son ambos _entre_ 5 y 6.
 
    Las condiciones vacías se tratan como `Is Any`.
 
@@ -116,4 +116,4 @@ El nombre y la descripción de la cuenta de LinkedIn son visibles para los grupo
 
 Puede interactuar con los miembros de su cuenta a través de un canal de medios de pago, como audiencias de publicidad de LinkedIn, para adquirirlos, nutrirlos y calificarlos para ventas. Use un nodo _Realizar una acción_ en un recorrido de cuentas para automatizar la participación con los miembros clave de una cuenta a través de un canal externo que sea más adecuado para los distintos miembros de la cuenta.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448675/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

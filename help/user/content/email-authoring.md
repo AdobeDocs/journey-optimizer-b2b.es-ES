@@ -3,14 +3,14 @@ title: Creación de correo electrónico
 description: Obtenga información sobre cómo crear contenido de correo electrónico personalizado que se utiliza en un Recorrido de cuentas.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
-# Creación de correo electrónico
+# Creación del correo electrónico
 
 Utilice Adobe Journey Optimizer B2B edition para enviar mensajes de correo electrónico a sus clientes. Puede crear, personalizar y obtener una vista previa de los mensajes en el diseñador visual.
 
@@ -26,7 +26,7 @@ Puede configurar los envíos de correo electrónico en un Recorrido de cuentas c
 
    >[!NOTE]
    >
-   >Si crea un correo electrónico por primera vez, asegúrese de que el canal de correo electrónico esté configurado desde Adobe Marketo Engage. Para obtener más información, consulte [Garantizar la entrega de correos electrónicos](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) en la documentación de Marketo Engage.
+   >Si crea un correo electrónico por primera vez, asegúrese de que el canal de correo electrónico esté configurado desde Adobe Marketo Engage. Para obtener más información, consulte [Garantizar la entrega de correos electrónicos](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} en la documentación de Marketo Engage.
 
    ![Realizar una acción: enviar un correo electrónico](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -141,7 +141,7 @@ Una vez guardado el correo electrónico, aparecerá en la página de detalles de
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### Personalizar contenido
+### Personalización del contenido
 
 {{$include /help/_includes/content-design-personalization.md}}
 

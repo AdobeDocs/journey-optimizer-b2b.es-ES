@@ -3,10 +3,10 @@ title: Trabajar con Experience Manager Assets
 description: Descubra cómo puede utilizar recursos de imagen de un repositorio de AEM Assets conectado al crear contenido en Adobe Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -16,13 +16,13 @@ Cuando Adobe Experience Manager Assets as a Cloud Service está integrado con Ad
 
 {{aem-assets-licensing-note}}
 
-Al utilizar estos recursos digitales, los cambios más recientes en Assets as a Cloud Service se propagan automáticamente a las campañas de correo electrónico en directo a través de referencias vinculadas. Si las imágenes se eliminan en Adobe Experience Manager Assets as a Cloud Service, estas aparecerán con una referencia rota en los correos electrónicos. Cuando se modifican o eliminan recursos que se utilizan actualmente en recorridos de cuenta, se notifica a los autores del recorrido sobre los cambios de imagen y la lista de recorridos que utilizan la imagen. Todos los cambios en los recursos deben realizarse en el repositorio central de Adobe Experience Manager Assets.
+Cuando se utilizan estos recursos digitales, los cambios más recientes en Assets as a Cloud Service se propagan automáticamente a las campañas de correo electrónico en directo a través de referencias vinculadas. Si las imágenes se eliminan en Adobe Experience Manager Assets as a Cloud Service, aparecerán con una referencia rota en los correos electrónicos. Cuando se modifican o eliminan recursos que se utilizan actualmente en recorridos de cuenta, se notifica a los autores del recorrido sobre los cambios de imagen y la lista de recorridos que utilizan la imagen. Todos los cambios en los recursos deben realizarse en el repositorio central de Adobe Experience Manager Assets.
 
 Cuando su entorno tiene una o más [conexiones de repositorios de Assets](../admin/configure-aem-repositories.md), los autores de contenido pueden usar AEM Assets como fuente de recursos al crear un correo electrónico, una plantilla de correo electrónico o un fragmento visual.
 
 >[!IMPORTANT]
 >
->Un administrador debe añadir usuarios que necesiten acceder a Assets a los perfiles de producto Usuarios consumidores de Assets y Usuarios de Assets. [Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>Un administrador debe añadir usuarios que necesiten acceder a Assets a los perfiles de producto Usuarios consumidores de Assets y Usuarios de Assets. [Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Imágenes de AEM Assets de acceso
 
@@ -32,11 +32,11 @@ En el editor de contenido visual, haga clic en el icono _Experience Manager Asse
 
 >[!NOTE]
 >
->Actualmente, solo se admiten recursos de imagen de Adobe Experience Manager Assets en Adobe Journey Optimizer B2B edition. Los cambios en los recursos deben realizarse desde el repositorio central de Adobe Experience Manager Assets. [Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>Actualmente, solo se admiten recursos de imagen de Adobe Experience Manager Assets en Adobe Journey Optimizer B2B edition. Los cambios en los recursos deben realizarse desde el repositorio central de Adobe Experience Manager Assets. [Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Cambiar el repositorio mostrado
 
-AEM Si tiene más de un repositorio conectado, haga clic en la flecha de menú de **[!UICONTROL Repositorio]** para elegir el repositorio que desea mostrar en el panel izquierdo.
+Si tiene más de un repositorio de AEM conectado, haga clic en la flecha de menú de **[!UICONTROL Repositorio]** para elegir el repositorio que desea mostrar en el panel izquierdo.
 
 ![Elija un repositorio de AEM Assets para acceder a los recursos de imagen](./assets/content-assets-selector-aem-repo.png){width="700" zoomable="yes"}
 
