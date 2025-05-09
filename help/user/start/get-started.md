@@ -3,7 +3,7 @@ title: Introducción a Journey Optimizer B2B Edition
 description: Como nuevo usuario de la edición B2B de Journey Optimizer, obtenga información sobre las áreas clave para comenzar.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ En función de su organización, puede definir varios tipos de usuarios y conced
 
 >[!TIP]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 >[!BEGINTABS]
 

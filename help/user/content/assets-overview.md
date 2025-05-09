@@ -4,7 +4,7 @@ description: Obtenga información acerca de la administración de recursos en Jo
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
 source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '981'
 ht-degree: 100%
 
