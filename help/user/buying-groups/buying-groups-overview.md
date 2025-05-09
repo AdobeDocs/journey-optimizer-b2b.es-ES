@@ -4,9 +4,9 @@ description: Descubra cómo los grupos de compras en Journey Optimizer B2B Editi
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1782'
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ Puede aumentar la eficacia del marketing estableciendo grupos de compras en Jour
 
 1. Crear grupos de compra.
 
-   * Definir [interés de solución](./solution-interests.md) y [plantilla de rol](./buying-groups-role-templates.md)
-   * [Cree el grupo comprador](./buying-groups-create.md#create-buying-groups) y asigne [etapas del grupo comprador](./buying-group-stages.md).
+   * Definir [interés de solución](./solution-interests.md) y [plantilla de función](./buying-groups-role-templates.md)
+   * [Cree el grupo de compras](./buying-groups-create.md#create-buying-groups) y asigne [etapas del grupo de compras](./buying-group-stages.md).
 
 1. Identificar personas desaparecidas.
 
@@ -51,7 +51,7 @@ Puede aumentar la eficacia del marketing estableciendo grupos de compras en Jour
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Utiliza el grupo de compras y tus recorridos de cuenta.
+1. Utilice el grupo de compras y recorridos de cuenta.
 
 ## Ver grupos y componentes de compra
 
@@ -204,4 +204,4 @@ La puntuación de participación final se calcula aplicando la ponderación para
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
