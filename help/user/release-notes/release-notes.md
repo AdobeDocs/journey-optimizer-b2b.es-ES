@@ -2,10 +2,10 @@
 title: Notas de la versión
 description: Últimas notas de la versión de Adobe Journey Optimizer B2B Edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
-workflow-type: ht
-source-wordcount: '2004'
-ht-degree: 100%
+source-git-commit: c3f2d57da830c46bd1e91d172db14f5400aabfca
+workflow-type: tm+mt
+source-wordcount: '2030'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2025.4
 
@@ -29,7 +29,8 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Función | Orquestación de recorrido de la lista de cuentas | Utilice los nodos de acción del recorrido para añadir y quitar cuentas para listas de cuentas estáticas. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Más información</a> |
 | Mejora | Filtrar abono de recorrido en Marketo Engage | Use las listas de cuentas de Adobe Journey Optimizer B2B Edition para el público del recorrido y luego use el filtro _Abonado de una lista de cuentas_ en las listas inteligentes de Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Más información</a> |
 | Función | Filtros de inactividad | Organice los recorridos en función de la inactividad dentro de las campañas y programas de Marketo Engage, incluida la inactividad del correo electrónico, los momentos interesantes, los cambios en el valor de los datos y las páginas web visitadas. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Más información</a> |
-| Mejora | Filtro de páginas web visitadas | Organice los recorridos en función de la actividad de las páginas web visitadas asociadas con las campañas y programas de Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Más información</a> |
+| Mejora | Filtro de página web visitada | Organice los recorridos en función de la actividad de las páginas web visitadas asociadas con campañas y programas de Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Más información</a> |
+| Mejora | Lista de correos electrónicos | Vea una lista global de correos electrónicos activos y borrador para buscarlos, revisarlos y actualizarlos en los recorridos de cuenta asociados. <a href="../content/emails-list.md">Más información</a> |
 
 ## Notas de la versión 2025.3
 
@@ -52,7 +53,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Campos personalizables: fragmentos de contenido | Como diseñador de fragmentos de contenido, puede designar un parámetro para un componente del fragmento como editable. Esto permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones. <a href="../content/fragment-authoring.md#enable-fragment-customization">Más información</a> |
+| Función | Campos personalizables: fragmentos de contenido | Como diseñador de fragmentos de contenido, puede designar un parámetro para un componente del fragmento como editable. Esta función permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones. <a href="../content/fragment-authoring.md#enable-fragment-customization">Más información</a> |
 | Función | Funciones integradas y permisos del producto B2B | Experience Platform ahora incluye un conjunto de funciones integradas (predeterminadas) que puede utilizar para administrar el acceso a las funciones de los productos B2B. <a href="../admin/user-management.md#b2b-built-in-roles">Más información</a> <br/>Los administradores ahora pueden definir funciones personalizadas en Adobe Experience Platform para incluir permisos de productos de Journey Optimizer B2B Edition.  <a href="../admin/user-management.md#b2b-product-permissions">Más información</a> |
 | Función | Tipos de duplicación del recorrido | Cuando duplica el recorrido de una cuenta, puede incluir detalles del nodo, excluyendo los correos electrónicos y mensajes de SMS creados en Journey Optimizer B2B Edition. Como alternativa, puede crear una copia esqueleto de la estructura y los flujos de ruta, sin detalles del nodo ni ajustes. <a href="../journeys/journey-overview.md#duplicate-journey">Más información</a> |
 | Mejora | Cuatro plantillas de correo electrónico de muestra adicionales | La biblioteca de plantillas de correo electrónico de ejemplo ahora incluye cuatro plantillas de SecureFinancial como ejemplos para volver a participar, informar, alimentar y dar ejemplos de contenido de comentarios |

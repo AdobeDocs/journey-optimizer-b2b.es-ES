@@ -3,10 +3,10 @@ title: Contenido condicional
 description: Aprenda a crear variaciones de contenido y aplicar reglas condicionales al crear contenido de correo electrónico para recorridos de cuenta.
 feature: Email Authoring, Content
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 1351880505fcf656f94dc5d9e383337d83faeff4
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 12%
+source-wordcount: '1305'
+ht-degree: 14%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 El contenido condicional le permite adaptar el contenido del correo electrónico en función de reglas condicionales. Estas reglas se definen mediante atributos de perfil o eventos contextuales. Puede crear reglas condicionales en el generador de reglas y almacenarlas para su reutilización en los recorridos de la cuenta.
 
-Para agregar contenido condicional a los mensajes de correo electrónico, Adobe Journey Optimizer permite aplicar reglas condicionales almacenadas en la biblioteca _Conditions_. Aplique reglas condicionales dentro del espacio de diseño de correo electrónico a medida que [crea un correo electrónico dentro de un recorrido de cuenta](./email-authoring.md).
+Para agregar contenido condicional a los mensajes de correo electrónico, Adobe Journey Optimizer permite aplicar reglas condicionales almacenadas en la biblioteca _Conditions_. Aplique reglas condicionales dentro del espacio de diseño de correo electrónico a medida que [crea contenido de correo electrónico para un recorrido de cuenta](./email-authoring.md).
 
 ## Añadir contenido condicional a correos electrónicos {#email-content}
 
@@ -28,13 +28,13 @@ Para agregar contenido condicional a los mensajes de correo electrónico, Adobe 
 >title="Contenido condicional"
 >abstract="Utilice una regla condicional guardada en la biblioteca o cree una nueva."
 
-A medida que crea un correo electrónico para su viaje de cuenta en el espacio de diseño correo electrónico, use reglas condicionales para definir varias variantes para un componente contenido.
+A medida que crea un correo electrónico para el recorrido de la cuenta en el espacio de diseño de correo electrónico, utilice reglas condicionales para definir varias variantes para un componente de contenido.
 
-1. Seleccione un componente contenido y haga clic en el icono Activar **[!UICONTROL contenido]** condicional en la barra de herramientas del componente.
+1. Seleccione un componente de contenido y haga clic en el icono **[!UICONTROL Habilitar contenido condicional]** de la barra de herramientas de componentes.
 
-   El componente se muestra en naranja para indicar que está activado como componente condicional. El **[!UICONTROL panel Contenido]** condicional aparece a la izquierda con la variante _predeterminada y la__Variant - 1.
+   El componente se destaca en naranja para indicar que se activa como componente condicional. El panel **[!UICONTROL Contenido condicional]** se muestra a la izquierda con la _variante predeterminada_ y la _variante - 1.
 
-   ![Habilitar contenido condicional para el componente de texto](./assets/conditions-enable.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Habilitar contenido condicional para el componente de texto](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
    El contenido original que seleccionó y activó es el predeterminado y se aplica cuando ninguna de las reglas condicionales se cumple para ninguna de las variantes que defina.
 
@@ -42,13 +42,13 @@ A medida que crea un correo electrónico para su viaje de cuenta en el espacio d
 
 1. Pase el ratón sobre la primera variante (_Variante - 1_) y haga clic en el icono _Seleccionar condición_ ( ![Icono de condición](../assets/do-not-localize/icon-select-condition.svg)).
 
-   ![Seleccionar condición para variante](./assets/conditions-variant-select.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Seleccionar condición para variante](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
    Se abre el cuadro de diálogo _[!UICONTROL Seleccionar condición]_ y muestra la biblioteca de condiciones.
 
    Si desea ver los detalles de una condición para asegurarse de que es lo que desea, haga clic en el icono de _menú Más_ (**...**) y elija **[!UICONTROL Ver información]**.
 
-   ![Detalles de la condición de acceso a la biblioteca de condiciones](assets/conditions-select-dialog.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Detalles de la condición de acceso a la biblioteca de condiciones](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
    Si la condición que necesita no existe, [cree una regla condicional](#create-condition) haciendo clic en **[!UICONTROL Crear nuevo]**.
 
@@ -56,27 +56,27 @@ A medida que crea un correo electrónico para su viaje de cuenta en el espacio d
 
    Para revisar la condición asociada, haga clic en el icono _Más menú_ (**...**) de la variante y elija **[!UICONTROL Ver condición]**.
 
-   ![Ver la condición asociada con la variante](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Ver la condición asociada con la variante](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
    Haga clic en X en la parte superior derecha para cerrar la ventana emergente.
 
-   ![Ver detalles de la condición asociada](./assets/conditions-info-popup.png){width="500"}{width=&quot;500&quot;}
+   ![Ver detalles de la condición asociada](./assets/conditions-info-popup.png){width="500"}
 
 1. Para facilitar la lectura, cambie el nombre de la variante haciendo clic en el icono _Más menú_ (**...**) de la variante y eligiendo **[!UICONTROL Cambiar nombre]**.
 
    Introduzca un nombre significativo para la variante que le ayude a identificar la variante y su intención.
 
-   ![Cambiar el nombre de la variante](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Cambiar nombre de variante](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
-1. Con la variante seleccionada en el panel izquierdo, cambie el componente para modificar cómo aparece en el mensaje de correo electrónico cuando la condición es verdadera.
+1. Con la variante seleccionada en el panel izquierdo, cambie el componente para modificar cómo aparece en el mensaje de correo electrónico cuando la condición sea verdadera.
 
-   En este ejemplo, la variante para el componente de texto utiliza una descripción diferente basada en el área geográfica del destinatario.
+   En este ejemplo, la variante del componente de texto utiliza una descripción diferente en función de la región del destinatario.
 
-   ![Cambiar el componente de la variante](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Cambiar el componente para la variante](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
-1. Si es necesario, defina otra variante haciendo clic en **[!UICONTROL añadir variante]**.
+1. Si es necesario, defina otra variante haciendo clic en **[!UICONTROL Agregar variante]**.
 
-   Repita los pasos del 2 al 5 para seleccionar una condición, cambiar el nombre de la variante y cambiar el componente de la variante.
+   Repita los pasos 2-5 para seleccionar una condición, cambiar el nombre de la variante y cambiar el componente de la variante.
 
    Puede agregar tantas variantes como sea necesario para el componente de contenido. Cambie la variante seleccionada en el panel izquierdo en cualquier momento para comprobar cómo aparece el componente de contenido para la condición.
 
@@ -105,10 +105,10 @@ Las reglas condicionales se almacenan en la biblioteca de condiciones, donde est
 
 | Tipo de condición | Filtros | Descripción |
 | -------------- | ------- | ----------- |
-| **Cuenta** | Atributos de la cuenta | Atributos del perfil cuenta, incluidos: <li>Ingresos anuales</li><li>Ciudad</li><li>País</li><li>Cantidad de empleados</li><li>Industria</li><li>Nombre</li><li>Código SIC</li><li>Estado</li> |
+| **Cuenta** | Atributos de la cuenta | Atributos del perfil de cuenta, incluidos: <li>Ingresos anuales</li><li>Ciudad</li><li>País</li><li>Cantidad de empleados</li><li>Industria</li><li>Nombre</li><li>Código SIC</li><li>Estado</li> |
 | | [!UICONTROL Filtros especiales] > [!UICONTROL Tiene grupo de compra] | La cuenta tiene o no miembros de grupos compradores. También se puede evaluar con uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li> |
 | | [!UICONTROL Filtros especiales] > [!UICONTROL Tiene oportunidad] | La cuenta está o no relacionada con una oportunidad. También se puede evaluar con uno o más de los siguientes atributos de oportunidad: <li>Monto<li>Fecha de cierre<li>Descripción<li>Ingreso esperado<li>Trimestre fiscal<li>Año fiscal<li>Categoría de pronóstico<li>Nombre de categoría del pronóstico<li>Está cerrado<li>Está ganado</li><li>Fecha de la última actividad</li><li>Origen de la persona<li>Nombre</li><li>Siguiente paso</li><li>Probabilidad<li>Cantidad<li>Fase</li><li>Tipo |
-| **Persona** | [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico asociadas con el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico]</li><li>Abrió el email</li><li>Se entregó el email</li><li>Se envió email</li> Estas condiciones se evalúan utilizando un mensaje de correo electrónico seleccionado anteriormente en el viaje. |
+| **Persona** | [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico asociadas con el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico]</li><li>Abrió el email</li><li>Se entregó el email</li><li>Se envió email</li> Estas condiciones se evalúan utilizando un mensaje de correo electrónico seleccionado de anteriormente en el recorrido. |
 |  | [!UICONTROL Atributos de persona] | Atributos del perfil de la persona, incluidos: <li>Ciudad</li><li>País</li><li>Fecha de nacimiento</li><li>Dirección de correo electrónico</li><li>Email no válido</li><li>Email suspendido</li><li>Nombre</li><li>Región del estado inferida</li><li>Cargo</li><li>Apellido</li><li>Número de teléfono móvil</li><li>Número de teléfono</li><li>Código postal</li><li>Estado</li><li>Suscripción cancelada</li><li>Razón de la cancelación de la suscripción</li> |
 | | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Función</li> |
 
@@ -136,24 +136,24 @@ Puede acceder al generador de reglas condicionales desde el espacio de diseño d
    * **[!UICONTROL Condición de persona]**: elija este tipo para generar la regla de condición mediante atributos de persona y eventos contextuales.
    * **[!UICONTROL Condición de la cuenta]**: elija este tipo para generar la regla condicional con atributos de cuenta.
 
-   ![Elija el tipo de condición para crear](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Elija el tipo de condición para crear](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
 1. Genere la regla condicional según sus necesidades.
 
-   Para cada atributo o evento que desee incluir en el regla, arrastre el elemento y colóquelo en el lienzo del regla. Expanda el filtro y complete el expresión.
+   Para cada atributo o evento que desee incluir en la regla, arrastre y suelte el elemento en el lienzo de reglas. Expanda el filtro y complete la expresión.
 
-   ![Todas las aplicaciones el expresión a evaluar](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Complete la expresión para evaluar](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
 
-   Si incluye más de un filtro, establezca la lógica **Filtrar**:
+   Si incluye más de un filtro, establezca la **[!UICONTROL lógica de filtro]**:
 
-   * **[!UICONTROL Aplicar todos los filtros]** - El regla evalúa como verdadero si **todos los** filtros son verdaderos.
-   * **[!UICONTROL Aplicar cualquier filtros]** - El regla evalúa como verdadero si **alguno** de los filtros es verdadero.
+   * **[!UICONTROL Aplicar todos los filtros]** - La regla se evalúa como verdadera si **todos** los filtros son verdaderos.
+   * **[!UICONTROL Aplicar cualquier filtro]** - La regla se evalúa como verdadera si **cualquiera** de los filtros es verdadero.
 
 1. A la derecha, escriba **[!UICONTROL Name]** y **[!UICONTROL Description]** (opcional) para la regla.
 
    Utilice un nombre significativo y una descripción útil para ayudar a otros miembros de su organización a reutilizarla en lugar de crear otra condición duplicada.
 
-   ![Agregar un nombre y una descripción para la regla condicional](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Agregue un nombre y una descripción para la regla de condición](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}
 
 1. Una vez completada la regla de condición, haga clic en **[!UICONTROL Guardar]**.
 
@@ -167,10 +167,10 @@ No se pueden modificar las reglas condicionales guardadas en la biblioteca. Sin 
 
    Se abre un duplicado de la regla en el generador de reglas. Utilice el duplicado como punto de partida para la regla que desea crear.
 
-   ![Use una regla duplicada para crear la que necesita](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Use una regla duplicada para crear la que necesita](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}
 
 1. En el generador de reglas, cambie, agregue o elimine condiciones según lo que necesite.
 
-1. Cambie el nombre y la descripción para que coincidan con el propósito o los elementos del regla.
+1. Cambie el nombre y la descripción para que coincidan con el propósito o los elementos de la regla.
 
-1. Cuando haya finalizado la regla condicional, haga clic en **[!UICONTROL Guardar]**.
+1. Una vez completada la regla de condición, haga clic en **[!UICONTROL Guardar]**.

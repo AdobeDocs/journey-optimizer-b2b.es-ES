@@ -1,52 +1,24 @@
 ---
-title: Creación de correo electrónico
-description: Obtenga información sobre cómo crear contenido de correo electrónico personalizado que se utiliza en un Recorrido de cuentas.
+title: Creación de mensajes de correo electrónico
+description: Aprenda a crear contenido de correo electrónico en Adobe Journey Optimizer B2B. Utilice plantillas, importaciones de HTML y herramientas con tecnología de IA para personalizar y optimizar las comunicaciones por correo electrónico.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 12%
+source-wordcount: '949'
+ht-degree: 15%
 
 ---
 
-# Creación del correo electrónico
+# Creación de mensajes de correo electrónico
 
-Utilice Adobe Journey Optimizer B2B edition para enviar mensajes de correo electrónico a sus clientes. Puede crear, personalizar y obtener una vista previa de los mensajes en el diseñador visual.
-
-## Añadir una acción de correo electrónico en un recorrido de cuenta
-
-Puede configurar los envíos de correo electrónico en un Recorrido de cuentas cuando agregue un nodo _[!UICONTROL Realizar una acción]_ y hacer lo siguiente:
-
-1. Para la _[!UICONTROL acción en]_ destino, elige **[!UICONTROL Personas]**.
-1. Para la _[!UICONTROL acción sobre personas]_, elige **[!UICONTROL Enviar correo electrónico]**.
-1. Para el _[!UICONTROL origen del correo electrónico]_, elija **[!UICONTROL Crear nuevo correo electrónico]**.
-
-   También puedes seleccionar la opción _[!UICONTROL Seleccionar correo electrónico de Adobe Marketo Engage]_ para usar uno de los correos electrónicos creados previamente en Marketo Engage y enviarlo como parte del Recorrido de cuenta.
-
-   >[!NOTE]
-   >
-   >Si crea un correo electrónico por primera vez, asegúrese de que el canal de correo electrónico esté configurado desde Adobe Marketo Engage. Para obtener más información, consulte [Garantizar la entrega de correos electrónicos](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} en la documentación de Marketo Engage.
-
-   ![Realizar una acción: enviar un correo electrónico](assets/journey-node-send-email.png){width="700" zoomable="yes"}
-
-1. En la parte inferior del panel _[!UICONTROL Realizar una acción]_, haga clic en **[!UICONTROL Crear correo electrónico]**.
-
-1. En el cuadro de diálogo, escriba un **[!UICONTROL Nombre]** único para el correo electrónico y una **[!UICONTROL Línea de asunto]**.
-
-   ![Crear nuevo cuadro de diálogo de correo electrónico](assets/create-new-email.png){width="400"}
-
-1. Haga clic en **[!UICONTROL Crear]**.
-
-   En la sección _[!UICONTROL Propiedades de correo electrónico]_ de la página de contenido de correo electrónico, los campos _[!UICONTROL De correo electrónico]_ y _[!UICONTROL Responder a dirección]_ ya están configurados. Puede escribir valores para los campos _[!UICONTROL Nombre del formulario]_ y _[!UICONTROL Descripción]_ (opcional).
-
-## Creación de contenido de correo electrónico
+Después de [agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido](./add-email.md), puede definir el contenido del mensaje de correo electrónico.
 
 Haga clic en **[!UICONTROL Agregar contenido de correo electrónico]** en la parte superior del panel de vista previa de _[!UICONTROL Correo electrónico]_.
 
 ![Haga clic en Agregar contenido de correo electrónico ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
-Esta acción inicia el Designer de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
+Esta acción inicia las herramientas de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
 * [Diseñe su correo electrónico desde cero](#design-your-email-from-scratch) mediante la interfaz de Designer de correo electrónico.
 
@@ -62,7 +34,7 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 >
 >Utilice el asistente de IA en Adobe Journey Optimizer B2B edition, con tecnología de IA generativa, para elevar el contenido al siguiente nivel. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos, contenido de texto de destino y obteniendo recomendaciones del asistente de IA para imágenes que resuenen con su audiencia. [Más información](./ai-assistant-emails.md)
 
-### Diseñe el correo electrónico desde cero {#design-from-scratch}
+## Diseñe el correo electrónico desde cero {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
@@ -93,7 +65,7 @@ Cuando finalice el contenido, haga clic en **[!UICONTROL Simular contenido]** en
 
 Cuando esté satisfecho con el contenido, haga clic en **[!UICONTROL Guardar]**.
 
-### Importar contenido existente de HTML
+## Importar contenido existente de HTML
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -105,7 +77,7 @@ Cuando esté satisfecho con el contenido, haga clic en **[!UICONTROL Guardar]**.
 
 Puede personalizar el contenido importado según sea necesario con las herramientas visuales del editor de correo electrónico.
 
-### Seleccionar una plantilla
+## Seleccionar una plantilla
 
 {{$include /help/_includes/content-design-select-template.md}}
 
@@ -165,7 +137,7 @@ Aproveche las opciones de vista y validación de contenido disponibles en el edi
 
 ### Más opciones
 
-En el menú _[!UICONTROL Más...]_ de la parte superior del diseñador de correo electrónico, puede realizar las siguientes acciones:
+En el menú _[!UICONTROL Más...]_ de la parte superior del espacio de diseño del correo electrónico, puede realizar las siguientes acciones:
 
 ![Haga clic en Más para acceder a las acciones de plantilla](./assets/email-designer-more-menu.png){width="500"}
 
@@ -174,34 +146,6 @@ En el menú _[!UICONTROL Más...]_ de la parte superior del diseñador de correo
 * **[!UICONTROL Cambia tu diseño]** - Vuelve a la página _Diseña tu correo electrónico_. Desde allí, puede elegir otra plantilla para reiniciar el proceso de diseño o elegir diseñar el contenido desde cero en un lienzo negro.\
 * **[!UICONTROL Guardar como plantilla de contenido]** - Guarde el cuerpo del correo electrónico como una plantilla de correo electrónico para reutilizarla en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para la plantilla y guárdela en la lista de plantillas de correo electrónico guardadas.
 * **[!UICONTROL Exportar HTML]**: descargue el contenido del lienzo visual en su sistema local en formato HTML empaquetado como archivo zip.
-
-## Comprobación de alertas
-
-Al diseñar el contenido del mensaje de correo electrónico, se muestran alertas en la interfaz (parte superior derecha de la página) cuando falta la configuración clave.
-
-Si no ve este botón, no se detectan problemas.
-
-Se pueden detectar dos tipos de alertas:
-
-* **_Advertencias_** que hacen referencia a recomendaciones y prácticas recomendadas, como:
-
-   * `The opt-out link is not present in the email body`: se recomienda agregar un vínculo para darse de baja al cuerpo del correo electrónico.
-
-     >[!NOTE]
-     >
-     >Los mensajes de correo electrónico de estilo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales.
-
-   * `Text version of HTML is empty`: no olvide definir una versión de texto de su cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido de HTML.
-
-   * `Empty link is present in email body`: compruebe que todos los vínculos del correo electrónico sean correctos.
-
-   * `Email size has exceeded the limit of 100KB`: para una entrega óptima, asegúrese de que el tamaño del correo electrónico no supere los 100 KB.
-
-* **_Errores_** que impiden probar o activar el recorrido o la campaña siempre y cuando no se resuelvan, como:
-
-   * `The subject line is missing`: la línea de asunto del correo electrónico es obligatoria.
-
-   * `The email version of the message is empty`: este error se muestra cuando no se ha configurado el contenido del correo electrónico.
 
 ## Compruebe y pruebe el correo electrónico {#preview-test}
 
