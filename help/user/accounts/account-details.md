@@ -2,7 +2,9 @@
 title: Detalles de la cuenta
 description: Obtenga información sobre el acceso a información detallada y a resúmenes de IA generativos para cuentas en Journey Optimizer B2B edition.
 feature: Account Insights
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+role: User
+exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 10%
@@ -75,4 +77,4 @@ Haga clic en _Información_ ( ![icono de información](../assets/do-not-localize
 Haga clic en el icono _Filtro_ ( ![Icono de filtro](../assets/do-not-localize/icon-filter.svg) ) en la parte superior izquierda para filtrar la visualización de datos con cualquiera de estos atributos:
 
 * Interés de la solución
-* Roles
+* Funciones

@@ -1,12 +1,13 @@
 ---
 title: Creación de fragmentos
 description: Aprenda a crear fragmentos de contenido que se puedan reutilizar para sus correos electrónicos y diseños de plantilla para lograr una mayor eficacia y mantener los estándares de diseño y marca.
-feature: Content
+feature: Fragments, Content Design Tools
+role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 13%
+source-wordcount: '373'
+ht-degree: 19%
 
 ---
 
@@ -36,7 +37,7 @@ Después de [crear un fragmento](./fragments.md#create-fragments), use el editor
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-## Personalizar contenido
+## Personalización del contenido
 
 {{$include /help/_includes/content-design-personalization.md}}
 
@@ -52,7 +53,7 @@ Por ejemplo, si diseña un banner reutilizable que incluya un botón en el que s
 
 1. Haga clic en la opción **[!UICONTROL Habilitar edición]** y establezca los campos editables.
 
-   ![Habilitar campos editables para un componente de imagen de fragmento](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Habilitar campos editables para un componente de imagen de fragmento](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 
    Puede habilitar la personalización para los campos mostrados, que dependen del tipo de componente y de los parámetros definidos en el fragmento.
 
@@ -60,7 +61,7 @@ Por ejemplo, si diseña un banner reutilizable que incluya un botón en el que s
 
 1. Haga clic en **[!UICONTROL Información general]** para revisar todos los campos editables y sus valores predeterminados.
 
-   ![Revisar los campos editables y sus valores predeterminados](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Revise los campos editables y sus valores predeterminados](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
 
 1. Guarde los cambios.
 

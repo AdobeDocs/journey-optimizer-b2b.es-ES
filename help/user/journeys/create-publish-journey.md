@@ -2,8 +2,9 @@
 title: Crear y publicar un Recorrido de cuenta
 description: Obtenga información sobre cómo crear y publicar recorridos de cuenta.
 feature: Account Journeys
+role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 5%
@@ -136,4 +137,4 @@ Puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique,
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443222/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

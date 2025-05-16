@@ -1,12 +1,13 @@
 ---
 title: Guía de preguntas para el asistente de IA
-description: Marcador de posición
+description: Aprenda a escribir preguntas eficaces para el asistente de IA en Journey Optimizer B2B edition.
 feature: AI Assistant
+role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: f09f3f5b7d4419ead5308e4c5be3b518b4e16ff5
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '884'
 ht-degree: 1%
 
 ---
@@ -22,7 +23,7 @@ Las siguientes preguntas de ejemplo se agrupan según los objetivos que puede lo
 | Objetivo | Descripción | Ejemplo |
 | --- | --- | --- |
 | Conceptos de aprendizaje y flujos de trabajo continuos | Como usuario novato, puede utilizar el asistente de IA para aprender los conceptos de Real-Time CDP y Adobe Journey Optimizer B2B edition, e incorporarse a productos y funciones con los que no está familiarizado. <br>Como usuario experimentado, puede utilizar el Asistente de IA para resolver un caso límite que pueda estar bloqueando el flujo de trabajo. | <li>Dime algunos casos de uso para Real-Time CDP. <li>Explícame el concepto de Grupo de Compra. |
-| Resolución de problemas | Utilice AI Assistant para aprender a depurar errores básicos que puede encontrar en su flujo de trabajo. | <li>¿Qué significa este error &lt;ERROR_MESSAGE>? <li>¿Por qué no puedo eliminar la audiencia llamada &quot;...&quot;? |
+| Resolución de problemas | Utilice el Asistente de IA para aprender a depurar los errores básicos que pueden producirse en el flujo de trabajo. | <li>¿Qué significa este error &lt;ERROR_MESSAGE>? <li>¿Por qué no puedo eliminar la audiencia llamada &quot;...&quot;? |
 | Higiene de zona protegida | Utilice el asistente de IA para identificar duplicados u objetos que no se utilicen, de modo que pueda mantener de forma eficaz la zona protegida. | <li>¿Puede mostrarme audiencias de cuenta similares? <li>¿Hay algún esquema que no tenga un conjunto de datos asociado? |
 | Análisis de valor | Utilice el asistente de IA para identificar los objetos de datos más utilizados, evaluar cualquier indicador de rendimiento o encontrar los objetos de datos más valiosos. | <li>¿Cuántas cuentas hay en nuestra definición de segmento &quot;...&quot;? <li>¿Cuándo se activaron las audiencias en el destino de Audiencias de Experience Cloud? |
 | Buscar | Utilice el asistente de IA para encontrar objetos Experience Platform y Adobe Journey Optimizer B2B edition compatibles, como audiencias de cuenta, conjuntos de datos, destinos, esquemas, fuentes, recorridos de cuenta, plantillas de grupo de compra e intereses de soluciones | <li>Enumere las audiencias que contienen &quot;Luma&quot; en el nombre y que se utilizaron en los recorridos de la cuenta. <li>¿Qué atributos hay en el esquema XDM &quot;Luma: Custom Actions&quot;? |
@@ -32,7 +33,7 @@ Las siguientes preguntas de ejemplo se agrupan según los objetivos que puede lo
 
 Debe formular sus preguntas al asistente de IA con claridad y contexto para obtener una respuesta lo más precisa posible. Consulte la siguiente lista de sugerencias para obtener instrucciones sobre cómo hacer una pregunta clara con contexto:
 
-* Exprese sus tarea y/o preguntas de manera concisa.
+* Exponga su tarea y/o pregunta de forma concisa.
 * Evite el lenguaje ambiguo o la sintaxis demasiado compleja para facilitar la comprensión.
 * Proporcione un contexto relevante con respecto a su tarea o pregunta, ya que el contexto puede ayudar al Asistente de IA a generar respuestas más relevantes.
 
@@ -50,7 +51,7 @@ En las tablas siguientes se proporcionan algunas prácticas recomendadas que pue
 | Realizar solicitudes incompletas. | <li>&quot;Luma: Conjunto de datos de fidelización&quot; |
 | Asumir el conocimiento sin contextos. | <li>Audiencias en los últimos 6 meses. <li>Cree una consulta para mí. <li>Crear un recorrido para mí |
 | Formular consultas demasiado complejas. | <li>Proporcionar un análisis completo del linaje de datos en todos los objetos y sus dependencias. |
-| Omitir criterios o parámetros. | <li>Mostrar conjunto de datos. |
+| Omitir criterios o parámetros. | <li>Mostrar conjuntos de datos. |
 
 ## Ejemplos de preguntas no admitidas
 

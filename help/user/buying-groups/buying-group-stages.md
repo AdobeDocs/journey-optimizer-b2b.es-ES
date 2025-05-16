@@ -2,11 +2,12 @@
 title: Fases del grupo de compra
 description: Obtenga información sobre la compra de fases de grupo y cómo puede definirlas para rastrear la progresión de los recorridos en comparación con los objetivos de ventas.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2344'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -189,7 +190,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## Eliminar el modelo de etapas de grupo de compra
 
-Puede eliminar el modelo de fases de grupo de compra cuando esté en estado de borrador o publicado. Si se publica (activo), solo puede eliminarse cuando no esté asociado a un interés de solución.
+Puede eliminar el modelo de fases del grupo de compras cuando esté en estado borrador o publicado. Si se publica (activo), solo puede eliminarse cuando no esté asociado a un interés de solución.
 
 1. En el panel de navegación de la izquierda, ve a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos compradores]**.
 
@@ -364,4 +365,4 @@ Utilice la ocurrencia de un cambio de fase de grupo de compra para mover la cuen
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3448697/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

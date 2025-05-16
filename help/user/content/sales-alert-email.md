@@ -1,12 +1,13 @@
 ---
 title: Correo electrónico de alerta de ventas
 description: Aprenda a incluir un correo electrónico de alerta de ventas automatizado en los recorridos de la cuenta.
-feature: Email Authoring, Content
+feature: Email Authoring, Account Journeys
+role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -31,12 +32,12 @@ Como experto en marketing, puede configurar un nodo de correo electrónico de al
 | - | ---- | ----------- |
 | Información del grupo de compra | Nombre del grupo de compra | Nombre para mostrar del grupo de compra. |
 |   | Nombre de la cuenta | Nombre de la cuenta. |
-|   | Puntaje de participación | Puntuación de participación del grupo comprador, basada en las actividades de participación activas de los últimos 30 días. |
+|   | Puntuación de participación | Puntuación de participación del grupo comprador, basada en las actividades de participación activas de los últimos 30 días. |
 |   | Puntuación de integridad | Puntuación de integridad del grupo comprador. |
 |   | Interés de la solución | Interés en la solución vinculado al grupo comprador |
 |   | Estado | Estado del grupo comprador. |
-| Puntos destacados del grupo de compra | Miembros con mayor participación | Principales miembros comprometidos del grupo de compra mediante la puntuación de participación de miembro del grupo de compra y la función. |
-|   | Tema de interés | Las palabras clave más frecuentes que se producen en la participación de contenido en función de los correos electrónicos, las descargas, el chat, la revisión por parte del PDF, el resumen de la actividad y las preguntas del seminario web. |
+| Características destacadas del grupo de compras | Miembros con mayor participación | Principales miembros comprometidos del grupo de compra mediante la puntuación de participación de miembro del grupo de compra y la función. |
+|   | Tema de interés | Las palabras clave más frecuentes que se producen en la participación de contenido, en función de los correos electrónicos, las descargas, el chat, la revisión de PDF, el resumen de la actividad y las preguntas del seminario web. |
 |   | Faltan roles | Funciones obligatorias en la plantilla, pero faltan en el grupo comprador. |
 | Resumen del grupo de compra | Resumen de actividad (con tecnología de IA generativa) | Resumen generado por IA del grupo comprador basado en las actividades de los miembros. Se consideran las actividades de los últimos 30 días. |
 |   | Momentos clave interesantes | Momentos interesantes recientes relacionados con los miembros del grupo de compra. |
@@ -44,7 +45,7 @@ Como experto en marketing, puede configurar un nodo de correo electrónico de al
 | Cada miembro del grupo comprador | Nombre de miembro | Nombre del miembro del grupo comprador. |
 |   | Título | Título del miembro del grupo comprador. |
 |   | Función | La función de grupo de compra del miembro. |
-|   | Puntaje de participación | Puntuación de participación de miembro del grupo comprador. La puntuación se basa en las actividades de participación activas en los últimos 30 días. |
+|   | Puntuación de participación | Puntuación de participación de miembro del grupo comprador. La puntuación se basa en las actividades de participación activas en los últimos 30 días. |
 |   | Último momento interesante | El último momento más interesante relacionado con el miembro. |
 |   | Actividades más recientes | Las dos últimas actividades relacionadas con el miembro del grupo comprador. |
 |   | Identificación de email | ID de correo electrónico del miembro del grupo comprador. |

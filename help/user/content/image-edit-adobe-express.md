@@ -1,9 +1,10 @@
 ---
-title: Editar imágenes con Adobe Express
-description: Obtenga información sobre el uso del Adobe Express para editar imágenes en Journey Optimizer B2B edition Workspace.
-feature: Assets, Content
+title: Edición de imágenes con Adobe Express
+description: Obtenga información sobre el uso de Adobe Express para editar imágenes en Journey Optimizer B2B edition Workspace.
+feature: Assets, Content, Integrations
+role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: cb8196a8bb33c326476ddc9d99103d5fea6d10bd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 3%
@@ -17,7 +18,7 @@ ht-degree: 3%
 >title="Edición de imágenes en Adobe Express"
 >abstract="Las herramientas de edición de imágenes sencillas e intuitivas, con tecnología de Adobe Express, están disponibles directamente en Adobe Journey Optimizer B2B Edition para aumentar la velocidad de contenido."
 
-Adobe Journey Optimizer B2B edition se integra de forma nativa con Adobe Express y le permite acceder a un conjunto de herramientas de edición de imágenes de Adobe Express. Puede utilizar estas herramientas para modificar las imágenes almacenadas en Journey Optimizer B2B edition Workspace para el repositorio de recursos del Marketo Engage conectado. La integración ofrece las siguientes ventajas clave:
+Adobe Journey Optimizer B2B edition se integra de forma nativa con Adobe Express y le permite acceder a un conjunto de herramientas de edición de imágenes de Adobe Express. Puede utilizar estas herramientas para modificar las imágenes almacenadas en Journey Optimizer B2B edition Workspace para el repositorio de recursos de Marketo Engage conectado. La integración ofrece las siguientes ventajas clave:
 
 * Se ha aumentado la reutilización del contenido mediante la edición y el guardado de nuevos recursos de imagen en Journey Optimizer B2B edition.
 
@@ -25,7 +26,7 @@ Adobe Journey Optimizer B2B edition se integra de forma nativa con Adobe Express
 
 >[!NOTE]
 >
->Los derechos para las funciones de edición de Adobe Express se incluyen en todas las suscripciones a Journey Optimizer B2B edition.
+>Las autorizaciones para las funciones de edición de Adobe Express se incluyen en todas las suscripciones a Journey Optimizer B2B edition.
 
 Las funciones de Adobe Express admiten los formatos de archivo de imagen PNG y JPEG.
 
@@ -51,7 +52,7 @@ Esta acción abre una página de lista con todos los recursos enumerados. El ár
    >
    >Se recomienda seleccionar [la ficha _[!UICONTROL Utilizada por]_](./marketo-engage-design-studio.md#view-asset-used-by-references) en los detalles de la imagen y revisar el contenido donde se utiliza actualmente la imagen antes de continuar con las ediciones en el archivo de imagen.
 
-1. En la imagen _[!UICONTROL Detalles]_ de la derecha, haga clic en **[!UICONTROL Editar con Adobe Express]**.
+1. En la imagen _[!UICONTROL Detalles]_ de la derecha, haz clic en **[!UICONTROL Editar con Adobe Express]**.
 
    ![Abrir la imagen en el editor de Adobe Express](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
@@ -65,27 +66,27 @@ Si tiene una licencia Enterprise para Adobe Express, puede acceder y utilizar el
 
 >[!NOTE]
 >
->La licencia de Adobe Express Enterprise debe adquirirse en la misma organización de IMS para acceder a estas funciones completas de editor para Journey Optimizer B2B edition. Como miembro individual de la organización IMS, necesita una licencia asignada en la instancia de Adobe Express. De lo contrario, su acceso al Adobe Express está restringido a [acciones rápidas en el Adobe Express](#quick-actions-in-adobe-express) desde Journey Optimizer B2B edition.
+>La licencia empresarial de Adobe Express debe adquirirse en la misma organización de IMS para acceder a estas funciones completas de editor para Journey Optimizer B2B edition. Como miembro individual de la organización IMS, necesita una licencia asignada en la instancia de Adobe Express. De lo contrario, su acceso a Adobe Express estará restringido a [acciones rápidas en Adobe Express](#quick-actions-in-adobe-express) desde Journey Optimizer B2B edition.
 
-![Abrir la imagen en el editor Enterprise de Adobe Express](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
+![Abrir la imagen en el editor de Adobe Express Enterprise](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-La [Guía del usuario de Adobe Express](https://helpx.adobe.com/es/express/user-guide.html){target="_blank"} proporciona información detallada acerca de las capacidades de edición disponibles.
+La [Guía del usuario de Adobe Express](https://helpx.adobe.com/es/express/user-guide.html){target="_blank"} proporciona información detallada sobre las funciones de edición disponibles.
 
-## Acciones rápidas en el Adobe Express
+## Acciones rápidas en Adobe Express
 
 Si no dispone de una licencia de Adobe Express Enterprise, puede acceder al editor de acciones rápidas de Adobe Express.
 
-1. En el editor de acciones rápidas de Adobe Express, seleccione cualquiera de las funciones de modificación de imagen para modificar la imagen.
+1. En el editor de acciones rápidas de Adobe Express, seleccione cualquiera de las funciones de modificación de imágenes para modificar la imagen.
 
    * [**[!UICONTROL Cambiar tamaño de imagen]**](#resize-image)
    * [**[!UICONTROL Quitar fondo]**](#remove-background)
    * [**[!UICONTROL Recortar imagen]**](#crop-image)
    * [**[!UICONTROL Convertir a PNG]**](#convert-file-format) (cuando se carga una imagen de JPEG)
-   * [**[!UICONTROL Convertir en JPEG]**](#convert-file-format) (cuando se carga una imagen PNG)
+   * [**[!UICONTROL Convertir a JPEG]**](#convert-file-format) (cuando se carga una imagen PNG)
 
    ![Seleccione un tipo de edición para modificar la imagen](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. Cuando vuelva al editor de acciones rápidas del Adobe Express principal, haga clic en **[!UICONTROL Guardar]** para guardar el archivo de imagen modificado en el área de trabajo de recursos de Journey Optimizer B2B edition con el mismo nombre de archivo.
+1. Cuando vuelva al editor de acciones rápidas principal de Adobe Express, haga clic en **[!UICONTROL Guardar]** para guardar el archivo de imagen modificado en el área de trabajo de recursos de Journey Optimizer B2B edition con el mismo nombre de archivo.
 
 ## Redimensionar imagen
 
@@ -103,9 +104,9 @@ Si no dispone de una licencia de Adobe Express Enterprise, puede acceder al edit
 
 ## Quitar fondo
 
-![Editar con Adobe Express: quitar fondo](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
+![Editar con Adobe Express- eliminar fondo](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
-El Adobe Express realiza una eliminación automática del fondo para aislar el objeto principal de la imagen. Si está satisfecho con el resultado, haga clic en **[!UICONTROL Aplicar]**.
+Adobe Express realiza una eliminación automática del fondo para aislar el objeto principal de la imagen. Si está satisfecho con el resultado, haga clic en **[!UICONTROL Aplicar]**.
 
 ## Recortar imagen
 
@@ -117,7 +118,7 @@ El Adobe Express realiza una eliminación automática del fondo para aislar el o
 
 ## Convertir formato de archivo
 
-* **[!UICONTROL Convertir en JPEG]**: para una imagen PNG, puede convertir la imagen en un archivo de imagen de JPEG y guardarla como un nuevo recurso en el área de trabajo.
+* **[!UICONTROL Convertir a JPEG]**: para una imagen PNG, puede convertir la imagen en un archivo de imagen JPEG y guardarla como un nuevo recurso en el área de trabajo.
 * **[!UICONTROL Convertir a PNG]**: para una imagen de JPEG, puede convertir la imagen en un archivo de imagen PNG y guardarla como un nuevo recurso en el área de trabajo.
 
 ![Editar con Adobe Express- convertir a PNG](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"}

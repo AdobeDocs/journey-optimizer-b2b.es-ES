@@ -1,9 +1,10 @@
 ---
 title: Creación de mensajes de correo electrónico
 description: Aprenda a crear contenido de correo electrónico en Adobe Journey Optimizer B2B. Utilice plantillas, importaciones de HTML y herramientas con tecnología de IA para personalizar y optimizar las comunicaciones por correo electrónico.
-feature: Email Authoring, Content
+feature: Email Authoring, Content Design Tools
+role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 15%
@@ -12,7 +13,7 @@ ht-degree: 15%
 
 # Creación de mensajes de correo electrónico
 
-Después de &lbrack;agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido&rbrack;(./add-email.md), puede definir el contenido del mensaje de correo electrónico.
+Después de [agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido](./add-email.md), puede definir el contenido del mensaje de correo electrónico.
 
 Haga clic en **[!UICONTROL Agregar contenido de correo electrónico]** en la parte superior del panel de vista previa de _[!UICONTROL Correo electrónico]_.
 

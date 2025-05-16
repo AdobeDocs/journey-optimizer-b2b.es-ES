@@ -2,8 +2,9 @@
 title: Comprar plantillas de rol de grupo
 description: Obtenga información acerca de la definición de una plantilla de rol para utilizarla como componente de grupo comprador.
 feature: Buying Groups
+role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 5%
@@ -163,4 +164,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

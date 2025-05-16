@@ -1,16 +1,17 @@
 ---
 title: Creación de plantillas de correo electrónico
 description: Aprenda a crear plantillas de correo electrónico de contenido que se puedan utilizar para los correos electrónicos de recorrido de cuentas a fin de reutilizar sus diseños de forma fácil y eficaz.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
-# Creación de plantillas de correo electrónico
+# Creación de plantilla de correo electrónico
 
 Después de [crear una plantilla de correo electrónico](./email-templates.md#create-an-email-template), use el diseñador visual para crear los componentes estructurales y de contenido en la plantilla de correo electrónico.
 
@@ -42,7 +43,7 @@ Una vez guardada la plantilla, aparece en la página de detalles del fragmento a
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### Personalizar contenido
+### Personalización del contenido
 
 {{$include /help/_includes/content-design-personalization.md}}
 

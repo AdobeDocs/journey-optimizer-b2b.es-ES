@@ -1,10 +1,11 @@
 ---
 title: Páginas de destino
 description: Obtenga información acerca de las páginas de aterrizaje y cómo crearlas y administrarlas para admitir recorridos y campañas de cuenta.
-feature: Content
+feature: Landing Pages, Content
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 2%
@@ -183,7 +184,7 @@ Las ediciones realizadas en una página de aterrizaje dependen de su estado actu
    * [Añadir estructura y contenido](./landing-page-design.md#add-structure-and-content)
    * [Añadir Assets](./landing-page-design.md#add-assets)
    * [Desplazamiento por las capas, la configuración y los estilos](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalizar contenido](./landing-page-design.md#personalize-content)
+   * [Personalización del contenido](./landing-page-design.md#personalize-content)
    * [Editar seguimiento de URL vinculadas](./landing-page-design.md#edit-linked-url-tracking)
 
 1. Haga clic en **[!UICONTROL Guardar]** o **[!UICONTROL Guardar y cerrar]** para volver a los detalles de la página de aterrizaje.
@@ -211,7 +212,7 @@ Las ediciones realizadas en una página de aterrizaje dependen de su estado actu
    * [Añadir estructura y contenido](./landing-page-design.md#add-structure-and-content)
    * [Añadir Assets](./landing-page-design.md#add-assets)
    * [Desplazamiento por las capas, la configuración y los estilos](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalizar contenido](./landing-page-design.md#personalize-content)
+   * [Personalización del contenido](./landing-page-design.md#personalize-content)
    * [Editar seguimiento de URL vinculadas](./landing-page-design.md#edit-linked-url-tracking)
 
 1. Haga clic en **[!UICONTROL Guardar]** o **[!UICONTROL Guardar y cerrar]** para volver a los detalles de la página de aterrizaje.
@@ -233,7 +234,7 @@ Para actualizar el contenido:
    * [Añadir estructura y contenido](./landing-page-design.md#add-structure-and-content)
    * [Añadir Assets](./landing-page-design.md#add-assets)
    * [Desplazamiento por las capas, la configuración y los estilos](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalizar contenido](./landing-page-design.md#personalize-content)
+   * [Personalización del contenido](./landing-page-design.md#personalize-content)
    * [Editar seguimiento de URL vinculadas](./landing-page-design.md#edit-linked-url-tracking)
 
 1. Haga clic en **[!UICONTROL Guardar]** o **[!UICONTROL Guardar y cerrar]** para volver a los detalles de la página de aterrizaje.

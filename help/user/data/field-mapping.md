@@ -1,8 +1,10 @@
 ---
 title: Campos XDM
 description: Revise los campos de atributos predeterminados que se sincronizan entre Adobe Experience Platform y Journey Optimizer B2B edition.
+feature: Data Management, Integrations
+role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 16%
@@ -15,7 +17,7 @@ Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuent
 
 >[!TIP]
 >
->Puede modelar clases de persona de negocios XDM y de cuenta de negocios XDM en una relación de varios a varios mediante la clase de relación de persona de cuenta de negocios XDM como se describe en la [documentación de Experience Platform XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Puede modelar clases de persona de negocios XDM y de cuenta de negocios XDM en una relación de varios a varios mediante la clase de relación de persona de cuenta de negocios XDM como se describe en la [documentación de Experience Platform XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Atributos de relación de persona de la cuenta XDM
 
@@ -79,7 +81,7 @@ Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuent
 
 ## Atributos de oportunidad empresarial de XDM
 
-Además, los datos de oportunidad se almacenan como atributos en la clase de oportunidad empresarial de XDM, que se puede asociar a la clase de cuenta empresarial de XDM mediante una relación de varios a uno, como se describe en la [documentación de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Además, los datos de oportunidad se almacenan como atributos en la clase de oportunidad empresarial de XDM, que se puede asociar a la clase de cuenta empresarial de XDM mediante una relación de varios a uno, como se describe en la [documentación de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 | [Propiedad](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | Nombre para mostrar | Nombre para mostrar de Journey Optimizer B2B | Tipo de datos | Descripción |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

@@ -2,8 +2,9 @@
 title: Contenido condicional
 description: Aprenda a crear variaciones de contenido y aplicar reglas condicionales al crear contenido de correo electrónico para recorridos de cuenta.
 feature: Email Authoring, Content
+role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 14%

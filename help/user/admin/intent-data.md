@@ -1,9 +1,10 @@
 ---
 title: Datos por intención
 description: Aprenda a ensamblar y enviar palabras clave para generar datos de intención para Journey Optimizer B2B edition.
-feature: Setup, Account Insights
+feature: Setup, Intent, Account Insights
 roles: Admin
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%

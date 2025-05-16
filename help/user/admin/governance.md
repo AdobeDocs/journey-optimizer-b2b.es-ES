@@ -1,8 +1,10 @@
 ---
 title: Funciones de gobernanza
 description: Obtenga información acerca de las funciones de gobernanza que están disponibles actualmente en Journey Optimizer B2B edition.
+feature: Setup
+role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 3198ba223125c95263d8dcf5ee8cb285a888a26a
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -15,7 +17,7 @@ Journey Optimizer B2B edition es una aplicación integrada de Adobe Experience P
 
 ## Privacidad - RGPD
 
-Journey Optimizer B2B edition utiliza las funciones de control del RGPD de Marketo Engage existentes proporcionadas por el Privacy Service y el Servicio de agente de privacidad de Marketo.
+Journey Optimizer B2B edition utiliza las funciones de control del RGPD de Marketo Engage existentes que proporcionan Privacy Service y el servicio de agente de privacidad de Marketo.
 
 ## Control de acceso basado en roles (RBAC)
 
@@ -23,7 +25,7 @@ Con Journey Optimizer B2B edition y el acceso a Adobe Admin Console, los adminis
 
 ## Cifrado de datos
 
-**_Cifrado para datos en reposo_**: todos los datos de cuentas y perfiles de persona transferidos desde Adobe Experience Platform a Journey Optimizer B2B edition están cifrados para mantener la conformidad existente del Experience Platform. Todas las entidades que se originan en Journey Optimizer B2B edition, como recorridos y grupos de compra, también están cifradas.
+**_Cifrado para datos en reposo_**: todos los datos de cuentas y perfiles de persona transferidos desde Adobe Experience Platform a Journey Optimizer B2B edition están cifrados para mantener la conformidad existente desde Experience Platform. Todas las entidades que se originan en Journey Optimizer B2B edition, como recorridos y grupos de compra, también están cifradas.
 
 **_Cifrado para datos en tránsito_** (a través de una red pública): todas las entidades y API de Journey Optimizer B2B edition se cifran en tránsito mediante TLS 1.2.
 

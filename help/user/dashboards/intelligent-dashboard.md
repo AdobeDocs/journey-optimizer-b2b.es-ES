@@ -1,9 +1,10 @@
 ---
 title: Panel de control inteligente
 description: Obtenga información acerca del tablero inteligente, que proporciona una vista completa de las métricas de grupos de compras y cuentas
-feature: Dashboards, Buying Groups
+feature: Dashboards, Intelligent Insights, Buying Groups
+role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1688'
 ht-degree: 15%
@@ -77,7 +78,7 @@ Haga clic en el icono _Filtro_ ( ![Editar icono](../assets/do-not-localize/icon-
 
 * Interés de solución
 * Cuenta
-* Nombre del escenario
+* Nombre de fase
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
@@ -296,7 +297,7 @@ Haga clic en _Información_ ( ![icono de información](../assets/do-not-localize
 Haga clic en el icono _Filtro_ ( ![Icono de filtro](../assets/do-not-localize/icon-filter.svg) ) en la parte superior izquierda para filtrar la visualización de datos con cualquiera de estos atributos:
 
 * Interés de la solución
-* Roles
+* Funciones
 * Cuentas
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->

@@ -4,7 +4,7 @@ description: Como nuevo usuario de la edición B2B de Journey Optimizer, obtenga
 role: Admin, User
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ En función de su organización, puede definir varios tipos de usuarios y conced
 
 >[!TIP]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 >[!BEGINTABS]
 
