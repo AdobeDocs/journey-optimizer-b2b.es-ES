@@ -1,8 +1,10 @@
 ---
 title: Exportar la lista de cuentas
 description: Obtenga información sobre cómo exportar la lista de cuentas en función del filtro de grupos de compra.
+feature: Account Lists
+role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: ht
 source-wordcount: '253'
 ht-degree: 100%

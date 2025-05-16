@@ -2,8 +2,9 @@
 title: Grupos de compras
 description: Descubra cómo los grupos de compras en Journey Optimizer B2B Edition pueden aumentar la eficacia del marketing al identificar y segmentar miembros para sus listas de cuentas.
 feature: Buying Groups
+role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: ht
 source-wordcount: '1782'
 ht-degree: 100%
@@ -204,4 +205,4 @@ La puntuación de participación final se calcula aplicando la ponderación para
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

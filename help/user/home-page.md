@@ -1,8 +1,10 @@
 ---
 title: Página de inicio de sesión y principal
 description: Obtenga información sobre cómo acceder a la aplicación de Journey Optimizer B2B Edition y utilizar la información de la página principal.
+feature: Home Page
+role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: ht
 source-wordcount: '444'
 ht-degree: 100%
