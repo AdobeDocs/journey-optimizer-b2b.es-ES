@@ -102,4 +102,4 @@ No se puede eliminar ningún interés de solución que esté actualmente en uso 
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3450116/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
