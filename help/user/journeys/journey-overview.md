@@ -155,4 +155,4 @@ Utilice una acción de eliminación para eliminar un recorrido de forma permanen
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443210/?learn=on&captions=spa)
