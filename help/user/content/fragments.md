@@ -286,7 +286,7 @@ Los fragmentos están diseñados para su reutilización y se pueden insertar par
 
 1. Vaya a **[!UICONTROL Recorridos de cuenta]** y abra un recorrido recorrido existente o cree uno nuevo.
 
-1. Crear un nodo [_[!UICONTROL Enviar correo electrónico ]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Crear un nodo [_[!UICONTROL Enviar correo electrónico &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Cree o edite el contenido de [correo electrónico para el nodo](./email-authoring.md).
 
