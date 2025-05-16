@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Adobe Journey Optimizer B2B edition se integra con Adobe Experience Manager Assets as a Cloud Service, lo que permite algo más que usar recursos como correos electrónicos en un recorrido de cuenta. Garantiza la transparencia al intercambiar información con Experience Manager Assets. Configure la conexión a Adobe Experience Assets para habilitar esta capacidad.
 
-Adobe Experience Manager Cloud Manager está organizado en programas y cada programa tiene varios entornos y repositorios ([Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Al configurar Adobe Experience Manager Assets en Adobe Journey Optimizer B2B edition, se configuran las conexiones a cada repositorio que desea utilizar para acceder a los recursos digitales.
+Adobe Experience Manager Cloud Manager está organizado en programas y cada programa tiene varios entornos y repositorios ([Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Al configurar Adobe Experience Manager Assets en Adobe Journey Optimizer B2B edition, se configuran las conexiones a cada repositorio que desea utilizar para acceder a los recursos digitales.
 
 {{aem-assets-licensing-note}}
 
 ## Requisitos previos
 
-* Genere las credenciales de servicio para el entorno deseado en AEM Headless Developer Console ([Más información](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Genere las credenciales de servicio para el entorno deseado en AEM Headless Developer Console ([Más información](https://experienceleague.adobe.com/es/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Adquiera los certificados necesarios para la conexión. Como práctica recomendada, asegúrese de que restan al menos seis meses para la caducidad de los certificados. Los certificados caducan cada 365 días.
 * Adobe Journey Optimizer B2B edition admite el acceso a una fuente de administración de recursos digitales a la vez. Asegúrese de que los recursos necesarios estén disponibles en Adobe Experience Manager antes de cambiar.
 
