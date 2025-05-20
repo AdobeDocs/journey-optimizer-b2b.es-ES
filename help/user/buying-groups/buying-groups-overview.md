@@ -5,20 +5,20 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: d1130841ed3c560208bc93c53a54169f9b0b94aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1778'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Grupos de compras
 
-Para las actividades de ventas y marketing B2B, las cuentas son clave para cualquier estrategia. Cada cuenta tiene un grupo de personas asociadas a ella y estas personas pueden ser empleados de la cuenta o contratistas que trabajen con la cuenta. Las cuentas son jerárquicas y los productos pueden venderse en diferentes niveles de jerarquía. Por ejemplo, Adobe Experience Platform se podría vender en el nivel corporativo a una cuenta de nivel superior. Y Adobe Photoshop se puede vender a una cuenta que represente una división o departamento dentro de una organización, como un departamento de diseño dentro de una corporación más grande.
+Para las actividades de ventas y marketing B2B, las cuentas son clave para cualquier estrategia. Cada cuenta tiene un grupo de personas asociadas a ella y estas personas pueden ser empleados de la cuenta o contratistas que trabajen con la cuenta. Las cuentas son jerárquicas y los productos pueden venderse en diferentes niveles de jerarquía. Por ejemplo, Adobe Experience Platform podría venderse a nivel corporativo a una cuenta de nivel superior. Y Adobe Photoshop podría venderse a una cuenta que represente a una división o departamento dentro de una organización, como un departamento de diseño dentro de una corporación más grande.
 
 ![Diagrama de funciones de cuenta](assets/account-roles-diagram.png){width="800"}
 
-En la cuenta podría haber un subconjunto de personas que forman el _grupo de compras_. En última instancia, estas personas toman la decisión de compra, por lo que necesitan una atención especial del experto en marketing y es posible que necesiten que se les entregue información diferente a la de las demás personas asociadas con la cuenta. Los grupos de compra pueden incluir un grupo diferente de personas para diferentes líneas u ofertas de productos. Por ejemplo, un producto de ciberseguridad suele requerir la aprobación de una compra por parte de un director de información o de seguridad, y un representante del departamento jurídico, pero un producto de seguimiento de errores suele tener como miembros del grupo de compras a un vicepresidente de ingeniería y un director de TI.
+En la cuenta podría haber un subconjunto de personas que forman el _grupo de compras_. Estas son las personas que finalmente toman la decisión de compra, por lo que el experto en marketing debe prestarles una atención especial ya que podrían necesitar una información distinta a la de las demás personas asociadas con la cuenta. Los grupos de compra pueden incluir un grupo diferente de personas para diferentes líneas u ofertas de productos. Por ejemplo, un producto de ciberseguridad suele requerir la aprobación de una compra por parte de un director de información o de seguridad, y un representante del departamento jurídico, pero un producto de seguimiento de errores suele tener como miembros del grupo de compras a un vicepresidente de ingeniería y un director de TI.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](#overview-video)
 
@@ -126,7 +126,7 @@ La puntuación de participación en el grupo de compras es un número que determ
 | Ha hecho clic en llamada a la acción en el seminario web | Hace clic en un vínculo de llamada a la acción en un evento de seminario web | Llamar | 20 | 30 |
 | Descargas de recursos en el seminario web | Descarga un archivo o recurso en un evento de seminario web | Evento | 20 | 60 |
 | Realiza preguntas en el seminario web | Hace preguntas en un evento de seminario web | Evento | 20 | 60 |
-| Asistió al evento | Ha asistido a un evento | Evento | 20 | 60 |
+| Asistió al evento | Asistió a un evento | Evento | 20 | 60 |
 | Interactuó con un agente en el diálogo | Interactúa con un agente en un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
 | Ha hecho clic en un vínculo del chat en el diálogo | Hace clic en un vínculo de un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
 | Ha participado en un flujo conversacional | Interactúa con un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
@@ -205,4 +205,4 @@ La puntuación de participación final se calcula aplicando la ponderación para
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
