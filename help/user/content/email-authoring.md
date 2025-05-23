@@ -4,20 +4,20 @@ description: Aprenda a crear contenido de correo electrónico en Adobe Journey O
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '928'
 ht-degree: 15%
 
 ---
 
 # Creación de mensajes de correo electrónico
 
-Después de &lbrack;agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido&rbrack;(./add-email.md), puede definir el contenido del mensaje de correo electrónico.
+Después de [agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido](./add-email.md), puede definir el contenido del mensaje de correo electrónico.
 
-Haga clic en **[!UICONTROL Agregar contenido de correo electrónico]** en la parte superior del panel de vista previa de _[!UICONTROL Correo electrónico]_.
+Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la ficha _[!UICONTROL Detalles]_ del panel derecho.
 
-![Haga clic en Agregar contenido de correo electrónico ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Haga clic en Editar contenido de correo electrónico ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Esta acción inicia las herramientas de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
@@ -26,8 +26,6 @@ Esta acción inicia las herramientas de diseño de correo electrónico, donde pu
 * [Importe contenido existente de HTML](#import-existing-html-content) desde un archivo o una carpeta .zip.
 
 * [Seleccione una plantilla existente](#select-a-template) de una lista de plantillas de correo electrónico integradas o personalizadas.
-
-Para configurar y personalizar la línea de asunto con el editor de expresiones, haga clic en el icono _Personalization_ y agregue cualquiera de los tokens de Marketo Engage.
 
 Después de crear y personalizar el contenido del correo electrónico, puede exportarlo para su validación o uso posterior. Haga clic en **[!UICONTROL Exportar HTML]** para guardar el contenido como un archivo .zip que incluya su HTML y sus recursos.
 
@@ -47,10 +45,9 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 >title="Acerca de los componentes de contenido"
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje."
 
-Utilice el editor de contenido visual para definir la estructura del contenido del correo electrónico. Al agregar y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar la forma del contenido del correo electrónico reutilizable en cuestión de segundos.
+Utilice el espacio de diseño de contenido visual para definir la estructura y el contenido del correo electrónico. Al agregar y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar la forma del contenido del correo electrónico reutilizable en cuestión de segundos.
 
 1. En la página de inicio de _[!UICONTROL Diseña tu plantilla]_, selecciona la opción **[!UICONTROL Diseñar desde cero]**.
-
 1. [Agregar estructura y contenido](#add-structure-and-content) al mensaje de correo electrónico.
 1. [Agregar recursos de imagen](#add-assets) al mensaje de correo electrónico.
 1. [Personalizar el contenido del correo electrónico](#personalize-content).
