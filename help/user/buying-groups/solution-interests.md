@@ -4,9 +4,9 @@ description: Conozca los intereses de la solución y cómo puede definirlos para
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,13 @@ Antes de crear grupos compradores, debes saber qué estás vendiendo y a quién 
 
 1. En la página _[!UICONTROL Grupos de compra]_, seleccione la pestaña **[!UICONTROL Interés de la solución]**.
 
+   La pestaña proporciona una lista de inventario de todos los intereses de la solución existentes. Muestra la siguiente información en formato de columna: _[!UICONTROL Nombre]_, _[!UICONTROL Plantilla de roles]_, _[!UICONTROL Trabajos de creación de grupos de compras]_, _[!UICONTROL Actualizar grupos de compras]_, _[!UICONTROL Fecha de creación]_, _[!UICONTROL Creado por]_, _[!UICONTROL Última actualización]_ y _[!UICONTROL Última actualización por]_,
+
+   La lista está ordenada de forma predeterminada por la columna _[!UICONTROL Última actualización]_. Haga clic en el título de la columna en el encabezado para alternar el orden entre descendente y ascendente.
+
+   Escriba texto en la herramienta _Buscar_ situada en la parte superior de la lista para filtrar la lista mostrada por nombre.
+
    ![Ficha Interés de la solución](assets/solution-interest-tab.png){width="700" zoomable="yes"}
-
-   La pestaña proporciona una lista de inventario de todos los intereses de la solución existentes. Muestra la siguiente información en formato de columna: _[!UICONTROL Nombre]_, _[!UICONTROL Plantilla de roles]_, _[!UICONTROL Comprar trabajos de creación de grupos]_, _[!UICONTROL Última actualización el]_, _[!UICONTROL Actualizado el]_, _[!UICONTROL Creado el]_ y _[!UICONTROL Creado el]_
-
-   La lista está ordenada de forma predeterminada por la columna _[!UICONTROL Última actualización el]_. Haga clic en el título de la columna en el encabezado para alternar el orden entre descendente y ascendente.
 
 ## Ver y eliminar trabajos de grupos de compra
 
@@ -102,4 +104,4 @@ No se puede eliminar ningún interés de solución que esté actualmente en uso 
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3450116/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

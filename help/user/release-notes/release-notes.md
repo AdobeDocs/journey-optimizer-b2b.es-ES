@@ -1,11 +1,12 @@
 ---
-title: Notas de la versión
-description: Últimas notas de la versión de Adobe Journey Optimizer B2B Edition
+title: Rotaciones de la versión de Journey Optimizer B2B edition
+description: Obtenga información sobre las últimas funciones y mejoras de Adobe Journey Optimizer B2B edition.
+role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c3f2d57da830c46bd1e91d172db14f5400aabfca
-workflow-type: ht
-source-wordcount: '2030'
-ht-degree: 100%
+source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
+workflow-type: tm+mt
+source-wordcount: '2190'
+ht-degree: 89%
 
 ---
 
@@ -15,11 +16,24 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+
+## Notas de la versión 2025.5
+
+**Fecha de implementación**: 3 de junio de 2025
+
+Esta versión incorpora las siguientes nuevas funciones y mejoras:
+
+| Tipo | Elemento | Descripción |
+| ---- | ---- | ----------- |
+| Función | Integración con GenStudio for Performance Marketing | (Disponibilidad limitada) Ahora puede integrar las experiencias de correo electrónico de GenStudio for Performance Marketing con Journey Optimizer B2B edition para mejorar la eficacia del marketing y mantener la coherencia de la marca. Con esta integración, puede combinar la creación de contenido con tecnología de IA de GenStudio con las funciones de orquestación avanzadas de Journey Optimizer B2B edition. [Más información](../content/genstudio-email-workflow.md) |
+| Mejora | Formato del token del manillar para correo electrónico | Los tokens de Personalization para el contenido del correo electrónico ahora utilizan un formato actualizado que es totalmente compatible con los scripts del Handlebar. Este formato usa _mayúsculas y minúsculas_ o guiones bajos, lo que elimina espacios. [Más información](../content/email-authoring.md#content-authoring---personalization) |
+| Mejora | Visualización del recuento total de listas | Las páginas de la lista _[!UICONTROL Intereses de la solución]_ y _[!UICONTROL Recorridos de la cuenta]_ se han mejorado con la visualización del recuento total junto a la barra de búsqueda. |
+
 
 ## Notas de la versión 2025.4
 
-**Fecha de lanzamiento**: martes, 29 de abril de 2025
+**Fecha de implementación**: 29 de abril de 2025
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
@@ -34,7 +48,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 ## Notas de la versión 2025.3
 
-**Fecha de lanzamiento**: 1 de abril de 2025
+**Fecha de implementación**: 1 de abril de 2025
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
@@ -47,27 +61,27 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 ## Notas de la versión 2025.2
 
-**Fecha de lanzamiento**: 11 de marzo de 2025
+**Fecha de implementación**: 11 de marzo de 2025
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Campos personalizables: fragmentos de contenido | Como diseñador de fragmentos de contenido, puede designar un parámetro para un componente del fragmento como editable. Esta función permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones. <a href="../content/fragment-authoring.md#enable-fragment-customization">Más información</a> |
+| Función | Campos personalizables: fragmentos de contenido | Durante el diseño del fragmento visual, puede designar parámetros para un componente del fragmento como editables. Esta función permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones. <a href="../content/fragment-authoring.md#enable-fragment-customization">Más información</a> |
 | Función | Funciones integradas y permisos del producto B2B | Experience Platform ahora incluye un conjunto de funciones integradas (predeterminadas) que puede utilizar para administrar el acceso a las funciones de los productos B2B. <a href="../admin/user-management.md#b2b-built-in-roles">Más información</a> <br/>Los administradores ahora pueden definir funciones personalizadas en Adobe Experience Platform para incluir permisos de productos de Journey Optimizer B2B Edition.  <a href="../admin/user-management.md#b2b-product-permissions">Más información</a> |
 | Función | Tipos de duplicación del recorrido | Cuando duplica el recorrido de una cuenta, puede incluir detalles del nodo, excluyendo los correos electrónicos y mensajes de SMS creados en Journey Optimizer B2B Edition. Como alternativa, puede crear una copia esqueleto de la estructura y los flujos de ruta, sin detalles del nodo ni ajustes. <a href="../journeys/journey-overview.md#duplicate-journey">Más información</a> |
 | Mejora | Cuatro plantillas de correo electrónico de muestra adicionales | La biblioteca de plantillas de correo electrónico de ejemplo ahora incluye cuatro plantillas de SecureFinancial como ejemplos para volver a participar, informar, alimentar y dar ejemplos de contenido de comentarios |
 
 ## Notas de la versión 2025.1 {#Jan-2025}
 
-**Fecha de lanzamiento**: 6 de febrero de 2025
+**Fecha de implementación**: 6 de febrero de 2025
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
 | Función | Reenvío de eventos de experiencia | Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP). Estas configuraciones permiten a los especialistas en marketing crear recorridos de cuenta que reaccionan a los eventos de experiencia de AEP.  <a href="../admin/configure-aep-events.md">Más información</a> |
-| Función | Destinos de medios de pago | Capacite a personas conocidas para campañas de medios de pago desde un recorrido de cuentas, de modo que pueda participar en plataformas de publicidad como LinkedIn. Utilice un nodo de rutas divididas en un recorrido de cuentas para segmentar las audiencias de cuentas en función de comportamientos específicos e identificar cuentas que garanticen una participación adicional. A continuación, añada personas de esas cuentas a una audiencia de cliente externa a través de Real-Time CDP a un destino de medios de pago admitido. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Más información</a> |
+| Función | Destinos de medios de pago | Capacite a personas conocidas para campañas de medios de pago desde un recorrido de cuentas, de modo que pueda participar en plataformas de publicidad como LinkedIn. Utilice un nodo de ruta dividida en un recorrido de cuentas para segmentar las audiencias de cuentas en función de comportamientos específicos e identificar cuentas que garanticen una participación adicional. A continuación, añada personas de esas cuentas a una audiencia de cliente externa a través de Real-Time CDP a un destino de medios de pago admitido. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Más información</a> |
 | Función | Panel de control inteligente | Vea la progresión de la compra de grupos a través de los recorridos de su cuenta, incluidas las perspectivas generadas por IA para un análisis más inteligente y una priorización precisa de la cuenta. <a href="../dashboards/intelligent-dashboard.md">Más información</a> |
 | Función | Grupo de compras y detalles de la cuenta | Vea perspectivas en el nivel de grupo de compras y de cuenta para tener más contexto y datos históricos cuando empiece a interactuar con un cliente.<p>Los detalles del grupo de compras incluyen cualquier intención de origen que se detecte. <a href="../buying-groups/buying-group-details.md">Más información</a><p>Las cuentas de detalles de la cuenta resaltan el aumento en la participación detectada por intención, de modo que puede alertar a las ventas sobre cuentas que están listas para una participación personalizada centrada en las ventas.  <a href="../accounts/account-details.md">Más información</a> |
 | Función | Información general sobre recorridos | Al acceder a los recorridos de la cuenta, la pestaña Información general ofrece una instantánea completa de los recorridos de la cuenta activa, en la que se detalla el progreso de la cuenta mediante diagramas de círculos y barras que categorizan y cuantifican las finalizaciones y las actividades de participación.  <a href="../dashboards/journeys-dashboard.md">Más información</a> |
@@ -78,10 +92,13 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Mejora | Filtro de abono a listas de Marketo Engage para recorridos y funciones | En Journey Optimizer B2B, compruebe el abono a la lista Marketo Engage como condición para un nodo _split path by people_ para eliminar la duplicación en las actividades de recorrido. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Más información</a> <p> Para las plantillas de funciones de grupo de compras, utilice el abono a las listas como condición de función. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Más información</a> |
 | Mejora | Panel de información general de participación | Este panel se actualiza para proporcionar una vista completa de la participación. Muestra métricas en tiempo real de interacciones de cuenta e individuales a través de gráficos de círculos de instantáneas y gráficos de líneas de tendencia reveladora a lo largo del tiempo. <a href="../dashboards/engagement-dashboard.md">Más información</a> |
 
+## Versiones de 2024
 
-## Notas de la versión de octubre de 2024 {#Oct-2024}
+Amplíe las siguientes listas para las funciones y mejoras de Journey Optimizer B2B edition publicadas en 2024.
 
-**Fecha de lanzamiento**: 29 de octubre de 2024
++++Notas de la versión de octubre de 2024
+
+**Fecha de implementación**: 29 de octubre de 2024
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
@@ -95,9 +112,11 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Mejora | Campos personalizados como atributos de persona | Si tiene campos de persona personalizados definidos en el esquema de audiencia de cuenta en Experience Platform, estos campos también están disponibles para usarlos como atributos de persona en condiciones. Utilice estos atributos personalizados en lo siguiente: <li>Plantillas de funciones <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Más información</a></li><li>Dividir rutas por nodos de recorrido de personas <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Más información</a></li> |
 | Mejora | Configuración del canal de correo electrónico | La configuración de correo electrónico ahora está visible en la interfaz de Journey Optimizer B2B Edition. Puede revisar rápidamente las configuraciones actuales y los administradores pueden hacer clic en _[!UICONTROL Editar configuración]_ para ir directamente a la configuración en Marketo Engage y actualizarla según los requisitos de su organización. <a href="../admin/configure-channels-emails.md">Más información</a> |
 
-## Notas de la versión de septiembre de 2024 {#Sept-2024}
++++
 
-**Fecha de lanzamiento**: 7 de octubre de 2024
++++Notas de la versión de septiembre de 2024
+
+**Fecha de implementación**: 7 de octubre de 2024
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
@@ -108,9 +127,11 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Mejora | Nodo dividido en recorrido: reordenar rutas | En los nodos de ruta dividida, el filtrado de ruta se evalúa en orden descendente. Cada persona o cuenta avanza por la primera ruta que coincida. Puede reordenar las rutas definidas haciendo clic en las flechas arriba y abajo en la parte superior derecha de cada tarjeta de ruta para moverla hacia arriba o hacia abajo en la lista. <a href="../journeys/split-merge-paths-nodes.md#split-paths">Más información</a> |
 | Mejora | Nodo dividido en recorrido: atributos de condición del historial de actividades adicionales | Cuando se utilizan condiciones para definir el filtrado de ruta de acceso de un nodo dividido por personas, existen dos atributos adicionales: _Correo electrónico abierto_ y _Correo electrónico enviado_. Estas adiciones proporcionan una mayor flexibilidad para filtrar personas en recorridos en función de la actividad de correo electrónico. <a href="../journeys/journey-nodes.md#split-paths">Más información</a> |
 
-## Notas de la versión de agosto de 2024 {#Aug-2024}
++++
 
-**Fecha de lanzamiento**: 29 de agosto de 2024
++++Notas de la versión de agosto de 2024
+
+**Fecha de implementación**: 29 de agosto de 2024
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
@@ -118,3 +139,5 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | ---- | ---- | ----------- |
 | Función | Audiencias coincidentes de cuenta de LinkedIn | Genere audiencias de publicidad de LinkedIn mediante Audiencias coincidentes con la cuenta para completar funciones vacías en sus grupos de compras. Al definir un conjunto de filtros de grupo de compras, puede mantener una audiencia coincidente de LinkedIn para segmentar a los posibles clientes que coincidan con los parámetros del grupo de compras. <p>Esta función aprovecha los destinos de Experience Platform para administrar algunos aspectos de la integración. <a href="../data/linkedin-account-matched-audiences.md">Más información</a> |
 | Mejora | Ciclo de vida de estado para fragmentos de contenido visual | Los fragmentos visuales ahora se administran mediante un ciclo vital de estado. El estado del fragmento determina su disponibilidad para utilizarlo en un correo electrónico o plantilla de correo electrónico, y los cambios que puede realizar en él. <p>Este flujo de trabajo mejorado facilita la administración del contenido reutilizado según el calendario promocional y de comunicaciones. <a href="../content/fragments.md#fragment-status-and-lifecycle">Más información</a> |
+
++++

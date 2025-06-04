@@ -4,7 +4,7 @@ description: Aprenda a crear contenido de correo electrónico en Adobe Journey O
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
+source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 15%
@@ -13,7 +13,7 @@ ht-degree: 15%
 
 # Creación de mensajes de correo electrónico
 
-Después de &lbrack;agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido&rbrack;(./add-email.md), puede definir el contenido del mensaje de correo electrónico.
+Después de [agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido](./add-email.md), puede definir el contenido del mensaje de correo electrónico.
 
 Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la ficha _[!UICONTROL Detalles]_ del panel derecho.
 
@@ -113,7 +113,7 @@ Una vez guardado el correo electrónico, aparecerá en la página de detalles de
 
 ### Personalización del contenido
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 >[!NOTE]
 >

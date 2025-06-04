@@ -2,10 +2,10 @@
 title: Documentación de Adobe Journey Optimizer B2B Edition
 description: Aprenda a utilizar las funciones de Adobe Journey Optimizer B2B Edition para organizar recorridos de cuenta y de grupo de compras mediante IA generativa integrada y una automatización líder del sector.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 5d16e14a87aabb87fab9f06ea597ca671c66b7e3
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 100%
 A continuación puede ver un muestreo de las últimas adiciones y mejoras de la aplicación y la documentación de Journey Optimizer B2B Edition.
 
 >[!BEGINTABS]
+
+>[!TAB Experiencias de correo electrónico de GenStudio]
+
+Integre las experiencias de correo electrónico de GenStudio for Performance Marketing con Journey Optimizer B2B edition para mejorar la eficacia del marketing y mantener la coherencia de la marca. Con esta integración, puede combinar la creación de contenido con tecnología de IA de GenStudio con las funciones de orquestación avanzadas de Journey Optimizer B2B edition.
+
+[!BADGE Más información]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Obtenga información sobre las experiencias de correo electrónico de GenStudio"}
 
 >[!TAB Listas de cuentas]
 
@@ -54,12 +60,6 @@ Utilice las Acciones rápidas de Adobe Express para retocar el contenido con el 
 Con las licencias de Adobe Express Enterprise, puede aprovechar un conjunto completo de funcionalidades de Adobe Express. Utilice estas funciones para pulir y mejorar las imágenes, respetando las directrices de marca, y quite los obstáculos en la cadena de suministro de contenido.
 
 [!BADGE Más información]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Obtenga información sobre la edición de imágenes con Adobe Express"}
-
->[!TAB Campos personalizables de fragmento]
-
-Como diseñador de contenido, puede designar un parámetro para un componente del fragmento como editable. Esta configuración permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones.
-
-[!BADGE Más información]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Obtenga información sobre los campos personalizados para fragmentos de contenido"}
 
 >[!ENDTABS]
 
@@ -121,7 +121,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Contenido del recorrido"><br/>
-      <strong>Contenido del recorrido</strong><br/><a href="./content/add-email.md">Canal de correo electrónico</a><br/><a href="./content/ai-assistant-emails.md">Asistente de IA para correo electrónico</a><br/><a href="./content/sales-alert-email.md">Correo electrónico de alerta de ventas</a><br/><a href="./content/sms-authoring.md">Canal de SMS</a>
+      <strong>Contenido de Recorrido</strong><br/><a href="./content/add-email.md">Canal de correo electrónico</a><br/><a href="./content/ai-assistant-emails.md">Asistente de IA para correo electrónico</a><br/><a href="./content/genstudio-email-workflow.md">Experiencias de correo electrónico de GenStudio</a><br/><a href="./content/sales-alert-email.md">Correo electrónico de alerta de ventas</a><br/><a href="./content/sms-authoring.md">Canal de SMS</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Administración de contenido"><br/>
@@ -139,7 +139,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/home" target="_blank">Documentación</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>

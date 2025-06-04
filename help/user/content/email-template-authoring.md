@@ -4,16 +4,16 @@ description: Aprenda a crear plantillas de correo electrónico de contenido que 
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 17%
+source-wordcount: '336'
+ht-degree: 16%
 
 ---
 
 # Creación de plantilla de correo electrónico
 
-Después de [crear una plantilla de correo electrónico](./email-templates.md#create-an-email-template), use el diseñador visual para crear los componentes estructurales y de contenido en la plantilla de correo electrónico.
+Después de [crear una plantilla de correo electrónico](./email-templates.md#create-an-email-template), use el espacio de diseño visual para crear los componentes estructurales y de contenido en la plantilla de correo electrónico.
 
 ## Añadir estructura y contenido {#structure-content}
 
@@ -45,7 +45,7 @@ Una vez guardada la plantilla, aparece en la página de detalles del fragmento a
 
 ### Personalización del contenido
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### Editar seguimiento de URL vinculadas
 
@@ -53,7 +53,7 @@ Una vez guardada la plantilla, aparece en la página de detalles del fragmento a
 
 ## Ver opciones
 
-Aproveche las opciones de vista y validación de contenido disponibles en el diseñador visual.
+Aproveche las opciones de vista y validación de contenido disponibles en el espacio de diseño visual.
 
 * Acercar/alejar el contenido en las opciones de zoom preestablecidas.
 
@@ -63,11 +63,11 @@ Aproveche las opciones de vista y validación de contenido disponibles en el dis
 
 ### Más opciones
 
-En el menú _[!UICONTROL Más...]_ de la parte superior del diseñador de correo electrónico, puede realizar las siguientes acciones:
+En el menú _[!UICONTROL Más...]_ de la parte superior del espacio de diseño del correo electrónico, puede realizar las siguientes acciones:
 
 ![Haga clic en Más para acceder a las acciones de plantilla](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Restablecer plantilla]** - Haga clic en esta opción para borrar el lienzo del diseñador visual en una pizarra en blanco y reiniciar la creación de contenido.
+* **[!UICONTROL Restablecer plantilla]**: haga clic en esta opción para borrar el lienzo de diseño en una pizarra en blanco y reiniciar la creación de contenido.
 * **[!UICONTROL Guardar como fragmento]**: guarde toda la plantilla o partes de ella como un fragmento para reutilizarlo en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para el fragmento y guárdelo en la lista de fragmentos disponibles.
 * **[!UICONTROL Cambia tu diseño]** - Vuelve a la página _Diseña tu plantilla_. A partir de ahí, puede elegir diseñar la plantilla desde cero o utilizar una plantilla existente para reiniciar el proceso de diseño.
 * **[!UICONTROL Exportar HTML]**: descargue el contenido del lienzo visual en su sistema local en formato HTML empaquetado como archivo zip.
