@@ -72,7 +72,7 @@ GenStudio for Performance Marketing reconoce ciertos elementos dentro de la HTML
 
 Utilice el archivo HTML para crear una plantilla en GenStudio for Performance Marketing.
 
-Para obtener información detallada sobre cómo cargar una plantilla de HTML en GenStudio en Adobe GenStudio for Performance Marketing, consulte [Agregar una plantilla](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) en la documentación de GenStudio for Performance Marketing.
+Para obtener información detallada sobre cómo cargar una plantilla de HTML en GenStudio en Adobe GenStudio for Performance Marketing, consulte [Agregar una plantilla](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) en la documentación de GenStudio for Performance Marketing.
 
 Al cargar la HTML exportada como plantilla, GenStudio for Performance Marketing busca en el archivo HTML campos reconocidos. Utilice la vista previa para revisar los elementos de plantilla y confirmar que los ha identificado correctamente con los nombres de campo reconocidos.
 
@@ -80,7 +80,7 @@ Al cargar la HTML exportada como plantilla, GenStudio for Performance Marketing 
 
 En GenStudio for Performance Marketing, utilice la plantilla para crear varias variaciones de experiencia de correo electrónico y guardarlas.
 
-Para obtener información detallada sobre cómo generar experiencias de correo electrónico de marca, consulte [Crear una experiencia de correo electrónico](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) en la documentación de GenStudio for Performance Marketing.
+Para obtener información detallada sobre cómo generar experiencias de correo electrónico de marca, consulte [Crear una experiencia de correo electrónico](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) en la documentación de GenStudio for Performance Marketing.
 
 ## Añadir experiencias de correo electrónico generadas a Journey Optimizer B2B edition
 
