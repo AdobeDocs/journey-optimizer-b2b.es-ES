@@ -1,13 +1,13 @@
 ---
 title: Recorridos de cuenta
-description: Empiece a usar los recorridos de cuenta y aprenda a usar la lista Recorridos de cuenta para administrarlos.
+description: Empiece a usar los recorridos de la cuenta y aprenda a usar la lista Recorridos de cuenta para administrarlos.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -30,19 +30,19 @@ Para empezar a usar los recorridos de cuenta:
 
 ## Acceso y exploración de recorridos de cuenta
 
-En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de cuentas]** y haga clic en **[!UICONTROL recorridos de cuentas]**.
+En el panel de navegación de la izquierda, expanda **[!UICONTROL Administración de cuentas]** y haga clic en **[!UICONTROL Recorridos de cuenta]**.
 
-Escriba texto en la herramienta _Buscar_ situada en la parte superior de la lista para filtrar la lista mostrada por nombre.
+Escriba el texto en la herramienta _Búsqueda_ situada en la parte superior de la lista para filtrar la lista mostrada por el nombre.
 
 ![Filtrar la lista de recorridos de la cuenta](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
-La página de lista _[!UICONTROL Recorridos de cuenta]_ incluye las siguientes columnas:
+La página de la lista _[!UICONTROL Recorridos de cuenta]_ incluye las siguientes columnas:
 
 * [!UICONTROL Nombre] (haga clic en el nombre para abrir el recorrido de la cuenta y editarlo)
 * [!UICONTROL Estado]
 * [!UICONTROL Descripción]
 * [!UICONTROL Creado por]
-* [!UICONTROL Última actualización el &#x200B;]
+* [!UICONTROL Última actualización el ]
 * [!UICONTROL Última actualización]
 * [!UICONTROL Publicado el]
 * [!UICONTROL Publicado por]
@@ -62,18 +62,18 @@ Haga clic en el nombre (mostrado como un vínculo) en la lista _[!UICONTROL reco
 El encabezado de cada mapa de recorrido de cuenta incluye lo siguiente:
 
 * Nombre del recorrido
-* Editar herramienta para el nombre del recorrido (![Editar icono](../assets/do-not-localize/icon-edit.svg) _Editar_ icono)
+* Herramienta de edición para el nombre del recorrido (![icono Editar](../assets/do-not-localize/icon-edit.svg) icono _Editar_)
 * Estado del recorrido
 
 El estado de un recorrido puede cambiar según las acciones que se apliquen. En función del estado de un recorrido, determinadas acciones no estarán disponibles en el lado derecho del encabezado.
 
 | Estado | Descripción | Acciones disponibles |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Borrador**&#x200B;_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicado](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Activo**&#x200B;_ | El estado del recorrido cambia de Borrador a Activo cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicado](#duplicate-journey)<li>[Cerca de nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
-| _&#x200B;**Cerrado a nuevas entradas**&#x200B;_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicado](#duplicate-journey) <li>[Anular](#abort-journey) |
-| _&#x200B;**Anulado**&#x200B;_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicado](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Finalizado**&#x200B;_ | Cuando todas las cuentas de un recorrido completen el recorrido, el estado cambiará de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicado](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Borrador**_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Activo**_ | El estado del recorrido cambia de Borrador a Activo cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
+| _**Cerrado a nuevas entradas**_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
+| _**Anulado**_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Finalizado**_ | Cuando todas las cuentas de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
 
 ## Administrar recorridos
 
@@ -85,7 +85,7 @@ Si anula (detiene) un recorrido activo o planificado , las cuentas del recorrido
 
 >[!IMPORTANT]
 >
->Cuando el recorrido de cuenta se usa en otro recorrido desde un nodo _Take an action_ con la acción _Add Account to (other) Recorrido_, al anular el recorrido se bloquea esa acción en ese recorrido.
+>Cuando el recorrido de la cuenta se usa en otro recorrido desde un nodo _Iniciar una acción_ con la acción _Añadir cuenta a (otro) recorrido_, al anular el recorrido se bloqueará esa acción en ese recorrido.
 
 1. Haga clic en el nombre del recorrido para abrirlo.
 
@@ -157,4 +157,4 @@ Utilice una acción de eliminación para eliminar un recorrido de forma permanen
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443210/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
