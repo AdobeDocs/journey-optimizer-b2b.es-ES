@@ -6,10 +6,11 @@ topic: Content Supply Chain
 level: Intermediate
 role: User
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: fe54f7eba982a29461aa922b408e6b4d68e6b0e2
+exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
+source-git-commit: 82bfb3b425bc7a3931b5ce8b925b860ef70d11fe
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="Uso de una plantilla creada con GenStudio"
->abstract="Utilice la integración con Adobe GenStudio for Performance Marketing para importar una plantilla de GenStudio mejorada con la tecnología de IA de Adobe."
+>abstract="Use la integración con Adobe GenStudio for Performance Marketing para importar fácilmente una plantilla de GenStudio mejorada con la tecnología de IA de Adobe."
 
 >[!AVAILABILITY]
 >
@@ -72,7 +73,7 @@ GenStudio for Performance Marketing reconoce ciertos elementos dentro de la HTML
 
 Utilice el archivo HTML para crear una plantilla en GenStudio for Performance Marketing.
 
-Para obtener información detallada sobre cómo cargar una plantilla de HTML en GenStudio en Adobe GenStudio for Performance Marketing, consulte [Agregar una plantilla](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) en la documentación de GenStudio for Performance Marketing.
+Para obtener información detallada sobre cómo cargar una plantilla de HTML en GenStudio en Adobe GenStudio for Performance Marketing, consulte [Agregar una plantilla](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) en la documentación de GenStudio for Performance Marketing.
 
 Al cargar la HTML exportada como plantilla, GenStudio for Performance Marketing busca en el archivo HTML campos reconocidos. Utilice la vista previa para revisar los elementos de plantilla y confirmar que los ha identificado correctamente con los nombres de campo reconocidos.
 
@@ -80,7 +81,7 @@ Al cargar la HTML exportada como plantilla, GenStudio for Performance Marketing 
 
 En GenStudio for Performance Marketing, utilice la plantilla para crear varias variaciones de experiencia de correo electrónico y guardarlas.
 
-Para obtener información detallada sobre cómo generar experiencias de correo electrónico de marca, consulte [Crear una experiencia de correo electrónico](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) en la documentación de GenStudio for Performance Marketing.
+Para obtener información detallada sobre cómo generar experiencias de correo electrónico de marca, consulte [Crear una experiencia de correo electrónico](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) en la documentación de GenStudio for Performance Marketing.
 
 ## Añadir experiencias de correo electrónico generadas a Journey Optimizer B2B edition
 
