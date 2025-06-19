@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: d5e69ad5e24147b4ab8e3876a9fbb5325499686a
+source-git-commit: edf6222e7378a9eed715bc35bc10e8d32cbdb5d5
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 97%
+source-wordcount: '268'
+ht-degree: 96%
 
 ---
 
@@ -62,7 +62,9 @@ ht-degree: 97%
    + [Detalles de la cuenta](./accounts/account-details.md)
    + [Campos de XDM](./data/field-mapping.md)
 + Administración de contenido {#content-management}
-   + [Correos electrónicos](./content/emails-list.md)
+   + Correos electrónicos {#emails}
+      + [Trabajo con contenido de correo electrónico](./content/emails-list.md)
+      + [Prueba del procesamiento de correo electrónico](./content/email-test-rendering.md)
    + Recursos {#assets}
       + [Información general](./content/assets-overview.md)
       + Recursos de Marketo Engage {#marketo-engage-dam}
@@ -74,9 +76,9 @@ ht-degree: 97%
       + Plantillas de correo electrónico {#email-templates}
          + [Información general](./content/email-templates.md)
          + [Creación de plantilla de correo electrónico](./content/email-template-authoring.md)
-      + Plantillas de página de aterrizaje {#landing-page-templates}
+      + Plantillas de página de destino {#landing-page-templates}
          + [Información general](./content/landing-page-templates.md)
-         + [Diseño de plantilla de la página de aterrizaje](./content/landing-page-template-design.md)
+         + [Diseño de plantilla de la página de destino](./content/landing-page-template-design.md)
    + Fragmentos {#visual-fragments}
       + [Información general](./content/fragments.md)
       + [Creación de fragmentos](./content/fragment-authoring.md)
@@ -85,7 +87,7 @@ ht-degree: 97%
       + [Diseño de formulario](./content/form-design.md)
    + Páginas de destino {#landing-pages}
       + [Información general](./content/landing-pages.md)
-      + [Diseño de la página de aterrizaje](./content/landing-page-design.md)
+      + [Diseño de la página de destino](./content/landing-page-design.md)
    + [Contenido condicional](./content/conditional-content.md)
 + Paneles de perspectivas  {#dashboards}
    + [Panel de control inteligente](./dashboards/intelligent-dashboard.md)
@@ -97,8 +99,8 @@ ht-degree: 97%
    + [Datos de intención](./admin/intent-data.md)
    + Canales {#channels}
       + [Configuraciones de correo electrónico](./admin/configure-channels-emails.md)
-      + [Configuraciones de SMS](./admin/configure-channels-sms.md)
+      + [Configuración de SMS](./admin/configure-channels-sms.md)
    + [Configuración de repositorios de AEM Assets](./admin/configure-aem-repositories.md)
    + [Configuración de definiciones de eventos de AEP](./admin/configure-aep-events.md)
-   + [Configuración de página de aterrizaje](./admin/landing-page-settings.md)
+   + [Configuración de página de destino](./admin/landing-page-settings.md)
    + [Gobernanza](./admin/governance.md)

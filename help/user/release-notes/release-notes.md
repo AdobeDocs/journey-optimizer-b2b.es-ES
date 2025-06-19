@@ -3,10 +3,10 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ae2acbde4fbabb5d49a532e8060005acf04f8b26
+source-git-commit: ffa88d48f2badec61901a5de394f59eca35674a3
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 100%
+source-wordcount: '2187'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2025.5
 
@@ -27,9 +27,9 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
 | Función | Integración con GenStudio for Performance Marketing | (Disponibilidad limitada) Ahora puede integrar las experiencias de correo electrónico de GenStudio for Performance Marketing con Journey Optimizer B2B Edition para mejorar la eficacia del marketing y mantener la coherencia de la marca. Con esta integración, puede combinar la creación de contenido con tecnología de IA de GenStudio con las funciones de orquestación avanzadas de Journey Optimizer B2B Edition. [Más información](../content/genstudio-email-workflow.md) |
+| Función | Pruebas de correo electrónico con Litmus | Con una [cuenta Litmus](https://www.litmus.com/email-testing){target="_blank"}, ahora puede obtener una vista previa del procesamiento de correo electrónico en clientes de correo electrónico populares desde Journey Optimizer B2B edition. Esta integración le ayuda a garantizar que el contenido del correo electrónico tenga un aspecto impecable y funcione según lo diseñado en cada bandeja de entrada de correo electrónico. [Más información](../content/email-test-rendering.md) |
 | Mejora | Formato del token de Handlebar para correo electrónico | Los tokens de personalización para el contenido del correo electrónico ahora utilizan un formato actualizado que es totalmente compatible con los scripts de Handlebar. Este formato usa _palabras compuestas de mayúsculas y minúsculas_ o guiones bajos, lo que elimina espacios. [Más información](../content/email-authoring.md#content-authoring---personalization) |
 | Mejora | Visualización del recuento total de listas | Las páginas de la lista _[!UICONTROL Intereses de la solución]_ y _[!UICONTROL Recorridos de cuenta]_ se han mejorado con la visualización del recuento total junto a la barra de búsqueda. |
-
 
 ## Notas de la versión 2025.4
 

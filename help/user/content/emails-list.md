@@ -4,16 +4,16 @@ description: Utilice la lista Correos electrónicos para administrar el contenid
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # Correos electrónicos
 
-Cuando [crea mensajes de correo electrónico](./add-email.md), los agrega en el contexto de un nodo de recorrido. Si desea trabajar con correo electrónico fuera del mapa de recorrido, use la lista _[!UICONTROL Correos electrónicos]_ para localizar y actualizar el correo electrónico. Puede revisar los correos electrónicos o actualizar la configuración y el contenido.
+Cuando [crea mensajes de correo electrónico](./add-email.md), los agrega en el contexto de un nodo de recorrido. Cuando quiera trabajar con contenido de correo electrónico fuera del mapa de recorrido, utilice la lista _[!UICONTROL Correos electrónicos]_ para localizar y actualizar el correo electrónico. Puede revisar los correos electrónicos o actualizar la configuración y el contenido.
 
 ## Acceso y administración de correos electrónicos
 
