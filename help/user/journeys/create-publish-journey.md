@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear y publicar recorridos de cue
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 5%
+source-wordcount: '791'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ Para empezar con un recorrido de cuentas, cree el recorrido y, a continuación, 
 
 ## Componentes básicos de un recorrido
 
-El _mapa de recorrido_ es la zona central del diseñador de recorridos. Es en esta zona donde puede agregar nodos de recorrido y configurarlos. Haga clic en un nodo para abrir su panel de propiedades a la derecha del lienzo y establecerlo según el diseño. Un recorrido de cuenta siempre comienza con un [nodo de audiencia de cuenta](./account-audience-nodes.md) donde puede agregar datos a su recorrido.
+El _mapa de recorrido_ es la zona central del área de trabajo de recorrido. Es en esta zona donde puede agregar nodos de recorrido y configurarlos. Haga clic en un nodo para abrir su panel de propiedades a la derecha del lienzo y establecerlo según el diseño. Un recorrido de cuenta siempre comienza con un [nodo de audiencia de cuenta](./account-audience-nodes.md) donde puede agregar datos a su recorrido.
 
 Después de crear un recorrido de cuentas y agregar la audiencia, genere el recorrido con los nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos utilizando los siguientes tipos de nodos para crear un recorrido de cuentas:
 
@@ -47,7 +47,7 @@ Para ayudarle a crear un recorrido sin que se produzcan errores, se han implemen
 
 * _Eliminando un nodo de ruta dividida_: para eliminar un nodo se deben eliminar todos los nodos subsiguientes de cada ruta.
 * _Eliminando un nodo de combinación_: un nodo de combinación solo se puede eliminar cuando hay una ruta conectada a él. Para eliminar un nodo de combinación, deje solo una ruta seleccionada.
-* _Cambio entre cuentas y personas_: no puede cambiar la selección de cuentas a personas sin eliminar todos los nodos subsiguientes de cada ruta.
+* _Cambiar entre cuenta y personas_: al cambiar la selección de cuentas a personas se eliminan todos los nodos subsiguientes de cada ruta.
 
 ## Añadir un nodo
 
@@ -113,6 +113,10 @@ Cuando publica un recorrido, puede comenzar inmediatamente o en una fecha futura
 
 Puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique, el estado del recorrido cambiará a _Activo_. Si el recorrido tiene errores, el botón _[!UICONTROL Publicar]_ aparece atenuado con información de contenido: `Resolve errors before publishing`.
 
+>[!NOTE]
+>
+>Después de publicar un recorrido de cuenta, hay un retraso de hasta 24 horas para que las cuentas que cumplen los requisitos ingresen al recorrido.
+
 1. En la parte superior derecha del mapa de recorrido, haga clic en **[!UICONTROL Publicar]**.
 
 1. En el cuadro de diálogo _[!UICONTROL Revisar configuración de recorrido]_, establezca las opciones de inicio de recorrido.
@@ -137,4 +141,4 @@ Puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique,
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443222/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
