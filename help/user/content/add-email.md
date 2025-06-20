@@ -4,9 +4,9 @@ description: Aprenda a añadir, definir y optimizar las acciones de correo elect
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -33,59 +33,55 @@ Puede configurar los envíos de correo electrónico en un recorrido cuando [agre
 
    * Elija **[!UICONTROL Crear nuevo correo electrónico]** para crear el correo electrónico de forma nativa en Journey Optimizer B2B edition.
 
-     Esta opción le permite administrar el contenido del correo electrónico de forma nativa en Journey Optimizer B2B edition. Haga clic en **[!UICONTROL Crear correo electrónico]** para abrir el cuadro de diálogo _Crear nuevo correo electrónico_. Puede crear un nuevo recurso de contenido de correo electrónico <!-- or duplicate an existing email content asset-->.
+     Esta opción le permite administrar el contenido del correo electrónico de forma nativa en Journey Optimizer B2B edition. Haga clic en **[!UICONTROL Crear correo electrónico]** para abrir el cuadro de diálogo _Crear nuevo correo electrónico_. Puede crear un nuevo recurso de contenido de correo electrónico o duplicar un recurso de contenido de correo electrónico existente.
 
-     En el cuadro de diálogo, escriba un **[!UICONTROL Nombre]** único para el correo electrónico y una **[!UICONTROL Línea de asunto]**; a continuación, haga clic en **[!UICONTROL Crear]**.
+     +++Nuevo correo electrónico
 
-     ![Crear nuevo cuadro de diálogo de correo electrónico - nuevo correo electrónico](assets/create-new-email-no-duplicate.png){width="400"}
+     Si desea crear un mensaje de correo electrónico utilizando un lienzo vacío o una plantilla de correo electrónico, use la opción _[!UICONTROL Nuevo correo electrónico]_.
 
-     En la sección _[!UICONTROL Propiedades de correo electrónico]_ de la página de contenido de correo electrónico, los campos _[!UICONTROL De correo electrónico]_ y _[!UICONTROL Responder a dirección]_ ya están configurados. Puede escribir valores para los campos _[!UICONTROL Nombre del formulario]_ y _[!UICONTROL Descripción]_ (opcional).
+      1. En el cuadro de diálogo, elija **[!UICONTROL Nuevo correo electrónico]**.
 
-     Defina el correo electrónico [settings](#define-the-email-settings) y haga clic en **[!UICONTROL Editar contenido de correo electrónico]** para [diseñar el contenido](./email-authoring.md).
+      1. Escriba un **[!UICONTROL Nombre]** único para el correo electrónico y una **[!UICONTROL Línea de asunto]**.
 
-     <!-- +++New email {#new-email}
-     When you want to create an email using an empty canvas or an email template, use the _[!UICONTROL New email]_ option. 
+         ![Crear nuevo cuadro de diálogo de correo electrónico - nuevo correo electrónico](assets/create-new-email.png){width="400"}
 
-     1. In the dialog, choose **[!UICONTROL New email]**.
+      1. Haga clic en **[!UICONTROL Crear]**.
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+         En la sección _[!UICONTROL Propiedades de correo electrónico]_ de la página de contenido de correo electrónico, los campos _[!UICONTROL De correo electrónico]_ y _[!UICONTROL Responder a dirección]_ ya están configurados. Puede escribir valores para los campos _[!UICONTROL Nombre del formulario]_ y _[!UICONTROL Descripción]_ (opcional).
 
-        ![Create new email dialog - new email](assets/create-new-email.png){width="400"}
+      1. Haga clic en **[!UICONTROL Editar correo electrónico]** para definir la [configuración](#define-the-email-settings) del correo electrónico y diseñar el [contenido](./email-authoring.md).
 
-     1. Click **[!UICONTROL Create]**.
++++
 
-       In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
+     +++Duplicar correo electrónico existente
 
-     1. Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
+     Si desea crear un mensaje de correo electrónico utilizando un mensaje existente del recorrido actual o de otro recorrido, use la opción _[!UICONTROL Duplicar correo electrónico existente]_. Puede realizar cambios en el correo electrónico duplicado según el objetivo para el nodo de recorrido.
 
-     +++
+      1. En el diálogo _[!UICONTROL Crear nuevo correo electrónico]_, elija **[!UICONTROL Duplicar correo electrónico existente]**.
 
-     +++Duplicate existing email {#duplicate-email}
-     When you want to create an email using an existing email from the current journey or from another journey, use the Duplicate existing journey option. You can make changes to the duplicated email according to your objective for the journey node.
+      1. Para que **[!UICONTROL el correo electrónico existente duplique]**, haga clic en el icono _Selección_ ( ![Icono de Selección](../assets/do-not-localize/icon-email-select.svg) ) y seleccione el correo electrónico que desea duplicar y usar para el nodo de recorrido.
 
-     1. In the dialog, choose **[!UICONTROL Duplicate existing email]**.
+         Puede filtrar la lista de correos electrónicos introduciendo una cadena de texto en el campo de búsqueda para que coincida con el nombre del correo electrónico.
 
-     1. For **[!UICONTROL Existing email to duplicate]**, click the _Select email_ icon and select the email you want to duplicate and use for the journey node.
+         ![Seleccionar correo electrónico](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-      You can filter the list of emails by entering a text string in the search field to match the email name.
+         Seleccione la casilla de verificación del correo electrónico que desea duplicar y haga clic en **[!UICONTROL Seleccionar]**.
 
-      ![Select email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+      1. Escriba un **[!UICONTROL Nombre]** único para el correo electrónico y una **[!UICONTROL Línea de asunto]**.
 
-      Select the checkbox for the email that you want to duplicate and click **[!UICONTROL Select]**. 
+         ![Crear nuevo cuadro de diálogo de correo electrónico: duplicar correo electrónico existente](assets/create-new-email-duplicate.png){width="400"}
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+      1. Haga clic en **[!UICONTROL Crear]**.
 
-        ![Create new email dialog - duplciate existing email](assets/create-new-email.png){width="400"}
+         En la sección _[!UICONTROL Propiedades de correo electrónico]_ de la página de contenido de correo electrónico, los campos _[!UICONTROL De correo electrónico]_ y _[!UICONTROL Responder a dirección]_ ya están configurados. Puede escribir valores para los campos _[!UICONTROL Nombre del formulario]_ y _[!UICONTROL Descripción]_ (opcional).
 
-     1. Click **[!UICONTROL Create]**.
+      1. Si es necesario, haz clic en **[!UICONTROL Editar correo electrónico]** para modificar el correo electrónico [configuración](#define-the-email-settings) y el [contenido](./email-authoring.md).
 
-        In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
++++
 
-     1. If needed, click **[!UICONTROL Edit email]** to modify the email [settings](#define-the-email-settings) and [content](./email-authoring.md).
-
-     +++
-   —>
    * Elija **[!UICONTROL Seleccionar correo electrónico de Adobe Marketo Engage]** para usar uno de los correos electrónicos creados previamente en Marketo Engage y enviarlo como parte del recorrido.
+
+     Si tiene más de un espacio de trabajo disponible en la instancia de Market Engage conectada, seleccione el espacio de trabajo. A continuación, seleccione el correo electrónico aprobado que desea enviar para el nodo de recorrido.
 
      ![Seleccionar correo electrónico de Marketo Engage](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
