@@ -1,36 +1,37 @@
 ---
-title: Introducción a Journey Optimizer B2B Edition
-description: Como nuevo usuario de la edición B2B de Journey Optimizer, obtenga información sobre las áreas clave para comenzar.
+title: Directrices de incorporación para administradores y especialistas en marketing
+description: Como administrador o usuario nuevo en Journey Optimizer B2B edition, obtenga información acerca de las áreas clave del proceso de incorporación.
 role: Admin, User
+level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '664'
-ht-degree: 100%
+source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
+workflow-type: tm+mt
+source-wordcount: '685'
+ht-degree: 84%
 
 ---
 
-# Introducción a Journey Optimizer B2B Edition
+# Guía de incorporación
 
-Las funciones y herramientas que desea abordar en Adobe Journey Optimizer B2B Edition dependen de la función que desempeñe en su equipo.
-
-En función de su organización, puede definir varios tipos de usuarios y concederles acceso a determinadas funcionalidades dependiendo de sus permisos.
+Las funciones y herramientas que desea abordar en Adobe Journey Optimizer B2B edition dependen de la función que desempeñe en su equipo. En función de su organización, puede definir varios tipos de usuarios y concederles acceso a determinadas funcionalidades dependiendo de sus permisos.
 
 >[!TIP]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 >[!BEGINTABS]
 
->[!TAB Inicio rápido del administrador]
+>[!TAB Administrador]
 
 Para que su equipo pueda empezar a utilizar las funciones de Adobe Journey Optimizer B2B Edition, es necesario realizar varios pasos para preparar su entorno. Siga estos pasos para que el ingeniero de datos y el experto en marketing puedan empezar a trabajar con Adobe Journey Optimizer B2B Edition.
 
-Como administrador del sistema, necesita comprender los perfiles de producto y asignar permisos para la zona protegida, la administración y la configuración de canal. También debe configurar las zonas protegidas y administrarlas para los perfiles de producto disponibles. A continuación, puede asignar integrantes del equipo a los perfiles de producto. Estas funcionalidades pueden gestionarlas los administradores del producto que tengan acceso a Adobe Admin Console. [Obtenga más información acerca de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
+Como administrador del sistema, necesita comprender los perfiles de producto y asignar permisos para la zona protegida, la administración y la configuración de canal. También debe configurar las zonas protegidas y administrarlas para los perfiles de producto disponibles. A continuación, puede asignar integrantes del equipo a los perfiles de producto. Los administradores de productos que tengan acceso a Adobe Admin Console pueden administrar estas funciones. [Obtenga más información acerca de Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
 
 Obtenga información acerca de la administración de acceso en las siguientes páginas:
 
 1. **Crear zonas protegidas** para dividir las instancias en entornos virtuales independientes y aislados. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
+
+1. **Trabaje con su ingeniero de datos** para planificar e implementar su activación de audiencia y perfil B2B. Revise los modelos publicados y siga las directrices según sus necesidades. [Más información](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Configure el perfil del producto**. Los perfiles del producto son un conjunto de derechos unitarios de Adobe Experience Platform que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. [Más información](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -44,7 +45,7 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 
 1. **Configure las definiciones de eventos de experiencia de Adobe Experience Platform (AEP)** para los equipos responsables de la creación de recorridos de cuenta que permanecen a la escucha de eventos de experiencia de AEP. [Más información](../admin/configure-aep-events.md)
 
->[!TAB Inicio rápido para los especialistas en marketing]
+>[!TAB Experto en marketing]
 
 Como especialista en marketing o _profesional de recorridos de cuentas_, es responsable de diseñar recorridos y crear contenido. Puede empezar a trabajar con Adobe Journey Optimizer B2B Edition después de que el administrador del sistema y el ingeniero de datos preparen su entorno y le concedan acceso.
 
@@ -66,7 +67,7 @@ Consulte las siguientes secciones para configurar su primer recorrido, añadir r
 
    * Utilice las acciones de canal integradas (correo electrónico y SMS) para enviar mensajes diseñados en Journey Optimizer B2B Edition.
 
-   * En el diseñador de recorridos, cree casos de uso de varios pasos, añada condiciones y envíe mensajes personalizados.
+   * En el mapa de recorrido, cree sus casos de uso de varios pasos, añada condiciones y envíe mensajes personalizados.
 
 [Más información](../journeys/journey-overview.md)
 

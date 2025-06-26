@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: edf6222e7378a9eed715bc35bc10e8d32cbdb5d5
+source-git-commit: e0d7d23d57b3697d81ab108454d005a1c26a38af
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 96%
+source-wordcount: '267'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 + Introducción {#get-started}
    + [Información general de Journey Optimizer B2B Edition](about-journey-optimizer-b2b-edition.md)
    + [Inicio de sesión y página de inicio](home-page.md)
-   + [Guía de inicio rápido](./start/get-started.md)
+   + [Guía de incorporación](./start/get-started.md)
    + [Protocolos de seguimiento y correo electrónico](./start/email-protocols.md)
 + Asistente de IA {#ai-assistant}
    + [Información general](./ai-assistant/ai-assistant-overview.md)
