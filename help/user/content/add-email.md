@@ -4,9 +4,9 @@ description: Aprenda a añadir, definir y optimizar las acciones de correo elect
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
+source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Puede configurar los envíos de correo electrónico en un recorrido cuando [agre
 
       1. Haga clic en **[!UICONTROL Editar correo electrónico]** para definir la [configuración](#define-the-email-settings) del correo electrónico y diseñar el [contenido](./email-authoring.md).
 
-     +++
++++
 
      +++Duplicar correo electrónico existente
 
@@ -77,7 +77,7 @@ Puede configurar los envíos de correo electrónico en un recorrido cuando [agre
 
       1. Si es necesario, haz clic en **[!UICONTROL Editar correo electrónico]** para modificar el correo electrónico [configuración](#define-the-email-settings) y el [contenido](./email-authoring.md).
 
-     +++
++++
 
    * Elija **[!UICONTROL Seleccionar correo electrónico de Adobe Marketo Engage]** para usar uno de los correos electrónicos creados previamente en Marketo Engage y enviarlo como parte del recorrido.
 
@@ -129,6 +129,8 @@ Se pueden detectar dos tipos de alertas:
 
 * **_Errores_** que impiden probar o activar el recorrido o la campaña siempre y cuando no se resuelvan, como:
 
-   * `The subject line is missing`: la línea de asunto del correo electrónico es obligatoria.
+   * `From name is empty`: el campo _De_ del correo electrónico (obligatorio) no está definido.
 
-   * `The email version of the message is empty`: este error se muestra cuando no se ha configurado el contenido del correo electrónico.
+   * `The subject line is missing`: la línea de asunto del correo electrónico (obligatorio) no está definida.
+
+   * `The email version of the message is empty`: el contenido del correo electrónico no está definido.
