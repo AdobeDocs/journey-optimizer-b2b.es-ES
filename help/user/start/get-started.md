@@ -1,13 +1,13 @@
 ---
 title: Directrices de incorporación para administradores y especialistas en marketing
-description: Como administrador o usuario nuevo en Journey Optimizer B2B edition, obtenga información acerca de las áreas clave del proceso de incorporación.
+description: Como nuevo administrador o usuario de la B2B Edition de Journey Optimizer, obtenga información sobre las áreas clave del proceso de incorporación.
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ Las funciones y herramientas que desea abordar en Adobe Journey Optimizer B2B ed
 
 >[!TIP]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 >[!BEGINTABS]
 
@@ -31,7 +31,7 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 
 1. **Crear zonas protegidas** para dividir las instancias en entornos virtuales independientes y aislados. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Trabaje con su ingeniero de datos** para planificar e implementar su activación de audiencia y perfil B2B. Revise los modelos publicados y siga las directrices según sus necesidades. [Más información](https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Trabaje con su ingeniero de datos** para planificar e implementar su activación de audiencia y perfil B2B. Revise los modelos publicados y siga las directrices según sus necesidades. [Más información](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Configure el perfil del producto**. Los perfiles del producto son un conjunto de derechos unitarios de Adobe Experience Platform que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. [Más información](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
