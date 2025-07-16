@@ -4,7 +4,7 @@ user-guide-description: Obtenga información acerca de la edición B2B de Adobe 
 source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 93%
       + [Creación de los grupos de compra](./buying-groups/buying-groups-create.md)
       + [Exportar la lista de cuentas](./audiences/account-list-export.md)
       + [Audiencias coincidentes de cuenta de LinkedIn](./data/linkedin-account-matched-audiences.md)
-      + [Comprar filtros de grupo en Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [Filtros del grupo de compras en Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Listas de cuentas {#account-lists}
       + [Información general](./accounts/account-lists.md)
       + [Uso en recorridos y programas](./accounts/account-lists-journeys.md)
