@@ -51,7 +51,7 @@ Puede configurar los envíos de correo electrónico en un recorrido cuando [agre
 
       1. Haga clic en **[!UICONTROL Editar correo electrónico]** para definir la [configuración](#define-the-email-settings) del correo electrónico y diseñar el [contenido](./email-authoring.md).
 
-+++
+     +++
 
      +++Duplicar correo electrónico existente
 
@@ -77,7 +77,7 @@ Puede configurar los envíos de correo electrónico en un recorrido cuando [agre
 
       1. Si es necesario, haz clic en **[!UICONTROL Editar correo electrónico]** para modificar el correo electrónico [configuración](#define-the-email-settings) y el [contenido](./email-authoring.md).
 
-+++
+     +++
 
    * Elija **[!UICONTROL Seleccionar correo electrónico de Adobe Marketo Engage]** para usar uno de los correos electrónicos creados previamente en Marketo Engage y enviarlo como parte del recorrido.
 
