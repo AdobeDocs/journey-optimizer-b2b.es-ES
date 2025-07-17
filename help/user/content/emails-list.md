@@ -4,9 +4,9 @@ description: Utilice la lista Correos electrónicos para administrar el contenid
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,12 @@ Para buscar un correo electrónico por su nombre, introduzca una cadena de texto
 
 ![Acceda a la biblioteca de plantillas de correo electrónico y filtre por nombre y fechas](./assets/emails-list-filtered.png){width="700" zoomable="yes"}
 
-## Editar correos electrónicos
+## Apertura y edición de correos electrónicos
 
 Haga clic en el nombre del correo electrónico en la lista para abrirlo. Puede revisar y cambiar la [configuración de correo electrónico](./add-email.md#define-the-email-settings). Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** para hacer [actualizaciones del contenido](./email-authoring.md).
 
 Si se muestran [alertas](./add-email.md#check-alerts) en la parte superior derecha de la página, haga clic para revisar las advertencias o errores y dirigir los elementos según sea necesario.
 
 ![Abre el correo electrónico para hacer actualizaciones](./assets/email-open-update.png){width="700" zoomable="yes"}
+
+También puede acceder a la ventana [_[!UICONTROL Simular contenido]_](./email-simulate-content.md). Utilice estas herramientas para previsualizar el contenido mediante un perfil de prueba, enviar pruebas y probar el correo electrónico para la entrega y el procesamiento del cliente de correo electrónico.

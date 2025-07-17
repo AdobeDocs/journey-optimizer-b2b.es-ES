@@ -4,9 +4,10 @@ description: Obtenga información sobre cómo previsualizar y probar el contenid
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: c93a294d2e70f9a6c17be9ba9cc6994fb7944ebc
+exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
+source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,11 @@ Utilice la función _Simular contenido_ para obtener una vista previa del conten
 
 ## Mostrar vista previa del correo electrónico
 
-1. En el espacio de diseño de correo electrónico <!-- or the email properties -->, haga clic en **[!UICONTROL Simular contenido]**.
+Puede acceder a la vista previa de procesamiento desde el [espacio de diseño de correo electrónico](./email-authoring.md) o desde el _[!UICONTROL Resumen]_ cuando [abra un correo electrónico desde la lista Correos electrónicos](./emails-list.md#edit-emails).
 
-   ![Haga clic en Simular contenido](assets/email-simulate-content-.png){width="800" zoomable="yes"}
+1. Haga clic en **[!UICONTROL Simular contenido]** en la parte superior.
+
+   ![Haga clic en Simular contenido](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >

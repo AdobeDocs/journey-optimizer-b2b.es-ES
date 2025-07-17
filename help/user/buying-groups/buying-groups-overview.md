@@ -4,10 +4,10 @@ description: Descubra cómo los grupos de compras en Journey Optimizer B2B Editi
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: d1130841ed3c560208bc93c53a54169f9b0b94aa
-workflow-type: ht
-source-wordcount: '1778'
-ht-degree: 100%
+source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
+workflow-type: tm+mt
+source-wordcount: '2151'
+ht-degree: 57%
 
 ---
 
@@ -18,20 +18,34 @@ Para las actividades de ventas y marketing B2B, las cuentas son clave para cualq
 
 ![Diagrama de funciones de cuenta](assets/account-roles-diagram.png){width="800"}
 
-En la cuenta podría haber un subconjunto de personas que forman el _grupo de compras_. Estas son las personas que finalmente toman la decisión de compra, por lo que el experto en marketing debe prestarles una atención especial ya que podrían necesitar una información distinta a la de las demás personas asociadas con la cuenta. Los grupos de compra pueden incluir un grupo diferente de personas para diferentes líneas u ofertas de productos. Por ejemplo, un producto de ciberseguridad suele requerir la aprobación de una compra por parte de un director de información o de seguridad, y un representante del departamento jurídico, pero un producto de seguimiento de errores suele tener como miembros del grupo de compras a un vicepresidente de ingeniería y un director de TI.
+En la cuenta podría haber un subconjunto de personas que forman el _grupo de compras_. Estas son las personas que finalmente toman la decisión de compra, por lo que el experto en marketing debe prestarles una atención especial ya que podrían necesitar una información distinta a la de las demás personas asociadas con la cuenta. Los grupos de compra pueden incluir un grupo diferente de personas para diferentes líneas u ofertas de productos. Por ejemplo, un producto de ciberseguridad puede requerir normalmente que un director de información o un director de seguridad, y un representante del departamento legal apruebe una compra. Un producto de seguimiento de errores suele tener un vicepresidente de ingeniería y un director de TI como miembros del grupo de compra.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](#overview-video)
 
 ## Componentes principales
 
-Puede aumentar la eficacia del marketing estableciendo grupos de compras en Journey Optimizer B2B Edition que identifiquen a los miembros que faltan en las listas de cuentas de destino en función de las soluciones que deben vender sus equipos de ventas. Antes de que usted y su equipo de marketing empiecen a crear sus grupos de compra, asegúrese de haber definido los componentes clave. Estos componentes son esenciales para alcanzar las metas y objetivos empresariales.
+Puede aumentar la eficacia del marketing estableciendo grupos de compra en Journey Optimizer B2B edition que identifiquen a los miembros de las listas de cuentas de destino en función de las soluciones que deben vender sus equipos de ventas. Antes de que usted y su equipo de marketing empiecen a crear sus grupos de compra, asegúrese de haber definido los componentes clave. Estos componentes son esenciales para alcanzar las metas y objetivos empresariales.
 
 | Componente | Finalidad |
 | --------- | ------- |
-| Interés de la solución | Este componente proporciona la respuesta a lo siguiente: <ul><li>Como organización de marketing, ¿qué vende?</li><li>¿Qué producto o colección de productos quiere vender?</li></ul>  **_Ejemplo:_** Venta cruzada del nuevo Producto X a clientes existentes |
-| Público de cuenta | Este componente proporciona la respuesta a lo siguiente: <ul><li>¿A quién le está vendiendo?</li><li>¿Cuál es la lista de cuentas a las que se dirige?</li></ul> **_Ejemplo:_** Segmento de cuenta definido por cuentas con el Producto Y que tienen ingresos superiores a 1M |
-| Plantillas de función del grupo de compras | Este componente proporciona la respuesta a lo siguiente: <ul><li>¿A qué funciones se está dirigiendo?</li><li>¿Qué conjunto de reglas se utiliza para determinar quién está asignado a la compra de funciones de grupo?</li></ul>  **_Ejemplo:_** Asigne una persona con título CMO a la función Responsable de tomar decisiones |
+| Interés de la solución | Este componente proporciona la respuesta a lo siguiente: <ul><li>Como organización de marketing, ¿qué vende?</li><li>¿Qué producto o colección de productos quiere vender?</li></ul>  **_Ejemplo:_** Venta cruzada del nuevo producto X a clientes existentes |
+| Público de cuenta | Este componente proporciona la respuesta a lo siguiente: <ul><li>¿A quién le está vendiendo?</li><li>¿Cuál es la lista de cuentas a las que se dirige?</li></ul> **_Ejemplo:_** Segmento de cuenta definido por cuentas con el producto Y que tienen ingresos superiores a 1M |
+| Plantillas de función del grupo de compras | Este componente proporciona la respuesta a lo siguiente: <ul><li>¿A qué funciones se está dirigiendo?</li><li>¿Qué conjunto de reglas se utiliza para determinar quién está asignado a la compra de funciones de grupo?</li></ul>  **_Ejemplo:_** Asignar una persona con título CMO a la función Responsable de tomar decisiones |
 | Fases del grupo de compras | (Opcional) Este componente proporciona la respuesta a: ¿Cómo realiza el seguimiento del grupo de compra de cara al éxito o al fracaso? |
+
+## Asignación de miembros
+
+Existen tres formas en las que se asignan o eliminan miembros de un grupo comprador. En la lista siguiente se describen estos métodos de adición y eliminación en el orden de prioridad. El método de nivel superior tiene la prioridad más alta y el más bajo no puede anularlo.
+
+1. **_Acción manual_**: una acción manual para agregar o quitar miembros realizada por un usuario de ventas para el grupo de compras
+2. **_Acción de Recorrido_** - Recorrido [nodos de acción para comprar la pertenencia al grupo](../journeys/action-nodes.md#add-a-people-based-action) (_Asignar al grupo comprador_ o _Quitar del grupo comprador_)
+3. **_Trabajos del sistema_** - Comprando grupo [creación](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) y trabajos de mantenimiento.
+
+Para garantizar que la asignación de miembros en un grupo de compra no se sobrescriba incorrectamente, esta lista tiene el orden de prioridad que se sigue en el sistema para garantizar una asignación de miembros precisa. Por ejemplo, cuando un usuario de ventas agrega manualmente un miembro al grupo de compras, no desea que un trabajo de mantenimiento modifique esa adición. Utilizando el orden de prioridad, se aplican los siguientes escenarios:
+
+* Si un usuario asigna manualmente un miembro a un grupo de compras, y esto va seguido de un trabajo de mantenimiento del grupo de compras que elimina el mismo miembro del grupo de compras, el trabajo de mantenimiento **no elimina** ese miembro y no puede anular la asignación manual.
+* Si un usuario asigna manualmente un miembro a un grupo de compra y este va seguido de un nodo de recorrido activado que elimina el mismo miembro del grupo de compra, la acción del nodo **no elimina** ese miembro y no puede anular la asignación manual.
+* Si un nodo de acción de recorrido activado agrega un miembro a un grupo comprador, y esto va seguido de un trabajo de mantenimiento de grupo comprador que elimina el mismo miembro del grupo comprador, el trabajo de mantenimiento **no elimina** ese miembro y no puede anular la asignación de acción de recorrido.
 
 ## Flujo de trabajo del grupo de compras
 
@@ -40,11 +54,11 @@ Puede aumentar la eficacia del marketing estableciendo grupos de compras en Jour
    * Definir [interés de solución](./solution-interests.md) y [plantilla de función](./buying-groups-role-templates.md)
    * [Cree el grupo de compras](./buying-groups-create.md#create-buying-groups) y asigne [etapas del grupo de compras](./buying-group-stages.md).
 
-1. Identificar personas desaparecidas.
+1. Identificar a las personas desaparecidas por integridad.
 
    Analice el grupo de compra mediante filtros.
 
-   **_Ejemplo:_** Falta la función de responsable de la toma de decisiones y la puntuación de integridad es &lt; 50
+   Falta la función de **_Example:_** Decision Maker y la puntuación de integridad es &lt; 50
 
 1. Completar las definiciones de grupos de compra.
 <!--
@@ -52,7 +66,7 @@ Puede aumentar la eficacia del marketing estableciendo grupos de compras en Jour
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Utilice el grupo de compras y recorridos de cuenta.
+1. Añada acciones de grupo de compra a los recorridos de la cuenta.
 
 ## Ver grupos y componentes de compra
 
@@ -63,8 +77,8 @@ La página _[!UICONTROL Grupos de compras]_ está organizada en pestañas:
 | Tabulación | Descripción |
 | --- | ----------- |
 | [!UICONTROL Información general] | Esta pestaña es la predeterminada y muestra el [panel Grupos de compras](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Examinar] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compras existentes. </li><li>Buscar por nombre de grupo de compras. </li><li>Filtrar por interés de solución. </li><li>Profundizar en los detalles del grupo de compras. </li><li>Cree un grupo de compras. </li></ul> |
-| [!UICONTROL Intereses de la solución] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compras existentes. </li><li>Buscar por nombre de grupo de compras. </li><li>Acceder y editar las propiedades de interés de la solución. </li><li>Crear una solución de interés. </li><li>Eliminar un interés de solución. </li><li>Ver y eliminar trabajos del grupo de compras. </li></ul> |
+| [!UICONTROL Examinar] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compras existentes. </li><li>Busque por nombre del grupo comprador. </li><li>Filtrar por interés de solución. </li><li>Profundizar en los detalles del grupo de compras. </li><li>Cree un grupo de compras. </li></ul> |
+| [!UICONTROL Intereses de la solución] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compras existentes. </li><li>Busque por nombre del grupo comprador. </li><li>Acceder y editar las propiedades de interés de la solución. </li><li>Crear una solución de interés. </li><li>Eliminar un interés de solución. </li><li>Ver y eliminar trabajos del grupo de compras. </li></ul> |
 | [!UICONTROL Plantillas de funciones] | Esta pestaña admite las siguientes actividades: <ul><li>Vea la lista de plantillas de funciones existentes. </li><li>Busque por nombre de plantilla de funciones. </li><li>Acceder y editar las propiedades y condiciones de la plantilla de funciones. </li><li>Crear una plantilla de funciones. </li><li>Eliminar una plantilla de funciones. </li></ul> |
 | [!UICONTROL Fases] | Esta pestaña admite las siguientes actividades: <ul><li>Ver el modelo de fases de grupos de compras existente. </li><li>Acceder y editar el borrador del modelo de fases de grupo de compras. </li><li>Crear el modelo de fases de grupo de compras. </li></ul> |
 
@@ -100,42 +114,48 @@ La puntuación de participación en el grupo de compras es un número que determ
 
 +++Actividades utilizadas para la puntuación
 
+>[!BEGINSHADEBOX]
+
 | Nombre de la actividad | Descripción | Tipo de participación | Recuento máximo de frecuencia diaria | Peso de la actividad |
 | --- | --- | --- | --- | --- |
-| Registrarse para el evento | Registra un evento asociado a una campaña | Evento | 20 | 60 |
-| Asistir a un evento | Asiste a un evento de campaña | Evento | 20 | 90 |
-| Abrir correo electrónico | Abre un correo electrónico | Correo electrónico | 20 | 30 |
-| Hacer clic en el correo electrónico | Hace clic en un vínculo de un correo electrónico | Correo electrónico | 20 | 30 |
-| Abrir correo electrónico de ventas | Abre un correo electrónico de ventas | Correo electrónico | 20 | 30 |
-| Hacer clic en el correo electrónico de ventas | Hace clic en un vínculo de un correo electrónico de ventas | Correo electrónico | 20 | 30 |
-| Momento interesante | Tiene un momento interesante | Revisado | 20 | 60 |
-| Pulsar la notificación de inserción | Recibe una notificación push | Dispositivo móvil | 20 | 30 |
-| Actividad en la aplicación móvil | Realiza una actividad en una aplicación móvil | Dispositivo móvil | 20 | 30 |
-| Sesión en la aplicación móvil | Está activo en la sesión de la aplicación móvil | Dispositivo móvil | 20 | 30 |
-| Completar formulario de anuncios de Facebook para clientes potenciales | Rellena y envía un formulario de anuncios de posibles clientes en una página de Facebook | Social | 20 | 30 |
-| Haga clic en la llamada a la acción de RTP | Hace clic en una llamada a la acción personalizada | Web | 20 | 60 |
-| Ver mensaje dentro de la aplicación | Visualiza un mensaje en la aplicación | Dispositivo móvil | 20 | 30 |
-| Pulsar mensaje dentro de la aplicación | Pulsa un mensaje dentro de la aplicación | Dispositivo móvil | 20 | 30 |
-| Suscribirse a SMS | Se suscribe a las comunicaciones por SMS | SMS | 20 | 90 |
-| Responder al correo electrónico de ventas | Responde al correo electrónico de ventas | Correo electrónico | 20 | 30 |
-| Participó en un diálogo | Interactúa con un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
-| Interactuó con un documento en el diálogo | Interactúa con un documento en un diálogo de Dynamic Chat | Chat | 20 | 90 |
-| Programó una reunión en el diálogo | Programa una cita en un diálogo de Dynamic Chat | Chat | 20 | 90 |
-| Alcanzó el objetivo del diálogo | Alcanza un objetivo en un cuadro de diálogo de Dynamic Chat |  | 20 | 90 |
-| Ha respondido a una encuesta en el seminario web | Responde a una encuesta en un evento del seminario web | Chat | 20 | 90 |
-| Ha hecho clic en llamada a la acción en el seminario web | Hace clic en un vínculo de llamada a la acción en un evento de seminario web | Llamar | 20 | 30 |
-| Descargas de recursos en el seminario web | Descarga un archivo o recurso en un evento de seminario web | Evento | 20 | 60 |
-| Realiza preguntas en el seminario web | Hace preguntas en un evento de seminario web | Evento | 20 | 60 |
-| Asistió al evento | Asistió a un evento | Evento | 20 | 60 |
-| Interactuó con un agente en el diálogo | Interactúa con un agente en un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
-| Ha hecho clic en un vínculo del chat en el diálogo | Hace clic en un vínculo de un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
-| Ha participado en un flujo conversacional | Interactúa con un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
-| Ha programado una reunión en el flujo conversacional | Programa una cita en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
-| Se ha alcanzado el objetivo del flujo conversacional | Alcanza un objetivo en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
-| Ha interactuado con un documento en el flujo conversacional | Interactúa con un documento en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
-| Ha interactuado con un agente en el flujo conversacional | Se involucra con un agente en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
-| Ha hecho clic en un vínculo del chat en el flujo conversacional | Hace clic en un vínculo de un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
-| Hacer clic en vínculo SMS V2 | Hace clic en un vínculo de un mensaje SMS | SMS | 20 | 90 |
+| [!UICONTROL Visitar página web] | Un miembro visita una página web | Web | 20 | 40 |
+| [!UICONTROL Rellenar formulario] | Un miembro rellena y envía un formulario en una página web | Web | 20 | 40 |
+| [!UICONTROL Haga clic en el enlace] | Un miembro hace clic en un vínculo de una página web | Web | 20 | 40 |
+| [!UICONTROL Abrir correo electrónico] | Un miembro abre un correo electrónico | Correo electrónico | 20 | 30 |
+| [!UICONTROL Haga clic en Correo electrónico] | Un miembro hace clic en un vínculo de un correo electrónico | Correo electrónico | 20 | 30 |
+| [!UICONTROL Abrir correo electrónico de ventas] | Un miembro abre un correo electrónico de ventas | Correo electrónico | 20 | 30 |
+| [!UICONTROL Haga clic en Correo electrónico de ventas] | Un miembro hace clic en un vínculo de un correo electrónico de ventas | Correo electrónico | 20 | 30 |
+| [!UICONTROL Momento interesante] | Un miembro tiene un momento interesante | Revisado | 20 | 60 |
+| [!UICONTROL Pulse Notificación push] | Un miembro recibe una notificación push | Dispositivo móvil | 20 | 30 |
+| [!UICONTROL Actividad de aplicación móvil] | Un miembro realiza una actividad en una aplicación móvil | Dispositivo móvil | 20 | 30 |
+| [!UICONTROL Sesión de aplicación móvil] | Un miembro está activo en una sesión de aplicación móvil | Dispositivo móvil | 20 | 30 |
+| [!UICONTROL Rellenar formulario de anuncios de clientes potenciales de Facebook] | Un miembro rellena y envía un formulario de anuncios de posibles clientes en una página de Facebook | Social | 20 | 30 |
+| [!UICONTROL Haga clic en RTP Call to action] | Un miembro hace clic en un call to action personalizado | Web | 20 | 60 |
+| [!UICONTROL Ver mensaje en la aplicación] | Un miembro ve un mensaje en la aplicación | Dispositivo móvil | 20 | 30 |
+| [!UICONTROL Pulsar Mensaje en la aplicación] | Un miembro toca un mensaje en la aplicación | Dispositivo móvil | 20 | 30 |
+| [!UICONTROL Suscribir SMS] | Un miembro se suscribe a las comunicaciones por SMS | SMS | 20 | 90 |
+| [!UICONTROL Responder al correo electrónico de ventas] | Un miembro responde a un correo electrónico de ventas | Correo electrónico | 20 | 30 |
+| [!UICONTROL Se comprometió con un diálogo] | Un miembro se involucra con un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Interactuó con el documento en el diálogo] | Un miembro interactúa con un documento en un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Reunión programada en el cuadro de diálogo] | Un miembro programa una cita en un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Objetivo de diálogo alcanzado] | Un miembro alcanza un objetivo en un cuadro de diálogo de Dynamic Chat |  | 20 | 90 |
+| [!UICONTROL Respondió a una encuesta en el seminario web] | Un miembro responde a una encuesta en un evento del seminario web | Chat | 20 | 90 |
+| [!UICONTROL Call to action hizo clic en el seminario web] | Un miembro hace clic en un vínculo de call-to-action en un evento de seminario web | Llamar | 20 | 30 |
+| [!UICONTROL Descargas de recursos en el seminario web] | Un miembro descarga un archivo o recurso en un evento de seminario web | Evento | 20 | 60 |
+| [!UICONTROL Hace preguntas en el seminario web] | Un miembro hace preguntas en un evento de seminario web | Evento | 20 | 60 |
+| [!UICONTROL Ha asistido al evento] | Un miembro asistió a un evento | Evento | 20 | 60 |
+| [!UICONTROL Se comprometió con un agente en el diálogo] | Un miembro se involucra con un agente en un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Se hizo clic en el vínculo del chat en el cuadro de diálogo] | Un miembro hace clic en un vínculo de un cuadro de diálogo de Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Participó con un flujo de conversación] | Un miembro se involucra con un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Reunión programada en el flujo de conversación] | Un miembro programa una cita en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Se Alcanzó El Objetivo De Flujo De Conversación] | Un miembro alcanza una meta en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Interactuó con el documento en el flujo de conversación] | Un miembro interactúa con un documento en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Interactuado con un agente en el flujo de conversación] | Un miembro se involucra con un agente en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Se hizo clic en un vínculo del chat en el flujo de conversación] | Un miembro hace clic en un vínculo de un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
+| [!UICONTROL Haga clic en Vínculo en SMS V2] | Un miembro hace clic en un vínculo de un mensaje SMS | SMS | 20 | 90 |
+
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -205,4 +225,4 @@ La puntuación de participación final se calcula aplicando la ponderación para
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

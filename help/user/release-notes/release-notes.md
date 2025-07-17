@@ -3,10 +3,10 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
+source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 96%
+source-wordcount: '2552'
+ht-degree: 85%
 
 ---
 
@@ -16,7 +16,35 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+<!-- hold for 2025.8 release 
+
+| Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
+| Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
+
+-->
+
+## Notas de la versión 2025.6
+
+**Fecha de implementación**: miércoles, 15 de julio de 2025
+
+Esta versión incorpora las siguientes nuevas funciones y mejoras:
+
+| Tipo | Elemento | Descripción |
+| ---- | ---- | ----------- |
+| Función | Integración con GenStudio for Performance Marketing | (Disponibilidad limitada) Ahora puede integrar las experiencias de correo electrónico de GenStudio for Performance Marketing con Journey Optimizer B2B Edition para mejorar la eficacia del marketing y mantener la coherencia de la marca. Con esta integración, puede combinar la creación de contenido con tecnología de IA de GenStudio con las funciones de orquestación avanzadas de Journey Optimizer B2B Edition. [Más información](../content/genstudio-email-workflow.md) |
+| Función | Informes de detección de spam | Para evitar los filtros de correo no deseado y asegurarse de que los mensajes se envíen a las bandejas de entrada de la audiencia, puede generar un _informe de correo no deseado_ directamente en el espacio de diseño del correo electrónico. [Más información](../content/email-spam-report.md) |
+| Función | Página de detalles de persona | Ahora puede hacer clic en el nombre de una persona cuando se muestre (como hipervínculo) en las páginas Panel inteligente, Detalles del grupo de compra y Detalles de la cuenta. Esta acción abre la página de detalles de la persona asociada, que contiene información sobre el contacto, su actividad y los grupos de compra más comprometidos. [Más información](../accounts/person-details.md) |
+| Función | Acciones de cuenta y grupo de compra | Realice acciones directamente desde las páginas de detalles de la cuenta y de compra del grupo para lograr una participación oportuna e intencional. <li>Use la acción _Enviar correo electrónico_ para enviar un correo electrónico de Marketo Engage aprobado a los contactos de la cuenta seleccionada o a los miembros del grupo de compra. [Más información](../accounts/account-details.md#send-emails) <li>De los detalles del grupo de compras, las acciones también incluyen _Asignar un nuevo miembro_, _Quitar un miembro_ y _Editar un rol_. [Más información](../buying-groups/buying-group-details.md#members-tab) |
+| Función | Acceso en CRM a páginas de detalles | Ahora puede configurar vínculos directos a las páginas de detalles de Journey Optimizer B2B edition para cuentas, contactos y posibles clientes en su herramienta de administración de la relación con los clientes (CRM), como Salesforce o Microsoft Dynamics. [Más información](../accounts/crm-linking.md) |
+| Función | Compatibilidad con CSS personalizado para el diseño de contenido | Ahora puede agregar su propio CSS personalizado al crear contenido de correo electrónico y de página de aterrizaje en el espacio de diseño. [Más información](../content/design-custom-css.md) |
+| Función | Configuración de asignación de palabra clave por intención | Para activar y gestionar el modelo de detección de intención, ahora puede cargar una hoja de cálculo para definir una categoría de asignación de datos por intención. [Más información](../admin/intent-data.md) |
+| Mejora | Simular contenido del resumen del correo electrónico | Ahora puede acceder a las herramientas _Simular contenido_ desde el resumen del correo electrónico (detalles y propiedades) al abrir un mensaje de correo electrónico desde la lista Correos electrónicos. Este acceso se suma al espacio de diseño de correo electrónico. [Más información](../content/email-simulate-content.md#display-the-email-preview) |
+| Mejora | Visualización del recuento total para la lista de plantillas de roles | La página de lista _[!UICONTROL Plantillas de roles]_ se ha mejorado con la visualización del recuento total junto a la barra de búsqueda. |
+
+<!-- The following capabilities are currently available only for a set of program participants (Beta):
+
+**Brand Kit with AI Assistant** - Maintain brand consistency across email assets by storing and managing brand assets. Add assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, and use them for your generative AI content creation. -->
 
 ## Notas de la versión 2025.5
 
@@ -141,4 +169,4 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Función | Audiencias coincidentes de cuenta de LinkedIn | Genere audiencias de publicidad de LinkedIn mediante Audiencias coincidentes con la cuenta para completar funciones vacías en sus grupos de compras. Al definir un conjunto de filtros de grupo de compras, puede mantener una audiencia coincidente de LinkedIn para segmentar a los posibles clientes que coincidan con los parámetros del grupo de compras. <p>Esta función aprovecha los destinos de Experience Platform para administrar algunos aspectos de la integración. <a href="../data/linkedin-account-matched-audiences.md">Más información</a> |
 | Mejora | Ciclo de vida de estado para fragmentos de contenido visual | Los fragmentos visuales ahora se administran mediante un ciclo vital de estado. El estado del fragmento determina su disponibilidad para utilizarlo en un correo electrónico o plantilla de correo electrónico, y los cambios que puede realizar en él. <p>Este flujo de trabajo mejorado facilita la administración del contenido reutilizado según el calendario promocional y de comunicaciones. <a href="../content/fragments.md#fragment-status-and-lifecycle">Más información</a> |
 
- +++
++++

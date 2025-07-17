@@ -5,14 +5,14 @@ feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 19%
+source-wordcount: '431'
+ht-degree: 16%
 
 ---
 
-# Diseño de la página de aterrizaje
+# Diseño de la página de destino
 
 Después de [crear una página de aterrizaje](./landing-pages.md#create-a-landing-page), use el espacio de diseño visual para crear los componentes estructurales y de contenido en su página.
 
@@ -20,15 +20,25 @@ Después de [crear una página de aterrizaje](./landing-pages.md#create-a-landin
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_structure"
->title="Añadir componentes de estructura a la página de aterrizaje"
->abstract="Los componentes de estructura definen el diseño de la página de aterrizaje. Arrastre y suelte un componente de **Estructura** en el lienzo para empezar a diseñar el contenido de la página."
+>title="Añadir componentes de estructura a la página de destino"
+>abstract="Los componentes de estructura definen el diseño de la página de destino. Arrastre y suelte un componente de **Estructura** en el lienzo para empezar a diseñar el contenido de la página."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_content_components"
->title="Acerca de los componentes de contenido para las páginas de aterrizaje"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de aterrizaje."
+>title="Acerca de los componentes de contenido para las páginas de destino"
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de destino."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Añadir CSS personalizado
+
+Puede agregar su propio CSS personalizado directamente en el espacio de diseño de la página de aterrizaje. Utilice CSS personalizado para aplicar un estilo avanzado y específico, para una mayor flexibilidad y control sobre el aspecto del contenido. Se recomienda añadir este estilo de nivel superior antes de incluir componentes como imágenes, botones y texto.
+
+Con al menos un componente de contenido en el lienzo, selecciona el componente **[!UICONTROL Cuerpo]** en el árbol de navegación izquierdo para acceder al editor CSS personalizado.
+
+![Acceder a los estilos del cuerpo](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Añadir recursos
 

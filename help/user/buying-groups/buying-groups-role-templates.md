@@ -4,9 +4,9 @@ description: Obtenga información acerca de la definición de una plantilla de r
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1103'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ En un mercado B2B, las decisiones de compra suelen ser tomadas por varios indivi
 
    ![Ficha Plantillas de roles](assets/roles-templates-tab.png){width="700" zoomable="yes"}
 
-   La pestaña proporciona una lista de inventario de todas las plantillas de funciones existentes con las siguientes columnas:
+   La pestaña proporciona una lista de inventario de todas las plantillas de funciones existentes y muestra la siguiente información en formato de columna:
 
    * [!UICONTROL Nombre]
    * [!UICONTROL Estado]
@@ -36,9 +36,7 @@ En un mercado B2B, las decisiones de compra suelen ser tomadas por varios indivi
    * [!UICONTROL Publicado el]
    * [!UICONTROL Publicado por]
 
-   La lista está ordenada de forma predeterminada por la columna _[!UICONTROL Última actualización]_.
-
-   El número de plantillas de roles _publicados_ activos se muestra en la parte superior derecha de la página. Todas las plantillas de roles tienen un estado de `Draft` o `Live`.
+   La lista está ordenada por _[!UICONTROL Última actualización]_ de manera predeterminada. Todas las plantillas de roles tienen un estado de `Draft` o `Live`.
 
 1. Para filtrar la lista por nombre, utilice el campo de búsqueda situado en la parte superior de la lista.
 
@@ -66,7 +64,7 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 | ---- | --------- |
 | Atributos de la persona | <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Número de fax <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Segundo nombre <li>Número de teléfono móvil <li>Número de teléfono <li>Código postal <li>Estado <li>Suscripción cancelada <li>Razón de la cancelación de la suscripción |
 | Filtros especiales | <li>Miembro de la lista <li>Miembro del programa |
-| Datos de intención | Intento de categoría <li>Intento del producto <li>Intento de palabra clave<br/>[Más información acerca de los datos de intención](../admin/intent-data.md). |
+| Datos de intención | Intento de categoría <li>Intención del producto <li>Intento de palabra clave<br/>[Más información acerca de los datos de intención](../admin/intent-data.md). |
 
 1. Para la primera tarjeta de función, defina las propiedades de la función.
 
@@ -164,4 +162,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

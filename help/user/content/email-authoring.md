@@ -4,16 +4,16 @@ description: Aprenda a crear contenido de correo electrónico en Adobe Journey O
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
+source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 15%
+source-wordcount: '1050'
+ht-degree: 14%
 
 ---
 
 # Creación de mensajes de correo electrónico
 
-Después de &lbrack;agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido&rbrack;(./add-email.md), puede definir el contenido del mensaje de correo electrónico.
+Después de [agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido](./add-email.md), puede definir el contenido del mensaje de correo electrónico.
 
 Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la ficha _[!UICONTROL Detalles]_ del panel derecho.
 
@@ -95,6 +95,20 @@ Puede personalizar el contenido importado según sea necesario con las herramien
 >abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de un correo electrónico."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Añadir CSS personalizado
+
+Puede agregar su propio CSS personalizado directamente en el espacio de diseño de correo electrónico. Utilice CSS personalizado para aplicar un estilo avanzado y específico, para una mayor flexibilidad y control sobre el aspecto del contenido. Se recomienda añadir este estilo de nivel superior antes de incluir componentes como imágenes, botones y texto.
+
+Con al menos un componente de contenido en el lienzo, selecciona el componente **[!UICONTROL Cuerpo]** en el árbol de navegación izquierdo para acceder al editor CSS personalizado.
+
+>[!NOTE]
+>
+>Si el mensaje de correo electrónico está diseñado con una [plantilla con contenido bloqueado](./template-content-governance.md), no podrá agregar CSS personalizado al contenido. La etiqueta del botón cambia a **[!UICONTROL Ver CSS personalizado]** y cualquier CSS personalizado que ya esté presente en el contenido es de solo lectura.
+
+![Acceder a los estilos del cuerpo](./assets/email-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Añadir fragmentos
 

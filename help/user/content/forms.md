@@ -5,7 +5,7 @@ feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9b3b6db22e27ceff88be9808a1aaf89b3eee7f17
 workflow-type: tm+mt
 source-wordcount: '2350'
 ht-degree: 1%

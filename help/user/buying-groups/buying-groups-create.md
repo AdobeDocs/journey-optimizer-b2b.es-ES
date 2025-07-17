@@ -4,10 +4,10 @@ description: Aprenda a crear grupos de compra utilizando los componentes necesar
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '268'
+ht-degree: 4%
 
 ---
 
@@ -50,9 +50,11 @@ El cuadro de diálogo de confirmación proporciona un resumen del proceso de com
 
 ![Cuadro de diálogo de confirmación de creación de grupos de compra](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
-Puede navegar al usuario a la pestaña Interés de la solución y mostrar el recuento de trabajos creados para el interés de la solución.
+## Trabajos de creación de grupos de compras
 
-![Haga clic en Crear grupos de compra](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
+El trabajo de creación crea automáticamente grupos de compra para cada nueva cuenta en la audiencia de la cuenta. Puede navegar a la pestaña _[!UICONTROL Interés de la solución]_, que muestra el recuento de trabajos de creación creados para cada interés de la solución. Haga clic en el número de la columna **[!UICONTROL Trabajos de creación de grupos de compra]** para ver la lista de trabajos de creación.
+
+![Comprando trabajos de grupo por interés de solución](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
 <!-- Other buying group activities:
 
@@ -62,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## Vídeo práctico
 
->[!VIDEO](https://video.tv.adobe.com/v/3451764/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)
