@@ -1,5 +1,5 @@
 ---
-title: Directrices de incorporación para administradores y especialistas en marketing
+title: Guía de incorporación para administradores y expertos en marketing
 description: Como nuevo administrador o usuario de la B2B Edition de Journey Optimizer, obtenga información sobre las áreas clave del proceso de incorporación.
 role: Admin, User
 level: Beginner
@@ -7,17 +7,17 @@ exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
 # Guía de incorporación
 
-Las funciones y herramientas que desea abordar en Adobe Journey Optimizer B2B edition dependen de la función que desempeñe en su equipo. En función de su organización, puede definir varios tipos de usuarios y concederles acceso a determinadas funcionalidades dependiendo de sus permisos.
+Las funciones y herramientas que desea abordar en Adobe Journey Optimizer B2B Edition dependen de la función que desempeñe en su equipo. En función de su organización, puede definir varios tipos de usuarios y concederles acceso a determinadas funcionalidades dependiendo de sus permisos.
 
 >[!TIP]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 >[!BEGINTABS]
 
@@ -31,7 +31,7 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 
 1. **Crear zonas protegidas** para dividir las instancias en entornos virtuales independientes y aislados. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Trabaje con su ingeniero de datos** para planificar e implementar su activación de audiencia y perfil B2B. Revise los modelos publicados y siga las directrices según sus necesidades. [Más información](https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Trabaje con su ingeniero de datos** para planificar e implementar la activación de su público y perfil B2B. Revise los modelos publicados y siga las instrucciones según sus necesidades. [Más información](https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Planifique e implemente la integración de Marketo Engage** para incorporar un esquema personalizado, la ingesta de perfiles y cuentas, y la organización de recorridos personalizados para comprar grupos. [Más información](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
@@ -69,7 +69,7 @@ Consulte las siguientes secciones para configurar su primer recorrido, añadir r
 
    * Utilice las acciones de canal integradas (correo electrónico y SMS) para enviar mensajes diseñados en Journey Optimizer B2B Edition.
 
-   * En el mapa de recorrido, cree sus casos de uso de varios pasos, añada condiciones y envíe mensajes personalizados.
+   * En el mapa del recorrido, cree casos de uso de varios pasos, añada condiciones y envíe mensajes personalizados.
 
 [Más información](../journeys/journey-overview.md)
 
