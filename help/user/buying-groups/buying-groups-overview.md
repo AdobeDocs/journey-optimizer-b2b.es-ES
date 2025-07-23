@@ -4,7 +4,7 @@ description: Descubra cómo los grupos de compras en Journey Optimizer B2B Editi
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
+source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 57%
@@ -114,8 +114,6 @@ La puntuación de participación en el grupo de compras es un número que determ
 
 +++Actividades utilizadas para la puntuación
 
->[!BEGINSHADEBOX]
-
 | Nombre de la actividad | Descripción | Tipo de participación | Recuento máximo de frecuencia diaria | Peso de la actividad |
 | --- | --- | --- | --- | --- |
 | [!UICONTROL Visitar página web] | Un miembro visita una página web | Web | 20 | 40 |
@@ -153,9 +151,6 @@ La puntuación de participación en el grupo de compras es un número que determ
 | [!UICONTROL Interactuado con un agente en el flujo de conversación] | Un miembro se involucra con un agente en un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
 | [!UICONTROL Se hizo clic en un vínculo del chat en el flujo de conversación] | Un miembro hace clic en un vínculo de un flujo conversacional de Dynamic Chat | Chat | 20 | 90 |
 | [!UICONTROL Haga clic en Vínculo en SMS V2] | Un miembro hace clic en un vínculo de un mensaje SMS | SMS | 20 | 90 |
-
-
->[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -225,4 +220,4 @@ La puntuación de participación final se calcula aplicando la ponderación para
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
