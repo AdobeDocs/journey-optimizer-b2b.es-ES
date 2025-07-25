@@ -2,9 +2,9 @@
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
 source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -59,15 +59,15 @@ ht-degree: 94%
       + [Información general](./accounts/account-lists.md)
       + [Uso en recorridos y programas](./accounts/account-lists-journeys.md)
    + [Campos de XDM](./data/field-mapping.md)
-   + Experiencia de ventas {#sales-experience}
+   + Experiencia en ventas {#sales-experience}
       + [Detalles de la cuenta](./accounts/account-details.md)
       + [Detalles del grupo de compras](./buying-groups/buying-group-details.md)
       + [Detalles de la persona](./accounts/person-details.md)
-      + [Vinculación CRM](./accounts/crm-linking.md)
+      + [Vinculación de CRM](./accounts/crm-linking.md)
 + Administración de contenido {#content-management}
    + Correos electrónicos {#emails}
-      + [Trabajo con contenido de correo electrónico](./content/emails-list.md)
-      + Previsualización y validación {#preview}
+      + [Trabajo con contenido multilingüe](./content/emails-list.md)
+      + Vista previa y validación {#preview}
          + [Simular contenido](./content/email-simulate-content.md)
          + [Prueba del procesamiento de correo electrónico](./content/email-test-rendering.md)
          + [Informe de spam](./content/email-spam-report.md)

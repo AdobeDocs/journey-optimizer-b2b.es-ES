@@ -3,9 +3,9 @@ title: Documentación de Adobe Journey Optimizer B2B Edition
 description: Aprenda a utilizar las funciones de Adobe Journey Optimizer B2B Edition para organizar recorridos de cuenta y de grupo de compras mediante IA generativa integrada y una automatización líder del sector.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -25,39 +25,39 @@ Integre las experiencias de correo electrónico de GenStudio for Performance Mar
 
 >[!TAB Informes de detección de spam]
 
-Con los nuevos informes de correo no deseado, puede evitar los filtros de correo no deseado y asegurarse de que los mensajes se envíen a las bandejas de entrada de las audiencias. Generar un _informe de correo no deseado_ directamente en el espacio de diseño del correo electrónico.
+Con los nuevos informes de spam, puede evitar los filtros de spam y asegurarse de que los mensajes se envíen a las bandejas de entrada del público. Genere un _informe de spam_ directamente en el espacio de diseño del correo electrónico.
 
-[!BADGE Más información]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Obtenga información sobre los informes de detección de spam"}
+[!BADGE Más información]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Más información sobre los informes de detección de spam"}
 
->[!TAB Acciones de cuenta y grupo de compra]
+>[!TAB Acciones de la cuenta y del grupo de compras]
 
-Realice acciones directamente desde las páginas de detalles de la cuenta y de compra del grupo para lograr una participación oportuna e intencional.
+Realice acciones directamente desde las páginas de detalles de la cuenta y del grupo de compras para lograr una participación oportuna e intencional.
 
-Use la acción _Enviar correo electrónico_ para enviar un correo electrónico de Marketo Engage aprobado a los contactos de la cuenta seleccionada o a los miembros del grupo de compra.
+Use la acción _Enviar correo electrónico_ para enviar un correo electrónico de Marketo Engage aprobado a los contactos de la cuenta seleccionada o a miembros del grupo de compras.
 
-[!BADGE Más información]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Obtenga información sobre el envío de correos electrónicos a contactos de cuenta"}
+[!BADGE Más información]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Más información sobre el envío de correos electrónicos a los contactos de la cuenta"}
 
-De los detalles del grupo de compras, las acciones también incluyen _Asignar un nuevo miembro_, _Quitar un miembro_ y _Editar un rol_.
+De los detalles del grupo de compras, las acciones también incluyen _Asignar un nuevo miembro_, _Quitar un miembro_ y _Editar una función_.
 
-[!BADGE Más información]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Más información sobre la compra de acciones de grupo"}
+[!BADGE Más información]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Más información sobre las acciones del grupo de compras"}
 
 >[!TAB Compatibilidad con CSS personalizado]
 
-Ahora puede agregar su propio CSS personalizado al crear contenido de correo electrónico y de página de aterrizaje en el espacio de diseño.
+Ahora puede añadir su propio CSS personalizado cuando cree contenido para correos electrónicos y páginas de destino en el espacio de diseño.
 
-[!BADGE Más información]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Obtenga información acerca del uso de CSS personalizado"}
+[!BADGE Más información]{type=Informative url=" /help/user/content/design-custom-css.md" tooltip="Más información sobre el uso de CSS personalizado"}
 
->[!TAB Asignación de palabras clave por intención]
+>[!TAB Asignación de palabras clave de intenciones]
 
-Para activar y gestionar el modelo de detección de intención, ahora puede cargar una hoja de cálculo para definir una categoría de asignación de datos por intención.
+Para activar y gestionar el modelo de detección de intenciones, ahora puede cargar una hoja de cálculo para definir una categoría de asignación de datos de intenciones.
 
-[!BADGE Más información]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Obtenga información acerca de la configuración de asignación de palabras clave por intención"}
+[!BADGE Más información]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Más información sobre la configuración de asignación de palabras clave de intenciones"}
 
 >[!TAB Pruebas de correo electrónico con Litmus]
 
-Con una cuenta de Litmus, ahora puede previsualizar el procesamiento de correo electrónico en clientes de correo electrónico populares desde Journey Optimizer B2B edition. Esta integración le ayuda a garantizar que el contenido del correo electrónico tenga un aspecto impecable y funcione según lo diseñado en cada bandeja de entrada de correo electrónico.
+Con una cuenta Litmus, ahora puede obtener una vista previa de la representación de su correo electrónico en clientes de correo electrónico populares desde Journey Optimizer B2B Edition. Esta integración le ayuda a garantizar que el contenido del correo electrónico tenga un aspecto impecable y funcione según lo diseñado en cada bandeja de entrada de correo electrónico. 
 
-[!BADGE Más información]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Obtenga información acerca de la integración de pruebas de correo electrónico de Litmus"}
+[!BADGE Más información]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Más información sobre la integración de pruebas de correo electrónico de Litmus"}
 
 >[!ENDTABS]
 
@@ -137,7 +137,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/home" target="_blank">Documentación</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
