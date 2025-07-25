@@ -5,7 +5,7 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 100%
 
@@ -220,4 +220,4 @@ La puntuación de participación final se calcula aplicando la ponderación para
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
