@@ -33,7 +33,7 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 
 1. **Trabaje con su ingeniero de datos** para planificar e implementar la activación de su público y perfil B2B. Revise los modelos publicados y siga las instrucciones según sus necesidades. [Más información](https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Planifique e implemente la integración de Marketo Engage** para incorporar un esquema personalizado, la ingesta de perfiles y cuentas, y la organización de recorridos personalizados para grupos de compras. [Más información]( https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Planifique e implemente la integración de Marketo Engage** para incorporar un esquema personalizado, la ingesta de perfiles y cuentas, y la organización de recorridos personalizados para grupos de compras. [Más información](https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **Configure el perfil del producto**. Los perfiles del producto son un conjunto de derechos unitarios de Adobe Experience Platform que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. [Más información](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
