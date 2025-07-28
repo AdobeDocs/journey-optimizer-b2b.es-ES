@@ -26,8 +26,8 @@ Texto de marcador.
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_account_string"
->title="Cadena de cuenta de las páginas de aterrizaje"
->abstract="La cadena de la cuenta identifica la instancia de Adobe Journey Optimizer B2B Edition que aloja las páginas de aterrizaje."
+>title="Cadena de cuenta de las páginas de destino"
+>abstract="La cadena de la cuenta identifica la instancia de Adobe Journey Optimizer B2B Edition que aloja las páginas de destino."
 
 La cadena de cuenta identifica la instancia de Adobe Journey Optimizer B2B edition que aloja las páginas de aterrizaje. Asegúrese de que el equipo de sistemas agrega y configura la entrada DNS.
 
@@ -35,8 +35,8 @@ La cadena de cuenta identifica la instancia de Adobe Journey Optimizer B2B editi
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_form_prefill"
->title="Configuración del relleno previo del formulario de la página de aterrizaje"
->abstract="Puede habilitar la opción de rellenado previo del formulario para permitir que los formularios de las páginas de aterrizaje utilicen información rellenada previamente para usuarios conocidos."
+>title="Configuración del relleno previo del formulario de la página de destino"
+>abstract="Puede habilitar la opción de rellenado previo del formulario para permitir que los formularios de las páginas de destino utilicen información rellenada previamente para usuarios conocidos."
 
 Habilite la opción **[!UICONTROL Relleno previo de formulario]** para permitir que los formularios de sus páginas de aterrizaje utilicen información rellenada previamente para usuarios conocidos. Cuando esta opción está deshabilitada, los autores de páginas de aterrizaje no pueden incluir campos de formulario rellenados previamente.
 
@@ -48,15 +48,15 @@ Texto de marcador.
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_add_subdomain"
->title="Añadir subdominio de la página de aterrizaje"
+>title="Añadir subdominio de la página de destino"
 >abstract="Puede añadir un máximo de 50 subdominios. Configure un nuevo subdominio para cada URL de marca única que desee alojar en Adobe Journey Optimizer B2B Edition."
 
 ### Detalles del subdominio {#configure-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_configure_subdomain"
->title="Configurar subdominio de la página de aterrizaje"
->abstract="Se requiere un subdominio configurado para publicar páginas de aterrizaje. Puede utilizar un subdominio que ya se haya delegado a Adobe o bien crear uno nuevo."
+>title="Configurar subdominio de la página de destino"
+>abstract="Se requiere un subdominio configurado para publicar páginas de destino. Puede utilizar un subdominio que ya se haya delegado a Adobe o bien crear uno nuevo."
 
 Texto de marcador.
 

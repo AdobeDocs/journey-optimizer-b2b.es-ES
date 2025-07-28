@@ -74,7 +74,7 @@ Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe us
 
 Los administradores de productos pueden habilitar el acceso a las funciones de administración y alineación de marca asignando los permisos de recursos de **[!UICONTROL Administrar kit de marca]** o **[!UICONTROL Habilitar asistente de IA]** a través de la aplicación _Permisos_ en Adobe Experience Cloud.
 
-1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
+1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
 
 1. Haga clic en **[!UICONTROL Editar]** para modificar los permisos.
 
