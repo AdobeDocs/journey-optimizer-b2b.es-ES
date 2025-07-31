@@ -4,10 +4,10 @@ description: Revise los campos de atributos predeterminados que se sincronizan e
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: b62891e3d87ac4ff5345dac564d63c0b8aaa9669
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 15%
+source-wordcount: '1097'
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuent
 
 >[!TIP]
 >
->Puede modelar clases de persona de negocios XDM y de cuenta de negocios XDM en una relación de varios a varios mediante la clase de relación de persona de cuenta de negocios XDM como se describe en la [documentación de Experience Platform XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Puede modelar clases de persona de negocios XDM y de cuenta de negocios XDM en una relación de varios a varios mediante la clase de relación de persona de cuenta de negocios XDM como se describe en la [documentación de Experience Platform XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Atributos de relación de persona de la cuenta XDM
 
@@ -29,7 +29,10 @@ Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuent
 
 >[!IMPORTANT]
 >
->Se requiere el atributo `workEmail.Address`. Si está vacía para un miembro de la audiencia de una cuenta, esa persona no se ingiere y se omite en los recorridos de la cuenta y en los grupos de compra que hacen referencia a la audiencia.
+>El atributo de dirección de correo electrónico es obligatorio y debe rellenarse para que funcione correctamente. De manera predeterminada, el sistema utiliza `workEmail.Address`. Si tiene intención de utilizar un atributo diferente, póngase en contacto con el Soporte técnico de Adobe antes de publicar los recorridos para garantizar la configuración adecuada.<br/>
+>
+>Asegúrese de que el atributo de correo electrónico no sea nulo, ya que esto puede afectar a la sincronización de datos y a los procesos descendentes.
+><ul><li>Si el atributo de correo electrónico es nulo en Real-time CDP B2B y la persona existe en Journey Optimizer B2B edition, el atributo en se sobrescribe en Journey Optimizer B2B edition con un valor nulo durante la sincronización. Posteriormente, persiste en Marketo Engage como nulo.<li>Si el atributo de correo electrónico es nulo en Real-time CDP B2B y la persona no existe en Journey Optimizer B2B edition, el registro de persona no se sincroniza.<ul/>
 
 | [Propiedad](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Nombre para mostrar | Nombre para mostrar de Journey Optimizer B2B | Tipo de datos | Descripción |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -81,7 +84,7 @@ Los datos de audiencia de cuenta se almacenan como atributos en las clases Cuent
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
