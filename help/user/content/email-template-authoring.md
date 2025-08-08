@@ -4,10 +4,10 @@ description: Aprenda a crear plantillas de correo electrónico de contenido que 
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 14%
+source-wordcount: '373'
+ht-degree: 3%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 14%
 Después de [crear una plantilla de correo electrónico](./email-templates.md#create-an-email-template), use el espacio de diseño visual para crear los componentes estructurales y de contenido en la plantilla de correo electrónico.
 
 ## Añadir estructura y contenido {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Adición de componentes de estructura"
->abstract="Los componentes de estructura definen el diseño de la plantilla. Arrastre y suelte un componente de **Estructura** en el lienzo para empezar a diseñar el contenido de la plantilla."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una plantilla."
 
 {{$include /help/_includes/content-design-components.md}}
 

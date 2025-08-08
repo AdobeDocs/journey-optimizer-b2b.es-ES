@@ -5,10 +5,10 @@ feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 16%
+source-wordcount: '374'
+ht-degree: 3%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 16%
 Después de [crear una página de aterrizaje](./landing-pages.md#create-a-landing-page), use el espacio de diseño visual para crear los componentes estructurales y de contenido en su página.
 
 ## Añadir estructura y contenido {#structure-content-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
->title="Añadir componentes de estructura a la página de destino"
->abstract="Los componentes de estructura definen el diseño de la página de destino. Arrastre y suelte un componente de **Estructura** en el lienzo para empezar a diseñar el contenido de la página."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
->title="Acerca de los componentes de contenido para las páginas de destino"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de destino."
 
 {{$include /help/_includes/content-design-components.md}}
 

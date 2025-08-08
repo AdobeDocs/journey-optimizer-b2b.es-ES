@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
-user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: 99e859e352cb2682e1d3fb5f0000eb55eacf2642
+user-guide-description: Obtenga información sobre Adobe Journey Optimizer B2B edition y cómo puede utilizarlo para organizar recorridos de cuenta y grupo de compra mediante IA generativa integrada y automatización líder del sector.
+source-git-commit: d4fee6639033378ecbbe8836d9f63ce4b81208c5
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 95%
+source-wordcount: '300'
+ht-degree: 84%
 
 ---
 
@@ -94,12 +94,15 @@ ht-degree: 95%
    + Páginas de aterrizaje (Beta) {#landing-pages}
       + [Información general](./content/landing-pages.md)
       + [Diseño de la página de destino](./content/landing-page-design.md)
+   + Herramientas de diseño de contenido {#content-design}
+      + [Componentes de estructura](./content/structure-components.md)
+      + [Componentes de contenido](./content/content-components.md)
+      + [CSS personalizado](./content/design-custom-css.md)
    + Marcas (Beta) {#brands}
       + [Información general](./content/brands-overview.md)
       + [Administrar y crear](./content/brands-manage-create.md)
       + [Alineación de marca](./content/brand-alignment.md)
    + [Contenido condicional](./content/conditional-content.md)
-   + [CSS personalizado](./content/design-custom-css.md)
 + Paneles de perspectivas  {#dashboards}
    + [Panel de control inteligente](./dashboards/intelligent-dashboard.md)
    + [Información general de participación](./dashboards/engagement-dashboard.md)

@@ -4,16 +4,16 @@ description: Aprenda a crear contenido de correo electrónico en Adobe Journey O
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 14%
+source-wordcount: '924'
+ht-degree: 2%
 
 ---
 
 # Creación de mensajes de correo electrónico
 
-Después de &lbrack;agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido&rbrack;(./add-email.md), puede definir el contenido del mensaje de correo electrónico.
+Después de [agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido](./add-email.md), puede definir el contenido del mensaje de correo electrónico.
 
 Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la ficha _[!UICONTROL Detalles]_ del panel derecho.
 
@@ -34,16 +34,6 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 >Utilice el asistente de IA en Adobe Journey Optimizer B2B edition, con tecnología de IA generativa, para elevar el contenido al siguiente nivel. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos, contenido de texto de destino y obteniendo recomendaciones del asistente de IA para imágenes que resuenen con su audiencia. [Más información](./ai-assistant-emails.md)
 
 ## Diseñe el correo electrónico desde cero {#design-from-scratch}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_landing_page"
->title="Adición de componentes de estructura"
->abstract="Los componentes de estructura definen el diseño de la página de destino. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido de la página de destino."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_landing_page"
->title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de una página de destino."
 
 Utilice el espacio de diseño de contenido visual para definir la estructura y el contenido del correo electrónico. Al agregar y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar la forma del contenido del correo electrónico reutilizable en cuestión de segundos.
 
@@ -83,16 +73,6 @@ Puede personalizar el contenido importado según sea necesario con las herramien
 > Las plantillas guardadas pueden tener configuraciones de gobernanza (bloqueo de contenido) aplicadas a uno o varios componentes. El diseñador visual proporciona directrices sobre los componentes bloqueados cuando [crea un correo electrónico a partir de una plantilla controlada](./email-authoring-governance.md).
 
 ## Añadir estructura y contenido {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Adición de componentes de estructura"
->abstract="Los componentes de estructura definen el diseño del correo electrónico. Arrastre y suelte un componente **Estructura** en el lienzo para empezar a diseñar el contenido del correo electrónico."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para crear el diseño de un correo electrónico."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -159,11 +139,6 @@ En el menú _[!UICONTROL Más...]_ de la parte superior del espacio de diseño d
 * **[!UICONTROL Exportar HTML]**: descargue el contenido del lienzo visual en su sistema local en formato HTML empaquetado como archivo zip.
 
 ## Compruebe y pruebe el correo electrónico {#email-testing}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_email_preview_simulate"
->title="Compruebe cómo se representa el contenido"
->abstract="Una vez definido el contenido, puede previsualizarlo y comprobar si el procesamiento es correcto según el canal que utilice."
 
 Cuando se define el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo, enviar pruebas y revisar su procesamiento en las relaciones de aspecto del escritorio y del dispositivo móvil. Si ha insertado contenido personalizado, puede obtener una vista previa de cómo se muestra este contenido en el mensaje mediante los datos del perfil de prueba.
 

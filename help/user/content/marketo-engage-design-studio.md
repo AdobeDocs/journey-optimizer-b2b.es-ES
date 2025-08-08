@@ -4,9 +4,9 @@ description: Obtenga información sobre el uso de la integración de administrac
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2022'
 ht-degree: 1%
 
 ---
@@ -280,7 +280,7 @@ Existen varios métodos para agregar un recurso de imagen al lienzo visual:
 
 * Arrastre y suelte una miniatura de imagen desde el panel de navegación izquierdo.
 
-* Agregue un componente de imagen al lienzo y haga clic en **[!UICONTROL Examinar]** para abrir el cuadro de diálogo _[!UICONTROL Seleccionar recurso de Adobe Marketo Engage]_.
+* Agregue un componente de imagen al lienzo y haga clic en **[!UICONTROL Marketo Engage Assets]** para abrir el cuadro de diálogo _[!UICONTROL Seleccionar recurso de Adobe Marketo Engage]_.
 
   ![Use los filtros y el campo de búsqueda para encontrar el recurso que necesita](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

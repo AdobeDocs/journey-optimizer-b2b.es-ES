@@ -1,20 +1,20 @@
 ---
 title: 'Creación de contenido: navegación'
 description: Sección reutilizada sobre el uso del árbol de navegación para la creación de contenido
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # Creación de contenido: navegación
 
-A medida que trabaja con el contenido en el diseñador visual, puede tener acceso a las capas, contenedores y elementos mediante el árbol _Navegación_. Haga clic en el icono _Navegación_ para mostrar el árbol a la izquierda del lienzo.
+A medida que trabaja con el contenido en el espacio de diseño visual, puede acceder a los componentes, columnas y elementos de contenido mediante el árbol de navegación. Haga clic en el icono _[!UICONTROL Árbol de navegación]_ ( ![Icono del árbol de navegación](../assets/do-not-localize/icon-navigation-tree.svg) ) en la parte izquierda para mostrar el árbol.
 
 ![Acceder a las capas de contenido](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
-En el ejemplo siguiente se describen los pasos para ajustar el relleno y la alineación vertical dentro de un componente de estructura compuesto por columnas.
+En el siguiente ejemplo se describen los pasos para ajustar el relleno y la alineación vertical dentro de un componente de estructura con columnas.
 
 1. Seleccione la columna en el componente de estructura directamente en el lienzo o mediante el _árbol de navegación_ que se muestra a la izquierda.
 

@@ -4,10 +4,10 @@ description: Obtenga información acerca de la administración de recursos en Jo
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '981'
-ht-degree: 100%
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Actualmente, solo puede utilizar imágenes de Adobe Experience Manager Assets en
 
 Utilice recursos a medida que crea sus correos electrónicos, plantillas de correo electrónico y fragmentos visuales. El editor de contenido visual proporciona acceso a las imágenes de los repositorios de recursos conectados. Si tiene una suscripción a Experience Manager Assets as a Cloud Service junto con Adobe Marketo Engage Design Studio predeterminado, puede elegir recursos de imagen de cualquier origen. También puede cargar un recurso de imagen, que lo coloca en el espacio de trabajo de Journey Optimizer B2B Edition del repositorio conectado de Marketo Engage Design Studio.
 
-Puede elegir el origen de la imagen al editar la configuración de un componente de imagen o directamente en el lienzo.
+Puede elegir el origen de la imagen al editar la configuración de un componente de imagen o directamente en el lienzo:
 
 * **_Configuración del componente de imagen_**: cuando tenga seleccionado un componente de imagen en el diseñador visual, podrá ver y editar la configuración en el panel derecho. Para añadir o cambiar el archivo de imagen que se muestra en el componente, elija el tipo de origen y seleccione un archivo de imagen.
 
@@ -61,7 +61,7 @@ Puede elegir el origen de la imagen al editar la configuración de un componente
 
   ![Use la barra de herramientas para elegir un origen y seleccionar un archivo de imagen para el componente de imagen](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-Puede añadir un recurso de imagen a medida que crea el contenido, según el origen del recurso de imagen.
+Puede añadir un recurso de imagen a medida que crea el contenido, según el origen del recurso de imagen. También puede elegir un recurso de imagen en la configuración de fondo para un componente de estructura.
 
 >[!BEGINTABS]
 
