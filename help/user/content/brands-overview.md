@@ -7,10 +7,11 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 91424c334c22bf683cd071afcb0ab0660a9ac832
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -19,12 +20,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Introducción a las marcas"
->abstract="Cree y personalice sus propias marcas para definir su identidad visual y verbal única, al tiempo que facilita la generación de contenido que coincida con su estilo y voz de marca."
+>abstract="Cree y personalice sus propias marcas para definir su identidad visual y verbal única, al tiempo que facilita la generación de contenidos que coinciden con el estilo y la voz de su marca."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
 >title="Seleccione su marca"
->abstract="Elija su marca para asegurarse de que todo el contenido generado por IA se adapte a las especificaciones y directrices de su marca."
+>abstract="Elija su marca para asegurarse de que todo el contenido generado por la IA se adapte a las especificaciones y directrices de su marca."
 
 Las marcas ayudan a definir su _identidad de marca_ y desempeñan un papel crucial a la hora de garantizar una creación de contenido coherente y eficaz que represente con precisión la identidad, los valores y los mensajes de su marca. Al adherirse a estilos de marca bien definidos, las organizaciones pueden mantener una presencia de marca cohesiva y reconocible en todos los canales y puntos de contacto, y fortalecer su reconocimiento de marca, confianza y lealtad entre sus audiencias de destino.
 
@@ -74,7 +75,7 @@ Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe us
 
 Los administradores de productos pueden habilitar el acceso a las funciones de administración y alineación de marca asignando los permisos de recursos de **[!UICONTROL Administrar kit de marca]** o **[!UICONTROL Habilitar asistente de IA]** a través de la aplicación _Permisos_ en Adobe Experience Cloud.
 
-1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
+1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
 
 1. Haga clic en **[!UICONTROL Editar]** para modificar los permisos.
 
@@ -99,4 +100,3 @@ Los administradores de productos pueden habilitar el acceso a las funciones de a
    * Haga clic en **[!UICONTROL Guardar]** para aplicar los cambios.
 
 >[!ENDSHADEBOX]
-

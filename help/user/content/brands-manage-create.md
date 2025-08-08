@@ -7,7 +7,8 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 98298c41981de45dfc5d0de430913729f3a92453
+exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 6%
@@ -66,12 +67,12 @@ Puede establecer cualquier marca publicada (_Live_) como la marca predeterminada
 
 ![Designar la identidad de marca predeterminada](./assets/brands-set-default.png){width="350"}
 
-## Crear y definir una marca {#create-brand}
+## Creación y definición de una marca {#create-brand}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brands_create"
 >title="Cree su marca"
->abstract="Introduzca el nombre de su marca y cargue el archivo de directrices de la marca. La herramienta extrae automáticamente los detalles clave, lo que facilita el mantenimiento de la identidad de su marca."
+>abstract="Introduzca el nombre de su marca y cargue el archivo de directrices de la marca. La herramienta extrae automáticamente los detalles clave, lo que facilita el mantenimiento de identidad de su marca."
 
 Para crear y definir las directrices de marca, puede introducir los detalles o cargar los documentos de las directrices de marca para utilizarlos para la extracción automática.
 
