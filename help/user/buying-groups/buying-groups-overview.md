@@ -4,10 +4,10 @@ description: Descubra cómo los grupos de compras en Journey Optimizer B2B Editi
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
+source-git-commit: a2917ea8c389c35129a77d427528051be499addf
 workflow-type: tm+mt
-source-wordcount: '2151'
-ht-degree: 100%
+source-wordcount: '2170'
+ht-degree: 97%
 
 ---
 
@@ -102,7 +102,12 @@ Por ejemplo, si hay cuatro funciones dentro de un grupo de compras y tres de cua
 
 La puntuación de integridad del grupo de compras se vuelve a calcular cada vez que se crea o actualiza un grupo de compras.
 
-### Puntuación de participación de grupo de compras
+### Puntuación de participación de grupo de compras {#engagement-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score"
+>title="Puntuación de participación"
+>abstract="Las puntuaciones de participación determinan el nivel de participación para comprar miembros del grupo."
 
 La puntuación de participación en el grupo de compras es un número que determina la participación de los miembros de un grupo de compras, en función de las actividades que realizan.
 
@@ -158,9 +163,14 @@ La puntuación de participación en el grupo de compras es un número que determ
 
 +++
 
-#### Ponderación
+#### Ponderación {#engagement-score-weighting}
 
-Los usuarios pueden asignar una _ponderación_ a cada función en la plantilla de funciones para asignar diferentes ponderaciones a una función a fin de calcular la puntuación de participación.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score_weighting"
+>title="Ponderación de puntuación de participación"
+>abstract="Use la ponderación para personalizar el cálculo de la puntuación de participación."
+
+Los usuarios pueden asignar _ponderación_ a cada rol en la [plantilla de roles](./buying-groups-role-templates.md) para asignar diferentes ponderaciones a un rol.
 
 ![Establezca la ponderación en cada función de la plantilla de funciones](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -220,4 +230,4 @@ La puntuación de participación final se calcula aplicando la ponderación para
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
