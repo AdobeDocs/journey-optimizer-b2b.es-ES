@@ -230,4 +230,4 @@ La puntuación de participación final se calcula aplicando la ponderación para
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
