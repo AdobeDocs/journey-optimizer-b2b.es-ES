@@ -3,10 +3,10 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+workflow-type: tm+mt
+source-wordcount: '2780'
+ht-degree: 92%
 
 ---
 
@@ -16,13 +16,33 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
-<!-- hold for 2025.8 release 
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+
+<!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## Notas de la versión 2025.8
+
+**Fecha de implementación**: miércoles, 26 de agosto de 2025
+
+Esta versión incorpora las siguientes nuevas funciones y mejoras:
+
+| Tipo | Elemento | Descripción |
+| ---- | ---- | ----------- |
+| Función | Filtros de puntuación de participación de personas para plantillas de roles y recorridos | Ahora puede usar _puntuación de participación de persona_ como filtro en las plantillas de roles que se usan para crear grupos de compras y en los nodos de recorrido de rutas divididas. |
+| Función | Configuración de funciones personalizadas de grupos de compra | Ahora tiene la flexibilidad para configurar funciones personalizadas para grupos de compra, lo que le permite definir las funciones específicas de sus casos de uso. |
+| Función | Configuración de ponderación de puntuación de participación | Ahora puede asignar un peso a las actividades que influyen en la puntuación de participación del grupo comprador. Esta función incluye la definición de sus propios modelos de puntuación personalizados y el cambio del modelo activo que influye en los cálculos de puntuación de participación. |
+| Mejora | Contenido condicional para fragmentos | Ahora puede utilizar las herramientas de contenido condicional para el diseño de fragmentos visuales. |
+| Mejora | Actualizaciones de puntuación de participación | La lógica de puntuación de participación del grupo de compra se actualiza para normalizar las puntuaciones. Además, puede trabajar con puntuaciones de participación a nivel de miembro, así como puntuaciones de participación colectiva para todo el grupo de compra. |
+| Mejora | Observabilidad activa del recorrido: cuentas en cada nodo | Para un recorrido de cuentas activo, puede acceder a una lista de las cuentas que han llegado a cada nodo de cuenta del recorrido. |
+
+>[!NOTE]
+>
+>Los cambios de la versión comienzan la implementación el 26 de agosto de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2025.6
 
@@ -85,7 +105,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Función | Duplicar recorridos de cuenta | Ya está disponible una acción duplicada para recorridos de cuenta. Puede duplicar los detalles del recorrido de cuenta, o sencillamente un simple esqueleto de la estructura del flujo y la ruta. <a href="../journeys/journey-overview.md#duplicate-journey">Más información</a> |
 | Función | Mis tokens para los recorridos de la cuenta | Ahora puede definir un conjunto de tokens personalizados con valores que sean específicos del recorrido de la cuenta. Este conjunto de tokens personalizados se denomina _Mis tokens_ y cualquiera de estos tokens personalizados son para la personalización cuando se crean correos electrónicos del recorrido. <a href="../content/personalization-my-tokens.md">Más información</a> |
 | Función | Eliminar fases del grupo de compras | Puede eliminar el modelo de fases del grupo de compras cuando esté en estado borrador o publicado. Si se publica (está activo), solo podrá eliminarlo si no está asociado a un interés de solución. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Más información</a> |
-| Mejora | Recuentos del nodos del recorrido | Mayor visibilidad de los recuentos de miembros del recorrido publicados en el nivel de nodo. En el _Mapa del recorrido_, los nodos muestran el _[!UICONTROL Total de cuentas introducidas]_. Al seleccionar un nodo de acción, los detalles situados a la derecha también incluyen _[!UICONTROL Cuentas en las que aún no se ha actuado]_. Y los detalles del nodo _Escuchar un evento_ incluyen _[!UICONTROL Cuentas en este paso]_. Utilice esta información para validar la progresión de la cuenta en sus recorridos activos, finalizados y anulados. |
+| Mejora | Recuentos del nodos del recorrido | Mayor visibilidad de los recuentos de abonos del recorrido publicados en el nivel de nodo. En el _Mapa del recorrido_, los nodos muestran el _[!UICONTROL Total de cuentas introducidas]_. Al seleccionar un nodo de acción, los detalles situados a la derecha también incluyen _[!UICONTROL Cuentas en las que aún no se ha actuado]_. Y los detalles del nodo _Escuchar un evento_ incluyen _[!UICONTROL Cuentas en este paso]_. Utilice esta información para validar la progresión de la cuenta en sus recorridos activos, finalizados y anulados. |
 
 ## Notas de la versión 2025.2
 
@@ -158,7 +178,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 +++
 
- +++Notas de la versión de agosto de 2024
++++Notas de la versión de agosto de 2024
 
 **Fecha de implementación**: 29 de agosto de 2024
 
