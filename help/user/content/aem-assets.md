@@ -4,36 +4,36 @@ description: Descubra cómo puede utilizar recursos de imagen de un repositorio 
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '559'
 ht-degree: 2%
 
 ---
 
 # Uso de recursos de Experience Manager
 
-Cuando Adobe Experience Manager Assets as a Cloud Service está integrado con Adobe Journey Optimizer B2B edition, puede descubrir fácilmente recursos digitales y acceder a ellos para utilizarlos en su contenido de marketing. A medida que crea su contenido, se puede acceder a los recursos desde el elemento _Experience Manager Assets_ en el panel de navegación izquierdo y durante la creación de contenido de correo electrónico para un recorrido de cuenta.
+Cuando [!DNL Adobe Experience Manager Assets as a Cloud Service] está integrado con [!DNL Adobe Journey Optimizer B2B Edition], puede descubrir fácilmente recursos digitales y acceder a ellos para usarlos en el contenido de marketing. A medida que crea su contenido, se puede acceder a los recursos desde el elemento _[!UICONTROL Experience Manager Assets]_ en el panel de navegación izquierdo y durante la creación de contenido de correo electrónico para un recorrido de cuenta.
 
 {{aem-assets-licensing-note}}
 
-Cuando se utilizan estos recursos digitales, los cambios más recientes en Assets as a Cloud Service se propagan automáticamente a las campañas de correo electrónico en directo a través de referencias vinculadas. Si las imágenes se eliminan en Adobe Experience Manager Assets as a Cloud Service, aparecerán con una referencia rota en los correos electrónicos. Cuando se modifican o eliminan recursos que se utilizan actualmente en recorridos de cuenta, se notifica a los autores del recorrido sobre los cambios de imagen y la lista de recorridos que utilizan la imagen. Todos los cambios en los recursos deben realizarse en el repositorio central de Adobe Experience Manager Assets.
+Cuando usa estos recursos digitales, los cambios más recientes en [!DNL Assets as a Cloud Service] se propagan automáticamente a las campañas de correo electrónico activas a través de referencias vinculadas. Si las imágenes se eliminan en [!DNL Adobe Experience Manager Assets as a Cloud Service], aparecerán con una referencia rota en los correos electrónicos. Cuando se modifican o eliminan recursos que se utilizan actualmente en recorridos de cuenta, se notifica a los autores del recorrido sobre los cambios de imagen y la lista de recorridos que utilizan la imagen. Todos los cambios realizados en los recursos deben realizarse en el repositorio central [!DNL Adobe Experience Manager Assets].
 
-Cuando su entorno tiene una o más [conexiones de repositorios de Assets](../admin/configure-aem-repositories.md), los autores de contenido pueden usar AEM Assets como fuente de recursos al crear un correo electrónico, una plantilla de correo electrónico o un fragmento visual.
+Cuando su entorno tiene una o más [conexiones de repositorios de Assets](../admin/configure-aem-repositories.md), los autores de contenido pueden usar [!DNL Experience Manager Assets] como origen de los recursos al crear un correo electrónico, una plantilla de correo electrónico o un fragmento visual.
 
 >[!IMPORTANT]
 >
->Un administrador debe añadir usuarios que necesiten acceder a Assets a los perfiles de producto Usuarios consumidores de Assets y Usuarios de Assets. [Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>Un administrador debe añadir usuarios que necesiten acceder a Assets a los perfiles de producto Usuarios consumidores de Assets y Usuarios de Assets. [Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Imágenes de AEM Assets de acceso
 
-En el editor de contenido visual, haga clic en el icono _Experience Manager Assets_ ( ![Experience Manager Assets icon](../../assets/do-not-localize/icon-assets-aem.svg) ) en la barra lateral izquierda. Esto cambia el panel Herramientas a una lista de recursos disponibles en el repositorio seleccionado.
+En el espacio de diseño de contenido, haga clic en el icono _[!UICONTROL Experience Manager Assets]_ ( ![icono de Experience Manager Assets](../../assets/do-not-localize/icon-assets-aem.svg) ) en la barra lateral izquierda. Esto cambia el panel Herramientas a una lista de recursos disponibles en el repositorio seleccionado.
 
 ![Haga clic en el icono del selector de Assets para acceder a los recursos de imagen](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->Actualmente, solo se admiten recursos de imagen de Adobe Experience Manager Assets en Adobe Journey Optimizer B2B edition. Los cambios en los recursos deben realizarse desde el repositorio central de Adobe Experience Manager Assets. [Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Actualmente, solo se admiten recursos de imagen de [!DNL Adobe Experience Manager Assets] en [!DNL Adobe Journey Optimizer B2B Edition]. Los cambios en los recursos deben realizarse desde el repositorio central [!DNL Adobe Experience Manager Assets]. [Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Cambiar el repositorio mostrado
 
