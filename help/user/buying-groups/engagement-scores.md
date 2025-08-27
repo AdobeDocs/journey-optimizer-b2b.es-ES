@@ -30,7 +30,7 @@ Existen dos tipos de puntuaciones de participación:
 
 * **Puntuación de participación de persona** - La puntuación de participación de persona se basa en las actividades de un miembro individual del grupo de compra.
 
-  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros &#x200B;]_&#x200B;tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
+  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros ]_tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
 
   ![Miembros del grupo de compras más comprometidos](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
