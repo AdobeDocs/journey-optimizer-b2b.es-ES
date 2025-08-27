@@ -1,25 +1,27 @@
 ---
-title: Plantillas de email
+title: Plantillas de correo electrónico
 description: Aprenda a administrar y crear plantillas de correo electrónico que se utilizan para crear correos electrónicos de recorrido de cuentas de forma fácil y eficaz.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
 
 # Plantillas de correo electrónico
 
-Para un proceso de diseño acelerado y mejorado, puede crear plantillas de correo electrónico independientes para reutilizar el contenido personalizado en los recorridos de cuenta de Adobe Journey Optimizer B2B edition. A través de las plantillas, los integrantes del equipo orientados al contenido pueden trabajar en el contenido del correo electrónico fuera de los recorridos. Los estrategas de marketing pueden reutilizar y adaptar estas plantillas independientes dentro de sus recorridos de cuenta. Por ejemplo, un miembro del equipo está a cargo solo del contenido, sin acceso a los recorridos de la cuenta. Sin embargo, pueden crear una plantilla de correo electrónico que los especialistas en marketing pueden seleccionar como punto de partida para las comunicaciones por correo electrónico y personalizarla según los requisitos del recorrido.
+Para un proceso de diseño acelerado y mejorado, puede crear plantillas de correo electrónico independientes para reutilizar el contenido personalizado en [!DNL Adobe Journey Optimizer B2B Edition] recorridos de cuenta. A través de las plantillas, los integrantes del equipo orientados al contenido pueden trabajar en el contenido del correo electrónico fuera de los recorridos. Los estrategas de marketing pueden reutilizar y adaptar estas plantillas independientes dentro de sus recorridos de cuenta. Por ejemplo, un miembro del equipo está a cargo solo del contenido, sin acceso a los recorridos de la cuenta. Sin embargo, pueden crear una plantilla de correo electrónico que los especialistas en marketing pueden seleccionar como punto de partida para las comunicaciones por correo electrónico y personalizarla según los requisitos del recorrido.
 
 ## Acceso y administración de plantillas de correo electrónico
 
-Para acceder a las plantillas de correo electrónico en Adobe Journey Optimizer B2B edition, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**. Esta acción abre una página de lista con todas las plantillas de correo electrónico creadas en la instancia enumeradas en una tabla.
+Para acceder a las plantillas de correo electrónico en [!DNL Journey Optimizer B2B Edition], vaya a la barra de navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**. En el panel lateral, seleccione **[!UICONTROL Plantillas de correo electrónico]**.
 
-La tabla está ordenada por la columna _[!UICONTROL Modificada]_ de forma predeterminada, con las plantillas actualizadas más recientemente en la parte superior. Haga clic en el título de la columna para cambiar entre ascendente y descendente.
+Esta acción abre una página de lista con todas las plantillas de correo electrónico creadas en la instancia en formato de tabla.
+
+La lista está ordenada de forma predeterminada por la columna _[!UICONTROL Modificado]_, con las plantillas actualizadas más recientemente en la parte superior. Haga clic en el título de la columna para cambiar entre ascendente y descendente.
 
 Para buscar una plantilla por nombre, escriba una cadena de texto en la barra de búsqueda. Haga clic en el icono _Filtro_ en la parte superior izquierda para filtrar la lista según las fechas de creación o modificación, y las plantillas que haya creado o modificado.
 
@@ -43,7 +45,7 @@ Se abre la página _[!UICONTROL Diseña tu plantilla]_ y proporciona varias opci
 
 ![Elija cómo desea comenzar con el diseño de la plantilla de correo electrónico](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-Después de seleccionar el método que desea usar para iniciar el diseño de la plantilla de correo electrónico, use el diseñador visual para [crear el contenido de la plantilla de correo electrónico](./email-template-authoring.md).
+Después de seleccionar el método que desea usar para iniciar el diseño de la plantilla de correo electrónico, use el espacio de diseño visual para [crear el contenido de la plantilla de correo electrónico](./email-template-authoring.md).
 
 ### Diseñe desde cero
 
@@ -55,7 +57,29 @@ Utilice el editor de contenido visual para definir la estructura del contenido d
 
 1. En la página de inicio de _[!UICONTROL Diseña tu plantilla]_, selecciona la opción **[!UICONTROL Diseñar desde cero]**.
 
+1. En el cuadro de diálogo _[!UICONTROL Crear correo electrónico]_, elija el tipo de contenido de correo electrónico que desea usar para la plantilla.
+
+   * **[!UICONTROL Usar temas]** - Elija esta opción para crear la plantilla de correo electrónico en _Modo de tema_. En este modo, puede utilizar un tema de marca definido para optimizar el proceso de creación de contenido y asegurarse de que el diseño se ajuste a los estándares definidos.
+
+   ![Crear correo electrónico - Usar temas](./assets/create-email-use-theme.png){width="450"}
+
+   * **[!UICONTROL Estilo manual]**: elija esta opción para crear la plantilla de correo electrónico en _modo manual_. En este modo, se establece manualmente el estilo para todos los componentes de estructura y contenido que se añaden al lienzo en blanco.
+
+1. (_Modo de temas_ solamente) Aplicar un tema.
+
+   En el espacio de diseño del correo electrónico, haga clic en el icono _Temas_ ( ![icono Temas](../assets/do-not-localize/icon-design-themes.svg) ) que hay a la derecha.
+
+   ![Espacio de diseño de correo electrónico - Icono de temas seleccionado](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   Se muestra la temática predeterminada o la temática aplicada a la plantilla. Puede cambiar entre las variantes de color de esta temática.
+
+   Haga clic en la flecha situada junto a la temática mostrada para ver la lista de temáticas personalizadas y de Adobe disponibles. Seleccione **[!UICONTROL Mis temas]** para usar un tema personalizado creado para su organización.
+
+   Al hacer clic fuera de la lista, la temática seleccionada aplica los estilos. Puede alternar entre las variantes de color.
+
 1. [Agregar estructura y contenido](./email-authoring.md#add-structure-and-content) a la plantilla.
+
+   Si hay una temática aplicada, los componentes añadidos heredan automáticamente los estilos definidos en la temática.
 
 ### Importar HTML
 
@@ -69,7 +93,7 @@ Adobe Journey Optimizer B2B edition le permite importar contenido existente de H
 >
 >El uso de una etiqueta `<table>` como primera capa de un archivo HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de la capa superior.
 
-Puede personalizar el contenido importado según sea necesario con el diseñador visual.
+Puede personalizar el contenido importado según sea necesario en el espacio de diseño visual.
 
 ### Seleccionar una plantilla de diseño
 
@@ -120,18 +144,18 @@ Puede duplicar una plantilla de correo electrónico mediante cualquiera de los s
 
   ![Haga clic en Más para acceder a las acciones Eliminar y Duplicar](./assets/template-details-more-menu.png){width="400"}
 
-* En la página de lista _Plantillas de correo electrónico_, haga clic en los puntos suspensivos (...) junto a la plantilla y elija **[!UICONTROL Duplicado]**.
+* En la página de lista _[!UICONTROL Plantillas de correo electrónico]_, haga clic en los puntos suspensivos (...) junto a la plantilla y elija **[!UICONTROL Duplicado]**.
 
 En el cuadro de diálogo, introduzca un nombre útil (único) y una descripción. Haga clic en **[!UICONTROL Duplicar]** para completar la acción.
 
-La plantilla duplicada (nueva) de correo electrónico aparece en el listado de _Plantillas de correo electrónico_.
+La plantilla duplicada (nueva) de correo electrónico aparece en el listado de _[!UICONTROL Plantillas de correo electrónico]_.
 
 ## Eliminar plantillas de correo electrónico
 
 La eliminación de una plantilla de correo electrónico no se puede deshacer, por lo que debe comprobarla antes de iniciar una acción de eliminación. Puede eliminar una plantilla de correo electrónico mediante cualquiera de los siguientes métodos:
 
 * En los detalles de la plantilla a la derecha, expanda **[!UICONTROL Más]** y haga clic en **[!UICONTROL Eliminar]**.
-* En la página de lista _Plantillas de correo electrónico_, haga clic en los puntos suspensivos (...) junto a la plantilla y elija **[!UICONTROL Eliminar]**.
+* En la página de lista _[!UICONTROL Plantillas de correo electrónico]_, haga clic en los puntos suspensivos (...) junto a la plantilla y elija **[!UICONTROL Eliminar]**.
 
   ![Haga clic... para acceder a las acciones Duplicar y Eliminar](./assets/templates-list-more-menu.png){width="500"}
 
@@ -165,4 +189,4 @@ Para empezar a crear contenido con una de las plantillas de correo electrónico 
 
 1. Haga clic en **[!UICONTROL Usar esta plantilla]** en la parte superior derecha.
 
-1. Desde el diseñador de contenido visual, edite el contenido según sea necesario.
+1. Desde el espacio de diseño visual, edite el contenido según sea necesario.

@@ -4,10 +4,10 @@ description: Aprenda a crear y utilizar fragmentos de contenido visual como comp
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f700f84c55d37ded9980a08286da05011345800c
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 3%
+source-wordcount: '2738'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,11 @@ Un fragmento es un componente reutilizable al que se puede hacer referencia en u
 
 **Fragmentos visuales**
 
-Los fragmentos visuales son bloques visuales predefinidos creados con el diseñador de contenido visual que se pueden reutilizar en varios correos electrónicos o plantillas de correo electrónico. El ámbito actual de Journey Optimizer B2B edition y esta documentación son solo los fragmentos visuales. Los fragmentos basados en expresiones aún no son compatibles con Journey Optimizer B2B edition.
+Los fragmentos visuales son bloques visuales predefinidos creados con las herramientas de diseño visual que se pueden reutilizar en varios correos electrónicos o plantillas de correo electrónico. El ámbito actual de Journey Optimizer B2B edition y esta documentación son solo los fragmentos visuales.
+
+>[!NOTE]
+>
+>Los fragmentos basados en expresiones aún no son compatibles con [!DNL Journey Optimizer B2B Edition].
 
 >[!ENDSHADEBOX]
 
@@ -42,9 +46,9 @@ El estado del fragmento determina su disponibilidad para utilizarlo en un correo
 
 | Estado | Descripción |
 | -------------------- | ----------- |
-| Borrador | Cuando crea un fragmento, está en estado de borrador. Permanece en este estado mientras define o edita el contenido visual hasta que lo publica para utilizarlo en un correo electrónico o plantilla de correo electrónico. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Editar en el diseñador visual<li>Publicación<li>Duplicado<li>Eliminar |
-| Publicadas | Al publicar un fragmento, pasa a estar disponible para su uso en un correo electrónico o plantilla de correo electrónico. El contenido de fragmento publicado no se puede modificar en el diseñador visual. Acciones disponibles:<br/><ul><li>Editar descripción<li>Añadir a un correo electrónico o plantilla<li>Crear versión de borrador<li>Duplicado<li>Eliminar (si no está en uso) |
-| Publicado con borrador | Cuando crea un borrador a partir de un fragmento publicado, la versión publicada permanece disponible para su uso en una plantilla de correo electrónico o correo electrónico, y el contenido del borrador se puede modificar en el diseñador visual. Si publica la versión de borrador, reemplazará la versión publicada actual y el contenido se actualizará en los correos electrónicos y las plantillas de correo electrónico donde esté en uso. Acciones disponibles:<br/><ul><li>Editar descripción<li>Añadir a un correo electrónico o plantilla<li>Editar versión de borrador en el diseñador visual<li>Publicar versión de borrador<li>Duplicado<li>Eliminar (si no está en uso) |
+| Borrador | Cuando crea un fragmento, está en estado de borrador. Permanece en este estado mientras define o edita el espacio de diseño visual hasta que lo publica para utilizarlo en un correo electrónico o plantilla de correo electrónico. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Editar en el espacio de diseño visual<li>Publicación<li>Duplicado<li>Eliminar |
+| Publicadas | Al publicar un fragmento, pasa a estar disponible para su uso en un correo electrónico o plantilla de correo electrónico. El contenido de fragmento publicado no se puede modificar en el espacio de diseño visual. Acciones disponibles:<br/><ul><li>Editar descripción<li>Añadir a un correo electrónico o plantilla<li>Crear versión de borrador<li>Duplicado<li>Eliminar (si no está en uso) |
+| Publicado con borrador | Cuando crea un borrador a partir de un fragmento publicado, la versión publicada permanece disponible para su uso en un correo electrónico o plantilla de correo electrónico, y el contenido del borrador se puede modificar en el espacio de diseño visual. Si publica la versión de borrador, reemplazará la versión publicada actual y el contenido se actualizará en los correos electrónicos y las plantillas de correo electrónico donde esté en uso. Acciones disponibles:<br/><ul><li>Editar descripción<li>Añadir a un correo electrónico o plantilla<li>Editar versión de borrador en el espacio de diseño visual<li>Publicar versión de borrador<li>Duplicado<li>Eliminar (si no está en uso) |
 
 ![Ciclo de vida del estado del fragmento](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -86,7 +90,7 @@ Puede crear nuevos fragmentos visuales en Journey Optimizer B2B edition haciendo
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-   El diseñador visual se abre con un lienzo vacío.
+   El espacio de diseño visual se abre con un lienzo vacío.
 
 1. Utilice las herramientas de diseño de contenido para crear el contenido del fragmento visual:
 
@@ -96,6 +100,18 @@ Puede crear nuevos fragmentos visuales en Journey Optimizer B2B edition haciendo
    * [Personalización del contenido](./fragment-authoring.md#personalize-content)
    * [Habilitar campos personalizados](./fragment-authoring.md#enable-fragment-customization)
    * [Editar seguimiento de URL vinculadas](./fragment-authoring.md#edit-linked-url-tracking)
+
+1. (Opcional) Aplique un [tema de marca](./brand-themes.md) al contenido del fragmento para optimizar el proceso de creación del fragmento y asegurarse de que el diseño se ajusta a los estándares definidos.
+
+   >[!NOTE]
+   >
+   >Al aplicar una temática, la compatibilidad de fragmentos se limita a los correos electrónicos y a las plantillas de correo electrónico que se crean en _modo de temática_.
+
+   Haga clic en el icono _Temas_ ( ![Icono de Temas](../assets/do-not-localize/icon-design-themes.svg) ) que se encuentra a la derecha.
+
+   ![Espacio de diseño de fragmento - Icono de temas seleccionado](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   Seleccione una de las temáticas personalizadas enumeradas en la ficha **[!UICONTROL Mis temáticas]**, o bien puede Seleccionar **[!UICONTROL temáticas de Adobe]** para usar una temática integrada. Al hacer clic fuera de la lista, la temática seleccionada aplica los estilos a todos los componentes del lienzo. Puede alternar entre las variantes de color según sea necesario.
 
 1. Haga clic en **[!UICONTROL Guardar]** en cualquier momento para guardar el fragmento de borrador.
 
@@ -166,9 +182,9 @@ Las ediciones en un fragmento dependen de su estado actual:
 
    ![Detalles para fragmento con estado Borrador](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. Para realizar cambios en el contenido en el diseñador visual, haga clic en **[!UICONTROL Editar fragmento]**.
+1. Para realizar cambios en el contenido en el espacio de diseño visual, haga clic en **[!UICONTROL Editar fragmento]**.
 
-   Utilice las herramientas del diseñador visual según sea necesario:
+   Utilice las herramientas de diseño visual según sea necesario:
 
    * [Añadir estructura y contenido](./fragment-authoring.md#add-structure-and-content)
    * [Añadir Assets](./fragment-authoring.md#add-assets)
@@ -193,11 +209,11 @@ Las ediciones en un fragmento dependen de su estado actual:
 
 1. Si desea actualizar el contenido, haga clic en **[!UICONTROL Crear versión de borrador]** en la parte superior derecha.
 
-   Haga clic en **[!UICONTROL Aceptar]** en el cuadro de diálogo para abrir la versión de borrador en el diseñador visual.
+   Haga clic en **[!UICONTROL Aceptar]** en el cuadro de diálogo para abrir la versión de borrador en el espacio de diseño visual.
 
    ![Cuadro de diálogo Crear versión de borrador](./assets/fragments-create-draft-version.png){width="300"}
 
-   Utilice las herramientas del diseñador visual según sea necesario:
+   Utilice las herramientas de diseño visual según sea necesario:
 
    * [Añadir estructura y contenido](./fragment-authoring.md#add-structure-and-content)
    * [Añadir Assets](./fragment-authoring.md#add-assets)
@@ -226,7 +242,7 @@ Hay dos formas de abrir la versión de borrador para editarla desde la página d
 
 Para actualizar el contenido:
 
-1. Haga clic en **[!UICONTROL Editar fragmento]** en la parte superior derecha. Utilice las herramientas del diseñador visual según sea necesario:
+1. Haga clic en **[!UICONTROL Editar fragmento]** en la parte superior derecha. Utilice las herramientas de diseño visual según sea necesario:
 
    * [Añadir estructura y contenido](./fragment-authoring.md#add-structure-and-content)
    * [Añadir Assets](./fragment-authoring.md#add-assets)
@@ -286,7 +302,7 @@ Los fragmentos están diseñados para su reutilización y se pueden insertar par
 
 1. Vaya a **[!UICONTROL Recorridos de cuenta]** y abra un recorrido recorrido existente o cree uno nuevo.
 
-1. Crear un nodo [_[!UICONTROL Enviar correo electrónico &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Crear un nodo [_[!UICONTROL Enviar correo electrónico ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Cree o edite el contenido de [correo electrónico para el nodo](./email-authoring.md).
 
@@ -310,7 +326,7 @@ El contenido del fragmento se actualiza dinámicamente dentro de la estructura p
 
 >[!TIP]
 >
->Si desea que el fragmento ocupe todo el diseño horizontal del correo electrónico, agregue una estructura de columna [!UICONTROL 1:1] y, a continuación, arrastre y suelte el fragmento en él.
+>Si desea que el fragmento ocupe todo el diseño horizontal del correo electrónico, agregue una estructura de [!UICONTROL 1:1 columna] y, a continuación, arrastre y suelte el fragmento en ella.
 
 Una vez guardado el correo electrónico, aparecerá en la página de detalles del fragmento cuando la pestaña _[!UICONTROL Utilizado por]_ esté seleccionada. Los fragmentos agregados a un correo electrónico no se pueden editar dentro del correo electrónico o la plantilla: el fragmento de origen publicado define el contenido.
 
@@ -342,7 +358,7 @@ Una vez guardado el correo electrónico, aparecerá en la página de detalles de
 
 >[!TIP]
 >
->Si desea que el fragmento ocupe todo el diseño horizontal de la plantilla de correo electrónico, agregue una estructura de columna _[!UICONTROL 1:1]_ y, a continuación, arrastre y suelte el fragmento en ella.
+>Si desea que el fragmento ocupe todo el diseño horizontal de la plantilla de correo electrónico, agregue una estructura de _[!UICONTROL 1:1 columna]_ y, a continuación, arrastre y suelte el fragmento en ella.
 
 Una vez guardada la plantilla de correo electrónico, aparece en la página de detalles del fragmento cuando se selecciona la pestaña _[!UICONTROL Utilizado por]_. Los fragmentos agregados a una plantilla de correo electrónico no se pueden editar dentro de la plantilla: el fragmento de origen publicado define el contenido.
 

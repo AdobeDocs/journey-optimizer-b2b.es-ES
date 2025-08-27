@@ -4,16 +4,16 @@ description: Aprenda a crear contenido de correo electrónico en Adobe Journey O
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
 
 # Creación de mensajes de correo electrónico
 
-Después de &lbrack;agregar un nuevo recurso de correo electrónico<!-- or duplicated --> a un nodo de acción de recorrido&rbrack;(./add-email.md), puede definir el contenido del mensaje de correo electrónico.
+Después de [agregar un recurso de correo electrónico a un nodo de acción de recorrido](./add-email.md), puede definir el contenido del mensaje de correo electrónico.
 
 Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la ficha _[!UICONTROL Detalles]_ del panel derecho.
 
@@ -38,17 +38,24 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 Utilice el espacio de diseño de contenido visual para definir la estructura y el contenido del correo electrónico. Al agregar y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar la forma del contenido del correo electrónico reutilizable en cuestión de segundos.
 
 1. En la página de inicio de _[!UICONTROL Diseña tu plantilla]_, selecciona la opción **[!UICONTROL Diseñar desde cero]**.
-1. [Agregar estructura y contenido](#add-structure-and-content) al mensaje de correo electrónico.
-1. [Agregar recursos de imagen](#add-assets) al mensaje de correo electrónico.
-1. [Personalizar el contenido del correo electrónico](#personalize-content).
+
+1. En el cuadro de diálogo _[!UICONTROL Crear correo electrónico]_, elija el tipo de contenido de correo electrónico que desea crear.
+
+   * **[!UICONTROL Usar temas]** - Elija esta opción para crear el correo electrónico en _Modo de temas_. En este modo, puede utilizar un tema de marca definido para optimizar el proceso de creación de contenido y asegurarse de que el diseño se ajuste a los estándares definidos.
+
+   * **[!UICONTROL Estilo manual]**: elija esta opción para crear el correo electrónico en _modo manual_. En este modo, se establece manualmente el estilo para todos los componentes de estructura y contenido que se añaden al lienzo en blanco.
+
+1. [Agregar estructura y contenido](./email-authoring.md#add-structure-and-content) a la plantilla.
+
 1. [Revisar y actualizar vínculos](#preview-and-edit-linked-urls).
+
 1. [Probar el correo electrónico](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual designer for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
 Cuando esté satisfecho con el contenido, haga clic en **[!UICONTROL Guardar]**.
 
@@ -70,7 +77,7 @@ Puede personalizar el contenido importado según sea necesario con las herramien
 
 >[!NOTE]
 >
-> Las plantillas guardadas pueden tener configuraciones de gobernanza (bloqueo de contenido) aplicadas a uno o varios componentes. El diseñador visual proporciona directrices sobre los componentes bloqueados cuando [crea un correo electrónico a partir de una plantilla controlada](./email-authoring-governance.md).
+> Las plantillas guardadas pueden tener configuraciones de gobernanza (bloqueo de contenido) aplicadas a uno o varios componentes. El espacio de diseño visual proporciona directrices sobre los componentes bloqueados cuando [crea un correo electrónico a partir de una plantilla controlada](./email-authoring-governance.md).
 
 ## Añadir estructura y contenido {#structure-content}
 
@@ -78,7 +85,7 @@ Puede personalizar el contenido importado según sea necesario con las herramien
 
 ### Añadir CSS personalizado
 
-Puede agregar su propio CSS personalizado directamente en el espacio de diseño de correo electrónico. Utilice CSS personalizado para aplicar un estilo avanzado y específico, para una mayor flexibilidad y control sobre el aspecto del contenido. Se recomienda añadir este estilo de nivel superior antes de incluir componentes como imágenes, botones y texto.
+Puede agregar su propio CSS personalizado directamente en el espacio de diseño de correo electrónico. Utilice CSS personalizado para aplicar un estilo avanzado y específico, para una mayor flexibilidad y control sobre el aspecto del contenido. Se recomienda añadir este estilo de nivel superior antes de incluir componentes de contenido, como imágenes, botones y texto.
 
 Con al menos un componente de contenido en el lienzo, selecciona el componente **[!UICONTROL Cuerpo]** en el árbol de navegación izquierdo para acceder al editor CSS personalizado.
 
@@ -91,6 +98,10 @@ Con al menos un componente de contenido en el lienzo, selecciona el componente *
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### Añadir fragmentos
+
+>[!NOTE]
+>
+>Los fragmentos no son compatibles entre el _modo de tema_ y el _modo manual_ del contenido del correo electrónico. Para utilizar un fragmento en el contenido del correo electrónico donde se aplique un tema, el fragmento también debe crearse en _Modo de tema_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -128,13 +139,13 @@ Aproveche las opciones de vista y validación de contenido disponibles en el edi
 
 ## Más opciones
 
-En el menú _[!UICONTROL Más...]_ de la parte superior del espacio de diseño del correo electrónico, puede realizar las siguientes acciones:
+En el menú _[!UICONTROL Más...]_ de la parte superior del espacio de diseño visual, puede realizar las siguientes acciones:
 
 ![Haga clic en Más para acceder a las acciones de plantilla](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Restablecer correo electrónico]**: haga clic en esta opción para borrar el lienzo del diseñador de correo electrónico visual de una pizarra en blanco y reiniciar la creación del contenido.
+* **[!UICONTROL Restablecer correo electrónico]**: haga clic en esta opción para borrar el lienzo del diseño del correo electrónico en una pizarra en blanco y reiniciar la creación del contenido.
 * **[!UICONTROL Guardar como fragmento]**: guarde todo o parte del correo electrónico como un fragmento para reutilizarlo en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para el fragmento y guárdelo en la lista de fragmentos disponibles.
-* **[!UICONTROL Cambia tu diseño]** - Vuelve a la página _Diseña tu correo electrónico_. Desde allí, puede elegir otra plantilla para reiniciar el proceso de diseño o elegir diseñar el contenido desde cero en un lienzo negro.\
+* **[!UICONTROL Cambia tu diseño]** - Vuelve a la página _Diseña tu correo electrónico_. Desde allí, puede elegir otra plantilla para reiniciar el proceso de diseño. También puede diseñar el contenido desde cero con un lienzo en blanco (_Modo clásico_) o con un [tema de marca](./brand-themes.md) (_Modo de tema_).
 * **[!UICONTROL Guardar como plantilla de contenido]** - Guarde el cuerpo del correo electrónico como una plantilla de correo electrónico para reutilizarla en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para la plantilla y guárdela en la lista de plantillas de correo electrónico guardadas.
 * **[!UICONTROL Exportar HTML]**: descargue el contenido del lienzo visual en su sistema local en formato HTML empaquetado como archivo zip.
 

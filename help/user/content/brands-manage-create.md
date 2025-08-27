@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2053'
 ht-degree: 6%
 
 ---
@@ -148,7 +148,7 @@ Para crear y definir las directrices de marca, puede introducir los detalles o c
 
    * **Agregue o revise ejemplos de sus directrices y exclusiones**.
 
-     En el mosaico del ejemplo que se muestra, haga clic en _Editar_ ( ![Editar icono](../assets/do-not-localize/icon-edit.svg) ) para cambiar el ejemplo o haga clic en el icono _Eliminar_ ( ![Eliminar icono](../assets/do-not-localize/icon-delete.svg) ) para quitarlo.
+     En el mosaico del ejemplo que se muestra, haga clic en el icono _Editar_ ( ![Editar icono](../assets/do-not-localize/icon-edit.svg) ) para cambiar el ejemplo o haga clic en el icono _Eliminar_ ( ![Eliminar icono](../assets/do-not-localize/icon-delete.svg) ) para quitarlo.
 
 1. Cuando haya definido todo, haga clic en **[!UICONTROL Guardar]**.
 

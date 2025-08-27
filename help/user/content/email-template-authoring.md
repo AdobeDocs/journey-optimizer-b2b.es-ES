@@ -4,10 +4,10 @@ description: Aprenda a crear plantillas de correo electrónico de contenido que 
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 3%
+source-wordcount: '423'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,10 @@ Con al menos un componente de contenido en el lienzo, selecciona el componente *
 {{$include /help/_includes/content-design-custom-css.md}}
 
 ### Añadir fragmentos
+
+>[!NOTE]
+>
+>Los fragmentos no son compatibles entre el _modo de tema_ y el _modo manual_ del contenido del correo electrónico. Para utilizar un fragmento en el contenido del correo electrónico donde se aplique un tema, el fragmento también debe crearse en _Modo de tema_.
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
@@ -69,5 +73,5 @@ En el menú _[!UICONTROL Más...]_ de la parte superior del espacio de diseño d
 
 * **[!UICONTROL Restablecer plantilla]**: haga clic en esta opción para borrar el lienzo de diseño en una pizarra en blanco y reiniciar la creación de contenido.
 * **[!UICONTROL Guardar como fragmento]**: guarde toda la plantilla o partes de ella como un fragmento para reutilizarlo en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para el fragmento y guárdelo en la lista de fragmentos disponibles.
-* **[!UICONTROL Cambia tu diseño]** - Vuelve a la página _Diseña tu plantilla_. A partir de ahí, puede elegir diseñar la plantilla desde cero o utilizar una plantilla existente para reiniciar el proceso de diseño.
+* **[!UICONTROL Cambia tu diseño]** - Vuelve a la página _Diseña tu correo electrónico_. Desde allí, puede elegir otra plantilla para reiniciar el proceso de diseño. También puede diseñar el contenido desde cero con un lienzo en blanco (_Modo clásico_) o con un [tema de marca](./brand-themes.md) (_Modo de tema_).
 * **[!UICONTROL Exportar HTML]**: descargue el contenido del lienzo visual en su sistema local en formato HTML empaquetado como archivo zip.
