@@ -3,9 +3,9 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2787'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 <!-- hold for later release 
 
@@ -33,11 +33,11 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Filtros de puntuación de participación de personas para plantillas de roles y recorridos | Ahora puede usar _puntuación de participación de persona_ como filtro en las plantillas de roles que se usan para crear grupos de compras y en los nodos de recorrido de rutas divididas. |
-| Función | Configuración de funciones personalizadas de grupos de compra | Ahora tiene la flexibilidad para configurar funciones personalizadas para grupos de compra, lo que le permite definir las funciones específicas de sus casos de uso. |
-| Función | Configuración de ponderación de puntuación de participación | Ahora puede asignar un peso a las actividades que influyen en la puntuación de participación del grupo comprador. Esta función incluye la definición de sus propios modelos de puntuación personalizados y el cambio del modelo activo que influye en los cálculos de puntuación de participación. |
-| Mejora | Contenido condicional para fragmentos | Ahora puede utilizar las herramientas de contenido condicional para el diseño de fragmentos visuales. |
-| Mejora | Actualizaciones de puntuación de participación | La lógica de puntuación de participación del grupo de compra se actualiza para normalizar las puntuaciones. Además, puede trabajar con puntuaciones de participación a nivel de miembro, así como puntuaciones de participación colectiva para todo el grupo de compra. |
+| Función | Filtros de puntuación de participación de personas para plantillas de roles y recorridos | Ahora puede usar _puntuación de participación de persona_ como filtro en las plantillas de roles que se usan para crear grupos de compras y en los nodos de recorrido de rutas divididas. [Más información](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Función | Configuración de funciones personalizadas de grupos de compra | Ahora tiene la flexibilidad para configurar funciones personalizadas para grupos de compra, lo que le permite definir las funciones específicas de sus casos de uso. [Más información](../buying-groups/default-custom-roles.md) |
+| Función | Configuración de ponderación de puntuación de participación | Ahora puede asignar un peso a las actividades que influyen en la puntuación de participación del grupo comprador. Esta función incluye la definición de sus propios modelos de puntuación personalizados y el cambio del modelo activo que influye en los cálculos de puntuación de participación. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| Mejora | Contenido condicional para fragmentos | Ahora puede utilizar las herramientas de contenido condicional para el diseño de fragmentos visuales. [Más información](../content/conditional-content.md) |
+| Mejora | Actualizaciones de puntuación de participación | La lógica de puntuación de participación del grupo de compra se actualiza para normalizar las puntuaciones. Además, puede trabajar con puntuaciones de participación a nivel de miembro, así como puntuaciones de participación colectiva para todo el grupo de compra. [Más información](../buying-groups/engagement-scores.md) |
 | Mejora | Observabilidad activa del recorrido: cuentas en cada nodo | Para un recorrido de cuentas activo, puede acceder a una lista de las cuentas que han llegado a cada nodo de cuenta del recorrido. |
 
 >[!NOTE]
@@ -153,7 +153,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Contenido condicional en plantillas de correo electrónico | Personalice el contenido del correo electrónico en función del comportamiento del destinatario y las características del perfil, tanto a nivel de cuenta como de posible cliente. <p>A medida que crea un correo electrónico para el recorrido de la cuenta en el espacio de diseño visual de correo electrónico, utilice reglas condicionales para definir varias variantes para cualquier componente de contenido. <a href="../content/conditional-content.md">Más información</a> |
+| Función | Contenido condicional en correos electrónicos | Personalice el contenido del correo electrónico en función del comportamiento del destinatario y las características del perfil, tanto a nivel de cuenta como de posible cliente. <p>A medida que crea un correo electrónico para el recorrido de la cuenta en el espacio de diseño visual de correo electrónico, utilice reglas condicionales para definir varias variantes para cualquier componente de contenido. <a href="../content/conditional-content.md">Más información</a> |
 | Función | _Añada a la lista_ y _Quite de la lista_ acciones de personas en recorridos | Personalice el contenido del correo electrónico en función del comportamiento del destinatario y las características del perfil, tanto a nivel de cuenta como de posible cliente. <a href="../journeys/action-nodes.md">Más información</a> |
 | Función | Gobernanza de contenido y bloqueo de componentes | Para garantizar el cumplimiento de los diseños de contenido aprobados, utilice las funciones de control de contenido para bloquear los componentes de contenido de plantillas de correo electrónico. Con la gobernanza de contenido activada en la plantilla de correo electrónico, los especialistas en marketing solo pueden modificar los elementos permitidos para mantenerla alineada con la estrategia de contenido. <a href="../content/template-content-governance.md">Más información</a> |
 | Función | Fases del grupo de compras | Al definir y publicar un modelo de ensayo de grupos de compra personalizado, puede realizar un seguimiento de la progresión del grupo de compras a través de las fases del ciclo de vida del grupo de compras. Utilice estas fases para identificar las siguientes mejores acciones para miembros del grupo de compras. Puede configurar las reglas de transición y los nodos de recorrido que determinan la progresión de la fase y activan acciones en función de los cambios. <a href="../buying-groups/buying-group-stages.md">Más información</a> |

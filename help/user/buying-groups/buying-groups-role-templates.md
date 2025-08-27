@@ -4,16 +4,16 @@ description: Obtenga información acerca de la definición de una plantilla de r
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
+source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 5%
 
 ---
 
 # Plantillas de función del grupo de compras
 
-En un mercado B2B, las decisiones de compra suelen ser tomadas por varios individuos. Esas personas participan en el proceso de adopción de decisiones de acuerdo con su función dentro de la organización. Cree plantillas de función Grupo de compra que contengan estas definiciones de función según cada tipo de oferta de producto o caso de uso de cuenta.
+En un mercado B2B, las decisiones de compra suelen ser tomadas por varios individuos. Esas personas participan en el proceso de adopción de decisiones de acuerdo con su función dentro de la organización. Cree plantillas de rol Grupo de compra que contengan un grupo de definiciones de rol según cada tipo de oferta de producto o caso de uso de cuenta.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
@@ -23,7 +23,7 @@ En un mercado B2B, las decisiones de compra suelen ser tomadas por varios indivi
 
 1. En la página _[!UICONTROL Comprar grupos]_, seleccione la pestaña **[!UICONTROL Plantillas de roles]**.
 
-   ![Ficha Plantillas de roles](assets/roles-templates-tab.png){width="700" zoomable="yes"}
+   ![Ficha Plantillas de roles](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    La pestaña proporciona una lista de inventario de todas las plantillas de funciones existentes y muestra la siguiente información en formato de columna:
 
@@ -56,13 +56,13 @@ En un mercado B2B, las decisiones de compra suelen ser tomadas por varios indivi
 
 ### Añadir las funciones de plantilla
 
-Después de crear la plantilla, esta se abrirá en el espacio de trabajo y se le pedirá que defina las funciones. La tarjeta de la primera función se muestra de forma predeterminada.
+Después de crear la plantilla, esta se abrirá en el espacio de trabajo y se le pedirá que añada las funciones. La tarjeta de la primera función se muestra de forma predeterminada.
 
 Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condiciones_ para determinar los miembros asignados al rol. Utilice los siguientes tipos de filtros para definir las condiciones de un rol:
 
 | Tipo | Condición |
 | ---- | --------- |
-| Atributos de la persona | <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Número de fax <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Segundo nombre <li>Número de teléfono móvil <li>Número de teléfono <li>Código postal <li>Estado <li>Suscripción cancelada <li>Razón de la cancelación de la suscripción |
+| Atributos de la persona | <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Número de fax <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Segundo nombre <li>Número de teléfono móvil <li>Puntuación de participación de persona <li>Número de teléfono <li>Código postal <li>Estado <li>Suscripción cancelada <li>Razón de la cancelación de la suscripción |
 | Filtros especiales | <li>Miembro de la lista <li>Miembro del programa |
 | Datos de intención | Intento de categoría <li>Intención del producto <li>Intento de palabra clave<br/>[Más información acerca de los datos de intención](../admin/intent-data.md). |
 
@@ -70,7 +70,7 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 
    * Elija **[!UICONTROL Comprar rol de grupo]** de la lista.
 
-     En la versión actual hay seis funciones: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` y `Other`.
+     Hay seis funciones predeterminadas: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` y `Other`. La lista también incluye [roles personalizados definidos en la lista _Roles_](./default-custom-roles.md#custom-roles).
 
      ![Lista de funciones de grupo de compra](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -162,4 +162,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

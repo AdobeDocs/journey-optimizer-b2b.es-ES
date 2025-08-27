@@ -1,23 +1,23 @@
 ---
 title: Contenido condicional
-description: Aprenda a crear variaciones de contenido y aplicar reglas condicionales al crear contenido de correo electrónico para recorridos de cuenta.
-feature: Email Authoring, Content
+description: Aprenda a crear variaciones de contenido y aplicar reglas condicionales al crear fragmentos visuales y contenido de correo electrónico para recorridos de cuenta.
+feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1259'
 ht-degree: 12%
 
 ---
 
 # Contenido condicional
 
-El contenido condicional le permite adaptar el contenido del correo electrónico en función de reglas condicionales. Estas reglas se definen mediante atributos de perfil o eventos contextuales. Puede crear reglas condicionales en el generador de reglas y almacenarlas para su reutilización en los recorridos de la cuenta.
+El contenido condicional le permite adaptar el correo electrónico y el contenido del fragmento en función de reglas condicionales. Estas reglas se definen mediante atributos de perfil o eventos contextuales. Puede crear reglas condicionales en el generador de reglas y almacenarlas para su reutilización en los recorridos de la cuenta.
 
-Para agregar contenido condicional a los mensajes de correo electrónico, Adobe Journey Optimizer permite aplicar reglas condicionales almacenadas en la biblioteca _Conditions_. Aplique reglas condicionales dentro del espacio de diseño de correo electrónico a medida que [crea contenido de correo electrónico para un recorrido de cuenta](./email-authoring.md).
+Para agregar contenido condicional a los fragmentos y mensajes de correo electrónico, Adobe Journey Optimizer le permite aplicar reglas condicionales almacenadas en la biblioteca _Conditions_. Aplique reglas condicionales dentro del espacio de diseño visual a medida que crea [contenido de correo electrónico para un recorrido de cuenta](./email-authoring.md) o un [fragmento visual](./fragment-authoring.md).
 
-## Añadir contenido condicional a correos electrónicos {#email-content}
+## Añadir contenido condicional {#email-fragment-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
@@ -29,11 +29,11 @@ Para agregar contenido condicional a los mensajes de correo electrónico, Adobe 
 >title="Contenido condicional"
 >abstract="Utilice una regla condicional guardada en la biblioteca o cree una nueva."
 
-A medida que crea un correo electrónico para el recorrido de la cuenta en el espacio de diseño de correo electrónico, utilice reglas condicionales para definir varias variantes para un componente de contenido.
+Cuando cree un fragmento o un correo electrónico en el espacio de diseño visual, utilice reglas condicionales para definir varias variantes para un componente de contenido.
 
 1. Seleccione un componente de contenido y haga clic en el icono **[!UICONTROL Habilitar contenido condicional]** de la barra de herramientas de componentes.
 
-   El componente se destaca en naranja para indicar que se activa como componente condicional. El panel **[!UICONTROL Contenido condicional]** se muestra a la izquierda con la _variante predeterminada_ y la _variante - 1.
+   El componente se destaca en naranja para indicar que se activa como componente condicional. El panel **[!UICONTROL Contenido condicional]** se muestra a la izquierda con la _variante predeterminada_ y la _Variante - 1_.
 
    ![Habilitar contenido condicional para el componente de texto](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
@@ -94,20 +94,18 @@ A medida que crea un correo electrónico para el recorrido de la cuenta en el es
 ## Reglas condicionales
 
 Las reglas condicionales son un conjunto de expresiones condicionales que pueden evaluarse como verdaderas o falsas. Puede utilizar estas reglas para determinar qué variante de contenido se mostrará en un mensaje de correo electrónico en función de varios filtros, como atributos de perfil o eventos contextuales.
-
-Las reglas condicionales se almacenan en la biblioteca de condiciones, donde están disponibles para su reutilización en el contenido del recorrido de su organización.
-<!-- 
-
+Las reglas se almacenan en la biblioteca de condiciones, donde están disponibles para su reutilización en el correo electrónico y en el contenido de fragmentos de su organización.
+<!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization. -->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
 
 ### Filtros de condición {#condition-filters}
 
 | Tipo de condición | Filtros | Descripción |
 | -------------- | ------- | ----------- |
 | **Cuenta** | Atributos de la cuenta | Atributos del perfil de cuenta, incluidos: <li>Ingresos anuales</li><li>Ciudad</li><li>País</li><li>Cantidad de empleados</li><li>Industria</li><li>Nombre</li><li>Código SIC</li><li>Estado</li> |
-| | [!UICONTROL Filtros especiales] > [!UICONTROL Tiene grupo de compra] | La cuenta tiene o no miembros de grupos compradores. También se puede evaluar con uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li> |
+| | [!UICONTROL Filtros especiales] > [!UICONTROL Tiene grupo de compra] | La cuenta tiene o no miembros de grupos compradores. El filtro también se puede evaluar con uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li> |
 | **Persona** | [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico asociadas con el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico]</li><li>Abrió el email</li><li>Se entregó el email</li><li>Se envió email</li> Estas condiciones se evalúan utilizando un mensaje de correo electrónico seleccionado de anteriormente en el recorrido. |
 |  | [!UICONTROL Atributos de persona] | Atributos del perfil de la persona, incluidos: <li>Ciudad</li><li>País</li><li>Fecha de nacimiento</li><li>Dirección de correo electrónico</li><li>Email no válido</li><li>Email suspendido</li><li>Nombre</li><li>Región del estado inferida</li><li>Cargo</li><li>Apellido</li><li>Número de teléfono móvil</li><li>Número de teléfono</li><li>Código postal</li><li>Estado</li><li>Suscripción cancelada</li><li>Razón de la cancelación de la suscripción</li> |
 | | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Función</li> |

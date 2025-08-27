@@ -3,10 +3,11 @@ title: Componentes de contenido
 description: Aprenda a utilizar componentes de contenido para diseñar el contenido de su correo electrónico, página de aterrizaje y fragmento visual.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '2841'
-ht-degree: 2%
+source-wordcount: '2844'
+ht-degree: 4%
 
 ---
 
@@ -57,7 +58,7 @@ Cada tipo de componente de contenido muestra una barra de herramientas al selecc
 
 ### Herramientas de formato
 
-+++Cambiar el estilo del texto
++++Cambiar estilo de texto
 
 <table>
     <tr>
@@ -142,7 +143,7 @@ Cada tipo de componente de contenido muestra una barra de herramientas al selecc
 
 +++
 
-+++Color de la fuente
++++Color de fuente
 
 <table>
     <tr>
@@ -199,10 +200,9 @@ Cada tipo de componente de contenido muestra una barra de herramientas al selecc
 | ---- | ---- | ----- |
 | ![Adición de personalización](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | Añadir personalización | Utilice el editor de personalización para insertar tokens de personalización en el contenido del componente. [Más información](./email-authoring.md#personalize-content) |
 | ![Mostrar el código fuente](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | Mostrar el código fuente | Muestre el código fuente de HTML del componente en una ventana emergente de solo lectura. <br/>![Mostrar código HTML](./assets/content-components-show-source-code.png){width="200"} |
-| ![Habilitar contenido condicional](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Habilitar contenido condicional | Habilite variantes condicionales para el componente. [Más información](./conditional-content.md) |
+| ![Habilitar contenido condicional](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Habilitar contenido condicional | (Correos electrónicos y fragmentos) Habilite variantes condicionales para el componente. [Más información](./conditional-content.md) |
 | ![Duplicar](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Duplicado | Cree una copia del componente y agréguelo directamente debajo. |
 | ![Eliminar](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Eliminar | Desmonte el componente. |
-
 
 ## Añadir un componente de contenido al diseño
 
@@ -243,7 +243,7 @@ Por ejemplo, agregue un componente _[!UICONTROL Container]_ y, a continuación, 
 
 ![Estilos de componente de contenido de contenedor](./assets/content-components-container.png){width="600" zoomable="yes"}
 
-+++Fondo
++++Contexto
 
 {{styles-background}}
 
@@ -255,19 +255,19 @@ Por ejemplo, agregue un componente _[!UICONTROL Container]_ y, a continuación, 
 
 +++
 
-+++Size
++++Tamaño
 
 {{styles-size}}
 
 +++
 
-+++Margin
++++Margen
 
 {{styles-margin}}
 
 +++
 
-+++relleno
++++Relleno
 
 {{styles-padding}}
 
@@ -319,7 +319,7 @@ En la ficha _[!UICONTROL Configuración]_, use las opciones de **[!UICONTROL Ví
 
 Personalice el estilo del botón en la ficha **[!UICONTROL Estilos]**.
 
-+++Fondo
++++Contexto
 
 {{styles-background}}
 
@@ -337,7 +337,7 @@ Personalice el estilo del botón en la ficha **[!UICONTROL Estilos]**.
 
 +++
 
-+++Size
++++Tamaño
 
 {{styles-size}}
 
@@ -357,13 +357,13 @@ Personalice el estilo del botón en la ficha **[!UICONTROL Estilos]**.
 
 +++
 
-+++relleno
++++Relleno
 
 {{styles-padding}}
 
 +++
 
-+++Avanzado
++++Avanzadas
 
 {{styles-advanced}}
 
@@ -375,7 +375,7 @@ Utilice el componente Texto para insertar un bloque de texto en el contenido. Cu
 
 Personalice el estilo del componente de texto en la ficha **[!UICONTROL Estilos]**.
 
-+++Fondo
++++Contexto
 
 {{styles-background}}
 
@@ -395,25 +395,25 @@ Estos estilos se aplican a todo el bloque de texto. Puede aplicar estilos en lí
 
 +++
 
-+++Size
++++Tamaño
 
 {{styles-size}}
 
 +++
 
-+++Margin
++++Margen
 
 {{styles-margin}}
 
 +++
 
-+++relleno
++++Relleno
 
 {{styles-padding}}
 
 +++
 
-+++Avanzado
++++Avanzadas
 
 {{styles-advanced}}
 
@@ -425,7 +425,7 @@ Agregue un componente _Divider_ para incorporar una división lineal entre las s
 
 
 
-+++Fondo
++++Contexto
 
 {{styles-background}}
 
@@ -435,7 +435,7 @@ Agregue un componente _Divider_ para incorporar una división lineal entre las s
 
 +++
 
-+++Size
++++Tamaño
 
 {{styles-size}}
 
@@ -447,19 +447,19 @@ Agregue un componente _Divider_ para incorporar una división lineal entre las s
 
 +++
 
-+++Margin
++++Margen
 
 {{styles-margin}}
 
 +++
 
-+++relleno
++++Relleno
 
 {{styles-padding}}
 
 +++
 
-+++Avanzado
++++Avanzadas
 
 {{styles-advanced}}
 
@@ -481,7 +481,7 @@ Utilice el componente HTML para añadir partes de su HTML existente. Este compon
 
 Para un componente de HTML, puede establecer los siguientes estilos para todo el componente de HTML en el panel derecho:
 
-+++Fondo
++++Contexto
 
 {{styles-background}}
 
@@ -493,7 +493,7 @@ Para un componente de HTML, puede establecer los siguientes estilos para todo el
 
 +++
 
-+++Size
++++Tamaño
 
 {{styles-size}}
 
@@ -505,19 +505,19 @@ Para un componente de HTML, puede establecer los siguientes estilos para todo el
 
 +++
 
-+++Margin
++++Margen
 
 {{styles-margin}}
 
 +++
 
-+++relleno
++++Relleno
 
 {{styles-padding}}
 
 +++
 
-+++Avanzado
++++Avanzadas
 
 {{styles-advanced}}
 
@@ -617,7 +617,7 @@ En la ficha _[!UICONTROL Configuración]_, use las opciones de **[!UICONTROL Ví
 
 Establezca los estilos del componente de imagen en el panel derecho.
 
-+++Fondo
++++Contexto
 
 {{styles-background}}
 
@@ -629,7 +629,7 @@ Establezca los estilos del componente de imagen en el panel derecho.
 
 +++
 
-+++Size
++++Tamaño
 
 {{styles-size}}
 
@@ -641,19 +641,19 @@ Establezca los estilos del componente de imagen en el panel derecho.
 
 +++
 
-+++Margin
++++Margen
 
 {{styles-margin}}
 
 +++
 
-+++relleno
++++Relleno
 
 {{styles-padding}}
 
 +++
 
-+++Avanzado
++++Avanzadas
 
 {{styles-advanced}}
 
@@ -683,7 +683,7 @@ Para definir un tamaño de visualización uniforme para todos los gráficos de m
 
 Puede establecer las siguientes opciones de estilo para el componente _Social_:
 
-+++Fondo
++++Contexto
 
 {{styles-background}}
 
@@ -695,7 +695,7 @@ Puede establecer las siguientes opciones de estilo para el componente _Social_:
 
 +++
 
-+++Size
++++Tamaño
 
 {{styles-size}}
 
@@ -707,19 +707,19 @@ Puede establecer las siguientes opciones de estilo para el componente _Social_:
 
 +++
 
-+++Margin
++++Margen
 
 {{styles-margin}}
 
 +++
 
-+++relleno
++++Relleno
 
 {{styles-padding}}
 
 +++
 
-+++Avanzado
++++Avanzadas
 
 {{styles-advanced}}
 

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información sobre Adobe Journey Optimizer B2B edition y cómo puede utilizarlo para organizar recorridos de cuenta y grupo de compra mediante IA generativa integrada y automatización líder del sector.
-source-git-commit: d4fee6639033378ecbbe8836d9f63ce4b81208c5
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 84%
+source-wordcount: '309'
+ht-degree: 81%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 84%
       + [Información general](./buying-groups/buying-groups-overview.md)
       + [Interés de la solución](./buying-groups/solution-interests.md)
       + [Plantillas de funciones](./buying-groups/buying-groups-role-templates.md)
+      + [Funciones predeterminadas y personalizadas](./buying-groups/default-custom-roles.md)
+      + [Puntuaciones de participación](./buying-groups/engagement-scores.md)
       + [Fases del grupo de compras](./buying-groups/buying-group-stages.md)
       + [Creación de los grupos de compra](./buying-groups/buying-groups-create.md)
-      + [Exportar la lista de cuentas](./audiences/account-list-export.md)
+      + [Exportar cuentas](./audiences/account-list-export.md)
       + [Audiencias coincidentes de cuenta de LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtros del grupo de compras en Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Listas de cuentas {#account-lists}
@@ -116,5 +118,6 @@ ht-degree: 84%
       + [Configuración de SMS](./admin/configure-channels-sms.md)
    + [Configuración de repositorios de AEM Assets](./admin/configure-aem-repositories.md)
    + [Configuración de definiciones de eventos de AEP](./admin/configure-aep-events.md)
+   + [Configurar la ponderación de puntuación de participación](./admin/engagement-score-weighting.md)
    + [Configuración de página de destino](./admin/landing-page-settings.md)
    + [Gobernanza](./admin/governance.md)
