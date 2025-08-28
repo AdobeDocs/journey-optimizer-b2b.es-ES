@@ -3,10 +3,11 @@ title: Componentes de estructura
 description: Aprenda a utilizar componentes de estructura para definir el diseño del correo electrónico, la página de aterrizaje y el contenido de fragmentos visuales.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
 >title="Acerca de los componentes de estructura"
->abstract="Los componentes de CStructure son elementos de diseño que se pueden utilizar para diseñar la estructura de un fragmento."
+>abstract="Los componentes de estructura son elementos de diseño que se pueden utilizar para diseñar la estructura de un fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
@@ -152,13 +153,13 @@ Puede aplicar otros estilos de componente de estructura para ajustar su visualiz
 
 +++
 
-+++Margin
++++Margen
 
 {{styles-margin}}
 
 +++
 
-+++Avanzado
++++Avanzadas
 
 {{styles-advanced}}
 
@@ -196,7 +197,7 @@ En el lienzo, mueva el icono de tamaño de columna para ajustar el ancho de la c
 
 Con la columna seleccionada en el lienzo, puede definir estilos para aplicarlos a esa columna.
 
-+++Fondo
++++Contexto
 
 * **[!UICONTROL Color de fondo]**: seleccione la casilla de verificación y haga clic en el cuadrado de color para elegir un color del selector. Puede elegir un color introduciendo un valor RGB, HSL, HSB o hexadecimal conocido. O bien, puede utilizar el regulador de color y el campo de color para seleccionar el color.
 
@@ -222,13 +223,13 @@ Con la columna seleccionada en el lienzo, puede definir estilos para aplicarlos 
 
 +++
 
-+++Margin
++++Margen
 
 {{styles-margin}}
 
 +++
 
-+++Avanzado
++++Avanzadas
 
 {{styles-advanced}}
 

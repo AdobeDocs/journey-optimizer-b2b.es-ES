@@ -1,5 +1,5 @@
 ---
-title: Previsualización y prueba del contenido del correo electrónico
+title: Previsualice y pruebe el contenido de sus correos electrónicos
 description: Obtenga información sobre cómo previsualizar y probar el contenido del correo electrónico para asegurarse de que no contenga errores ni en la configuración de contenido ni de personalización.
 feature: Email Authoring
 level: Beginner
@@ -8,11 +8,11 @@ exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Previsualización y prueba del contenido del correo electrónico {#preview-simulate}
+# Previsualice y pruebe el contenido de sus correos electrónicos {#preview-simulate}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"

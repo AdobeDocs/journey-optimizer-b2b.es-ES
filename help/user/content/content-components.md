@@ -7,7 +7,7 @@ exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
 source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
 source-wordcount: '2844'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_email"
 >title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que puede utilizar para diseñar un correo electrónico."
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para diseñar un correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que puede utilizar para diseñar una página de aterrizaje."
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para diseñar una página de aterrizaje."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_fragment"
 >title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que puede utilizar para diseñar un fragmento."
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden utilizar para diseñar un fragmento."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
