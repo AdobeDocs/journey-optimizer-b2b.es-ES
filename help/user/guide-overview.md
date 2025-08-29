@@ -2,10 +2,10 @@
 title: Documentación de Adobe Journey Optimizer B2B Edition
 description: Aprenda a utilizar las funciones de Adobe Journey Optimizer B2B Edition para organizar recorridos de cuenta y de grupo de compras mediante IA generativa integrada y una automatización líder del sector.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 59f75834895e73c3ac84a3f01c923eaa202fbad7
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 76%
 
 ---
 
@@ -17,29 +17,23 @@ A continuación puede ver un muestreo de las últimas adiciones y mejoras de la 
 
 >[!BEGINTABS]
 
+>[!TAB Puntuación de participación de persona]
+
+Los especialistas en marketing B2B ahora pueden utilizar puntuaciones de participación a nivel de persona como filtro en sus rutas divididas para un recorrido o en una plantilla de funciones para crear grupos de compra. Esta puntuación y filtrado permiten una segmentación precisa de los miembros de los grupos de compra para personalizar la participación continua.
+
+[!BADGE Más información]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Obtenga información sobre las puntuaciones de participación de la persona y el filtrado"}
+
+>[!TAB Funciones de grupo de compra personalizadas]
+
+Los estrategas de marketing B2B ahora pueden ampliar la precisión del grupo de compra con funciones de grupo de compra personalizadas. Cree hasta 20 funciones personalizadas más allá de las seis predeterminadas y reutilícelas en grupos compradores. Dentro de los recorridos de la cuenta, adapte la mensajería para que coincida con sus funciones únicas y mejore la relevancia y la participación en todos los grupos compradores&#x200B;
+
+[!BADGE Más información]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Obtenga información sobre los roles de grupo de compra personalizados"}
+
 >[!TAB Experiencias de correo electrónico de GenStudio]
 
 Integre las experiencias de correo electrónico de GenStudio for Performance Marketing con Journey Optimizer B2B Edition para mejorar la eficacia de marketing y mantener la coherencia de la marca. Con esta integración, puede combinar la creación de contenido con tecnología de IA de GenStudio con las funciones de orquestación avanzadas de Journey Optimizer B2B Edition.
 
 [!BADGE Más información]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Obtenga información sobre las experiencias de correo electrónico de GenStudio"}
-
->[!TAB Informes de detección de spam]
-
-Con los nuevos informes de spam, puede evitar los filtros de spam y asegurarse de que los mensajes se envíen a las bandejas de entrada del público. Genere un _informe de spam_ directamente en el espacio de diseño del correo electrónico.
-
-[!BADGE Más información]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Más información sobre los informes de detección de spam"}
-
->[!TAB Acciones de la cuenta y del grupo de compras]
-
-Realice acciones directamente desde las páginas de detalles de la cuenta y del grupo de compras para lograr una participación oportuna e intencional.
-
-Use la acción _Enviar correo electrónico_ para enviar un correo electrónico de Marketo Engage aprobado a los contactos de la cuenta seleccionada o a miembros del grupo de compras.
-
-[!BADGE Más información]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Más información sobre el envío de correos electrónicos a los contactos de la cuenta"}
-
-De los detalles del grupo de compras, las acciones también incluyen _Asignar un nuevo miembro_, _Quitar un miembro_ y _Editar una función_.
-
-[!BADGE Más información]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Más información sobre las acciones del grupo de compras"}
 
 >[!TAB Compatibilidad con CSS personalizado]
 
@@ -53,11 +47,11 @@ Para activar y gestionar el modelo de detección de intenciones, ahora puede car
 
 [!BADGE Más información]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Más información sobre la configuración de asignación de palabras clave de intenciones"}
 
->[!TAB Pruebas de correo electrónico con Litmus]
+>[!TAB Informes de detección de spam]
 
-Con una cuenta Litmus, ahora puede obtener una vista previa de la representación de su correo electrónico en clientes de correo electrónico populares desde Journey Optimizer B2B Edition. Esta integración le ayuda a garantizar que el contenido del correo electrónico tenga un aspecto impecable y funcione según lo diseñado en cada bandeja de entrada de correo electrónico. 
+Con los nuevos informes de spam, puede evitar los filtros de spam y asegurarse de que los mensajes se envíen a las bandejas de entrada del público. Genere un _informe de spam_ directamente en el espacio de diseño del correo electrónico.
 
-[!BADGE Más información]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Más información sobre la integración de pruebas de correo electrónico de Litmus"}
+[!BADGE Más información]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Más información sobre los informes de detección de spam"}
 
 >[!ENDTABS]
 
@@ -100,7 +94,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Introducción"><br/>
-      <strong>Introducción</strong><br/><a href="home-page.md">Inicio de sesión y página de inicio</a><br/><a href="./start/get-started.md">Guía de inicio rápido</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Asistente de IA</a>
+      <strong>Introducción</strong><br/><a href="home-page.md">Inicio de sesión y página de inicio</a><br/><a href="./start/get-started.md">Guía de incorporación</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Ayudante de IA</a>
     </td>
     <!--
     <td>
@@ -113,7 +107,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Recorridos de la cuenta"><br/>
-      <strong>Recorridos de cuenta</strong><br/><a href="./journeys/journey-overview.md">Descripción general de recorridos</a><br/><a href="./journeys/journey-nodes.md">Nodos de recorrido</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Crear un recorrido de cuenta</a>
+      <strong>recorridos de cuenta</strong><br/><a href="./journeys/journey-overview.md">descripción general de Recorridos</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Crear un recorrido de cuenta</a><br/><a href="./journeys/journey-nodes.md">nodos de Recorrido</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -137,7 +131,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/home" target="_blank">Documentación</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
