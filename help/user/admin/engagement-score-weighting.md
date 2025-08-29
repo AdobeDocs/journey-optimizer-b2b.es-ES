@@ -6,9 +6,10 @@ hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 role: Admin
-source-git-commit: c17e66ae3bc6344a87cbb3e2d3a971babc9612c3
+exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Una puntuación de participación en el grupo de compra refleja el nivel de participación mediante la evaluación de diversas actividades registradas para los miembros del grupo de compra. Con la ponderación de puntuación personalizada, los equipos de operaciones de marketing tienen la flexibilidad de definir sus propios modelos para ponderar las actividades que son más significativas para la participación. Un modelo de puntuación personalizado produce un reflejo más preciso de su canalización al priorizar los comportamientos que indican con mayor precisión la intención de compra en su proceso de ventas.
 
-Como administrador, puede definir varios modelos de puntuación de participación para su organización, pero solo uno puede estar activo a la vez. Se define un modelo de puntuación según las actividades que se van a incluir y el peso aplicado a cada actividad.
+Como administrador, puede definir varios modelos de puntuación de participación para su organización, pero solo uno puede estar activo a la vez. Puede definir un modelo de puntuación de acuerdo con la ponderación aplicada a cada actividad de puntuación de participación.
 
 ## Acceso a los modelos de ponderación de puntuación de participación
 
@@ -29,7 +30,7 @@ Como administrador, puede definir varios modelos de puntuación de participació
 
    ![Acceder a las definiciones de eventos configuradas](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   La tabla está ordenada por la columna _[!UICONTROL Última actualización]_, con los modelos actualizados más recientemente en la parte superior de forma predeterminada, e incluye la capacidad de buscar por _[!UICONTROL Nombre]_. Puede personalizar la tabla mostrada si hace clic en el icono _Configuración de columna_ ( ![Configuración de columna](../assets/do-not-localize/icon-column-settings.svg) ) en la esquina superior derecha y activa o desactiva las casillas de verificación de la columna.
+   La tabla muestra los modelos actualizados más recientemente en la parte superior (ordenados por _[!UICONTROL Última actualización]_) e incluye la capacidad de buscar por _[!UICONTROL Nombre]_. Puede personalizar la tabla mostrada si hace clic en el icono _Configuración de columna_ ( ![Configuración de columna](../assets/do-not-localize/icon-column-settings.svg) ) en la esquina superior derecha y activa o desactiva las casillas de verificación de la columna.
 
 ![Columnas que se mostrarán en la lista de ponderación de puntuación de participación](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
@@ -78,7 +79,7 @@ La configuración de peso define las bandas que puede asignar a cada actividad d
 1. Para cada banda de peso, ajuste el nombre o los valores según sus necesidades:
 
    * Cambie el nombre en el campo _[!UICONTROL Banda de ponderación]_.
-   * Escriba un nuevo valor o haga clic en **+** o en **-** para aumentar o disminuir el valor.
+   * Introduzca un nuevo valor. También puede hacer clic en **&amp;plus;** o **−** para aumentar o disminuir el valor.
 
    ![Configuración de peso de la participación](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -98,7 +99,7 @@ Cada modelo de puntuación incluye la lista completa de actividades de puntuaci�
 
 {{engagement-activities}}
 
-Para cada actividad de la lista, establezca el valor que desea asignar a cada ocurrencia de actividad. Haga clic en la flecha hacia abajo del campo Ponderación y seleccione la banda de ponderación tal como se define en la configuración de ponderación de participación.
+Para cada actividad de la lista, establezca el valor que desea asignar a cada ocurrencia de actividad. Haga clic en la flecha hacia abajo en el campo **[!UICONTROL Ponderación]** y elija la banda de ponderación tal como se define en la configuración de ponderación de participación.
 
 ![Establecer ponderación de actividad](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="500"}
 

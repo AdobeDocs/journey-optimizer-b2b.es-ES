@@ -3,18 +3,18 @@ title: Configuración de eventos de Experience Platform
 description: Obtenga información acerca del tipo de nodo Espera que puede utilizar para organizar las recorridos de la cuenta en Journey Optimizer B2B edition.
 feature: Setup, Integrations
 role: Admin
-soultion: Journey Optimizer B2B Edition, Experience Platform
+solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1779'
 ht-degree: 1%
 
 ---
 
 # Configuración de definiciones de eventos de Experience Platform
 
-Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](#overview-video)
 
@@ -24,13 +24,13 @@ El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de
 
 2. En un recorrido de cuenta, agrega un nodo _Escuchar un evento_ y [selecciona una definición de evento de AEP como evento de personas](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-Cada definición de evento requiere la siguiente entrada de Experience Platform:
+Cada definición de evento requiere las siguientes entradas de Experience Platform:
 
 * **_Esquema_**: esquema XDM que define la estructura de datos del evento de experiencia. Debe basarse en un evento de experiencia y estar habilitado para el perfil.
 
   >[!NOTE]
   >
-  >Póngase en contacto con el equipo de ingeniería para asegurarse de que se han definido los esquemas necesarios. [La creación de esquemas XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition){target="_blank"} es un proceso complejo realizado por ingenieros de datos en función de los requisitos de casos de uso de su organización.
+  >Para asegurarse de que se han definido los esquemas necesarios, debe coordinarse con el equipo de ingeniería. [La creación de esquemas XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} es un proceso complejo realizado por ingenieros de datos en función de los requisitos de casos de uso de su organización.
 
 * **_Tipos de eventos_**: eventType de XDM ExperienceEvent (máximo de 20 por definición de evento).
 
@@ -70,7 +70,7 @@ Cuando cree y administre definiciones de eventos para satisfacer sus objetivos o
 
    ![Acceder a las definiciones de eventos configuradas](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
-   La tabla está ordenada por la columna _[!UICONTROL Modificado]_, con las definiciones actualizadas más recientemente en la parte superior de forma predeterminada.<!-- Click the column title to change between ascending and descending.-->
+   La tabla está ordenada por la columna _[!UICONTROL Modificado]_, con las definiciones actualizadas más recientemente en la parte superior como predeterminadas.<!-- Click the column title to change between ascending and descending.-->
 
 1. Para acceder a los detalles de una definición de evento, haga clic en el nombre.
 
@@ -80,9 +80,9 @@ En la lista _[!UICONTROL Definiciones de eventos]_, la columna **[!UICONTROL Est
 
 | Estado | Descripción |
 | -------------------- | ----------- |
-| Borrador | Cuando se crea una definición de evento, está en estado de borrador. Permanece en este estado hasta que se publica para su uso en recorridos de cuenta. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Publicación<li>Eliminar |
-| Publicadas | Al publicar una definición de evento, pasa a estar disponible para su uso en recorridos de cuenta. No se pueden modificar los detalles. Acciones disponibles:<br/><ul><li>Disponible para _escuchar un nodo de recorrido de evento_<li>Crear versión de borrador<li>Eliminar (si no está en uso) |
-| Publicado (con borrador) | Cuando se crea un borrador a partir de una definición de evento publicada, la versión publicada permanece disponible para su uso en recorridos de cuenta y la versión de borrador se puede modificar. Si publica la versión de borrador, reemplazará la versión publicada actual y la definición del evento se actualizará para los recorridos de cuenta en los que aún no se haya ejecutado. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Publicar versión de borrador<li>Descartar versión de borrador<li>Eliminar (si no está en uso) |
+| Borrador | Cuando se crea una definición de evento, está en estado de borrador. Permanece en este estado hasta que se publica para su uso en recorridos de cuenta. Acciones disponibles: <br/><li>Editar todos los detalles<li>Publicación<li>Eliminar |
+| Publicadas | Al publicar una definición de evento, pasa a estar disponible para su uso en recorridos de cuenta. No se pueden modificar los detalles. Acciones disponibles: <br/><li>Disponible para _escuchar un nodo de recorrido de evento_<li>Crear versión de borrador<li>Eliminar (si no está en uso) |
+| Publicado (con borrador) | Cuando se crea un borrador a partir de una definición de evento publicada, la versión publicada permanece disponible para su uso en recorridos de cuenta y la versión de borrador se puede modificar. Si publica la versión de borrador, reemplazará la versión publicada actual y la definición del evento se actualizará para los recorridos de cuenta en los que aún no se haya ejecutado. Acciones disponibles: <br/><li>Editar todos los detalles<li>Publicar versión de borrador<li>Descartar versión de borrador<li>Eliminar (si no está en uso) |
 
 ![Ciclo de vida del estado del fragmento](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -106,7 +106,7 @@ Para buscar una definición de evento por nombre, introduzca una cadena de texto
 
 1. Establezca el **[!UICONTROL Esquema]** que se usará para la definición del evento.
 
-   El esquema que seleccione determina los campos que están disponibles para agregar a la definición, que luego están disponibles como restricciones para un nodo _Escuchar un evento_ en un recorrido de cuentas.
+   El esquema que seleccione determina los campos disponibles para agregar a la definición. Los campos que agregue estarán disponibles como restricciones para un nodo _Escuchar un evento_ en un recorrido de cuentas.
 
    * Haga clic en **[!UICONTROL Seleccionar esquema]**.
    * En el cuadro de diálogo, seleccione un esquema de la lista de esquemas basados en Experience Event.
@@ -116,7 +116,7 @@ Para buscar una definición de evento por nombre, introduzca una cadena de texto
 
 1. Seleccione los **[!UICONTROL tipos de evento]** que se usarán para la definición del evento.
 
-   Los [tipos de eventos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} que seleccione determinan los eventos que están disponibles como restricciones para un nodo _Escuchar un evento_ en un recorrido de cuentas.
+   Los [tipos de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} que seleccione determinan los eventos que están disponibles como restricciones para un nodo _Escuchar un evento_ en un recorrido de cuentas.
 
    * Haga clic en **[!UICONTROL Seleccionar tipos de eventos]**.
    * En el cuadro de diálogo, seleccione uno o varios tipos de eventos de la lista (un máximo de 20).
@@ -146,7 +146,7 @@ Para buscar una definición de evento por nombre, introduzca una cadena de texto
 
 ## Publicación de una definición de evento
 
-Cuando esté seguro de que la definición del evento de borrador está completa y es correcta para sus necesidades, puede publicarla para que esté disponible para su uso en recorridos de cuenta. Una vez publicada la definición del evento, puede crear una versión de borrador si necesita realizar cambios en ella. Sin embargo, no puede cambiar el esquema y solo puede agregar tipos de eventos y campos (no puede eliminarlos).
+Cuando esté seguro de que la definición del evento de borrador está completa y es correcta según sus necesidades, puede publicarla. La definición de evento publicada está disponible para su uso en recorridos de cuenta. Una vez publicada la definición del evento, puede crear una versión de borrador si necesita realizar cambios en ella. Sin embargo, no puede cambiar el esquema y solo puede agregar tipos de eventos y campos (no puede eliminarlos).
 
 1. En el panel de navegación izquierdo, elija **[!UICONTROL Administración]** > **[!UICONTROL Configuración]**.
 
@@ -218,7 +218,7 @@ Siga los pasos según el estado:
 
 1. Haga clic en el nombre de la definición del evento para abrirla.
 
-   Para una definición de evento _Publicado (con borrador)_, la ficha Versión _[!UICONTROL Publicado]_ está seleccionada de forma predeterminada.
+   Para una definición de evento _Publicado (con borrador)_, la ficha de versión _[!UICONTROL Publicado]_ está seleccionada como predeterminada.
 
 1. Seleccione la ficha Versión **[!UICONTROL Borrador]**.
 
@@ -240,7 +240,7 @@ Siga los pasos según el estado:
 
 >[!TAB Publicado (con borrador)]
 
-Al abrir una definición de evento _Publicado (con borrador)_, la ficha Versión _[!UICONTROL Publicado]_ está seleccionada de forma predeterminada.
+Al abrir una definición de evento _Publicado (con borrador)_, la ficha Versión _[!UICONTROL Publicado]_ está seleccionada como predeterminada.
 
 1. Seleccione la ficha Versión **[!UICONTROL Borrador]**.
 
@@ -282,4 +282,4 @@ Puede eliminar una definición de evento si un recorrido de cuentas publicado no
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3448686/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
