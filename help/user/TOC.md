@@ -4,7 +4,7 @@ user-guide-description: Obtenga información acerca de la edición B2B de Adobe 
 source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 91%
       + [Fases del grupo de compras](./buying-groups/buying-group-stages.md)
       + [Creación de los grupos de compra](./buying-groups/buying-groups-create.md)
       + [Exportar cuentas](./audiences/account-list-export.md)
-      + [Audiencias coincidentes de cuenta de LinkedIn](./data/linkedin-account-matched-audiences.md)
+      + [Públicos coincidentes de cuenta de LinkedIn](./data/linkedin-account-matched-audiences.md)
       + [Filtros del grupo de compras en Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Listas de cuentas {#account-lists}
       + [Información general](./accounts/account-lists.md)
@@ -106,7 +106,7 @@ ht-degree: 91%
       + [Alineación de marca](./content/brand-alignment.md)
    + [Temas de marca](./content/brand-themes.md)
    + [Contenido condicional](./content/conditional-content.md)
-+ Paneles de perspectivas  {#dashboards}
++ Paneles de control de perspectivas  {#dashboards}
    + [Panel de control inteligente](./dashboards/intelligent-dashboard.md)
    + [Información general de participación](./dashboards/engagement-dashboard.md)
    + [Información general sobre los grupos de compras](./dashboards/buying-groups-dashboard.md)
