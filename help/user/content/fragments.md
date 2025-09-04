@@ -4,9 +4,9 @@ description: Aprenda a crear y utilizar fragmentos de contenido visual como comp
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: f700f84c55d37ded9980a08286da05011345800c
+source-git-commit: 5e0415268ac3423a6d3004338302b2f756c75a9f
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2736'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Un fragmento es un componente reutilizable al que se puede hacer referencia en u
 
 **Fragmentos visuales**
 
-Los fragmentos visuales son bloques visuales predefinidos creados con las herramientas de diseño visual que se pueden reutilizar en varios correos electrónicos o plantillas de correo electrónico. El ámbito actual de Journey Optimizer B2B edition y esta documentación son solo los fragmentos visuales.
+Los fragmentos visuales son bloques visuales predefinidos creados con las herramientas de diseño visual que se pueden reutilizar en varios correos electrónicos o plantillas de correo electrónico. El ámbito actual de Journey Optimizer B2B edition y esta documentación solo incluyen fragmentos visuales.
 
 >[!NOTE]
 >
@@ -302,7 +302,7 @@ Los fragmentos están diseñados para su reutilización y se pueden insertar par
 
 1. Vaya a **[!UICONTROL Recorridos de cuenta]** y abra un recorrido recorrido existente o cree uno nuevo.
 
-1. Crear un nodo [_[!UICONTROL Enviar correo electrónico &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Crear un nodo [_[!UICONTROL Enviar correo electrónico ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Cree o edite el contenido de [correo electrónico para el nodo](./email-authoring.md).
 
