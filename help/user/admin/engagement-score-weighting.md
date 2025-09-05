@@ -4,7 +4,7 @@ description: Aprenda a configurar la ponderación de la puntuación de participa
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -27,9 +27,11 @@ Como administrador, puede definir varios modelos de puntuación de participació
 
    ![Acceder a las definiciones de eventos configuradas](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   La tabla muestra los modelos actualizados más recientemente en la parte superior (ordenados por _[!UICONTROL Última actualización]_) e incluye la capacidad de buscar por _[!UICONTROL Nombre]_. Puede personalizar la tabla mostrada si hace clic en el icono _Configuración de columna_ ( ![Configuración de columna](../assets/do-not-localize/icon-column-settings.svg) ) en la esquina superior derecha y activa o desactiva las casillas de verificación de la columna.
+   La tabla muestra los modelos actualizados más recientemente en la parte superior (ordenados por _[!UICONTROL Última actualización]_) e incluye la capacidad de buscar por _[!UICONTROL Nombre]_.
 
-![Columnas que se mostrarán en la lista de ponderación de puntuación de participación](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   Puede personalizar la tabla mostrada si hace clic en el icono _Configuración de columna_ ( ![Configuración de columna](../assets/do-not-localize/icon-column-settings.svg) ) en la esquina superior derecha y activa o desactiva las casillas de verificación de la columna.
+
+   ![Columnas que se mostrarán en la lista de ponderación de puntuación de participación](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. Para acceder a los detalles de un modelo de puntuación de participación, haga clic en el nombre.
 
@@ -76,7 +78,7 @@ La configuración de peso define las bandas que puede asignar a cada actividad d
 1. Para cada banda de peso, ajuste el nombre o los valores según sus necesidades:
 
    * Cambie el nombre en el campo _[!UICONTROL Banda de ponderación]_.
-   * Introduzca un nuevo valor. También puede hacer clic en **&plus;** o **−** para aumentar o disminuir el valor.
+   * Introduzca un nuevo valor. También puede hacer clic en **&amp;plus;** o **−** para aumentar o disminuir el valor.
 
    ![Configuración de peso de la participación](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
