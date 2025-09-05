@@ -78,7 +78,7 @@ La configuración de peso define las bandas que puede asignar a cada actividad d
 1. Para cada banda de peso, ajuste el nombre o los valores según sus necesidades:
 
    * Cambie el nombre en el campo _[!UICONTROL Banda de ponderación]_.
-   * Introduzca un nuevo valor. También puede hacer clic en **&amp;plus;** o **−** para aumentar o disminuir el valor.
+   * Introduzca un nuevo valor. También puede hacer clic en **&plus;** o **−** para aumentar o disminuir el valor.
 
    ![Configuración de peso de la participación](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
