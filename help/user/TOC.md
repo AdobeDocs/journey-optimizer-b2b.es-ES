@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: a5df9dc1674d2a4fbc1705423e51318e3367d3c6
+source-git-commit: 2a452537620e357a94a5f1c6b6c66f994d06c3c2
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 93%
+source-wordcount: '314'
+ht-degree: 92%
 
 ---
 
@@ -112,14 +112,15 @@ ht-degree: 93%
    + [Información general sobre los grupos de compras](./dashboards/buying-groups-dashboard.md)
    + [Información general sobre recorridos de cuenta](./dashboards/journeys-dashboard.md)
 + Administración {#admin}
+   + [Gobernanza](./admin/governance.md)
    + [Administración de usuarios](./admin/user-management.md)
-   + [Datos de intención](./admin/intent-data.md)
    + Canales {#channels}
       + [Configuraciones de correo electrónico](./admin/configure-channels-emails.md)
-      + [Configuraciones de SMS](./admin/configure-channels-sms.md)
+      + [Configuración de SMS](./admin/configure-channels-sms.md)
       + [Configuración de página de destino](./admin/landing-page-settings.md)
       + [Configuración de flujos de datos para la recopilación de eventos](./data/aep-event-collection.md)
-   + [Configuración de repositorios de AEM Assets](./admin/configure-aem-repositories.md)
-   + [Configuración de definiciones de eventos de AEP](./admin/configure-aep-events.md)
-   + [Configurar la ponderación de puntuación de participación](./admin/engagement-score-weighting.md)
-   + [Gobernanza](./admin/governance.md)
+   + Configuraciones  {#configurations}
+      + [repositorios de AEM Assets](./admin/configure-aem-repositories.md)
+      + [Definiciones de eventos de AEP](./admin/configure-aep-events.md)
+      + [Datos de intención](./admin/intent-data.md)
+      + [Ponderación de puntuación de participación](./admin/engagement-score-weighting.md)
