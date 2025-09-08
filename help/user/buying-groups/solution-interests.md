@@ -1,12 +1,12 @@
 ---
 title: Intereses de solución
-description: Conozca los intereses de la solución y cómo puede definirlos para usarlos dentro de sus grupos de compra.
+description: Defina los intereses de la solución para identificar los productos de destino y cree automáticamente grupos de compra con plantillas de función en Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
@@ -104,4 +104,4 @@ No se puede eliminar ningún interés de solución que esté actualmente en uso 
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3450116/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

@@ -1,21 +1,22 @@
 ---
-title: Acceso en CRM a páginas de detalles
-description: Descubra cómo los integrantes del equipo de ventas pueden acceder a las páginas detalladas de las cuentas, los contactos y los posibles clientes directamente desde su herramienta de administración de la relación con los clientes (CRM), como Salesforce o Microsoft Dynamics.
+title: Acceso en CRM a las páginas de detalles
+description: Agregue vínculos personalizados para la cuenta y los detalles de contacto para habilitar el acceso directo a las perspectivas B2B de Journey Optimizer desde Salesforce y Dynamics CRM.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 0%
+source-wordcount: '1428'
+ht-degree: 1%
 
 ---
 
-# Acceso en CRM a páginas de detalles
+# Acceso en CRM a las páginas de detalles
 
-Adobe Journey Optimizer B2B edition permite a los miembros del equipo de ventas y a los administradores de cuentas acceder a las páginas detalladas de la información de la cuenta y del grupo de compras directamente desde su herramienta de administración de la relación con los clientes (CRM), como Salesforce o Microsoft Dynamics. Con esta integración, los representantes de ventas pueden acceder rápidamente a información de la cuenta en tiempo real y del grupo de compra, como el historial de participación, las señales de intención y las recomendaciones generadas por IA. Esta capacidad permite que el equipo de ventas tenga un alcance más rápido, una priorización más inteligente y una mejor alineación con el marketing.
+Adobe Journey Optimizer B2B edition permite a los miembros de los equipos de ventas y cuentas acceder a las páginas detalladas de la información de la cuenta y del grupo de compras directamente desde su herramienta de administración de la relación con los clientes (CRM), como Salesforce o Microsoft Dynamics. Con esta integración, los representantes de ventas pueden acceder rápidamente a información de la cuenta en tiempo real y del grupo de compra, como el historial de participación, las señales de intención y las recomendaciones generadas por IA. Esta capacidad permite que el equipo de ventas tenga un alcance más rápido, una priorización más inteligente y una mejor alineación con el marketing.
 
-Para permitir que los miembros del equipo de ventas vean las páginas [detalles de cuenta](account-details.md) y [detalles de persona](person-details.md) en Journey Optimizer B2B edition desde CRM, el administrador de Salesforce o Dynamics puede agregar un vínculo de Journey Optimizer B2B edition desde la vista de cuenta, contacto o posible cliente.
+Para permitir que los miembros de ventas y del equipo de cuentas vean las páginas de [detalles de cuenta](account-details.md) y [detalles de persona](person-details.md) en Journey Optimizer B2B edition desde CRM, el administrador de Salesforce o Dynamics puede agregar un vínculo desde la vista de cuenta, contacto o posible cliente.
 
 Cuando un miembro del equipo de ventas utiliza el vínculo de la instancia de CRM, la zona protegida debe ser _Prod_ y la organización de IMS se determina según la siguiente lógica ordenada:
 
@@ -134,7 +135,7 @@ Al definir la dirección URL de destino del vínculo, puede utilizar la vista de
 
 **_Ejemplos:_**
 
-+++campo URL
++++Campo de URL
 
 Siga esta secuencia de tareas para agregar el vínculo personalizado como campo de URL:
 
@@ -319,7 +320,7 @@ Siga esta secuencia de tareas para agregar el vínculo personalizado como recurs
 
    ![Recurso web](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
 
-   Consulte la [documentación de Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy) para obtener información detallada sobre las propiedades y el formato de los recursos web.
+   Para obtener información detallada sobre las propiedades y el formato de los recursos web, consulte la [documentación de Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy).
 
 1. Haga clic en **[!UICONTROL Aceptar]**.
 

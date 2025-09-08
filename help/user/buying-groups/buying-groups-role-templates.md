@@ -1,12 +1,12 @@
 ---
 title: Comprar plantillas de rol de grupo
-description: Obtenga información acerca de la definición de una plantilla de rol para utilizarla como componente de grupo comprador.
+description: Cree plantillas de funciones de grupo de compra con condiciones de asignación automática para identificar a los responsables de la toma de decisiones y a las partes interesadas en Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1124'
 ht-degree: 5%
 
 ---
@@ -162,4 +162,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

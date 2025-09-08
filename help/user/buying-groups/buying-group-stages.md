@@ -1,10 +1,10 @@
 ---
 title: Fases del grupo de compra
-description: Obtenga información sobre la compra de fases de grupo y cómo puede definirlas para rastrear la progresión de los recorridos en comparación con los objetivos de ventas.
+description: Configure las fases del grupo de compra para rastrear la progresión de las ventas desde la conversión de la oportunidad al cliente en Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 1%
@@ -128,7 +128,7 @@ Las reglas de transición determinan cómo un grupo comprador puede pasar de una
 
 Mientras el modelo de etapas de grupo de compra permanezca en un estado _Borrador_, puede editar las etapas y las reglas de transición.
 
-_Para ver el modelo de borrador:_
+_Para ver el modelo de borrador :_
 
 1. En el panel de navegación de la izquierda, ve a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos compradores]**.
 
@@ -365,4 +365,4 @@ Utilice la ocurrencia de un cambio de fase de grupo de compra para mover la cuen
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3448697/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

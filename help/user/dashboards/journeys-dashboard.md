@@ -1,12 +1,12 @@
 ---
 title: Tablero general de Recorridos de cuenta
-description: Obtenga información acerca de la información proporcionada por el panel Información general de Recorrido y cómo puede ayudarle a supervisar y administrar su estrategia de recorrido de cuentas.
+description: Rastree el rendimiento del recorrido de la cuenta con las tasas de finalización, las métricas de participación y los análisis de efectividad del canal en Journey Optimizer B2B edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Esta descripción general está disponible para los recorridos de cuentas public
 
 ![descripción general del Recorrido](./assets/journey-overview.png){width="700" zoomable="yes"}
 
-## Distribución de tasa de finalización de recorrido
+## Distribución de tasa de finalización del recorrido
 
 Este gráfico ilustra la distribución de los recorridos según su tasa de finalización y se clasifica en cuatro bandas de puntuación distintas. La cifra central representa el número total de recorridos y proporciona una instantánea rápida del progreso general. Los colores segmentados indican la proporción de recorridos dentro de cada rango de puntuación, lo que le permite evaluar las tendencias de finalización de un vistazo.
 

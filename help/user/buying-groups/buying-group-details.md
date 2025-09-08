@@ -1,12 +1,12 @@
 ---
 title: Detalles del grupo de compra
-description: Obtenga información sobre el acceso a información detallada y a resúmenes de IA generativos para comprar grupos en Journey Optimizer B2B edition.
+description: Vea los detalles del grupo de compra con perspectivas de IA, administre miembros y rastree las puntuaciones de participación en Journey Optimizer B2B edition.
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: 65c7bdcc998c604125442fbd0a65c2f8ebd3255d
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '780'
 ht-degree: 4%
 
 ---

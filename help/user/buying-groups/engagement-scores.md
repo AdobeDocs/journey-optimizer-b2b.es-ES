@@ -1,13 +1,13 @@
 ---
 title: Puntuaciones de participación para grupos compradores
-description: Obtenga información sobre la compra de puntuaciones de participación de grupos y personas, incluida la lógica de cálculo y los tipos de actividades que determinan la puntuación.
-feature: Buying Groups
+description: Rastree las puntuaciones de participación de grupos de compras y personas con actividades ponderadas y cálculos basados en roles en Journey Optimizer B2B edition.
+feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 24%
+source-wordcount: '1251'
+ht-degree: 28%
 
 ---
 
@@ -30,7 +30,7 @@ Existen dos tipos de puntuaciones de participación:
 
 * **Puntuación de participación de persona** - La puntuación de participación de persona se basa en las actividades de un miembro individual del grupo de compra.
 
-  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros &#x200B;]_&#x200B;tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
+  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros ]_tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
 
   ![Miembros del grupo de compras más comprometidos](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -50,7 +50,16 @@ La puntuación del grupo de compra no es _basada en desencadenadores_. Es un pro
 
 Hay un límite de frecuencia diario de 20 para cada actividad. Si un miembro de un grupo comprador realiza la misma actividad más de 20 veces en un solo día, el recuento de la actividad se limita a 20.
 
-{{engagement-activities}}
+| Nombre de la actividad | Descripción | Tipo de participación | Recuento máximo de frecuencia diaria | Peso de actividad del modelo predeterminado |
+|---------------|-------------|-----------------|---------------------------|-------------------------------|
+| Asistir a un evento | Un miembro asistió a un evento | Evento | 20 | 60 |
+| Correo electrónico clicado | Un miembro hace clic en un vínculo de un correo electrónico | Correo electrónico | 20 | 30 |
+| Correo electrónico abierto | Un miembro abre un correo electrónico | Correo electrónico | 20 | 30 |
+| Formulario rellenado | Un miembro rellena y envía un formulario en una página web | Web | 20 | 40 |
+| Momento interesante | Un miembro experimenta un momento interesante | Revisado | 20 | 60 |
+| Clics en vínculos | Un miembro hace clic en un vínculo de una página web | Web | 20 | 40 |
+| Page Views | Un miembro ve una página web | Web | 20 | 40 |
+| Registrarse para el evento | Un miembro registrado para un evento | Evento | 20 | 60 |
 
 <!-- old list
 

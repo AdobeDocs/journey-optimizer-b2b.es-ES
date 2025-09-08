@@ -1,17 +1,17 @@
 ---
-title: Configuraciones de SMS
-description: Obtenga información sobre cómo configurar conexiones a proveedores de SMS admitidos para su uso en la mensajería SMS de Journey Optimizer B2B edition.
+title: Configuración de SMS
+description: Conecte proveedores de SMS como Sinch, Twilio e Infobip con credenciales de API para habilitar la mensajería de texto en las recorridos de B2B edition de Journey Optimizer.
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
 
-# Configuraciones de SMS
+# Configuración de SMS
 
 Adobe Journey Optimizer B2B edition envía mensajes de texto a través de proveedores de servicios de SMS (o proveedores de puertas de enlace de SMS). Antes de crear tu mensaje SMS, configura tu proveedor de servicios desde la configuración de _Administrador_.
 
@@ -49,7 +49,7 @@ Antes de configurar un canal SMS en Adobe Journey Optimizer B2B edition, debe cr
 
 >[!TAB Sinch]
 
-_Para configurar Sinch como su proveedor de SMS con Adobe Journey Optimizer B2B edition:_
+_Para configurar Sinch como su proveedor de SMS con Adobe Journey Optimizer B2B edition :_
 
 1. En el panel de navegación izquierdo, expanda la sección **[!UICONTROL Administrador]** y haga clic en **[!UICONTROL Configuración]**.
 
@@ -71,7 +71,7 @@ _Para configurar Sinch como su proveedor de SMS con Adobe Journey Optimizer B2B 
 
 >[!TAB Twilio]
 
-_Para configurar Twilio como su proveedor de SMS con Adobe Journey Optimizer B2B edition:_
+_Para configurar Twilio como su proveedor de SMS con Adobe Journey Optimizer B2B edition :_
 
 1. En el panel de navegación izquierdo, expanda la sección **[!UICONTROL Administrador]** y haga clic en **[!UICONTROL Configuración]**.
 
@@ -93,7 +93,7 @@ _Para configurar Twilio como su proveedor de SMS con Adobe Journey Optimizer B2B
 
 >[!TAB Infobip]
 
-_Para configurar Infobip como su proveedor de SMS con Adobe Journey Optimizer B2B edition:_
+_Para configurar Infobip como su proveedor de SMS con Adobe Journey Optimizer B2B edition :_
 
 1. En el panel de navegación izquierdo, expanda la sección **[!UICONTROL Administrador]** y haga clic en **[!UICONTROL Configuración]**.
 

@@ -1,11 +1,12 @@
 ---
 title: Detalles de la persona
-description: Obtenga información sobre el acceso a información detallada y a un resumen de IA generativo para una persona asociada a una cuenta o grupo de compra en Journey Optimizer B2B edition.
+description: Vea la información de la persona con resúmenes de IA, puntuaciones de participación, seguimiento de actividad y detección de intención para comprar miembros del grupo en Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
-source-git-commit: 5382bc89903a567268ee06648a8d6b0bf34695a6
+exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '297'
 ht-degree: 7%
 
 ---

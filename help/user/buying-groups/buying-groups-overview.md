@@ -1,13 +1,13 @@
 ---
 title: Grupos de compras
-description: Descubra cómo los grupos de compras en Journey Optimizer B2B Edition pueden aumentar la eficacia del marketing al identificar y segmentar miembros para sus listas de cuentas.
+description: Impulse el marketing basado en cuentas con grupos de compra para identificar a los responsables clave de la toma de decisiones, rastrear las puntuaciones de participación y segmentar las cuentas en Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -76,7 +76,7 @@ La página _[!UICONTROL Grupos de compras]_ está organizada en pestañas:
 
 | Tabulación | Descripción |
 | --- | ----------- |
-| [!UICONTROL Información general] | Esta pestaña es la predeterminada y muestra el [panel Grupos de compras](../dashboards/buying-groups-dashboard.md). |
+| [!UICONTROL Información general] | Esta pestaña es la predeterminada y muestra el [panel de control Grupos de compras](../dashboards/buying-groups-dashboard.md). |
 | [!UICONTROL Examinar] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compras existentes. </li><li>Buscar por el nombre del grupo de compras. </li><li>Filtrar por interés de solución. </li><li>Profundizar en los detalles del grupo de compras. </li><li>Cree un grupo de compras. </li></ul> |
 | [!UICONTROL Intereses de la solución] | Esta pestaña admite las siguientes actividades: <ul><li>Ver la lista de grupos de compras existentes. </li><li>Buscar por el nombre del grupo de compras. </li><li>Acceder y editar las propiedades de interés de la solución. </li><li>Crear una solución de interés. </li><li>Eliminar un interés de solución. </li><li>Ver y eliminar trabajos del grupo de compras. </li></ul> |
 | [!UICONTROL Plantillas de funciones] | Esta pestaña admite las siguientes actividades: <ul><li>Vea la lista de plantillas de funciones existentes. </li><li>Busque por nombre de plantilla de funciones. </li><li>Acceder y editar las propiedades y condiciones de la plantilla de funciones. </li><li>Crear una plantilla de funciones. </li><li>Eliminar una plantilla de funciones. </li></ul> |
@@ -112,4 +112,4 @@ Consulte [Puntuaciones de participación](./engagement-scores.md) para obtener i
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

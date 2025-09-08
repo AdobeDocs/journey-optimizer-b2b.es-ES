@@ -1,13 +1,13 @@
 ---
 title: Exportar cuentas
-description: Obtenga información sobre cómo exportar la lista de cuentas en función del filtro de grupos de compra.
-feature: Account Lists
+description: Exporte listas de cuentas filtradas a CSV para plataformas de terceros con filtros de grupos de compra y puntuación de participación en Journey Optimizer B2B edition.
+feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 91%
+source-wordcount: '259'
+ht-degree: 83%
 
 ---
 
@@ -23,9 +23,9 @@ Use la característica _Exportar cuentas_ para exportar todas las cuentas o un c
 
    ![Editar detalles de la cuenta](./assets/export-accounts.png){width="800" zoomable="yes"}
 
-1. En el cuadro de diálogo, defina los parámetros de las audiencias de cuenta que se exportarán.
+1. En el cuadro de diálogo, defina los parámetros de los públicos de cuenta que se exportarán.
 
-   ![Especifique el filtrado de audiencia de la cuenta](./assets/export-accounts-dialog.png){width="400"}
+   ![Especifique el filtrado de público de la cuenta](./assets/export-accounts-dialog.png){width="400"}
 
    Para la **[!UICONTROL puntuación de participación]**, el operador `Between` es inclusivo, al igual que los intervalos de porcentaje. Por ejemplo, 5.1 y 5 son ambos _entre_ 5 y 6.
 

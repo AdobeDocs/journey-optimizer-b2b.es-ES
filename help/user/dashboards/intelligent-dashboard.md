@@ -1,13 +1,13 @@
 ---
 title: Panel de control inteligente
-description: Obtenga información acerca del tablero inteligente, que proporciona una vista completa de las métricas de grupos de compras y cuentas
+description: Acceda a perspectivas con tecnología de IA para comprar grupos y cuentas con métricas de participación, detección de intención y análisis predictivo en Journey Optimizer B2B edition.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 15%
+source-wordcount: '1679'
+ht-degree: 16%
 
 ---
 
@@ -153,7 +153,7 @@ La sección _[!UICONTROL Cuentas emergentes]_ muestra una visualización de las 
 
 >[!NOTE]
 >
->Los datos de aumento de cuenta se limitan a cuentas que Journey Optimizer B2B edition ingiere en una audiencia de cuenta a través de recorridos de cuenta o grupos de compra.
+>Los datos de aumento de cuentas solo incluyen cuentas que Journey Optimizer B2B edition ingiere a través de recorridos de cuenta o grupos de compra.
 
 ![Visualización de datos de aumento de cuenta](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -197,7 +197,7 @@ La sección _[!UICONTROL Aspectos destacados de la cuenta]_ está organizada en 
 
 >[!NOTE]
 >
->Los datos de resaltado de cuenta se limitan a cuentas que Journey Optimizer B2B edition ingiere en una audiencia de cuenta a través de recorridos de cuenta o grupos de compra.
+>Los datos de resaltados de cuenta solo incluyen cuentas que Journey Optimizer B2B edition ingiere a través de recorridos de cuentas o grupos de compras.
 
 ![Aspectos destacados de la cuenta](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -287,7 +287,7 @@ Haga clic en _Información_ ( ![icono de información](../assets/do-not-localize
 * Nombre del grupo de compra (pulsa el nombre para abrir la página de detalles del grupo de compra)
 * Función
 * Interés de la solución
-* Intento del producto
+* Intención del producto
 * Producto
 
 ![Detalles de superposición de contactos](./assets/intelligent-dashboard-contact-overlap-detail-info.png){width="600" zoomable="yes"}

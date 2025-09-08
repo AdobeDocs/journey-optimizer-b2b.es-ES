@@ -1,12 +1,12 @@
 ---
 title: Panel de información general de grupos de compra
-description: Obtenga información acerca del panel Información general de grupos de compra y cómo habilita el envío de ventas desde el equipo de marketing.
+description: Realice un seguimiento del progreso del grupo de compras con puntuaciones de finalización, métricas de participación y análisis de interés de la solución para habilitar el traspaso de ventas en Journey Optimizer B2B edition.
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---

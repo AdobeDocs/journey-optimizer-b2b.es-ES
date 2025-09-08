@@ -1,13 +1,13 @@
 ---
 title: Guía de preguntas para el asistente de IA
-description: Aprenda a escribir preguntas eficaces para el asistente de IA en Journey Optimizer B2B edition.
+description: Escriba preguntas eficaces del asistente de IA con prácticas recomendadas, ejemplos y sugerencias de redacción para obtener respuestas óptimas en Journey Optimizer B2B edition.
 feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '891'
 ht-degree: 1%
 
 ---
@@ -65,6 +65,6 @@ La siguiente lista incluye ejemplos de preguntas que el Asistente de IA de Journ
 * ¿Cuál es el título más común del responsable de la toma de decisiones al comprar plantillas de grupo?
 * ¿Quiénes son los encargados de tomar decisiones para comprar la plantilla de grupo x?
 
-## Pasos siguientes
+## Próximos pasos
 
 Para obtener información sobre cómo usar las funciones del Asistente de IA durante los flujos de trabajo, consulte [Usar el Asistente de IA en Journey Optimizer B2B edition](./use-ai-assistant.md).

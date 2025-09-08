@@ -1,12 +1,12 @@
 ---
 title: Detalles de la cuenta
-description: Obtenga información sobre el acceso a información detallada y a resúmenes de IA generativos para cuentas en Journey Optimizer B2B edition.
+description: Vea información de la cuenta con resúmenes de IA, detección de intención, análisis de cobertura de contactos y comunicaciones por correo electrónico en Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 31c79208503e01964475230ea950eb8bdfadd176
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '639'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,7 @@ La página de detalles de la cuenta consta de tres secciones principales:
 
 La sección de descripción general de la cuenta incluye la siguiente información de la cuenta:
 
-* Nombre de la cuenta
+* Nombre de cuenta
 * Número de personas en la cuenta
 * Industria
 * Abrir oportunidades

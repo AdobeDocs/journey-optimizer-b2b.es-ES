@@ -1,12 +1,12 @@
 ---
 title: Configurar la ponderación de puntuación de participación
-description: Aprenda a configurar la ponderación de la puntuación de participación personalizada para reflejar la lógica de puntuación que se ajusta a sus estrategias empresariales.
+description: Cree modelos de puntuación de participación personalizados con actividades ponderadas para medir la participación y la intención del grupo de compra con precisión en Journey Optimizer B2B edition.
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ La configuración de peso define las bandas que puede asignar a cada actividad d
 1. Para cada banda de peso, ajuste el nombre o los valores según sus necesidades:
 
    * Cambie el nombre en el campo _[!UICONTROL Banda de ponderación]_.
-   * Introduzca un nuevo valor. También puede hacer clic en **&plus;** o **−** para aumentar o disminuir el valor.
+   * Introduzca un nuevo valor. También puede hacer clic en **&amp;plus;** o **−** para aumentar o disminuir el valor.
 
    ![Configuración de peso de la participación](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 

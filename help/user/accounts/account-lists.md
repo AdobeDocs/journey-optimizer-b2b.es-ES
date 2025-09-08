@@ -1,10 +1,10 @@
 ---
 title: Listas de cuentas
-description: Obtenga información acerca de las listas de cuentas y cómo los especialistas en marketing pueden utilizarlas para segmentar cuentas a través de recorridos de cuenta.
+description: Cree listas de cuentas estáticas y dinámicas con filtros personalizados para la orquestación de recorridos segmentada y el marketing basado en cuentas en Journey Optimizer B2B edition.
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 40d39ba6d3b4844fe928db5cbf3a990d523aadef
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 En Journey Optimizer B2B edition, una lista de cuentas es una colección de cuentas con nombre que los especialistas en marketing pueden utilizar para la orquestación de recorrido segmentada. Una lista de cuentas puede segmentar las cuentas con nombre según los criterios definidos, como el sector, la ubicación o el tamaño de la compañía. Existen dos tipos de listas de cuentas:
 
 * **Estática**: con una lista de cuentas estáticas, la lista solo cambia cuando agrega las cuentas. Puede agregar cuentas manualmente aplicando un conjunto de filtros para rellenar la lista basada en los datos de la cuenta actual, o agregar y quitar cuentas mediante un recorrido de cuentas.
-* **Dinámico**: con una lista de cuentas dinámicas, define un conjunto de filtros para depurar automáticamente la lista. El sistema utiliza este conjunto de filtros para agregar y quitar cuentas según los cambios en la información de las cuentas. Esta administración de listas es similar a la [segmentación de audiencias en Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
+* **Dinámico**: con una lista de cuentas dinámicas, define un conjunto de filtros para depurar automáticamente la lista. El sistema utiliza este conjunto de filtros para agregar y quitar cuentas según los cambios en la información de las cuentas. Esta administración de listas es similar a la [segmentación de audiencias en Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
 Cuando una lista de cuentas está en estado _Activo_ (publicado), está disponible para [usarla en recorridos de cuentas y programas de Marketo Engage](./account-lists-journeys.md).
 
@@ -24,7 +24,7 @@ Cuando una lista de cuentas está en estado _Activo_ (publicado), está disponib
 
 >[!NOTE]
 >
->Las listas de cuentas aprovechan los datos de cuentas de Marketo Engage para crear segmentos y listas de cuentas. Esto significa que si un segmento de cuenta de Adobe Experience Platform no se sincroniza activamente con Marketo Engage, es posible que las cuentas de ese segmento de Experience Platform no estén disponibles en las listas de cuentas de B2B edition de Journey Optimizer. Posteriormente, es posible que las personas de cuentas en segmentos de Experience Platform que no estén sincronizadas con Marketo Engage no se incluyan en los recuentos de miembros personales ni se contabilicen en eventos de déclencheur.
+>Las listas de cuentas aprovechan los datos de cuentas de Marketo Engage para crear segmentos y listas de cuentas. Esto significa que si un segmento de cuenta de Adobe Experience Platform no se sincroniza activamente con Marketo Engage, es posible que las cuentas de ese segmento de Experience Platform no estén disponibles en las listas de cuentas de B2B edition de Journey Optimizer. Posteriormente, solo las personas de cuentas en segmentos de Experience Platform sincronizados con Marketo Engage se incluyen en los recuentos de miembros de personas y en los eventos de déclencheur.
 
 ## Acceso y exploración de listas de cuentas
 
@@ -180,4 +180,4 @@ El estado de la lista de cuentas dinámicas cambia a _[!UICONTROL Live]_ y está
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3448652/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)

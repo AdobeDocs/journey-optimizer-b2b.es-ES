@@ -1,12 +1,12 @@
 ---
 title: Panel de información general de participación
-description: Obtenga información sobre cómo puede utilizar el panel Información general de participación para monitorizar los esfuerzos de participación.
+description: Monitorice las métricas de participación en tiempo real de cuentas, grupos de compra y personas con gráficos interactivos y análisis de tendencias en Journey Optimizer B2B edition.
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '549'
 ht-degree: 6%
 
 ---
@@ -77,7 +77,7 @@ Los filtros globales (rango de datos y atributos) aplicados al panel se transfie
 
 | Participación por cuentas | Participación por grupos de compras | Participación por personas |
 | ---------------------- | --------------------------- | -------------------- |
-| <li>Nombre de la cuenta <li>Estado <li>Personas comprometidas (número)<li>Actividades de participación (número) <li>Último compromiso (fecha) | <li>Grupo de compras <li>Cuenta <li>Interés de la solución <li>Estado <li>Actividades de participación (número) | <li>Nombre <li>Estado <li>Correo electrónico (dirección) <li>Actividades de participación (número) <li>Último compromiso (fecha) |
+| <li>Nombre de cuenta <li>Estado <li>Personas comprometidas (número)<li>Actividades de participación (número) <li>Último compromiso (fecha) | <li>Grupo de compras <li>Cuenta <li>Interés de la solución <li>Estado <li>Actividades de participación (número) | <li>Nombre <li>Estado <li>Correo electrónico (dirección) <li>Actividades de participación (número) <li>Último compromiso (fecha) |
 
 Puede hacer clic en el icono de menú **...** en la parte superior derecha y elegir **[!UICONTROL Ver más]** para [ver datos y perspectivas ampliados](#view-more).
 
