@@ -1,14 +1,14 @@
 ---
 title: Previsualice y pruebe el contenido de sus correos electrónicos
-description: Obtenga información sobre cómo previsualizar y probar el contenido del correo electrónico para asegurarse de que no contenga errores ni en la configuración de contenido ni de personalización.
+description: Obtenga una vista previa de los correos electrónicos con perfiles de prueba, compruebe el procesamiento en equipos de escritorio y móviles, envíe pruebas a destinatarios y valide la personalización en Journey Optimizer B2B edition.
 feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 7%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Compruebe cómo se representa el contenido"
->abstract="Una vez definido el contenido, puede previsualizarlo y comprobar si el procesamiento es correcto según el canal que utilice."
+>abstract="Cuando se define el contenido, se puede obtener una vista previa del mismo y comprobar que la renderización es correcta para el canal que se está utilizando."
 
 Utilice la función _Simular contenido_ para obtener una vista previa del contenido del correo electrónico y enviar envíos de prueba a destinatarios específicos. Deben definirse los campos de correo electrónico necesarios, entre ellos _[!UICONTROL Nombre de remitente]_, _[!UICONTROL Dirección de origen]_, _[!UICONTROL Dirección de respuesta]_ y _[!UICONTROL Línea de asunto]_, para tener acceso a las características de vista previa y prueba.
 

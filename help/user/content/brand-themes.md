@@ -1,6 +1,6 @@
 ---
 title: Usar temas de marca para el contenido de correo electrónico
-description: Aprenda a optimizar la creación de contenido de correo electrónico con temáticas reutilizables, lo que garantiza la coherencia y eficacia del diseño.
+description: 'Cree temáticas de marca personalizadas para correos electrónicos y plantillas: defina colores, fuentes, espaciado y botones para un diseño coherente en Journey Optimizer B2B edition.'
 feature: Email Authoring, Brand Identity, Content Design Tools
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3087'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Aplique una temática de marca al correo electrónico o a la plantilla del correo electrónico"
->abstract="Seleccione una temática para su correo electrónico o plantilla de correo electrónico para aplicar un estilo específico que se ajuste a su marca y diseño."
+>abstract="Seleccione un tema para su correo electrónico o plantilla de correo electrónico para aplicar un estilo que se ajuste a su marca y diseño."
 
 Con las temáticas, los diseñadores no técnicos tienen la capacidad de crear directrices de diseño de contenido de correo electrónico reutilizables que se alineen con una marca y un estilo específicos. Los temas permiten a los especialistas en marketing aprovechar correos electrónicos visualmente atractivos y coherentes con la marca de forma más rápida y con menos esfuerzo, y proporcionan opciones de personalización avanzadas para satisfacer necesidades de diseño únicas.
 
@@ -132,7 +132,7 @@ Seleccione la ficha **[!UICONTROL Colores]** y use la configuración para defini
 
   | Tipo | Configuración | Descripción |
   | ---- | -------- | ----------- |
-  | [!UICONTROL General] | ![Configuración general de color para una variante](./assets/email-theme-colors-settings-variant-general.png){width="300"} | Esta configuración le permite establecer colores para el cuerpo, las estructuras, los contenedores, los fondos, los vínculos, las cuadrículas y los bordes. |
+  | [!UICONTROL General] | ![Configuración general de color para una variante](./assets/email-theme-colors-settings-variant-general.png){width="300"} | Esta configuración determina los colores del cuerpo, las estructuras, los contenedores, los fondos, los vínculos, las cuadrículas y los bordes. |
   | [!UICONTROL Encabezados] | ![Configuración de color de encabezado para una variante](./assets/email-theme-colors-settings-variant-headings.png){width="300"} | Esta configuración se aplica a `Heading` elementos, donde puede establecer colores de texto y borde para cada uno de los seis niveles de encabezado. Expanda cada nivel de encabezado en el que desee establecer el color de la variante. |
   | [!UICONTROL Párrafos] | ![Configuración de color de párrafo para una variante](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | Esta configuración se aplica a `Paragraph` elementos, donde puede establecer colores de texto y borde para cada uno de los tres tipos de párrafo. Expanda cada tipo de párrafo para el que desee establecer el color de la variante. |
   | [!UICONTROL Botones] | ![Configuración de color del botón para una variante](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | La configuración se aplica a los elementos de botón, donde puede establecer el color de relleno, el color de borde y el color del texto para cada uno de los tres ajustes preestablecidos de botón: _Principal_, _Secundario_ y _Terciario_. |
@@ -303,7 +303,7 @@ Cuando encuentre el tema, haga clic en el icono _Menú más_ (**...**) en la par
 
 ## Uso de una temática para la creación de contenido de correo electrónico {#use-email-theme}
 
-Al crear un nuevo correo electrónico o plantilla de correo electrónico, puede elegir utilizar un tema de marca que optimiza el proceso de creación de contenido y se asegura de que el diseño se ajusta a los estándares definidos. Para un nuevo fragmento, también puede aplicar una temática antes de guardar el fragmento. El fragmento permanecerá en _modo de tema_ a partir de ese momento y es compatible con la adición a correos electrónicos y plantillas de correo electrónico que también están en _modo de tema_.
+Al crear un nuevo correo electrónico o plantilla de correo electrónico, puede elegir utilizar un tema de marca que optimiza el proceso de creación de contenido y garantiza que el diseño se ajuste a los estándares definidos. Para un nuevo fragmento, también puede aplicar una temática antes de guardar el fragmento. El fragmento permanecerá en _modo de tema_ a partir de ese momento y es compatible con la adición a correos electrónicos y plantillas de correo electrónico que también están en _modo de tema_.
 
 1. Seleccione una de las siguientes acciones:
 

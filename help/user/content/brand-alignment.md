@@ -1,6 +1,6 @@
 ---
-title: Puntuación de la alineación de marca
-description: Aprenda a crear, validar y administrar contenido en la marca mediante una puntuación de alineación de marca.
+title: Puntuación de alineación de marca
+description: 'Evaluar el contenido del correo electrónico con la puntuación de alineación de marca: valide los colores, las fuentes, los logotipos y el estilo de escritura en las directrices de marca en Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 17%
+source-wordcount: '467'
+ht-degree: 11%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Puntuación de la alineación de marca"
->abstract="La puntuación de alineación de su marca mide el grado de cumplimiento de su contenido con las directrices de la marca, lo que garantiza la coherencia en los colores, las fuentes, los logotipos, las imágenes y el estilo de redacción."
+>abstract="La puntuación de alineación de marca mide en qué medida el contenido se adhiere a las directrices de marca, lo que garantiza la coherencia en los colores, las fuentes, el logotipo, las imágenes y el estilo de escritura."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"
