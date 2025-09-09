@@ -1,13 +1,13 @@
 ---
 title: Formularios
-description: Aprenda a crear formularios reutilizables que pueda incluir en sus páginas de aterrizaje.
+description: 'Cree y administre formularios reutilizables para la recopilación de datos empresariales: campos de diseño, establezca páginas de agradecimiento, publique y realice un seguimiento del uso en Journey Optimizer B2B edition.'
 feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 9b3b6db22e27ceff88be9808a1aaf89b3eee7f17
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2357'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ El estado del formulario determina su disponibilidad para utilizarlo en una pág
 | -------------------- | ----------- |
 | Borrador | Al crear un formulario, se encuentra en estado de borrador. Permanece en este estado a medida que define o edita los campos hasta que lo publica para utilizarlo en una página de aterrizaje o plantilla de página de aterrizaje. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Editar en el espacio de diseño visual<li>Publicación<li>Duplicado<li>Eliminar |
 | Publicadas | Al publicar un formulario, pasa a estar disponible para su uso en una página de aterrizaje o plantilla de página de aterrizaje. El contenido del formulario publicado no se puede modificar en el espacio de diseño visual. Acciones disponibles:<br/><ul><li>Editar nombre, descripción o página de agradecimiento<li>Añadir a una página de aterrizaje o plantilla de página de aterrizaje<li>Crear versión de borrador<li>Duplicado<li>Eliminar (si no está en uso)<li>Código incrustado |
-| Publicado con borrador | Cuando crea un borrador a partir de un formulario publicado, la versión publicada permanece disponible para su uso en una página de aterrizaje o plantilla de página de aterrizaje, y el contenido del borrador se puede modificar en el espacio de diseño visual. Si publica la versión de borrador, reemplazará la versión publicada actual y el contenido se actualizará en las páginas de aterrizaje o en las plantillas de página de aterrizaje en las que esté en uso. Acciones disponibles:<br/><ul><li>Editar nombre, descripción o páginas de agradecimiento<li>Añadir a una página de aterrizaje o plantilla de página de aterrizaje<li>Editar versión de borrador en el espacio de diseño visual<li>Publicar versión de borrador<li>Duplicado<li>Eliminar (si no está en uso)<li>Código incrustado |
+| Publicado con borrador | Cuando crea un borrador a partir de un formulario publicado, la versión publicada permanece disponible para su uso en una página de aterrizaje o plantilla. El contenido del borrador se puede modificar en el espacio de diseño visual. Si publica la versión de borrador, reemplazará la versión publicada actual y el contenido se actualizará en las páginas de aterrizaje o en las plantillas de página de aterrizaje en las que esté en uso. Acciones disponibles:<br/><ul><li>Editar nombre, descripción o páginas de agradecimiento<li>Añadir a una página de aterrizaje o plantilla de página de aterrizaje<li>Editar versión de borrador en el espacio de diseño visual<li>Publicar versión de borrador<li>Duplicado<li>Eliminar (si no está en uso)<li>Código incrustado |
 
 ![Ciclo de vida del estado del formulario](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 

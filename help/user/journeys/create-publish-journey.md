@@ -1,12 +1,12 @@
 ---
 title: Crear y publicar un Recorrido de cuenta
-description: Obtenga información sobre cómo crear y publicar recorridos de cuenta.
+description: Cree recorridos de cuenta en el lienzo visual, agregue nodos de acción y evento, configure la programación y publique para la orquestación en directo en Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '806'
 ht-degree: 4%
 
 ---
@@ -141,4 +141,4 @@ Puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique,
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443222/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

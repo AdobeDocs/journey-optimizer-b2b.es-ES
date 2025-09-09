@@ -1,19 +1,19 @@
 ---
 title: Autor a partir de una plantilla gobernada
-description: Aprenda a utilizar la creación por correo electrónico con una plantilla controlada que contenga componentes de contenido bloqueados.
+description: 'Cree correos electrónicos a partir de plantillas gobernadas con contenido bloqueado: identifique áreas editables y trabaje dentro de las restricciones de gobernanza en Journey Optimizer B2B edition.'
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # Crear a partir de una plantilla controlada
 
-Los diseñadores de contenido pueden habilitar el [control (_bloqueo de contenido_)](./template-content-governance.md) al crear plantillas de correo electrónico. Las funciones de control les permiten designar las partes del diseño que no se pueden cambiar cuando se utilizan en un recorrido de cuentas. Cuando [selecciona una plantilla guardada](./email-authoring.md#select-a-template) para crear un correo electrónico, el diseñador visual carga la plantilla para que pueda utilizarla como base para el correo electrónico.
+Los diseñadores de contenido pueden habilitar el [control (_bloqueo de contenido_)](./template-content-governance.md) al crear plantillas de correo electrónico. Las funciones de control les permiten designar las partes del diseño que no se pueden cambiar cuando se utilizan en un recorrido de cuentas. Cuando [selecciona una plantilla guardada](./email-authoring.md#select-a-template) para crear un mensaje de correo electrónico, el espacio de diseño visual carga la plantilla para que pueda utilizarla como base para el correo electrónico.
 
 Si la plantilla tiene el control habilitado, se muestra una alerta en el panel de propiedades de la derecha. Puede activar **[!UICONTROL Resaltar áreas editables]** en la parte superior del lienzo para ver qué componentes y elementos de contenido se pueden editar para usarlos en el recorrido.
 

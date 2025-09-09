@@ -1,12 +1,12 @@
 ---
 title: Nodos de audiencia de cuenta
-description: Obtenga información acerca del tipo de nodo de audiencia de cuenta que puede utilizar para definir la entrada de los recorridos de la cuenta en Journey Optimizer B2B edition.
+description: Configure nodos de audiencia de cuenta con audiencias de cuenta o listas de cuentas para definir puntos de entrada de recorrido para la orquestación de destino en Journey Optimizer B2B edition.
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 82553c9ee6205e0ad47cc5a56112590471c03d0e
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---

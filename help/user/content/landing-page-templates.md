@@ -1,20 +1,20 @@
 ---
 title: Plantillas de la página de destino
-description: Aprenda a crear plantillas de página de aterrizaje que su equipo de marketing pueda utilizar para crear páginas nuevas para admitir recorridos y campañas de cuentas.
+description: 'Cree, administre y reutilice plantillas de página de aterrizaje: diseñe desde cero, importe HTML, duplique, elimine y realice un seguimiento del uso para equipos de marketing en Journey Optimizer B2B edition.'
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
-# Plantillas de página de aterrizaje
+# Plantillas de página de destino
 
 Para un proceso de diseño acelerado y mejorado, puede crear plantillas de página de aterrizaje independientes para estandarizar el diseño de la página y el contenido. Los estrategas de marketing pueden reutilizar las páginas y adaptarlas para adaptarlas al uso en campañas y recorridos.
 
@@ -150,13 +150,13 @@ En la página de lista de plantillas de página de aterrizaje, seleccione varias
 
 ## Crear una página de aterrizaje a partir de una plantilla guardada
 
-Desde la página _Crear su página de aterrizaje_, use la sección _Seleccionar plantilla de diseño_ para empezar a crear su contenido a partir de una plantilla.
+Desde la página _[!UICONTROL Crear su página de aterrizaje]_, use la sección _Seleccionar plantilla de diseño_ para empezar a crear su contenido a partir de una plantilla.
 
 Para empezar a crear contenido con una de las plantillas de página de aterrizaje creadas, siga estos pasos:
 
 1. Acceda al espacio de diseño visual desde la página _Editar contenido_.
 
-   En la página _Crear su página de aterrizaje_, la pestaña _Plantillas de muestra_ está seleccionada de manera predeterminada.
+   En la página _[!UICONTROL Crear su página de aterrizaje]_, la pestaña _Plantillas de muestra_ está seleccionada de manera predeterminada.
 
 1. Para usar una plantilla de página de aterrizaje personalizada, selecciona la pestaña **[!UICONTROL Plantillas guardadas]**.
 
@@ -168,4 +168,4 @@ Para empezar a crear contenido con una de las plantillas de página de aterrizaj
 
 1. Haga clic en **[!UICONTROL Usar esta plantilla]** en la parte superior derecha.
 
-1. Desde el diseñador de contenido visual, edite el contenido según sea necesario.
+1. Desde el espacio de diseño de contenido visual, edite el contenido según sea necesario.

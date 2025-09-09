@@ -1,12 +1,12 @@
 ---
 title: Componentes de estructura
-description: Aprenda a utilizar componentes de estructura para definir el diseño del correo electrónico, la página de aterrizaje y el contenido de fragmentos visuales.
+description: 'Utilice componentes de estructura para crear diseños para correos electrónicos, páginas de aterrizaje y fragmentos: arrastre diseños de columna, defina estilos y configure la visualización móvil en Journey Optimizer B2B edition.'
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1584'
 ht-degree: 7%
 
 ---

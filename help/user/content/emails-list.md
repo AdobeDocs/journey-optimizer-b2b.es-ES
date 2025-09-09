@@ -1,12 +1,12 @@
 ---
 title: Correos electrónicos
-description: Utilice la lista Correos electrónicos para administrar el contenido del correo electrónico en Adobe Journey Optimizer B2B edition. Puede evaluar y actualizar fácilmente los correos electrónicos entre sus recorridos.
+description: 'Administre su biblioteca de correo electrónico con búsquedas, filtros y acciones masivas: edite el contenido, la configuración y pruebe correos electrónicos fuera de los recorridos en Journey Optimizer B2B edition.'
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---

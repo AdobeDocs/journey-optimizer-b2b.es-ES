@@ -1,12 +1,12 @@
 ---
 title: Fases del grupo de compra
-description: Configure las fases del grupo de compra para rastrear la progresión de las ventas desde la conversión de la oportunidad al cliente en Journey Optimizer B2B edition.
+description: Cree modelos de fase de grupo de compra personalizados con etapas de entrada, éxito y fracaso para rastrear la progresión y las acciones de recorrido de cuenta de déclencheur en Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2351'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Las etapas de compra de grupos están diseñadas para seguir la progresión de los grupos de compra en la conversión de oportunidades en clientes. Utilice esta función para realizar un seguimiento de la progresión del grupo de compra e identificar las siguientes mejores acciones para comprar miembros del grupo.
 
-Defina las fases dentro de un solo modelo de ensayo y defina varias fases y el flujo de transición entre ellas. Se designan una o más fases para la entrada en el ciclo vital. El modelo también permite la progresión no lineal, donde puede especificar transiciones de una etapa a otra, como de la etapa A a las etapas B, C o D. Se requiere que se designe una etapa como la etapa de éxito, como una compra o un contrato firmado. Es opcional que se designe otra etapa como de fracaso, como un contrato rechazado o la compra de una solución de la competencia a otro proveedor. Esto se logra a través de [paneles inteligentes](../dashboards/intelligent-dashboard.md) que muestran el progreso de los grupos de compras en términos de completar una oportunidad de venta o convertirla en un cliente.
+Defina las fases dentro de un solo modelo de ensayo y defina varias fases y el flujo de transición entre ellas. Se designan una o más fases para la entrada en el ciclo vital. El modelo también permite la progresión no lineal, donde puede especificar transiciones de una etapa a otra, como de la etapa A a las etapas B, C o D. Se requiere que se designe una etapa como la etapa de éxito, como una compra o un contrato firmado. Es opcional que se designe otra etapa como de fracaso, como un contrato rechazado o la compra de una solución de la competencia a otro proveedor. Monitorice estas etapas a través de [paneles inteligentes](../dashboards/intelligent-dashboard.md) que muestran el progreso de los grupos de compras en términos de completar una oportunidad de venta o convertirla en un cliente.
 
 ![Ejemplo de las fases del grupo de compra](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -365,4 +365,4 @@ Utilice la ocurrencia de un cambio de fase de grupo de compra para mover la cuen
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3448697/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

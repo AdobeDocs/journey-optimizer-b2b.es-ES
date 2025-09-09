@@ -1,14 +1,14 @@
 ---
 title: Nodos de Recorrido de cuenta
-description: Obtenga información acerca de los tipos de nodos que puede utilizar para crear las recorridos de cuenta en Journey Optimizer B2B edition.
+description: Cree recorridos de cuenta con nodos de acción, evento y orquestación (audiencia, espera, división y combinación) para el marketing multicanal en Journey Optimizer B2B edition.
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 9438b1472df38eddc3e1fa6cd5bc3992af0c9eec
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ Después de [crear un recorrido de cuenta](journey-overview.md#create-an-account
 Cree su recorrido de cuentas combinando los diferentes nodos de acción, evento y orquestación como un escenario de varios pasos y canales cruzados. Cada nodo de un recorrido representa un paso a lo largo de una ruta lógica. Utilice los siguientes tipos de nodos para construir un recorrido de cuentas:
 
 * [Público de cuenta](./account-audience-nodes.md)
-* [Realizar una acción](./action-nodes.md)
+* [Iniciar una acción](./action-nodes.md)
 * [Escuchar un evento](./listen-for-event-nodes.md)
 * [Dividir rutas](./split-merge-paths-nodes.md)
 * [Espera](./wait-nodes.md)

@@ -1,17 +1,17 @@
 ---
-title: Asistente de IA para la creación de correo electrónico
-description: Aprenda a utilizar el Asistente de IA para optimizar el contenido de correo electrónico que se utiliza en los Recorridos de cuenta.
+title: Asistente de IA para la generación de contenido de correo electrónico
+description: 'Generar contenido de correo electrónico con el asistente de IA: cree contenido de mensaje, líneas de asunto y encabezados previos con recursos de marca y segmentación de funciones de grupo de compra en Journey Optimizer B2B edition.'
 feature: AI Assistant, Email Authoring, Content
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3072'
+source-wordcount: '3089'
 ht-degree: 0%
 
 ---
 
-# Asistente de IA para la creación de correo electrónico
+# Asistente de IA para la generación de contenido de correo electrónico
 
 A medida que el sector de marketing se vuelve más competitivo, las marcas buscan formas eficientes de generar contenido impactante de forma rápida y eficaz. AI Assistant para la creación de correo electrónico en Adobe Journey Optimizer B2B edition es la capacidad de generación de contenido de Adobe que funciona con IA y que revoluciona la forma en que los especialistas en marketing crean contenido de correo electrónico profesional y coherente con la marca. Con los modelos avanzados de GenAI y una comprensión profunda de las directrices de marca, el asistente de IA genera automáticamente contenido personalizado, atractivo y eficaz en función del objetivo de marketing, con contenido optimizado para los estilos, diseños, tonos y mucho más definidos por la marca. El asistente de IA hace que la creación y ejecución de campañas de marketing por correo electrónico sea intuitiva, sencilla y sin complicaciones. Añadir esta capacidad a los flujos de trabajo le permite ahorrar tiempo, mejorar la eficacia y obtener mejores resultados.
 
@@ -204,11 +204,11 @@ Un preencabezado de correo electrónico es el texto corto de resumen que sigue a
 
 Después de [crear y personalizar tu correo electrónico](./email-authoring.md), usa el Asistente de IA en Adobe Journey Optimizer B2B edition, con tecnología de IA generativa, para elevar el contenido de tu cuerpo de correo electrónico al siguiente nivel.
 
-En el diseñador de correo electrónico, el asistente de IA puede ayudarle a optimizar el impacto de sus envíos mediante la generación del cuerpo completo del correo electrónico, el contenido de texto de destino y las recomendaciones para imágenes que interesen a su audiencia. Esta optimización de las campañas de correo electrónico está diseñada para producir una mejor participación.
+En el espacio de diseño del correo electrónico, el asistente de IA puede ayudarle a optimizar el impacto de sus envíos al generar el cuerpo completo del correo electrónico, el contenido de texto de destino y las recomendaciones para imágenes que resuenen con su audiencia. Esta optimización de las campañas de correo electrónico está diseñada para producir una mejor participación.
 
 1. Cree un correo electrónico a partir de un recorrido de cuenta y haga clic en **[!UICONTROL Abrir correo electrónico en Designer]** o **[!UICONTROL Agregar contenido de correo electrónico]**.
 
-1. Seleccione y abra una plantilla de correo electrónico en el diseñador de correo electrónico visual.
+1. Seleccione y abra una plantilla de correo electrónico en el espacio de diseño de correo electrónico visual.
 
 1. Personalice el correo electrónico según sea necesario para el nodo de recorrido.
 
@@ -220,7 +220,7 @@ En el diseñador de correo electrónico, el asistente de IA puede ayudarle a opt
 
 Los siguientes pasos describen la secuencia de tareas para utilizar el Asistente de IA con el fin de refinar una plantilla de correo electrónico existente:
 
-1. En el diseñador de correo electrónico, acceda al menú Asistente de IA haciendo clic en el icono ( ![opción de menú Asistente de IA](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) a la derecha.
+1. En el espacio de diseño de correo electrónico, acceda al menú Asistente de IA haciendo clic en el icono ( ![opción de menú Asistente de IA](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) a la derecha.
 
    ![Asistente de IA activa o desactiva el diseñador de correo electrónico](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -259,15 +259,15 @@ Los siguientes pasos describen la secuencia de tareas para utilizar el Asistente
 
      ![Asistente de IA - configuración de texto](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Seleccionar]** para reemplazar el contenido de la plantilla por la variante seleccionada y volver al diseñador de correo electrónico.
+1. Haga clic en **[!UICONTROL Seleccionar]** para reemplazar el contenido de la plantilla por la variante seleccionada y regresar al espacio de diseño de correo electrónico.
 
-   En el diseñador de correo electrónico, puede utilizar las herramientas de edición y formato del lienzo para modificar el contenido, así como las opciones _[!UICONTROL Settings]_ y _[!UICONTROL Style]_ de la derecha.
+   En el espacio de diseño del correo electrónico, puede utilizar las herramientas de edición y formato del lienzo para modificar el contenido, así como las opciones _[!UICONTROL Settings]_ y _[!UICONTROL Style]_ de la derecha.
 
 >[!TAB Generación de texto]
 
 Los siguientes pasos describen la secuencia de tareas para utilizar el Asistente de IA con el fin de refinar o mejorar el contenido de texto de un correo electrónico existente:
 
-1. En el diseñador de correo electrónico, acceda al menú Asistente de IA haciendo clic en el icono ( ![opción de menú Asistente de IA](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) a la derecha.
+1. En el espacio de diseño de correo electrónico, acceda al menú Asistente de IA haciendo clic en el icono ( ![opción de menú Asistente de IA](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) a la derecha.
 
    ![Asistente de IA activa o desactiva el diseñador de correo electrónico](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -315,9 +315,9 @@ Los siguientes pasos describen la secuencia de tareas para utilizar el Asistente
 
    ![Vista previa del Ayudante de IA de las opciones de variación y refinamiento de texto](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
-1. Cuando tenga el contenido que desea, haga clic en **[!UICONTROL Seleccionar]** para reemplazar el texto con la variante seleccionada y volver al diseñador de correo electrónico.
+1. Cuando tenga el contenido que desee, haga clic en **[!UICONTROL Seleccionar]** para reemplazar el texto con la variante seleccionada y volver al espacio de diseño de correo electrónico.
 
-   En el diseñador de correo electrónico, puede utilizar las herramientas de edición y formato del lienzo para modificar el texto, así como las opciones _[!UICONTROL Settings]_ y _[!UICONTROL Style]_ de la derecha.
+   En el espacio de diseño del correo electrónico, puede utilizar las herramientas de edición y formato del lienzo para modificar el texto, así como las opciones _[!UICONTROL Settings]_ y _[!UICONTROL Style]_ de la derecha.
 
 >[!TAB Recomendaciones de imagen]
 
@@ -345,7 +345,7 @@ Puede utilizar el asistente de IA para optimizar y mejorar sus recursos y garant
 
 1. Utilice la configuración de la imagen para restringir el mensaje:
 
-   * **[!UICONTROL Proporción de aspecto]**: esta configuración determina la anchura y la altura del recurso. Tiene la opción de elegir entre proporciones comunes, como 16:9, 4:3, 3:2 o 1:1, o bien puede introducir un tamaño personalizado.
+   * **[!UICONTROL Proporción de aspecto]**: esta configuración determina la anchura y la altura del recurso. Tiene la opción de elegir entre proporciones comunes como 16:9, 4:3, 3:2 o 1:1, o bien puede especificar un tamaño personalizado.
    * **[!UICONTROL Color y tono]**: esta configuración influye en el aspecto general de los colores de una imagen y en el estado de ánimo o la atmósfera que transmite.
    * **[!UICONTROL Tipo de contenido]**: esta configuración categoriza la naturaleza del elemento visual y distingue entre diferentes formas de representación visual, como fotografías, gráficos o arte.
    * **[!UICONTROL Iluminación]**: este ajuste ajusta el rayo presente en una imagen, lo que da forma a su atmósfera y resalta elementos específicos.
@@ -363,8 +363,8 @@ Puede utilizar el asistente de IA para optimizar y mejorar sus recursos y garant
 
    Para ver una versión en pantalla completa de la variación seleccionada, haz clic en **[!UICONTROL Vista previa]**.
 
-1. Resalte la imagen que desee y haga clic en **[!UICONTROL Seleccionar]** para reemplazar la imagen o el marcador de posición por el elemento seleccionado y volver al diseñador de correo electrónico.
+1. Resalte la imagen que desee y haga clic en **[!UICONTROL Seleccionar]** para reemplazar la imagen o el marcador de posición por el elemento seleccionado y volver al espacio de diseño de correo electrónico.
 
-   En el diseñador de correo electrónico, puede utilizar las herramientas de edición y formato del lienzo para modificar el contenido, así como las opciones _[!UICONTROL Settings]_ y _[!UICONTROL Style]_ de la derecha.
+   En el espacio de diseño del correo electrónico, puede utilizar las herramientas de edición y formato del lienzo para modificar el contenido, así como las opciones _[!UICONTROL Settings]_ y _[!UICONTROL Style]_ de la derecha.
 
 >[!ENDTABS]

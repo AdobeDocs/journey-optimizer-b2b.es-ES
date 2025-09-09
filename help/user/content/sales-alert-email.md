@@ -1,12 +1,12 @@
 ---
 title: Correo electrónico de alerta de ventas
-description: Aprenda a incluir un correo electrónico de alerta de ventas automatizado en los recorridos de la cuenta.
+description: 'Configuración de correos electrónicos de alerta de ventas en recorridos de cuenta para notificar a los equipos de ventas: incluye resúmenes de grupos de compras, perspectivas de IA y detalles de miembros en Journey Optimizer B2B edition.'
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '533'
 ht-degree: 6%
 
 ---
@@ -65,4 +65,4 @@ Puede configurar envíos de correo electrónico de alertas de ventas en un recor
 
    ![Crear nuevo cuadro de diálogo de correo electrónico](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   Una vez publicado el recorrido de la cuenta, la alerta de ventas se envía según estos parámetros.
+   Cuando el recorrido de la cuenta está activo, la alerta de ventas se envía según estos parámetros.

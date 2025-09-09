@@ -1,12 +1,12 @@
 ---
 title: Nodos de espera
-description: Obtenga información acerca del tipo de nodo Espera que puede utilizar para organizar las recorridos de la cuenta en Journey Optimizer B2B edition.
+description: Agregue nodos de espera para pausar la progresión de la recorrido con una duración relativa o fechas específicas para el tiempo estratégico en Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Existen dos formas de definir el tiempo de espera:
 * Una duración relativa (cantidad de minutos, horas, días, semanas o meses)
 * Una fecha específica en la que desea avanzar al siguiente nodo del recorrido
 
-_Para definir un nodo de espera para el recorrido de su cuenta:_
+_Para definir un nodo de espera para el recorrido de la cuenta :_
 
 1. Vaya al mapa del recorrido.
 

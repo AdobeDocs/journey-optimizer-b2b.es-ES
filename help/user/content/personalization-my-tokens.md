@@ -1,12 +1,12 @@
 ---
 title: Tokens personalizados para Personalization de correo electrónico
-description: Aprenda a utilizar un conjunto de tokens definidos para un recorrido de cuenta a fin de administrar la personalización en el contenido del correo electrónico.
+description: 'Cree y administre Mis tokens personalizados para la personalización dinámica de correos electrónicos: defina variables de texto y número para los recorridos de cuenta en Journey Optimizer B2B edition.'
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '603'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Los _Mis tokens_ son variables personalizadas que se crean o modifican para un r
 
 Cuando agrega un token personalizado a un correo electrónico, se muestra como `{{my.TokenName}}`. Por ejemplo, podría tener `{{my.EventDate}}` o `{{my.WebinarSpeaker}}` tokens creados para administrar el contenido de los correos electrónicos relacionados con los próximos seminarios web.
 
-_Para tener acceso a los tokens personalizados de un recorrido de cuenta:_
+_Para tener acceso a los tokens personalizados de un recorrido de cuenta :_
 
 1. Abra el recorrido de cuenta provisional.
 

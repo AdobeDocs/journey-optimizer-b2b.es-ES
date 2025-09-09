@@ -1,12 +1,12 @@
 ---
 title: Gobernanza de contenido de plantilla
-description: Aprenda a bloquear los elementos de contenido en las plantillas de correo electrónico para que pueda controlar cómo se pueden modificar para usarlos en los recorridos de cuenta.
+description: 'Bloquee los componentes de plantillas de correo electrónico para la conformidad con la marca: establezca modos de gobernanza, controle la edición de contenido y administre permisos para autores de recorrido de cuentas en Journey Optimizer B2B edition.'
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Por ejemplo, puede bloquear el encabezado y el pie de página diseñados para la
 
 ## Activar el control de contenido para la plantilla
 
-Después de usar el diseñador visual para [crear los componentes estructurales y de contenido](./email-template-authoring.md) para la plantilla de correo electrónico, habilite el control y aplique un bloqueo de contenido específico según sea necesario.
+Después de usar el espacio de diseño visual para [crear los componentes estructurales y de contenido](./email-template-authoring.md) para la plantilla de correo electrónico, habilite el control y aplique un bloqueo de contenido específico según sea necesario.
 
-1. En el diseñador visual, obtenga acceso a las capas, contenedores y elementos mediante el _árbol de navegación_.
+1. En el espacio de diseño visual, obtenga acceso a las capas, contenedores y elementos mediante el _árbol de navegación_.
 
    Haga clic en el icono _Árbol de navegación_ ( ![Icono de vínculo](../assets/do-not-localize/icon-navigation-tree.svg) ) a la izquierda del lienzo para mostrar el árbol.
 

@@ -1,12 +1,12 @@
 ---
 title: Plantillas de correo electrónico
-description: Aprenda a administrar y crear plantillas de correo electrónico que se utilizan para crear correos electrónicos de recorrido de cuentas de forma fácil y eficaz.
+description: 'Cree plantillas de correo electrónico reutilizables desde cero, HTML import o diseños existentes: administre plantillas para recorridos de cuenta en Journey Optimizer B2B edition.'
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---

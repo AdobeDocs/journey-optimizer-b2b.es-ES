@@ -1,12 +1,12 @@
 ---
 title: Puntuaciones de participación para grupos compradores
-description: Rastree las puntuaciones de participación de grupos de compras y personas con actividades ponderadas y cálculos basados en roles en Journey Optimizer B2B edition.
+description: Calcule las puntuaciones de participación de grupos y personas compradoras mediante actividades ponderadas, cálculos basados en funciones y ventanas de puntuación de 30 días en Journey Optimizer B2B edition.
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1254'
 ht-degree: 28%
 
 ---
@@ -30,7 +30,7 @@ Existen dos tipos de puntuaciones de participación:
 
 * **Puntuación de participación de persona** - La puntuación de participación de persona se basa en las actividades de un miembro individual del grupo de compra.
 
-  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros &#x200B;]_&#x200B;tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
+  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros ]_tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
 
   ![Miembros del grupo de compras más comprometidos](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 

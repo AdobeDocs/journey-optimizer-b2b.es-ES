@@ -1,12 +1,12 @@
 ---
 title: Crear grupos de compra
-description: Cree grupos de compra seleccionando intereses de la solución y audiencias de cuenta para el marketing automatizado en Journey Optimizer B2B edition.
+description: Cree grupos de compra automatizada seleccionando intereses de solución y audiencias de cuenta para los recorridos de cuenta objetivo en Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 3%
 
 ---
@@ -64,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## Vídeo práctico
 
->[!VIDEO](https://video.tv.adobe.com/v/3451764/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

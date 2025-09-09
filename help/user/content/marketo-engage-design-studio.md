@@ -1,12 +1,12 @@
 ---
 title: Trabajo con Marketo Engage Assets
-description: Obtenga información sobre el uso de la integración de administración de recursos de Marketo Engage Design Studio en Journey Optimizer B2B edition.
+description: 'Examine, administre y utilice recursos de Marketo Engage Design Studio en Journey Optimizer B2B edition: organice espacios de trabajo, edite imágenes y cree contenido para recorridos de cuenta.'
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ En el cuadro de diálogo _[!UICONTROL Reemplazar recurso]_, arrastre y suelte el
 
 Para continuar, haga clic en **[!UICONTROL Reemplazar]**. Puede anular el proceso haciendo clic en **[!UICONTROL Cancelar]**.
 
-Si el archivo que se va a reemplazar está en uso, un cuadro de diálogo informativo le avisará de que el nuevo archivo de imagen reemplazará a la imagen en todos los lugares en los que se utilice (correos electrónicos, plantillas de correo electrónico y fragmentos).
+Si el archivo que se va a reemplazar está en uso, un cuadro de diálogo le advierte de que el nuevo archivo de imagen reemplaza la imagen en la que se utiliza (correos electrónicos, plantillas de correo electrónico y fragmentos).
 
 ## Descarga de recursos
 
@@ -246,7 +246,7 @@ Puede realizar las siguientes acciones en el nivel de carpeta:
 
 +++
 
-+++Elimine la carpeta
++++Eliminar la carpeta
 
 1. Elija **[!UICONTROL Eliminar]**.
 
@@ -270,7 +270,7 @@ Al archivar una carpeta, no se puede buscar en los archivos que contiene. Utilic
 
 Assets se puede utilizar en el correo electrónico de su equipo, en la creación de plantillas de correo electrónico o en la creación de fragmentos visuales desde el editor de contenido visual.
 
-En la interfaz de usuario del diseñador visual, seleccione el icono _Marketo Engage Assets_ ( ![Marketo Engage Assets icon](../../assets/do-not-localize/icon-assets-me.svg) ) en la barra lateral izquierda.
+En el espacio de diseño visual, seleccione el icono _Marketo Engage Assets_ ( ![Marketo Engage Assets icon](../../assets/do-not-localize/icon-assets-me.svg) ) en la barra lateral izquierda.
 
 Esta acción cambia el panel Herramientas, que muestra una lista estructurada de los recursos disponibles en el espacio de trabajo seleccionado. Seleccione el espacio de trabajo que desea mostrar para elegir un recurso.
 

@@ -1,12 +1,13 @@
 ---
 title: Revisión del informe de spam
-description: Obtenga información sobre cómo comprobar la puntuación de correo no deseado del contenido del correo electrónico en un informe de correo no deseado que predice si los ISP o proveedores de buzones de correo lo considerarían o no como correo no deseado.
+description: Genere informes de spam con la puntuación SpamAssassin para comprobar si los correos electrónicos almacenan déclencheur de spam y mejorar la capacidad de envío en Journey Optimizer B2B edition.
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: 7992df497182b69c5103b603d69a70e1a40e903a
+exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -40,6 +41,3 @@ Cuando revise la configuración de correo electrónico o edite el contenido, abr
 1. Si el contenido del correo electrónico contiene elementos que se pueden mejorar, edite el contenido para aplicar las actualizaciones necesarias.
 
 1. Cuando se hayan completado los cambios, vuelva a la página _[!UICONTROL Simular]_ y haga clic en **[!UICONTROL Informe de spam]** de nuevo para comprobar las mejoras de puntuación resultantes.
-
-
-

@@ -1,13 +1,13 @@
 ---
 title: Diseño de plantilla de página de aterrizaje
-description: Aprenda a diseñar y crear contenido para plantillas de páginas de aterrizaje que los especialistas en marketing puedan reutilizar para crear páginas de aterrizaje.
+description: 'Diseño de plantillas de página de aterrizaje para su reutilización: añada componentes de contenido, formularios, CSS personalizado, personalización y previsualización de dispositivo en Journey Optimizer B2B edition.'
 feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '347'
 ht-degree: 4%
 
 ---

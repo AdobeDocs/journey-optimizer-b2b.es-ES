@@ -1,13 +1,13 @@
 ---
 title: Diseño de página de aterrizaje
-description: Aprenda a diseñar y crear contenido para sus páginas de aterrizaje que admitan recorridos y campañas de cuenta.
+description: 'Diseñe páginas de aterrizaje con herramientas visuales: añada componentes de contenido, formularios, CSS personalizado, personalización y previsualización de dispositivo para recorridos de cuenta en Journey Optimizer B2B edition.'
 feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 3%
 
 ---

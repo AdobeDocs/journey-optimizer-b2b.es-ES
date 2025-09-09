@@ -1,13 +1,13 @@
 ---
 title: Páginas de destino
-description: Obtenga información acerca de las páginas de aterrizaje y cómo crearlas y administrarlas para admitir recorridos y campañas de cuenta.
+description: 'Cree, diseñe y publique páginas de aterrizaje para recorridos de cuenta: genere desde cero, importe HTML, añada formularios, personalice contenido y vincule desde correos electrónicos en Journey Optimizer B2B edition.'
 feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2198'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ El estado de la página de aterrizaje determina su disponibilidad para la vincul
 
 ![Ciclo de vida del estado de la página de aterrizaje](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
-## Creación de una página de aterrizaje
+## Creación de una página de destino
 
 Puede agregar una nueva página de aterrizaje en Journey Optimizer B2B edition haciendo clic en **[!UICONTROL Crear página de aterrizaje]** en la parte superior derecha.
 

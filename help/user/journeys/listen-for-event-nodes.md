@@ -1,12 +1,12 @@
 ---
 title: Escuchar un evento
-description: Obtenga información acerca del tipo de nodo Escuchar un evento que puede utilizar para organizar las recorridos de su cuenta en Journey Optimizer B2B edition.
+description: 'Configuración de nodos de evento para déclencheur de cuentas y personas: escucha cambios de grupos de compra, clics en correos electrónicos, rellenos de formularios y eventos de Experience Platform en Journey Optimizer B2B edition.'
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1374'
 ht-degree: 16%
 
 ---
@@ -86,7 +86,7 @@ Escuche un evento basado en personas cuando desee mover la cuenta hacia adelante
 
 ### Escuchar el evento de Marketo Engage
 
-Si tiene páginas web creadas en la instancia de Marketo Engage conectada, puede almacenar en déclencheur un evento basado en una visita o no visita a páginas web de Marketo Engage, así como formularios de Marketo Engage que se rellenaron o no.
+Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacenar en déclencheur un evento basado en una visita o no visita a estas páginas web, así como formularios de Marketo Engage que se rellenaron o no.
 
 1. Seleccione un nodo **[!UICONTROL Listen for an event]** del mapa de recorrido.
 
@@ -119,7 +119,7 @@ Si tiene páginas web creadas en la instancia de Marketo Engage conectada, puede
 
 ### Escuchar un evento de experiencia
 
-Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de dos pasos:
+Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de dos pasos:
 
 1. [Cree y publique una definición de evento de AEP](../admin/configure-aep-events.md).
 
@@ -127,7 +127,7 @@ Los administradores pueden configurar definiciones de eventos basadas en Adobe E
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](../admin/configure-aep-events.md#overview-video)
 
-_Para incluir un evento de experiencia en el recorrido:_
+_Para incluir un evento de experiencia en el recorrido :_
 
 1. Seleccione un nodo **[!UICONTROL Listen for an event]** del mapa de recorrido.
 
@@ -183,4 +183,4 @@ Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento.
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443237/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

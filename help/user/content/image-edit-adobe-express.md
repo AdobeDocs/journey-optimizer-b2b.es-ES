@@ -1,12 +1,12 @@
 ---
 title: Edición de imágenes con Adobe Express
-description: Obtenga información sobre el uso de Adobe Express para editar imágenes en Journey Optimizer B2B edition Workspace.
+description: 'Edite imágenes de forma nativa con Adobe Express en Journey Optimizer B2B edition: cambie el tamaño, recorte, elimine fondos, convierta formatos y guarde en su espacio de trabajo.'
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '894'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Adobe Journey Optimizer B2B edition se integra de forma nativa con Adobe Express
 
 Las funciones de Adobe Express admiten los formatos de archivo de imagen PNG y JPEG.
 
-_Para modificar una imagen:_
+_Para modificar una imagen :_
 
 1. Vaya a la navegación de la izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Assets]**.
 
@@ -56,7 +56,7 @@ Esta acción abre una página de lista con todos los recursos enumerados. El ár
 
    ![Abrir la imagen en el editor de Adobe Express](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
-   Si la imagen está en uso, aparecerá un cuadro de diálogo de alerta para informarle de que cualquier cambio que realice afectará a ese contenido. Haga clic en **[!UICONTROL Continuar]** para continuar con el editor de Adobe Express.
+   Si la imagen está en uso, aparece un cuadro de diálogo de alerta para informarle de que los cambios afectan a ese contenido. Haga clic en **[!UICONTROL Continuar]** para continuar con el editor de Adobe Express.
 
    ![Una alerta proporciona información sobre el uso de imágenes](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
@@ -70,7 +70,7 @@ Si tiene una licencia Enterprise para Adobe Express, puede acceder y utilizar el
 
 ![Abrir la imagen en el editor de Adobe Express Enterprise](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-La [Guía del usuario de Adobe Express](https://helpx.adobe.com/es/express/user-guide.html){target="_blank"} proporciona información detallada sobre las funciones de edición disponibles.
+La [Guía del usuario de Adobe Express](https://helpx.adobe.com/express/web.html){target="_blank"} proporciona información detallada sobre las funciones de edición disponibles.
 
 ## Acciones rápidas en Adobe Express
 

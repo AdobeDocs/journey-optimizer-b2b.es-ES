@@ -1,12 +1,12 @@
 ---
 title: Trabajar con Experience Manager Assets
-description: Descubra cómo puede utilizar recursos de imagen de un repositorio de AEM Assets conectado al crear contenido en Adobe Journey Optimizer B2B edition.
+description: 'Acceda y utilice imágenes de AEM Assets en la creación de contenido: arrastre y suelte, busque, filtre y sincronice los cambios automáticamente en Journey Optimizer B2B edition.'
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '560'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Cuando su entorno tiene una o más [conexiones de repositorios de Assets](../adm
 
 >[!IMPORTANT]
 >
->Un administrador debe añadir usuarios que necesiten acceder a Assets a los perfiles de producto Usuarios consumidores de Assets y Usuarios de Assets. [Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>Un administrador debe añadir usuarios que necesiten acceder a Assets a los perfiles de producto Usuarios consumidores de Assets y Usuarios de Assets. [Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Imágenes de AEM Assets de acceso
 
@@ -33,7 +33,7 @@ En el espacio de diseño de contenido, haga clic en el icono _[!UICONTROL Experi
 
 >[!NOTE]
 >
->Actualmente, solo se admiten recursos de imagen de [!DNL Adobe Experience Manager Assets] en [!DNL Adobe Journey Optimizer B2B Edition]. Los cambios en los recursos deben realizarse desde el repositorio central [!DNL Adobe Experience Manager Assets]. [Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Actualmente, solo se admiten recursos de imagen de [!DNL Adobe Experience Manager Assets] en [!DNL Adobe Journey Optimizer B2B Edition]. Los cambios en los recursos deben realizarse desde el repositorio central [!DNL Adobe Experience Manager Assets]. [Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Cambiar el repositorio mostrado
 

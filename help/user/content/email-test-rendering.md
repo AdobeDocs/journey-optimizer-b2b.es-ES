@@ -1,13 +1,13 @@
 ---
 title: Probar procesamiento de correo electrónico
-description: Aprenda a aprovechar la cuenta de Litmus para probar el procesamiento de los correos electrónicos en Journey Optimizer B2B edition.
+description: Pruebe el procesamiento de correo electrónico en clientes de escritorio, móviles y web con la integración de Litmus para garantizar la compatibilidad con la bandeja de entrada en Journey Optimizer B2B edition.
 feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: dbb678f40b8d637f4eb534acb31328ebea0c182a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---

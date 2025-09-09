@@ -1,11 +1,11 @@
 ---
 title: Información general de Adobe Journey Optimizer B2B Edition
-description: Descubra las funciones clave, casos de uso y arquitecturas de la edición B2B de Adobe Journey Optimizer.
+description: 'Obtenga información sobre Adobe Journey Optimizer B2B edition: organice recorridos de cuenta con grupos de compra, perspectivas de IA e integración de Experience Platform para el marketing B2B.'
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
-workflow-type: ht
-source-wordcount: '811'
-ht-degree: 100%
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+workflow-type: tm+mt
+source-wordcount: '819'
+ht-degree: 90%
 
 ---
 
@@ -15,17 +15,17 @@ Con la edición B2B de Adobe Journey Optimizer puede organizar los recorridos de
 
 ## Recorridos de cuenta con grupos de compras
 
-Al comparar Adobe Journey Optimizer B2B Edition con Marketo Engage y Adobe Journey Optimizer Standard, la distinción clave es que los recorridos de cuentas mueven cuentas a través de Journey, no personas. Una persona asociada a una cuenta suele tener una progresión no lineal que se basa en el progreso de la cuenta a través del recorrido, no en sus acciones individuales. Por ejemplo, cuando una cuenta se encuentra en la fase inicial del recorrido de compra, la información enviada puede referirse a las funciones o características generales de la solución. Más adelante en el proceso de compra, el contenido podría centrarse más en ofertas u otros artículos concretos orientados al cierre de una venta. Una vez adquirida la solución, la información podría cambiar de nuevo para ofrecer guías de procedimientos, prácticas recomendadas, información acerca de próximos eventos o contenido acerca de ventas adicionales. Incluso si un individuo no ha interactuado con el contenido de la fase inicial, aún desea progresar a la fase actual en función no de sus propias acciones, sino de las acciones de otras personas dentro de su cuenta o grupo de compras.
+Al comparar Adobe Journey Optimizer B2B edition con Marketo Engage y Adobe Journey Optimizer Standard, la distinción clave es que los recorridos de cuentas mueven cuentas a través del Recorrido, no personas. Una persona asociada a una cuenta suele tener una progresión no lineal que se basa en el progreso de la cuenta a través del recorrido, no en sus acciones individuales. Por ejemplo, cuando una cuenta se encuentra en la fase inicial del recorrido de compra, la información enviada puede referirse a las funciones o características generales de la solución. Más adelante en el proceso de compra, el contenido podría centrarse más en ofertas u otros artículos concretos orientados al cierre de una venta. Una vez adquirida la solución, la información podría cambiar de nuevo para ofrecer guías de procedimientos, prácticas recomendadas, información acerca de próximos eventos o contenido acerca de ventas adicionales. Incluso si un individuo no ha interactuado con el contenido de la fase inicial, aún desea progresar a la fase actual en función no de sus propias acciones, sino de las acciones de otras personas dentro de su cuenta o grupo de compras.
 
 ## Arquitectura de alto nivel
 
-Adobe Journey Optimizer B2B Edition usa _Audiencias de cuentas_ y _Audiencias de personas_ de Adobe Experience Platform para activar un recorrido de cuentas, que se ejecuta dentro de Marketo Engage. Experience Platform siempre es la fuente fiable de estos datos, pero toda la ejecución y el procesamiento del recorrido de cuentas se producen dentro de la infraestructura de marketing B2B de Marketo Engage. La orquestación devuelve los datos a Experience Platform en tiempo casi real mediante el conector de origen Marketo Engage Adobe Real-Time CDP B2B Edition existente, que transmite los cambios de datos de Marketo Engage a Experience Platform.
+Adobe Journey Optimizer B2B Edition usa _Públicos de cuentas_ y _Públicos de personas_ de Adobe Experience Platform para activar un recorrido de cuentas, que se ejecuta dentro de Marketo Engage. Experience Platform siempre es la fuente fiable de estos datos, pero toda la ejecución y el procesamiento del recorrido de cuentas se producen dentro de la infraestructura de marketing B2B de Marketo Engage. La orquestación devuelve los datos a Experience Platform en tiempo casi real mediante el conector de origen Marketo Engage Adobe Real-Time CDP B2B Edition existente, que transmite los cambios de datos de Marketo Engage a Experience Platform.
 
 ![Arquitectura de datos de alto nivel](./assets/high-level-data-architecture.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 ### Modelo de suscripción
 
@@ -37,7 +37,7 @@ El propósito de Experience Platform en esta configuración es proporcionar una 
 
 Los recorridos de cuenta se crean en Journey Optimizer B2B Edition y se almacenan en la instancia de Marketo Engage asociada a la suscripción. Aunque se almacena en el almacén de datos de Marketo Engage, no es visible desde la interfaz de usuario de Marketo Engage y solo se puede utilizar desde Journey Optimizer B2B Edition.
 
-Un recorrido de cuentas siempre comienza con la selección de un segmento de cuenta para utilizarlo como audiencia de cuenta para el recorrido. La selección de la audiencia utiliza el componente de selector de audiencia estándar de Experience Platform. Los especialistas en marketing pueden implementar el recorrido de cuentas dividiendo las rutas del recorrido según sus propios criterios, que pueden incluir criterios de cuenta, criterios de personas o criterios de grupos de compras. En cada rama, se pueden realizar acciones para implementar el recorrido, como enviar un correo electrónico o esperar a que se produzca un evento.
+Un recorrido de cuentas siempre comienza con la selección de un segmento de cuenta para utilizarlo como público de cuenta para el recorrido. La selección del público utiliza el componente de selector de público estándar de Experience Platform. Los especialistas en marketing pueden implementar el recorrido de cuentas dividiendo las rutas de recorrido según sus propios criterios, que pueden incluir criterios de cuenta, criterios de personas o criterios de grupos de compras. En cada rama, se pueden realizar acciones para implementar el recorrido, como enviar un correo electrónico o esperar a que se produzca un evento.
 
 Una vez creado el recorrido de la cuenta, debe publicarse. En el momento de la publicación, el recorrido de la cuenta se valida y se convierte en una serie de campañas de Marketo Engage que implementan la experiencia de recorrido. Se contacta con Data Integration Services para iniciar el flujo de datos que, a su vez, inicia las operaciones de recorrido de cuentas. El primer paso es crear los segmentos para las Personas de la cuenta.
 

@@ -1,6 +1,6 @@
 ---
 title: Creación de marcas para la generación y coherencia de contenido
-description: Aprenda a crear y personalizar sus propias marcas para generar y optimizar contenido que coincida con su estilo de marca y voz.
+description: 'Cree y gestione directrices de marca con extracción automática de documentos o entrada manual: establezca marcas predeterminadas para un contenido coherente en Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2056'
 ht-degree: 6%
 
 ---
