@@ -25,7 +25,7 @@ Al iniciar sesión en Adobe Experience Platform y seleccionar la aplicación de 
 
 ![Página principal de Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition tiene dos perfiles de usuario principales: un _**experto en marketing**_ y un _**administrador**_. Cada persona tiene una página de inicio específica para diferentes etapas de madurez (nuevas o avanzadas). El contenido de la página se basa en lo que cada persona necesita en términos de información y en las siguientes acciones que debe realizar.
+Journey Optimizer B2B Edition tiene dos perfiles de usuario principales: un _&#x200B;**experto en marketing**&#x200B;_ y un _&#x200B;**administrador**&#x200B;_. Cada persona tiene una página de inicio específica para diferentes etapas de madurez (nuevas o avanzadas). El contenido de la página se basa en lo que cada persona necesita en términos de información y en las siguientes acciones que debe realizar.
 
 * **Especialista en marketing - nuevo usuario**: la página de inicio de _Especialista en marketing_ para un usuario nuevo le ayuda a acostumbrarse a Journey Optimizer B2B y a sus funcionalidades. Incluye una guía con el fin de que el nuevo experto en marketing obtenga una guía de incorporación para que pueda comprender los matices del sistema y ser eficiente en el desarrollo de estrategias e iniciativas de marketing B2B.
 * **Especialista en marketing - usuario avanzado**: la página de inicio de _Especialista en marketing_ para un especialista en marketing avanzado muestra el progreso de la iniciativa actual, las acciones siguientes recomendadas y proporciona acceso rápido a las secciones relevantes.
