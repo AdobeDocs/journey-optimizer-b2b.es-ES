@@ -5,7 +5,7 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 67%
+ht-degree: 89%
 
 ---
 
@@ -17,17 +17,17 @@ A continuación puede ver un muestreo de las últimas adiciones y mejoras de la 
 
 >[!BEGINTABS]
 
->[!TAB Puntuación de participación de persona]
+>[!TAB Puntuación de participación de personas]
 
-Los especialistas en marketing B2B ahora pueden utilizar puntuaciones de participación a nivel de persona como filtro en sus rutas divididas para un recorrido o en una plantilla de funciones para crear grupos de compra. Esta puntuación y filtrado permiten una segmentación precisa de los miembros de los grupos de compra para personalizar la participación continua.
+Los especialistas en marketing B2B ahora pueden utilizar puntuaciones de participación de nivel de persona como filtro en sus rutas divididas para un recorrido o en una plantilla de funciones para crear grupos de compra. Esta puntuación y filtrado permiten una segmentación precisa de los abonados de los grupos de compra para personalizar la participación continua.
 
-[!BADGE Más información]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Obtenga información sobre las puntuaciones de participación de la persona y el filtrado"}
+[!BADGE Más información]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Obtenga información sobre las puntuaciones de participación de personas y el filtrado"}
 
->[!TAB Funciones de grupo de compra personalizadas]
+>[!TAB Funciones de grupo de compras personalizadas]
 
-Los estrategas de marketing B2B ahora pueden ampliar la precisión del grupo de compra con funciones de grupo de compra personalizadas. Cree hasta 20 funciones personalizadas más allá de las seis predeterminadas y reutilícelas en grupos compradores. Dentro de los recorridos de la cuenta, adapte la mensajería para que coincida con sus funciones únicas y mejore la relevancia y la participación en todos los grupos compradores&#x200B;
+Los estrategas de marketing B2B ahora pueden ampliar la precisión del grupo de compras con funciones de grupo de compras personalizadas. Cree hasta 20 funciones personalizadas más allá de las seis predeterminadas y reutilícelas en los grupos de compras. Dentro de los recorridos de la cuenta, adapte la mensajería para que coincida con sus funciones únicas y mejore la relevancia y la participación en todos los grupos de compras.
 
-[!BADGE Más información]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Obtenga información sobre los roles de grupo de compra personalizados"}
+[!BADGE Más información]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Obtenga información sobre las funciones de grupo de compras personalizadas"}
 
 >[!TAB Ponderación de puntuación de participación personalizada]
 
@@ -100,7 +100,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Introducción"><br/>
-      <strong>Introducción</strong><br/><a href="home-page.md">Inicio de sesión y página de inicio</a><br/><a href="./start/get-started.md">Guía de incorporación</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Ayudante de IA</a>
+      <strong>Introducción</strong><br/><a href="home-page.md">Inicio de sesión y página de inicio</a><br/><a href="./start/get-started.md">Guía de incorporación</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">Asistente de IA</a>
     </td>
     <!--
     <td>
@@ -113,7 +113,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Recorridos de la cuenta"><br/>
-      <strong>recorridos de cuenta</strong><br/><a href="./journeys/journey-overview.md">descripción general de Recorridos</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Crear un recorrido de cuenta</a><br/><a href="./journeys/journey-nodes.md">nodos de Recorrido</a>
+      <strong>Recorridos de cuenta</strong><br/><a href="./journeys/journey-overview.md">Información general de recorridos</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Crear un recorrido de cuenta</a><br/><a href="./journeys/journey-nodes.md">Nodos de recorrido</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -137,7 +137,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/home" target="_blank">Documentación</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>

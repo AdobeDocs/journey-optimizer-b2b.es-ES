@@ -7,7 +7,7 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 73%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Para las actividades de ventas y marketing B2B, las cuentas son clave para cualq
 
 En la cuenta podría haber un subconjunto de personas que forman el _grupo de compras_. Estas son las personas que finalmente toman la decisión de compra, por lo que el experto en marketing debe prestarles una atención especial ya que podrían necesitar una información distinta a la de las demás personas asociadas con la cuenta. Los grupos de compra pueden incluir un grupo diferente de personas para diferentes líneas u ofertas de productos. Por ejemplo, un producto de ciberseguridad puede requerir normalmente que un director de sistemas de información o un director de seguridad, y un representante del departamento jurídico apruebe una compra. Un producto de seguimiento de errores suele tener un vicepresidente de ingeniería y un director de TI como miembros del grupo de compras.
 
-![Icono de vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](#overview-video)
+![Icono de vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la información general del vídeo](#overview-video)
 
 ## Componentes principales
 
@@ -41,11 +41,11 @@ Existen tres formas de asignar o eliminar miembros de un grupo de compras. En la
 2. **_Acción de recorrido_**: [nodos de acción de recorrido para los miembros del grupo de compras](../journeys/action-nodes.md#add-a-people-based-action) (_Asignar al grupo de compras_ o _Quitar del grupo de compras_)
 3. **_Trabajos del sistema_**: trabajos de [creación](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) y mantenimiento del grupo de compras.
 
-Para evitar la anulación incorrecta de una asignación de miembros en un grupo de compra, esta lista tiene el orden de prioridad seguido en el sistema para garantizar una asignación de miembros precisa. Por ejemplo, cuando un usuario de ventas añade manualmente un miembro al grupo de compras, no desea que un trabajo de mantenimiento modifique esa adición. Utilizando el orden de prioridad, se aplican los siguientes escenarios:
+Para evitar anular por error una asignación de abonado en un grupo de compras, esta lista tiene el orden de prioridad establecido en el sistema para garantizar una asignación de abonados precisa. Por ejemplo, cuando un usuario de ventas añade manualmente un miembro al grupo de compras, no desea que un trabajo de mantenimiento modifique esa adición. Utilizando el orden de prioridad, se aplican los siguientes escenarios:
 
-* Si un usuario asigna manualmente un miembro a un grupo de compra y va seguido de un trabajo de mantenimiento del grupo de compra que elimina el mismo miembro del grupo de compra, el trabajo de mantenimiento **no elimina** ese miembro y no puede anular la asignación manual.
-* Si un usuario asigna manualmente un miembro a un grupo comprador y va seguido de un nodo de recorrido activado que elimina el mismo miembro del grupo comprador, la acción del nodo **no elimina** ese miembro y no puede anular la asignación manual.
-* Si un nodo de acción de recorrido activado agrega un miembro a un grupo comprador y va seguido de un trabajo de mantenimiento de grupo comprador que elimina el mismo miembro del grupo comprador, el trabajo de mantenimiento **no elimina** ese miembro y no puede anular la asignación de acción de recorrido.
+* Si un usuario asigna manualmente un abonado a un grupo de compras, y esto va seguido de un trabajo de mantenimiento del grupo de compras que quita el mismo abonado del grupo de compras, el trabajo de mantenimiento **no elimina** ese abonado y no puede anular la asignación manual.
+* Si un usuario asigna manualmente un abonado a un grupo de compras y esto va seguido de un nodo de recorrido activado que quita el mismo abonado del grupo de compras, la acción del nodo **no elimina** ese abonado y no puede anular la asignación manual.
+* Si un nodo de acción de recorrido activado añade un abonado a un grupo de compras, y esto va seguido de un trabajo de mantenimiento de un grupo de compras que quita el mismo abonado del grupo de compras, el trabajo de mantenimiento **no elimina** ese abonado y no puede anular la asignación de la acción de recorrido.
 
 ## Flujo de trabajo del grupo de compras
 
@@ -96,7 +96,7 @@ Para acceder a los detalles de un grupo de compras, haga clic en el nombre del g
 
 ### Puntuación de integridad del grupo de compras
 
-La puntuación de integridad se utiliza para determinar si el grupo comprador tiene los miembros adecuados asignados a las funciones y está listo para utilizarse en un recorrido de cuentas. Esta puntuación es un porcentaje basado en el número de funciones dentro del grupo de compras y en cuántas funciones se han asignado con al menos un posible cliente.
+La puntuación de integridad se utiliza para determinar si el grupo de compras tiene los abonados adecuados asignados a las funciones y está listo para utilizarse en un recorrido de cuentas. Esta puntuación es un porcentaje basado en el número de funciones dentro del grupo de compras y en cuántas funciones se han asignado con al menos un posible cliente.
 
 Por ejemplo, si hay cuatro funciones dentro de un grupo de compras y tres de cuatro están asignadas al menos a un posible cliente, el grupo de compras está completado en un 75 %.
 
@@ -104,12 +104,12 @@ La puntuación de integridad del grupo de compras se vuelve a calcular cada vez 
 
 ### Puntuación de participación de grupo de compras {#engagement-score}
 
-La puntuación de participación se basa en las actividades de los miembros del grupo comprador, las acciones ponderadas y los roles ponderados. La puntuación resultante se normaliza dentro del inquilino/instancia para habilitar una comparación coherente y permitir perspectivas procesables.
+La puntuación de participación se basa en las actividades de los abonados del grupo de compras, las acciones ponderadas y las funciones ponderados. La puntuación resultante se normaliza dentro del inquilino/instancia para habilitar una comparación coherente y permitir datos procesables.
 
-El cálculo de la puntuación de participación inicial comienza en cuanto crea el grupo comprador y se vuelve a calcular diariamente.
+El cálculo de la puntuación de participación inicial comienza en cuanto crea el grupo de compras y se vuelve a calcular a diario.
 
 Consulte [Puntuaciones de participación](./engagement-scores.md) para obtener información detallada acerca de las actividades y los cálculos de puntuación de participación.
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
 source-wordcount: '2795'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 <!-- hold for later release 
 
@@ -27,17 +27,17 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 
 ## Notas de la versión 2025.8
 
-**Fecha de implementación**: miércoles, 26 de agosto de 2025
+**Fecha de implementación**: 26 de agosto de 2025
 
 Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Filtros de puntuación de participación de personas para plantillas de roles y recorridos | Ahora puede usar _puntuación de participación de persona_ como filtro en las plantillas de roles que se usan para crear grupos de compras y en los nodos de recorrido de rutas divididas. [Más información](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
-| Función | Configuración de funciones personalizadas de grupos de compra | Ahora tiene la flexibilidad para configurar funciones personalizadas para grupos de compra, lo que le permite definir las funciones específicas de sus casos de uso. [Más información](../buying-groups/default-custom-roles.md) |
-| Función | Configuración de ponderación de puntuación de participación | Ahora puede asignar un peso a las actividades que influyen en la puntuación de participación del grupo comprador. Esta función incluye la definición de sus propios modelos de puntuación personalizados y el cambio del modelo activo que influye en los cálculos de puntuación de participación. [Más información](../admin/engagement-score-weighting.md) |
+| Función | Filtros de puntuación de participación de personas para plantillas de funciones y recorridos | Ahora puede usar la _puntuación de participación de personas_ como filtro en las plantillas de funciones que se usan para crear grupos de compras y en los nodos de recorrido de rutas divididas. [Más información](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Función | Configuración de funciones personalizadas de grupos de compras | Ahora tiene la flexibilidad para configurar funciones personalizadas para grupos de compras, lo que le permite definir las funciones específicas de sus casos de uso. [Más información](../buying-groups/default-custom-roles.md) |
+| Función | Configuración de ponderación de puntuación de participación | Ahora puede asignar un peso a las actividades que influyen en la puntuación de participación del grupo de compras. Esta función incluye la definición de sus propios modelos de puntuación personalizados y el cambio del modelo activo que influye en los cálculos de puntuación de participación. [Más información](../admin/engagement-score-weighting.md) |
 | Mejora | Contenido condicional para fragmentos | Ahora puede utilizar las herramientas de contenido condicional para el diseño de fragmentos visuales. [Más información](../content/conditional-content.md) |
-| Mejora | Actualizaciones de puntuación de participación | La lógica de puntuación de participación del grupo de compra se actualiza para normalizar las puntuaciones. Además, puede trabajar con puntuaciones de participación a nivel de miembro, así como puntuaciones de participación colectiva para todo el grupo de compra. [Más información](../buying-groups/engagement-scores.md) |
+| Mejora | Actualizaciones de puntuación de participación | La lógica de puntuación de participación del grupo de compras se actualiza para normalizar las puntuaciones. Además, puede trabajar con puntuaciones de participación de nivel de miembro, así como puntuaciones de participación colectiva para todo el grupo de compras. [Más información](../buying-groups/engagement-scores.md) |
 | Mejora | Observabilidad activa del recorrido: cuentas en cada nodo | Para un recorrido de cuentas activo, puede acceder a una lista de las cuentas que han llegado a cada nodo de cuenta del recorrido. |
 
 >[!NOTE]
