@@ -1,13 +1,13 @@
 ---
 title: Guía de incorporación para administradores y expertos en marketing
-description: 'Guía de incorporación para administradores y especialistas en marketing: configure zonas protegidas, configure canales, cree grupos de compra y diseñe recorridos de cuenta en Journey Optimizer B2B edition.'
+description: 'Guía de incorporación para administradores y expertos en marketing: establezca zonas protegidas, configure canales, cree grupos de compras y diseñe recorridos de cuenta en Journey Optimizer B2B Edition.'
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Las funciones y herramientas que desea abordar en Adobe Journey Optimizer B2B Ed
 
 >[!TIP]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 >[!BEGINTABS]
 

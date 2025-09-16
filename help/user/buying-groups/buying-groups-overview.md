@@ -1,13 +1,13 @@
 ---
 title: Grupos de compras
-description: 'Optimice el marketing basado en cuentas con grupos de compra: identifique a los responsables de la toma de decisiones, realice un seguimiento de las puntuaciones de participación y automatice la segmentación en Journey Optimizer B2B edition.'
+description: 'Optimice el marketing basado en cuentas con grupos de compras: identifique a los responsables de la toma de decisiones, realice un seguimiento de las puntuaciones de participación y automatice la segmentación en Journey Optimizer B2B Edition.'
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1187'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ En la cuenta podría haber un subconjunto de personas que forman el _grupo de co
 
 ## Componentes principales
 
-Puede aumentar la eficacia del marketing mediante el establecimiento de grupos de compra que identifiquen a los miembros de las listas de cuentas objetivo para las soluciones que los equipos de ventas deben vender. Antes de que usted y su equipo de marketing empiecen a crear sus grupos de compras, asegúrese de haber definido los componentes clave. Estos componentes son esenciales para alcanzar las metas y objetivos empresariales.
+Puede aumentar la eficacia del marketing estableciendo grupos de compras que identifiquen a los miembros de las listas de cuentas de destino para las soluciones que sus equipos de ventas se encargan de vender. Antes de que usted y su equipo de marketing empiecen a crear sus grupos de compras, asegúrese de haber definido los componentes clave. Estos componentes son esenciales para alcanzar las metas y objetivos empresariales.
 
 | Componente | Finalidad |
 | --------- | ------- |
@@ -112,4 +112,4 @@ Consulte [Puntuaciones de participación](./engagement-scores.md) para obtener i
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

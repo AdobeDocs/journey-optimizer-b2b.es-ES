@@ -1,21 +1,21 @@
 ---
 title: Recursos
-description: Administre recursos de imagen de Marketo Engage Design Studio y AEM Assets para correos electrónicos, plantillas y fragmentos en Journey Optimizer B2B edition.
+description: Administre recursos de imagen de Marketo Engage Design Studio y AEM Assets para correos electrónicos, plantillas y fragmentos en Journey Optimizer B2B Edition.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Recursos
 
-En [!DNL Adobe Journey Optimizer B2B Edition], los recursos suelen ser las imágenes utilizadas al diseñar contenido para admitir recorridos de cuenta. Puede utilizar estas imágenes en los correos electrónicos, las plantillas de correo electrónico y los fragmentos desde el selector de recursos o desde una sencilla interfaz de arrastrar y soltar dentro del espacio de diseño visual.
+En [!DNL Adobe Journey Optimizer B2B Edition], los recursos suelen ser las imágenes utilizadas al diseñar contenido para admitir recorridos de cuenta. Puede utilizar estas imágenes dentro de los correos electrónicos, las plantillas de correo electrónico y los fragmentos del selector de recursos o una sencilla interfaz de arrastrar y soltar dentro del espacio de diseño visual.
 
-[!DNL Journey Optimizer B2B Edition] ofrece a los especialistas en marketing acceso a dos tipos de bibliotecas de recursos: [!DNL Adobe Marketo Engage] [!DNL Design Studio] y [!DNL Adobe Experience Manager Assets as a Cloud Service]. Puede utilizar únicamente Adobe Marketo Engage Design Studio o utilizar ambas bibliotecas configuradas al mismo tiempo (según la licencia de [!DNL Experience Manager Assets] que tenga).
+[!DNL Journey Optimizer B2B Edition] ofrece a los especialistas en marketing acceso a dos tipos de bibliotecas de recursos: [!DNL Adobe Marketo Engage] [!DNL Design Studio] y [!DNL Adobe Experience Manager Assets as a Cloud Service]. Solo puede utilizar Adobe Marketo Engage Design Studio o ambas bibliotecas configuradas al mismo tiempo (según la licencia de [!DNL Experience Manager Assets] que tenga).
 
 ## Administración de recursos
 

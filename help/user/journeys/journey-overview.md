@@ -1,13 +1,13 @@
 ---
 title: Recorridos de cuenta
-description: 'Optimice la generación de demanda con recorridos de cuenta: cree, publique y administre la participación del grupo comprador en correos electrónicos, SMS y eventos en Journey Optimizer B2B edition.'
+description: 'Optimice la generación de demanda con recorridos de cuenta: cree, publique y administre la participación del grupo de compras en correos electrónicos, SMS y eventos de Journey Optimizer B2B Edition.'
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ La página de la lista _[!UICONTROL Recorridos de cuenta]_ incluye las siguiente
 * [!UICONTROL Estado]
 * [!UICONTROL Descripción]
 * [!UICONTROL Creado por]
-* [!UICONTROL Última actualización el &#x200B;]
+* [!UICONTROL Última actualización el ]
 * [!UICONTROL Última actualización]
 * [!UICONTROL Publicado el]
 * [!UICONTROL Publicado por]
@@ -69,11 +69,11 @@ El estado de un recorrido puede cambiar según las acciones que se apliquen. En 
 
 | Estado | Descripción | Acciones disponibles |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Borrador**&#x200B;_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Activo**&#x200B;_ | El estado del recorrido cambia de Borrador a Activo cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
-| _&#x200B;**Cerrado a nuevas entradas**&#x200B;_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
-| _&#x200B;**Anulado**&#x200B;_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Finalizado**&#x200B;_ | Cuando todas las cuentas de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Borrador**_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Activo**_ | El estado del recorrido cambia de Borrador a Activo cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
+| _**Cerrado a nuevas entradas**_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
+| _**Anulado**_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Finalizado**_ | Cuando todas las cuentas de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
 
 ## Administrar recorridos
 
@@ -157,4 +157,4 @@ Utilice una acción de eliminación para eliminar un recorrido de forma permanen
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443210/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

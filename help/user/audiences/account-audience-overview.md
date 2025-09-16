@@ -1,13 +1,13 @@
 ---
 title: Públicos de la cuenta
-description: Cree audiencias de cuenta con segmentación para segmentar cuentas específicas y habilitar recorridos personalizados basados en cuentas en Journey Optimizer B2B edition.
+description: Cree públicos de la cuenta con segmentación para dirigirse a cuentas específicas y habilitar recorridos personalizados basados en cuentas en Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
