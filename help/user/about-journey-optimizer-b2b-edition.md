@@ -3,7 +3,7 @@ title: Información general de Adobe Journey Optimizer B2B Edition
 description: 'Obtenga información sobre Adobe Journey Optimizer B2B Edition: organice recorridos de cuenta con grupos de compras, información de IA e integración de Experience Platform para el marketing B2B.'
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B Edition usa _Públicos de cuentas_ y _Públicos de p
 
 >[!NOTE]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 ### Modelo de suscripción
 
