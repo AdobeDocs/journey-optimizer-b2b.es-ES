@@ -10,7 +10,7 @@ exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 23%
+ht-degree: 28%
 
 ---
 
@@ -46,8 +46,8 @@ Habilite la opción **[!UICONTROL Relleno previo de formulario]** para permitir 
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_datastream"
->title="Requisito de flujo de datos"
->abstract="Se necesita un flujo de datos para recopilar eventos de página de las páginas de aterrizaje de este dominio."
+>title="Requisito de la secuencia de datos"
+>abstract="Se necesita una secuencia de datos para recopilar eventos de página de las páginas de aterrizaje de este dominio."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
