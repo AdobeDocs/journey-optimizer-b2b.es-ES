@@ -11,7 +11,7 @@ exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Puntuación de la alineación de marca"
->abstract="La puntuación de alineación de marca mide en qué medida el contenido se adhiere a las directrices de marca, lo que garantiza la coherencia en los colores, las fuentes, el logotipo, las imágenes y el estilo de escritura."
+>abstract="La puntuación de alineación de su marca mide el grado de cumplimiento de su contenido con las directrices de la marca, lo que garantiza la coherencia en los colores, las fuentes, los logotipos, las imágenes y el estilo de redacción."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

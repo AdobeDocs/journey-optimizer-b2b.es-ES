@@ -8,7 +8,7 @@ exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
->title="Compruebe cómo se representa el contenido"
->abstract="Cuando se define el contenido, se puede obtener una vista previa del mismo y comprobar que la renderización es correcta para el canal que se está utilizando."
+>title="Compruebe cómo se renderiza el contenido"
+>abstract="Una vez definido el contenido, puede previsualizarlo y comprobar si el renderizado es correcto según el canal que utilice."
 
 Utilice la función _Simular contenido_ para obtener una vista previa del contenido del correo electrónico y enviar envíos de prueba a destinatarios específicos. Deben definirse los campos de correo electrónico necesarios, entre ellos _[!UICONTROL Nombre de remitente]_, _[!UICONTROL Dirección de origen]_, _[!UICONTROL Dirección de respuesta]_ y _[!UICONTROL Línea de asunto]_, para tener acceso a las características de vista previa y prueba.
 

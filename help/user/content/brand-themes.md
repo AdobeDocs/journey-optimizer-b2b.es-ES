@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Aplique una temática de marca al correo electrónico o a la plantilla del correo electrónico"
->abstract="Seleccione un tema para su correo electrónico o plantilla de correo electrónico para aplicar un estilo que se ajuste a su marca y diseño."
+>abstract="Seleccione una temática para su correo electrónico o plantilla de correo electrónico para aplicar un estilo específico que se ajuste a su marca y diseño."
 
 Con las temáticas, los diseñadores no técnicos tienen la capacidad de crear directrices de diseño de contenido de correo electrónico reutilizables que se alineen con una marca y un estilo específicos. Los temas permiten a los especialistas en marketing aprovechar correos electrónicos visualmente atractivos y coherentes con la marca de forma más rápida y con menos esfuerzo, y proporcionan opciones de personalización avanzadas para satisfacer necesidades de diseño únicas.
 

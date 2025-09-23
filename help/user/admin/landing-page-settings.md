@@ -10,7 +10,7 @@ exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 28%
+ht-degree: 31%
 
 ---
 
@@ -52,7 +52,7 @@ Habilite la opción **[!UICONTROL Relleno previo de formulario]** para permitir 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="Falta el ID de secuencia de datos"
->abstract="Al subdominio le falta un ID de secuencia de datos, que es necesario para el enrutamiento adecuado. Configúrelo en Configuración para continuar"
+>abstract="En el subdominio falta un ID de secuencia de datos, que es necesario para el enrutamiento adecuado. Configúrelo en Configuración para continuar"
 
 Establezca la opción **[!UICONTROL Flujo de datos]** para configurar un flujo de datos para la colección de eventos de páginas de aterrizaje.
 
