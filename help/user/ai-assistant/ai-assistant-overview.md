@@ -1,6 +1,6 @@
 ---
 title: Asistente de IA en Journey Optimizer B2B edition
-description: 'Acelere los flujos de trabajo con el asistente de IA: obtenga conocimientos del producto, ayuda para la resolución de problemas y perspectivas operativas para Journey Optimizer B2B edition.'
+description: 'Acelere los flujos de trabajo con el Asistente de IA: obtenga conocimientos sobre el producto, ayuda para la resolución de problemas y datos operativos para Journey Optimizer B2B Edition.'
 feature: AI Assistant
 role: User, Admin
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -30,7 +30,7 @@ El Asistente de IA en Journey Optimizer B2B edition se creó a partir de la mism
 
 ## Funciones del asistente de IA en Journey Optimizer B2B edition
 
-Para formular una respuesta a las preguntas enviadas, AI Assistant consulta una base de datos y traduce los datos de la base de datos a una respuesta legible en lenguaje natural. Esta respuesta es una representación interna de los datos subyacentes y también se conoce como _&#x200B;**_Gráfico de conocimientos_**&#x200B;_, una completa web de conceptos, datos y metadatos para una respuesta determinada. El gráfico de conocimiento consta de subgráficos a los que se hace referencia cada vez que se envían consultas:
+Para formular una respuesta a las preguntas enviadas, AI Assistant consulta una base de datos y traduce los datos de la base de datos a una respuesta legible en lenguaje natural. Esta respuesta es una representación interna de los datos subyacentes y también se conoce como _**_Gráfico de conocimientos_**_, una completa web de conceptos, datos y metadatos para una respuesta determinada. El gráfico de conocimiento consta de subgráficos a los que se hace referencia cada vez que se envían consultas:
 
 * Documentación de Experience League.
 * Artefactos operativos, como esquemas, campos, audiencias y recorridos.
@@ -92,7 +92,7 @@ El asistente de IA de Journey Optimizer B2B edition está diseñado con privacid
 
 * Debe tener permiso explícito para interactuar con el Ayudante de IA.
 
-   * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} y [Admin Console](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} y [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Los permisos son granulares y el administrador de la zona protegida puede configurar qué usuarios pueden hacer diferentes categorías de preguntas (preguntas basadas en el conocimiento del producto con el asistente de IA o preguntas sobre perspectivas operativas).
 
