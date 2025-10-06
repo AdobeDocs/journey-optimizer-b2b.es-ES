@@ -17,7 +17,7 @@ Después de [agregar un recurso de correo electrónico a un nodo de acción de r
 
 Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la ficha _[!UICONTROL Detalles]_ del panel derecho.
 
-![Haga clic en Editar contenido de correo electrónico ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Haga clic en Editar contenido de correo electrónico &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Esta acción inicia las herramientas de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
