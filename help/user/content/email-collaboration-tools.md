@@ -3,7 +3,8 @@ title: Herramientas de Collaboration de correo electrónico
 description: Colabore en correos electrónicos en Journey Optimizer B2B edition. Agregue comentarios, invite a revisores, resuelva comentarios y optimice los flujos de trabajo de revisión para los equipos.
 feature: Email Authoring, Content
 role: User
-source-git-commit: cdc5963c1222fe2e225ad53467bdba83ccd3207b
+hidefromtoc: true
+source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 1%
@@ -36,7 +37,7 @@ Los administradores de productos pueden habilitar el acceso a las herramientas d
 
 +++ Habilitar permisos de correo electrónico
 
-1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
+1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
 
 1. Haga clic en **[!UICONTROL Editar]** para modificar los permisos.
 
