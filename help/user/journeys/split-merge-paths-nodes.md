@@ -266,4 +266,4 @@ Agregue un nodo _Combinar rutas_ para combinar diferentes rutas divididas por cu
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443259/?learn=on&captions=spa)
