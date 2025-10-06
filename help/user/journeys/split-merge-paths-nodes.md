@@ -4,9 +4,9 @@ description: Cree nodos de ruta divididos y combinados para segmentar cuentas y 
 feature: Account Journeys
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2bd5c21221da6b1e747bb133cd17c38225539ada
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2454'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Un nodo _Split paths_ define una o más rutas segmentadas en función de la cuen
 
 Dividir por rutas de cuentas puede incluir acciones y eventos de cuenta y personas. Estas rutas se pueden dividir más.
 
-_&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
+_**Funcionamiento de un nodo de ruta dividida por cuentas**_
 
 * Cada ruta que agregue incluirá un nodo final con la capacidad de agregar nodos a cada borde.
 * Dividir por nodos de cuenta se puede anidar (puede dividir la ruta por cuentas repetidamente).
@@ -42,7 +42,12 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
 | Condiciones de ruta | Descripción |
 | --------------- | ----------- |
 | Atributos de la cuenta | Atributos del perfil de cuenta, incluidos: <li>Ingresos anuales <li>Ciudad <li>País <li>Cantidad de empleados <li>Industria <li>Nombre <li>Código SIC <li>Estado |
-| [!UICONTROL Filtros especiales] > [!UICONTROL Tiene grupo de compra] | La cuenta tiene o no miembros de grupos compradores. También puede evaluarse con uno o más de los siguientes criterios: <li>Interés de solución <li>Estado del grupo de compra <li>Puntuación de integridad <li>Puntaje de participación |
+| [!UICONTROL Filtros especiales] > [!UICONTROL La cuenta ha coincidido con el grupo comprador] | La cuenta coincide con uno o más grupos compradores. Se puede evaluar con una o más de las siguientes restricciones para un grupo comprador coincidente: <li>Interés de solución <li>Fase de grupo de compra <li>Estado del grupo de compra <li>Puntaje de participación <li>Puntuación de integridad <li> Número de personas en la función de grupo de compras |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Tiene grupo de compra] | La cuenta tiene o no miembros de grupos compradores. También puede evaluarse con uno o más de los siguientes criterios: <li>Interés de solución <li>Fase de grupo de compra <li>Estado del grupo de compra <li>Puntaje de participación <li>Puntuación de integridad |
+
+>[!NOTE]
+>
+>El filtro _[!UICONTROL Tiene un grupo de compra]_ está marcado para una futura obsolescencia. Para nuevos recorridos, usa el filtro _[!UICONTROL La cuenta ha encontrado coincidencias con el grupo de compras]_, que incluye todas las mismas restricciones.
 
 ### Adición de una ruta dividida por nodo de cuenta
 
@@ -62,7 +67,7 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
 
    * Arrastre y suelte los atributos de filtro desde la navegación izquierda y complete la definición de la coincidencia.
 
-   * Ajuste las condiciones aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todas las condiciones de atributo o cualquier condición.
+   * Ajuste las condiciones aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todos los filtros o cualquier filtro.
 
      ![Nodo de ruta de división: condiciones de cuentas, lógica de filtro](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
@@ -84,11 +89,39 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
 
    Cuando esta opción no está habilitada, el recorrido finaliza para las cuentas que no coinciden con un segmento o ruta definida dentro de la división.
 
+### Filtrado de grupos de compra para cuentas {#buying-group-filtering-accounts}
+
+Puede definir una ruta para las cuentas asociadas con grupos de compra y filtrar la ruta según los criterios de grupo de compra. Use el filtro **[!UICONTROL La cuenta ha coincidido con el grupo de compra]** para definir el segmento de ruta de acceso usando un grupo de compra coincidente. Este filtro también incluye esa opción para identificar las cuentas en función del número de funciones asignadas dentro de un grupo comprador coincidente.
+
+Por ejemplo, es posible que desee evaluar la preparación del grupo de compra en función de la profundidad (número de personas) que tiene en diferentes funciones, como tres responsables de la toma de decisiones y dos influyentes. En este caso, establezca la condición en cuentas de destino con un mínimo de tres (3) responsables de la toma de decisiones y dos (2) influyentes en un grupo de compra coincidente:
+
+1. Haga clic en **[!UICONTROL Agregar filtro]** y elija el filtro **[!UICONTROL Número de personas en el rol de grupo que compra]**.
+
+   ![Agregar filtro para la cuenta ha coincidido con el grupo de compras y elegir Número de personas en el rol del grupo de compras](./assets/node-split-account-condition-matched-buying-group-number-people-role.png){width="700" zoomable="yes"}
+
+1. Defina el primer parámetro de rol.
+
+   * Establezca el número de personas de la evaluación en `at least` con un valor de `3`.
+   * Establezca la evaluación de funciones en `is` y elija `Decision Maker` en la lista de funciones.
+
+1. Repita el paso 1 para agregar otro parámetro de rol de grupo de compra.
+
+1. Defina el segundo parámetro de rol.
+
+   * Establezca el número de personas de la evaluación en `at least` con un valor de `2`.
+   * Establezca la evaluación de funciones en `is` y elija `Influencer` en la lista de funciones.
+
+   ![Ejemplo de condiciones para la profundidad de rol en un grupo de compra coincidente para una cuenta](./assets/node-split-account-condition-matched-buying-group-role-depth-example.png){width="700" zoomable="yes"}
+
+1. Haga clic en **[!UICONTROL Listo]** cuando haya definido todas las condiciones para la ruta.
+
+Para las cuentas identificadas, es posible que desee añadir un nodo de acción en la ruta para actualizar el estado del grupo o fase de compra o para enviar un correo electrónico de alerta de ventas.
+
 ## Dividir rutas por personas
 
 Dividir por rutas de personas solo puede incluir acciones de personas. Estas rutas no se pueden volver a dividir y se vuelven a unir automáticamente.
 
-_&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
+_**Funcionamiento de un nodo de ruta dividida por personas**_
 
 * Dividido por nodos de personas funciona dentro de una combinación de _nodo agrupado_ de combinación dividida. Las rutas divididas se combinan automáticamente para que todas las personas puedan pasar al siguiente paso sin perder el contexto de su cuenta.
 * No se pueden anidar nodos divididos por personas (no se puede agregar una ruta dividida para personas en una ruta que se encuentre en este nodo agrupado).
@@ -98,15 +131,15 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 
 ![nodo de Recorrido: rutas divididas por personas](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### Condiciones de ruta de personas
+### Filtros de ruta de personas
 
-| Condiciones de ruta | Descripción |
-| --------------- | ----------- |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico basadas en condiciones que se evalúan utilizando uno o más mensajes de correo electrónico seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico] <li>Abrió el email <li>Se entregó el email <li>Se envió el correo electrónico <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**. Use esta opción para filtrar según la falta de actividad (una persona no tuvo la actividad de correo electrónico). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Mensaje SMS] | Actividades de SMS basadas en condiciones que se evalúan utilizando uno o más mensajes SMS seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en un vínculo en SMS] <li>[!UICONTROL SMS rechazado] <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: use esta opción para filtrar según la falta de actividad (una persona no tuvo la actividad de SMS). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Se ha cambiado el valor de los datos] | Se ha producido un cambio de valor en un atributo de persona seleccionado. Estos tipos de cambio incluyen: <li>Nuevo valor<li>Valor anterior<li>Razón<li>Origen<li>Fecha de la actividad<li>Mín. número de veces <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: utilice esta opción para filtrar según la falta de actividad (una persona no tuvo un cambio de valor de datos). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Ha tenido un momento interesante] | Actividad de momento interesante que se define en la instancia de Marketo Engage asociada. Las restricciones incluyen: <li>Hito<li>Correo electrónico<li>Web <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: utilice esta opción para filtrar según la falta de actividad (una persona no ha tenido un momento interesante). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Página web visitada] | Actividad de página web que se utiliza para una o varias páginas web administradas por la instancia de Marketo Engage asociada. Las restricciones incluyen: <li>Página web (obligatorio)<li>Fecha de la actividad<li>Dirección IP del cliente <li>Querystring <li>Referente <li>Agente de usuario <li>Motor de búsqueda <li>Consulta de búsqueda <li>URL personalizada <li>Token <li>Explorador <li>Plataforma <li>Device <li>Mín. número de veces <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: utilice esta opción para filtrar según la falta de actividad (una persona no visitó la página web). |
+| Filtros | Descripción |
+| ------------ | ----------- |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico basadas en condiciones que se evalúan utilizando uno o más mensajes de correo electrónico seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico] <li>Correo electrónico abierto <li>Se entregó el email <li>Se envió el correo electrónico <br>**[!UICONTROL Cambiar al filtro de inactividad ]**. Use esta opción para filtrar según la falta de actividad (una persona no tuvo la actividad de correo electrónico). |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Mensaje SMS] | Actividades de SMS basadas en condiciones que se evalúan utilizando uno o más mensajes SMS seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en un vínculo en SMS] <li>[!UICONTROL SMS rechazado] <br>**[!UICONTROL Cambiar al filtro de inactividad ]**: use esta opción para filtrar según la falta de actividad (una persona no tuvo la actividad de SMS). |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Se ha cambiado el valor de los datos] | Se ha producido un cambio de valor en un atributo de persona seleccionado. Estos tipos de cambio incluyen: <li>Nuevo valor<li>Valor anterior<li>Razón<li>Origen<li>Fecha de la actividad<li>Mín. número de veces <br>**[!UICONTROL Cambiar al filtro de inactividad ]**: utilice esta opción para filtrar según la falta de actividad (una persona no tuvo un cambio de valor de datos). |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Ha tenido un momento interesante] | Actividad de momento interesante que se define en la instancia de Marketo Engage asociada. Las restricciones incluyen: <li>Hito<li>Correo electrónico<li>Web <br>**[!UICONTROL Cambiar al filtro de inactividad ]**: utilice esta opción para filtrar según la falta de actividad (una persona no ha tenido un momento interesante). |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Página web visitada] | Actividad de página web que se utiliza para una o varias páginas web administradas por la instancia de Marketo Engage asociada. Las restricciones incluyen: <li>Página web (obligatorio)<li>Fecha de la actividad<li>Dirección IP del cliente <li>Querystring <li>Referente <li>Agente de usuario <li>Motor de búsqueda <li>Consulta de búsqueda <li>URL personalizada <li>Token <li>Explorador <li>Plataforma <li>Device <li>Mín. número de veces <br>**[!UICONTROL Cambiar al filtro de inactividad ]**: utilice esta opción para filtrar según la falta de actividad (una persona no visitó la página web). |
 | [!UICONTROL Atributos de persona] | Atributos del perfil de la persona, incluidos: <li>Ciudad <li>País <li>Fecha de nacimiento <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida<li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de persona <li>Número de teléfono <li>Código postal <li>Estado <li>Suscripción cancelada <li>Razón de la cancelación de la suscripción |
 | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Función</li> |
 | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro de la lista] | La persona es o no es miembro de una o más listas de Marketo Engage. |
@@ -141,7 +174,7 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 
 1. En el editor de condiciones, añada uno o más filtros para definir la ruta dividida.
 
-   * Arrastre y suelte cualquiera de los atributos de personas desde la navegación izquierda y complete la definición de la coincidencia.
+   * Arrastre y suelte cualquiera de los filtros de personas desde la navegación izquierda y complete la definición de la coincidencia.
 
      >[!NOTE]
      >
@@ -183,7 +216,7 @@ Para una ruta dividida por personas, puede definir una ruta según la actividad 
 
 >[!BEGINSHADEBOX &quot;Filtro de inactividad&quot;]
 
-Para cada uno de los filtros _[!UICONTROL Historial de actividades]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Por ejemplo, si desea crear una ruta de acceso para las personas que _&#x200B;**no**&#x200B;_ abrieron un mensaje de correo electrónico con anterioridad en el recorrido, agregue el filtro _[!UICONTROL Correo electrónico]_ > _[!UICONTROL Correo electrónico abierto]_. Active la opción de inactividad y especifique el correo electrónico. Se recomienda usar la restricción _[!UICONTROL Fecha de actividad]_ para definir un período de tiempo para la inactividad.
+Para cada uno de los filtros _[!UICONTROL Historial de actividades]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Por ejemplo, si desea crear una ruta de acceso para las personas que _**no**_ abrieron un mensaje de correo electrónico con anterioridad en el recorrido, agregue el filtro _[!UICONTROL Correo electrónico]_ > _[!UICONTROL Correo electrónico abierto]_. Active la opción de inactividad y especifique el correo electrónico. Se recomienda usar la restricción _[!UICONTROL Fecha de actividad]_ para definir un período de tiempo para la inactividad.
 
 ![Condición de división de ruta por personas para comprar la membresía del grupo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -233,4 +266,4 @@ Agregue un nodo _Combinar rutas_ para combinar diferentes rutas divididas por cu
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443259/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

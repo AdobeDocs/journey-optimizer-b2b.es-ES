@@ -4,7 +4,7 @@ description: Calcule las puntuaciones de participación de grupos y personas com
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 859e96ce0d450b52a8216f767c595938c23a9d50
 workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 28%
@@ -30,13 +30,13 @@ Existen dos tipos de puntuaciones de participación:
 
 * **Puntuación de participación de persona** - La puntuación de participación de persona se basa en las actividades de un miembro individual del grupo de compra.
 
-  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros &#x200B;]_&#x200B;tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
+  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros ]_tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
 
   ![Miembros del grupo de compras más comprometidos](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-La puntuación de participación de personas es un atributo que está disponible para usar para filtrar en [plantillas de roles](./buying-groups-role-templates.md#add-the-template-roles) y [nodos de división de ruta de acceso de recorrido por personas](../journeys/split-merge-paths-nodes.md#people-path-conditions).
+La puntuación de participación de personas es un atributo que está disponible para usar para filtrar en [plantillas de roles](./buying-groups-role-templates.md#add-the-template-roles) y [nodos de división de ruta de acceso de recorrido por personas](../journeys/split-merge-paths-nodes.md#people-path-filters).
 
 ![Acceder a las definiciones de eventos configuradas](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 

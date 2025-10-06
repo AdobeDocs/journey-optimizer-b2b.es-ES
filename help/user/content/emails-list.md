@@ -4,7 +4,7 @@ description: 'Administre su biblioteca de correo electrónico con búsquedas, fi
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 6a5bfd15272b4b2a95bd979d117743b4583bb2a4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%

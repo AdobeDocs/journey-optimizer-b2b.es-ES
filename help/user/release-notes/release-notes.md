@@ -3,10 +3,10 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: 'Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B Edition: manténgase actualizado con nuevas funciones y mejoras del producto.'
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: ht
-source-wordcount: '3016'
-ht-degree: 100%
+source-git-commit: 93a5b236c9d6f4e11d18704f1feb4804a79989f6
+workflow-type: tm+mt
+source-wordcount: '3000'
+ht-degree: 97%
 
 ---
 
@@ -16,8 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
-
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -33,10 +32,10 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Colaboración en el contenido de un correo electrónico | Ahora puede realizar comentarios sobre la colaboración con otros usuarios de Journey Optimizer B2B Edition en el contexto de un recurso de correo electrónico. Puede etiquetar a los integrantes del equipo para que reciban una notificación por correo electrónico con los detalles del comentario. La notificación también está disponible como notificación por pulsos. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| Función | Modo oscuro para el diseño del correo electrónico | El espacio de diseño del correo electrónico ahora incluye la posibilidad de cambiar al _modo oscuro_. En el modo oscuro, puede obtener una vista previa del contenido del correo electrónico y definir la configuración personalizada que se mostrará específicamente para los destinatarios que visualicen sus correos electrónicos en el modo oscuro. <!-- [Learn more](../content/email-dark-mode.md) --> |
-| Mejora | Recorridos: dividir la ruta por el número de personas de la función | Utilice una ruta dividida por el nodo de cuenta para dirigirse a una cuenta con el número de personas en una o más funciones del grupo de compras. En la ruta, puede evaluar la preparación del grupo de compras en cuanto a las alertas de ventas y otras participaciones en función de la profundidad de la función. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| Mejora | Recorridos: filtros de personas para eventos | Utilice los filtros de personas para escuchar eventos relacionados con personas. Estos filtros incluyen la posibilidad de dirigirse a una función específica de un grupo de compras coincidente.<!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| Función | Colaboración en el contenido de un correo electrónico | Ahora puede realizar comentarios sobre la colaboración con otros usuarios de Journey Optimizer B2B Edition en el contexto de un recurso de correo electrónico. Puede etiquetar a los integrantes del equipo para que reciban una notificación por correo electrónico con los detalles del comentario. La notificación también está disponible como notificación de pulso. [Más información](../content/email-collaboration-tools.md) |
+| Función | Modo oscuro para el diseño del correo electrónico | El espacio de diseño del correo electrónico ahora incluye la posibilidad de cambiar al _modo oscuro_. En el modo oscuro, puede obtener una vista previa del contenido del correo electrónico y definir la configuración personalizada que se mostrará específicamente para los destinatarios que ven sus correos electrónicos en el modo oscuro. [Más información](../content/email-dark-mode.md) |
+| Mejora | Recorridos: dividir la ruta por el número de personas de la función | Utilice una ruta dividida por el nodo de cuenta para dirigirse a una cuenta con el número de personas en una o más funciones del grupo de compras. En la ruta, puede evaluar la preparación del grupo de compra para las alertas de ventas y otra participación en función de la profundidad de la función. [Más información](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
+| Mejora | Recorridos: filtros de personas para eventos | Utilice los filtros de personas para escuchar eventos relacionados con personas. Estos filtros incluyen la capacidad de segmentar un rol específico para un grupo comprador coincidente. [Más información](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
@@ -56,10 +55,6 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Mejora | Contenido condicional para fragmentos | Ahora puede utilizar las herramientas de contenido condicional para el diseño de fragmentos visuales. [Más información](../content/conditional-content.md) |
 | Mejora | Actualizaciones de puntuación de participación | La lógica de puntuación de participación del grupo de compras se actualiza para normalizar las puntuaciones. Además, puede trabajar con puntuaciones de participación de nivel de miembro, así como puntuaciones de participación colectiva para todo el grupo de compras. [Más información](../buying-groups/engagement-scores.md) |
 | Mejora | Observabilidad activa del recorrido: cuentas en cada nodo | Para un recorrido de cuentas activo, puede acceder a una lista de las cuentas que han llegado a cada nodo de cuenta del recorrido. |
-
->[!NOTE]
->
->Los cambios de la versión comienzan la implementación el 26 de agosto de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2025.6
 
@@ -108,7 +103,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Función | Orquestación de recorrido de la lista de cuentas | Utilice los nodos de acción del recorrido para añadir y quitar cuentas para listas de cuentas estáticas. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Más información</a> |
 | Mejora | Filtrar abono de recorrido en Marketo Engage | Use las listas de cuentas de Adobe Journey Optimizer B2B Edition para el público del recorrido y luego use el filtro _Abonado de una lista de cuentas_ en las listas inteligentes de Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Más información</a> |
 | Función | Filtros de inactividad | Organice los recorridos en función de la inactividad dentro de las campañas y programas de Marketo Engage, incluida la inactividad del correo electrónico, los momentos interesantes, los cambios en el valor de los datos y las páginas web visitadas. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Más información</a> |
-| Mejora | Filtro de páginas web visitadas | Organice los recorridos en función de la actividad de las páginas web visitadas asociadas con las campañas y programas de Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Más información</a> |
+| Mejora | Filtro de páginas web visitadas | Organice los recorridos en función de la actividad de las páginas web visitadas asociadas con las campañas y programas de Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Más información</a> |
 | Mejora | Lista de correos electrónicos | Vea una lista global de correos electrónicos activos y borrador para buscar, revisar y actualizar los correos en los recorridos de cuenta asociados. <a href="../content/emails-list.md">Más información</a> |
 
 ## Notas de la versión 2025.3

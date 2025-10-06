@@ -4,9 +4,9 @@ description: Cree correos electrónicos con herramientas de diseño visual, impo
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1163'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ Con al menos un componente de contenido en el lienzo, selecciona el componente *
 
 Una vez guardado el correo electrónico, aparecerá en la página de detalles del fragmento al seleccionar la pestaña _[!UICONTROL Utilizado por]_ en el resumen.
 
-### Añadir recursos
+### Añadir recursos de imagen
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -126,6 +126,14 @@ Una vez guardado el correo electrónico, aparecerá en la página de detalles de
 ### Editar seguimiento de URL vinculadas
 
 {{$include /help/_includes/content-design-links.md}}
+
+### Aplicar estilo de modo oscuro
+
+Use _Modo oscuro_ para revisar la visualización del correo electrónico en busca de un tema oscuro en un cliente de correo electrónico. Un modo o tema oscuro permite a un cliente de correo electrónico o a una aplicación de soporte mostrar correos electrónicos con fondos más oscuros y colores más claros para el texto, los botones y otros elementos visuales. En la parte superior derecha del lienzo de diseño, cambie el selector a _Modo oscuro_ ( ![Icono de modo oscuro](../assets/do-not-localize/icon-content-dark-mode.svg) ). A continuación, obtenga una vista previa y defina la configuración personalizada específica que los clientes de correo electrónico de soporte utilizarán para la visualización cuando se active su tema oscuro.
+
+![Lienzo de diseño de correo electrónico que muestra el selector de modo oscuro y el contenido de correo electrónico que se muestra en modo oscuro](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+Para obtener más información acerca del estilo en modo oscuro y las prácticas recomendadas, consulte [Modo oscuro para el contenido de correo electrónico](./email-dark-mode.md).
 
 ### Ver opciones
 

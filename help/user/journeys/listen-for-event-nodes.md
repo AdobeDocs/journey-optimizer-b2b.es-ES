@@ -4,10 +4,10 @@ description: 'Configuración de nodos de evento para déclencheur de cuentas y p
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: f5fc362d52ff83335c71b5efe7ea2915d6a7e330
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 16%
+source-wordcount: '1833'
+ht-degree: 12%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 Agregue el nodo _Escuchar un evento_ para mover la audiencia al siguiente paso en el recorrido de la cuenta cuando se produzca un evento.
 
-![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Vea el vídeo de información general](#overview-video)
 
 >[!NOTE]
 >
@@ -29,12 +29,12 @@ Escuche un evento basado en la cuenta cuando desee mover la cuenta hacia adelant
 
 | Evento | Restricciones |
 | ----- | ----------- |
-| La cuenta tuvo un momento interesante | Escriba (correo electrónico, hito o web)<br/>restricciones adicionales (opcionales): <li>Descripción</li><li>Origen</li><li>Fecha de la actividad</li> <br/>Tiempo de espera (opcional) |
-| Cambio en el valor de los datos de la cuenta | Atributo<br/>Restricciones adicionales (opcional): <li>Nuevo valor</li><li>Valor anterior</li><li>Fecha de la actividad</li> <br/>Tiempo de espera (opcional) |
-| Cambio en la fase de grupo de compras | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nueva fase</li><li>Fase anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
-| Cambio en el estado del grupo de compras | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo estado</li><li>Estado anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
-| Cambio en la puntuación de integridad | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo puntaje</li><li>Puntuación anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
-| Cambio en la puntuación de participación | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo puntaje</li><li>Puntuación anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
+| [!UICONTROL La cuenta tuvo un momento interesante] | Escriba (correo electrónico, hito o web)<br/>restricciones adicionales (opcionales): <li>Descripción</li><li>Origen</li><li>Fecha de la actividad</li> <br/>Tiempo de espera (opcional) |
+| [!UICONTROL Cambio en el valor de datos de la cuenta] | Atributo<br/>Restricciones adicionales (opcional): <li>Nuevo valor</li><li>Valor anterior</li><li>Fecha de la actividad</li> <br/>Tiempo de espera (opcional) |
+| [!UICONTROL Cambio en la fase de grupo de compra] | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nueva fase</li><li>Fase anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
+| [!UICONTROL Cambio en el estado del grupo de compra] | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo estado</li><li>Estado anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
+| [!UICONTROL Cambio en la puntuación de integridad] | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo puntaje</li><li>Puntuación anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
+| [!UICONTROL Cambio en la puntuación de participación] | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo puntaje</li><li>Puntuación anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
 
 ### Agregar un evento de cuenta
 
@@ -52,23 +52,37 @@ Escuche un evento basado en la cuenta cuando desee mover la cuenta hacia adelant
 
 ## Eventos de personas
 
-Escuche un evento basado en personas cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por la actividad de personas.
+Escuche un evento basado en personas cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por la actividad de personas. También puede filtrar eventos según los atributos de las personas,
 
 ### Eventos y restricciones
 
 | Tipo de entrada | Evento | Restricciones |
 | ---------- | ----- | ----------- |
-| Edición B2B de Journey Optimizer | Asignado a grupo de compras | Interés en la solución<br/><br/>Restricciones adicionales (opcional): <li>Función</li><li>Fecha de la actividad</li><br/>Tiempo de espera (opcional) |
-| | Hace clic en el vínculo del correo electrónico | Correo electrónico<br/><br/>Restricciones adicionales (opcional): <li>Vínculo</li><li>Identificación del vínculo</li><li>Es un dispositivo móvil</li><li>Device</li><li>Plataforma</li><li>Explorador</li><li>Es contenido predictivo</li><li>Es actividad del bot</li><li>Patrón de actividad de bot</li><li>Explorador</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
-| | Hace clic en el vínculo de SMS | Correo electrónico<br/><br/>Restricciones adicionales (opcional): <li>Vínculo</li><li>Device</li><li>Plataforma</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
-| | Cambios en el valor de los datos | Atributo de persona<br/><br/>Restricciones adicionales (opcional): <li>Nuevo valor</li><li>Valor anterior</li><li>Razón</li><li>Origen</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
-| | Abre el correo electrónico | Correo electrónico<br/><br/>Restricciones adicionales (opcional): <li>Vínculo</li><li>Identificación del vínculo</li><li>Es un dispositivo móvil</li><li>Device</li><li>Plataforma</li><li>Explorador</li><li>Es contenido predictivo</li><li>Es actividad del bot</li><li>Patrón de actividad de bot</li><li>Explorador</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
-| | Quitado del grupo de compras | Interés de la solución<br/>Fecha de la actividad (opcional)<br/>Tiempo de espera (opcional) |
-| | La puntuación ha cambiado | Nombre de puntuación<br/><br/>Restricciones adicionales (opcional):<li>Cambiar</li><li>Nuevo puntaje</li><li>Urgencia</li><li>Prioridad</li><li>Puntaje relativo</li><li>Urgencia relativa</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
-| | Rechazos de SMS | Mensaje SMS<br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Número mínimo de veces</li><br/>Tiempo de espera (opcional) |
-| Marketo Engage | Visitas a la página web | Página web <br/> Seleccione una o más páginas de Marketo Engage para que coincidan. <br/><br/>Restricciones adicionales (opcional): <li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Motor de búsqueda</li><li>Consulta de búsqueda</li><li>Token</li><li>Explorador</li><li>Plataforma</li><li>Device</li><li>Fecha de la actividad</li> |
-| | Completa el formulario | Formulario <br/>: seleccione uno o varios formularios de Marketo Engage para que coincidan.  <br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Plataforma</li><li>Device</li><br/>Tiempo de espera (opcional) |
-| Adobe Experience Platform | Definición del evento | Tipo de evento <br/><br/>Restricciones adicionales (opcional): <li>Campos</li> <br/>Restricciones adicionales (no admitidas): <li>Fecha de la actividad</li><li>Mín. número de veces</li>Tiempo de espera de <br/> (opcional) |
+| Edición B2B de Journey Optimizer | [!UICONTROL Asignado a grupo comprador] | Interés en la solución<br/><br/>Restricciones adicionales (opcional): <li>Función</li><li>Fecha de la actividad</li><br/>Tiempo de espera (opcional) |
+| | [!UICONTROL Clics en el vínculo del correo electrónico] | Correo electrónico<br/><br/>Restricciones adicionales (opcional): <li>Vínculo</li><li>Identificación del vínculo</li><li>Es un dispositivo móvil</li><li>Device</li><li>Plataforma</li><li>Explorador</li><li>Es contenido predictivo</li><li>Es actividad del bot</li><li>Patrón de actividad de bot</li><li>Explorador</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
+| | [!UICONTROL Clics en el vínculo de SMS] | Correo electrónico<br/><br/>Restricciones adicionales (opcional): <li>Vínculo</li><li>Device</li><li>Plataforma</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
+| | [!UICONTROL Cambios en el valor de los datos] | Atributo de persona<br/><br/>Restricciones adicionales (opcional): <li>Nuevo valor</li><li>Valor anterior</li><li>Razón</li><li>Origen</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
+| | [!UICONTROL Abre el correo electrónico] | Correo electrónico<br/><br/>Restricciones adicionales (opcional): <li>Vínculo</li><li>Identificación del vínculo</li><li>Es un dispositivo móvil</li><li>Device</li><li>Plataforma</li><li>Explorador</li><li>Es contenido predictivo</li><li>Es actividad del bot</li><li>Patrón de actividad de bot</li><li>Explorador</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
+| | [!UICONTROL Eliminado del grupo de compra] | Interés de la solución<br/>Fecha de la actividad (opcional)<br/>Tiempo de espera (opcional) |
+| | [!UICONTROL La puntuación ha cambiado] | Nombre de puntuación<br/><br/>Restricciones adicionales (opcional):<li>Cambiar</li><li>Nuevo puntaje</li><li>Urgencia</li><li>Prioridad</li><li>Puntaje relativo</li><li>Urgencia relativa</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
+| | [!UICONTROL Devoluciones de SMS] | Mensaje SMS<br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Número mínimo de veces</li><br/>Tiempo de espera (opcional) |
+| Marketo Engage | [!UICONTROL Visita la página web] | Página web <br/> Seleccione una o más páginas de Marketo Engage para que coincidan. <br/><br/>Restricciones adicionales (opcional): <li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Motor de búsqueda</li><li>Consulta de búsqueda</li><li>Token</li><li>Explorador</li><li>Plataforma</li><li>Device</li><li>Fecha de la actividad</li> |
+| | [!UICONTROL Rellena el formulario] | Formulario <br/>: seleccione uno o varios formularios de Marketo Engage para que coincidan. <br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Plataforma</li><li>Device</li><br/>Tiempo de espera (opcional) |
+| Adobe Experience Platform | [!UICONTROL Definición de evento] | Tipo de evento <br/><br/>Restricciones adicionales (opcional): <li>Campos</li> <br/>Restricciones adicionales (no admitidas): <li>Fecha de la actividad</li><li>Mín. número de veces</li>Tiempo de espera de <br/> (opcional) |
+
+### Filtros de eventos de personas
+
+| Filtros | Descripción |
+| ------------ | ----------- |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico basadas en condiciones que se evalúan utilizando uno o más mensajes de correo electrónico seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico] <li>Correo electrónico abierto <li>Se envió por correo electrónico <li>Se envió el correo electrónico <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the email activity).--> |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Mensaje SMS] | Actividades de SMS basadas en condiciones que se evalúan utilizando uno o más mensajes SMS seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en un vínculo en SMS] <li>[!UICONTROL SMS devuelto] <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have the SMS activity). --> |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Se ha cambiado el valor de los datos] | Se ha producido un cambio de valor en un atributo de persona seleccionado. Estos tipos de cambio incluyen: <li>Nuevo valor<li>Valor anterior<li>Razón<li>Origen<li>Fecha de la actividad<li>Mín. número de veces <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Ha tenido un momento interesante] | Actividad de momento interesante que se define en la instancia de Marketo Engage asociada. Las restricciones incluyen: <li>Hito<li>Correo electrónico<li>Web <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Página web visitada] | Actividad de página web que se utiliza para una o varias páginas web administradas por la instancia de Marketo Engage asociada. Las restricciones incluyen: <li>Página web (obligatorio)<li>Fecha de la actividad<li>Dirección IP del cliente <li>Querystring <li>Referente <li>Agente de usuario <li>Motor de búsqueda <li>Consulta de búsqueda <li>URL personalizada <li>Token <li>Explorador <li>Plataforma <li>Device <li>Mín. número de veces <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
+| [!UICONTROL Atributos de persona] | Atributos del perfil de la persona, incluidos: <li>Ciudad <li>País <li>Fecha de nacimiento <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida<li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de persona <li>Número de teléfono <li>Código postal <li>Estado <li>Suscripción cancelada <li>Razón de la cancelación de la suscripción |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Función</li> |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro de la lista] | La persona es o no es miembro de una o más listas de Marketo Engage. |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del programa] | La persona es o no es miembro de uno o más programas de Marketo Engage. |
 
 ### Añadir un evento de personas
 
@@ -84,7 +98,7 @@ Escuche un evento basado en personas cuando desee mover la cuenta hacia adelante
 
 1. Haga clic en **[!UICONTROL Editar evento]** y defina los detalles del evento.
 
-### Escuchar el evento de Marketo Engage
+### Escuchar un evento de Marketo Engage
 
 Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacenar en déclencheur un evento basado en una visita o no visita a estas páginas web, así como formularios de Marketo Engage que se rellenaron o no.
 
@@ -103,7 +117,7 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 1. Haga clic en **[!UICONTROL Editar evento]** y defina una o más páginas web para que coincidan y cualquier restricción adicional para el evento.
 
-   * (Obligatorio) En el cuadro de diálogo _[!UICONTROL Editar evento]_, defina la restricción **[!UICONTROL Página web]** o Rellena el formulario. Use **[!UICONTROL is]** (predeterminado) para hacer coincidir una o más páginas o formularios seleccionados. Use **[!UICONTROL no es]** para hacer coincidir en todas las visitas/formularios de página con la exclusión de una o más páginas/formularios seleccionados. O bien, use **[!UICONTROL es cualquier]** para que coincida con cualquier visita a una página web de Marketo Engage o formulario rellenado.
+   * (Obligatorio) En el cuadro de diálogo _[!UICONTROL Editar evento]_, defina la restricción **[!UICONTROL Página web]** o **[!UICONTROL Rellena el formulario]**. Use **[!UICONTROL is]** (predeterminado) para hacer coincidir una o más páginas o formularios seleccionados. Use **[!UICONTROL no es]** para hacer coincidir en todas las visitas/formularios de página con la exclusión de una o más páginas/formularios seleccionados. O bien, use **[!UICONTROL es cualquier]** para que coincida con cualquier visita a una página web de Marketo Engage o formulario rellenado.
 
    * (Opcional) Haga clic en **[!UICONTROL Agregar restricción]** y elija el campo que desea utilizar para la restricción. Establezca el operador y el valor del campo.
 
@@ -111,7 +125,9 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
      Puede repetir esta acción para incluir restricciones de campo adicionales según sea necesario.
 
-   * Una vez definidas las restricciones, haga clic en **[!UICONTROL Listo]**.
+   * Si es necesario, seleccione la ficha **[!UICONTROL Filtros]** para [agregar filtros para el evento](#add-a-filter-to-the-people-event).
+
+   * Cuando se definan las restricciones y los filtros, haga clic en **[!UICONTROL Listo]**.
 
 1. Si es necesario, establezca la opción **[!UICONTROL Tiempo de espera]** para limitar el período de tiempo para escuchar el evento (consulte [Agregar un tiempo de espera a un nodo de evento](#add-a-timeout-to-an-event-node)).
 
@@ -119,13 +135,13 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 ### Escuchar un evento de experiencia
 
-Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de dos pasos:
+Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de dos pasos:
 
 1. [Cree y publique una definición de evento de AEP](../admin/configure-aep-events.md).
 
 2. En un recorrido de cuenta, agrega un nodo _Escuchar un evento_ y selecciona una definición de evento de Experience Platform para un evento basado en personas.
 
-![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](../admin/configure-aep-events.md#overview-video)
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Vea la descripción general del vídeo](../admin/configure-aep-events.md#overview-video)
 
 _Para incluir un evento de experiencia en el recorrido :_
 
@@ -157,7 +173,9 @@ _Para incluir un evento de experiencia en el recorrido :_
 
      Puede repetir esta acción para incluir restricciones de campo adicionales según sea necesario.
 
-   * Una vez definidas las restricciones, haga clic en **[!UICONTROL Listo]**.
+   * Si es necesario, seleccione la ficha **[!UICONTROL Filtros]** para [agregar filtros para el evento](#add-a-filter-to-the-people-event).
+
+   * Cuando se definan las restricciones y los filtros, haga clic en **[!UICONTROL Listo]**.
 
 1. Si es necesario, establezca la opción **[!UICONTROL Tiempo de espera]** para limitar el período de tiempo para escuchar el evento (consulte [Agregar un tiempo de espera a un nodo de evento](#add-a-timeout-to-an-event-node)).
 
@@ -166,6 +184,26 @@ _Para incluir un evento de experiencia en el recorrido :_
 1. Complete los nodos restantes del recorrido y [publíquelo](./journey-overview.md).
 
    Cuando el recorrido está activo (publicado) y llega al nodo _Escuchar un evento_, comienza a escuchar eventos de experiencia de AEP.
+
+### Añadir filtros al evento de personas
+
+1. Después de definir el evento, seleccione la ficha **[!UICONTROL Filtros]** en el cuadro de diálogo _[!UICONTROL Editar evento]_.
+
+   ![Escuchar el nodo de eventos por personas: selecciona la pestaña Filtros para editar el evento](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
+
+1. Añada uno o más filtros para dirigirse a las personas del evento.
+
+   * Arrastre y suelte cualquiera de los [filtros de personas](#people-event-filters) de la navegación izquierda y complete la definición de la coincidencia.
+
+     >[!NOTE]
+     >
+     >Si tiene campos de persona personalizados definidos en el esquema de audiencia de cuenta en Experience Platform, estos campos también están disponibles en **[!UICONTROL Atributos]** para usarlos como atributos de persona en los filtros.
+
+   * Ajuste el filtro aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todos los filtros o cualquier filtro.
+
+     ![Filtros de persona usados en una definición de evento](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
+
+   * Haga clic en **[!UICONTROL Finalizado]**.
 
 ## Añadir un tiempo de espera a un nodo de evento
 
@@ -183,4 +221,4 @@ Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento.
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443237/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
