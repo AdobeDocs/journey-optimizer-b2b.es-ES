@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: e66d4fe77152ed4edb1c929fd1d38ac693e83ed2
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 99%
+source-wordcount: '329'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 99%
    + [Utilizar el Asistente de IA](./ai-assistant/use-ai-assistant.md)
 + Recorridos de la cuenta {#account-journeys}
    + [Información general](./journeys/journey-overview.md)
+   + [Agente de Recorrido Build](./agents/journey-agent.md)
    + [Creación y publicación de un recorrido](./journeys/create-publish-journey.md)
    + [Nodos del recorrido](./journeys/journey-nodes.md)
    + Nodos del recorrido {#journey-nodes}
@@ -40,12 +41,14 @@ ht-degree: 99%
       + [Creación del correo electrónico](./content/email-authoring.md)
       + [Asistente de IA para la creación de correo electrónico](./content/ai-assistant-emails.md)
       + [Flujos de trabajo de GenStudio](./content/genstudio-email-workflow.md)
+      + [Modo oscuro para el diseño del correo electrónico](./content/email-dark-mode.md)
       + [Plantillas gobernadas](./content/email-authoring-governance.md)
       + [Correo electrónico de alerta de ventas](./content/sales-alert-email.md)
    + [Tókenes personalizados](./content/personalization-my-tokens.md)
    + [Creación de SMS](./content/sms-authoring.md)
 + Cuentas {#accounts}
    + [Públicos](./audiences/account-audience-overview.md)
+   + [Audience Agent](./agents/audience-agent-b2b.md)
    + Grupos de compras {#buying-groups}
       + [Información general](./buying-groups/buying-groups-overview.md)
       + [Interés de la solución](./buying-groups/solution-interests.md)
@@ -74,6 +77,7 @@ ht-degree: 99%
          + [Simular contenido](./content/email-simulate-content.md)
          + [Prueba de representación de correo electrónico](./content/email-test-rendering.md)
          + [Informe de spam](./content/email-spam-report.md)
+      + [Colaboración por correo electrónico](./content/email-collaboration-tools.md)
    + Recursos {#assets}
       + [Información general](./content/assets-overview.md)
       + Recursos de Marketo Engage {#marketo-engage-dam}
