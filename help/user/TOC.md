@@ -4,7 +4,7 @@ user-guide-description: Obtenga información acerca de la edición B2B de Adobe 
 source-git-commit: e66d4fe77152ed4edb1c929fd1d38ac693e83ed2
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 97%
 + Administración de contenido {#content-management}
    + Correos electrónicos {#emails}
       + [Trabajo con contenido multilingüe](./content/emails-list.md)
-      + [Diseño de contenido accesible](./content/email-accessible-content.md)
+      + [Diseñar contenido accesible](./content/email-accessible-content.md)
       + Vista previa y validación {#preview}
          + [Simular contenido](./content/email-simulate-content.md)
          + [Prueba de representación de correo electrónico](./content/email-test-rendering.md)
