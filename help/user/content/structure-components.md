@@ -97,7 +97,7 @@ Para quitar la designación del encabezado o pie de página, seleccione el compo
 
 En el caso de pantallas o ventanas de visualización más pequeñas, las columnas del componente de estructura se muestran como apiladas a menos que cambie la configuración predeterminada. Con el componente de estructura de varias columnas seleccionado, cambie la configuración **[!UICONTROL No apilar columnas en dispositivos móviles]** moviendo el control deslizante de alternancia a la derecha.
 
-![No apilar columnas en el móvil ](./assets/structure-component-settings-stack-columns.png){width="250"}
+![No apilar columnas en el móvil &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Estilos de componente
 

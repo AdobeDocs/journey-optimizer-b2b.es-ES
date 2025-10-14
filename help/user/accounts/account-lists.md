@@ -86,7 +86,7 @@ Después de crear la lista de cuentas estáticas, puede rellenar la lista aplica
 
 1. Seleccionar **[!UICONTROL Agregar cuentas]**.
 
-   ![Agregar un filtro de cuenta para rellenar la lista ](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
+   ![Agregar un filtro de cuenta para rellenar la lista &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
 
    Puede acceder a esta función en la página de lista vacía o en la parte superior derecha.
 
@@ -98,7 +98,7 @@ Después de crear la lista de cuentas estáticas, puede rellenar la lista aplica
    * Complete la definición de evaluación de coincidencias.
    * Repita estas acciones para cada filtro que desee incluir.
 
-     ![Agregar filtros para rellenar la lista de cuentas ](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Agregar filtros para rellenar la lista de cuentas &#x200B;](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Puede ajustar las condiciones aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todas las condiciones de atributo o cualquier condición.
 
@@ -116,7 +116,7 @@ Después de crear una lista de cuentas dinámicas, define el conjunto de filtros
 
 1. Haga clic en **[!UICONTROL Seleccionar filtros]**.
 
-   ![Seleccione los filtros utilizados para rellenar la lista dinámicamente ](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
+   ![Seleccione los filtros utilizados para rellenar la lista dinámicamente &#x200B;](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
 1. En el cuadro de diálogo _[!UICONTROL Agregar cuentas por filtro]_, use el menú **[!UICONTROL Filtros de cuenta]** para agregar los atributos y filtros especiales que desee usar para construir el conjunto de filtros:
 
@@ -126,7 +126,7 @@ Después de crear una lista de cuentas dinámicas, define el conjunto de filtros
    * Complete la definición de evaluación de coincidencias.
    * Repita estas acciones para cada filtro que desee incluir.
 
-     ![Agregar filtros para rellenar la lista de cuentas ](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Agregar filtros para rellenar la lista de cuentas &#x200B;](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Puede ajustar las condiciones aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todas las condiciones de atributo o cualquier condición.
 
