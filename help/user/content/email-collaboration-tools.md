@@ -3,17 +3,16 @@ title: Herramientas de Collaboration de correo electrónico
 description: Colabore en correos electrónicos en Journey Optimizer B2B edition. Agregue comentarios, invite a revisores, resuelva comentarios y optimice los flujos de trabajo de revisión para los equipos.
 feature: Email Authoring, Content
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Herramientas de colaboración por correo electrónico
 
-El [espacio de diseño de correo electrónico](./email-authoring.md) incluye herramientas de colaboración para realizar comentarios y resolver problemas de manera que los equipos de marketing puedan revisar, discutir y finalizar recursos de correo electrónico sin problemas directamente en [!DNL Journey Optimizer B2B Edition]. En lugar de compartir borradores con herramientas externas (como chat, hilos de correo electrónico u hojas de cálculo), los usuarios pueden realizar comentarios, sugerir ediciones y resolver comentarios dentro del espacio de diseño del correo electrónico. Utilice estas herramientas para optimizar el flujo de trabajo, reducir los errores y garantizar que las partes interesadas estén alineadas antes de iniciar la campaña de correo electrónico dentro de un recorrido de cuenta:
+El [espacio de diseño de correo electrónico](./email-authoring.md) incluye herramientas de colaboración para realizar comentarios y resolver problemas de manera que los equipos de marketing puedan revisar, discutir y finalizar recursos de correo electrónico sin problemas directamente en [!DNL Journey Optimizer B2B Edition]. En lugar de compartir borradores con herramientas externas (como el chat, hilos de correo electrónico u hojas de cálculo), los usuarios pueden realizar comentarios, sugerir ediciones y resolver comentarios dentro del espacio de diseño del correo electrónico. Utilice estas herramientas para optimizar el flujo de trabajo, reducir los errores y garantizar que las partes interesadas estén alineadas antes de iniciar la campaña de correo electrónico dentro de un recorrido de cuenta:
 
 * **_Comentarios centralizados_**: recopile y rastree todos los comentarios en un solo lugar.
 
@@ -37,7 +36,7 @@ Los administradores de productos pueden habilitar el acceso a las herramientas d
 
 +++ Habilitar permisos de correo electrónico
 
-1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
+1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
 
 1. Haga clic en **[!UICONTROL Editar]** para modificar los permisos.
 
