@@ -35,7 +35,7 @@ Por ejemplo, un experto en marketing técnico que utilice Journey Optimizer B2B 
 
 ## Funciones de generación de contenido de GenStudio
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html?lang=es){target="_blank"} es una aplicación generativa de IA-First que permite a los equipos de marketing crear anuncios y correos electrónicos impactantes y personalizados que se ajusten a los estándares de marca y cumplan con sus políticas empresariales. Al aprovechar la tecnología de IA de Adobe, proporciona un conjunto completo de herramientas que simplifican las complejidades de la creación y administración de contenido para que los creativos puedan centrarse en la innovación.
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/es/products/genstudio-for-performance-marketing.html?lang=es){target="_blank"} es una aplicación generativa de IA-First que permite a los equipos de marketing crear anuncios y correos electrónicos impactantes y personalizados que se ajusten a los estándares de marca y cumplan con sus políticas empresariales. Al aprovechar la tecnología de IA de Adobe, proporciona un conjunto completo de herramientas que simplifican las complejidades de la creación y administración de contenido para que los creativos puedan centrarse en la innovación.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Crear correos electrónicos de marketing en la marca](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
