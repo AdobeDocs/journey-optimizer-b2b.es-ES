@@ -42,7 +42,7 @@ Cuando el usuario tiene los permisos necesarios, puede acceder al asistente de I
 
 Vea el siguiente vídeo para aprender a configurar el acceso a AI Assistant para sus organizaciones y usuarios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475922/?captions=spa&learn=on)
 
 ## Próximos pasos
 
