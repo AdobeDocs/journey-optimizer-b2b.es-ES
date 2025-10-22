@@ -2,11 +2,10 @@
 title: Asignación de personas
 description: Aprenda a configurar perfiles para el marketing basado en cuentas asignando atributos de persona para crear plantillas de función optimizadas para los grupos compradores.
 feature: Setup, Buying Groups
-hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 role: Admin
-source-git-commit: e301dfd5ac1421eb73e80b1d772d1b17f9ef3a1e
+source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
