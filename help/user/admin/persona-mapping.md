@@ -5,9 +5,9 @@ feature: Setup, Buying Groups
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 role: Admin
-source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
+source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -76,10 +76,7 @@ Para localizar el perfil que desea, utilice las herramientas de búsqueda y filt
 
   ![Filtrar las definiciones de eventos mostradas](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
-* Haga clic en el icono _Filtro_ ( ![Icono de filtro](../assets/do-not-localize/icon-filter.svg) ) en la parte superior izquierda para filtrar la lista mostrada mediante cualquiera de estos atributos:
-
-   * ?
-   * ?
+* Haga clic en el icono _Filtro_ ( ![Icono de filtro](../assets/do-not-localize/icon-filter.svg) ) en la parte superior izquierda para filtrar la lista mostrada por atributo.
 
 ## Crear una persona
 
@@ -114,7 +111,6 @@ Para localizar el perfil que desea, utilice las herramientas de búsqueda y filt
 ## Editar una persona
 
 1. Para acceder a los detalles de la persona, haga clic en el nombre.
-
 
 ## Eliminar una persona
 
