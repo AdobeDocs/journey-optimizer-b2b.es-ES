@@ -6,13 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: Temas de correo electrónico, Reutilización, Alineación de marca, Diseño de correo electrónico
-badge: label="Beta" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3086'
 ht-degree: 2%
 
 ---

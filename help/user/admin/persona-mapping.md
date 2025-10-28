@@ -1,13 +1,11 @@
 ---
 title: Asignación de personas
-description: Aprenda a configurar perfiles para el marketing basado en cuentas asignando atributos de persona para crear plantillas de función optimizadas para los grupos compradores.
+description: Aprenda a configurar la asignación de personalidades para el marketing B2B. Asigne atributos de persona en Journey Optimizer B2B edition para crear plantillas de función y optimizar la segmentación de grupos de compra.
 feature: Setup, Buying Groups
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 role: Admin
-source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -92,7 +90,7 @@ Para localizar el perfil que desea, utilice las herramientas de búsqueda y filt
 
    * Haga clic en **[!UICONTROL Seleccionar atributos de persona]**.
 
-   * En el cuadro de diálogo _[!UICONTROL Seleccionar atributos de persona]_, active la casilla de verificación de cada atributo que desee asignar (un máximo de cinco).
+   * En el cuadro de diálogo, seleccione la casilla de verificación de cada atributo que desee asignar (un máximo de cinco).
 
      Puede personalizar la tabla mostrada haciendo clic en el icono _Configuración de columna_ ( ![Configuración de columna](../assets/do-not-localize/icon-column-settings.svg) ) en la esquina superior derecha.
 
@@ -110,7 +108,7 @@ Para localizar el perfil que desea, utilice las herramientas de búsqueda y filt
 
 ## Editar una persona
 
-1. Para acceder a los detalles de la persona, haga clic en el nombre.
+Haga clic en el nombre de la persona para acceder y editar sus detalles.
 
 ## Eliminar una persona
 
