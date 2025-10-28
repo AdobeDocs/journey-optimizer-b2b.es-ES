@@ -1,12 +1,12 @@
 ---
 title: Notas de la versión de Journey Optimizer B2B Edition
-description: 'Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B Edition: manténgase actualizado con nuevas funciones y mejoras del producto.'
+description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase informado con nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 4bf03f99f146454658422d5b1dac184a108c802b
 workflow-type: tm+mt
-source-wordcount: '3384'
-ht-degree: 90%
+source-wordcount: '3490'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2025.10
 
@@ -24,15 +24,16 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Esquemas personalizados basados en modelos | Crear esquemas personalizados a partir de clases basadas en modelos. |
-| Función | Activar en destino | Use la nueva acción _Activar en la cuenta de compañía de destino_ para activarla directamente en empresas, en lugar de en personas. (Se limita a las empresas de LinkedIn para esta versión). |
+| Función | Modelo de datos relacional | Aproveche los datos relacionales vinculados a cuentas B2B para filtrar cuentas dentro de un recorrido de cuentas o personalizar el contenido del correo electrónico. Estos datos relacionales pueden representar entidades comerciales reales, como registros de compras, registros de eventos, licencias de software, suscripciones a servicios o reservas. |
+| Función | Activar en destino para recorridos | Use la nueva acción _Activar en la cuenta de compañía de destino_ para activarla directamente en empresas, en lugar de en personas. (Se limita a las empresas de LinkedIn para esta versión). |
+| Función | Activación múltiple de Marketo Engage | Configure conexiones a instancias de Marketo Engage remotas y utilice esas conexiones para configurar acciones de recorrido relacionadas con Marketo Engage. Estas acciones, como añadir o eliminar personas de listas o añadir personas a una campaña de solicitud, se aplican a la instancia de Marketo Engage designada. |
 | Función | Temáticas de marca | Con los temas de marca, los usuarios no técnicos ahora pueden crear contenido reutilizable que se ajuste a una marca y un lenguaje de diseño específicos añadiendo un estilo personalizado sobre las plantillas estándar. [Más información](../content/brand-themes.md) |
 | Función | Asignación de personas | Asocie miembros de cuenta con personalidades establecidas con asignación de atributos. [Más información](../admin/persona-mapping.md) |
+| Función | Perspectivas de ventas para Salesforce y Dynamics | Los miembros del equipo de ventas ahora pueden ver los grupos de compras de vencimiento y las perspectivas relacionadas dentro de una integración de Salesforce o Dynamics para identificar nuevas oportunidades. Se incluyen los detalles del grupo comprador, como etapa, puntuación y miembros relacionados. |
+| Mejora | Deduplicación de fatiga de correo electrónico | Ahora puede habilitar la deduplicación de correos electrónicos para garantizar que el mismo correo electrónico no se envíe varias veces a la misma dirección en un recorrido. Las direcciones duplicadas se bloquean hasta que el primer registro con esa dirección de correo electrónico complete el recorrido. |
+| Mejora | Límites de comunicación | El sistema ahora respeta los límites de comunicación combinados de Marketo Engage y Journey Optimizer B2B edition. |
 | Mejora | Comprar trabajos de mantenimiento del grupo | La frecuencia del trabajo de mantenimiento del grupo de compras se actualiza de semanal a diario. |
 | Mejora | Progresión del recorrido de cuenta | Un vínculo _Más información_ está visible para que la progresión de recorridos acceda a las listas y los recuentos de cuentas. |
-
-<!-- M1.5 changes
-| Enhancement | Buying group scoring | The Buying Group completeness score is improved, including the ability to customize how the score is calculated. | -->
 
 Las siguientes funciones de IA agéntica ya están disponibles para Journey Optimizer B2B edition en la interfaz del asistente de IA:
 
@@ -43,7 +44,6 @@ Las siguientes funciones de IA agéntica ya están disponibles para Journey Opti
 >[!NOTE]
 >
 >Los cambios de la versión comienzan la implementación el sábado, 31 de octubre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
-
 
 <!-- hold for later release 
 
@@ -62,8 +62,6 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | ---- | ---- | ----------- |
 | Función | Colaboración en el contenido de un correo electrónico | Ahora puede realizar comentarios sobre la colaboración con otros usuarios de Journey Optimizer B2B Edition en el contexto de un recurso de correo electrónico. Puede etiquetar a los integrantes del equipo para que reciban una notificación por correo electrónico con los detalles del comentario. La notificación también está disponible como notificación por pulsos.  |
 | Función | Modo oscuro para el diseño del correo electrónico | El espacio de diseño del correo electrónico ahora incluye la posibilidad de cambiar al _modo oscuro_. En el modo oscuro, puede obtener una vista previa del contenido del correo electrónico y definir la configuración personalizada que se mostrará específicamente para los destinatarios que visualicen sus correos electrónicos en el modo oscuro.  |
-| Función | Deduplicación de fatiga de correo electrónico | Ahora puede habilitar la deduplicación de correos electrónicos para garantizar que el mismo correo electrónico no se envíe varias veces a la misma dirección en un recorrido. Las direcciones duplicadas se bloquean hasta que el primer registro con esa dirección de correo electrónico complete el recorrido. |
-| Función | Perspectivas de ventas para Salesforce y Dynamics | Los miembros del equipo de ventas ahora pueden ver los grupos de compras de vencimiento y las perspectivas relacionadas dentro de una integración de Salesforce o Dynamics para identificar nuevas oportunidades. Se incluyen los detalles del grupo comprador, como etapa, puntuación y miembros relacionados. |
 | Mejora | Recorridos: dividir la ruta por el número de personas de la función | Utilice una ruta dividida por el nodo de cuenta para dirigirse a una cuenta con el número de personas en una o más funciones del grupo de compras. En la ruta, puede evaluar la preparación del grupo de compras en cuanto a las alertas de ventas y otras participaciones en función de la profundidad de la función. [Más información](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Mejora | Recorridos: filtros de personas para eventos | Utilice los filtros de personas para escuchar eventos relacionados con personas. Estos filtros incluyen la posibilidad de dirigirse a una función específica de un grupo de compras coincidente. [Más información](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
