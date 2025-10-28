@@ -3,10 +3,10 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: 'Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B Edition: manténgase actualizado con nuevas funciones y mejoras del producto.'
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: fbb949da360e1e80e92fa34b2dd43a4de10011b9
-workflow-type: ht
-source-wordcount: '2996'
-ht-degree: 100%
+source-git-commit: c8cf78c8e393121e325ffc8c7876c80902289d11
+workflow-type: tm+mt
+source-wordcount: '3078'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -36,6 +36,13 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Función | Modo oscuro para el diseño del correo electrónico | El espacio de diseño del correo electrónico ahora incluye la posibilidad de cambiar al _modo oscuro_. En el modo oscuro, puede obtener una vista previa del contenido del correo electrónico y definir la configuración personalizada que se mostrará específicamente para los destinatarios que visualicen sus correos electrónicos en el modo oscuro.  |
 | Mejora | Recorridos: dividir la ruta por el número de personas de la función | Utilice una ruta dividida por el nodo de cuenta para dirigirse a una cuenta con el número de personas en una o más funciones del grupo de compras. En la ruta, puede evaluar la preparación del grupo de compras en cuanto a las alertas de ventas y otras participaciones en función de la profundidad de la función. [Más información](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Mejora | Recorridos: filtros de personas para eventos | Utilice los filtros de personas para escuchar eventos relacionados con personas. Estos filtros incluyen la posibilidad de dirigirse a una función específica de un grupo de compras coincidente. [Más información](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+
+Las siguientes funciones de IA agéntica ya están disponibles para Journey Optimizer B2B edition en la interfaz del asistente de IA:
+
+| Agente | Actualización | Descripción |
+| ----- | ------ | ----------- |
+| Journey Build Agent | Nuevo | El agente de creación de Recorridos analiza, idea y crea recorridos de forma conjunta en tiempo real, lo que permite a los especialistas en marketing iniciar sesión más rápido, mejorar la participación e impulsar tasas de conversión más altas. [Más información](../agents/journey-agent.md) |
+| Audience Agent | Nuevo | Audience Agent identifica y crea automáticamente grupos de compra con datos estructurados y no estructurados. Ayuda a los especialistas en marketing a dirigirse a las personas adecuadas de forma más rápida y precisa. [Más información](../agents/audience-agent-b2b.md) |
 
 >[!NOTE]
 >
@@ -145,9 +152,9 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Función | Destinos de medios de pago | Capacite a personas conocidas para campañas de medios de pago desde un recorrido de cuentas, de modo que pueda participar en plataformas de publicidad como LinkedIn. Utilice un nodo de rutas divididas para segmentar los públicos de las cuentas en función de comportamientos específicos y para identificar cuentas que garanticen una participación adicional. A continuación, añada personas de esas cuentas a un público de cliente externo a través de Real-Time CDP a un destino de medios de pago admitido. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Más información</a> |
 | Función | Panel de control inteligente | Vea la progresión de la compra de grupos a través de los recorridos de su cuenta, incluidas las perspectivas generadas por IA para un análisis más inteligente y una priorización precisa de la cuenta. <a href="../dashboards/intelligent-dashboard.md">Más información</a> |
 | Función | Grupo de compras y detalles de la cuenta | Vea perspectivas en el nivel de grupo de compras y de cuenta para tener más contexto y datos históricos cuando empiece a interactuar con un cliente.<p>Los detalles del grupo de compras incluyen cualquier intención de origen que se detecte. <a href="../buying-groups/buying-group-details.md">Más información</a><p>Las cuentas de detalles de la cuenta resaltan el aumento en la participación detectada por intención, de modo que puede alertar a las ventas sobre cuentas que están listas para una participación personalizada centrada en las ventas.  <a href="../accounts/account-details.md">Más información</a> |
-| Función | Información general sobre recorridos | Al acceder a los recorridos de la cuenta, la pestaña Información general ofrece una instantánea completa de los recorridos de la cuenta activa, en la que se detalla el progreso de la cuenta mediante diagramas de círculos y barras que categorizan y cuantifican las finalizaciones y las actividades de participación.  <a href="../dashboards/journeys-dashboard.md">Más información</a> |
+| Función | Información general sobre recorridos | Al acceder a los recorridos de la cuenta, la pestaña Información general ofrece una instantánea completa de los recorridos de la cuenta activa, en la que se detalla el progreso de la cuenta mediante diagramas de círculos y gráficos de barras que categorizan y cuantifican las finalizaciones y las actividades de participación.  <a href="../dashboards/journeys-dashboard.md">Más información</a> |
 | Función | Edición de imágenes en Adobe Express | Las acciones rápidas de Adobe Express le permiten realizar ediciones sencillas (como recortar y cambiar el tamaño) en imágenes para conseguir un aspecto más pulido en el contenido. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">Más información</a>  <p>Para obtener un conjunto más completo de herramientas de diseño, esta integración permite obtener una licencia completa de Adobe Express en Journey Optimizer B2B Edition. Con esta configuración, se puede acceder a la interfaz de usuario completa de Adobe Express desde el espacio de trabajo de recursos local. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">Más información</a> |
-| Función | Filtros de intención para comprar funciones de grupo | Al enviar las palabras clave por intención, el modelo de detección de intención predice una solución o producto de interés con una confianza lo suficientemente alta según la actividad de un posible cliente. <a href="../admin/intent-data.md">Más información</a> <p>Estos datos de intención están disponibles para definir las condiciones de función de grupo de compra <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Más información</a> |
+| Función | Filtros de intención para funciones de grupo de compras | Al enviar las palabras clave por intención, el modelo de detección de intención predice una solución o producto de interés con una confianza lo suficientemente alta según la actividad de un posible cliente. <a href="../admin/intent-data.md">Más información</a> <p>Estos datos de intención están disponibles para definir las condiciones de función de grupo de compra <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Más información</a> |
 | Mejora | Compatibilidad con eventos de Marketo Engage en recorridos | El nodo de recorrido _Escuchar evento_ ahora admite dos eventos de Marketo Engage en el nivel de personas: _Visita la página web_ y _Rellena el formulario_. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">Más información</a> |
 | Mejora | Compra de filtros de grupo de compras para las listas inteligentes de Marketo Engage | Vea y cree listas inteligentes con filtros de grupo de compras en Marketo Engage. Estos filtros añadidos le permiten suprimir e incluir miembros del grupo de compra en campañas y programas de Marketo Engage desde recorridos de cuenta en Journey Optimizer B2B Edition. <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">Más información</a> |
 | Mejora | Filtro de abono a listas de Marketo Engage para recorridos y funciones | En Journey Optimizer B2B, compruebe el abono a la lista Marketo Engage como condición para un nodo _split path by people_ para eliminar la duplicación en las actividades de recorrido. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Más información</a> <p> Para las plantillas de funciones de grupo de compras, utilice el abono a las listas como condición de función. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Más información</a> |
