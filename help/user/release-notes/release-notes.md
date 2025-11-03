@@ -3,10 +3,10 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase informado con nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7b36124cf830b5cdb980a1288d3870843a10fed2
+source-git-commit: 74633474e8d0af1e976d007d75bf4db9906fe7d2
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 85%
+source-wordcount: '3644'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,17 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+
+## Capacidades de inteligencia artificial aplicada a la agencia
+
+Las siguientes funciones de IA agéntica ya están disponibles para Journey Optimizer B2B edition en la interfaz del asistente de IA:
+
+| Agente | Actualización | Descripción |
+| ----- | ------ | ----------- |
+| Journey Build Agent | Nuevo | El agente de creación de Recorridos analiza, idea y crea recorridos de forma conjunta en tiempo real, lo que permite a los especialistas en marketing iniciar sesión más rápido, mejorar la participación e impulsar tasas de conversión más altas. [Más información](../agents/journey-agent.md) |
+| Audience Agent | Nuevo | Audience Agent identifica y crea automáticamente grupos de compra con datos estructurados y no estructurados. Ayuda a los especialistas en marketing a dirigirse a las personas adecuadas de forma más rápida y precisa. [Más información](../agents/audience-agent-b2b.md) |
+| Account Qualification Agent | Nuevo | Consulte qué cuentas están listas para la siguiente fase mediante Account Qualification Agent en el asistente de IA. Este agente permite que los miembros de su equipo de ventas se centren en las cuentas correctas mediante la aparición de posibles clientes de alto valor y la automatización de los flujos de trabajo de calificación. [Más información](../agents/account-qualification-agent.md) |
 
 ## Notas de la versión 2025.10
 
@@ -36,15 +46,20 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Mejora | Comprar trabajos de mantenimiento del grupo | La frecuencia del trabajo de mantenimiento del grupo de compras se actualiza de semanal a diario. |
 | Mejora | Progresión del recorrido de cuenta | Un vínculo _Más información_ está visible para que la progresión de recorridos acceda a las listas y los recuentos de cuentas. |
 
-Las siguientes funciones de IA agéntica ya están disponibles para Journey Optimizer B2B edition en la interfaz del asistente de IA:
-
-| Agente | Actualización | Descripción |
-| ----- | ------ | ----------- |
-| Account Qualification Agent | Nuevo | Consulte qué cuentas están listas para la siguiente fase mediante Account Qualification Agent en el asistente de IA. Este agente permite que los miembros de su equipo de ventas se centren en las cuentas correctas mediante la aparición de posibles clientes de alto valor y la automatización de los flujos de trabajo de calificación. [Más información](../agents/account-qualification-agent.md) |
-
 >[!NOTE]
 >
->Los cambios de la versión comienzan la implementación el sábado, 31 de octubre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>Estos cambios de versión comienzan la implementación el 31 de octubre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+
+### Arquitectura simplificada
+
+Adobe Journey Optimizer B2B edition ya está disponible con una arquitectura simplificada. Con esta arquitectura actualizada, Journey Optimizer B2B edition y Marketo Engage ya no están en el mismo sistema y en el mismo almacén de datos. Journey Optimizer B2B edition solo recibe datos de Adobe Experience Platform. Sin embargo, sigue dependiendo de los derechos de Marketo Engage y algunas funciones de configuración para aprovisionar y configurar el sistema.
+
+Esta arquitectura actualizada ofrece varias ventajas:
+
+* **Unifique y escale fácilmente sus datos**: la plataforma actualizada admite modelos de datos complejos, incluidos objetos personalizados, grupos de compra y eventos de cuenta.
+* **Conectar varias instancias de Adobe Marketo Engage**: administre y unifique datos de varios entornos de Adobe Marketo Engage en un solo lugar.
+* **Mantenga sus datos seguros**: Las características avanzadas de privacidad y seguridad ayudan a proteger la información de sus clientes.
+* **Creado para el futuro**: esta actualización prepara a su organización para recibir mejoras e innovaciones continuas.
 
 <!-- hold for later release 
 
@@ -66,16 +81,9 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Mejora | Recorridos: dividir la ruta por el número de personas de la función | Utilice una ruta dividida por el nodo de cuenta para dirigirse a una cuenta con el número de personas en una o más funciones del grupo de compras. En la ruta, puede evaluar la preparación del grupo de compras en cuanto a las alertas de ventas y otras participaciones en función de la profundidad de la función. [Más información](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Mejora | Recorridos: filtros de personas para eventos | Utilice los filtros de personas para escuchar eventos relacionados con personas. Estos filtros incluyen la posibilidad de dirigirse a una función específica de un grupo de compras coincidente. [Más información](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
-Las siguientes funciones de IA agéntica ya están disponibles para Journey Optimizer B2B edition en la interfaz del asistente de IA:
-
-| Agente | Actualización | Descripción |
-| ----- | ------ | ----------- |
-| Journey Build Agent | Nuevo | El agente de creación de Recorridos analiza, idea y crea recorridos de forma conjunta en tiempo real, lo que permite a los especialistas en marketing iniciar sesión más rápido, mejorar la participación e impulsar tasas de conversión más altas. [Más información](../agents/journey-agent.md) |
-| Audience Agent | Nuevo | Audience Agent identifica y crea automáticamente grupos de compra con datos estructurados y no estructurados. Ayuda a los especialistas en marketing a dirigirse a las personas adecuadas de forma más rápida y precisa. [Más información](../agents/audience-agent-b2b.md) |
-
 >[!NOTE]
 >
->Los cambios de la versión comienzan la implementación el 30 de septiembre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>Estos cambios de versión comienzan la implementación el 30 de septiembre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2025.8
 
