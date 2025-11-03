@@ -2,7 +2,7 @@
 title: Conversión de una imagen en una plantilla de correo electrónico
 description: Transforme archivos de imagen en plantillas de correo electrónico de HTML con Journey Optimizer B2B edition. Cargar archivos PNG/JPEG y generar automáticamente contenido de correo electrónico reutilizable.
 feature: Email Authoring, Content
-source-git-commit: afac631110f27c59f73aaf4761e3739c772258be
+source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -11,11 +11,9 @@ ht-degree: 0%
 
 # Convertir una imagen en una plantilla de correo electrónico
 
-Puede convertir fácilmente archivos de diseño guardados como imágenes (PNG o JPEG) en HTML listos para plantillas de correo electrónico, lo que ahorra a su equipo web tiempo y recursos valiosos.
-
 La creación y actualización de plantillas de correo electrónico es un componente fundamental de la supply chain de contenido de marketing, pero estas tareas suelen requerir un tiempo y recursos significativos debido a la codificación manual de HTML. Los equipos de marketing tradicionalmente han dependido de las agencias o los equipos de TI para desarrollar estas plantillas. La nueva herramienta de imagen a HTML para plantillas de correo electrónico simplifica este proceso al permitir a los especialistas en marketing convertir archivos de diseño en plantillas de código HTML. El HTML convertido está listo para seguir editando en el espacio de diseño de correo electrónico. Esta herramienta es compatible con los tipos de archivo JPEG y PNG y cuenta con una interfaz de arrastrar y soltar.
 
-El intuitivo generador de plantillas convierte las imágenes en plantillas de código HTML listas para su modificación con las herramientas de diseño de correo electrónico. Un experto en marketing o un profesional del diseño puede cargar una imagen y generar rápidamente una plantilla de correo electrónico, sin necesidad de utilizar una codificación HTML manual. Esta herramienta es compatible con la conversión de tipos de archivo de JPEG y PNG a plantillas de correo electrónico con código HTML.
+Puede convertir fácilmente archivos de diseño guardados como imágenes (PNG o JPEG) en HTML listos para plantillas de correo electrónico, lo que ahorra a su equipo web tiempo y recursos valiosos. El intuitivo generador de plantillas convierte las imágenes en plantillas de correo electrónico con código HTML listas para su modificación con las herramientas de diseño de correo electrónico. Un experto en marketing o un profesional del diseño puede cargar una imagen y generar rápidamente una plantilla de correo electrónico, sin necesidad de utilizar una codificación HTML manual. Esta herramienta es compatible con la conversión de tipos de archivo de JPEG y PNG a plantillas de correo electrónico con código HTML.
 
 >[!BEGINSHADEBOX]
 
