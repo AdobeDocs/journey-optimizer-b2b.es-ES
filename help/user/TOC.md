@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: 43a987557e251b4d1015d3a615df626223aca574
+source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 98%
+source-wordcount: '338'
+ht-degree: 97%
 
 ---
 
@@ -90,6 +90,7 @@ ht-degree: 98%
       + Plantillas de correo electrónico {#email-templates}
          + [Información general](./content/email-templates.md)
          + [Creación de plantilla de correo electrónico](./content/email-template-authoring.md)
+         + [Convertir imagen en plantilla](./content/email-template-image-convert.md)
       + Plantillas de página de destino {#landing-page-templates}
          + [Información general](./content/landing-page-templates.md)
          + [Diseño de plantilla de la página de destino](./content/landing-page-template-design.md)
@@ -119,7 +120,7 @@ ht-degree: 98%
    + [Información general sobre recorridos de cuenta](./dashboards/journeys-dashboard.md)
 + Administración {#admin}
    + [Gobernanza](./admin/governance.md)
-   + [Asignación de personas](./admin/persona-mapping.md)
+   + [Asignación de persona](./admin/persona-mapping.md)
    + [Administración de usuarios](./admin/user-management.md)
    + Canales {#channels}
       + [Configuraciones de correo electrónico](./admin/configure-channels-emails.md)
