@@ -1,12 +1,12 @@
 ---
 title: Notas de la versión de Journey Optimizer B2B Edition
-description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase informado con nuevas funciones y mejoras del producto.
+description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Entérese de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 74633474e8d0af1e976d007d75bf4db9906fe7d2
 workflow-type: tm+mt
 source-wordcount: '3644'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
@@ -16,35 +16,35 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Capacidades de inteligencia artificial aplicada a la agencia
 
-Las siguientes funciones de IA agéntica ya están disponibles para Journey Optimizer B2B edition en la interfaz del asistente de IA:
+Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimizer B2B edition en la interfaz del asistente de IA:
 
 | Agente | Actualización | Descripción |
 | ----- | ------ | ----------- |
-| Journey Build Agent | Nuevo | El agente de creación de Recorridos analiza, idea y crea recorridos de forma conjunta en tiempo real, lo que permite a los especialistas en marketing iniciar sesión más rápido, mejorar la participación e impulsar tasas de conversión más altas. [Más información](../agents/journey-agent.md) |
+| Journey Build Agent | Nuevo | Journey Build Agent analiza, idea y crea recorridos de forma conjunta en tiempo real, lo que permite a los especialistas en marketing iniciar sesión más rápido, mejorar la participación y generar tasas de conversión más altas. [Más información](../agents/journey-agent.md) |
 | Audience Agent | Nuevo | Audience Agent identifica y crea automáticamente grupos de compra con datos estructurados y no estructurados. Ayuda a los especialistas en marketing a dirigirse a las personas adecuadas de forma más rápida y precisa. [Más información](../agents/audience-agent-b2b.md) |
 | Account Qualification Agent | Nuevo | Consulte qué cuentas están listas para la siguiente fase mediante Account Qualification Agent en el asistente de IA. Este agente permite que los miembros de su equipo de ventas se centren en las cuentas correctas mediante la aparición de posibles clientes de alto valor y la automatización de los flujos de trabajo de calificación. [Más información](../agents/account-qualification-agent.md) |
 
 ## Notas de la versión 2025.10
 
-**Fecha de implementación**: sábado, 31 de octubre de 2025
+**Fecha de implementación**: 31 de octubre de 2025
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Modelo de datos relacional | Aproveche los datos relacionales vinculados a cuentas B2B para filtrar cuentas dentro de un recorrido de cuentas o personalizar el contenido del correo electrónico. Estos datos relacionales pueden representar entidades comerciales reales, como registros de compras, registros de eventos, licencias de software, suscripciones a servicios o reservas. |
-| Función | Activar en destino para recorridos | Use la nueva acción _Activar en la cuenta de compañía de destino_ para activarla directamente en empresas, en lugar de en personas. (Se limita a las empresas de LinkedIn para esta versión). |
+| Función | Modelo de datos relacionales | Utilice los datos relacionales vinculados a cuentas B2B para filtrar cuentas dentro de un recorrido de cuentas o personalizar el contenido del correo electrónico. Estos datos relacionales pueden representar entidades comerciales reales, como registros de compras, registros de eventos, licencias de software, suscripciones a servicios o reservas. |
+| Función | Activar en destino para recorridos | Use la nueva acción _Activar en la cuenta de compañía de destino_ para activarla directamente en empresas, en lugar de en personas. (Limitado en esta versión a las empresas de LinkedIn). |
 | Función | Activación múltiple de Marketo Engage | Configure conexiones a instancias de Marketo Engage remotas y utilice esas conexiones para configurar acciones de Marketo Engage desde recorridos. Estas acciones, como añadir o eliminar personas de listas o añadir personas a una campaña de solicitud, se aplican a la instancia de Marketo Engage designada. |
-| Función | Temáticas de marca | Con los temas de marca, los usuarios no técnicos ahora pueden crear contenido reutilizable que se ajuste a una marca y un lenguaje de diseño específicos añadiendo un estilo personalizado sobre las plantillas estándar. [Más información](../content/brand-themes.md) |
+| Función | Temáticas de marca | Con los temáticas de marca, los usuarios no técnicos ahora pueden crear contenido reutilizable que se ajuste a una marca y un lenguaje de diseño específicos añadiendo un estilo personalizado sobre las plantillas estándar. [Más información](../content/brand-themes.md) |
 | Función | Plantillas de correo electrónico: convertir imagen a HTML | Ahora puede utilizar los archivos de diseño almacenados como archivos de imagen JPG o PNG y generar automáticamente plantillas de correo electrónico. [Más información](../content/email-template-image-convert.md) |
-| Función | Asignación de persona | Asocie miembros de cuenta con personalidades establecidas con asignación de atributos. [Más información](../admin/persona-mapping.md) |
-| Función | Perspectivas de ventas para Salesforce y Dynamics | Los miembros del equipo de ventas ahora pueden ver los grupos de compras de vencimiento y las perspectivas relacionadas dentro de una integración de Salesforce o Dynamics para identificar nuevas oportunidades. Se incluyen los detalles del grupo comprador, como etapa, puntuación y miembros relacionados. |
-| Mejora | Deduplicación de fatiga de correo electrónico | Ahora puede habilitar la deduplicación de correos electrónicos para garantizar que el mismo correo electrónico no se envíe varias veces a la misma dirección en un recorrido. Las direcciones duplicadas se bloquean hasta que el primer registro con esa dirección de correo electrónico complete el recorrido. |
+| Función | Asignación de persona | Asocie miembros de cuenta con personas establecidas con asignación de atributos. [Más información](../admin/persona-mapping.md) |
+| Función | Perspectivas de ventas para Salesforce y Dynamics | Los integrantes del equipo de ventas ahora pueden ver los grupos de compras de vencimiento y las perspectivas relacionadas dentro de una integración de Salesforce o Dynamics para identificar nuevas oportunidades. Se incluyen los detalles del grupo de compras, como la fase, puntuación y miembros relacionados. |
+| Mejora | Deduplicación de fatiga del correo electrónico | Ahora puede habilitar la deduplicación de correos electrónicos para garantizar que el mismo correo electrónico no se envíe varias veces a la misma dirección en un recorrido. Las direcciones duplicadas se bloquean hasta que el primer registro con esa dirección de correo electrónico complete el recorrido. |
 | Mejora | Límites de comunicación | El sistema ahora respeta los límites de comunicación combinados de Marketo Engage y Journey Optimizer B2B edition. |
-| Mejora | Comprar trabajos de mantenimiento del grupo | La frecuencia del trabajo de mantenimiento del grupo de compras se actualiza de semanal a diario. |
-| Mejora | Progresión del recorrido de cuenta | Un vínculo _Más información_ está visible para que la progresión de recorridos acceda a las listas y los recuentos de cuentas. |
+| Mejora | Trabajos de mantenimiento de grupos de compras | La frecuencia del trabajo de mantenimiento del grupo de compras se actualiza semana a semana o día a día. |
+| Mejora | Progreso del recorrido de cuenta | Un vínculo _Más información_ está visible para que la progresión de recorridos acceda a las listas y los recuentos de cuentas. |
 
 >[!NOTE]
 >
@@ -76,8 +76,8 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Colaboración en el contenido de un correo electrónico | Ahora puede realizar comentarios sobre la colaboración con otros usuarios de Journey Optimizer B2B Edition en el contexto de un recurso de correo electrónico. Puede etiquetar a los integrantes del equipo para que reciban una notificación por correo electrónico con los detalles del comentario. La notificación también está disponible como notificación de pulso. [Más información](../content/email-collaboration-tools.md) |
-| Función | Modo oscuro para el diseño del correo electrónico | El espacio de diseño del correo electrónico ahora incluye la posibilidad de cambiar al _modo oscuro_. En el modo oscuro, puede obtener una vista previa del contenido del correo electrónico y definir la configuración personalizada que se mostrará específicamente para los destinatarios que ven sus correos electrónicos en el modo oscuro. [Más información](../content/email-dark-mode.md) |
+| Función | Colaboración en el contenido de un correo electrónico | Ahora puede realizar comentarios sobre la colaboración con otros usuarios de Journey Optimizer B2B Edition en el contexto de un recurso de correo electrónico. Puede etiquetar a los integrantes del equipo para que reciban una notificación por correo electrónico con los detalles del comentario. La notificación también está disponible como notificación por pulsos. [Más información](../content/email-collaboration-tools.md) |
+| Función | Modo oscuro para el diseño del correo electrónico | El espacio de diseño del correo electrónico ahora incluye la posibilidad de cambiar al _modo oscuro_. En el modo oscuro, puede obtener una vista previa del contenido del correo electrónico y definir la configuración personalizada que se mostrará específicamente para los destinatarios que visualicen sus correos electrónicos en el modo oscuro. [Más información](../content/email-dark-mode.md) |
 | Mejora | Recorridos: dividir la ruta por el número de personas de la función | Utilice una ruta dividida por el nodo de cuenta para dirigirse a una cuenta con el número de personas en una o más funciones del grupo de compras. En la ruta, puede evaluar la preparación del grupo de compras en cuanto a las alertas de ventas y otras participaciones en función de la profundidad de la función. [Más información](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Mejora | Recorridos: filtros de personas para eventos | Utilice los filtros de personas para escuchar eventos relacionados con personas. Estos filtros incluyen la posibilidad de dirigirse a una función específica de un grupo de compras coincidente. [Más información](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 

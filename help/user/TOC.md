@@ -4,7 +4,7 @@ user-guide-description: Obtenga información acerca de la edición B2B de Adobe 
 source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
