@@ -4,10 +4,10 @@ description: 'Optimice la generación de demanda con recorridos de cuenta: cree,
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 91%
 
 ---
 
@@ -85,7 +85,7 @@ Si anula (detiene) un recorrido activo o planificado , las cuentas del recorrido
 
 >[!IMPORTANT]
 >
->Cuando el recorrido de la cuenta se usa en otro recorrido desde un nodo _Iniciar una acción_ con la acción _Añadir cuenta a (otro) recorrido_, al anular el recorrido se bloqueará esa acción en ese recorrido.
+>Cuando el recorrido de la cuenta se usa en otro recorrido desde un nodo _Iniciar una acción_ con la acción _[!UICONTROL Añadir cuenta a (otro) recorrido]_, al anular el recorrido se bloqueará esa acción en ese recorrido.
 
 1. Haga clic en el nombre del recorrido para abrirlo.
 
@@ -101,7 +101,7 @@ Si se cierra un recorrido activo, las cuentas que se encuentran actualmente en e
 
 >[!IMPORTANT]
 >
->Cuando el recorrido de la cuenta se utiliza en otro recorrido desde un nodo _Iniciar una acción_ con la acción _Añadir cuenta a (otro) recorrido_, al cerrarlo a nuevas entradas se bloqueará esa acción de ese recorrido.
+>Cuando el recorrido de la cuenta se utiliza en otro recorrido desde un nodo _Iniciar una acción_ con la acción _[!UICONTROL Añadir cuenta a (otro) recorrido]_, al cerrarlo a nuevas entradas se bloqueará esa acción de ese recorrido.
 
 1. Haga clic en el nombre del recorrido para abrirlo.
 
@@ -155,6 +155,16 @@ Utilice una acción de eliminación para eliminar un recorrido de forma permanen
 
 1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Eliminar]**.
 
+## Revisar progresión de cuenta
+
+Para un recorrido publicado con el estado _Activo_, _Cerrado a nuevas entradas_, _Anulado_ o _Finalizado_, puede abrir el mapa del recorrido para revisar la progresión de la cuenta para los nodos de recorrido. Cada nodo del mapa muestra el número de cuentas que se van a alcanzar y, para los recorridos activos, el número de cuentas que hay actualmente en ese nodo.
+
+![Información de progresión de cuenta de nodo de Recorrido](./assets/node-account-progression-observability.png){width="400"}
+
+Cuando seleccione el nodo, haga clic en el número para ver una lista de cuentas que han introducido el nodo o que se encuentran actualmente en ese paso del recorrido.
+
+![Información de progresión de cuenta de nodo de Recorrido](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
+
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443210/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

@@ -4,10 +4,10 @@ description: 'Optimice el marketing basado en cuentas con grupos de compras: ide
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
-workflow-type: ht
-source-wordcount: '1187'
-ht-degree: 100%
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+workflow-type: tm+mt
+source-wordcount: '1193'
+ht-degree: 90%
 
 ---
 
@@ -30,7 +30,7 @@ Puede aumentar la eficacia del marketing estableciendo grupos de compras que ide
 | --------- | ------- |
 | Interés de la solución | Este componente proporciona la respuesta a lo siguiente: <ul><li>Como organización de marketing, ¿qué vende?</li><li>¿Qué producto o colección de productos quiere vender?</li></ul>  **Ejemplo::_** venta cruzada del nuevo producto X a clientes existentes |
 | Público de cuenta | Este componente proporciona la respuesta a lo siguiente: <ul><li>¿A quién le está vendiendo?</li><li>¿Cuál es la lista de cuentas que está segmentando?</li></ul> **Ejemplo:_** segmento de cuenta definido por las cuentas con el producto Y que tienen ingresos superiores a un millón |
-| Plantillas de función del grupo de compras | Este componente proporciona la respuesta a lo siguiente: <ul><li>¿Qué funciones está segmentando?</li><li>¿Qué conjunto de reglas se utiliza para determinar quién está asignado a la compra de funciones de grupo?</li></ul>  **_Ejemplo:_** asignar una persona con el cargo de director de marketing (CMO) a la función de responsable de tomar decisiones |
+| Plantillas de función del grupo de compras | Este componente proporciona la respuesta a lo siguiente: <ul><li>¿Qué funciones está segmentando?</li><li>¿Qué conjunto de reglas se utiliza para determinar quién está asignado a las funciones de grupo de compras?</li></ul>  **_Ejemplo:_** asignar una persona con el cargo de director de marketing (CMO) a la función de responsable de tomar decisiones |
 | Fases del grupo de compras | (Opcional) Este componente proporciona la respuesta a: ¿Cómo realiza el seguimiento del grupo de compra de cara al éxito o al fracaso? |
 
 ## Asignación de miembros
@@ -46,6 +46,10 @@ Para evitar anular por error una asignación de abonado en un grupo de compras, 
 * Si un usuario asigna manualmente un abonado a un grupo de compras, y esto va seguido de un trabajo de mantenimiento del grupo de compras que quita el mismo abonado del grupo de compras, el trabajo de mantenimiento **no elimina** ese abonado y no puede anular la asignación manual.
 * Si un usuario asigna manualmente un abonado a un grupo de compras y esto va seguido de un nodo de recorrido activado que quita el mismo abonado del grupo de compras, la acción del nodo **no elimina** ese abonado y no puede anular la asignación manual.
 * Si un nodo de acción de recorrido activado añade un abonado a un grupo de compras, y esto va seguido de un trabajo de mantenimiento de un grupo de compras que quita el mismo abonado del grupo de compras, el trabajo de mantenimiento **no elimina** ese abonado y no puede anular la asignación de la acción de recorrido.
+
+>[!NOTE]
+>
+>Los trabajos de mantenimiento de grupo de compra automatizada se ejecutan a diario a partir de la versión 2025.10.
 
 ## Flujo de trabajo del grupo de compras
 
@@ -96,11 +100,11 @@ Para acceder a los detalles de un grupo de compras, haga clic en el nombre del g
 
 ### Puntuación de integridad del grupo de compras
 
-La puntuación de integridad se utiliza para determinar si el grupo de compras tiene los abonados adecuados asignados a las funciones y está listo para utilizarse en un recorrido de cuentas. Esta puntuación es un porcentaje basado en el número de funciones dentro del grupo de compras y en cuántas funciones se han asignado con al menos un posible cliente.
+La puntuación de integridad se utiliza para determinar si el grupo comprador tiene el número correcto de miembros asignados a las funciones requeridas y está listo para utilizarse en un recorrido de cuentas. Esta puntuación es un porcentaje basado en el número de funciones dentro del grupo de compra y en la integridad de para cada una de las funciones definidas.
 
-Por ejemplo, si hay cuatro funciones dentro de un grupo de compras y tres de cuatro están asignadas al menos a un posible cliente, el grupo de compras está completado en un 75 %.
+El cálculo de la puntuación de integridad inicial comienza en el momento en que se crea el grupo de compra y se vuelve a calcular diariamente y cada vez que se crea o actualiza un grupo de compra.
 
-La puntuación de integridad del grupo de compras se vuelve a calcular cada vez que se crea o actualiza un grupo de compras.
+Consulte [Puntuaciones de integridad](./completeness-scores.md) para obtener información detallada acerca de la puntuación de integridad y los cálculos.
 
 ### Puntuación de participación de grupo de compras {#engagement-score}
 
@@ -112,4 +116,4 @@ Consulte [Puntuaciones de participación](./engagement-scores.md) para obtener i
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

@@ -4,9 +4,9 @@ description: Cree plantillas de funciones con asignación automática condiciona
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1303'
 ht-degree: 5%
 
 ---
@@ -120,6 +120,26 @@ Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTR
 
 Los cambios se guardarán automáticamente en el estado _Borrador_. Si no está listo para publicar la plantilla de roles, haga clic en la flecha izquierda (atrás) en la parte superior de la página y vuelva a la lista _[!UICONTROL Plantillas de roles]_.
 
+### Cambio de la configuración de puntuación de integridad
+
+De forma predeterminada, la integridad de un rol se define como un miembro asignado al rol. Si desea usar la integridad del grupo de compra como indicador de la preparación para las ventas o del éxito <!-- journey decisioning coming later-->, puede usar esta configuración para alinear la puntuación con el número de miembros por rol necesario para cerrar una oportunidad.
+
+Por ejemplo, para cerrar un acuerdo para la solución _X_, es necesario que se identifiquen y se involucren varios encargados de tomar decisiones de marketing, ya que varios equipos de marketing de una organización usarían la solución. En este caso, desea aumentar el umbral para calcular un grupo de compra _completo_ requiriendo al menos dos encargados de la toma de decisiones de marketing.
+
+Consulte [Puntuaciones de integridad](./completeness-scores.md) para obtener información detallada acerca de la puntuación de integridad y los cálculos.
+
+1. En la parte superior derecha de la página de plantilla de funciones, haga clic en **[!UICONTROL Configuración de puntuación de integridad]**.
+
+   ![Plantilla de roles - botón de configuración de puntuación de integridad](./assets/buying-group-details-edit-roles-completeness-settings.png){width="700" zoomable="yes"}
+
+1. En el cuadro de diálogo, cambie el valor **[!UICONTROL Miembros necesarios]** para cada rol definido según sea necesario.
+
+   Puede introducir el valor o hacer clic en **&amp;plus;** o **−** para aumentarlo o reducirlo.
+
+   ![Plantilla de roles - botón de configuración de puntuación de integridad](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
 ### Publicación de la plantilla de funciones
 
 Si la plantilla está lista para usarse, haga clic en **[!UICONTROL Publicar]** en la parte superior derecha.
@@ -162,4 +182,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
