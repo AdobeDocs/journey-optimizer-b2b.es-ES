@@ -167,4 +167,4 @@ Cuando seleccione el nodo, haga clic en el número para ver una lista de cuentas
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443210/?captions=spa&learn=on)

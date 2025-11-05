@@ -261,4 +261,4 @@ Si el perfil de la persona no era miembro de la lista inteligente, se omite la a
 
 ## Vídeo de información general
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443248/?captions=spa&learn=on)
