@@ -3,7 +3,7 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Entérese de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
 ht-degree: 98%
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Funciones de la IA agéntica
 
@@ -26,7 +26,7 @@ Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimi
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nuevo | Journey Build Agent analiza, idea y crea recorridos de forma conjunta en tiempo real, lo que permite a los especialistas en marketing iniciar sesión más rápido, mejorar la participación y generar tasas de conversión más altas. [Más información](../agents/journey-agent.md) |
 | Audience Agent | Nuevo | Audience Agent identifica y crea automáticamente grupos de compra con datos estructurados y no estructurados. Ayuda a los especialistas en marketing a dirigirse a las personas adecuadas de forma más rápida y precisa. [Más información](../agents/audience-agent-b2b.md) |
-| Account Qualification Agent | Nuevo | Consulte qué cuentas están listas para la siguiente fase mediante Account Qualification Agent en el asistente de IA. Este agente permite que los miembros de su equipo de ventas se centren en las cuentas correctas mediante la aparición de posibles clientes de alto valor y la automatización de los flujos de trabajo de calificación. [Más información](../agents/account-qualification-agent.md) |
+| Account Qualification Agent | Nuevo | Consulte qué cuentas están listas para la siguiente fase mediante Account Qualification Agent en el asistente de IA. Este agente permite que los miembros de su equipo de ventas se centren en las cuentas correctas mediante la aparición de posibles clientes de alto valor y la automatización de los flujos de trabajo de calificación. [Más información](../agents/sales-qualifier.md) |
 
 ## Notas de la versión 2025.10
 
