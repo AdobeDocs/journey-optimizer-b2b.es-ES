@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '3690'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -16,9 +16,9 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
-## Capacidades de inteligencia artificial aplicada a la agencia
+## Funciones de la IA agéntica
 
 Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimizer B2B edition en la interfaz del asistente de IA:
 
@@ -49,18 +49,18 @@ Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimi
 
 >[!NOTE]
 >
->Estos cambios de versión comienzan la implementación el 31 de octubre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>Los cambios en la versión comienzan a implementarse el 31 de octubre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ### Arquitectura simplificada
 
-Adobe Journey Optimizer B2B edition ya está disponible con una arquitectura simplificada. Con esta arquitectura actualizada, Journey Optimizer B2B edition y Marketo Engage ya no están en el mismo sistema y en el mismo almacén de datos. Journey Optimizer B2B edition solo recibe datos de Adobe Experience Platform. Sin embargo, sigue dependiendo de los derechos de Marketo Engage y algunas funciones de configuración para aprovisionar y configurar el sistema.
+Adobe Journey Optimizer B2B Edition ya está disponible con una arquitectura simplificada. Con esta arquitectura actualizada, Journey Optimizer B2B Edition y Marketo Engage ya no están en el mismo sistema y en el mismo almacén de datos. Journey Optimizer B2B Edition solamente recibe datos de Adobe Experience Platform. Sin embargo, sigue dependiendo de los derechos de Marketo Engage y algunas funciones de configuración para aprovisionar y configurar el sistema.
 
 Esta arquitectura actualizada ofrece varias ventajas:
 
 * **Unifique y escale fácilmente sus datos**: la plataforma actualizada admite modelos de datos complejos, incluidos objetos personalizados, grupos de compra y eventos de cuenta.
-* **Conectar varias instancias de Adobe Marketo Engage**: administre y unifique datos de varios entornos de Adobe Marketo Engage en un solo lugar.
-* **Mantenga sus datos seguros**: Las características avanzadas de privacidad y seguridad ayudan a proteger la información de sus clientes.
-* **Creado para el futuro**: esta actualización prepara a su organización para recibir mejoras e innovaciones continuas.
+* **Conecte varias instancias de Adobe Marketo Engage**: administre y unifique datos de varios entornos de Adobe Marketo Engage en un solo lugar.
+* **Mantenga sus datos seguros**: las características avanzadas de privacidad y seguridad ayudan a proteger la información de sus clientes.
+* **Creada para el futuro**: esta actualización prepara a su organización para recibir mejoras e innovaciones continuas.
 
 <!-- hold for later release 
 
@@ -84,7 +84,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 >[!NOTE]
 >
->Estos cambios de versión comienzan la implementación el 30 de septiembre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>Los cambios en la versión comienzan a implementarse el 30 de septiembre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2025.8
 

@@ -4,7 +4,7 @@ user-guide-description: Obtenga información acerca de la edición B2B de Adobe 
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 96%
          + [Información general](./content/email-templates.md)
          + [Creación de plantilla de correo electrónico](./content/email-template-authoring.md)
          + [Convertir imagen en plantilla](./content/email-template-image-convert.md)
-      + Plantillas de página de aterrizaje (Beta) {#landing-page-templates}
+      + Plantillas de la página de destino (beta) {#landing-page-templates}
          + [Información general](./content/landing-page-templates.md)
          + [Diseño de plantilla de la página de destino](./content/landing-page-template-design.md)
    + Fragmentos {#visual-fragments}
