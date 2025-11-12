@@ -5,9 +5,9 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Para evitar anular por error una asignación de abonado en un grupo de compras, 
 
 >[!NOTE]
 >
->Los trabajos de mantenimiento de grupo de compra automatizada se ejecutan a diario a partir de la versión 2025.10.
+>Los trabajos de mantenimiento de grupo de compras automatizada se ejecutan a diario a partir de la versión 2025.10.
 
 ## Flujo de trabajo del grupo de compras
 
@@ -100,11 +100,11 @@ Para acceder a los detalles de un grupo de compras, haga clic en el nombre del g
 
 ### Puntuación de integridad del grupo de compras
 
-La puntuación de integridad se utiliza para determinar si el grupo comprador tiene el número correcto de miembros asignados a las funciones requeridas y está listo para utilizarse en un recorrido de cuentas. Esta puntuación es un porcentaje basado en el número de funciones dentro del grupo de compra y en la integridad de para cada una de las funciones definidas.
+La puntuación de integridad se utiliza para determinar si el grupo de compras tiene el número adecuado de abonados asignados a las funciones necesarias y está listo para utilizarse en un recorrido de cuentas. Esta puntuación es un porcentaje basado en el número de funciones dentro del grupo de compra y en la integridad de cada una de las funciones definidas.
 
 El cálculo de la puntuación de integridad inicial comienza en el momento en que se crea el grupo de compra y se vuelve a calcular diariamente y cada vez que se crea o actualiza un grupo de compra.
 
-Consulte [Puntuaciones de integridad](./completeness-scores.md) para obtener información detallada acerca de la puntuación de integridad y los cálculos.
+Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener información detallada acerca de los cálculos y la puntuación de integridad.
 
 ### Puntuación de participación de grupo de compras {#engagement-score}
 
@@ -114,6 +114,6 @@ El cálculo de la puntuación de participación inicial comienza en cuanto crea 
 
 Consulte [Puntuaciones de participación](./engagement-scores.md) para obtener información detallada acerca de las actividades y los cálculos de puntuación de participación.
 
-## Vídeo de información general
+## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3452931/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
