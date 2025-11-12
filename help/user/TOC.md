@@ -4,7 +4,7 @@ user-guide-description: Obtenga información acerca de la edición B2B de Adobe 
 source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 97%
       + [Interés de la solución](./buying-groups/solution-interests.md)
       + [Plantillas de funciones](./buying-groups/buying-groups-role-templates.md)
       + [Funciones predeterminadas y personalizadas](./buying-groups/default-custom-roles.md)
-      + Puntuación de grupo de compra {#scoring}
+      + Puntuación del grupo de compras {#scoring}
          + [Puntuaciones de participación](./buying-groups/engagement-scores.md)
          + [Puntuaciones de integridad](./buying-groups/completeness-scores.md)
       + [Fases del grupo de compras](./buying-groups/buying-group-stages.md)
