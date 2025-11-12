@@ -116,4 +116,4 @@ Consulte [Puntuaciones de participación](./engagement-scores.md) para obtener i
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452931/?captions=spa&learn=on)
