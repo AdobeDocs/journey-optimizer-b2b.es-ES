@@ -223,4 +223,4 @@ En la parte inferior izquierda de la aplicación, haga clic en **[!UICONTROL Edi
 
 El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
