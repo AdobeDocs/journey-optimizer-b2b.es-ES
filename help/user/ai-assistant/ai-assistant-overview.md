@@ -5,9 +5,9 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1265'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,7 @@ El Asistente de IA en Journey Optimizer B2B edition se creó a partir de la mism
 
 ## Funciones del asistente de IA en Journey Optimizer B2B edition
 
-Para formular una respuesta a las preguntas enviadas, AI Assistant consulta una base de datos y traduce los datos de la base de datos a una respuesta legible en lenguaje natural. Esta respuesta es una representación interna de los datos subyacentes y también se conoce como _&#x200B;**_Gráfico de conocimientos_**&#x200B;_, una completa web de conceptos, datos y metadatos para una respuesta determinada. El gráfico de conocimiento consta de subgráficos a los que se hace referencia cada vez que se envían consultas:
+Para formular una respuesta a las preguntas enviadas, AI Assistant consulta una base de datos y traduce los datos de la base de datos a una respuesta legible en lenguaje natural. Esta respuesta es una representación interna de los datos subyacentes y también se conoce como _**_Gráfico de conocimientos_**_, una completa web de conceptos, datos y metadatos para una respuesta determinada. El gráfico de conocimiento consta de subgráficos a los que se hace referencia cada vez que se envían consultas:
 
 * Documentación de Experience League.
 * Artefactos operativos, como esquemas, campos, audiencias y recorridos.
@@ -60,7 +60,7 @@ Puede hacer preguntas al asistente de IA sobre sus perspectivas operativas en lo
 | Dominio | Metadatos admitidos | Metadatos no admitidos |
 | --- | --- | --- |
 | Atributos/campos | <li>Búsqueda de nombre de atributo <li>Atributo: relación de esquema <li>Atributo: relación de conjunto de datos <li>Atributo: relación de audiencia <li>Atributo: relación de destino | <li>Clase de atributo <li>Auditoría <li>Estado de obsolescencia <li>Etiquetas <li>Valor almacenado en atributos |
-| Audiencias de cuenta <br><br>**_Nota:_** El Asistente de IA de AJO B2B solo puede responder preguntas de audiencia para Audiencias de cuenta, mientras que el Asistente de IA de Experience Platform solo puede responder preguntas para Audiencias de persona | <li>Recuento de público <li>Tipo de audiencia (flujo continuo o por lotes) <li>Fechas de creación/modificación <li>Estado de activación <li>Recuento de miembros <li>Duplicar audiencias <li>Búsqueda de nombre e ID | <li>Solapamientos de público <li>Activación del público <li>Auditoría <li>Crear/modificar <li>Etiquetas <li>Tendencias de cualificaciones de miembros |
+| Audiencias de cuenta <br><br>**_Note:_** En el contexto de Journey Optimizer B2B edition, el Asistente de IA solo puede responder preguntas de audiencia para Audiencias de cuenta. En el contexto de Experience Platform, el Asistente de inteligencia artificial solo puede responder preguntas para audiencias de persona. | <li>Recuento de público <li>Tipo de audiencia (flujo continuo o por lotes) <li>Fechas de creación/modificación <li>Estado de activación <li>Recuento de miembros <li>Duplicar audiencias <li>Búsqueda de nombre e ID | <li>Solapamientos de público <li>Activación del público <li>Auditoría <li>Crear/modificar <li>Etiquetas <li>Tendencias de cualificaciones de miembros |
 | Flujos de datos | <li>Recuentos de flujo de datos <li>Estado de flujo de datos <li>Flujo de datos: relación de conjunto de datos <li>Flujo de datos: relación de origen | <li>Creación/modificación <li>Relaciones entre flujo de datos y lotes <li>Ingesta de recuento de perfiles |
 | Conjuntos de datos | <li>Recuento de conjuntos de datos <li>Estado de habilitación de perfil <li>Fecha de creación/modificación <li>Conjunto de datos: relación de esquema <li>Conjunto de datos: relación de audiencia <li>Conjunto de datos: relación de atributos <li>Conjunto de datos: relación de flujo de datos <li>Búsqueda de nombres <li>Búsqueda de nombre e ID | <li>Auditoría <li>Creado por <li>Conjunto de datos: relación por lotes <li>Creación/modificación de conjuntos de datos <li>Tamaño del conjunto de datos <li>Número de perfiles <li>Número de filas <li>Búsqueda de valores |
 | Destinos | <li>Recuentos de destino configurados <li>Destino: relación de audiencia <li>Relación de atributo de destino | <li>Configuración de cuenta <li>Información de credenciales de cuenta <li>Perfiles únicos activados |
@@ -92,7 +92,7 @@ El asistente de IA de Journey Optimizer B2B edition está diseñado con privacid
 
 * Debe tener permiso explícito para interactuar con el Ayudante de IA.
 
-   * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} y [Admin Console](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} y [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Los permisos son granulares y el administrador de la zona protegida puede configurar qué usuarios pueden hacer diferentes categorías de preguntas (preguntas basadas en el conocimiento del producto con el asistente de IA o preguntas sobre perspectivas operativas).
 

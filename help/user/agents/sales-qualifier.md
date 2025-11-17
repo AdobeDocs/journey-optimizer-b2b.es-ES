@@ -1,11 +1,11 @@
 ---
 title: Calificador de ventas
-description: Aprenda a utilizar la aplicación Calificador de ventas para acelerar y mantener sus recorridos.
-feature: Account Journeys, AI Assistant
+description: Automatice la calificación y alcance de clientes potenciales B2B con el Calificador de ventas. Proporciona investigación basada en IA, redacción de correos electrónicos, integración de CRM y planes de participación para BDR.
+feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 1%
 >Esta función se encuentra actualmente en disponibilidad limitada y no está disponible para todos los usuarios.
 >
 
-El cualificador de ventas es una aplicación complementaria de Adobe Journey Optimizer B2B edition basada en IA que contiene Account Qualification Agent y que está diseñada para optimizar los flujos de trabajo de los representantes de desarrollo empresarial (BDR). El calificador de ventas automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales, reduciendo la carga manual de BDR y acelerando la velocidad de la canalización para las empresas B2B empresariales.
+Sales Qualifier es una aplicación complementaria de Adobe Journey Optimizer B2B edition basada en IA que contiene Account Qualification Agent y que está diseñada para optimizar los flujos de trabajo de los representantes de desarrollo empresarial (BDR). El Cualificador de ventas automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. Reduce la carga manual de BDR y acelera la velocidad de la canalización para las empresas B2B empresariales.
 Utilice los complementos de explorador y correo electrónico para acceder a inteligencia empresarial directamente desde CRM o Outlook.
 
-El calificador de ventas se incluye con AJO B2B, pero es una aplicación independiente dentro de AEP Experience Cloud.
+El calificador de ventas se incluye con Journey Optimizer B2B edition, pero se trata de una aplicación independiente dentro de Experience Platform Experience Cloud.
 
 ![Página de inicio del calificador de ventas](assets/home-screen.png)
 
 ## Account Qualification Agent
 
-Account Qualification Agent (AQA) es el núcleo del Calificador de ventas. El AQA utiliza IA para leer sus cuentas y determinar cuáles están listas para el siguiente paso.  Ayuda con la investigación, redacción de correos electrónicos y actualizaciones de CRM.
+Account Qualification Agent (AQA) es el núcleo del Calificador de ventas. El AQA utiliza IA para leer sus cuentas y determinar cuáles están listas para el siguiente paso. Ayuda con la investigación, la redacción de correos electrónicos y las actualizaciones de CRM.
 
 ![Account Qualification Agent](assets/acc-qualification-agent.png)
 
@@ -52,9 +52,9 @@ Los agentes de inteligencia artificial aplicada a Adobe usan _consultas en lengu
 
 Con el lenguaje natural, puede pedir al agente que:
 
-* Mostrar mis posibles clientes asignados sin participación todavía
-* Muéstrame todos mis leads que no formen parte de ningún compromiso autónomo
-* Dame un resumen detallado de `<company>`, incluido su grupo de compra, las señales de intención recientes y nuestro compromiso anterior.
+* `Show me my assigned leads with no engagement yet`
+* `Show me all my leads that are not part of any autonomous engagement`
+* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
 
 Puedes entender inmediatamente qué cuentas y clientes potenciales son los más activos y mostrar la intención más alta, para que puedas enfocar tu energía donde tenga el mayor impacto.
 
@@ -66,11 +66,11 @@ Itere sobre el recorrido refinando los indicadores para obtener los resultados q
 
 ## Perspectivas
 
-Esta ventana enumera todos los posibles clientes a los que tiene acceso. Es muy rápido comprobar cosas como el estado del posible cliente y la última actividad.
+Esta ventana enumera todos los posibles clientes a los que tiene acceso. Es una comprobación rápida de cosas, como el estado del posible cliente y la última actividad.
 
 ![Ver todos los posibles clientes en la tabla de posibles clientes](assets/prospects.png)
 
-Haga clic en el icono Filtro ![Icono de filtro](../assets/icon-filter.png) para filtrar por estado de posible cliente.
+Haga clic en el icono _Filtrar_ ![Icono de filtro](../../assets/do-not-localize/icon_filter-outline.svg) para filtrar la lista mostrada por estado de posible cliente.
 
 ## Planes de participación
 
@@ -80,10 +80,10 @@ Esta ventana proporciona detalles sobre cualquier plan de participación definid
 
 Para crear un nuevo plan de participación, haga clic en **[!UICONTROL Crear plan de participación]**.
 
-1. En la fase Detalles, proporcione un nombre y una descripción opcional. Haga clic en **[!UICONTROL Guardar y continuar]**.
-1. En la fase Seleccionar posibles clientes, seleccione los posibles clientes que deben pertenecer a este plan.
-1. En la fase Definir cadencia, defina los parámetros del plan.
-1. En la fase de vista previa, asegúrese de que todo funciona según lo esperado.
+1. En la fase _Detalles_, proporcione un nombre y una descripción opcional. Haga clic en **[!UICONTROL Guardar y continuar]**.
+1. En la fase _Seleccionar posibles clientes_, seleccione los posibles clientes que deben pertenecer a este plan.
+1. En la fase _Definir cadencia_, establezca los parámetros del plan.
+1. En el paso _Vista previa_, asegúrese de que todo funciona según lo esperado.
 
 ## Bandeja de salida de correo
 
@@ -99,7 +99,7 @@ Este panel muestra todos los hilos de chats.
 
 ![Bandeja de entrada de chat](assets/chat-inbox.png)
 
-No solo puede interactuar con los clientes, sino que también puede ver un resumen del contacto y un resumen del hilo, de modo que pueda saber rápidamente dónde se encuentra en el hilo.
+Puede interactuar con los clientes y ver resúmenes del contacto y del subproceso para saber rápidamente dónde se encuentra en el subproceso.
 
 ## Integraciones
 
@@ -116,12 +116,12 @@ Para iniciar una nueva integración, haga clic en **[!UICONTROL Crear integraci�
 
 ![Detalles de integración](assets/integration-details.png)
 
-Aquí definimos la URL de la integración y establecemos la carga útil que se va a enviar.
+Defina la URL de la integración y establezca la carga útil que desea enviar:
 
 1. Proporcione un nombre único y una descripción (opcional) para la integración.
 1. Establezca el campo URL en el punto final de autenticación de integración de su sitio de integración.
 1. En Parámetros de ruta, establezca el método HTTP.
-1. En Parámetros de encabezado, configure los encabezados HTTP que necesite enviar. Por lo general, un objeto JSON que se envía y requiere un encabezado de tipo de contenido.
+1. En Parámetros de encabezado, configure los encabezados HTTP que necesite enviar. Por lo general, se envía un objeto JSON y requiere un encabezado de tipo de contenido.
 1. En Parámetros de consulta, establezca los parámetros necesarios.
 1. En Autenticación, configure la información de inicio de sesión para el sitio de integración.
 
@@ -130,27 +130,28 @@ Aquí definimos la URL de la integración y establecemos la carga útil que se v
    * Clave de API
    * Autenticación básica
 
-1. Establezca los valores de regulación y caché en la sección Configuración de carga útil.
-1. En Configuración de carga útil, haga clic en el icono de lápiz. En el cuadro de diálogo Pegar carga útil, pegue o introduzca su objeto de carga útil JSON.
-   * Solicitar carga útil: un objeto JSON que contiene datos para enviar el sitio de integración.
-   * Carga útil de respuesta: la estructura de datos que espera obtener a cambio.
-1. Haga clic en [!UICONTROL Probar conexión] para asegurarse de que la configuración es correcta.
+1. Establezca los valores de restricción y caché en la sección **[!UICONTROL Configuración de carga útil]**.
+   * Haga clic en el icono de lápiz.
+   * En el cuadro de diálogo _Pegar carga útil_, pegue o escriba su objeto de carga útil JSON.
+
+      * **[!UICONTROL Solicitar carga útil]**: un objeto JSON que contiene datos para enviar al sitio de integración.
+      * **[!UICONTROL Carga de respuesta]**: La estructura de datos que espera que se devuelva.
+
+1. Haga clic en **[!UICONTROL Probar conexión]** para asegurarse de que la configuración es correcta.
 
 Cuando la configuración de conexión sea válida, haga clic en **[!UICONTROL Guardar como borrador]**.
 
-Cuando vuelva a la tabla de integraciones principal, seleccione la integración y haga clic en **[!UICONTROL Activar]** para activar la integración, o en **[!UICONTROL Guardar como borrador]**.
-
-
+Cuando vuelva a la tabla principal de _[!UICONTROL Integraciones]_, seleccione la integración y haga clic en **[!UICONTROL Activar]** para activar la integración. Si no está listo para activarlo, haga clic en **[!UICONTROL Guardar como borrador]**.
 
 #### Administrar acceso
 
-Puede administrar el acceso a los usuarios y qué tipo de datos se comparten con distintos grupos de usuarios.
+Puede administrar el acceso a los usuarios y el tipo de datos que se comparten con distintos grupos de usuarios.
 
-Haga clic en **[!UICONTROL Administrar acceso]** para abrir el cuadro de diálogo Administrar acceso.
+Haga clic en **[!UICONTROL Administrar acceso]** para abrir el cuadro de diálogo _[!UICONTROL Administrar acceso]_.
 
-Este cuadro de diálogo enumera todas las etiquetas que ha establecido su organización. Seleccione las etiquetas que desee aplicar a esta integración.
+Este cuadro de diálogo enumera todas las etiquetas establecidas para su organización. Seleccione las etiquetas que desee aplicar a esta integración.
 
-Si necesita una etiqueta nueva, haga clic en **[!UICONTROL Crear etiqueta]** y rellene:
+Si necesita una etiqueta nueva, haga clic en **[!UICONTROL Crear etiqueta]** e introduzca la información de la etiqueta:
 
 * Nombre
 * Nombre descriptivo
@@ -158,56 +159,45 @@ Si necesita una etiqueta nueva, haga clic en **[!UICONTROL Crear etiqueta]** y r
 
 ## Configuración de representante
 
-Aquí es donde introduce información sobre usted: detalles personales, configuración de correo electrónico y calendario y disponibilidad del chat.
+La configuración de representante especifica información sobre usted, incluyendo detalles personales, configuración de correo electrónico y calendario, y disponibilidad de chat.
 
 ### Detalles
 
-La pestaña Detalles es donde se introduce información sobre el usuario:
+En la ficha **[!UICONTROL Detalles]** se escribe información sobre usted:
 
 ![Configuración de detalles del calificador de ventas](assets/details.png)
 
 ### Configuración de correo electrónico
 
-En la pestaña Configuración de correo electrónico, configure las conexiones de correo electrónico.
+En la pestaña **[!UICONTROL Configuración de correo electrónico]**, configure las conexiones de correo electrónico.
 
 ![Configuración de correo electrónico](assets/email-settings.png)
 
-#### Conexiones de correo electrónico
+* **[!UICONTROL Conexiones de correo electrónico]** - Haga clic en **[!UICONTROL Conectar]** y siga el procedimiento de inicio de sesión de Microsoft.
 
-Haga clic en **[!UICONTROL Conectar]** y siga el procedimiento de inicio de sesión de Microsoft.
-
-#### Firma de correo electrónico
-
-Configure la firma de correo electrónico que se utiliza en los correos electrónicos autogenerados.
+* **[!UICONTROL Firma de correo electrónico]**: configure la firma de correo electrónico que se usa en los correos electrónicos generados automáticamente.
 
 ### Configuración del calendario
 
-En la pestaña Configuración del calendario, establezca la zona horaria y la disponibilidad.
+En la ficha **[!UICONTROL Configuración del calendario]**, establezca la zona horaria y la disponibilidad.
 
 ![Configuración del calendario](assets/calendar-settings.png)
 
-#### Conexión de calendario
+* **[!UICONTROL Conexión de calendario]** - Haga clic en **[!UICONTROL Conectar]** y siga el procedimiento de inicio de sesión de Microsoft para integrar su calendario.
 
-Haga clic en **[!UICONTROL Conectar]** y siga el procedimiento de inicio de sesión de Microsoft para integrar su calendario.
+* **[!UICONTROL Correo electrónico de confirmación de la reunión]**: cuando un cliente confirma una reunión con usted, recibe el correo electrónico de confirmación como respuesta. Utilice esta configuración para definir el asunto y el cuerpo del correo electrónico.
 
-#### Correo electrónico de confirmación de la reunión
-
-Cuando un cliente confirma una reunión con usted, recibe el correo electrónico de confirmación como respuesta.
-Utilice esta configuración para definir el asunto y el cuerpo del correo electrónico.
-
-#### Preferencias
-
-Establezca la duración predeterminada de la reunión y el tiempo que desea entre reuniones consecutivas.
+* **[!UICONTROL Preferencias]**: establezca la duración predeterminada de la reunión y el tiempo que desee entre reuniones consecutivas.
 
 ### Configuración de chat
 
-En esta pestaña, establezca la disponibilidad del chat de Zona horaria en vivo.
+En la pestaña **[!UICONTROL Configuración de chat]**, establece la disponibilidad del chat en vivo de Timezone.
 
 ![Configuración de chat](assets/chat-settings.png)
 
 ## Gestión representativa
 
-En este panel, se muestra una tabla de todos los representantes definidos y su estado de calendario.
+El panel _[!UICONTROL Administración de representantes]_ muestra los representantes definidos y su estado de calendario.
 
 ## Rendimiento de las reuniones
 
@@ -225,7 +215,7 @@ Cuando el complemento está instalado en Chrome, el logotipo de Adobe aparece en
 * Microsoft Dynamics y aplicaciones web
 * Aplicaciones de Google
 
-## Editar barra de navegación izquierda
+## Editar la barra de navegación izquierda
 
 En la parte inferior izquierda de la aplicación, haga clic en **[!UICONTROL Editar]** para controlar cuáles de los iconos son visibles en la navegación. También puede arrastrarlos y soltarlos para reordenarlos como desee.
 
@@ -233,4 +223,4 @@ En la parte inferior izquierda de la aplicación, haga clic en **[!UICONTROL Edi
 
 El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)

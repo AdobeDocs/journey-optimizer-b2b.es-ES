@@ -4,9 +4,9 @@ description: 'Cree mensajes SMS para recorridos de cuenta con personalización, 
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: aa79e0655737541f122801f28db73d9f31ebb2f7
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1299'
 ht-degree: 3%
 
 ---
@@ -49,15 +49,15 @@ Escriba el texto que desee enviar en el campo **[!UICONTROL Mensaje]**.
 
 Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caracteres como un solo mensaje SMS.
 
-![Haga clic en el icono Personalizar para agregar tokens al mensaje](./assets/sms-message-compose.png){width="800" zoomable="yes"}
+![Escribir el mensaje SMS](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
 #### Personalización del mensaje de texto
 
-1. En cualquier momento durante la creación del mensaje de texto, haga clic en el icono _Personalizar_ ( ![Personalizar icono](../assets/do-not-localize/icon-personalize.svg) ) a la derecha del cuadro de mensaje de texto.
+1. Coloque el cursor en la ubicación del mensaje donde desee agregar el token de personalización.
 
-   La página mostrada proporciona acceso a los tokens de cliente potencial y de sistema de Adobe Marketo Engage. Se incluyen tokens estándar y personalizados. Puede usar la barra _Buscar_ para encontrar el token que necesita, o navegar por el árbol de carpetas para buscar y seleccionar cualquiera de los tokens de cliente potencial/sistema.
+1. Haga clic en el icono _Personalizar_ ( ![Personalizar icono](../assets/do-not-localize/icon-personalize.svg) ) a la derecha del cuadro de mensaje de texto.
 
-1. Coloque el cursor en la ubicación del mensaje donde desee agregar el token.
+   El cuadro de diálogo proporciona acceso a los tokens de cuenta, tokens de persona y tokens del sistema. Se incluyen tokens estándar y personalizados. Puede usar la barra _Buscar_ para encontrar el token que necesita, o navegar por el árbol de carpetas para buscar y seleccionar cualquiera de los tokens.
 
 1. Agregue un token haciendo clic en el símbolo más ( **+** ) que hay junto a él.
 
@@ -77,13 +77,15 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
 
 1. Después de escribir el texto del mensaje, haga clic en el icono _Vínculo_ ( ![Icono de vínculo](../assets/do-not-localize/icon-link.svg) ) a la derecha del cuadro de mensaje de texto.
 
-1. En el cuadro de diálogo, elija el tipo de URL que desea vincular:
+1. Escriba la **[!UICONTROL URL]** para el vínculo.
+<!--    
+1. In the dialog, choose the type of URLs to link:
 
-   * **[!UICONTROL Página de aterrizaje]**: elija esta opción para seleccionar cualquiera de las páginas de aterrizaje de Adobe Marketo Engage aprobadas en la instancia de Marketo Engage. Seleccione el espacio de trabajo y, a continuación, la página de aterrizaje.
+   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
 
-   * **[!UICONTROL Dirección URL externa]**: este tipo es cualquier dirección URL externa que escriba en el cuadro de texto.
+   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. -->
 
-1. Si decide utilizar una página de aterrizaje, defina las opciones de seguimiento.
+1. Si decide utilizar una página de aterrizaje de Marketo Engage, configure las opciones de seguimiento.
 
    * **[!UICONTROL Habilitar seguimiento]** - Seleccione esta casilla de verificación para habilitar el seguimiento, lo que requiere _acortar_ la dirección URL. Para una página de aterrizaje, utiliza el subdominio de Marketo Engage para la URL abreviada. Se muestra un ejemplo del formato de URL abreviado. La dirección URL real se crea cuando se envía el SMS al destinatario.
 
@@ -92,7 +94,7 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
      >[!NOTE]
      >
      >Cuando permite el seguimiento pero deshabilita _[!UICONTROL Incluir mkt_tok]_, la dirección URL de destino no incluye el parámetro de cadena de consulta `mkt_tok` después del redireccionamiento. Este parámetro lo utilizan las páginas de aterrizaje de Marketo Engage y Munchkin para garantizar que el seguimiento de las actividades personales (como cuando una persona cancela la suscripción de un correo electrónico). No deshabilite esta opción a menos que el parámetro esté causando problemas en el sitio web.<br/>
-     >Para obtener más información sobre cómo usar los códigos de seguimiento de Munchkin en tu sitio web, consulta la [documentación de Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Para obtener más información sobre cómo usar los códigos de seguimiento de Munchkin en tu sitio web, consulta la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Cuadro de diálogo Agregar vínculo para mensaje SMS](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -109,15 +111,15 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
    * Use `Marketing` para mensajes de texto promocionales, que requieren el consentimiento del usuario.
    * Use `Transactional` para mensajes no comerciales, como confirmaciones de pedidos, notificaciones de restablecimiento de contraseña o información de envío.
 
-1. Para **[!UICONTROL configuración de SMS]**, elija una de las configuraciones de API predefinidas.
+1. Para la **[!UICONTROL configuración de SMS]**, elija una de las [configuraciones de API de SMS](../admin/configure-channels-sms.md#create-new-api-credentials-for-an-sms-service-provider) predefinidas.
 
    Esta configuración determina qué cuenta y proveedor de servicios de puerta de enlace SMS se utiliza para enviar el mensaje.
 
 1. Escriba el **[!UICONTROL número de remitente]** &#x200B;que desee usar para sus comunicaciones.
 
-   ![Realizar una acción - enviar sms](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![Propiedades del mensaje SMS](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   El número de destinatario siempre está asignado al campo `Lead.mobilePhone` en Marketo Engage.
+   El número de destinatario siempre está asignado al campo `profile.mobilePhone.number` en Experience Platform.
 
 ### Simule el contenido del mensaje de texto {#preview-test}
 
@@ -160,7 +162,7 @@ Cuando se define el contenido del mensaje, puede utilizar perfiles de prueba par
 
 Proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones de una marca y cumplir con esta opción es un requisito legal. El incumplimiento de estas regulaciones conlleva riesgos legales para su marca. Esta función también le ayuda a evitar enviar comunicaciones no solicitadas a sus destinatarios, lo que podría hacer que marquen sus mensajes como correo no deseado y dañar su reputación.
 
-Cuando proporciona esta opción, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. Se admiten y respetan todas las palabras clave de inclusión y exclusión estándar, así como cualquier palabra clave personalizada que se haya configurado en el proveedor de servicios SMS. Al cancelar la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.
+Cuando proporciona esta opción, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. Se admiten y respetan todas las palabras clave de inclusión y exclusión estándar, así como cualquier palabra clave personalizada que se haya configurado con el proveedor de servicios SMS. Al cancelar la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.
 
 Journey Optimizer B2B edition permite administrar la exclusión en mensajes SMS mediante la siguiente lógica:
 
