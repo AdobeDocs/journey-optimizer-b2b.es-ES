@@ -4,9 +4,9 @@ description: 'Diseñe correos electrónicos, páginas de aterrizaje y fragmentos
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2843'
 ht-degree: 6%
 
 ---
@@ -293,7 +293,7 @@ En la ficha _[!UICONTROL Configuración]_, use las opciones de **[!UICONTROL Ví
 
    * **[!UICONTROL Vínculo externo]**: elija este tipo para usar una dirección URL estándar como destino del vínculo.
 
-     En **[!UICONTROL URL]**, escriba la dirección URL del destino del vínculo. Haga clic en el icono _Personalizar_ ( ![Personalizar icono](../assets/do-not-localize/icon-personalize.svg) ) para usar un token de personalización como parámetro en la dirección URL.
+     En **[!UICONTROL URL]**, escriba la dirección URL del destino del vínculo. Haga clic en el icono _Personalizar_ ( ![Icono Personalizar](../assets/do-not-localize/icon-personalize.svg) ) para usar un token de personalización como parámetro en la dirección URL.
 
      ![Definir un vínculo externo para un componente de botón](./assets/component-button-link-options-external.png){width="200"}
 
@@ -537,7 +537,7 @@ Elija [tipo de origen de recurso](./assets-overview.md) y seleccione un archivo 
 
   ![Examinar los recursos de imagen disponibles](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-  En el cuadro de diálogo, puede elegir una imagen del repositorio y del espacio de trabajo seleccionados. Haga clic en **[!UICONTROL Seleccionar]** para agregar el recurso.
+  En el cuadro de diálogo, puede elegir una imagen del repositorio seleccionado. Haga clic en **[!UICONTROL Seleccionar]** para agregar el recurso.
 
   Hay herramientas disponibles para ayudarle a localizar el recurso que necesita:
 
@@ -591,7 +591,7 @@ En la ficha _[!UICONTROL Configuración]_, use las opciones de **[!UICONTROL Ví
 
    * **[!UICONTROL Vínculo externo]**: elija este tipo para usar una dirección URL estándar como destino del vínculo.
 
-     En **[!UICONTROL URL]**, escriba la dirección URL del destino del vínculo. Haga clic en el icono _Personalizar_ ( ![Personalizar icono](../assets/do-not-localize/icon-personalize.svg) ) para usar un token de personalización como parámetro en la dirección URL.
+     En **[!UICONTROL URL]**, escriba la dirección URL del destino del vínculo. Haga clic en el icono _Personalizar_ ( ![Icono Personalizar](../assets/do-not-localize/icon-personalize.svg) ) para usar un token de personalización como parámetro en la dirección URL.
 
      ![Definir un vínculo externo para un componente de botón](./assets/component-button-link-options-external.png){width="250"}
 

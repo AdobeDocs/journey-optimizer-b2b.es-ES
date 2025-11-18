@@ -1,31 +1,31 @@
 ---
 title: Recursos
-description: Administre recursos de imagen de Marketo Engage Design Studio y AEM Assets para correos electrónicos, plantillas y fragmentos en Journey Optimizer B2B Edition.
+description: Administre recursos de imagen desde Journey Optimizer B2B edition y AEM Assets para correos electrónicos, plantillas y fragmentos.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
-workflow-type: ht
-source-wordcount: '883'
-ht-degree: 100%
+source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+workflow-type: tm+mt
+source-wordcount: '858'
+ht-degree: 70%
 
 ---
 
 # Recursos
 
-En [!DNL Adobe Journey Optimizer B2B Edition], los recursos suelen ser las imágenes utilizadas al diseñar contenido para admitir recorridos de cuenta. Puede utilizar estas imágenes dentro de los correos electrónicos, las plantillas de correo electrónico y los fragmentos del selector de recursos o una sencilla interfaz de arrastrar y soltar dentro del espacio de diseño visual.
+En [!DNL Adobe Journey Optimizer B2B Edition], los recursos suelen ser las imágenes utilizadas al diseñar contenido para admitir recorridos de cuenta. Puede utilizar estas imágenes en sus correos electrónicos, plantillas de correo electrónico y fragmentos desde el selector de recursos o desde una sencilla interfaz de arrastrar y soltar dentro del espacio de diseño visual.
 
-[!DNL Journey Optimizer B2B Edition] ofrece a los especialistas en marketing acceso a dos tipos de bibliotecas de recursos: [!DNL Adobe Marketo Engage] [!DNL Design Studio] y [!DNL Adobe Experience Manager Assets as a Cloud Service]. Solo puede utilizar Adobe Marketo Engage Design Studio o ambas bibliotecas configuradas al mismo tiempo (según la licencia de [!DNL Experience Manager Assets] que tenga).
+[!DNL Journey Optimizer B2B Edition] ofrece a los diseñadores y a los especialistas en marketing acceso a dos tipos de bibliotecas de recursos: un repositorio de recursos [!DNL Journey Optimizer B2B Edition] interno y [!DNL Adobe Experience Manager Assets as a Cloud Service]. Puede usar solamente el repositorio integrado o ambos tipos de biblioteca al mismo tiempo (según la licencia de [!DNL Experience Manager Assets] que tenga).
 
 ## Administración de recursos
 
-Si se le ha proporcionado [!DNL Adobe Experience Manager as a Cloud Services], tendrá acceso a los repositorios tanto para [!DNL Marketo Engage Design Studio] como para [!DNL Adobe Experience Manager Assets as a Cloud Service] cuando su cuenta de usuario posea los permisos necesarios. Estos repositorios son independientes y no están sincronizados. Puede utilizar imágenes de cualquier origen.
+Si se le ha proporcionado [!DNL Adobe Experience Manager as a Cloud Services] y está configurado como origen de recursos en [!DNL Journey Optimizer B2B Edition], tendrá acceso a ambos tipos de repositorio cuando su cuenta de usuario tenga los permisos necesarios. Estos repositorios son independientes y no están sincronizados. Puede utilizar imágenes de cualquier origen.
 
-### Usuarios de Adobe Marketo Engage
+### Activos internos
 
-El repositorio de recursos [!DNL Adobe Marketo Engage Design Studio] se proporciona de manera predeterminada con cada suscripción de [!DNL Journey Optimizer B2B Edition]. Esto significa que tiene acceso a cualquiera de los recursos de imagen almacenados en [!DNL Adobe Marketo Engage] ([!UICONTROL Design Studio] > [!UICONTROL Imágenes y archivos]). Puede utilizar este repositorio como su biblioteca de recursos local, incluidas las funciones de carga y descarga de recursos. También puede utilizar estos recursos dentro del contenido del recorrido.
+El repositorio de recursos interno se proporciona de manera predeterminada con cada suscripción de [!DNL Journey Optimizer B2B Edition]. Esto significa que tiene acceso a cualquiera de los recursos de imagen almacenados en el sistema de archivos de recursos de [!DNL Adobe Marketo Engage] conectado. Puede utilizar este repositorio como su biblioteca de recursos local, incluidas las funciones de carga y descarga de recursos. También puede utilizar estos recursos dentro del contenido del recorrido.
 
-Existen protecciones integradas que impiden realizar ediciones en los recursos de [!DNL Marketo Engage] desde [!DNL Journey Optimizer B2B Edition], así como eliminar y mover operaciones. Estas protecciones garantizan que los recursos de origen (Marketo Engage Design Studio) se mantengan, al tiempo que permiten una lectura y reutilización sin problemas en [!DNL Journey Optimizer B2B Edition].
+Puede [editar estos recursos mediante Adobe Express](./image-edit-adobe-express.md) y moverlos a carpetas para organizarlos y usarlos en sus correos electrónicos, plantillas y fragmentos.
 
 Formatos de archivo compatibles: JPG, JPEG, GIF, PNG, EPS, SVG y RGB
 
@@ -45,7 +45,7 @@ Actualmente, solo puede utilizar imágenes de Adobe Experience Manager Assets en
 
 ## Uso de recursos para la creación de contenido
 
-Utilice recursos a medida que crea sus correos electrónicos, plantillas de correo electrónico y fragmentos visuales. El editor de contenido visual proporciona acceso a las imágenes de los repositorios de recursos conectados. Si tiene una suscripción a Experience Manager Assets as a Cloud Service junto con Adobe Marketo Engage Design Studio predeterminado, puede elegir recursos de imagen de cualquier origen. También puede cargar un recurso de imagen, que lo colocará en el espacio de trabajo [!DNL Journey Optimizer B2B Edition] del repositorio [!DNL Marketo Engage Design Studio] conectado.
+Utilice recursos a medida que crea sus correos electrónicos, plantillas de correo electrónico y fragmentos visuales. El editor de contenido visual proporciona acceso a las imágenes de los repositorios de recursos conectados. Si también tiene una suscripción para Experience Manager Assets as a Cloud Service, puede elegir recursos de imagen de cualquiera de las fuentes. También puede cargar un recurso de imagen, que lo coloca en el repositorio de recursos interno.
 
 Puede elegir el origen de la imagen al editar la configuración de un componente de imagen o directamente en el lienzo.
 
@@ -65,15 +65,15 @@ Puede añadir un recurso de imagen a medida que crea el contenido, según el ori
 
 >[!BEGINTABS]
 
->[!TAB Marketo Engage Assets]
+>[!TAB Seleccionar recurso]
 
-Haga clic en **[!UICONTROL Marketo Engage Assets]** para abrir el selector de recursos, donde podrá elegir una imagen del espacio de trabajo de [!DNL Marketo Engage] o de Journey Optimizer B2B Edition.
+Haga clic en **[!UICONTROL Seleccionar recurso]** para abrir el selector de recursos, donde podrá elegir una imagen del repositorio de recursos de Journey Optimizer B2B edition.
 
-![Seleccionar un recurso de imagen del espacio de trabajo](./assets/content-assets-image-me-selected.png){width="700" zoomable="yes"}
+![Seleccionar un recurso de imagen](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
 
 Puede utilizar la búsqueda y los filtros para localizar el recurso de imagen deseado. Seleccione el recurso y haga clic en **[!UICONTROL Seleccionar]** para utilizarlo en el componente de imagen.
 
-Para obtener información más detallada sobre cómo usar los recursos de imagen de [!DNL Marketo Engage], consulte [Uso de recursos en el contenido](./marketo-engage-design-studio.md#use-assets-in-your-content).
+Para obtener información más detallada sobre cómo usar recursos de imagen internos, consulte [Usar recursos en el contenido](./internal-image-assets.md#use-assets-in-your-content).
 
 >[!TAB Experience Manager Assets]
 
@@ -89,8 +89,8 @@ Para obtener información más detallada sobre el uso de archivos de imagen de [
 
 Haga clic en **[!UICONTROL Importar medios]** para seleccionar un archivo de imagen e importarlo como un recurso que se pueda usar para el contenido de Journey Optimizer B2B Edition.
 
-![Seleccione su propio archivo de imagen para importarlo como recurso](./assets/content-assets-image-import-file-selected.png){width="500" zoomable="yes"}
+![Seleccione su propio archivo de imagen para importarlo como recurso](./assets/content-assets-image-import-file-selected.png){width="450" zoomable="yes"}
 
-Después de arrastrar y soltar el archivo o seleccionarlo en el sistema de archivos, haga clic en **[!UICONTROL Importar]**. El recurso importado se almacena en el espacio de trabajo [!DNL Journey Optimizer B2B Edition] del repositorio [!DNL Adobe Marketo Engage Design Studio].
+Después de arrastrar y soltar el archivo o seleccionarlo en el sistema de archivos, haga clic en **[!UICONTROL Importar]**. El recurso importado se almacena dentro del repositorio de recursos [!DNL Journey Optimizer B2B Edition].
 
 >[!ENDTABS]
