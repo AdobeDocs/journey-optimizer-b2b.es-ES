@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Utilice las herramientas de diseño de campos para construir el conjunto de camp
 
 1. En el cuadro de diálogo _[!UICONTROL Seleccionar atributo de campo]_, seleccione la casilla de verificación del atributo de perfil de persona que desee utilizar para el campo y haga clic en **[!UICONTROL Seleccionar]**.
 
-   Los [esquemas empresariales XDM](../data/field-mapping.md#xdm-business-person-attributes) determinan los atributos disponibles.  También están disponibles todos los campos personalizados definidos para la instancia de Journey Optimizer B2B edition. Utilice el cuadro de texto Buscar para filtrar la lista por nombre o haga clic en el icono Filtrar para filtrar la lista por esquema/tipo de datos.
+   Los [esquemas empresariales XDM](../admin/field-mapping.md#xdm-business-person-attributes) determinan los atributos disponibles.  También están disponibles todos los campos personalizados definidos para la instancia de Journey Optimizer B2B edition. Utilice el cuadro de texto Buscar para filtrar la lista por nombre o haga clic en el icono Filtrar para filtrar la lista por esquema/tipo de datos.
 
    ![Agregar un componente de campo al formulario](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
 
