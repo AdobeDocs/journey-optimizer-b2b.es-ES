@@ -1,16 +1,16 @@
 ---
-title: Agente de Recorrido Build para B2B
+title: Recorrido Build Agent B2B
 description: Aprenda a utilizar el agente de compilación de Recorrido con tecnología de IA para crear recorridos sólidos rápidamente
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Agente de Recorrido Build para B2B
+# Recorrido Build Agent B2B
 
 Recorrido Builder Agent B2B es un agente de IA que le ayuda en el diseño/creación, ejecución y optimización de recorridos mediante la automatización y las recomendaciones basadas en datos. Recorrido Builder Agent for B2B automatiza y reduce el tiempo necesario para ejecutar la creación de nuevos recorridos B2B.
 
