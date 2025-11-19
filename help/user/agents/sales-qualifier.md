@@ -3,9 +3,9 @@ title: Calificador de ventas
 description: Automatice la calificación y alcance de clientes potenciales B2B con el Calificador de ventas. Proporciona investigación basada en IA, redacción de correos electrónicos, integración de CRM y planes de participación para BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1376'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,13 @@ Utilice los complementos de explorador y correo electrónico para acceder a inte
 
 El calificador de ventas se incluye con Journey Optimizer B2B edition, pero se trata de una aplicación independiente dentro de Experience Platform Experience Cloud.
 
-![Página de inicio del calificador de ventas](assets/home-screen.png)
+![Panel de calificación de ventas que automatiza la calificación y alcance de clientes potenciales BDR para empresas B2B](assets/home-screen.png)
 
 ## Account Qualification Agent
 
 Account Qualification Agent (AQA) es el núcleo del Calificador de ventas. El AQA utiliza IA para leer sus cuentas y determinar cuáles están listas para el siguiente paso. Ayuda con la investigación, la redacción de correos electrónicos y las actualizaciones de CRM.
 
-![Account Qualification Agent](assets/acc-qualification-agent.png)
+![Panel de Account Qualification Agent con tecnología de IA para investigación de cuentas y perspectivas de ventas](assets/acc-qualification-agent.png)
 
 * **Investigación prospectiva**
 
@@ -44,7 +44,7 @@ Account Qualification Agent (AQA) es el núcleo del Calificador de ventas. El AQ
 
 * **Correos electrónicos del plan de participación**
 
-  Cree borradores de correo electrónico de plan de participación personalizados para cada paso de una cadencia de alcance definida por BDR, lo que garantiza que toda la secuencia esté personalizada
+  Cree borradores de correo electrónico de plan de participación personalizados para cada paso de una cadencia de alcance definida por BDR, lo que garantiza que toda la secuencia esté personalizada.
 
 ### Uso básico
 
@@ -68,7 +68,7 @@ Itere sobre el recorrido refinando los indicadores para obtener los resultados q
 
 Esta ventana enumera todos los posibles clientes a los que tiene acceso. Es una comprobación rápida de cosas, como el estado del posible cliente y la última actividad.
 
-![Ver todos los posibles clientes en la tabla de posibles clientes](assets/prospects.png)
+![Tabla de posibles clientes que muestra el estado del posible cliente y la última actividad para la administración de clientes potenciales](assets/prospects.png)
 
 Haga clic en el icono _Filtrar_ ![Icono de filtro](../../assets/do-not-localize/icon_filter-outline.svg) para filtrar la lista mostrada por estado de posible cliente.
 
@@ -76,7 +76,7 @@ Haga clic en el icono _Filtrar_ ![Icono de filtro](../../assets/do-not-localize/
 
 Esta ventana proporciona detalles sobre cualquier plan de participación definido.
 
-![Planes de participación](assets/engagement-plans.png)
+![Panel de plan de participación que muestra detalles del plan, posibles clientes seleccionados y configuración de programación](assets/engagement-plans.png)
 
 Para crear un nuevo plan de participación, haga clic en **[!UICONTROL Crear plan de participación]**.
 
@@ -95,9 +95,9 @@ Este panel muestra todas las reuniones configuradas mediante automatización.
 
 ## Bandeja de entrada de chat
 
-Este panel muestra todos los hilos de chats.
+Este panel muestra todos los hilos de chat.
 
-![Bandeja de entrada de chat](assets/chat-inbox.png)
+![Panel que muestra hilos de chat con resúmenes de contactos y subprocesos para la automatización de ventas](assets/chat-inbox.png)
 
 Puede interactuar con los clientes y ver resúmenes del contacto y del subproceso para saber rápidamente dónde se encuentra en el subproceso.
 
@@ -106,15 +106,15 @@ Puede interactuar con los clientes y ver resúmenes del contacto y del subproces
 Con las integraciones, el cualificador de ventas puede aprovechar los CRM y otras fuentes de datos para enriquecer los perfiles de los clientes y aprovechar las actividades de ventas:
 
 * Integre con la bandeja de entrada de su correo electrónico para realizar un seguimiento de los correos electrónicos entrantes relevantes y ayudar a generar respuestas.
-* Leer y actualizar datos de CRM, como Salesforce o Microsoft® Dynamics, ZoomInfo o Buildwidth.
+* Leer y actualizar datos de CRM, como Salesforce o Microsoft® Dynamics, ZoomInfo o BuiltWith.
 
-![Integración de Outlook del Calificador de ventas](assets/outlook.png)
+![Integración del calificador de ventas con Microsoft Outlook que muestra resúmenes de correo electrónico y contactos](assets/outlook.png)
 
 ### Configuración de una nueva integración
 
 Para iniciar una nueva integración, haga clic en **[!UICONTROL Crear integración]** en la parte superior derecha.
 
-![Detalles de integración](assets/integration-details.png)
+![Formulario de configuración de integración que muestra la dirección URL, el método HTTP, los encabezados y las opciones de autenticación](assets/integration-details.png)
 
 Defina la URL de la integración y establezca la carga útil que desea enviar:
 
@@ -165,13 +165,13 @@ La configuración de representante especifica información sobre usted, incluyen
 
 En la ficha **[!UICONTROL Detalles]** se escribe información sobre usted:
 
-![Configuración de detalles del calificador de ventas](assets/details.png)
+![Pestaña Detalles que muestra la información personal, el correo electrónico y la configuración de disponibilidad del chat para los representantes](assets/details.png)
 
 ### Configuración de correo electrónico
 
 En la pestaña **[!UICONTROL Configuración de correo electrónico]**, configure las conexiones de correo electrónico.
 
-![Configuración de correo electrónico](assets/email-settings.png)
+![Pestaña Configuración de correo electrónico que muestra las opciones de conexión de correo electrónico y la configuración de firma de correo electrónico](assets/email-settings.png)
 
 * **[!UICONTROL Conexiones de correo electrónico]** - Haga clic en **[!UICONTROL Conectar]** y siga el procedimiento de inicio de sesión de Microsoft.
 
@@ -181,7 +181,7 @@ En la pestaña **[!UICONTROL Configuración de correo electrónico]**, configure
 
 En la ficha **[!UICONTROL Configuración del calendario]**, establezca la zona horaria y la disponibilidad.
 
-![Configuración del calendario](assets/calendar-settings.png)
+![La pestaña de configuración del calendario muestra la zona horaria y las opciones de disponibilidad](assets/calendar-settings.png)
 
 * **[!UICONTROL Conexión de calendario]** - Haga clic en **[!UICONTROL Conectar]** y siga el procedimiento de inicio de sesión de Microsoft para integrar su calendario.
 
@@ -193,7 +193,7 @@ En la ficha **[!UICONTROL Configuración del calendario]**, establezca la zona h
 
 En la pestaña **[!UICONTROL Configuración de chat]**, establece la disponibilidad del chat en vivo de Timezone.
 
-![Configuración de chat](assets/chat-settings.png)
+![Pestaña Configuración de chat para configurar la zona horaria y la disponibilidad del chat en vivo](assets/chat-settings.png)
 
 ## Gestión representativa
 
@@ -223,4 +223,4 @@ En la parte inferior izquierda de la aplicación, haga clic en **[!UICONTROL Edi
 
 El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
