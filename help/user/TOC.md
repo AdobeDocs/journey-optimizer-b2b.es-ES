@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 96%
+source-wordcount: '361'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
    + [Utilizar el Asistente de IA](./ai-assistant/use-ai-assistant.md)
    + Agentes {#ai-agents}
       + [Audience Agent](./agents/audience-agent-b2b.md)
-      + [Journey Build Agent](./agents/journey-agent.md)
+      + [Recorrido Build Agent B2B](./agents/journey-agent.md)
       + [Calificador de ventas](./agents/sales-qualifier.md)
 + Recorridos de la cuenta {#account-journeys}
    + [Información general](./journeys/journey-overview.md)
@@ -68,7 +68,6 @@ ht-degree: 96%
    + Listas de cuentas {#account-lists}
       + [Información general](./accounts/account-lists.md)
       + [Uso en recorridos y programas](./accounts/account-lists-journeys.md)
-   + [Campos de XDM](./data/field-mapping.md)
    + Experiencia en ventas {#sales-experience}
       + [Detalles de la cuenta](./accounts/account-details.md)
       + [Detalles del grupo de compras](./buying-groups/buying-group-details.md)
@@ -128,8 +127,11 @@ ht-degree: 96%
    + [Información general sobre recorridos de cuenta](./dashboards/journeys-dashboard.md)
 + Administración {#admin}
    + [Gobernanza](./admin/governance.md)
+   + [Configuración de acciones de Marketo](./admin/marketo-actions-connect.md)
    + [Asignación de persona](./admin/persona-mapping.md)
    + [Administración de usuarios](./admin/user-management.md)
+   + [Campos de XDM](./admin/field-mapping.md)
+   + [Selección de campo XDM](admin/xdm-field-management.md)
    + Canales {#channels}
       + [Configuraciones de correo electrónico](./admin/configure-channels-emails.md)
       + [Configuración de SMS](./admin/configure-channels-sms.md)
