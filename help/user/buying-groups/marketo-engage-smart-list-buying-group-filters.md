@@ -1,19 +1,27 @@
 ---
-title: Comprar filtros de grupo en Market Engage
+title: Compra de filtros de grupo en Marketo Engage
 description: Filtre posibles clientes comprando pertenencia a grupos en las listas inteligentes de Marketo Engage con restricciones como puntuación de integridad para optimizar las campañas y puntuación de posibles clientes.
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
 
-# Filtros de grupo de compras en Market Engage
+# Filtros del grupo de compras en Marketo Engage
 
-Como experto en marketing, es posible que desee suprimir las campañas de Marketo Engage para las personas que forman parte de grupos compradores en Journey Optimizer B2B edition. También puede informar a los flujos de trabajo de puntuación de posibles clientes en Marketo Engage mediante la información sobre los posibles clientes asociados a los grupos de compra. Por ejemplo:
+>[!IMPORTANT]
+>
+>**Desaprobación de características**</br></br>
+>
+>Con la [arquitectura simplificada](../simplified-architecture.md) para Journey Optimizer B2B edition, los filtros de grupo de compra ya no están disponibles en una instancia de Marketo Engage conectada.</br></br>
+>
+>Como alternativa, puede crear una lista estática para cada interés de solución y, a continuación, [usar la acción _Agregar a la lista de Marketo_](../journeys/action-nodes.md#marketo-engage-actions) desde un nodo de recorrido. Esta acción añade miembros del grupo de compra a una lista estática concreta de una instancia de Marketo Engage conectada. A continuación, utilice la lista estática centrada en los intereses de la solución para un filtro de lista inteligente.
+
+Como experto en marketing, es posible que desee suprimir las campañas de Marketo Engage para las personas que forman parte de grupos de compra en Journey Optimizer B2B edition. También puede informar a los flujos de trabajo de puntuación de posibles clientes en Marketo Engage mediante la información sobre los posibles clientes asociados a los grupos de compra. Por ejemplo:
 
 * ¿Es este cliente potencial parte de un grupo de compra?
 * ¿Está completo y comprometido el grupo comprador?
@@ -22,7 +30,7 @@ Si estas condiciones son verdaderas, puede elegir puntuar como posible cliente m
 
 En la instancia de Marketo Engage que esté conectada a Journey Optimizer B2B edition, puede usar el filtro _[!UICONTROL Miembro del grupo de compra]_ en sus listas inteligentes para identificar a estos posibles clientes según su estrategia de campaña.
 
-1. Después de [crear una lista inteligente en Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, seleccione la ficha **[!UICONTROL Lista inteligente]** para abrir el editor de filtros.
+1. Después de [crear una lista inteligente en Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, seleccione la ficha **[!UICONTROL Lista inteligente]** para abrir el editor de filtros.
 
 1. En la lista de filtros de la derecha, desplácese hacia abajo por la lista y expanda la carpeta **[!UICONTROL Filtros especiales]**.
 
