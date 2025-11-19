@@ -4,7 +4,7 @@ description: 'Cree mensajes SMS para recorridos de cuenta con personalización, 
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: aa79e0655737541f122801f28db73d9f31ebb2f7
+source-git-commit: 9a97682590d779c8b5f5b385efd912ee1f56ed31
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 3%
@@ -67,7 +67,7 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
 
 1. En el cuadro de diálogo _[!UICONTROL Introducir valor de reserva]_, escriba el texto que aparece como reserva y, a continuación, haga clic en **[!UICONTROL Agregar]**.
 
-   ![Escriba el texto de reserva para el token](./assets/sms-message-personalize-fallback-text.png){width="400"}
+   ![Escriba el texto de reserva para el token](./assets/sms-message-personalize-fallback-text.png){width="450"}
 
 1. Cuando se coloquen los tokens de personalización, haga clic en **[!UICONTROL Guardar]** para guardar los cambios y volver al espacio de trabajo principal de creación de SMS.
 
@@ -89,12 +89,12 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
 
    * **[!UICONTROL Habilitar seguimiento]** - Seleccione esta casilla de verificación para habilitar el seguimiento, lo que requiere _acortar_ la dirección URL. Para una página de aterrizaje, utiliza el subdominio de Marketo Engage para la URL abreviada. Se muestra un ejemplo del formato de URL abreviado. La dirección URL real se crea cuando se envía el SMS al destinatario.
 
-   * **[!UICONTROL Incluir mkt_tok]** - Seleccione esta casilla de verificación para rastrear la actividad en un usuario.
+   * **[!UICONTROL Incluir mkt_tok]** - Seleccione esta casilla de verificación para rastrear la actividad en un usuario.</br>
 
      >[!NOTE]
      >
      >Cuando permite el seguimiento pero deshabilita _[!UICONTROL Incluir mkt_tok]_, la dirección URL de destino no incluye el parámetro de cadena de consulta `mkt_tok` después del redireccionamiento. Este parámetro lo utilizan las páginas de aterrizaje de Marketo Engage y Munchkin para garantizar que el seguimiento de las actividades personales (como cuando una persona cancela la suscripción de un correo electrónico). No deshabilite esta opción a menos que el parámetro esté causando problemas en el sitio web.<br/>
-     >Para obtener más información sobre cómo usar los códigos de seguimiento de Munchkin en tu sitio web, consulta la [documentación de Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Para obtener más información sobre cómo usar los códigos de seguimiento de Munchkin en tu sitio web, consulta la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Cuadro de diálogo Agregar vínculo para mensaje SMS](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -117,7 +117,7 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
 
 1. Escriba el **[!UICONTROL número de remitente]** &#x200B;que desee usar para sus comunicaciones.
 
-   ![Propiedades del mensaje SMS](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![Propiedades del mensaje SMS](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    El número de destinatario siempre está asignado al campo `profile.mobilePhone.number` en Experience Platform.
 
