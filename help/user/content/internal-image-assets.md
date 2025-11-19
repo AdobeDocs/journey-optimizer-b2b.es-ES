@@ -4,16 +4,16 @@ description: 'Examine, administre y utilice recursos de B2B edition de Journey O
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: ddc0c68c5d2fb3c1260100bb4686bcff16aafdff
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1758'
 ht-degree: 1%
 
 ---
 
 # Trabajo con recursos de imagen internos
 
-El repositorio de recursos de imagen interno es la fuente de recursos predeterminada para diseñar contenido y puede administrar y utilizar fácilmente los recursos disponibles para diseñar contenido que admita los recorridos de su cuenta.
+El repositorio de recursos de imagen interno es la fuente de recursos de imagen predeterminada y puede administrar y utilizar fácilmente los recursos disponibles para diseñar contenido compatible con los recorridos de su cuenta.
 
 Tiene la gama completa de funciones de administración de recursos en Journey Optimizer B2B edition. Estas funciones incluyen:
 
