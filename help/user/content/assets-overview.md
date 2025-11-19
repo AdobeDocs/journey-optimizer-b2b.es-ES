@@ -4,10 +4,10 @@ description: Administre recursos de imagen desde Journey Optimizer B2B edition y
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 70%
+source-wordcount: '852'
+ht-degree: 60%
 
 ---
 
@@ -49,15 +49,15 @@ Utilice recursos a medida que crea sus correos electrónicos, plantillas de corr
 
 Puede elegir el origen de la imagen al editar la configuración de un componente de imagen o directamente en el lienzo.
 
-* **_Configuración del componente de imagen_**: cuando tenga seleccionado un componente de imagen en el espacio de diseño visual, podrá ver y editar la configuración en el panel derecho. Para añadir o cambiar el archivo de imagen que se muestra en el componente, elija el tipo de origen y seleccione un archivo de imagen.
+* **_Configuración del componente de imagen_**: cuando tenga un componente de imagen seleccionado en el lienzo, puede ver y editar la configuración en el panel derecho. Para añadir o cambiar el archivo de imagen que se muestra en el componente, elija el tipo de origen y seleccione un archivo de imagen.
 
   ![Edite la configuración del componente de imagen en el panel derecho](./assets/content-assets-image-settings.png){width="350"}
 
-* **_Componente vacío_**: cuando se añade un componente de imagen en el espacio de diseño visual, está vacío y proporciona fácil acceso para elegir un origen y seleccionar un archivo de imagen.
+* **_Componente vacío_**: cuando se agrega un componente de imagen al lienzo, está vacío y proporciona fácil acceso para elegir un origen y seleccionar un archivo de imagen.
 
   ![Elija un origen para seleccionar un archivo de imagen para el componente de imagen vacío](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_Barra de herramientas del componente de imagen_**: cuando tiene un componente de imagen seleccionado en el espacio de diseño visual, la barra de herramientas proporciona un acceso fácil para elegir un origen y seleccionar el archivo de imagen.
+* **_Barra de herramientas del componente de imagen_**: cuando tiene un componente de imagen seleccionado en el lienzo, la barra de herramientas proporciona fácil acceso para elegir un origen y seleccionar el archivo de imagen.
 
   ![Use la barra de herramientas para elegir un origen y seleccionar un archivo de imagen para el componente de imagen](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
