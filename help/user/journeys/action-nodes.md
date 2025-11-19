@@ -4,7 +4,7 @@ description: 'Configure nodos de acción para acciones de cuenta y personas: env
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 2%
@@ -174,7 +174,7 @@ Utilice esta acción para agregar perfiles de personas a un [grupo de compra](..
 
 +++[!UICONTROL Cambiar valor de datos]
 
-Utilice esta acción para cambiar el valor de un atributo de perfil de [personas](../data/field-mapping.md#xdm-business-person-attributes). Seleccione el atributo y, a continuación, establezca el nuevo valor.
+Utilice esta acción para cambiar el valor de un atributo de perfil de [personas](../admin/field-mapping.md#xdm-business-person-attributes). Seleccione el atributo y, a continuación, establezca el nuevo valor.
 
 ![Realizar una acción - Cambiar valor de datos](./assets/node-action-change-data-value.png){width="300"}
 
