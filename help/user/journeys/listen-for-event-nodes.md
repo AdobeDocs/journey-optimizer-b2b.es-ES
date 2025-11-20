@@ -135,7 +135,7 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 ### Escuchar un evento de experiencia
 
-Los administradores pueden seleccionar [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permiten a los especialistas en marketing crear recorridos que reaccionen a los eventos en tiempo casi real. El uso de eventos de experiencia en recorrido es un proceso de dos pasos:
+Los administradores pueden seleccionar [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permiten a los especialistas en marketing crear recorridos que reaccionen a los eventos en tiempo casi real. El uso de eventos de experiencia en recorrido es un proceso de dos pasos:
 
 1. Un administrador [selecciona los tipos de eventos y los campos de interés](../admin/configure-aep-events.md#select-an-event) para que estén disponibles en los recorridos.
 
