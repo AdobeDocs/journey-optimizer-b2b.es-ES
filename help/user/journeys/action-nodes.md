@@ -262,4 +262,4 @@ En primer lugar, seleccione una instancia de Marketo Engage conectada. A continu
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443248/?captions=spa&learn=on)
