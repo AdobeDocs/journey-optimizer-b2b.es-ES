@@ -127,4 +127,4 @@ Edite los detalles del evento para cambiar los campos.
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448686/?captions=spa&learn=on) -->
