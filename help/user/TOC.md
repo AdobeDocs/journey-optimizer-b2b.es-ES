@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+source-wordcount: '365'
+ht-degree: 91%
 
 ---
 
@@ -130,8 +130,10 @@ ht-degree: 93%
    + [Configuración de acciones de Marketo](./admin/marketo-actions-connect.md)
    + [Asignación de persona](./admin/persona-mapping.md)
    + [Administración de usuarios](./admin/user-management.md)
-   + [Campos de XDM](./admin/field-mapping.md)
-   + [Selección de campo XDM](admin/xdm-field-management.md)
+   + Administración de campos XDM {#xdm-field-management}
+      + [Clases XDM](admin/xdm-field-management.md)
+      + [Campos y eventos de experiencia](./admin/configure-aep-events.md)
+      + [Campos XDM predeterminados](./admin/field-mapping.md)
    + Canales {#channels}
       + [Configuraciones de correo electrónico](./admin/configure-channels-emails.md)
       + [Configuración de SMS](./admin/configure-channels-sms.md)
@@ -139,7 +141,6 @@ ht-degree: 93%
       + [Configuración de las secuencias de datos para la colección de eventos](./data/aep-event-collection.md)
    + Configuraciones  {#configurations}
       + [Repositorios de AEM Assets](./admin/configure-aem-repositories.md)
-      + [Definiciones de eventos de AEP](./admin/configure-aep-events.md)
       + [Datos de intención](./admin/intent-data.md)
       + [Ponderación de puntuación de participación](./admin/engagement-score-weighting.md)
    + [Configuración de arquitectura simplificada](simplified-architecture.md)

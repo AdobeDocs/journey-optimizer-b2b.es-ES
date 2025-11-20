@@ -4,9 +4,9 @@ description: 'Configuración de nodos de evento para déclencheur de cuentas y p
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: f5fc362d52ff83335c71b5efe7ea2915d6a7e330
+source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1810'
 ht-degree: 12%
 
 ---
@@ -117,7 +117,7 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 1. Haga clic en **[!UICONTROL Editar evento]** y defina una o más páginas web para que coincidan y cualquier restricción adicional para el evento.
 
-   * (Obligatorio) En el cuadro de diálogo _[!UICONTROL Editar evento]_, defina la restricción **[!UICONTROL Página web]** o **[!UICONTROL Rellena el formulario]**. Use **[!UICONTROL is]** (predeterminado) para hacer coincidir una o más páginas o formularios seleccionados. Use **[!UICONTROL no es]** para hacer coincidir en todas las visitas/formularios de página con la exclusión de una o más páginas/formularios seleccionados. O bien, use **[!UICONTROL es cualquier]** para que coincida con cualquier visita a una página web de Marketo Engage o formulario rellenado.
+   * (Obligatorio) En el cuadro de diálogo _[!UICONTROL Editar evento]_, defina la restricción **[!UICONTROL Página web]** o **[!UICONTROL Rellena el formulario]**. Use **[!UICONTROL is]** (predeterminado) para hacer coincidir una o más páginas o formularios seleccionados. Use **[!UICONTROL no es]** para hacer coincidir en todas las visitas/formularios de página con la exclusión de una o más páginas/formularios seleccionados. O bien, use el operador **[!UICONTROL is any]** para que coincida en cualquier visita a una página web de Marketo Engage o formulario rellenado.
 
    * (Opcional) Haga clic en **[!UICONTROL Agregar restricción]** y elija el campo que desea utilizar para la restricción. Establezca el operador y el valor del campo.
 
@@ -135,13 +135,14 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 ### Escuchar un evento de experiencia
 
-Los administradores pueden configurar definiciones de eventos basadas en Adobe Experience Platform (AEP), que permiten a los especialistas en marketing crear recorridos de cuenta que reaccionen a [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. El uso de eventos de experiencia de AEP en recorridos de cuenta es un proceso de dos pasos:
+Los administradores pueden seleccionar [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permiten a los especialistas en marketing crear recorridos que reaccionen a los eventos en tiempo casi real. El uso de eventos de experiencia en recorrido es un proceso de dos pasos:
 
-1. [Cree y publique una definición de evento de AEP](../admin/configure-aep-events.md).
+1. Un administrador [selecciona los tipos de eventos y los campos de interés](../admin/configure-aep-events.md#select-an-event) para que estén disponibles en los recorridos.
 
-2. En un recorrido de cuenta, agrega un nodo _Escuchar un evento_ y selecciona una definición de evento de Experience Platform para un evento basado en personas.
+2. En un recorrido, agrega un nodo _Escuchar un evento_ y selecciona un tipo de evento de Experience Platform para un evento basado en personas.
 
-![Vídeo](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Vea la descripción general del vídeo](../admin/configure-aep-events.md#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
 
 _Para incluir un evento de experiencia en el recorrido :_
 
@@ -159,21 +160,21 @@ _Para incluir un evento de experiencia en el recorrido :_
 
    ![Editar el evento](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Editar evento]** y defina los tipos de evento y las restricciones adicionales para el evento.
+1. Haga clic en **[!UICONTROL Editar evento]** y defina una o más restricciones para el evento.
 
-   * (Obligatorio) En el cuadro de diálogo _[!UICONTROL Editar evento]_, defina el tipo de evento. Puede usar el operador predeterminado **[!UICONTROL is]** para que coincida con uno o más tipos de evento seleccionados. O puede usar el operador **[!UICONTROL is not]** para que coincida en todos los tipos de eventos con la exclusión de uno o más tipos de eventos seleccionados.
+   Las restricciones disponibles se definen como campos administrados para la configuración del evento.
 
-   * (Opcional) Haga clic en **[!UICONTROL Agregar restricción]** y elija el campo que desea utilizar para la restricción. Establezca el operador y el valor del campo.
+   * Haga clic en **[!UICONTROL Agregar restricción]** y elija el campo que desee utilizar para la restricción.
+
+   * Complete la condición de la restricción.
+
+     Puede usar el operador predeterminado **[!UICONTROL is]** para que coincida con uno o más valores de campo. O puede usar el operador **[!UICONTROL is not]** para que coincida en todos los valores con la exclusión de uno o más valores especificados.
 
      ![Escuchar un evento de experiencia](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
 
-     >[!NOTE]
-     >
-     >No se admiten las restricciones de _fecha de la actividad_ y _número mínimo de veces_.
-
-     Puede repetir esta acción para incluir restricciones de campo adicionales según sea necesario.
-
    * Si es necesario, seleccione la ficha **[!UICONTROL Filtros]** para [agregar filtros para el evento](#add-a-filter-to-the-people-event).
+
+   * (Opcional) Haga clic en **[!UICONTROL Agregar restricción]** y repita estos pasos para incluir restricciones de campo adicionales según sea necesario.
 
    * Cuando se definan las restricciones y los filtros, haga clic en **[!UICONTROL Listo]**.
 
@@ -219,6 +220,6 @@ Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento.
 
    ![nodo de evento de Recorrido - establecer ruta de tiempo de espera](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## Vídeo de información general
+<!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443237/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

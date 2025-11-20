@@ -3,14 +3,14 @@ title: Asignación de personas
 description: Aprenda a configurar la asignación de personalidades para el marketing B2B. Asigne atributos de persona en Journey Optimizer B2B edition para crear plantillas de función y optimizar la segmentación de grupos de compra.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
 
-# Asignación de personas
+# Asignación de persona
 
 Las personas son un aspecto clave de un enfoque de marketing basado en cuentas (ABM), ya que ayudan a los especialistas en marketing a ajustar sus estrategias a las necesidades, preferencias y puntos problemáticos específicos de las personas dentro de las cuentas de destino. Los especialistas en marketing pueden crear perfiles detallados para cada persona, incluidos sus antecedentes, responsabilidades, puntos problemáticos y canales de comunicación preferidos. Con estas definiciones, los administradores pueden configurar las personas según sus atributos en Journey Optimizer B2B edition, de modo que las plantillas de funciones puedan utilizar condiciones de función optimizadas y coherentes que capturan a estas personas.
 
@@ -39,13 +39,13 @@ Por ejemplo, podría configurar un personaje llamado _Administración de product
 
 1. Haga clic en **[!UICONTROL Asignación de personalidades]** en el panel intermedio para mostrar la lista de personalidades.
 
-   ![Acceder a los perfiles configurados](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![Acceder a los perfiles configurados](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   Desde esta página, puedes [crear](#create-an-engagement-score-model), [editar](#change-the-engagement-weighting-settings) o [eliminar](#delete-a-persona) personalidades.
+   Desde esta página, puedes [crear](#create-a-persona), [editar](#edit-a-persona) o [eliminar](#delete-a-persona) personalidades.
 
-   La lista de asignación personal. está organizado como una tabla y muestra los personajes actualizados más recientemente en la parte superior (ordenados por _[!UICONTROL Última actualización]_). Puede personalizar la tabla mostrada si hace clic en el icono _Configuración de columna_ ( ![Configuración de columna](../assets/do-not-localize/icon-column-settings.svg) ) en la esquina superior derecha y activa o desactiva las casillas de verificación de la columna.
+   La lista de asignación Persona está organizada en forma de tabla y muestra los perfiles actualizados más recientemente en la parte superior (ordenados por _[!UICONTROL Última actualización]_). Puede personalizar la tabla mostrada si hace clic en el icono _Configuración de columna_ ( ![Configuración de columna](../assets/do-not-localize/icon-column-settings.svg) ) en la esquina superior derecha y activa o desactiva las casillas de verificación de la columna.
 
-![Columnas para mostrar en la lista de asignación de personas](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+![Columnas para mostrar en la lista de asignación de personas](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Para acceder a los detalles de una persona, haga clic en el nombre.
 
@@ -68,13 +68,9 @@ La lista _Asignación de personas_ incluye cinco personalidades predeterminadas 
 
 ### Filtrado de listas
 
-Para localizar el perfil que desea, utilice las herramientas de búsqueda y filtrado:
+Para localizar el perfil que desea, introduzca una cadena de texto en la barra de búsqueda para que coincida con los perfiles por nombre,
 
-* Introduzca una cadena de texto en la barra de búsqueda para que coincida con los perfiles por nombre,
-
-  ![Filtrar las definiciones de eventos mostradas](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
-
-* Haga clic en el icono _Filtro_ ( ![Icono de filtro](../assets/do-not-localize/icon-filter.svg) ) en la parte superior izquierda para filtrar la lista mostrada por atributo.
+![Filtrar las asignaciones de personas mostradas](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## Crear una persona
 
@@ -86,6 +82,8 @@ Para localizar el perfil que desea, utilice las herramientas de búsqueda y filt
 
 1. Escriba un **[!UICONTROL Nombre]** y una **[!UICONTROL Descripción]** únicos (opcionales) para la persona.
 
+   ![Crear una asignación de persona](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+
 1. Seleccione los atributos que se utilizarán para hacer coincidir la persona.
 
    * Haga clic en **[!UICONTROL Seleccionar atributos de persona]**.
@@ -96,6 +94,8 @@ Para localizar el perfil que desea, utilice las herramientas de búsqueda y filt
 
      Para filtrar la lista de atributos por nombre, introduzca una cadena de texto en la barra de búsqueda. También puede hacer clic en el icono _Filtro_ ( ![Icono de filtro](../assets/do-not-localize/icon-filter.svg) ) en la parte superior izquierda para filtrar la lista mostrada por tipo, _Estándar_ o _Personalizado_.
 
+     ![Cuadro de diálogo Seleccionar atributos de persona](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+
    * Haga clic en **[!UICONTROL Guardar]**.
 
      Los atributos seleccionados se rellenan en la sección _[!UICONTROL Atributos personales]_.
@@ -104,11 +104,13 @@ Para localizar el perfil que desea, utilice las herramientas de búsqueda y filt
 
    En lugar de un valor, también puede agregar un mensaje que se puede utilizar para identificar una coincidencia. Por ejemplo, puede introducir
 
-1. Haga clic en **[!UICONTROL Crear]**.
+1. Haga clic en **[!UICONTROL Enviar]**.
 
 ## Editar una persona
 
 Haga clic en el nombre de la persona para acceder y editar sus detalles.
+
+Puede cambiar el nombre o la descripción, agregar atributos o actualizar los valores de los atributos. Haga clic en **[!UICONTROL Enviar]** cuando se hayan completado los cambios.
 
 ## Eliminar una persona
 
