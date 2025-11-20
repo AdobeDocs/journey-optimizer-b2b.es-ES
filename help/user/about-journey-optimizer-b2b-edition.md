@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B Edition usa _Públicos de cuentas_ y _Públicos de p
 
 >[!NOTE]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 ### Modelo de suscripción
 
@@ -45,4 +45,4 @@ Una vez creado el recorrido de la cuenta, debe publicarse. En el momento de la p
 
 Journey Optimizer B2B Edition utiliza la segmentación de cuentas de Real-Time CDP para definir y ejecutar segmentos de cuenta y segmentos de persona de cuenta relacionados requeridos por recorridos. A medida que se ejecuta un recorrido publicado, los datos sobre las personas y las cuentas pueden cambiar, y se recopilan datos sobre las personas que interactúan con el recorrido. Journey Optimizer B2B Edition se basa en el conector de origen de Marketo Engage para Real-Time CDP B2B Edition para devolver los cambios de datos de flujo a la zona protegida de Experience Platform, que es la fuente fiable.  Estos datos se envían a AEP casi en tiempo real.
 
-Solo los tipos de datos existentes compatibles con el conector de origen de Marketo Engage (cuentas, personas y oportunidades) regresan a Real-Time CDP. Esto significa que la compra de datos de grupo no fluye a AEP y, en su lugar, reside en la instancia de Marketo Engage utilizada por la suscripción de Journey Optimizer B2B Edition.
+Solo los tipos de datos existentes compatibles con el conector de origen de Marketo Engage (cuentas, personas y oportunidades) regresan a Real-Time CDP. Esto significa que los datos del grupo de compras no fluye a AEP y, en su lugar, reside en la instancia de Marketo Engage utilizada por la suscripción de Journey Optimizer B2B Edition.
