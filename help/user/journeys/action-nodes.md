@@ -4,9 +4,9 @@ description: 'Configure nodos de acción para acciones de cuenta y personas: env
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 3013da8c7178c68ec07bf8d8b56f4ca06c043486
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1674'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,6 @@ Utilice una acción en las cuentas cuando desee aplicar un cambio a todas las pe
 
 | Acción | Restricciones |
 | ------ | ----------- |
-| [!UICONTROL Valor de datos de cambio de cuenta] | Seleccionar atributo<br/>Nuevo valor |
 | [!UICONTROL Momento interesante de la cuenta] | Escriba (correo electrónico, hito o web)<br/>Descripción (opcional) |
 | [!UICONTROL Activar en destino] | Seleccione un destino |
 | [!UICONTROL Agregar cuenta a (otro) Recorrido] | Seleccionar recorrido de cuenta activa |
@@ -33,8 +32,15 @@ Utilice una acción en las cuentas cuando desee aplicar un cambio a todas las pe
 | [!UICONTROL Quitar cuenta del Recorrido] | Seleccionar recorrido de cuenta activa |
 | [!UICONTROL Quitar de la lista de cuentas] | Seleccione una lista de cuentas estáticas activas |
 | [!UICONTROL Enviar alerta de ventas] | Seleccionar interés de solución<br/>Enviar correo electrónico a |
+| [!UICONTROL Actualizar perfil de cuenta] | Seleccionar atributo<br/>Nuevo valor |
 | [!UICONTROL Actualizar fase del grupo de compra] | Seleccione el interés de la solución<br/>Seleccione la fase de compra del grupo |
 | [!UICONTROL Actualizar estado del grupo de compra] | Seleccione el interés de la solución<br/>Estado (obligatorio, máximo 50 caracteres) |
+
+>[!NOTE]
+>
+>La acción _[!UICONTROL Valor de datos de cambio de cuenta]_ está obsoleta para la versión 2025.10. Se ha reemplazado por _[!UICONTROL Actualizar perfil de cuenta]_ para la [arquitectura simplificada](../simplified-architecture.md).<br/>
+>
+>Un administrador puede configurar los atributos disponibles para la cuenta empresarial de XDM actualizando los campos de las _[!UICONTROL clases XDM]_ > _[!UICONTROL clases estándar]_. Para obtener más información, vea [Clases estándar](../admin/xdm-field-management.md#standard-classes).
 
 ### Añadir una acción basada en cuentas
 
@@ -90,19 +96,21 @@ Utilice una acción en personas cuando desee aplicar un cambio a todas las perso
 | ------- | ------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Agregar a la audiencia de cliente externa] | Seleccionar el público externo del cliente |
 | | [!UICONTROL Asignar a grupo de compra] | Seleccionar interés de solución<br/>Seleccionar rol |
-| | [!UICONTROL Cambiar valor de datos] | Seleccionar atributo de persona<br/>Establecer nuevo valor |
 | | [!UICONTROL Cambiar puntuación] | Nombre de puntuación<br/>Cambio en la puntuación |
 | | [!UICONTROL Momento interesante para la persona] | Escriba<br/>Descripción |
 | | [!UICONTROL Quitar del grupo de compra] | Seleccionar interés de la solución |
 | | [!UICONTROL Enviar correo electrónico] | Crear nuevo correo electrónico<br/>Seleccione un correo electrónico de Marketo Engage |
 | | [!UICONTROL Enviar SMS] | Creación de un SMS |
+| | [!UICONTROL Actualizar perfil de persona] | Seleccionar atributo de persona<br/>Establecer nuevo valor |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Agregar a la campaña de solicitudes de Marketo Engage] | Seleccione el espacio de trabajo de Marketo Engage<br/>Seleccionar campaña de solicitud |
 | | [!UICONTROL Agregar a la lista de Marketo] | Seleccionar nombre de conexión Marketo externa <br/>Nombre de lista |
 | | [!UICONTROL Quitar de la lista de Marketo] | Seleccionar nombre de conexión Marketo externa <br/>Nombre de lista |
 
 >[!NOTE]
 >
->La acción _[!UICONTROL Cambiar partición de personas en Marketo Engage]_ está obsoleta para la versión 2025.10 y no está disponible en la arquitectura simplificada para Journey Optimizer B2B edition.
+>La acción _[!UICONTROL Cambiar partición de personas en Marketo Engage]_ está obsoleta para la versión 2025.10 y no está disponible en la [arquitectura simplificada](../simplified-architecture.md) para Journey Optimizer B2B edition.<br/>
+>
+>La acción _[!UICONTROL Cambiar valor de datos]_ está obsoleta para la versión 2025.10. Se reemplaza con _[!UICONTROL Actualizar perfil de persona]_ en la arquitectura simplificada.
 
 ### Añadir una acción basada en personas
 
@@ -130,7 +138,7 @@ Utilice esta acción para dirigir a las personas a una audiencia externa que se 
 
 ![Realizar una acción: agregar a la audiencia de clientes externos](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-Al seleccionar esta acción basada en personas, puede crear una audiencia externa nueva o seleccionar una de ellas. Para las audiencias existentes, puede elegir entre audiencias de clientes externos creadas únicamente en Journey Optimizer B2B edition. Cuando cree una audiencia y la utilice para esta acción de recorrido, asegúrese de conectar el destino. Para obtener más información, consulte [Crear una nueva conexión de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} y [Descripción general de la activación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} en la documentación de Experience Platform.
+Al seleccionar esta acción basada en personas, puede crear una audiencia externa nueva o seleccionar una de ellas. Para las audiencias existentes, puede elegir entre audiencias de clientes externos creadas únicamente en Journey Optimizer B2B edition. Cuando cree una audiencia y la utilice para esta acción de recorrido, asegúrese de conectar el destino. Para obtener más información, consulte [Crear una nueva conexión de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} y [Descripción general de la activación](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} en la documentación de Experience Platform.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea un vídeo de información general sobre la orquestación de medios de pago](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -172,17 +180,9 @@ Utilice esta acción para agregar perfiles de personas a un [grupo de compra](..
 
 +++
 
-+++[!UICONTROL Cambiar valor de datos]
-
-Utilice esta acción para cambiar el valor de un atributo de perfil de [personas](../admin/field-mapping.md#xdm-business-person-attributes). Seleccione el atributo y, a continuación, establezca el nuevo valor.
-
-![Realizar una acción - Cambiar valor de datos](./assets/node-action-change-data-value.png){width="300"}
-
-+++
-
 +++[!UICONTROL Cambiar puntuación]
 
-Utilice esta acción para cambiar la puntuación de la persona en Marketo Engage. [Más información](https://experienceleague.adobe.com/es/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Utilice esta acción para cambiar la puntuación de la persona en Marketo Engage. [Más información](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Realizar una acción - Cambiar puntuación](./assets/node-action-change-score.png){width="300"}
 
@@ -206,7 +206,7 @@ Utilice esta acción para quitar perfiles de personas de un [grupo de compra](..
 
 +++[!UICONTROL Enviar correo electrónico]
 
-Utilice esta acción para enviar un correo electrónico. Después de [crear el correo electrónico](../content/add-email.md#add-an-email-to-your-journey) para el nodo, puede diseñar, personalizar y previsualizar mensajes de correo electrónico en el espacio de diseño de correo electrónico (consulte [Creación de correo electrónico](../content/email-authoring.md)). También puedes enviar un [correo electrónico desde Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleccione el espacio de trabajo de Marketo Engage y, a continuación, el correo electrónico que desea enviar.
+Utilice esta acción para enviar un correo electrónico. Después de [crear el correo electrónico](../content/add-email.md#add-an-email-to-your-journey) para el nodo, puede diseñar, personalizar y previsualizar mensajes de correo electrónico en el espacio de diseño de correo electrónico (consulte [Creación de correo electrónico](../content/email-authoring.md)). También puedes enviar un [correo electrónico desde Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleccione el espacio de trabajo de Marketo Engage y, a continuación, el correo electrónico que desea enviar.
 
 ![Realizar una acción - Enviar correo electrónico](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -217,6 +217,20 @@ Utilice esta acción para enviar un correo electrónico. Después de [crear el c
 Utilice esta acción para enviar un mensaje SMS. Puede crear, personalizar y previsualizar mensajes SMS en el espacio de diseño visual (consulte [Creación de SMS](../content/sms-authoring.md)).
 
 ![Realizar una acción - Enviar SMS](./assets/node-action-send-sms.png){width="300"}
+
++++
+
++++[!UICONTROL Actualizar perfil de persona]
+
+Utilice esta acción para cambiar el valor de un atributo de perfil de [personas](../admin/field-mapping.md#xdm-business-person-attributes). Seleccione el atributo y, a continuación, establezca el nuevo valor.
+
+![Realizar una acción: actualizar el perfil de la persona](./assets/node-action-update-person-profile.png){width="300"}
+
+>[!NOTE]
+>
+>El _[!UICONTROL perfil de persona de actualización]_ reemplaza la acción _[!UICONTROL Cambiar valor de datos]_ en la [arquitectura simplificada](../simplified-architecture.md).<br/>
+>
+>Un administrador puede configurar los atributos disponibles para el perfil individual de XDM actualizando los campos en las _[!UICONTROL clases XDM]_ > [!UICONTROL clases estándar]. Para obtener más información, vea [Clases estándar](../admin/xdm-field-management.md#standard-classes).
 
 +++
 
@@ -232,7 +246,7 @@ Por ejemplo: es posible que desee suprimir las campañas de Marketo Engage para 
 
 +++[!UICONTROL Agregar a la campaña de solicitudes de Marketo Engage]
 
-Utilice esta acción para agregar perfiles de personas a una [campaña de solicitudes](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} en Marketo Engage.
+Utilice esta acción para agregar perfiles de personas a una [campaña de solicitudes](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} en Marketo Engage.
 
 En primer lugar, seleccione una instancia de Marketo Engage conectada. A continuación, seleccione el nombre de la campaña de solicitud.
 
@@ -242,7 +256,7 @@ En primer lugar, seleccione una instancia de Marketo Engage conectada. A continu
 
 +++[!UICONTROL Agregar a la lista de Marketo]
 
-Utilice esta acción para agregar personas a una [lista estática](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en Marketo Engage.
+Utilice esta acción para agregar personas a una [lista estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en Marketo Engage.
 
 En primer lugar, seleccione una instancia de Marketo Engage conectada. A continuación, seleccione el nombre de la lista.
 
@@ -252,7 +266,7 @@ En primer lugar, seleccione una instancia de Marketo Engage conectada. A continu
 
 +++[!UICONTROL Quitar de la lista de Marketo]
 
-Use esta acción para quitar personas de una [lista estática](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en Marketo Engage.
+Use esta acción para quitar personas de una [lista estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en Marketo Engage.
 
 En primer lugar, seleccione una instancia de Marketo Engage conectada. A continuación, seleccione el nombre de la lista.
 
@@ -262,4 +276,4 @@ En primer lugar, seleccione una instancia de Marketo Engage conectada. A continu
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3443248/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
