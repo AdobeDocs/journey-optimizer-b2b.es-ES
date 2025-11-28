@@ -6,16 +6,16 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Esta función se encuentra actualmente en versión beta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: 5f3d7bb8eb72c48409273de43b03114d273cb80c
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 0%
+source-wordcount: '1463'
+ht-degree: 9%
 
 ---
 
 # Seleccionar eventos de experiencia y campos
 
-Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
+Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 El uso de eventos de experiencia de AEP en recorrido es un proceso de dos pasos:
@@ -71,7 +71,7 @@ Para que un evento de experiencia esté disponible para un nodo _Escuchar un eve
 
 >[!NOTE]
 >
->En la versión beta, no se pueden eliminar eventos de la lista. Asegúrese de que cada evento que agregue esté pensado para su uso por parte de su organización.
+>En la versión beta, no se pueden eliminar eventos de la lista. Asegúrese de que cada evento que agregue sea uno que su organización pretenda utilizar.
 
 1. Haga clic en **[!UICONTROL Seleccionar evento de experiencia]** en la parte superior derecha.
 
@@ -125,6 +125,343 @@ Edite los detalles del evento para cambiar los campos.
 >
 >Para la versión de Beta de esta función, no se puede quitar un evento de la lista de eventos seleccionados. Se ha planificado la eliminación de eventos para la versión de GA.
 
+## Eventos y campos
+
+Para [!DNL Journey Optimizer B2B Edition], ciertas actividades a nivel de personas se capturan como [!DNL Experience Platform] eventos de experiencia. Estos eventos se almacenan en un conjunto de datos del sistema que utiliza el esquema de evento de experiencia XDM e incluye grupos de campos específicos del recorrido. Puede usar estos eventos en [!UICONTROL Journey Optimizer B2B edition] como cualquier otro evento de experiencia.
+
+Cada evento expone un conjunto definido de campos que se pueden utilizar en el recorrido _Escuchar un evento_ nodos (toma de decisiones basada en eventos). Revise los tipos de evento disponibles y sus campos para determinar qué evento y campos utilizar en estos nodos de recorrido:
+
+### Se envió el email
+
+Este evento rastrea cuándo se envió un correo electrónico de marketing a una persona.
+
+Tipo de evento: `directMarketing.emailSent`
+
++++Campos
+
+| Campo | Tipo de campo |
+| ----- | ---------- |
+| Identificador | `_id` |
+| Tipo de evento | `eventType` |
+| Marca de tiempo | `timestamp` |
+| ID de persona | `personID` |
+| ID de origen de persona | `personKey.sourceID` |
+| Tipo de origen de persona | `personKey.sourceType` |
+| ID de instancia de origen de persona | `personKey.sourceInstanceID` |
+| Clave de origen de persona | `personKey.sourceKey` |
+| ID de origen de correo electrónico | `directMarketing.emailSent.mailingKey.sourceID` |
+| Tipo de origen de correo electrónico | `directMarketing.emailSent.mailingKey.sourceType` |
+| ID de instancia de correo electrónico | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
+| Clave de origen de correo electrónico | `directMailing.emailSent.mailingKey.sourceKey` |
+| Nombre de correo | `directMarketing.emailSent.mailingName` |
+| ID de recorrido | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID de nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Correo electrónico entregado
+
+Este evento rastrea cuándo se entregó correctamente un correo electrónico al servicio de correo electrónico de una persona.
+
+Tipo de evento: `directMarketing.emailDelivered `
+
++++Campos
+
+| Campo | Tipo de campo |
+| ----- | ---------- |
+| Identificador | `_id` |
+| Tipo de evento | `eventType` |
+| Marca de tiempo | `timestamp` |
+| ID de persona | `personID` |
+| ID de origen de persona | `personKey.sourceID` |
+| Tipo de origen de persona | `personKey.sourceType` |
+| ID de instancia de origen de persona | `personKey.sourceInstanceID` |
+| Clave de origen de persona | `personKey.sourceKey` |
+| ID de origen de correo | `directMarketing.mailingKey.sourceID` |
+| Tipo de origen de correo | `directMarketing.mailingKey.sourceType` |
+| ID de instancia de origen de correo | `directMarketing.mailingKey.sourceInstanceID` |
+| Clave de origen de correo | `directMarketing.mailingKey.sourceKey` |
+| Nombre de correo | `directMarketing.mailingName` |
+| ID de recorrido | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID de nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Se abrió el email
+
+Este evento rastrea cuándo una persona ha abierto un correo electrónico de marketing.
+
+Tipo de evento: `directMarketing.emailOpened`
+
++++Campos
+
+| Campo | Tipo de campo |
+| ----- | ---------- |
+| Identificador | `_id` |
+| Tipo de evento | `eventType` |
+| Marca de tiempo | `timestamp` |
+| ID de persona | `personID` |
+| ID de origen de persona | `personKey.sourceID` |
+| Tipo de origen de persona | `personKey.sourceType` |
+| ID de instancia de origen de persona | `personKey.sourceInstanceID` |
+| Clave de origen de persona | `personKey.sourceKey` |
+| ID de origen de correo | `directMarketing.mailingKey.sourceID` |
+| Tipo de origen de correo | `directMarketing.mailingKey.sourceType` |
+| ID de instancia de origen de correo | `directMarketing.mailingKey.sourceInstanceID` |
+| Clave de origen de correo | `directMarketing.mailingKey.sourceKey` |
+| Nombre de correo | `directMarketing.mailingName` |
+| Es un dispositivo móvil | `device.isMobileDevice` |
+| Modelo de dispositivo | `device.model` |
+| Agente de usuario | `environment.browserDetails.userAgent` |
+| Sistema operativo | `environment.operatingSystem` |
+| ID de recorrido | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID de nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Correo electrónico clicado
+
+Este evento rastrea cuándo una persona hizo clic en un vínculo en un correo electrónico de marketing.
+
+Tipo de evento: `directMarketing.emailClicked`
+
++++Campos
+
+| Campo | Tipo de campo |
+| ----- | ---------- |
+| Identificador | `_id` |
+| Tipo de evento | `eventType` |
+| Marca de tiempo | `timestamp` |
+| ID de persona | `personID` |
+| ID de origen de persona | `personKey.sourceID` |
+| Tipo de origen de persona | `personKey.sourceType` |
+| ID de instancia de origen de persona | `personKey.sourceInstanceID` |
+| Clave de origen de persona | `personKey.sourceKey` |
+| ID de origen de correo | `directMarketing.mailingKey.sourceID` |
+| Tipo de origen de correo | `directMarketing.mailingKey.sourceType` |
+| ID de instancia de origen de correo | `directMarketing.mailingKey.sourceInstanceID` |
+| Clave de origen de correo | `directMarketing.mailingKey.sourceKey` |
+| Nombre de correo | `directMarketing.mailingName` |
+| URL del vínculo | `directMarketing.linkURL` |
+| Es un dispositivo móvil | `device.isMobileDevice` |
+| Modelo | `device.model` |
+| Agente de usuario | `environment.browserDetails.userAgent` |
+| Sistema operativo | `environment.operatingSystem` |
+| ID de recorrido | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID de nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### El email se rechazó
+
+Este evento rastrea cuándo rebotó un correo electrónico a una persona.
+
+Tipo de evento: `directMarketing.emailBounced`
+
++++Campos
+
+| Campo | Tipo de campo |
+| ----- | ---------- |
+| Identificador | `_id` |
+| Tipo de evento | `eventType` |
+| Marca de tiempo | `timestamp` |
+| ID de persona | `personID` |
+| ID de origen de persona | `personKey.sourceID` |
+| Tipo de origen de persona | `personKey.sourceType` |
+| ID de instancia de origen de persona | `personKey.sourceInstanceID` |
+| Clave de origen de persona | `personKey.sourceKey` |
+| ID de origen de correo | `directMarketing.mailingKey.sourceID` |
+| Tipo de origen de correo | `directMarketing.mailingKey.sourceType` |
+| ID de instancia de origen de correo | `directMarketing.mailingKey.sourceInstanceID` |
+| Clave de origen de correo | `directMarketing.mailingKey.sourceKey` |
+| Nombre de correo | `directMarketing.mailingName` |
+| Correo electrónico | `directMarketing.email` |
+| Código de correo electrónico rechazado | `directMarketing.emailBouncedCode` |
+| Detalles de correos electrónicos rechazados | `directMarketing.emailBouncedDetails` |
+| ID de recorrido | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID de nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Se rechazó el email temporalmente
+
+Este evento rastrea cuándo ha rebotado suavemente un correo electrónico a una persona.
+
+Tipo de evento: `directMarketing.emailBouncedSoft`
+
++++Campos
+
+| Campo | Tipo de campo |
+| ----- | ---------- |
+| Identificador | `_id` |
+| Tipo de evento | `eventType` |
+| Marca de tiempo | `timestamp` |
+| ID de persona | `personID` |
+| ID de origen de persona | `personKey.sourceID` |
+| Tipo de origen de persona | `personKey.sourceType` |
+| ID de instancia de origen de persona | `personKey.sourceInstanceID` |
+| Clave de origen de persona | `personKey.sourceKey` |
+| ID de origen de correo | `directMarketing.mailingKey.sourceID` |
+| Tipo de origen de correo | `directMarketing.mailingKey.sourceType` |
+| ID de instancia de origen de correo | `directMarketing.mailingKey.sourceInstanceID` |
+| Clave de origen de correo | `directMarketing.mailingKey.sourceKey` |
+| Nombre de correo | `directMarketing.mailingName` |
+| Correo electrónico | `directMarketing.email` |
+| Código de correo electrónico rechazado | `directMarketing.emailBouncedCode` |
+| Detalles de correos electrónicos rechazados | `directMarketing.emailBouncedDetails` |
+| ID de recorrido | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID de nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Correo electrónico cancelado
+
+Este evento rastrea cuándo una persona canceló la suscripción a un correo electrónico de marketing.
+
+Tipo de evento: `directMarketing.emailUnsubscribed `
+
++++Campos
+
+| Campo | Tipo de campo |
+| ----- | ---------- |
+| Identificador | `_id` |
+| Tipo de evento | `eventType` |
+| Marca de tiempo | `timestamp` |
+| ID de persona | `personID` |
+| ID de origen de persona | `personKey.sourceID` |
+| Tipo de origen de persona | `personKey.sourceType` |
+| ID de instancia de origen de persona | `personKey.sourceInstanceID` |
+| Clave de origen de persona | `personKey.sourceKey` |
+| ID de origen de correo | `directMarketing.mailingKey.sourceID` |
+| Tipo de origen de correo | `directMarketing.mailingKey.sourceType` |
+| ID de instancia de origen de correo | `directMarketing.mailingKey.sourceInstanceID` |
+| Clave de origen de correo | `directMarketing.mailingKey.sourceKey` |
+| Nombre de correo | `directMarketing.mailingName` |
+| ID de recorrido | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID de nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
+### Visite la página web
+
+Este tipo de evento es el método estándar para marcar la visita como una vista de página.
+
+Tipo de evento: `web.webpagedetails.pageViews`
+
++++Campos
+
+| Campo | Tipo de campo |
+| ----- | ---------- |
+| Identificador | `_id` |
+| Tipo de evento | `eventType` |
+| Marca de tiempo | `timestamp` |
+| ID de persona | `personID` |
+| ID de origen de persona | `personKey.sourceID` |
+| Tipo de origen de persona | `personKey.sourceType` |
+| ID de instancia de origen de persona | `personKey.sourceInstanceID` |
+| Clave de origen de persona | `personKey.sourceKey` |
+| ID de origen de página web | `web.webPageDetails.webPageKey.sourceID` |
+| Tipo de origen de página web | `web.webPageDetails.webPageKey.sourceType` |
+| ID de instancia de origen de página web | `web.webPageDetails.webPageKey.sourceInstanceID` |
+| Clave de origen de página web | `web.webPageDetails.webPageKey.sourceKey` |
+| Nombre de página web | `web.webPageDetails.name` |
+| URL de página web | `web.webPageDetails.URL` |
+| Parámetros de consulta de página web | `web.webPageDetails.queryParameters` |
+| ID de página web | `web.webPageDetails.webPageID` |
+| Agente de usuario | `environment.browserDetails.userAgent` |
+| URL del remitente | `web.webReferrer.URL` |
+
++++
+
+### Formulario rellenado
+
+Este evento rastrea cuándo una persona ha rellenado un formulario en una página web.
+
+Tipo de evento: `web.formFilledOut`
+
++++Campos
+
+| Campo | Tipo de campo |
+| ----- | ---------- |
+| Identificador | `_id` |
+| Tipo de evento | `eventType` |
+| Marca de tiempo | `timestamp` |
+| ID de persona | `personID` |
+| ID de origen de persona | `personKey.sourceID` |
+| Tipo de origen de persona | `personKey.sourceType` |
+| ID de instancia de origen de persona | `personKey.sourceInstanceID` |
+| Clave de origen de persona | `personKey.sourceKey` |
+| ID de origen de formulario web | `web.fillOutForm.webFormKey.sourceID` |
+| Tipo de origen de formulario web | `web.fillOutForm.webFormKey.sourceType` |
+| ID de instancia de origen de formulario web | `web.fillOutForm.webFormKey.sourceInstanceID` |
+| Clave de origen de formulario web | `web.fillOutForm.webFormKey.sourceKey` |
+| ID del formulario web | `web.fillOutForm.webFormID` |
+| Nombre del formulario web | `web.fillOutForm.webFormName` |
+| Parámetros de consulta de página web | `web.webPageDetails.queryParameters` |
+| ID de página web | `web.webPageDetails.webPageID` |
+| Agente de usuario | `environment.browserDetails.userAgent` |
+| URL del remitente | `web.webReferrer.URL` |
+
++++
+
+### Vínculo web pulsado
+
+El evento indica que Web SDK registró automáticamente un clic en vínculo.
+
+Tipo de evento: `web.webinteraction.linkClicks`
+
++++Campos
+
+| Campo | Tipo de campo |
+| ----- | ---------- |
+| Identificador | `_id` |
+| Tipo de evento | `eventType` |
+| Marca de tiempo | `timestamp` |
+| ID de persona | `personID` |
+| ID de origen de persona | `personKey.sourceID` |
+| Tipo de origen de persona | `personKey.sourceType` |
+| ID de instancia de origen de persona | `personKey.sourceInstanceID` |
+| Clave de origen de persona | `personKey.sourceKey` |
+| ID de origen de interacción web | `web.webInteraction.webInteractionKey.sourceID` |
+| Tipo de origen de interacción web | `web.webInteraction.webInteractionKey.sourceType` |
+| ID de instancia de origen de interacción web | `web.webInteraction.webInteractionKey.sourceInstanceID` |
+| Clave de origen de interacción web | `web.webInteraction.webInteractionKey.sourceKey` |
+| ID del vínculo de interacción web | `web.webInteraction.linkID` |
+| URL del vínculo de interacción web | `web.webInteraction.linkURL` |
+| Parámetros de consulta de página web | `web.webPageDetails.queryParameters` |
+| ID de página web | `web.webPageDetails.webPageID` |
+| Agente de usuario | `environment.browserDetails.userAgent` |
+| URL del remitente | `web.webReferrer.URL` |
+
++++
+
+### Momento interesante
+
+Este evento rastrea cuándo se grabó un momento interesante para una persona.
+
+Tipo de evento: `leadOperation.interestingMoment `
+
++++Campos
+
+| Campo | Tipo de campo |
+| ----- | ---------- |
+| Identificador | `_id` |
+| Tipo de evento | `eventType` |
+| Marca de tiempo | `timestamp` |
+| ID de persona | `personID` |
+| ID de origen de persona | `personKey.sourceID` |
+| Tipo de origen de persona | `personKey.sourceType` |
+| ID de instancia de origen de persona | `personKey.sourceInstanceID` |
+| Clave de origen de persona | `personKey.sourceKey` |
+| Fecha del momento | `leadOperation.interestingMoment.date` |
+| Descripción del momento | `leadOperation.interestingMoment.description` |
+| Origen del momento | `leadOperation.interestingMoment.source` |
+| Tipo de momento | `leadOperation.interestingMoment.type` |
+| ID de recorrido | `_experience.journeyOrchestration.stepEvents.journeyID` |
+| ID de nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
+
++++
+
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448686/?captions=spa&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
