@@ -4,9 +4,9 @@ description: Utilice la administración de campos XDM para controlar los datos d
 feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: 0497f44336cdd6bfed5bac9f6f579a97f6be585a
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1070'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Los esquemas de Adobe Experience Platform (AEP) suelen contener muchos campos en
 Los administradores que comprenden XDM y colaboran con los ingenieros de datos o las partes interesadas en el modelado de datos de la plataforma de datos del cliente B2B (CDP) deben utilizar los procedimientos de esta página.
 
 >[!NOTE]
->[Los esquemas relacionales](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión limitada. Los esquemas relacionales y de Data Mirror están disponibles para los titulares de licencias de las campañas orquestadas de Journey Optimizer. Los esquemas relacionales también están disponibles como una versión limitada para los usuarios de Customer Journey Analytics, según la licencia y la habilitación de funciones. Póngase en contacto con su representante de Adobe para obtener acceso.
+>[Los esquemas relacionales](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión de disponibilidad limitada. Los esquemas relacionales y de Data Mirror están disponibles para los titulares de licencias de las campañas orquestadas de Journey Optimizer. Los esquemas relacionales también están disponibles como una versión limitada para los usuarios de Customer Journey Analytics, según la licencia y la habilitación de funciones. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 ## Acceso a clases XDM
 
@@ -73,7 +73,7 @@ Para seleccionar campos del esquema de unión para clases XDM estándar, haga cl
 
 >[!NOTE]
 >
->Un campo debe ser _Administrado_ antes de que pueda ser _Actualizable_. Los _campos actualizables_ que seleccione deben existir en el esquema proporcionado por el usuario.
+>Un campo debe ser _Administrado_ antes de que pueda ser _Actualizable_. Los _campos actualizables_ que seleccione deben existir en el esquema proporcionado por el usuario. Es posible que el esquema no incluya campos obligatorios, excepto los definidos por el sistema.
 
 #### Campos administrados
 
@@ -89,10 +89,12 @@ Al elegir **[!UICONTROL Campos administrados]**, el cuadro de diálogo _Seleccio
 
 #### Campos actualizables
 
-Cuando elige **[!UICONTROL Campos actualizables]**, el cuadro de diálogo _Seleccionar campos_ le permite elegir campos de otras fuentes de datos.
+Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
 
-1. Para **[!UICONTROL Conjuntos de datos]**, seleccione el origen de datos que desea configurar.
-1. Edite los campos del conjunto de datos seleccionado.
+Cree un conjunto de datos para Perfil individual y otro para Cuenta empresarial. Seleccione cada nuevo conjunto de datos durante el proceso de configuración:
+
+1. Para **[!UICONTROL Conjuntos de datos]**, seleccione el nuevo origen de datos que creó.
+1. Elija los campos del conjunto de datos seleccionado.
 
    ![Cuadro de diálogo para seleccionar campos actualizables de conjuntos de datos en la configuración de esquema XDM](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
 
@@ -101,6 +103,8 @@ Cuando elige **[!UICONTROL Campos actualizables]**, el cuadro de diálogo _Selec
 ### Esquemas relacionales
 
 Los esquemas relacionales permiten crear clases de datos personalizadas. Con acceso a varios conjuntos de datos, puede crear clases adaptadas específicamente a sus necesidades de datos. Utilice esquemas relacionales para entidades comerciales, como compras, licencias y registros de eventos, en las decisiones de recorrido y la personalización de correo electrónico. Puede seleccionar hasta 50 esquemas y hasta 100 campos por esquema.
+
+Para obtener información sobre cómo se usan los campos seleccionados para la personalización avanzada de correo electrónico, consulte [Personalización de contenido](../content/personalization.md#custom-datasets).
 
 >[!NOTE]
 >
