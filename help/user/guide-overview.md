@@ -2,10 +2,10 @@
 title: Documentación de Adobe Journey Optimizer B2B Edition
 description: 'Documentación completa de Journey Optimizer B2B Edition: explore los recursos disponibles para la incorporación, la creación de grupos de compras, la creación de recorridos de cuenta y la administración de contenido.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 73%
 
 ---
 
@@ -13,9 +13,35 @@ ht-degree: 100%
 
 ## Novedades
 
-A continuación puede ver un muestreo de las últimas adiciones y mejoras de la aplicación y la documentación de Journey Optimizer B2B Edition.
+Este es un ejemplo de las últimas adiciones y mejoras realizadas en la aplicación y documentación de [!DNL Journey Optimizer B2B Edition].
 
 >[!BEGINTABS]
+
+>[!TAB agentes de IA]
+
+Con [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, la interfaz del asistente de IA puede llamar automáticamente a agentes especializados para que obtengan las respuestas y perspectivas correctas. Agent Orchestrator recuerda el historial de sus conversaciones, lo que le permite basarse en preguntas anteriores de forma natural sin repetir el contexto, y combina la información de varios agentes para presentarle respuestas claras y unificadas. En el contexto [!DNL Journey Optimizer B2B Edition], hay tres agentes creados específicamente para tareas y dominios B2B específicos:
+
+* [Audience Agent B2B](./agents/audience-agent-b2b.md)
+* [Recorrido Build Agent B2B](./agents/journey-agent.md)
+* [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB Temas de marca]
+
+Con las temáticas, los diseñadores no técnicos tienen la capacidad de crear directrices de diseño de contenido de correo electrónico reutilizables que se alineen con una marca y un estilo específicos. Los temas permiten a los especialistas en marketing aprovechar correos electrónicos visualmente atractivos y coherentes con la marca de forma más rápida y con menos esfuerzo, y proporcionan opciones de personalización avanzadas para satisfacer necesidades de diseño únicas.
+
+[!BADGE Más información]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Más información sobre los temas de marca"}
+
+>[!TAB Asignación personal]
+
+Los especialistas en marketing pueden definir perfiles detallados, incluidos antecedentes, responsabilidades, puntos problemáticos y canales de comunicación preferidos. Con estas definiciones, los administradores pueden configurar las personas según los atributos de la persona en [!DNL Journey Optimizer B2B Edition], de modo que las plantillas de funciones puedan utilizar condiciones de funciones optimizadas y coherentes que capturan a estas personas.
+
+[!BADGE Más información]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Más información sobre la asignación de personas"}
+
+>[!TAB Perspectivas de ventas en CRM]
+
+Los integrantes del equipo de ventas ahora pueden ver los grupos de compras de vencimiento y las perspectivas relacionadas dentro de una integración de Salesforce o Dynamics para identificar nuevas oportunidades. Se incluyen los detalles del grupo de compras, como la fase, puntuación y miembros relacionados.
+
+[!BADGE Más información]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Obtenga información acerca de perspectivas de ventas en CRM"}
 
 >[!TAB Colaboración en el contenido de un correo electrónico]
 
@@ -27,37 +53,13 @@ El espacio de diseño de correo electrónico incluye herramientas de colaboraci�
 
 El espacio de diseño del correo electrónico ahora incluye la vista previa y la configuración del _modo oscuro_. El modo oscuro permite que un cliente de correo electrónico o una aplicación compatible muestre los correos electrónicos con fondos más oscuros y colores más claros para el texto, los botones y otros elementos visuales. Obtenga una vista previa del renderizado, personalice la configuración, garantice la accesibilidad y realice pruebas en todos los clientes de correo electrónico.
 
-[!BADGE Más información]{type=Informative url=" /help/user/content/email-dark-mode.md" tooltip="Obtenga información sobre el diseño de correo electrónico en modo oscuro"}
+[!BADGE Más información]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Obtenga información sobre el diseño de correo electrónico en modo oscuro"}
 
 >[!TAB Puntuación de participación de personas]
 
 Los especialistas en marketing B2B ahora pueden utilizar puntuaciones de participación de nivel de persona como filtro en sus rutas divididas para un recorrido o en una plantilla de funciones para crear grupos de compra. Esta puntuación y filtrado permiten una segmentación precisa de los abonados de los grupos de compra para personalizar la participación continua.
 
 [!BADGE Más información]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Obtenga información sobre las puntuaciones de participación de personas y el filtrado"}
-
->[!TAB Funciones de grupo de compras personalizadas]
-
-Los estrategas de marketing B2B ahora pueden ampliar la precisión del grupo de compras con funciones de grupo de compras personalizadas. Cree hasta 20 funciones personalizadas más allá de las seis predeterminadas y reutilícelas en los grupos de compras. Dentro de los recorridos de la cuenta, adapte la mensajería para que coincida con sus funciones únicas y mejore la relevancia y la participación en todos los grupos de compras.
-
-[!BADGE Más información]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Obtenga información sobre las funciones de grupo de compras personalizadas"}
-
->[!TAB Configuración de ponderación de puntuación de participación]
-
-Asigne ponderaciones personalizadas a las actividades de participación para que las puntuaciones de participación reflejen las actividades de mayor valor. Al enfatizar las señales de alta intención, su equipo puede identificar y priorizar mejor las cuentas con el mayor potencial de compra.
-
-[!BADGE Más información]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Obtenga información sobre la ponderación de puntuación de participación personalizada"}
-
->[!TAB Compatibilidad con CSS personalizado]
-
-Ahora puede añadir su propio CSS personalizado cuando cree contenido para correos electrónicos y páginas de destino en el espacio de diseño.
-
-[!BADGE Más información]{type=Informative url=" /help/user/content/design-custom-css.md" tooltip="Más información sobre el uso de CSS personalizado"}
-
->[!TAB Asignación de palabras clave de intenciones]
-
-Para activar y gestionar el modelo de detección de intenciones, ahora puede cargar una hoja de cálculo para definir una categoría de asignación de datos de intenciones.
-
-[!BADGE Más información]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Más información sobre la configuración de asignación de palabras clave de intenciones"}
 
 >[!ENDTABS]
 
@@ -123,11 +125,11 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Administración de contenido"><br/>
-      <strong>Administración de contenido</strong><br/><a href="./content/assets-overview.md">Información general de recursos</a><br/><a href="./content/email-templates.md">Plantillas de correo electrónico</a><br/><a href="./content/fragments.md">Fragmentos visuales</a><br/><a href="./content/conditional-content.md">Contenido condicional</a>
+      <strong>Administración de contenido</strong><br/><a href="./content/assets-overview.md">Información general de Assets</a><br/><a href="./content/email-templates.md">Plantillas de correo electrónico</a><br/><a href="./content/fragments.md">Fragmentos visuales</a><br/><a href="./content/conditional-content.md">Contenido condicional</a><br/><a href="./content/brand-themes.md">Temas de marca</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Información y paneles de control"><br/>
-      <strong>Información</strong><br/><a href="./dashboards/intelligent-dashboard.md">Panel inteligente</a><br/><a href="./dashboards/engagement-dashboard.md">Panel de participación</a><br/><a href="./dashboards/buying-groups-dashboard.md">Panel de grupos de compras</a><br/><a href="./dashboards/journeys-dashboard.md">Panel de recorridos</a>
+      <strong>Información</strong><br/><a href="./dashboards/intelligent-dashboard.md">Panel inteligente</a><br/><a href="./dashboards/engagement-dashboard.md">Panel de participación</a><br/><a href="./dashboards/buying-groups-dashboard.md">Panel de grupos de compras</a><br/><a href="./dashboards/journeys-dashboard.md">Panel de Recorridos</a><br/><a href="./buying-groups/incrm-insights.md">Información en CRM</a>
     </td>
 
 </tr>
@@ -137,7 +139,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/home" target="_blank">Documentación</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>

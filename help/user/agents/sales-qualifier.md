@@ -3,7 +3,7 @@ title: Calificador de ventas
 description: Automatice la calificación y alcance de clientes potenciales B2B con el Calificador de ventas. Proporciona investigación basada en IA, redacción de correos electrónicos, integración de CRM y planes de participación para BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 1%
@@ -14,13 +14,13 @@ ht-degree: 1%
 # Calificador de ventas
 
 >[!NOTE]
->Esta función se encuentra actualmente en disponibilidad limitada y no está disponible para todos los usuarios.
 >
+>Esta función se encuentra actualmente en disponibilidad limitada y no está disponible para todos los usuarios.
 
 Sales Qualifier es una aplicación complementaria de Adobe Journey Optimizer B2B edition basada en IA que contiene Account Qualification Agent y que está diseñada para optimizar los flujos de trabajo de los representantes de desarrollo empresarial (BDR). El Cualificador de ventas automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. Reduce la carga manual de BDR y acelera la velocidad de la canalización para las empresas B2B empresariales.
 Utilice los complementos de explorador y correo electrónico para acceder a inteligencia empresarial directamente desde CRM o Outlook.
 
-El calificador de ventas se incluye con Journey Optimizer B2B edition, pero se trata de una aplicación independiente dentro de Experience Platform Experience Cloud.
+El calificador de ventas se incluye con [!UICONTROL Journey Optimizer B2B edition], pero es una aplicación independiente dentro de Experience Platform Experience Cloud.
 
 ![Panel de calificación de ventas que automatiza la calificación y alcance de clientes potenciales BDR para empresas B2B](assets/home-screen.png)
 
@@ -64,7 +64,7 @@ Itere sobre el recorrido refinando los indicadores para obtener los resultados q
 
 * El objetivo de este correo electrónico es iniciar una conversación y generar credibilidad. Redacte un correo electrónico con menos de 120 palabras que tenga un tono consultivo y empático. Asegúrese de evitar un enfoque demasiado familiar o de ventas y no utilice las frases &quot;espero que esté bien&quot;, &quot;solo registrarse&quot; o &quot;por favor&quot;.
 
-## Perspectivas
+## Clientes potenciales
 
 Esta ventana enumera todos los posibles clientes a los que tiene acceso. Es una comprobación rápida de cosas, como el estado del posible cliente y la última actividad.
 
@@ -223,4 +223,4 @@ En la parte inferior izquierda de la aplicación, haga clic en **[!UICONTROL Edi
 
 El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
