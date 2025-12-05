@@ -2,10 +2,10 @@
 title: Documentación de Adobe Journey Optimizer B2B Edition
 description: 'Documentación completa de Journey Optimizer B2B Edition: explore los recursos disponibles para la incorporación, la creación de grupos de compras, la creación de recorridos de cuenta y la administración de contenido.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: ae903f25327d7ac9d7b47e4b5f736a164b2d2d4b
+source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 62%
+source-wordcount: '873'
+ht-degree: 48%
 
 ---
 
@@ -23,7 +23,7 @@ Revise este ejemplo de las últimas adiciones y mejoras en la aplicación y docu
 
 >[!TAB agentes de IA]
 
-Con [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, la interfaz del Asistente de IA puede llamar automáticamente a agentes especializados para obtener las respuestas y perspectivas correctas. Agent Orchestrator recuerda el historial de sus conversaciones, lo que le permite basarse en preguntas anteriores de forma natural sin repetir el contexto, y combina la información de varios agentes para presentarle respuestas claras y unificadas. En el contexto [!DNL Journey Optimizer B2B Edition], hay tres agentes creados específicamente para tareas y dominios B2B específicos:
+Con [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, la interfaz del Asistente de IA puede llamar automáticamente a agentes especializados para obtener las respuestas y perspectivas correctas. Agent Orchestrator recuerda el historial de sus conversaciones, lo que le permite basarse en preguntas anteriores de forma natural sin repetir el contexto, y combina la información de varios agentes para presentarle respuestas claras y unificadas. En el contexto [!DNL Journey Optimizer B2B Edition], hay tres agentes creados específicamente para tareas y dominios B2B específicos:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Recorrido Build Agent B2B](./agents/journey-agent.md)
@@ -67,32 +67,83 @@ Los especialistas en marketing B2B ahora pueden utilizar puntuaciones de partici
 
 >[!ENDTABS]
 
-Para obtener una lista completa de las nuevas características y mejoras, consulte las [notas de la versión](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
+Para obtener una lista completa de las nuevas características y mejoras, consulte las [notas de la versión](../user/release-notes/release-notes.md).
 
-## Empiece con lo básico
+## Empiece a explorar {#section-explore}
 
-<table style="table-layout:fixed">
-  <tr style="border: 0;">
-    <td>
-    <a href="home-page.md"><img width="140px" src="./assets/launch.png" alt="Lanzamiento de los usos del producto"></a>
-    <div><strong>Inicie sesión desde la página de inicio</strong><br/>Aprenda a lograr sus objetivos más rápido en Journey Optimizer B2B Edition con la página de inicio personalizada según su función.</div>
-    </td>
-      <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="140px" src="./assets/communication.png" alt="Grupos de compras"></a>
-    <div><strong>Cree su primer grupo de compras</strong><br/>Cree su primer grupo de compras en Journey Optimizer B2B Edition para automatizar el proceso de atraer y calificar contactos.</div>
-    </td>
-    <td>
-    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="Recorridos de la cuenta"></a>
-    <div><strong>Cree su primer recorrido de cuenta</strong><br/>Diseñe y organice recorridos de cuenta personalizados para armonizar el alcance del marketing con una participación segmentada. 
-    </div>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg" alt="Más información"></a></td>
-    <td align="center"><a href="buying-groups/buying-groups-overview.md"><img src="../assets/learn-more.svg" alt="Más información"></a></td>
-    <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg" alt="Más información"></a></td>
-    </tr>
-</table>
+:::: landing-cards-container
+:::
+![Icono de lista](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Últimas notas de la versión
+
+Manténgase al día con las últimas notas de la versión, las nuevas funciones y las mejoras de Adobe Journey Optimizer B2B edition.
+
+[Ver notas de la versión](./release-notes/release-notes.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Introducción
+
+Consulte las directrices de incorporación de Journey Optimizer B2B edition para administradores y especialistas en marketing.
+
+[Introducción](./start/get-started.md)
+:::
+
+:::
+![Icono de configuración](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Configuración de los campos XDM
+
+Implemente las configuraciones del sistema para activar los esquemas y campos XDM que desee utilizar en Adobe Journey Optimizer B2B edition.
+
+[Ver administración de campos XDM](./admin/xdm-field-management.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+Canales de comunicación
+
+Configure y administre correo electrónico, SMS y otros canales para interacciones personalizadas con los clientes.
+
+[Configurar el canal de correo electrónico](./admin/configure-channels-emails.md)
+[Configurar el canal de SMS](./admin/configure-channels-sms.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+
+Diseño del contenido
+
+Aprenda a crear y administrar contenido para experiencias de cliente personalizadas creadas a través de recorridos.
+
+[Explorar componentes de contenido](./content/content-components.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+
+Crear un Recorrido de cuenta
+
+Diseñe, organice, administre y optimice recorridos de cuenta personalizados.
+
+[Explorar Recorridos](./journeys/journey-overview.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+
+Comprender la compra de grupos
+
+Directrices detalladas sobre la creación, gestión y optimización de grupos de compra para una segmentación eficaz.
+
+[Más información sobre la compra de grupos](./buying-groups/buying-groups-overview.md)
+:::
+
+::::
 
 ## Demostración general
 
@@ -100,7 +151,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
-## Explore la documentación
+## Profundizar en la documentación
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -143,7 +194,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/home" target="_blank">Documentación</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>

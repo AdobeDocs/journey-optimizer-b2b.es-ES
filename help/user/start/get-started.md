@@ -4,10 +4,10 @@ description: 'Guía de incorporación para administradores y expertos en marketi
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ Las funciones y herramientas que desea abordar en Adobe Journey Optimizer B2B Ed
 
 >[!TIP]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 >[!BEGINTABS]
 
@@ -33,13 +33,15 @@ Obtenga información acerca de la administración de acceso en las siguientes p�
 
 1. **Trabaje con su ingeniero de datos** para planificar e implementar la activación de su público y perfil B2B. Revise los modelos publicados y siga las instrucciones según sus necesidades. [Más información](https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Planifique e implemente la integración de Marketo Engage** para incorporar un esquema personalizado, la ingesta de perfiles y cuentas, y la organización de recorridos personalizados para grupos de compras. [Más información](https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Planifique e implemente las integraciones de Marketo Engage** para incorporar un esquema personalizado, la ingesta de perfiles y cuentas y la organización de recorridos personalizados para grupos compradores. [Más información](https://experienceleague.adobe.com/es/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **Configure el perfil del producto**. Los perfiles del producto son un conjunto de derechos unitarios de Adobe Experience Platform que permiten a los usuarios acceder a determinadas funcionalidades u objetos de la interfaz. [Más información](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **Configure los permisos de usuario** para los perfiles del producto, incluidas las zonas protegidas, y otorgue acceso a los integrantes del equipo asignándolos a diferentes perfiles del producto. Este paso se lleva a cabo en Admin Console. [Más información](../admin/user-management.md#create-a-user-group)
 
-1. **Configure el envío de correo electrónico** en Marketo Engage, lo que permite que su equipo envíe contenido de correo electrónico desde los recorridos de la cuenta. [Más información](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
+1. **Configure clases y campos XDM** para controlar los datos disponibles para la orquestación de recorrido y la personalización de contenido en Journey Optimizer B2B edition. [Más información](../admin/xdm-field-management.md)
+
+1. **Configure el envío de correo electrónico** en Marketo Engage, lo que permite que su equipo envíe contenido de correo electrónico desde los recorridos de la cuenta. [Más información](../admin/configure-channels-emails.md){target="_blank"}
 
 1. **Configure los servicios de SMS**. Configure uno de los proveedores de SMS de terceros compatibles que ofrecen servicios de mensajería de texto de forma independiente y configure las credenciales de la cuenta en Adobe Journey Optimizer B2B Edition. [Más información](../admin/configure-channels-sms.md)
 
