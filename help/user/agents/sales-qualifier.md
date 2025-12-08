@@ -3,7 +3,7 @@ title: Calificador de ventas
 description: Automatice la calificación y alcance de clientes potenciales B2B con el Calificador de ventas. Proporciona investigación basada en IA, redacción de correos electrónicos, integración de CRM y planes de participación para BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
+source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 1%
@@ -19,6 +19,12 @@ ht-degree: 1%
 
 Sales Qualifier es una aplicación complementaria de Adobe Journey Optimizer B2B edition basada en IA que contiene Account Qualification Agent y que está diseñada para optimizar los flujos de trabajo de los representantes de desarrollo empresarial (BDR). El Cualificador de ventas automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. Reduce la carga manual de BDR y acelera la velocidad de la canalización para las empresas B2B empresariales.
 Utilice los complementos de explorador y correo electrónico para acceder a inteligencia empresarial directamente desde CRM o Outlook.
+
+## Vídeo de demostración
+
+El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 El calificador de ventas se incluye con [!UICONTROL Journey Optimizer B2B edition], pero es una aplicación independiente dentro de Experience Platform Experience Cloud.
 
@@ -218,9 +224,3 @@ Cuando el complemento está instalado en Chrome, el logotipo de Adobe aparece en
 ## Editar la barra de navegación izquierda
 
 En la parte inferior izquierda de la aplicación, haga clic en **[!UICONTROL Editar]** para controlar cuáles de los iconos son visibles en la navegación. También puede arrastrarlos y soltarlos para reordenarlos como desee.
-
-## Vídeo de demostración
-
-El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
-
->[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
