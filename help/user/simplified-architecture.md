@@ -5,10 +5,10 @@ feature: Setup, Administration
 role: Admin, Data Engineer
 hide: true
 hidefromtoc: true
-source-git-commit: d2f33c30dba1ce44842f41bd2dbbfada24a8ff9c
+source-git-commit: 8f2cd2a657892b0f776b51776d3056946930df21
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 7%
+source-wordcount: '1423'
+ht-degree: 6%
 
 ---
 
@@ -30,7 +30,7 @@ Para los entornos aprovisionados para esta arquitectura, utilice las siguientes 
 
 ## Espacios de nombres y esquemas
 
-Consulte [Esquemas y áreas de nombres B2B](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) en la documentación de Experience Platform para obtener una descripción general.
+Consulte [Esquemas y áreas de nombres B2B](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) en la documentación de Experience Platform para obtener una descripción general.
 
 ### Configuración del entorno
 
@@ -38,11 +38,11 @@ Configure un entorno de Postman para admitir el espacio de nombres B2B y la util
 
 * Puede descargar la colección de utilidades de generación automática de esquemas y áreas de nombres desde el [repositorio de GitHub](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility).
 
-* Para obtener información sobre el uso de las API de Experience Platform, incluidos detalles sobre cómo recopilar valores para los encabezados necesarios y leer llamadas de API de ejemplo, consulte la guía de [introducción a las API de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-guide?lang=es).
+* Para obtener información sobre el uso de las API de Experience Platform, incluidos detalles sobre cómo recopilar valores para los encabezados necesarios y leer llamadas de API de ejemplo, consulte la guía de [introducción a las API de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide?lang=es).
 
-* Para obtener información sobre cómo generar tus credenciales para las API de Experience Platform, consulta el tutorial sobre [autenticación y acceso a las API de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-authentication).
+* Para obtener información sobre cómo generar tus credenciales para las API de Experience Platform, consulta el tutorial sobre [autenticación y acceso a las API de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication).
 
-* Para obtener información sobre la configuración de las API de Postman para Experience Platform, consulte los pasos detallados en [Postman en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/postman).
+* Para obtener información sobre la configuración de las API de Postman para Experience Platform, consulte los pasos detallados en [Postman en Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman).
 
 Con una consola para desarrolladores de Experience Platform y una configuración de Postman, ahora puede empezar a aplicar los valores de entorno adecuados al entorno de Postman.
 
@@ -100,17 +100,22 @@ Elija qué campos se pueden modificar mediante las acciones de recorrido **[!UIC
 
    Su organización proporciona estos esquemas y conjuntos de datos.
 
+   Protecciones para campos actualizables:
+
+   * Esquemas: el esquema no debe incluir ningún campo obligatorio que no sean los definidos por el sistema, como `identityMap` o `personID`, en la clase de perfil individual de XDM.
+   * Conjuntos de datos: no seleccione un conjunto de datos que ya esté en uso para otro propósito. Se recomienda crear conjuntos de datos específicos para almacenar campos actualizables. Utilice un conjunto de datos independiente para cada clase XDM.
+
 1. Revise la lista de campos actualizables (haga clic en el icono _Información_ para ver los metadatos).
 
    Solo se pueden editar los campos administrados.
 
 1. Seleccione los campos que desea que estén disponibles para la actualización desde recorrido.
 
-1. Haga clic en **Guardar**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ### Esquemas relacionales
 
-Seleccione [esquemas relacionales](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational) para usarlos en **_decisiones de recorrido_** y **_personalización_**. Actualmente, estos esquemas son para casos de uso de objetos personalizados. En el futuro, los esquemas relacionales también se pueden utilizar para otros casos de uso de objetos.
+Seleccione [esquemas relacionales](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational) para usarlos en **_decisiones de recorrido_** y **_personalización_**. Actualmente, estos esquemas son para casos de uso de objetos personalizados. En el futuro, los esquemas relacionales también se pueden utilizar para otros casos de uso de objetos.
 
 1. Seleccione la ficha **[!UICONTROL Relacional]**.
 
@@ -131,11 +136,11 @@ Seleccione [esquemas relacionales](https://experienceleague.adobe.com/es/docs/ex
 >Tenga en cuenta que los esquemas relacionales deben tener las siguientes configuraciones:
 >
 ><li>Comportamiento: Registro
->&gt; <li>Segmentación: habilitada
->&gt; <li>Tipo de relación: varios a uno
->&gt; <li>Esquema de referencia: <a href="https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">Cuenta B2B - Esquema de cuenta empresarial de XDM</a>
->&gt; <li>Campos obligatorios: Clave principal, Clave externa y Descriptor de la versión
->&gt; <li>Conjunto de datos asociado: definido y asignado al esquema
+&gt; <li>Segmentación: habilitada
+&gt; <li>Tipo de relación: varios a uno
+&gt; <li>Esquema de referencia: <a href="https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">Cuenta B2B - Esquema de cuenta empresarial de XDM</a>
+&gt; <li>Campos obligatorios: Clave principal, Clave externa y Descriptor de la versión
+&gt; <li>Conjunto de datos asociado: definido y asignado al esquema
 
 ### Eventos
 
@@ -155,19 +160,19 @@ Seleccione los eventos de experiencia que se usarán en **_toma de decisiones de
 
 Se debe configurar lo siguiente para enviar correos electrónicos desde Journey Optimizer B2B edition.  
 
-[https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols)
+[https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols)
 
 ### Protocolos para el seguimiento y el envío de correos electrónicos
 
-1. [Crear registros DNS para correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
+1. [Crear registros DNS para correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
 
-1. [Configurar SPF y DKIM](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
+1. [Configurar SPF y DKIM](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
 
-1. [Configurar DMARC](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
+1. [Configurar DMARC](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
 
-1. [Configurar registros MX para su dominio](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
+1. [Configurar registros MX para su dominio](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
 
-1. [Agregar direcciones IP de salida a listas de permitidos](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
+1. [Agregar direcciones IP de salida a listas de permitidos](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
 
 1. Si necesita compartir el grupo de IP dedicado, póngase en contacto con el equipo de entrega para conocer la viabilidad y la configuración asistida.
 
@@ -175,9 +180,9 @@ Se debe configurar lo siguiente para enviar correos electrónicos desde Journey 
 
 En la arquitectura simplificada, la configuración del correo electrónico se establece desde la aplicación de Marketo Engage. Complete los pasos de configuración relacionados con el correo electrónico:
 
-* [https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps)
+* [https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps)
 
-* [https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
+* [https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
 
 ### Límites de comunicación
 
@@ -189,7 +194,7 @@ En la arquitectura simplificada, la configuración del correo electrónico se es
 
    No hay límite de comunicación si no se crea el conjunto de reglas global.
 
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/es/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
+<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
 
 ### Límites de comunicación compartida
 
@@ -217,7 +222,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 ## Configuración del canal SMS
 
-Consulte [_Configuraciones de SMS_](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms) para obtener información detallada.
+Consulte [_Configuraciones de SMS_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms) para obtener información detallada.
 
 ## Acciones de Marketo Engage de recorrido
 
@@ -247,7 +252,7 @@ Complete los siguientes pasos para configurar estas conexiones:
 
 ## Incorporación del usuario
 
-Consulte la página [Administración de usuarios](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/user-management) para obtener una descripción general.
+Consulte la página [Administración de usuarios](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management) para obtener una descripción general.
 
 ### Grupos de usuarios existentes
 
@@ -257,7 +262,7 @@ Si todos los usuarios de Journey Optimizer B2B edition existentes necesitan acce
 
 1. Agregue un grupo de usuarios existente al perfil de productos creado.
 
-Los perfiles otorgan todas las funciones y permisos ya asignados a ese grupo de usuarios, que ya deben configurarse para que los usuarios accedan a Journey Optimizer B2B edition. Si solo un subconjunto de usuarios debe acceder a la nueva arquitectura, complete los pasos descritos a continuación. Más detalles en la [documentación actual](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/user-management).
+Los perfiles otorgan todas las funciones y permisos ya asignados a ese grupo de usuarios, que ya deben configurarse para que los usuarios accedan a Journey Optimizer B2B edition. Si solo un subconjunto de usuarios debe acceder a la nueva arquitectura, complete los pasos descritos a continuación. Más detalles en la [documentación actual](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management).
 
 ### Crear un nuevo grupo de usuarios
 

@@ -4,9 +4,9 @@ description: Utilice la administración de campos XDM para controlar los datos d
 feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función se encuentra en una versión beta limitada sobre la arquitectura simplificada"
-source-git-commit: 7d57fa1154eceff81dedda7e9412a2d57ead3d6b
+source-git-commit: afac024e5eeb6b9d230c4292a6f37e92e16d29f6
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1169'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Administración de campos XDM
 
-Los campos XDM (Experience Data Model) son elementos de esquema que proporcionan datos a la aplicación [!DNL Journey Optimizer B2B Edition]. Utilice campos XDM como filtros y restricciones en recorridos, grupos de compra y funciones, como la personalización de correo electrónico y contenido condicional.
+Los campos XDM (Experience Data Model) son elementos de esquema que proporcionan datos a la aplicación [!DNL Journey Optimizer B2B Edition]. Utilice campos XDM como filtros y restricciones en nodos de recorrido, grupos de compra y para funciones de contenido, como personalización de correo electrónico y contenido condicional.
 
 Los esquemas definen campos basados en clases XDM estándar. Las clases XDM estándar incluyen Perfil individual, Cuenta empresarial y Evento de experiencia. Los esquemas relacionales también definen campos que permiten modelar datos estructurados de manera similar a las bases de datos relacionales tradicionales.
 
@@ -74,7 +74,7 @@ Para seleccionar campos del esquema de unión para clases XDM estándar, haga cl
 
 >[!NOTE]
 >
->Un campo debe ser _Administrado_ antes de que pueda ser _Actualizable_. Los _campos actualizables_ que seleccione deben existir en el esquema proporcionado por el usuario. Es posible que el esquema no incluya campos obligatorios, excepto los definidos por el sistema.
+>Un campo debe ser _Administrado_ antes de que pueda ser _Actualizable_. Los _campos actualizables_ que seleccione deben existir en el esquema proporcionado por el usuario. Es posible que el esquema no incluya campos obligatorios, excepto para los campos definidos por el sistema.
 
 #### Campos administrados
 
@@ -90,11 +90,19 @@ Al elegir **[!UICONTROL Campos administrados]**, el cuadro de diálogo _Seleccio
 
 #### Campos actualizables
 
-Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
+Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
+
+>[!IMPORTANT]
+>
+>Protecciones para campos actualizables:
+>
+>* Esquemas: en la clase de perfil individual XDM, cualquier campo requerido en el esquema debe estar definido por el sistema, como `identityMap` o `personID`.
+>* Conjuntos de datos: no utilice un conjunto de datos que ya esté en uso para otro propósito. Se recomienda crear conjuntos de datos específicos para almacenar campos actualizables. Utilice un conjunto de datos independiente para cada clase XDM.
 
 Cree un conjunto de datos para Perfil individual y otro para Cuenta empresarial. Seleccione cada nuevo conjunto de datos durante el proceso de configuración:
 
 1. Para **[!UICONTROL Conjuntos de datos]**, seleccione el nuevo origen de datos que creó.
+
 1. Elija los campos del conjunto de datos seleccionado.
 
    ![Cuadro de diálogo para seleccionar campos actualizables de conjuntos de datos en la configuración de esquema XDM](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
@@ -109,7 +117,7 @@ Para obtener información sobre cómo usar los campos seleccionados para la pers
 
 >[!NOTE]
 >
->Los [esquemas relacionales](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión de disponibilidad limitada. Los esquemas relacionales y de Data Mirror están disponibles para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licencias. Los esquemas relacionales también están disponibles como una versión limitada para [!DNL Customer Journey Analytics] usuarios, según su licencia y la habilitación de características. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Los [esquemas relacionales](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión de disponibilidad limitada. Los esquemas relacionales y de Data Mirror están disponibles para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licencias. Los esquemas relacionales también están disponibles como una versión limitada para [!DNL Customer Journey Analytics] usuarios, según su licencia y la habilitación de características. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 >[!NOTE]
 >
