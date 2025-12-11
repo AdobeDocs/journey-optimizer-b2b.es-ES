@@ -3,10 +3,10 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Entérese de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
+source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
 workflow-type: tm+mt
-source-wordcount: '3780'
-ht-degree: 92%
+source-wordcount: '3807'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Funciones de la IA agéntica
 
@@ -40,6 +40,7 @@ Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimi
 | Función | Asignación de persona | Asocie miembros de cuenta con personas establecidas con asignación de atributos. [Más información](../admin/persona-mapping.md) |
 | Función | Perspectivas de ventas para Salesforce y Dynamics | Los integrantes del equipo de ventas ahora pueden ver los grupos de compras de vencimiento y las perspectivas relacionadas dentro de una integración de Salesforce o Dynamics para identificar nuevas oportunidades. Se incluyen los detalles del grupo comprador, como etapa, puntuación y miembros relacionados. [Más información](../buying-groups/incrm-insights.md) |
 | Función | Activar audiencia en [!DNL Adobe Target] | Ahora puede activar una audiencia de un recorrido de cuenta a una audiencia de cliente externa y enviarla [!DNL Adobe Target]. Con esta integración, puede ofrecer una audiencia cualificada mediante una secuencia de recorrido para una experiencia web diseñada en [!DNL Target]. [Más información](../audiences/target-external-audience.md) |
+| Función | Panel de perspectivas de rol | El nuevo panel _[!UICONTROL Perspectivas de funciones]_ proporciona información sobre cómo las campañas y los recorridos influyen en la adquisición de roles de grupo y en la participación. [Más información](../buying-groups/buying-group-role-insights.md) |
 | Mejora | Puntuación de integridad del grupo de compra mejorada | Ahora puede asegurarse de que los grupos de compra reflejen la toma de decisiones real con umbrales de miembros de roles personalizables para la puntuación de integridad.  [Más información](../buying-groups/completeness-scores.md) |
 | Mejora | Trabajos de mantenimiento de grupos de compras | La frecuencia del trabajo de mantenimiento del grupo de compras se actualiza semana a semana o día a día. |
 | Mejora | Progreso del recorrido de cuenta | Para un recorrido publicado con el estado _Activo_, _Cerrado a nuevas entradas_, _Anulado_ o _Finalizado_, puede abrir el mapa del recorrido para revisar una lista de cuentas de cada nodo de recorrido. |
