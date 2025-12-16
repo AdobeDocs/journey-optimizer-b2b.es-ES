@@ -1,61 +1,55 @@
 ---
-title: Diseño de contenido accesible
+title: Diseñar contenido accesible
 description: Aprenda a diseñar contenido accesible para sus correos electrónicos y páginas de aterrizaje en Journey Optimizer B2B edition
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, diseño, accesibilidad
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: 09391f6d7c3360d0624edd7dae6c25a8616046d9
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1645'
 ht-degree: 0%
 
 ---
 
-# Diseño de contenido accesible {#accessible-content}
+# Diseñar contenido accesible {#accessible-content}
 
 La [Ley Europea de Accesibilidad](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} es una directiva diseñada para mejorar el mercado interno de productos y servicios accesibles al eliminar las barreras causadas por las diferentes reglas nacionales en los Estados Miembros.
 
 Esta regulación establece que todas las comunicaciones digitales, incluidos correos electrónicos, boletines informativos, PDF y contenido descargable, deben ser accesibles. Por lo tanto, al crear contenido para los destinatarios, se le exige que siga directrices específicas como el uso de fuentes accesibles, formatos legibles y proporcionar texto alternativo para las imágenes.
 
-El Designer de correo electrónico [!DNL Journey Optimizer B2B Edition], que permite a los especialistas en mercadotecnia generar contenido para **correos electrónicos** y **páginas de aterrizaje**, le permite cumplir fácilmente con esta directiva, según las Directrices de accesibilidad del contenido web (WCAG) 2.1, nivel AA.
+Las herramientas de diseño de [!DNL Journey Optimizer B2B Edition] permiten a los especialistas en marketing crear contenido para **correos electrónicos** y **páginas de aterrizaje**. Utilice estas herramientas para cumplir con esta directiva, basada en las Directrices de accesibilidad del contenido web (WCAG) 2.1, nivel AA.
 
-En línea con esto, las prácticas recomendadas para diseñar contenido accesible con [!DNL Journey Optimizer B2B Edition] se enumeran a continuación.
-
->[!NOTE]
->
->En esta página se trata de poner el contenido a disposición de todos los destinatarios para garantizar que las personas con discapacidades puedan leer, comprender e interactuar con los mensajes de correo electrónico y las páginas de aterrizaje diseñados con [!DNL Journey Optimizer B2B Edition].
->
+En las secciones siguientes se describen las prácticas recomendadas para diseñar contenido accesible con [!DNL Journey Optimizer B2B Edition]. Esta información se centra en diseñar contenido accesible para todos los destinatarios, de modo que las personas con discapacidad puedan leer, comprender e interactuar con los correos electrónicos y las páginas de aterrizaje.
  
-
 ## Garantizar la legibilidad del texto {#text-readability}
 
-Use la ficha **[!UICONTROL Estilos]** del componente **[!UICONTROL Texto]** para asegurarse de que el texto sea legible, por ejemplo, usando un contraste de color adecuado y fuentes simples. [Más información](content-components.md#text)
+Use la ficha **[!UICONTROL Estilos]** del componente **[!UICONTROL Texto]** para asegurarse de que el texto sea legible, por ejemplo, usando un contraste de color adecuado y fuentes simples. Para obtener más información acerca del estilo de los componentes de texto, vea [Componentes de contenido](content-components.md#text)
 
-![](assets/accessible-text-styles.png){width="80%"}
+![Pestaña Estilos del componente Texto que muestra las opciones de fuente, tamaño y color](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 Para las fuentes y el texto, asegúrese de seguir las directrices siguientes:
 
-**Selección de fuente**
+### Selección de fuente
 
-* Utilice fuentes sans-serif como Arial, Verdana, Tahoma, Helvetica o Open Sans.
+* Utilice fuentes sans-serif, como Arial, Verdana, Tahoma, Helvetica o Open Sans.
 * Evite las fuentes seriadas, cursivas o decorativas en el contenido del cuerpo.
 * Utilice un conjunto de fuentes limitado para mantener la coherencia y la reserva (por ejemplo: `font-family: Arial, Helvetica, sans-serif;`).
 
-**Tamaño de fuente**
+### Tamaño de fuente
 
 * Asegúrese de que el tamaño mínimo de la fuente sea de 16 píxeles para el texto del cuerpo.
-* Utilice la jerarquía adecuada para los encabezados.
+* Utilice una jerarquía adecuada para los encabezados.
 
-**Contraste de color**
+### Contraste de color
 
 * Mantenga una relación de contraste de al menos 4,5:1 entre el texto y el fondo.
 * Para texto grande (≥24 px o negrita 18 px), asegúrese de que haya al menos un contraste de 3:1.
 * Evite el texto gris claro o pastel sobre fondos blancos.
 * No confíe solo en el color para transmitir significado, sino que utilice subrayados, iconos, etc.
 
-**Accesibilidad de texto**
+### Accesibilidad de texto
 
 * Evite el texto en las imágenes.
 * No utilice mayúsculas en el texto del cuerpo.
@@ -74,11 +68,11 @@ En [!DNL Journey Optimizer B2B Edition], el tamaño y el espaciado de los difere
 
 Por ejemplo, puede actualizar el fondo o cambiar los márgenes, el relleno y la alineación para mejorar la accesibilidad visual del contenido.
 
-![](assets/accessible-styles.png){width="80%"}
+![Panel de estilos con configuración de fondo, márgenes, relleno y alineación](assets/accessible-styles.png){width="700" zoomable="yes"}
 
-Además, [!DNL Journey Optimizer B2B Edition] Email Designer permite obtener una vista previa y optimizar el diseño para diferentes dispositivos y tamaños de pantalla. En cualquier momento puedes **[!UICONTROL Cambiar a la vista en vivo]** para comprobar cómo se puede presentar tu contenido en varios tamaños de dispositivo.
+Además, [!DNL Journey Optimizer B2B Edition] Email Designer permite obtener una vista previa y optimizar el diseño para diferentes dispositivos y tamaños de pantalla. En cualquier momento, puedes **[!UICONTROL Cambiar a la vista en vivo]** para comprobar cómo puede representarse tu contenido en varios tamaños de dispositivo.
 
-![](assets/accessible-live-view.png){width="80%"}
+![Opción de vista en vivo que muestra las opciones de escritorio, tableta y vista previa para móviles](assets/accessible-live-view.png){width="700" zoomable="yes"}
 
 >[!CAUTION]
 >
@@ -86,9 +80,9 @@ Además, [!DNL Journey Optimizer B2B Edition] Email Designer permite obtener una
 
 ## Usar texto alternativo para imágenes {#alt-text}
 
-Utilice el componente **[!UICONTROL Image]** para proporcionar texto alternativo para las imágenes. [Más información](content-components.md#image)
+Utilice el componente **[!UICONTROL Image]** para proporcionar texto alternativo para las imágenes. Para obtener más información acerca de la configuración de componentes de imagen, vea [Componentes de contenido](content-components.md#image)
 
-![](assets/accessible-alt-text.png){width="90%"}
+![Panel de configuración de componente de imagen con campo de texto alternativo resaltado](assets/accessible-alt-text.png){width="700" zoomable="yes"}
 
 Para obtener texto alternativo efectivo en productos digitales, siga las directrices siguientes:
 
@@ -100,7 +94,7 @@ Para obtener texto alternativo efectivo en productos digitales, siga las directr
 
 Use la estructura relevante de Designer de correo electrónico y [componentes de contenido](content-components.md), así como las opciones del panel **[!UICONTROL Estilos]**, para organizar el contenido de una manera clara, lógica y concisa, accesible para todos.
 
-![](assets/accessible-components.png){width="100%"}
+![Designer de correo electrónico que muestra la estructura y los componentes de contenido para los diseños organizados](assets/accessible-components.png){width="800" zoomable="yes"}
 
 * Utilice una HTML semántica estructurada con encabezados, párrafos, listas y tablas adecuados.
 * Asegúrese de que el contenido sigue un flujo lógico de izquierda a derecha, de arriba a abajo.
@@ -117,7 +111,7 @@ Para ser legible, el contenido debe ser claro, bien estructurado y utilizable po
 * Utilice la voz activa para simplificar la estructura de la oración.
 * Evite utilizar jergas, jergas o palabras regionales con las que algunas personas no estén familiarizadas.
 
-Para evaluar la legibilidad del correo electrónico, puede usar la popular [prueba de facilidad de lectura de Flesch](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"}, que se encuentra en Microsoft Word y calcula la facilidad de lectura del contenido en una escala del 0 al 100.
+Para evaluar la legibilidad de tu correo electrónico, usa la popular [prueba Flesch Reading Ease](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"} en Microsoft Word. Calcula lo fácil que es leer el contenido en una escala de 0 a 100.
 
 ## Prueba del contenido {#test}
 
@@ -129,7 +123,7 @@ Para comprobar la accesibilidad del contenido, puede utilizar las funciones de p
 
 * Envíe pruebas para probar la renderización del contenido antes de enviarlo a su audiencia real.
 
-![](assets/accessible-simulate.png){width="90%"}
+![Interfaz de simulación de contenido con opciones de vista previa de perfil de prueba](assets/accessible-simulate.png){width="800" zoomable="yes"}
 
 Para comprobar de forma más coherente si el contenido es accesible de forma fiable, vaya a por herramientas externas específicas como:
 
@@ -139,13 +133,12 @@ Para comprobar de forma más coherente si el contenido es accesible de forma fia
 
 ## Usar modo oscuro {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
 El modo oscuro mejora la accesibilidad visual para los usuarios con sensibilidad a la luz o deficiencias visuales, para una experiencia de visualización mejorada.
 
-![](assets/accessible-dark-mode.png){width="90%"}
+![Vista previa del correo electrónico que compara el modo claro y el modo oscuro](assets/accessible-dark-mode.png){width="800" zoomable="yes"}
 
-Entre las prácticas recomendadas para diseñar contenido en modo oscuro, utilice archivos PNG o SVG transparentes, establezca etiquetas meta y CSS adecuadas y proporcione un estilo de reserva accesible si no se admite el modo oscuro. Finalmente, asegúrese de que los correos electrónicos se representan correctamente en el modo oscuro probando todo el contenido del correo electrónico y los elementos de la interfaz de usuario en los modos claro y oscuro.
+Al diseñar para el modo oscuro, utilice imágenes PNG o SVG transparentes y establezca las metaetiquetas y CSS adecuadas. Proporcionar un estilo de reserva accesible si no se admite el modo oscuro. Finalmente, pruebe todo el contenido del correo electrónico y los elementos de la interfaz de usuario en los modos claro y oscuro.
 
 ## Utilizar atributos específicos para la accesibilidad {#attributes}
 
@@ -189,7 +182,7 @@ Al crear diseños, incluya los atributos `lang` (idioma) y `dir` (dirección del
 
   +++
 
-Los lectores de pantalla dependen del atributo `lang` para aplicar las reglas de pronunciación correctas, mientras que la dirección del texto garantiza que el contenido fluya de forma natural para los idiomas de izquierda a derecha o de derecha a izquierda. Sin estos atributos, los usuarios pueden experimentar un orden de lectura confuso o una pronunciación incorrecta. En consecuencia, ajuste siempre el cuerpo del correo electrónico con los atributos adecuados de `lang` y `dir`.
+Los lectores de pantalla dependen del atributo `lang` para aplicar las reglas de pronunciación correctas. La dirección del texto garantiza que el contenido fluya de forma natural en los idiomas de izquierda a derecha o de derecha a izquierda. Sin estos atributos, los usuarios pueden experimentar un orden de lectura confuso o una pronunciación incorrecta. En consecuencia, ajuste siempre el cuerpo del correo electrónico con los atributos adecuados de `lang` y `dir`.
 
 >[!TIP]
 >
@@ -197,7 +190,7 @@ Los lectores de pantalla dependen del atributo `lang` para aplicar las reglas de
 
 ### Tablas {#tables}
 
-En el contenido de HTML, las tablas suelen utilizarse para el diseño. De manera predeterminada, los lectores de pantalla tratan cada `<table>` como una tabla de datos, y anuncian filas, columnas y estructura. Esto puede resultar confuso si la tabla solo se utiliza para dar formato.
+En el contenido de HTML, las tablas suelen utilizarse para el diseño. De manera predeterminada, los lectores de pantalla tratan cada `<table>` como una tabla de datos, y anuncian filas, columnas y estructura. Esta estructura puede resultar confusa si la tabla solo se utiliza para dar formato.
 
 Agregue `role="presentation"` (o `role="none"`) a las tablas de diseño para garantizar que las tecnologías de asistencia omitan su estructura y se centren únicamente en el contenido real.
 
@@ -215,7 +208,7 @@ Agregue `role="presentation"` (o `role="none"`) a las tablas de diseño para gar
 ```
 
 Los lectores de pantalla dicen:
-&quot;Hola Mundo. Bienvenido a nuestro boletín informativo&quot;. *(sin mención de filas, columnas ni tablas)*
+&quot;Hola Mundo. Bienvenido a este boletín informativo&quot;. *(sin mención de filas, columnas ni tablas)*
 
 +++
 
@@ -253,11 +246,11 @@ Los lectores de pantalla dicen:
 
 ### Texto para vínculos {#links}
 
-Los lectores de pantalla leen los vínculos usando su texto. Si un vínculo solo está etiquetado como &quot;Haga clic aquí&quot; o &quot;Más información&quot;, los usuarios de tecnologías de asistencia no sabrán el destino. Para garantizar la accesibilidad, necesitan un texto descriptivo que indique claramente el destinatario o la acción.
+Los lectores de pantalla leen los vínculos usando su texto. Si un vínculo está etiquetado solamente _Haga clic aquí_ o _Más información_, los usuarios de tecnologías de asistencia no conocen el destino. Para garantizar la accesibilidad, necesitan un texto descriptivo que indique claramente el destinatario o la acción.
 
-Utilice el Designer de correo electrónico para añadir un vínculo al contenido y editar la etiqueta para que sea discernible (visible) y descriptivo (claro sobre el propósito). Evite etiquetas vagas como &quot;aquí&quot; o &quot;más&quot;.
+Utilice el Designer de correo electrónico para añadir un vínculo al contenido y editar la etiqueta para que sea discernible (visible) y descriptivo (claro sobre el propósito). Evite etiquetas vagas como _aquí_ o _más_.
 
-![](assets/accessible-link.png){width="70%"}
+![Panel de configuración de vínculos que muestra el campo URL y las opciones de etiquetas descriptivas](assets/accessible-link.png){width="600" zoomable="yes"}
 
 +++Ejemplo: buen vínculo (descriptivo): 
 
@@ -289,7 +282,7 @@ Los lectores de pantalla dicen:
 
 <!--for landing pages-->
 
-Proporcionar compatibilidad con la navegación mediante el teclado y el enfoque permite a las personas que no pueden utilizar un ratón acceder e interactuar con el contenido por completo. También mejora la capacidad de uso general al proporcionar a todos los usuarios una forma clara y coherente de desplazarse por la información.
+Proporcionar compatibilidad con la navegación mediante el teclado y el enfoque permite a las personas que no pueden utilizar un ratón acceder al contenido e interactuar con él. También mejora la capacidad de uso general al proporcionar a todos los usuarios una forma clara y coherente de desplazarse por la información.
 
 * Enfoque mediante el teclado
    * Asegúrese de que todos los elementos interactivos (como botones, casillas de verificación y vínculos) tengan `tabindex="0"` para que se incluyan en el orden de tabulación natural.
