@@ -1,64 +1,64 @@
 ---
-source-git-commit: 7a08e546a71503e44338e996c597058daaf4c667
+source-git-commit: 14ce84c26dc292c33479ca60841dafd1ab20db53
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 36%
+source-wordcount: '473'
+ht-degree: 49%
 
 ---
-# Artículo de colaboración
+# Artículo sobre colaboración
 
-Aceptamos contribuciones de la comunidad, así como de empleados de Adobe que no pertenezcan a los equipos de documentación.
+Las contribuciones de la comunidad y de los empleados de Adobe ajenos a los equipos de documentación son bienvenidas.
 
-## Código de conducta de código abierto de Adobe
+## Código de conducta de Adobe Open Source
 
-Este proyecto ha adoptado el [Código de conducta de código abierto de Adobe](code-of-conduct.md) o el [Código de conducta de la Fundación .NET](https://dotnetfoundation.org/code-of-conduct). Para obtener más información, consulte el artículo [Colaboración](contributing.md).
+Este proyecto ha adoptado el [Código de conducta de código abierto de Adobe](code-of-conduct.md) o el [Código de conducta de la Fundación .NET](https://dotnetfoundation.org/about/policies/code-of-conduct). Para obtener más información, consulte el artículo [Colaboración](contributing.md).
 
-## Cómo contribuir al contenido del Adobe
+## Contribuciones al contenido de Adobe
 
-**Si no es un empleado de Adobe**, puede enviar una contribución externa de la comunidad. Las contribuciones de la comunidad se importan en nuestros sistemas internos y se editan y fusionan en el repositorio público. A continuación, el repositorio público se sincroniza con los cambios más recientes y se fusiona en el repositorio privado.
+**Si no es un empleado de Adobe**, puede enviar una contribución externa de la comunidad. Las contribuciones de la comunidad se importan en sistemas internos y se editan y fusionan en el repositorio público. A continuación, el repositorio público se sincroniza con los cambios más recientes y se combina en el repositorio privado.
 
-**Si es un empleado de Adobe**, puede colaborar directamente con el [repositorio privado de GitHub de Adobe](https://git.corp.adobe.com/AdobeDocs/). Para obtener más información, consulte la Guía de creación de Adobe Experience League para empleados de Adobe.
+**Si es empleado de Adobe**, puede contribuir directamente al [repositorio privado GitHub de Adobe](https://git.corp.adobe.com/AdobeDocs/). Para obtener más información, consulte la Guía de creación de Adobe Experience League para empleados de Adobe.
 
 ## Colaboradores externos
 
 ### Cambios menores
 
-Si va a contribuir con una actualización menor:
+Si su contribución es una actualización menor:
 
 1. Desplácese hasta el tema que desee editar.
-1. En la sección &quot;¿Fue útil este contenido?&quot; titular que aparece en la parte inferior de la ventana del explorador, haga clic en **Opciones de comentarios detalladas**.
+1. En el _¿Fue útil este contenido?_ titular en la parte inferior de la ventana del explorador, haga clic en **Opciones de comentarios detalladas**.
 1. Haga clic en **Sugerir una edición** y envíe una solicitud de extracción (PR) con sus cambios en la interfaz de usuario de GitHub.
 
-   Consulte la [Guía del colaborador para la documentación de Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es) general para obtener más información.
+   Consulte la guía [general del colaborador de Adobe Docs](https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/introduction) para obtener más información.
 
-Las pequeñas aclaraciones y correcciones que envíe como documentación o ejemplo de códigos en este repositorio se incluyen en las Condiciones de uso de Adobe.
+Las correcciones o aclaraciones menores que envía para la documentación y los ejemplos de código de este repositorio están incluidos en las condiciones de uso de Adobe.
 
-### Cambios importantes o nuevos temas de la comunidad
+### Cambios importantes o temas nuevos de la comunidad
 
-Si forma parte de la comunidad de Adobe y desea crear un nuevo tema o enviar cambios importantes, utilice la pestaña **Problemas** del repositorio Git aplicable para enviar un problema e iniciar una conversación con el equipo de documentación. Una vez acordado un plan, trabajará con un redactor de Adobes para publicar las revisiones.
+Si forma parte de la comunidad de Adobe y desea crear un nuevo tema o enviar cambios importantes, utilice la pestaña **Problemas** del repositorio Git aplicable para enviar un problema. El nuevo problema inicia una conversación con el equipo de documentación. Cuando se acuerda un plan, debe trabajar con un redactor de Adobe para publicar las revisiones.
 
-**NOTA:** Si envía una solicitud de extracción con cambios significativos en la documentación y los ejemplos de código, verá un mensaje en la solicitud de extracción que le pedirá que envíe un contrato de licencia de contribución en línea (CLA). Necesitamos que complete el formulario en línea antes de poder revisar su solicitud de extracción.
+**NOTA:** Si envía una solicitud de extracción con cambios significativos en la documentación y los ejemplos de código, la solicitud de extracción mostrará un mensaje en el que se le pedirá que envíe un contrato de licencia de contribución en línea (CLA). Se requiere completar este formulario en línea antes de que un miembro del equipo pueda revisar su solicitud de extracción.
 
 ### Herramientas
 
-Los colaboradores de la comunidad pueden utilizar la interfaz de usuario de GitHub tanto para ediciones básicas como ramificar el repositorio para implementar colaboraciones importantes.
+Los colaboradores de la comunidad pueden utilizar la interfaz de usuario de GitHub para editar o ramificar el repositorio con el fin de realizar contribuciones importantes.
 
-Consulte la [Guía del colaborador para la documentación de Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=es) para obtener más información.
+Consulte la [Guía del colaborador de Adobe Docs](https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/introduction) para obtener más detalles.
 
 ## Colaboradores internos
 
-Si es redactor técnico, administrador de programa o desarrollador del equipo de producto para una solución de Adobe Experience Cloud y debe contribuir o crear artículos técnicos, use el [repositorio privado](https://git.corp.adobe.com/AdobeDocs).
+Si es redactor técnico, administrador de programa o desarrollador del equipo de producto de Adobe y debe contribuir o crear artículos técnicos, use [repositorio privado](https://git.corp.adobe.com/AdobeDocs).
 
 ## Dar formato al tema
 
-Todos los artículos de este repositorio utilizan Markdown de GitHub. Si no está familiarizado con Markdown, consulte:
+Todos los artículos de este repositorio utilizan GitHub Flavored Markdown. Si no está familiarizado con Markdown, consulte:
 
-* [Aspectos básicos de Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
-* [Hoja de referencia imprimible de Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Conceptos básicos de Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+* [documentos de GitHub](https://docs.github.com/en)
 
 ## Etiquetas
 
-En el repositorio público, las etiquetas automáticas se asignan para recibir solicitudes (pull request) que nos ayuden a administrar el flujo de trabajo de estas solicitudes “pull” y para ayudarle a saber qué está pasando con su solicitud “pull”.
+En el repositorio público, las etiquetas automatizadas se asignan a solicitudes de extracción para ayudarnos a administrar el flujo de trabajo de la solicitud de extracción y para saber qué sucede con su solicitud de extracción:
 
-* **Change sent to author**: se ha notificado al autor sobre la solicitud “pull” pendiente.
-* **ready-to-merge**: todo está listo para que lo revise nuestro equipo de revisión de solicitudes “pull”.
+* **Change sent to author**: se ha notificado al autor de la solicitud de extracción pendiente.
+* **listo para combinar**: listo para que el equipo de revisión de solicitudes de extracción lo revise.
