@@ -23,6 +23,7 @@ Las herramientas de diseño de [!DNL Journey Optimizer B2B Edition] permiten a l
 
 En las secciones siguientes se describen las prácticas recomendadas para diseñar contenido accesible con [!DNL Journey Optimizer B2B Edition]. Esta información se centra en diseñar contenido accesible para todos los destinatarios, de modo que las personas con discapacidad puedan leer, comprender e interactuar con los correos electrónicos y las páginas de aterrizaje.
  
+
 ## Garantizar la legibilidad del texto {#text-readability}
 
 Use la ficha **[!UICONTROL Estilos]** del componente **[!UICONTROL Texto]** para asegurarse de que el texto sea legible, por ejemplo, usando un contraste de color adecuado y fuentes simples. Para obtener más información acerca del estilo de los componentes de texto, vea [Componentes de contenido](content-components.md#text)
