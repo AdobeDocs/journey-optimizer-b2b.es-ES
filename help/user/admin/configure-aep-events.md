@@ -6,7 +6,7 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Esta función se encuentra actualmente en versión beta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 5f3d7bb8eb72c48409273de43b03114d273cb80c
+source-git-commit: cefd98099bf6524d1d559a47d502990852de1468
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 9%
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Seleccionar eventos de experiencia y campos
 
-Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
+Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 El uso de eventos de experiencia de AEP en recorrido es un proceso de dos pasos:
@@ -139,8 +139,8 @@ Tipo de evento: `directMarketing.emailSent`
 
 +++Campos
 
-| Campo | Tipo de campo |
-| ----- | ---------- |
+| Nombre para mostrar | Ruta |
+| ------------ | ---- |
 | Identificador | `_id` |
 | Tipo de evento | `eventType` |
 | Marca de tiempo | `timestamp` |
@@ -167,8 +167,8 @@ Tipo de evento: `directMarketing.emailDelivered `
 
 +++Campos
 
-| Campo | Tipo de campo |
-| ----- | ---------- |
+| Nombre para mostrar | Ruta |
+| ------------ | ---- |
 | Identificador | `_id` |
 | Tipo de evento | `eventType` |
 | Marca de tiempo | `timestamp` |
@@ -195,8 +195,8 @@ Tipo de evento: `directMarketing.emailOpened`
 
 +++Campos
 
-| Campo | Tipo de campo |
-| ----- | ---------- |
+| Nombre para mostrar | Ruta |
+| ------------ | ---- |
 | Identificador | `_id` |
 | Tipo de evento | `eventType` |
 | Marca de tiempo | `timestamp` |
@@ -227,8 +227,8 @@ Tipo de evento: `directMarketing.emailClicked`
 
 +++Campos
 
-| Campo | Tipo de campo |
-| ----- | ---------- |
+| Nombre para mostrar | Ruta |
+| ------------ | ---- |
 | Identificador | `_id` |
 | Tipo de evento | `eventType` |
 | Marca de tiempo | `timestamp` |
@@ -260,8 +260,8 @@ Tipo de evento: `directMarketing.emailBounced`
 
 +++Campos
 
-| Campo | Tipo de campo |
-| ----- | ---------- |
+| Nombre para mostrar | Ruta |
+| ------------ | ---- |
 | Identificador | `_id` |
 | Tipo de evento | `eventType` |
 | Marca de tiempo | `timestamp` |
@@ -291,8 +291,8 @@ Tipo de evento: `directMarketing.emailBouncedSoft`
 
 +++Campos
 
-| Campo | Tipo de campo |
-| ----- | ---------- |
+| Nombre para mostrar | Ruta |
+| ------------ | ---- |
 | Identificador | `_id` |
 | Tipo de evento | `eventType` |
 | Marca de tiempo | `timestamp` |
@@ -322,8 +322,8 @@ Tipo de evento: `directMarketing.emailUnsubscribed `
 
 +++Campos
 
-| Campo | Tipo de campo |
-| ----- | ---------- |
+| Nombre para mostrar | Ruta |
+| ------------ | ---- |
 | Identificador | `_id` |
 | Tipo de evento | `eventType` |
 | Marca de tiempo | `timestamp` |
@@ -350,8 +350,8 @@ Tipo de evento: `web.webpagedetails.pageViews`
 
 +++Campos
 
-| Campo | Tipo de campo |
-| ----- | ---------- |
+| Nombre para mostrar | Ruta |
+| ------------ | ---- |
 | Identificador | `_id` |
 | Tipo de evento | `eventType` |
 | Marca de tiempo | `timestamp` |
@@ -381,8 +381,8 @@ Tipo de evento: `web.formFilledOut`
 
 +++Campos
 
-| Campo | Tipo de campo |
-| ----- | ---------- |
+| Nombre para mostrar | Ruta |
+| ------------ | ---- |
 | Identificador | `_id` |
 | Tipo de evento | `eventType` |
 | Marca de tiempo | `timestamp` |
@@ -412,8 +412,8 @@ Tipo de evento: `web.webinteraction.linkClicks`
 
 +++Campos
 
-| Campo | Tipo de campo |
-| ----- | ---------- |
+| Nombre para mostrar | Ruta |
+| ------------ | ---- |
 | Identificador | `_id` |
 | Tipo de evento | `eventType` |
 | Marca de tiempo | `timestamp` |
@@ -443,8 +443,8 @@ Tipo de evento: `leadOperation.interestingMoment `
 
 +++Campos
 
-| Campo | Tipo de campo |
-| ----- | ---------- |
+| Nombre para mostrar | Ruta |
+| ------------ | ---- |
 | Identificador | `_id` |
 | Tipo de evento | `eventType` |
 | Marca de tiempo | `timestamp` |
@@ -464,4 +464,4 @@ Tipo de evento: `leadOperation.interestingMoment `
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448686/?captions=spa&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
