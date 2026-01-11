@@ -4,9 +4,9 @@ description: 'Diseñe correos electrónicos, páginas de aterrizaje y fragmentos
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2825'
 ht-degree: 6%
 
 ---
@@ -226,7 +226,7 @@ Mientras trabaja con su diseño, también puede [quitar](#remove-a-content-compo
 
 Después de agregar un componente, se selecciona en el espacio de diseño visual y sus propiedades se muestran en el panel derecho. También puede seleccionar un componente en cualquier momento para cambiar la configuración y los estilos. Muchos ajustes y estilos son específicos del componente, pero hay algunos ajustes y estilos estándar que puede aplicar a cualquier componente de contenido seleccionado.
 
-### Mostrar opciones
+### Opciones de visualización
 
 Si desea excluir el componente de la pantalla del escritorio o del dispositivo móvil, cambie la configuración de **[!UICONTROL Opciones de visualización]**. De forma predeterminada, _[!UICONTROL Mostrar en todos los dispositivos]_, habilita la visualización en todos los dispositivos. Elija otra configuración para que el componente sea exclusivo por tipo de dispositivo:
 
@@ -371,7 +371,7 @@ Personalice el estilo del botón en la ficha **[!UICONTROL Estilos]**.
 
 ### Texto
 
-Utilice el componente Texto para insertar un bloque de texto en el contenido. Cuando el componente Texto esté seleccionado en el lienzo, introduzca el texto y utilice las opciones de la barra de herramientas para añadir formato y opciones en línea, incluidos tokens de personalización y variantes condicionales. Para obtener información detallada sobre la creación de texto, incluidos el estilo en línea y las opciones, en el espacio de diseño, consulte Creación de texto.
+Utilice el componente Texto para insertar un bloque de texto en el contenido. Cuando el componente Texto esté seleccionado en el lienzo, introduzca el texto y utilice las opciones de la barra de herramientas para añadir formato y opciones en línea, incluidos tokens de personalización y variantes condicionales. <!-- For detailed information about crafting text, including inline styling and options, in the design space, see [Text authoring](#). -->
 
 Personalice el estilo del componente de texto en la ficha **[!UICONTROL Estilos]**.
 

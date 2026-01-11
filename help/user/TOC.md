@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
+source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '392'
+ht-degree: 80%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 84%
       + [Espera](./journeys/wait-nodes.md)
    + [Detalles del recorrido](./journeys/journey-details.md)
 + Contenido del recorrido {#journey-content}
+   + [Canal de SMS](./content/sms-authoring.md)
    + Canal de correo electrónico {#email-channel}
       + [Añadir un correo electrónico](./content/add-email.md)
       + [Creación del correo electrónico](./content/email-authoring.md)
@@ -48,8 +49,11 @@ ht-degree: 84%
       + [Plantillas gobernadas](./content/email-authoring-governance.md)
       + [Correo electrónico de alerta de ventas](./content/sales-alert-email.md)
       + [Deduplicación de correo electrónico](./content/email-deduplication.md)
+   + Canal web (Beta) {#web-channel}
+      + [Información general](./content/web-experiences.md)
+      + [Diseño de experiencia web](./content/web-experience-design.md)
+      + [Aplicaciones de una sola página](./content/web-single-page-applications.md)
    + [Tókenes personalizados](./content/personalization-my-tokens.md)
-   + [Creación de SMS](./content/sms-authoring.md)
 + Públicos {#audiences}
    + [Audiencias de Experience Platform](./audiences/account-audience-overview.md)
    + [Audiencias externas de destino](./audiences/target-external-audience.md)
@@ -142,7 +146,8 @@ ht-degree: 84%
    + Canales {#channels}
       + [Configuraciones de correo electrónico](./admin/configure-channels-emails.md)
       + [Configuración de SMS](./admin/configure-channels-sms.md)
-      + [Configuración de página de destino](./admin/landing-page-settings.md)
+      + [Configuraciones del canal web (Beta)](./admin/configure-channels-web.md)
+      + [Configuración de la página de aterrizaje (Beta)](./admin/landing-page-settings.md)
       + [Configuración de las secuencias de datos para la colección de eventos](./data/aep-event-collection.md)
    + Configuraciones  {#configurations}
       + [Repositorios de AEM Assets](./admin/configure-aem-repositories.md)

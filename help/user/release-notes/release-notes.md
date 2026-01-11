@@ -3,7 +3,7 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
+source-git-commit: eabef3060f200d35c6914bc8fecfa8e0960d745d
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 91%
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Funciones de la IA agéntica
 
@@ -39,7 +39,7 @@ Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimi
 | Función | Plantillas de correo electrónico: convertir imagen a HTML | Ahora puede utilizar los archivos de diseño almacenados como archivos de imagen JPG o PNG y generar automáticamente plantillas de correo electrónico. [Más información](../content/email-template-image-convert.md) |
 | Función | Asignación de persona | Asocie miembros de cuenta con personas establecidas con asignación de atributos. [Más información](../admin/persona-mapping.md) |
 | Función | Perspectivas de ventas para Salesforce y Dynamics | Los integrantes del equipo de ventas ahora pueden ver los grupos de compras de vencimiento y las perspectivas relacionadas dentro de una integración de Salesforce o Dynamics para identificar nuevas oportunidades. Se incluyen los detalles del grupo comprador, como etapa, puntuación y miembros relacionados. [Más información](../buying-groups/incrm-insights.md) |
-| Función | Activar audiencia en [!DNL Adobe Target] | Ahora puede activar una audiencia de un recorrido de cuenta a una audiencia de cliente externa y enviarla [!DNL Adobe Target]. Con esta integración, puede ofrecer una audiencia cualificada mediante una secuencia de recorrido para una experiencia web diseñada en [!DNL Target]. [Más información](../audiences/target-external-audience.md) |
+| Función | Activar audiencia en [!DNL Adobe Target] | Ahora puede activar una audiencia de un recorrido de cuenta a una audiencia de cliente externa y enviarla a [!DNL Adobe Target]. Con esta integración, puede ofrecer una audiencia cualificada mediante una secuencia de recorrido para una experiencia web diseñada en [!DNL Target]. [Más información](../audiences/target-external-audience.md) |
 | Función | Panel de participación web | Un nuevo tablero que proporciona perspectivas sobre cómo los visitantes web interactúan con el contenido clave. Segmenta los datos en los sectores y regiones de las cuentas para ayudarle a comprender las tendencias de participación. [Más información](../dashboards/web-engagement-dashboard.md) |
 | Función | Panel de perspectivas de rol | El nuevo panel _[!UICONTROL Perspectivas de funciones]_ proporciona información sobre cómo las campañas y los recorridos influyen en la adquisición de roles de grupo y en la participación. [Más información](../buying-groups/buying-group-role-insights.md) |
 | Mejora | Puntuación de integridad del grupo de compra mejorada | Ahora puede asegurarse de que los grupos de compra reflejen la toma de decisiones real con umbrales de miembros de roles personalizables para la puntuación de integridad.  [Más información](../buying-groups/completeness-scores.md) |
