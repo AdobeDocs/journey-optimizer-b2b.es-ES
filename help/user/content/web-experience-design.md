@@ -23,7 +23,7 @@ Antes de diseñar experiencias web, asegúrese de que se cumplen los siguientes 
 
 * Un administrador de productos ha configurado uno o más canales web para definir las direcciones URL (páginas) que se incluirán en una experiencia web. Para obtener más información, vea [Configuraciones del canal Web](../admin/configure-channels-web.md).
 
-* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Se requiere Adobe Experience Platform Web SDK versión 2.16 o superior.
+* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Se requiere Adobe Experience Platform Web SDK versión 2.16 o superior.
 
 * Tiene los [permisos](../admin/user-management.md#b2b-product-permissions) necesarios para crear y administrar experiencias web en un recorrido:
    * _[!UICONTROL Campañas]_ > _[!UICONTROL Administrar campañas]_: necesario para agregar o actualizar un nodo de acción de personalización web.
@@ -326,7 +326,7 @@ Rastree las interacciones del usuario con los elementos para medir la participac
 
 Cuando se activa la experiencia web (activa), también puede crear informes con Adobe Customer Journey Analytics (que requiere una suscripción al producto). Para mejorar la monitorización de la experiencia web, también puede rastrear los clics en cualquier elemento específico del sitio web. El seguimiento permite mostrar el número de clics de ese elemento en los informes web.
 
-Para obtener más información sobre Customer Journey Analytics y la generación de informes web, consulte la [documentación de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-landing).
+Para obtener más información sobre Customer Journey Analytics y la generación de informes web, consulte la [documentación de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Seleccione un elemento en el editor de experiencia web, como, por ejemplo, una imagen o un vínculo.
 
