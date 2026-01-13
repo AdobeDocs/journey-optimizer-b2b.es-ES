@@ -31,8 +31,8 @@ Para tener acceso a la aplicación, los usuarios deben ser miembros de un rol co
 
 Si desea restringir los usuarios solo a [!DNL In-CRM Insights]:
 
-1. Cree una [función personalizada](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) y asígnele el permiso **Perspectivas de ventas: Ver perspectivas de ventas**.
-1. Crear un nuevo [grupo de usuarios](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
+1. Cree una [función personalizada](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) y asígnele el permiso **Perspectivas de ventas: Ver perspectivas de ventas**.
+1. Crear un nuevo [grupo de usuarios](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
 1. Añada un perfil de producto de Experience Platform al grupo.
 
 ### Instalación del paquete
@@ -71,4 +71,4 @@ Para instalar el paquete de In-CRM Insights, siga los pasos para Salesforce o Mi
 
 Siga las indicaciones para iniciar sesión en su cuenta de Adobe. Los grupos de compra están cargados y disponibles para su visualización.
 
-Después de seleccionar un grupo de compra, puedes examinar los [detalles del grupo](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Es igual que los datos y las perspectivas mostrados en Journey Optimizer B2B edition, pero los datos son de solo lectura hasta [!DNL In-CRM Insights].
+Después de seleccionar un grupo de compra, puedes examinar los [detalles del grupo](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Es igual que los datos y las perspectivas mostrados en Journey Optimizer B2B edition, pero los datos son de solo lectura hasta [!DNL In-CRM Insights].
