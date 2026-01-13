@@ -3,10 +3,10 @@ title: Perspectivas en CRM
 description: Acceda a los grupos de compra de Journey Optimizer B2B edition directamente en los CRM. Los miembros del equipo de ventas pueden ver los datos de participación e identificar las oportunidades de ventas con Perspectivas In-CRM.
 feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: b5173345f5dfb879b36726ca27e164d9a267dac4
+source-git-commit: 2eb5b6226730a1948b480a9dee0c6f2786e01cc5
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -14,8 +14,6 @@ ht-degree: 0%
 # Perspectivas en CRM
 
 [!DNL In-CRM Insights] es una aplicación basada en web que se integra en Salesforce y Microsoft Dynamics 365, lo que le permite acceder a [!DNL Journey Optimizer B2B Edition] grupos de compra directamente dentro de su CRM. Agrupa fuentes de datos de ventas, lo que facilita la identificación de oportunidades para aumentar la participación y el potencial de ventas.
-
-La aplicación [!DNL In-CRM Insights] está disponible en [Marketo Sales Insights package](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
 ## Instalación
 
@@ -33,8 +31,8 @@ Para tener acceso a la aplicación, los usuarios deben ser miembros de un rol co
 
 Si desea restringir los usuarios solo a [!DNL In-CRM Insights]:
 
-1. Cree una [función personalizada](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) y asígnele el permiso **Perspectivas de ventas: Ver perspectivas de ventas**.
-1. Crear un nuevo [grupo de usuarios](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
+1. Cree una [función personalizada](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) y asígnele el permiso **Perspectivas de ventas: Ver perspectivas de ventas**.
+1. Crear un nuevo [grupo de usuarios](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
 1. Añada un perfil de producto de Experience Platform al grupo.
 
 ### Instalación del paquete
@@ -73,4 +71,4 @@ Para instalar el paquete de In-CRM Insights, siga los pasos para Salesforce o Mi
 
 Siga las indicaciones para iniciar sesión en su cuenta de Adobe. Los grupos de compra están cargados y disponibles para su visualización.
 
-Después de seleccionar un grupo de compra, puedes examinar los [detalles del grupo](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Es igual que los datos y las perspectivas mostrados en Journey Optimizer B2B edition, pero los datos son de solo lectura hasta [!DNL In-CRM Insights].
+Después de seleccionar un grupo de compra, puedes examinar los [detalles del grupo](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Es igual que los datos y las perspectivas mostrados en Journey Optimizer B2B edition, pero los datos son de solo lectura hasta [!DNL In-CRM Insights].
