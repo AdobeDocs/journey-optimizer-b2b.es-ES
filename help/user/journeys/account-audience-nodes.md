@@ -4,7 +4,7 @@ description: Configure nodos de audiencia de cuenta con audiencias de cuenta o l
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Nodos del recorrido de audiencia de cuenta
 
-El nodo de audiencia de cuenta especifica qué cuentas entran en el recorrido. Cuando [crea un recorrido de cuenta](./journey-overview.md#create-an-account-journey), el recorrido siempre comienza con un nodo de audiencia de cuenta que define su entrada.
+El nodo de audiencia de cuenta especifica qué cuentas entran en el recorrido. Cuando [crea un recorrido de cuenta](./create-publish-journey.md#create-a-journey), el recorrido siempre comienza con un nodo de audiencia de cuenta que define su entrada.
 
 Utilice una de las siguientes opciones de entrada para este nodo de recorrido:
 

@@ -1,25 +1,32 @@
 ---
-title: Crear y publicar un Recorrido de cuenta
-description: Cree recorridos de cuenta en el lienzo visual, agregue nodos de acción y evento, configure la programación y publique para la orquestación en directo en Journey Optimizer B2B edition.
+title: Creación y publicación de un Recorrido
+description: Cree recorridos de cuenta y persona en el lienzo visual, agregue nodos de acción y evento, configure la programación y publique para la orquestación en directo en Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 433b08efbb24453f318bbce989ce18c9d96dea05
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '857'
 ht-degree: 4%
 
 ---
 
-# Creación y publicación de un recorrido de cuenta
+# Creación y publicación de un recorrido
 
-Para empezar con un recorrido de cuentas, cree el recorrido y, a continuación, construya los nodos y el flujo de recorrido en el mapa de recorrido.
+Para empezar con un recorrido, cree el recorrido y, a continuación, construya los nodos y el flujo de recorrido en el mapa de recorrido.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
-## Crear un recorrido de cuenta
+## Crear un recorrido
 
-1. En el panel de navegación izquierdo, haga clic en **[!UICONTROL recorridos de cuenta]**.
+En **[!UICONTROL Administración de Recorrido]** en el panel de navegación izquierdo, seleccione el tipo de recorrido que desea crear:
+
+* **[!UICONTROL recorridos de cuenta]**
+* **[!UICONTROL recorridos de personas]** (Beta)
+
+_Para agregar un nuevo recorrido :_
+
++++Recorrido de cuenta
 
 1. Haga clic en **[!UICONTROL Crear Recorrido de cuenta]** en la parte superior derecha de la página.
 
@@ -29,9 +36,26 @@ Para empezar con un recorrido de cuentas, cree el recorrido y, a continuación, 
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-## Componentes básicos de un recorrido
++++
 
-El _mapa de recorrido_ es la zona central del área de trabajo de recorrido. Es en esta zona donde puede agregar nodos de recorrido y configurarlos. Haga clic en un nodo para abrir su panel de propiedades a la derecha del lienzo y establecerlo según el diseño. Un recorrido de cuenta siempre comienza con un [nodo de audiencia de cuenta](./account-audience-nodes.md) donde puede agregar datos a su recorrido.
++++Recorrido de personas (Beta)
+
+1. Haga clic en **[!UICONTROL Crear Recorrido]** en la parte superior derecha de la página.
+
+1. En el cuadro de diálogo, escriba un **[!UICONTROL Nombre]** único (obligatorio) y **[!UICONTROL Descripción]** (opcional).
+
+   ![Crear cuadro de diálogo de Recorrido](./assets/person-journey-create-dialog.png){width="400"}
+
+1. Haga clic en **[!UICONTROL Crear]**.
+
++++
+
+## Bloques de creación para el diseño de recorridos
+
+El _mapa de recorrido_ es la zona central del área de trabajo de recorrido. Es en esta zona donde puede agregar nodos de recorrido y configurarlos. Haga clic en un nodo para abrir su panel de propiedades a la derecha del lienzo y establecerlo según el diseño. Un recorrido siempre comienza con un nodo de audiencia, donde puede definir la entrada para el recorrido:
+
+* [Nodo de audiencia de cuenta](./account-audience-nodes.md)
+* [Nodo de audiencia de persona](./person-audience-nodes.md)
 
 Después de crear un recorrido de cuentas y agregar la audiencia, genere el recorrido con los nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos utilizando los siguientes tipos de nodos para crear un recorrido de cuentas:
 
@@ -109,7 +133,7 @@ Cuando publica un recorrido, puede comenzar inmediatamente o en una fecha futura
 
    Cuando esté listo para publicar el recorrido, puede revisar esta configuración al hacer clic en _[!UICONTROL Publicar]_.
 
-## Publicación de un recorrido de cuenta
+## Publicación de un recorrido
 
 Puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique, el estado del recorrido cambiará a _Activo_. Si el recorrido tiene errores, el botón _[!UICONTROL Publicar]_ aparece atenuado con información de contenido: `Resolve errors before publishing`.
 
@@ -139,6 +163,6 @@ Puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique,
 
 1. En el diálogo de confirmación, haga clic en **[!UICONTROL Publicar]**.
 
-## Vídeo de información general
+## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3443222/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

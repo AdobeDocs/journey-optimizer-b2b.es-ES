@@ -4,7 +4,7 @@ description: Vea información de la cuenta con resúmenes de IA, detección de i
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 6%
@@ -33,7 +33,7 @@ La sección de descripción general de la cuenta incluye la siguiente informaci�
 * Número de personas en la cuenta
 * Industria
 * Abrir oportunidades
-* Los tres recorridos de cuenta más recientes en los que la cuenta está actualmente en uso (haga clic en el nombre del recorrido para abrir la [descripción general del recorrido](../journeys/journey-overview.md))
+* Los tres recorridos de cuenta más recientes en los que la cuenta está actualmente en uso (haga clic en el nombre del recorrido para abrir la [descripción general del recorrido](../journeys/journeys-overview.md))
 * Resumen de IA generativo de la cuenta, que incluye información sobre los grupos de compra más comprometidos.
 
 ### Datos de intención

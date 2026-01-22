@@ -1,23 +1,23 @@
 ---
-title: Públicos de la cuenta
-description: Cree públicos de la cuenta con segmentación para dirigirse a cuentas específicas y habilitar recorridos personalizados basados en cuentas en Journey Optimizer B2B Edition.
+title: Públicos de cuenta
+description: Cree públicos de cuenta con segmentación para dirigirse a cuentas específicas y habilitar recorridos personalizados basados en cuentas en Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: ht
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
-# Públicos de la cuenta
+# Públicos de cuenta
 
 Un público es un conjunto de personas que comparten comportamientos o características similares. Journey Optimizer B2B Edition utiliza las funcionalidades de segmentación de cuentas que se encuentran en las ediciones B2B y B2P de Adobe Real-Time Customer Data Platform. Con la segmentación de cuentas, los usuarios pueden generar públicos de cuenta aprovechando los datos de cualquiera de las entidades B2B del sistema. Estos públicos de cuenta sirven como entradas para los recorridos de cuenta de Journey Optimizer B2B Edition, lo que facilita la activación y personalización sin problemas.
 
 Obtenga más información acerca de los públicos de cuenta y cómo definirlos en la [documentación del servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
 
-## Flujo de trabajo de público de la cuenta
+## Flujo de trabajo de público de cuenta
 
 Puede considerar Journey Optimizer B2B Edition como un destino de Experience Platform (AEP) que no aparece en el catálogo de destinos. Active los públicos de cuenta en Journey Optimizer B2B Edition siguiendo estos pasos:
 
@@ -30,7 +30,7 @@ En Journey Optimizer B2B Edition, los públicos de cuenta se utilizan como entra
 
 Journey Optimizer B2B Edition le permite crear públicos de cuenta de Adobe Experience Platform (AEP) directamente desde el panel de navegación izquierdo e incorporarlas a los recorridos de la cuenta.
 
-![Acceder a los públicos de la cuenta](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
+![Acceder a los públicos de cuenta](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
 
 ## Crear un público de cuenta
 
@@ -64,4 +64,4 @@ Defina el público de cuenta creando una segmentación de cuentas. Tiene la opci
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]** en la parte superior derecha.
 
-Para activar el público de su cuenta para Journey Optimizer B2B Edition, debe [añadirlo a un recorrido de cuenta](../journeys/journey-overview.md#add-the-account-audience-for-your-journey) y [publicar el recorrido](../journeys/journey-overview.md).
+Para activar el público de cuenta para Journey Optimizer B2B Edition, debe [añadirlo a un recorrido de cuenta](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey) y [publicar el recorrido](../journeys/journeys-overview.md).

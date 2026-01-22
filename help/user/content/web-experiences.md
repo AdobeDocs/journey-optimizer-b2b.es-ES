@@ -4,7 +4,7 @@ description: 'Cree, diseñe y publique experiencias web personalizadas para reco
 feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
-source-git-commit: 6eae855a1e20b3a4350353940cb3ea82fd84933b
+source-git-commit: e3c00ab4657c7bf05573e049bbcb4bb3628e751e
 workflow-type: tm+mt
 source-wordcount: '1497'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Antes de crear experiencias web, asegúrese de que se cumplen los siguientes req
 
 * Un administrador de productos ha configurado uno o más canales web para definir las direcciones URL (páginas) que se incluirán en una experiencia web. Para obtener más información, vea [Configuraciones del canal Web](../admin/configure-channels-web.md).
 
-* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
+* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
 
 * Tiene los [permisos](../admin/user-management.md#b2b-product-permissions) necesarios para crear y administrar experiencias web en un recorrido:
    * _[!UICONTROL Campañas]_ > _[!UICONTROL Administrar campañas]_: necesario para agregar o actualizar un nodo de acción de personalización web.
@@ -177,7 +177,7 @@ Una vez completado el diseño de contenido para la experiencia web, puede usar l
 
 ## Activación de la experiencia web
 
-La experiencia web se activa y se hace visible para la audiencia al [publicar el recorrido](../journeys/create-publish-journey.md#publish-an-account-journey). Antes de activar una experiencia web a través de un recorrido, tenga en cuenta lo siguiente:
+La experiencia web se activa y se hace visible para la audiencia al [publicar el recorrido](../journeys/create-publish-journey.md#publish-a-journey). Antes de activar una experiencia web a través de un recorrido, tenga en cuenta lo siguiente:
 
 * Si publica un recorrido con una experiencia web que afecta a las mismas páginas que otro recorrido que ya está activo, todos los cambios se aplican a las páginas web.
 
@@ -189,13 +189,13 @@ Para habilitar la entrega de experiencias web, se debe definir la siguiente conf
 
 * En la recopilación de datos de Adobe Experience Platform, asegúrese de que tiene un conjunto de datos definido con la opción Adobe Journey Optimizer B2B edition activada en el servicio Adobe Experience Platform.
 
-  Esta configuración garantiza que Adobe Experience Platform Edge pueda gestionar correctamente los eventos entrantes. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure)
+  Esta configuración garantiza que Adobe Experience Platform Edge pueda gestionar correctamente los eventos entrantes. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * En Adobe Experience Platform, asegúrese de tener una política de combinación con la opción _[!UICONTROL Política de combinación activa en Edge]_ habilitada.
 
-  Seleccione una política en el menú Experience Platform Cliente > Perfiles > Políticas de combinación. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Seleccione una política en el menú Experience Platform Cliente > Perfiles > Políticas de combinación. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Los canales entrantes de Journey Optimizer B2B edition utilizan esta política de combinación para activar y publicar correctamente las experiencias web entrantes en Edge. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/ui-guide)
+  Los canales entrantes de Journey Optimizer B2B edition utilizan esta política de combinación para activar y publicar correctamente las experiencias web entrantes en Edge. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Resolución de problemas
 

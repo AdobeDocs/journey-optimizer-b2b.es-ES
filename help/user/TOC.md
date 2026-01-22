@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
+source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 80%
+source-wordcount: '398'
+ht-degree: 78%
 
 ---
 
@@ -27,12 +27,13 @@ ht-degree: 80%
       + [Audience Agent](./agents/audience-agent-b2b.md)
       + [Recorrido Build Agent B2B](./agents/journey-agent.md)
       + [Calificador de ventas](./agents/sales-qualifier.md)
-+ Recorridos de la cuenta {#account-journeys}
-   + [Información general](./journeys/journey-overview.md)
++ administración de recorrido {#journeys}
+   + [Recorridos de cuenta y persona](./journeys/journeys-overview.md)
    + [Creación y publicación de un recorrido](./journeys/create-publish-journey.md)
    + [Nodos del recorrido](./journeys/journey-nodes.md)
    + Nodos del recorrido {#journey-nodes}
       + [Público de cuenta](./journeys/account-audience-nodes.md)
+      + [Audiencia de personas (Beta)](./journeys/person-audience-nodes.md)
       + [Iniciar una acción](./journeys/action-nodes.md)
       + [Escuchar un evento](./journeys/listen-for-event-nodes.md)
       + [Dividir y combinar rutas](./journeys/split-merge-paths-nodes.md)

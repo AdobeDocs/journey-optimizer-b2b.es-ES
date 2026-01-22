@@ -3,7 +3,7 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: eabef3060f200d35c6914bc8fecfa8e0960d745d
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 91%
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Funciones de la IA agéntica
 
@@ -178,7 +178,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Duplicar recorridos de cuenta | Ya está disponible una acción duplicada para recorridos de cuenta. Puede duplicar los detalles del recorrido de cuenta, o sencillamente un simple esqueleto de la estructura del flujo y la ruta. <a href="../journeys/journey-overview.md#duplicate-journey">Más información</a> |
+| Función | Duplicar recorridos de cuenta | Ya está disponible una acción duplicada para recorridos de cuenta. Puede duplicar los detalles del recorrido de cuenta, o sencillamente un simple esqueleto de la estructura del flujo y la ruta. <a href="../journeys/journeys-overview.md#duplicate-journey">Más información</a> |
 | Función | Mis tokens para los recorridos de la cuenta | Ahora puede definir un conjunto de tokens personalizados con valores que sean específicos del recorrido de la cuenta. Este conjunto de tokens personalizados se denomina _Mis tokens_ y cualquiera de estos tokens personalizados son para la personalización cuando se crean correos electrónicos del recorrido. <a href="../content/personalization-my-tokens.md">Más información</a> |
 | Función | Eliminar fases del grupo de compras | Puede eliminar el modelo de fases del grupo de compras cuando esté en estado borrador o publicado. Si se publica (está activo), solo podrá eliminarlo si no está asociado a un interés de solución. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Más información</a> |
 | Mejora | Recuentos del nodos del recorrido | Mayor visibilidad de los recuentos de abonos del recorrido publicados en el nivel de nodo. En el _Mapa del recorrido_, los nodos muestran el _[!UICONTROL Total de cuentas introducidas]_. Al seleccionar un nodo de acción, los detalles situados a la derecha también incluyen _[!UICONTROL Cuentas en las que aún no se ha actuado]_. Y los detalles del nodo _Escuchar un evento_ incluyen _[!UICONTROL Cuentas en este paso]_. Utilice esta información para validar la progresión de la cuenta en sus recorridos activos, finalizados y anulados. |
@@ -192,7 +192,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
 | Función | Campos personalizables: fragmentos de contenido | Durante el diseño de fragmentos visuales, puede designar parámetros para un componente del fragmento como editables. Esta función permite al autor del correo electrónico o la plantilla especificar un valor de campo personalizado específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones. <a href="../content/fragment-authoring.md#enable-fragment-customization">Más información</a> |
-| Función | Tipos de duplicación del recorrido | Cuando duplica el recorrido de una cuenta, puede incluir detalles del nodo, excluyendo los correos electrónicos y mensajes de SMS creados en Journey Optimizer B2B Edition. Como alternativa, puede crear una copia esqueleto de la estructura y los flujos de ruta, sin detalles del nodo ni ajustes. <a href="../journeys/journey-overview.md#duplicate-journey">Más información</a> |
+| Función | Tipos de duplicación del recorrido | Cuando duplica el recorrido de una cuenta, puede incluir detalles del nodo, excluyendo los correos electrónicos y mensajes de SMS creados en Journey Optimizer B2B Edition. Como alternativa, puede crear una copia esqueleto de la estructura y los flujos de ruta, sin detalles del nodo ni ajustes. <a href="../journeys/journeys-overview.md#duplicate-journey">Más información</a> |
 | Mejora | Cuatro plantillas de correo electrónico de muestra adicionales | La biblioteca de plantillas de correo electrónico de ejemplo ahora incluye cuatro plantillas de SecureFinancial como ejemplos para volver a participar, informar, alimentar y dar ejemplos de contenido de comentarios |
 
 <!-- | Feature | B2B built-in roles and product permissions | Experience Platform now includes a set of built-in (default) roles that you can use to manage access to the B2B product capabilities. <a href="../admin/user-management.md#b2b-built-in-roles">Learn more</a> <br/>Administrators can now define custom roles in Adobe Experience Platform to include Journey Optimizer B2B Edition product permissions.  <a href="../admin/user-management.md#b2b-product-permissions">Learn more</a> | -->

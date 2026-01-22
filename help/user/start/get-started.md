@@ -4,7 +4,7 @@ description: 'Guía de incorporación para administradores y expertos en marketi
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 93%
@@ -17,7 +17,7 @@ Las funciones y herramientas que desea abordar en Adobe Journey Optimizer B2B Ed
 
 >[!TIP]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 >[!BEGINTABS]
 
@@ -55,7 +55,7 @@ Como especialista en marketing o _profesional de recorridos de cuentas_, es resp
 
 Consulte las siguientes secciones para configurar su primer recorrido, añadir recursos y enviar contenido:
 
-1. **Añadir públicos en la cuenta**. Journey Optimizer B2B Edition le permite crear públicos en la cuenta mediante definiciones de segmentos directamente desde la aplicación y aprovecharlos en sus recorridos de la cuenta. [Más información](../audiences/account-audience-overview.md)
+1. **Añadir públicos de cuenta**. Journey Optimizer B2B Edition le permite crear públicos de cuenta mediante definiciones de segmentos directamente desde la aplicación y aprovecharlos en sus recorridos de la cuenta. [Más información](../audiences/account-audience-overview.md)
 
 1. **Cree grupos de compras**. Defina los componentes clave para alcanzar sus metas y objetivos empresariales, y cree grupos de compras que identifiquen a los miembros para sus listas de cuentas objetivo. [Más información](../buying-groups/buying-groups-overview.md)
 
@@ -73,6 +73,6 @@ Consulte las siguientes secciones para configurar su primer recorrido, añadir r
 
    * En el mapa del recorrido, cree casos de uso de varios pasos, añada condiciones y envíe mensajes personalizados.
 
-[Más información](../journeys/journey-overview.md)
+[Más información](../journeys/journeys-overview.md)
 
 >[!ENDTABS]

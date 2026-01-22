@@ -4,26 +4,26 @@ description: 'Configuración de nodos de evento para déclencheur de cuentas y p
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1843'
 ht-degree: 12%
 
 ---
 
 # Escuchar un evento
 
-Agregue el nodo _Escuchar un evento_ para mover la audiencia al siguiente paso en el recorrido de la cuenta cuando se produzca un evento.
+Agregue el nodo _Listen for an event_ para mover la audiencia hacia adelante al siguiente paso del recorrido cuando se produzca un evento.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Vea el vídeo de información general](#overview-video)
 
 >[!NOTE]
 >
->No puede agregar este tipo de nodo en la ruta dividida por personas.
+>Para un recorrido de cuentas, no se puede agregar este tipo de nodo en una ruta dividida por personas.
 
 ## Eventos de cuenta
 
-Escuche un evento basado en la cuenta cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por la actividad de la cuenta.
+En un recorrido de cuenta, puede detectar un evento basado en la cuenta cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por la actividad de la cuenta.
 
 ### Eventos y restricciones
 
@@ -52,7 +52,7 @@ Escuche un evento basado en la cuenta cuando desee mover la cuenta hacia adelant
 
 ## Eventos de personas
 
-Escuche un evento basado en personas cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por la actividad de personas. También puede filtrar eventos según los atributos de las personas,
+En un recorrido de cuentas, puede detectar un evento basado en personas cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por la actividad de personas. También puede filtrar eventos según los atributos de las personas,
 
 ### Eventos y restricciones
 
@@ -135,7 +135,7 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 ### Escuchar un evento de experiencia
 
-Los administradores pueden seleccionar [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permiten a los especialistas en marketing crear recorridos que reaccionen a los eventos en tiempo casi real. El uso de eventos de experiencia en recorrido es un proceso de dos pasos:
+Los administradores pueden seleccionar [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permiten a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real. El uso de eventos de experiencia en recorrido es un proceso de dos pasos:
 
 1. Un administrador [selecciona los tipos de eventos y los campos de interés](../admin/configure-aep-events.md#select-an-event) para que estén disponibles en los recorridos.
 
@@ -148,19 +148,19 @@ _Para incluir un evento de experiencia en el recorrido :_
 
 1. Seleccione un nodo **[!UICONTROL Listen for an event]** del mapa de recorrido.
 
-1. En las propiedades del nodo a la derecha, elija **[!UICONTROL Personas]** para el tipo de evento.
-
-1. Haga clic en la flecha del selector **[!UICONTROL Seleccionar evento de personas]** y desplace el menú a la sección **[!UICONTROL Adobe Experience Platform]**.
-
-   ![Escuchar un evento de experiencia](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+1. (Solo recorrido de cuenta) En las propiedades del nodo a la derecha, elija **[!UICONTROL Personas]** para el tipo de evento.
 
 1. Seleccione el evento.
 
-   El tipo de evento se muestra vacío en los detalles del nodo.
+   Para un **_recorrido de cuenta_**, haga clic en la flecha del selector **[!UICONTROL Seleccionar evento de personas]** y desplace el menú a la sección **[!UICONTROL Adobe Experience Platform]**.
 
-   ![Editar el evento](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
+   ![Escuchar un evento de experiencia](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+
+   Para un recorrido de persona, haga clic en la flecha del selector **[!UICONTROL Seleccionar evento]** y elija el evento.
 
 1. Haga clic en **[!UICONTROL Editar evento]** y defina una o más restricciones para el evento.
+
+   ![Editar el evento](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
    Las restricciones disponibles se definen como campos administrados para la configuración del evento.
 
@@ -182,11 +182,13 @@ _Para incluir un evento de experiencia en el recorrido :_
 
 1. En el mapa de recorrido, añada el siguiente nodo que se ejecutará cuando se produzca el evento.
 
-1. Complete los nodos restantes del recorrido y [publíquelo](./journey-overview.md).
+1. Complete los nodos restantes del recorrido y [publíquelo](./journeys-overview.md).
 
    Cuando el recorrido está activo (publicado) y llega al nodo _Escuchar un evento_, comienza a escuchar eventos de experiencia de AEP.
 
 ### Añadir filtros al evento de personas
+
+(Solo recorridos de cuenta)
 
 1. Después de definir el evento, seleccione la ficha **[!UICONTROL Filtros]** en el cuadro de diálogo _[!UICONTROL Editar evento]_.
 
@@ -222,4 +224,4 @@ Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento.
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443237/?captions=spa&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
