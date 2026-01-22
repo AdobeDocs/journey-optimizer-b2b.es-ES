@@ -165,4 +165,4 @@ Puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique,
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443222/?captions=spa&learn=on)

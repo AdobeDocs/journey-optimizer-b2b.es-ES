@@ -224,4 +224,4 @@ Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento.
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443237/?captions=spa&learn=on) -->
