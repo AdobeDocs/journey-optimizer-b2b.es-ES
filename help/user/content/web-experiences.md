@@ -30,7 +30,7 @@ Antes de crear experiencias web, asegúrese de que se cumplen los siguientes req
 
 * Un administrador de productos ha configurado uno o más canales web para definir las direcciones URL (páginas) que se incluirán en una experiencia web. Para obtener más información, vea [Configuraciones del canal Web](../admin/configure-channels-web.md).
 
-* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
+* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
 
 * Tiene los [permisos](../admin/user-management.md#b2b-product-permissions) necesarios para crear y administrar experiencias web en un recorrido:
    * _[!UICONTROL Campañas]_ > _[!UICONTROL Administrar campañas]_: necesario para agregar o actualizar un nodo de acción de personalización web.
@@ -189,13 +189,13 @@ Para habilitar la entrega de experiencias web, se debe definir la siguiente conf
 
 * En la recopilación de datos de Adobe Experience Platform, asegúrese de que tiene un conjunto de datos definido con la opción Adobe Journey Optimizer B2B edition activada en el servicio Adobe Experience Platform.
 
-  Esta configuración garantiza que Adobe Experience Platform Edge pueda gestionar correctamente los eventos entrantes. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+  Esta configuración garantiza que Adobe Experience Platform Edge pueda gestionar correctamente los eventos entrantes. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure)
 
 * En Adobe Experience Platform, asegúrese de tener una política de combinación con la opción _[!UICONTROL Política de combinación activa en Edge]_ habilitada.
 
-  Seleccione una política en el menú Experience Platform Cliente > Perfiles > Políticas de combinación. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Seleccione una política en el menú Experience Platform Cliente > Perfiles > Políticas de combinación. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Los canales entrantes de Journey Optimizer B2B edition utilizan esta política de combinación para activar y publicar correctamente las experiencias web entrantes en Edge. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
+  Los canales entrantes de Journey Optimizer B2B edition utilizan esta política de combinación para activar y publicar correctamente las experiencias web entrantes en Edge. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Resolución de problemas
 
