@@ -3,7 +3,7 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
+source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
 workflow-type: tm+mt
 source-wordcount: '4087'
 ht-degree: 86%
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Funciones de la IA agéntica
 
@@ -30,7 +30,7 @@ Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimi
 
 ## Notas de la versión 2026.1
 
-**Fecha de implementación**: martes, 03 de febrero de 2025
+**Fecha de implementación**: miércoles, 03 de febrero de 2026
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
@@ -46,7 +46,7 @@ Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimi
 
 >[!NOTE]
 >
->Los cambios en la versión comienzan a implementarse el martes, 03 de febrero de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>Los cambios en la versión comienzan a implementarse el miércoles, 03 de febrero de 2026, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2025.10
 
