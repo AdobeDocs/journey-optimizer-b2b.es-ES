@@ -4,9 +4,9 @@ description: Filtre posibles clientes comprando pertenencia a grupos en las list
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ Como experto en marketing, es posible que desee suprimir las campañas de Market
 * ¿Es este cliente potencial parte de un grupo de compra?
 * ¿Está completo y comprometido el grupo comprador?
 
-Si estas condiciones son verdaderas, puede elegir puntuar como posible cliente más alto. Si no es así, puede optar por no marcarlo como posible cliente calificado de marketing (MQL).
+Si estas condiciones son verdaderas, puede elegir puntuar el posible cliente cuanto más alto sea. Si no es así, puede optar por no marcarlo como posible cliente calificado de marketing (MQL).
 
 En la instancia de Marketo Engage que esté conectada a Journey Optimizer B2B edition, puede usar el filtro _[!UICONTROL Miembro del grupo de compra]_ en sus listas inteligentes para identificar a estos posibles clientes según su estrategia de campaña.
 
-1. Después de [crear una lista inteligente en Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, seleccione la ficha **[!UICONTROL Lista inteligente]** para abrir el editor de filtros.
+1. Después de [crear una lista inteligente en Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, seleccione la ficha **[!UICONTROL Lista inteligente]** para abrir el editor de filtros.
 
 1. En la lista de filtros de la derecha, desplácese hacia abajo por la lista y expanda la carpeta **[!UICONTROL Filtros especiales]**.
 
@@ -50,7 +50,11 @@ En la instancia de Marketo Engage que esté conectada a Journey Optimizer B2B ed
 
    * Seleccione la restricción que desee agregar, como _Puntuación de integridad_ o _Interés de la solución_.
 
-   * Establezca la evaluación que desee utilizar para una coincidencia. Para una puntuación, puede utilizar una coincidencia exacta o un rango que esté por encima o por debajo del número introducido.
+   * Establezca la evaluación que desee utilizar para una coincidencia.
+
+     Para una puntuación, puede utilizar una coincidencia exacta o un rango que esté por encima o por debajo del número introducido.
+
+     Para excluir a los miembros que se eliminaron de un grupo de compras, use la restricción _[!UICONTROL Se ha eliminado]_ establecida en `false`. También puede incluir explícitamente miembros eliminados en la lista inteligente estableciendo esta restricción en `true`.
 
      Para un elemento discreto, como los intereses de la solución definidos en Journey Optimizer B2B edition, puede seleccionar uno o varios elementos para la lista.
 

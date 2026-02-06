@@ -4,9 +4,9 @@ description: 'Configuración de nodos de evento para déclencheur de cuentas y p
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1845'
 ht-degree: 12%
 
 ---
@@ -52,7 +52,7 @@ En un recorrido de cuenta, puede detectar un evento basado en la cuenta cuando d
 
 ## Eventos de personas
 
-En un recorrido de cuentas, puede detectar un evento basado en personas cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por la actividad de personas. También puede filtrar eventos según los atributos de las personas,
+En un recorrido de cuentas, puede detectar un evento basado en personas cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por la actividad de personas. También puede filtrar eventos según los atributos de las personas.
 
 ### Eventos y restricciones
 
@@ -80,7 +80,7 @@ En un recorrido de cuentas, puede detectar un evento basado en personas cuando d
 | [!UICONTROL Historial de actividades] > [!UICONTROL Ha tenido un momento interesante] | Actividad de momento interesante que se define en la instancia de Marketo Engage asociada. Las restricciones incluyen: <li>Hito<li>Correo electrónico<li>Web <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL Historial de actividades] > [!UICONTROL Página web visitada] | Actividad de página web que se utiliza para una o varias páginas web administradas por la instancia de Marketo Engage asociada. Las restricciones incluyen: <li>Página web (obligatorio)<li>Fecha de la actividad<li>Dirección IP del cliente <li>Querystring <li>Referente <li>Agente de usuario <li>Motor de búsqueda <li>Consulta de búsqueda <li>URL personalizada <li>Token <li>Explorador <li>Plataforma <li>Device <li>Mín. número de veces <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
 | [!UICONTROL Atributos de persona] | Atributos del perfil de la persona, incluidos: <li>Ciudad <li>País <li>Fecha de nacimiento <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida<li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de persona <li>Número de teléfono <li>Código postal <li>Estado <li>Suscripción cancelada <li>Razón de la cancelación de la suscripción |
-| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Función</li> |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Se ha eliminado</li><li>Función</li> |
 | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro de la lista] | La persona es o no es miembro de una o más listas de Marketo Engage. |
 | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del programa] | La persona es o no es miembro de uno o más programas de Marketo Engage. |
 
@@ -108,7 +108,7 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 1. Haga clic en la flecha del selector **[!UICONTROL Seleccionar evento de personas]** y desplace el menú a la sección **[!UICONTROL Marketo Engage]**.
 
-1. Seleccione un tipo de actividad de participación en el mercado:
+1. Seleccione un tipo de actividad de Marketo Engage:
 
    * **[!UICONTROL Visita La Página Web]**.
    * **[!UICONTROL Rellena El Formulario]**
@@ -135,7 +135,7 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 ### Escuchar un evento de experiencia
 
-Los administradores pueden seleccionar [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permiten a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real. El uso de eventos de experiencia en recorrido es un proceso de dos pasos:
+Los administradores pueden seleccionar [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permiten a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real. El uso de eventos de experiencia en recorrido es un proceso de dos pasos:
 
 1. Un administrador [selecciona los tipos de eventos y los campos de interés](../admin/configure-aep-events.md#select-an-event) para que estén disponibles en los recorridos.
 
@@ -224,4 +224,4 @@ Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento.
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443237/?captions=spa&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
