@@ -4,7 +4,7 @@ description: Filtre posibles clientes comprando pertenencia a grupos en las list
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: 764ea8631241b8da3cfae4ce59a29b1c82b53f0c
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Si estas condiciones son verdaderas, puede elegir puntuar el posible cliente cua
 
 En la instancia de Marketo Engage que esté conectada a Journey Optimizer B2B edition, puede usar el filtro _[!UICONTROL Miembro del grupo de compra]_ en sus listas inteligentes para identificar a estos posibles clientes según su estrategia de campaña.
 
-1. Después de [crear una lista inteligente en Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, seleccione la ficha **[!UICONTROL Lista inteligente]** para abrir el editor de filtros.
+1. Después de [crear una lista inteligente en Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, seleccione la ficha **[!UICONTROL Lista inteligente]** para abrir el editor de filtros.
 
 1. En la lista de filtros de la derecha, desplácese hacia abajo por la lista y expanda la carpeta **[!UICONTROL Filtros especiales]**.
 

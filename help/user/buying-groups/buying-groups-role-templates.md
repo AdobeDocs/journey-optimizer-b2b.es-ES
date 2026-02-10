@@ -4,9 +4,9 @@ description: Cree plantillas de funciones con asignación automática condiciona
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1329'
 ht-degree: 5%
 
 ---
@@ -64,7 +64,7 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 | ---- | --------- |
 | Atributos de la persona | <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Número de fax <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Segundo nombre <li>Número de teléfono móvil <li>Puntuación de participación de persona <li>Número de teléfono <li>Código postal <li>Estado <li>Suscripción cancelada <li>Razón de la cancelación de la suscripción |
 | Filtros especiales | <li>Miembro de la lista <li>Miembro del programa |
-| Datos de intención | Intento de categoría <li>Intención del producto <li>Intento de palabra clave<br/>[Más información acerca de los datos de intención](../admin/intent-data.md). |
+| Datos de intención | <li>Intento de categoría <li>Intención del producto <li>Intento de palabra clave<br/>[Más información acerca de los datos de intención](../admin/intent-data.md) |
 
 1. Para la primera tarjeta de función, defina las propiedades de la función.
 
@@ -115,6 +115,13 @@ En Marketo Engage, _Campañas inteligentes_ comprueba la pertenencia de los prog
 Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** al espacio de filtro. A continuación, complete la definición del filtro para evaluar la pertenencia a una o varias listas de Marketo Engage.
 
 ![Condición de plantilla de roles para pertenencia a lista de Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+<br/>
+
+>[!NOTE]
+>
+>**Desaprobación de características**</br></br>
+>
+>Con la [arquitectura simplificada](../simplified-architecture.md) para Journey Optimizer B2B edition, no se admite el filtrado basado en la pertenencia a listas o programas en una instancia de Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -126,7 +133,7 @@ De forma predeterminada, la integridad de un rol se define como un miembro asign
 
 Por ejemplo, para cerrar un acuerdo para la solución _X_, es necesario que se identifiquen y se involucren varios encargados de tomar decisiones de marketing, ya que varios equipos de marketing de una organización usarían la solución. En este caso, desea aumentar el umbral para calcular un grupo de compra _completo_ requiriendo al menos dos encargados de la toma de decisiones de marketing.
 
-Consulte [Puntuaciones de integridad](./completeness-scores.md) para obtener información detallada acerca de la puntuación de integridad y los cálculos.
+Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener información detallada acerca de los cálculos y la puntuación de integridad.
 
 1. En la parte superior derecha de la página de plantilla de funciones, haga clic en **[!UICONTROL Configuración de puntuación de integridad]**.
 
@@ -134,7 +141,7 @@ Consulte [Puntuaciones de integridad](./completeness-scores.md) para obtener inf
 
 1. En el cuadro de diálogo, cambie el valor **[!UICONTROL Miembros necesarios]** para cada rol definido según sea necesario.
 
-   Puede introducir el valor o hacer clic en **&plus;** o **−** para aumentarlo o reducirlo.
+   Puede introducir el valor o hacer clic en **&amp;plus;** o **−** para aumentarlo o reducirlo.
 
    ![Plantilla de roles - botón de configuración de puntuación de integridad](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -180,6 +187,6 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 1. En el cuadro de diálogo, haga clic en **[!UICONTROL Eliminar]** para confirmar.
 
-## Vídeo de información general
+## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
