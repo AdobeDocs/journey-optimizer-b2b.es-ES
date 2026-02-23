@@ -4,19 +4,19 @@ description: Controle cuándo y con qué frecuencia las cuentas pueden volver a 
 feature: Account Journeys
 role: User
 level: Intermediate
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
+source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '432'
 ht-degree: 1%
 
 ---
-
 
 # reentrada de recorrido
 
 _Solo recorridos de cuenta_
 
-Al habilitar la reentrada para un recorrido de cuenta, puede controlar cuándo y con qué frecuencia una cuenta puede volver a introducir el mismo recorrido. Utilice la configuración de reentrada para establecer criterios, límites y tiempos de espera para que las cuentas se vuelvan a calificar de forma controlada.
+Al habilitar la reentrada para un recorrido de cuenta, puede controlar cuándo y con qué frecuencia una cuenta puede volver a introducir el mismo recorrido. Utilice la configuración de reentrada para establecer criterios, límites y tiempos de espera para que las cuentas se vuelvan a calificar para el recorrido de forma controlada.
 
 Una cuenta puede volver a clasificarse para un recorrido cuando los siguientes elementos son verdaderos:
 
