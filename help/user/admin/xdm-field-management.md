@@ -4,13 +4,13 @@ description: Utilice la administración de campos XDM para controlar los datos d
 feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función se encuentra en una versión beta limitada sobre la arquitectura simplificada"
-source-git-commit: afac024e5eeb6b9d230c4292a6f37e92e16d29f6
+exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
+source-git-commit: 863265860a59abac4a73971bf923fa4cc1456e8d
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1158'
 ht-degree: 1%
 
 ---
-
 
 # Administración de campos XDM
 
@@ -90,7 +90,7 @@ Al elegir **[!UICONTROL Campos administrados]**, el cuadro de diálogo _Seleccio
 
 #### Campos actualizables
 
-Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
+Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
 
 >[!IMPORTANT]
 >
@@ -113,15 +113,15 @@ Cree un conjunto de datos para Perfil individual y otro para Cuenta empresarial.
 
 Los esquemas relacionales permiten crear clases de datos personalizadas. Con acceso a varios conjuntos de datos, puede crear clases adaptadas específicamente a sus necesidades de datos. Utilice esquemas relacionales para entidades comerciales, como compras, licencias y registros de eventos, en las decisiones de recorrido y la personalización de correo electrónico. Puede seleccionar hasta 50 esquemas y hasta 100 campos por esquema.
 
-Para obtener información sobre cómo usar los campos seleccionados para la personalización avanzada de correo electrónico, consulte [Personalización de contenido](../content/personalization.md#custom-datasets). Para obtener información sobre cómo puede utilizar los campos seleccionados para la toma de decisiones de recorrido (dividir rutas por cuenta), vea [Filtrado de datos personalizado](../journeys/split-merge-paths-nodes.md#custom-data-filtering). <!-- add link to split path by people in M 1.5 GA release -->
+Para obtener información sobre cómo usar los campos seleccionados para la personalización avanzada de correo electrónico, consulte [Personalización de contenido](../content/personalization.md#custom-datasets). Para obtener información sobre cómo usar los campos seleccionados para la toma de decisiones de recorrido (dividir rutas por cuenta o personas), consulte [Filtrado de datos personalizado](../journeys/split-merge-paths-nodes.md#custom-data-filtering).
+
+>[!AVAILABILITY]
+>
+>Los [esquemas relacionales](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión de disponibilidad limitada. Los esquemas relacionales y de Data Mirror están disponibles para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licencias. Los esquemas relacionales también están disponibles como una versión limitada para [!DNL Customer Journey Analytics] usuarios, según su licencia y la habilitación de características. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 >[!NOTE]
 >
->Los [esquemas relacionales](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión de disponibilidad limitada. Los esquemas relacionales y de Data Mirror están disponibles para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licencias. Los esquemas relacionales también están disponibles como una versión limitada para [!DNL Customer Journey Analytics] usuarios, según su licencia y la habilitación de características. Póngase en contacto con su representante de Adobe para obtener acceso.
-
->[!NOTE]
->
->Actualmente, esta función admite casos de uso de objetos personalizados relacionados con la cuenta, y tiene previsto admitir más casos de uso de objetos predeterminados en el futuro.
+>Actualmente, esta función admite casos de uso de objetos personalizados relacionados con cuentas y personas, y tiene previsto admitir más casos de uso de objetos predeterminados en el futuro.
 
 Puede crear esquemas relacionales mediante el editor de esquemas (vaya a **[!UICONTROL Administración de datos]** > **[!UICONTROL Esquemas]** en el panel de navegación izquierdo).
 
@@ -144,17 +144,13 @@ Para seleccionar campos de esquema relacional para usarlos en [!DNL Journey Opti
 
    >[!NOTE]
    >
-   >En esta versión de la funcionalidad beta, solo se admiten _objetos personalizados varios a uno_ de cuenta.
+   >En esta versión de la funcionalidad beta, solo se admiten _objetos personalizados de cuenta y personas varios a uno_.
 
 1. Seleccione un esquema relacional y haga clic en **[!UICONTROL Siguiente]**.
 
-   >[!NOTE]
-   >
-   >En esta versión de la función beta, no se puede quitar un esquema de la lista después de seleccionarlo.
-
    ![Seleccionar un esquema relacional en el cuadro de diálogo](./assets/xdm-classes-relational-select-schema-dialog.png){width="500" zoomable="yes"}
 
-1. Introduzca un área de nombres o utilice la predeterminada. Haga clic en **[!UICONTROL Siguiente]**.
+1. Introduzca un área de nombres o utilice la predeterminada. Haga clic en **[!UICONTROL Next]**.
 
    Solo puede establecer el área de nombres una vez y no puede revertir esta acción.
 

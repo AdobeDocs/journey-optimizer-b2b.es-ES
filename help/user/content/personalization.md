@@ -6,7 +6,8 @@ topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: expresión, editor, inicio, personalización
-source-git-commit: 5063f9a924aef0a54b05e9bf223fc2d4898bc5a5
+exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
+source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -42,7 +43,7 @@ En [!DNL Journey Optimizer B2B Edition], puede generar su contenido de correo el
 
 >[!NOTE]
 >
->Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}.
+>Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## editor de Personalization
 
@@ -78,36 +79,14 @@ Cuando la expresión esté completa y libre de errores, haga clic en **[!UICONTR
 
 ### Conjuntos de datos personalizados
 
-Puede utilizar esquemas relacionales (clases basadas en modelos) para la personalización del correo electrónico. Los objetos personalizados se definen en _esquemas relacionales_, y un administrador de productos puede [configurar campos de esquema relacionales](../admin/xdm-field-management.md#relational-schemas) en [!DNL Journey Optimizer B2B Edition]. Se puede acceder a estos campos en el editor de personalización. Solo están disponibles los objetos personalizados que tienen una relación uno a varios (1:M) con la cuenta <!-- (M1.5 Beta) or Person (M1.5 GA) -->.
+[!BADGE Beta]{type=Informative tooltip="Función Beta"}
+
+Puede utilizar esquemas relacionales para la personalización del correo electrónico. Los objetos personalizados se definen en _esquemas relacionales_, y un administrador de productos puede [configurar campos de esquema relacionales](../admin/xdm-field-management.md#relational-schemas) en [!DNL Journey Optimizer B2B Edition]. Se puede acceder a estos campos en el editor de personalización. Solo están disponibles los objetos personalizados que tienen una relación &quot;uno a varios&quot; (1:M) con Personas o Cuenta.
 
 >[!IMPORTANT]
 >
->Antes de usar objetos personalizados para la personalización mediante scripts, asegúrese de revisar y comprender el [lenguaje de plantilla Handlebar](https://handlebarsjs.com/guide/), la [sintaxis de personalización](./personalization-syntax.md) y las [funciones de ayuda](./personalization-helper-functions.md) integradas.
+>Antes de usar objetos personalizados para la personalización mediante scripts, asegúrese de revisar y comprender el [lenguaje de plantilla Handlebars](https://handlebarsjs.com/guide/), la [sintaxis de personalización](./personalization-syntax.md) y las [funciones de ayuda integradas](./personalization-helper-functions.md).
 
-Cuando define la personalización utilizando los objetos personalizados, puede acceder a todas las variables en objetos accesibles mediante scripts en los **[!UICONTROL tokens de Personalization]** (persona/posible cliente, cuenta, sistema y Mis tokens) y en las **[!UICONTROL clases basadas en modelos]** (esquemas relacionales). Con las clases basadas en modelos seleccionadas, puede ver los campos haciendo clic en la carpeta de objetos personalizada. Haga clic en **+** para cada campo que desee agregar a la expresión.
+Cuando define la personalización mediante objetos personalizados, puede acceder a todas las variables en objetos accesibles mediante scripts en los **[!UICONTROL tokens de Personalization]** (persona/posible cliente, cuenta, sistema y Mis tokens) y en los **[!UICONTROL objetos personalizados]** (esquemas relacionales). Con los objetos personalizados seleccionados, puede ver los campos haciendo clic en la carpeta de objetos personalizados. Haga clic en **+** para cada campo que desee agregar a la expresión.
 
-![Editor de Personalization - Clases basadas en modelos - agregar campos de objeto personalizados](./assets/personalization-editor-custom-object-fields.png){width="800" zoomable="yes"}
-
-<!-- ## Personalization experimentation {#playground}
-
-**[!DNL Adobe Journey Optimizer]** includes an interactive tool designed to help you learn and experiment with personalization capabilities.
-
-This playground provides a simulated environment to write and test personalization code using sample data without requiring live datasets. You can leverage predefined code samples, edit dummy profile payloads, and preview the output of your personalization code in real-time. 
-
-![personalization playground](assets/playground.png)
-
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/es/apps/journey-optimizer/ajo-personalization){target="_blank"} 
-
-## How-to videos{#video-perso}
-
-Learn how to use contextual event information from a journey to personalize a message.
-
->[!VIDEO](https://video.tv.adobe.com/v/3448133?captions=spa&quality=12)
-
-Learn how to add profile-based personalization to a message and how to use audience membership as a pre-condition to a personalization block.
-
->[!VIDEO](https://video.tv.adobe.com/v/3416236?captions=spa&quality=12)
-
-Learn how to leverage the personalization editor playground to write and test personalization code using sample data.
-
->[!VIDEO](https://video.tv.adobe.com/v/3475955?captions=spa&quality=12) -->
+![Editor de Personalization - Clases basadas en modelos - agregar campos de objeto personalizados](./assets/personalization-editor-custom-object-fields.png){width="700" zoomable="yes"}
