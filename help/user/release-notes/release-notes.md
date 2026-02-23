@@ -3,9 +3,9 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: fd8b811eb7f4568a92213e7873dc626f572ae519
+source-git-commit: 768820247354cf8eb3da23f118314317f3a1e93c
 workflow-type: tm+mt
-source-wordcount: '4434'
+source-wordcount: '4436'
 ht-degree: 80%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2026.2
 
@@ -25,12 +25,12 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
 | Función | Campos XDM/esquemas relacionales: compatibilidad con objetos personalizados de persona | (Beta) Los administradores ahora pueden seleccionar objetos personalizados relacionados con una persona mediante una relación individual de un solo nivel con una cuenta. Esta capacidad permite a la organización de marketing representar una vista más completa de los datos empresariales reales para dirigirse a entidades que no sean la persona o el nivel de cuenta, personalizarlas e incluirlas en informes. [Más información](../admin/xdm-field-management.md#relational-schemas) |
+| Función | reentrada de recorrido | Ahora puede enviar cuentas o personas a través de un flujo de trabajo de recorrido varias veces. La reentrada aborda varios escenarios, como la reevaluación de los criterios de cualificación y los flujos de trabajo de nutrición reutilizables. [Más información](../journeys/journey-re-entry.md) |
 | Función | Diseño de correo electrónico: compatibilidad con Firefly y modelos de IA generativa personalizados | Ahora puede habilitar la integración de modelos de Firefly estándar y personalizados, junto con modelos de imagen de terceros aprobados (como NanoBanana). Los especialistas en marketing pueden seleccionar el mejor modelo para cada caso de uso: Firefly estándar para necesidades generales, Firefly personalizado para la generación sin marca o modelos de terceros aprobados para escenarios especializados o experimentales. |
 | Mejora | Diseño de correo electrónico: validación de calidad de contenido | Además de la alineación de marca, puede evaluar la calidad general del contenido para descubrir posibles problemas con la legibilidad, la coherencia y la eficacia (independientemente de las directrices de marca). Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. |
-| Mejora | reentrada de recorrido | Ahora puede enviar cuentas o personas a través de un flujo de trabajo de recorrido varias veces. La reentrada aborda varios escenarios, como la reevaluación de los criterios de cualificación y los flujos de trabajo de nutrición reutilizables. |
-| Mejora | Activar en destinos: audiencias reutilizables | Ahora puede reutilizar audiencias virtuales en _Activar para destinar_ acciones de recorrido dentro del mismo recorrido y eliminar cuentas de audiencias virtuales. |
 | Mejora | Recorridos de cuenta y persona: compatibilidad con objetos personalizados de persona | (Beta) Aproveche los datos relacionales vinculados a las cuentas para filtrar a las personas dentro de un recorrido de cuenta o persona. [Más información](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | Mejora | (Beta) Personalización de contenido: compatibilidad con objetos personalizados de persona | Al definir la personalización del contenido mediante los objetos personalizados, puede acceder a las variables para los objetos personalizados de clase basados en modelos (esquemas relacionales). [Más información](../content/personalization.md#custom-datasets) |
+| Mejora | Activar en destinos: audiencias reutilizables | Ahora puede reutilizar audiencias virtuales en _Activar para destinar_ acciones de recorrido dentro del mismo recorrido y eliminar cuentas de audiencias virtuales. |
 
 >[!NOTE]
 >
