@@ -313,4 +313,4 @@ Agregue un nodo _Combinar rutas_ para combinar diferentes _rutas divididas por c
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443259/?captions=spa&learn=on)
