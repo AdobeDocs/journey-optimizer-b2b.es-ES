@@ -3,10 +3,10 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: a624ef4575aaf771af7bfcb301e98fdb615699f6
 workflow-type: tm+mt
-source-wordcount: '4474'
-ht-degree: 80%
+source-wordcount: '4371'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2026.2
 
@@ -26,11 +26,15 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | ---- | ---- | ----------- |
 | Función | Campos XDM/esquemas relacionales: compatibilidad con objetos personalizados de persona | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible con arquitectura simplificada"} (Beta) Los administradores ahora pueden seleccionar objetos personalizados relacionados con una persona mediante una relación uno a uno de un solo nivel con una cuenta. Esta capacidad permite a la organización de marketing representar una vista más completa de los datos empresariales reales para dirigirse a entidades que no sean la persona o el nivel de cuenta, personalizarlas e incluirlas en informes. [Más información](../admin/xdm-field-management.md#relational-schemas) |
 | Función | reentrada de recorrido | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible con arquitectura simplificada"} Ahora puede enviar cuentas o personas a través de un flujo de trabajo de recorrido varias veces. La reentrada aborda varios escenarios, como la reevaluación de los criterios de cualificación y los flujos de trabajo de nutrición reutilizables. [Más información](../journeys/journey-re-entry.md) |
-| Función | Diseño de correo electrónico: compatibilidad con Firefly y modelos de IA generativa personalizados | Ahora puede habilitar la integración de modelos de Firefly estándar y personalizados, junto con modelos de imagen de terceros aprobados (como NanoBanana). Los especialistas en marketing pueden seleccionar el mejor modelo para cada caso de uso: Firefly estándar para necesidades generales, Firefly personalizado para la generación sin marca o modelos de terceros aprobados para escenarios especializados o experimentales. |
-| Mejora | Diseño de correo electrónico: validación de calidad de contenido | Además de la alineación de marca, puede evaluar la calidad general del contenido para descubrir posibles problemas con la legibilidad, la coherencia y la eficacia (independientemente de las directrices de marca). Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. |
 | Mejora | Recorridos de cuenta y persona: compatibilidad con objetos personalizados de persona | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible con arquitectura simplificada"} (Beta) Aproveche los datos relacionales vinculados a las cuentas para filtrar a las personas en un recorrido de cuenta o persona. [Más información](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | Mejora | (Beta) Personalización de contenido: compatibilidad con objetos personalizados de persona | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible con arquitectura simplificada"} Al definir la personalización de contenido mediante los objetos personalizados, puede tener acceso a las variables de los objetos personalizados de clase basados en modelos (esquemas relacionales). [Más información](../content/personalization.md#custom-datasets) |
 | Mejora | Activar en destinos: audiencias reutilizables | Ahora puede reutilizar audiencias virtuales en _Activar para destinar_ acciones de recorrido dentro del mismo recorrido y eliminar cuentas de audiencias virtuales. |
+
+<!-- wait for next release
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. |
+| Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
+| Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
+| -->
 
 >[!NOTE]
 >
@@ -47,10 +51,6 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Mejora | Recorrido _Esperar_ nodo - configuración avanzada | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible para arquitectura simplificada"} Para un nodo _Wait_ en un recorrido, ahora puede especificar días y horas de salida y seleccionar zonas horarias. Esta mejora le permite un mejor control de la orquestación de recorrido y el tiempo de campaña. [Más información](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Mejora | Se ha eliminado el filtro Miembro del grupo de compra | Para un nodo _split path by people_, el filtro _[!UICONTROL Miembro del grupo comprador]_ ahora incluye la restricción _Se ha eliminado_. Al seleccionarlo, el filtro puede incluir al miembro del grupo comprador eliminado o excluirlo. También se admite en las listas inteligentes de Marketo Engage, donde puede utilizar esta nueva restricción en el filtro _[!UICONTROL Miembro del grupo de compra]_. |
 | Mejora | Diseño de correo electrónico: viñetas de varios niveles | Las herramientas del espacio de diseño de contenido de correo electrónico ahora admiten subviñetas (niveles de viñeta). |
-
-<!--
-| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
-| -->
 
 >[!NOTE]
 >
