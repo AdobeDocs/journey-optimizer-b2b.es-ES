@@ -3,10 +3,10 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: a624ef4575aaf771af7bfcb301e98fdb615699f6
+source-git-commit: 0215a83066bea181a09050b2ea35899241125a4d
 workflow-type: tm+mt
-source-wordcount: '4371'
-ht-degree: 81%
+source-wordcount: '4343'
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2026.2
 
@@ -28,13 +28,12 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Función | reentrada de recorrido | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible con arquitectura simplificada"} Ahora puede enviar cuentas o personas a través de un flujo de trabajo de recorrido varias veces. La reentrada aborda varios escenarios, como la reevaluación de los criterios de cualificación y los flujos de trabajo de nutrición reutilizables. [Más información](../journeys/journey-re-entry.md) |
 | Mejora | Recorridos de cuenta y persona: compatibilidad con objetos personalizados de persona | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible con arquitectura simplificada"} (Beta) Aproveche los datos relacionales vinculados a las cuentas para filtrar a las personas en un recorrido de cuenta o persona. [Más información](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | Mejora | (Beta) Personalización de contenido: compatibilidad con objetos personalizados de persona | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible con arquitectura simplificada"} Al definir la personalización de contenido mediante los objetos personalizados, puede tener acceso a las variables de los objetos personalizados de clase basados en modelos (esquemas relacionales). [Más información](../content/personalization.md#custom-datasets) |
-| Mejora | Activar en destinos: audiencias reutilizables | Ahora puede reutilizar audiencias virtuales en _Activar para destinar_ acciones de recorrido dentro del mismo recorrido y eliminar cuentas de audiencias virtuales. |
 
-<!-- wait for next release
+<!-- wait for later release
 | Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. |
 | Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
 | Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
-| -->
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
 
 >[!NOTE]
 >
