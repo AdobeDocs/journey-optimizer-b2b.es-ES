@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+source-git-commit: b037049c75a83f427185c91dff3a3ffb066e7e20
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 78%
+source-wordcount: '415'
+ht-degree: 76%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 78%
    + [Habilitar el acceso al Asistente de IA](./ai-assistant/enable-ai-assistant-access.md)
    + [Guía de preguntas](./ai-assistant/question-guidance.md)
    + [Utilizar el Asistente de IA](./ai-assistant/use-ai-assistant.md)
+   + [IA generativa para contenido](./ai-assistant/generative-ai-content.md)
    + Agentes {#ai-agents}
       + [Audience Agent](./agents/audience-agent-b2b.md)
       + [Recorrido Build Agent B2B](./agents/journey-agent.md)
@@ -116,6 +117,7 @@ ht-degree: 78%
    + Páginas de aterrizaje (Beta) {#landing-pages}
       + [Información general](./content/landing-pages.md)
       + [Diseño de la página de destino](./content/landing-page-design.md)
+      + [Asistente de IA para el contenido de páginas de aterrizaje](./content/ai-assistant-landing-pages.md)
    + Herramientas de diseño de contenido {#content-design}
       + [Componentes de estructura](./content/structure-components.md)
       + [Componentes de contenido](./content/content-components.md)
@@ -151,7 +153,7 @@ ht-degree: 78%
       + [Configuraciones del canal web (Beta)](./admin/configure-channels-web.md)
       + [Configuración de la página de aterrizaje (Beta)](./admin/landing-page-settings.md)
       + [Configuración de las secuencias de datos para la colección de eventos](./data/aep-event-collection.md)
-   + Configuraciones  {#configurations}
+   + Configuraciones {#configurations}
       + [Repositorios de AEM Assets](./admin/configure-aem-repositories.md)
       + [Datos de intención](./admin/intent-data.md)
       + [Ponderación de puntuación de participación](./admin/engagement-score-weighting.md)

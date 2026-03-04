@@ -4,9 +4,9 @@ description: 'Edite imágenes de forma nativa con Adobe Express en Journey Optim
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+source-git-commit: 7e58b0ccb9d9dd0192cb119bec83a1f13e3d5d69
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '860'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ Si tiene una licencia Enterprise para Adobe Express, puede acceder y utilizar el
 
 ![Abrir la imagen en el editor de Adobe Express Enterprise](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-La [Guía del usuario de Adobe Express](https://helpx.adobe.com/es/express/web.html){target="_blank"} proporciona información detallada sobre las funciones de edición disponibles.
+La [Guía del usuario de Adobe Express](https://helpx.adobe.com/express/web.html){target="_blank"} proporciona información detallada sobre las funciones de edición disponibles.
 
 ## Acciones rápidas en Adobe Express
 
@@ -88,7 +88,7 @@ Si no dispone de una licencia de Adobe Express Enterprise, puede acceder al edit
 
 1. Cuando vuelva al editor principal de acciones rápidas de Adobe Express, haga clic en **[!UICONTROL Guardar]** para guardar el archivo de imagen modificado en el repositorio de recursos de Journey Optimizer B2B edition con el mismo nombre de archivo.
 
-## Redimensionar imagen
+### Redimensionar imagen
 
 1. Utilice la configuración de cambio de tamaño para reducir o expandir la imagen:
 
@@ -102,13 +102,13 @@ Si no dispone de una licencia de Adobe Express Enterprise, puede acceder al edit
 
 1. Cuando esté satisfecho con el resultado, haga clic en **[!UICONTROL Aplicar]**.
 
-## Quitar fondo
+### Quitar fondo
 
 ![Editar con Adobe Express- eliminar fondo](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
 Adobe Express realiza una eliminación automática del fondo para aislar el objeto principal de la imagen. Si está satisfecho con el resultado, haga clic en **[!UICONTROL Aplicar]**.
 
-## Recortar imagen
+### Recortar imagen
 
 1. Arrastre los controladores de las esquinas de la imagen para eliminar las áreas exteriores que no desee incluir en el recurso de imagen.
 
@@ -116,7 +116,7 @@ Adobe Express realiza una eliminación automática del fondo para aislar el obje
 
 1. Cuando esté satisfecho con el resultado, haga clic en **[!UICONTROL Aplicar]**.
 
-## Convertir formato de archivo
+### Convertir formato de archivo
 
 * **[!UICONTROL Convertir a JPEG]**: para una imagen PNG, puede convertir la imagen en un archivo de imagen JPEG y guardarla como un nuevo recurso.
 * **[!UICONTROL Convertir a PNG]**: para una imagen de JPEG, puede convertir la imagen en un archivo de imagen PNG y guardarla como un nuevo recurso.
