@@ -49,7 +49,7 @@ Las herramientas del Asistente de IA para la generación de contenido son compat
 
 ## Directrices y limitaciones generales {#general-guidelines-and-limitations}
 
-Su uso de las funciones de IA generativa está sujeto a las [Directrices del usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Con el compromiso de Adobe con la transparencia en el uso de herramientas de IA generativa para la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por [!DNL Firefly] cuando se descarga o exporta.
+Su uso de las funciones de IA generativa está sujeto a las [Directrices del usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Con el compromiso de Adobe con la transparencia en el uso de herramientas de IA generativa para la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/es/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por [!DNL Firefly] cuando se descarga o exporta.
 
 Revise estas directrices generales para usar IA generativa para el contenido en [!DNL Journey Optimizer B2B Edition]:
 
