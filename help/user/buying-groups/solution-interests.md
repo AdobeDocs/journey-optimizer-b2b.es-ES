@@ -4,10 +4,10 @@ description: Cree intereses de soluciones para productos de destino, automatice 
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: e914d3a43c40bd6f4c60c7be0a9e91ff4e5838d1
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Antes de crear grupos compradores, debes saber qué estás vendiendo y a quién 
 
    La lista está ordenada de forma predeterminada por la columna _[!UICONTROL Última actualización]_. Haga clic en el título de la columna en el encabezado para alternar el orden entre descendente y ascendente.
 
-   Escriba texto en la herramienta _Buscar_ situada en la parte superior de la lista para filtrar la lista mostrada por nombre.
+   Escriba el texto en la herramienta _Búsqueda_ situada en la parte superior de la lista para filtrar la lista mostrada por el nombre.
 
    ![Ficha Interés de la solución](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
@@ -37,7 +37,7 @@ En la ficha _[!UICONTROL Interés de la solución]_, la columna **[!UICONTROL Tr
 
 ![Comprando trabajos de grupo por interés de solución](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
-Para eliminar un trabajo de un grupo de compradores, haga clic en los puntos suspensivos (...) junto al nombre del trabajo y elija **[!UICONTROL Eliminar]**.
+Puede eliminar un trabajo de grupo de compra haciendo clic en los puntos suspensivos (...). junto al nombre del trabajo y eligiendo **[!UICONTROL Eliminar]**.
 
 ## Crear un interés de solución
 
@@ -59,7 +59,7 @@ Antes de crear un interés de solución, debe tener una plantilla de funciones a
 
 1. Habilitar la configuración **[!UICONTROL Actualizar grupos de compras existentes]** (opcional).
 
-   Cuando esta opción está habilitada, todos los grupos de compra existentes asociados con el interés de la solución se actualizan a través del ciclo de sincronización de 7 días.
+   Cuando esta opción está activada, todos los grupos de compra existentes asociados con el interés de la solución se actualizan a través del ciclo de sincronización diario.
 
 1. Haga clic en **[!UICONTROL Crear]** en la esquina superior derecha.
 
@@ -72,7 +72,7 @@ En cualquier momento, puede cambiar el nombre y la descripción de una solución
 1. En la ficha _[!UICONTROL Interés de la solución]_, utilice uno de los siguientes métodos para abrir las propiedades del interés de la solución que desee editar:
 
    * Haga clic en el nombre de interés de la solución.
-   * Haga clic en los puntos suspensivos (**...**) junto a él y elija **[!UICONTROL Editar]**.
+   * Haga clic en los puntos suspensivos (**...**) al lado y elige **[!UICONTROL Editar]**.
 
    ![Menú más de interés para la solución](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
@@ -86,7 +86,7 @@ En cualquier momento, puede cambiar el nombre y la descripción de una solución
 
    * Cambiar la configuración de **[!UICONTROL Actualizar grupos de compras existentes]**.
 
-     Cuando esta opción está habilitada, todos los grupos de compra existentes asociados con el interés de la solución se actualizan a través del ciclo de sincronización de 7 días.
+     Cuando esta opción está activada, todos los grupos de compra existentes asociados con el interés de la solución se actualizan a través del ciclo de sincronización diario.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -102,6 +102,6 @@ No se puede eliminar ningún interés de solución que esté actualmente en uso 
 
 1. Haga clic en **[!UICONTROL Eliminar]** para confirmar la eliminación, o bien puede anular el proceso haciendo clic en _[!UICONTROL Cancelar]_.
 
-## Vídeo de información general
+## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3450116/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
