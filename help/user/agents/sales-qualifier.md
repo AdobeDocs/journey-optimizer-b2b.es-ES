@@ -1,15 +1,15 @@
 ---
 title: Calificador de ventas
 description: Automatice la calificación y alcance de clientes potenciales B2B con el Calificador de ventas. Proporciona investigación basada en IA, redacción de correos electrónicos, integración de CRM y planes de participación para BDR.
-feature: AI Assistant, Sales Insights, Account Journeys
+feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
+exl-id: cc590444-41df-44fe-830b-92241718ee81
+source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1335'
 ht-degree: 1%
 
 ---
-
 
 # Calificador de ventas
 
@@ -24,7 +24,7 @@ Utilice los complementos de explorador y correo electrónico para acceder a inte
 
 El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 El calificador de ventas se incluye con [!UICONTROL Journey Optimizer B2B edition], pero es una aplicación independiente dentro de Experience Platform Experience Cloud.
 
@@ -54,7 +54,7 @@ Account Qualification Agent (AQA) es el núcleo del Calificador de ventas. El AQ
 
 ### Uso básico
 
-Los agentes de inteligencia artificial aplicada a Adobe usan _consultas en lenguaje natural_, lo que significa que usan el mismo idioma en el mensaje de texto que cuando se habla con una persona. Cuanto más detallado sea, mejores serán los resultados.
+Los agentes de Adobe AI usan _consultas en lenguaje natural_, lo que significa que en el mensaje de texto usan el mismo idioma que cuando se habla con una persona. Cuanto más detallado sea, mejores serán los resultados.
 
 Con el lenguaje natural, puede pedir al agente que:
 
