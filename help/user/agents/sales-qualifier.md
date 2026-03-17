@@ -24,7 +24,7 @@ Utilice los complementos de explorador y correo electrónico para acceder a inte
 
 El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
 
 El calificador de ventas se incluye con [!UICONTROL Journey Optimizer B2B edition], pero es una aplicación independiente dentro de Experience Platform Experience Cloud.
 
