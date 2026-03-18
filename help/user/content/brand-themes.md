@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: Temas de correo electrónico, Reutilización, Alineación de marca, Diseño de correo electrónico
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
+source-git-commit: 5e8dc7e2da8f27950e9c05c66943317669a5361b
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 2%
@@ -84,7 +84,7 @@ Defina el tema de su propia marca que puede aplicar al contenido de su correo el
 
 1. Haga clic en **[!UICONTROL Cerrar]** para volver a la página _[!UICONTROL Crear un tema]_ y, a continuación, en **[!UICONTROL Cancelar]** para volver a la página de diseño.
 
-   A continuación, puede elegir **[!UICONTROL Diseñar desde cero]** para abrir el espacio de diseño visual y [usar el tema](#use-your-theme-for-email-content-authoring) para el correo electrónico o la plantilla.
+   A continuación, puede elegir **[!UICONTROL Diseñar desde cero]** para abrir el espacio de diseño visual y [usar el tema](#use-email-theme) para el correo electrónico o la plantilla.
 
 ### Configuración general
 
@@ -152,7 +152,7 @@ En la ficha **[!UICONTROL Configuración de texto]**, puede establecer los tipos
 | ---- | -------- | ----------- |
 | [!UICONTROL Global] | ![Seleccionar biblioteca para la configuración de texto global](./assets/email-theme-text-settings-global-library.png){width="300"} | Establezca **[!UICONTROL Font library]** en _[!UICONTROL Standard]_ o _[!UICONTROL Google Fonts]_. A continuación, elija la familia de fuentes que desea utilizar. Esta configuración de texto global se aplica en todo, a menos que establezca estilos de texto diferentes para los niveles de encabezado y los tipos de párrafo. |
 | [!UICONTROL Encabezados] | ![Estilos de texto de encabezado para H1](./assets/email-theme-text-settings-headings.png){width="300"} | Para el nivel de encabezado que desea establecer, seleccione **[!UICONTROL H1]**, **[!UICONTROL H2]**, etc. Establezca **[!UICONTROL Font library]** en _[!UICONTROL Standard]_ o _[!UICONTROL Google Fonts]_. A continuación, elija la familia de fuentes, el tamaño y el estilo. Elija la **[!UICONTROL alineación del texto]**: _Izquierda_, _Centrada_, _Derecha_ o _Justificada_. |
-| [!UICONTROL Párrafos] | ![Estilos de texto de párrafo para el tipo P1](./assets/email-theme-text-settings-headings.png){width="300"} | Para el nivel de encabezado que desea establecer, seleccione **[!UICONTROL P1]**, **[!UICONTROL HP]**, etc. Establezca **[!UICONTROL Font library]** en _[!UICONTROL Standard]_ o _[!UICONTROL Google Fonts]_. A continuación, elija la familia de fuentes, el tamaño y el estilo. Ajuste la **[!UICONTROL altura de línea]** según sea necesario. Elija la **[!UICONTROL alineación del texto]**: _Izquierda_, _Centrada_, _Derecha_ o _Justificada_. |
+| [!UICONTROL Párrafos] | ![Estilos de texto de párrafo para el tipo P1](./assets/email-theme-text-settings-paragraphs.png){width="300"} | Para el tipo de párrafo que desea establecer, seleccione **[!UICONTROL P1]**, **[!UICONTROL P2]**, etc. Establezca **[!UICONTROL Font library]** en _[!UICONTROL Standard]_ o _[!UICONTROL Google Fonts]_. A continuación, elija la familia de fuentes, el tamaño y el estilo. Ajuste la **[!UICONTROL altura de línea]** según sea necesario. Elija la **[!UICONTROL alineación del texto]**: _Izquierda_, _Centrada_, _Derecha_ o _Justificada_. |
 
 +++
 
@@ -166,8 +166,8 @@ En la ficha **[!UICONTROL Espaciado]**, puede establecer el relleno y el margen 
 
 | Tipo | Configuración | Descripción |
 | ---- | -------- | ----------- |
-| [!UICONTROL Márgenes] | ![Configuración de margen](./assets/email-theme-spacing-settings-margins.png){width="300"} | Elija el icono _Margin_ para mostrar la configuración que replica el parámetro `margin` de CSS, que controla el espacio fuera del borde de un componente y lo separa de otros componentes/elementos. Crea un espacio alrededor del componente para influir en su posición y el diseño del contenido circundante. Establezca los valores de los márgenes en píxeles según sus necesidades de diseño. Puede establecer el margen para todos los lados, el superior inferior, el izquierdo-derecho o cada lado del componente de forma independiente. Haga clic en los iconos _Bloquear_ y _Desbloquear_ para sincronizar o dessincronizar los valores de los márgenes superior-inferior e izquierdo-derecho. |
-| [!UICONTROL Rellenos] | ![Configuración de relleno](./assets/email-theme-spacing-settings-paddings.png){width="300"} | Elija el icono _Padding_ para mostrar la configuración que replica el parámetro `padding` de CSS, que es el espacio entre el contenido de un componente o elemento y su borde. El relleno proporciona un espacio interno que puede utilizar para controlar la distancia entre el contenido y el borde del componente. Establezca los valores de relleno en píxeles según sus necesidades de diseño. Puede establecer el relleno para todos los lados, el botón superior, el lado izquierdo-derecho o cada lado del componente de forma independiente. Haga clic en los iconos _Bloquear_ y _Desbloquear_ para sincronizar o dessincronizar los valores de relleno superior-inferior e izquierdo-derecho. |
+| [!UICONTROL Márgenes] | ![Configuración de margen](./assets/email-theme-spacing-settings-margins.png){width="300"} | Elija el icono _Margin_ para mostrar la configuración que replica el parámetro `margin` de CSS, que controla el espacio fuera del borde de un componente y lo separa de otros componentes/elementos. Crea un espacio alrededor del componente para influir en su posición y el diseño del contenido circundante. Establezca los valores de los márgenes en píxeles según sus necesidades de diseño. Puede establecer el margen para todos los lados, el superior-inferior, el izquierdo-derecho o cada lado del componente de forma independiente. Haga clic en los iconos _Bloquear_ y _Desbloquear_ para sincronizar o dessincronizar los valores de los márgenes superior-inferior e izquierdo-derecho. |
+| [!UICONTROL Rellenos] | ![Configuración de relleno](./assets/email-theme-spacing-settings-paddings.png){width="300"} | Elija el icono _Padding_ para mostrar la configuración que replica el parámetro `padding` de CSS, que es el espacio entre el contenido de un componente o elemento y su borde. El relleno proporciona un espacio interno que puede utilizar para controlar la distancia entre el contenido y el borde del componente. Establezca los valores de relleno en píxeles según sus necesidades de diseño. Puede establecer el relleno para todos los lados, de arriba a abajo, de izquierda a derecha o de cada lado del componente de forma independiente. Haga clic en los iconos _Bloquear_ y _Desbloquear_ para sincronizar o dessincronizar los valores de relleno superior-inferior e izquierdo-derecho. |
 | [!UICONTROL Esquinas] | ![Configuración de vértice](./assets/email-theme-spacing-settings-corners.png){width="300"} | Elija el icono _Esquinas_ para mostrar la configuración que replica el parámetro `border-radius` de CSS, que define el radio de las esquinas del componente o elemento. Defina el valor numérico según la curva que desee para las esquinas. Un valor de 0 (por defecto) produce una esquina cuadrada. |
 
 +++
@@ -212,7 +212,7 @@ En la ficha **[!UICONTROL Divisor]**, puede establecer la configuración del est
 
 | Tipo | Configuración | Descripción |
 | ---- | -------- | ----------- |
-| [!UICONTROL Line] | ![Configuración de línea de divisor](./assets/email-theme-divider-settings-line.png){width="300"} | Establezca el **[!UICONTROL estilo de borde]** eligiendo un valor de la lista de valores CSS `border-style` estándar, como _Sólido_, _Punteado_ y _Guiones_. |
+| [!UICONTROL Line] | ![Configuración de la línea divisoria](./assets/email-theme-divider-settings-line.png){width="300"} | Establezca el **[!UICONTROL estilo de borde]** eligiendo un valor de la lista de valores CSS `border-style` estándar, como _Sólido_, _Punteado_ y _Guiones_. |
 | [!UICONTROL Tamaño de contenedor] | ![Configuración del tamaño del contenedor de divisores](./assets/email-theme-divider-settings-container-size.png){width="300"} | Para la opción **[!UICONTROL Altura]**, haga clic en los iconos de flecha arriba y abajo para aumentar o reducir el número de píxeles del componente o elemento. Un valor vacío (Automático) es el valor predeterminado y ajusta el tamaño de la altura según su contenido (estilo de línea). Para **[!UICONTROL Width]**, use la opción para establecer el ancho en píxeles o porcentaje. Para una anchura porcentual, utilice el control deslizante para definir el valor porcentual. El porcentaje determina el ancho del elemento en función del cuadro de contenido del bloque contenedor. Por ejemplo, un valor de 50 establece el ancho del divisor en el 50 % del ancho del contenido del bloque que lo contiene. Para un ancho basado en píxeles, haga clic en los iconos de flecha arriba y abajo para aumentar o reducir el número de píxeles. Un valor vacío (_Auto_) es el valor predeterminado y ajusta el ancho del divisor según su contenido. |
 | [!UICONTROL Alineación] | ![Configuración de alineación de divisores](./assets/email-theme-divider-settings-alignment.png){width="300"} | Elija la alineación horizontal dentro del bloque contenedor: _Izquierda_, _Centrada_ o _Derecha_. |
 
