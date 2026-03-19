@@ -3,278 +3,355 @@ title: Configuración de arquitectura simplificada
 description: Configure Journey Optimizer B2B edition en la arquitectura simplificada. Configure esquemas XDM, canales de correo electrónico/SMS, acciones de recorrido de Marketo Engage y usuarios.
 feature: Setup, Administration
 role: Admin, Data Engineer
-hide: true
-hidefromtoc: true
-source-git-commit: 8f2cd2a657892b0f776b51776d3056946930df21
+exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
+source-git-commit: 38d1794ed30a34dbb34dfaec2d3088bc3a4680ac
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 6%
+source-wordcount: '884'
+ht-degree: 17%
 
 ---
 
 # Configuración de arquitectura simplificada
 
-Adobe Journey Optimizer B2B Edition ya está disponible con una arquitectura simplificada. Con esta arquitectura actualizada, Journey Optimizer B2B Edition y Marketo Engage ya no están en el mismo sistema y en el mismo almacén de datos. Journey Optimizer B2B Edition solamente recibe datos de Adobe Experience Platform. Sin embargo, sigue dependiendo de los derechos de Marketo Engage y algunas funciones de configuración para aprovisionar y configurar el sistema.
+Adobe Journey Optimizer B2B Edition ya está disponible con una arquitectura simplificada. Con esta arquitectura, Journey Optimizer B2B edition y Marketo Engage ya no están en el mismo sistema y en el mismo almacén de datos. Journey Optimizer B2B Edition solamente recibe datos de Adobe Experience Platform. Sin embargo, sigue dependiendo de los derechos de Marketo Engage y algunas funciones back-end, como la entrega por correo electrónico, para aprovisionar y configurar el sistema.
 
-La arquitectura simplificada es la base que desbloquea las nuevas funciones en Adobe Journey Optimizer B2B edition:
+La arquitectura simplificada es la base que desbloquea las nuevas funciones en Journey Optimizer B2B edition:
 
-* **Unifique y escale fácilmente sus datos:** La nueva plataforma admite modelos de datos complejos, incluidos objetos personalizados, grupos de compra y eventos de cuenta. 
+* **Unifique y escale fácilmente sus datos:** La nueva plataforma admite modelos de datos complejos, incluidos objetos personalizados, grupos de compra y eventos de cuenta.
 
-* **Conectar varias instancias de Adobe Marketo Engage:** Administrar y unificar datos de varios entornos de Adobe Marketo Engage en un solo lugar.
+* **Conectar varias instancias de Adobe Marketo Engage:** Administrar y unificar datos de varios entornos de Marketo Engage en un solo lugar.
 
 * **Mantiene tus datos seguros:** Funciones avanzadas de privacidad y seguridad que ayudan a proteger la información de tus clientes. (_Próximamente_)
 
-* **Creada para el futuro:** Esta actualización le prepara para recibir mejoras e innovaciones continuas. 
+* **Creada para el futuro:** Esta actualización le prepara para recibir mejoras e innovaciones continuas.
 
 Para los entornos aprovisionados para esta arquitectura, utilice las siguientes directrices para la configuración.
 
-## Espacios de nombres y esquemas
-
-Consulte [Esquemas y áreas de nombres B2B](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) en la documentación de Experience Platform para obtener una descripción general.
-
-### Configuración del entorno
-
-Configure un entorno de Postman para admitir el espacio de nombres B2B y la utilidad de generación automática de esquemas.
-
-* Puede descargar la colección de utilidades de generación automática de esquemas y áreas de nombres desde el [repositorio de GitHub](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility).
-
-* Para obtener información sobre el uso de las API de Experience Platform, incluidos detalles sobre cómo recopilar valores para los encabezados necesarios y leer llamadas de API de ejemplo, consulte la guía de [introducción a las API de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-guide?lang=es).
-
-* Para obtener información sobre cómo generar tus credenciales para las API de Experience Platform, consulta el tutorial sobre [autenticación y acceso a las API de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-authentication).
-
-* Para obtener información sobre la configuración de las API de Postman para Experience Platform, consulte los pasos detallados en [Postman en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/postman).
-
-Con una consola para desarrolladores de Experience Platform y una configuración de Postman, ahora puede empezar a aplicar los valores de entorno adecuados al entorno de Postman.
-
-### Ejecutar los scripts
-
-Con la colección de Postman y la configuración del entorno, puede ejecutar el script a través de la interfaz de Postman.
-
-En la interfaz de Postman, seleccione la carpeta raíz de la utilidad autogenerador y, a continuación, seleccione **Ejecutar** en el encabezado superior.
-
-Cuando se muestre la interfaz Runner, asegúrese de que todas las casillas de verificación estén seleccionadas y, a continuación, seleccione **Ejecutar la utilidad de generación automática de espacios de nombres y esquemas**.
-
-Una solicitud correcta crea los espacios de nombres y esquemas necesarios para B2B.
-
-## Selección de campo XDM
-
-Puede administrar los campos XDM disponibles en toda la aplicación en la interfaz de usuario de Journey Optimizer B2B edition. Estos campos ayudan a optimizar la instancia al exponer solo los campos relevantes para la generación de **_recorridos_**, **_grupos de compras_** o **_personalizaciones de correo electrónico_**.
-
-### Clases XDM
-
-#### Clases estándar
-
-Siga los pasos a continuación para definir campos para clases XDM estándar:
-
-1. Vaya a **[!UICONTROL Administración] > [!UICONTROL Configuraciones]**.
-
-1. En el panel de navegación, seleccione **[!UICONTROL Clases XDM]**.
-
-1. Seleccione la pestaña **[!UICONTROL Standard]** para ver las clases XDM disponibles:
-
-   * Perfil individual de XDM
-
-   * Cuenta empresarial de XDM
-
-#### Campos administrados
-
-Defina qué campos están disponibles en toda la aplicación.
-
-1. Haga clic en el icono _Menú más_ (**...**) y seleccione **[!UICONTROL Editar campos administrados]**.
-
-1. Revise la lista de campos disponibles (haga clic en el icono _Información_ para los metadatos de campo).
-
-1. Seleccione los campos que desee incluir y borre las selecciones de los campos que no necesite.
-
-1. Use el control deslizante **[!UICONTROL Mostrar solo los campos seleccionados]** para revisar sus selecciones.
-
-1. Haga clic en **[!UICONTROL Guardar]**.
-
-#### Campos actualizables
-
-Elija qué campos se pueden modificar mediante las acciones de recorrido **[!UICONTROL Actualizar perfil de cuenta]** o **[!UICONTROL Actualizar perfil de persona]**.
-
-1. Haga clic en el icono _Menú más_ (**...**) y seleccione **[!UICONTROL Editar campos actualizables]**.
-
-1. Seleccione **[!UICONTROL Esquema]** y luego **[!UICONTROL Conjunto de datos]**.
-
-   Su organización proporciona estos esquemas y conjuntos de datos.
-
-   Protecciones para campos actualizables:
-
-   * Esquemas: el esquema no debe incluir ningún campo obligatorio que no sean los definidos por el sistema, como `identityMap` o `personID`, en la clase de perfil individual de XDM.
-   * Conjuntos de datos: no seleccione un conjunto de datos que ya esté en uso para otro propósito. Se recomienda crear conjuntos de datos específicos para almacenar campos actualizables. Utilice un conjunto de datos independiente para cada clase XDM.
-
-1. Revise la lista de campos actualizables (haga clic en el icono _Información_ para ver los metadatos).
-
-   Solo se pueden editar los campos administrados.
-
-1. Seleccione los campos que desea que estén disponibles para la actualización desde recorrido.
-
-1. Haga clic en **[!UICONTROL Guardar]**.
-
-### Esquemas relacionales
-
-Seleccione [esquemas relacionales](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational) para usarlos en **_decisiones de recorrido_** y **_personalización_**. Actualmente, estos esquemas son para casos de uso de objetos personalizados. En el futuro, los esquemas relacionales también se pueden utilizar para otros casos de uso de objetos.
-
-1. Seleccione la ficha **[!UICONTROL Relacional]**.
-
-1. Haga clic en **[!UICONTROL Seleccionar clase XDM relacional]**.
-
-   Actualmente, solo se admite el objeto personalizado varios a uno de cuenta.
-
-1. Revise la lista de campos de esquema (haga clic en el icono _information_ para ver los metadatos).
-
-1. Seleccione los campos que desea incluir.
-
-1. Use el control deslizante **[!UICONTROL Mostrar solo los campos seleccionados]** para revisar sus selecciones.
-
-1. Haga clic en **[!UICONTROL Guardar]**.
-
->[!NOTE]
->
->Tenga en cuenta que los esquemas relacionales deben tener las siguientes configuraciones:
->
-><li>Comportamiento: Registro
->&gt; <li>Segmentación: habilitada
->&gt; <li>Tipo de relación: varios a uno
->&gt; <li>Esquema de referencia: <a href="https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">Cuenta B2B - Esquema de cuenta empresarial de XDM</a>
->&gt; <li>Campos obligatorios: Clave principal, Clave externa y Descriptor de la versión
->&gt; <li>Conjunto de datos asociado: definido y asignado al esquema
-
-### Eventos
-
-Seleccione los eventos de experiencia que se usarán en **_toma de decisiones de recorrido_**.
-
-1. Seleccione la ficha **[!UICONTROL Eventos]**.
-
-1. Haga clic en **[!UICONTROL Seleccionar evento de experiencia]**.
-
-1. Haga clic en **[!UICONTROL Seleccionar tipo de evento]**, elija el tipo de evento y haga clic en **[!UICONTROL Seleccionar]**.
-
-1. Haga clic en **[!UICONTROL Seleccionar campos]**, elija los campos que necesita y haga clic en **[!UICONTROL Seleccionar]**.
-
-1. Haga clic en **[!UICONTROL Guardar]**.
-
-## Configuración de correo electrónico
-
-Se debe configurar lo siguiente para enviar correos electrónicos desde Journey Optimizer B2B edition.  
-
-[https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols)
-
-### Protocolos para el seguimiento y el envío de correos electrónicos
-
-1. [Crear registros DNS para correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
-
-1. [Configurar SPF y DKIM](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
-
-1. [Configurar DMARC](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
-
-1. [Configurar registros MX para su dominio](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
-
-1. [Agregar direcciones IP de salida a listas de permitidos](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
-
-1. Si necesita compartir el grupo de IP dedicado, póngase en contacto con el equipo de entrega para conocer la viabilidad y la configuración asistida.
-
-### Configuraciones de canal de correo electrónico
-
-En la arquitectura simplificada, la configuración del correo electrónico se establece desde la aplicación de Marketo Engage. Complete los pasos de configuración relacionados con el correo electrónico:
-
-* [https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps)
-
-* [https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
-
-### Límites de comunicación
-
-1. En el panel de navegación izquierdo, elija **[!UICONTROL Administración]** > **[!UICONTROL Canales]**.
-
-1. En el panel de navegación, seleccione **[!UICONTROL Límite de comunicación]**.
-
-1. Cree un conjunto de reglas de límite de comunicación global (este conjunto de reglas se crea de forma predeterminada en todas las instancias de Journey Optimizer B2B edition).
-
-   No hay límite de comunicación si no se crea el conjunto de reglas global.
-
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/es/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
-
-### Límites de comunicación compartida
-
-Dentro de la nueva arquitectura, Journey Optimizer B2B edition y Marketo Engage tienen límites de comunicación independientes de forma predeterminada.
-
-Si desea que la instancia de Marketo Engage comparta el límite de comunicación establecido en la instancia de Journey Optimizer B2B edition, póngase en contacto con el Soporte técnico de Adobe para obtener ayuda sobre la configuración o abra un ticket de asistencia. Si se solicita, el equipo de ingeniería puede habilitar el uso compartido de límites de comunicación entre Journey Optimizer B2B edition y una o más instancias de Marketo Engage.
-
-Cuando los límites de las comunicaciones compartidas están activados, puede definir las reglas en Journey Optimizer B2B edition y ampliar el uso compartido de estos límites a los códigos Munchkin de Marketo. Para obtener más información, consulte [Límites de comunicación](./admin/configure-channels-emails.md#communication-limits)
-
-<!-- internal info only 
-
-Currently, the shared communication limit in the Marketo Engage instance must be set up through an API call.
-
-For example, when:
-
-* The munchkinId of the Journey Optimizer B2B Edition instance is `JKL-567-MNO`.
-* The munchkinId of the Marketo Engage instance is `ABC-123-DEF` and it is in the SJ datacenter
-
-The API request should look similar to the following:
-
-```
-curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_munchkinId=ABC-123-DEF&featureName=Mktmail%20Config&paramName=ajoB2bMappingMunchkinId&dataType=string&value=JKL-567-MNO'
-```
+Utilice esta lista de comprobación para completar la configuración de Journey Optimizer B2B edition en la arquitectura simplificada.
+
+## &#x200B;1. Generar espacios de nombres y esquemas B2B
+
+<table>
+<thead>
+<tr>
+<th colspan="2">Tarea</th>
+<th>Detalles e instrucciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>Configuración del entorno:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Descargue la utilidad de generación automática de esquemas y áreas de nombres de GitHub.</td>
+<td><a href="./data/namespaces-schemas.md#set-up-the-auto-generation-utility">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Recopile las credenciales de la API de Experience Platform y los encabezados necesarios.</td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide?lang=es">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Aplique valores de entorno al entorno de Postman.</td>
+<td><a href="./data/namespaces-schemas.md#environment-values">Más información</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong>Ejecute los scripts:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Ejecute la utilidad de generación de <em>Espacios de nombres y esquemas</em> en Postman y confirme que se han creado los espacios de nombres y los esquemas.</td>
+<td><a href="./data/namespaces-schemas.md#run-the-scripts">Más información</a></td>
+</tr>
+</tbody>
+</table>
+
+## &#x200B;2. Configuración de campos y eventos XDM
+
+<table>
+<thead>
+<tr>
+<th colspan="2">Tarea</th>
+<th>Detalles e instrucciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>Clases XDM estándar</strong>: configure clases de perfil XDM individual y de cuenta empresarial XDM.</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Seleccione los campos administrados que desee exponer para recorridos, grupos de compra y personalización de correo electrónico.</td>
+<td><a href="./admin/xdm-field-management.md#standard-classes">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Editar campos actualizables para esquemas.</td>
+<td><a href="./admin/xdm-field-management.md#updatable-fields">Más información</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong>Esquemas relacionales</strong>: seleccione una clase XDM relacional (objeto personalizado varios a uno de la cuenta).</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Asegúrese de que los esquemas tengan los valores de configuración necesarios.</td>
+<td><a href="./admin/xdm-field-management.md#relational-schemas">Más información</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong>Eventos</strong>: configure los tipos y campos de eventos de Experience Platform.</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configure cada tipo de evento de Experience Platform con campos que se admitirán en las rutas de división/toma de decisiones de recorrido.</td>
+<td><a href="./admin/configure-aep-events.md">Más información</a></td>
+</tr>
+</tbody>
+</table>
+
+## &#x200B;3. Configuración del seguimiento y la entrega por correo electrónico
+
+Para enviar correos electrónicos desde [!DNL Journey Optimizer B2B Edition] según la arquitectura simplificada, configure el seguimiento y la capacidad de entrega de los correos electrónicos en la instancia de producción de [!DNL Marketo Engage] adjunta y en la aplicación de [!DNL Journey Optimizer B2B Edition].
+
+<table>
+<thead>
+<tr>
+<th colspan="2">Tarea</th>
+<th>Detalles e instrucciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>Configuración inicial</strong> para la instancia de Marketo Engage adjunta</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configuración del nuevo CNAME para el seguimiento de vínculos en registros DNS</td>
+<td><a href="./start/email-protocols.md#create-dns-records-for-landing-pages-and-email">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configurar dominios de promoción de la marca para la instancia de Marketo Engage adjunta</td>
+<td><a href="./start/branding-domains.md">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configuración de DKIM y SPF en la instancia de Marketo Engage adjunta</td>
+<td><a href="./start/email-protocols.md#set-up-spf-and-dkim">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configurar DMARC</td>
+<td><a href="./start/email-protocols.md#set-up-dmarc">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configurar registros MX para el dominio</td>
+<td><a href="./start/email-protocols.md#set-up-mx-records-for-your-domain">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Adición de direcciones IP salientes a listas de permitidos</td>
+<td><a href="./start/email-protocols.md#outbound-ip-addresses">Más información</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong>Configuración de correo electrónico</strong> para la instancia de Marketo Engage adjunta</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configurar <em>Desde el correo electrónico</em> y <em>Desde la etiqueta</em> (opcional)</td>
+<td><a href="./start/email-setup.md#from-email-and-label">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configurar <em>Cancelar la suscripción a HTML</em> y <em>Cancelar la suscripción a Text</em></td>
+<td><a href="./start/email-setup.md#unsubscribe-messaging">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configurar <em>Ver como HTML de página web</em> y <em>Ver como texto de página web</em></td>
+<td><a href="./start/email-setup.md#view-as-web-page">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configurar <em>límites personalizados de recuperación de objetos</em></td>
+<td><a href="./start/email-setup.md#custom-object-retrieval-limits">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configurar <em>Opciones de encabezado personalizadas</em></td>
+<td><a href="./start/email-setup.md#custom-header-options">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configurar el filtrado de <em>Actividad de bots</em></td>
+<td><a href="./start/email-setup.md#filter-email-bots">Más información</a></td>
+</tr>
+<tr>
+<td colspan="2"><strong>Configuración del canal de correo electrónico</strong> para Journey Optimizer B2B edition</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configurar <em>límites de comunicación</em> en Journey Optimizer B2B edition</td>
+<td><a href="./admin/configure-channels-emails.md#communication-limits">Más información</a></td>
+</tr>
+</tbody>
+</table>
+
+<!-- TBD for later 
+
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Configure <em>Email CC Settings</em></td>
+<td>[Learn more](TBD)</td>
+</tr>
+
+<tr>
+<td colspan="2"><strong>Additional configurations</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Configure <em>Location Settings</em> for the attached Marketo Engage instance</td>
+<td>< [Learn more](TBD)</td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Define and configure which Binding Groups / IPs to move over</td>
+<td>[Learn more](TBD)</td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
+<td>Test Email Send</td>
+<td>[Learn more](TBD)</td>
+</tr>
 -->
 
-## Configuración del canal SMS
+## &#x200B;4. Configuración de canales de contenido adicionales
 
-Consulte [_Configuraciones de SMS_](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms) para obtener información detallada.
+Para permitir que los especialistas en marketing incluyan otros canales en sus recorridos, configure canales adicionales.
 
-## Acciones de Marketo Engage de recorrido
+<table>
+<thead>
+<tr>
+<th colspan="2">Tarea</th>
+<th>Detalles e instrucciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">Configuración del canal <strong>SMS</strong> para Journey Optimizer B2B edition.</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configure todas las cuentas de SMS que desee admitir.</td>
+<td><a href="./admin/configure-channels-sms.md">Más información</a></td>
+</tr>
+<tr>
+<td colspan="2">Configuración del canal <strong>Páginas de aterrizaje</strong> (Beta) para Journey Optimizer B2B edition.</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Complete la configuración de la página de aterrizaje para ofrecer asistencia a los especialistas en marketing que crean y publican estas páginas</td>
+<td><a href="./admin/landing-page-settings.md">Más información</a></td>
+</tr>
+<tr>
+<td colspan="2">Configuración del canal <strong>Web</strong> (Beta) para Journey Optimizer B2B edition</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configure el sitio web de su empresa para que admita Adobe Experience Platform Web SDK.</td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Añada propiedades web mediante una dirección URL donde se envíe el contenido.</td>
+<td><a href="./admin/configure-channels-web.md">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Indique a los autores de experiencias web que instalen la extensión del explorador Ayuda de edición visual de Adobe Experience Cloud.</td>
+<td><a href="./content/web-experiences.md#install-the-visual-editing-helper-extension">Más información</a></td>
+</tr>
+</tbody>
+</table>
 
-Puede configurar una o más instancias remotas de **_Marketo Engage_** para usarlas con las siguientes acciones de recorrido:
+## &#x200B;5. Conectar la instancia de Marketo Engage para admitir acciones de recorrido (opcional)
 
-* Añadir a la lista de Marketo
-* Eliminar de la lista de Marketo
-* Añadir a campaña de solicitud de Marketo
+Si planea complementar las funcionalidades de Journey Optimizer B2B edition con campañas y programas en Marketo Engage, configure la compatibilidad con acciones de Marketo Engage. Estas acciones permiten a sus equipos de marketing coordinar sus esfuerzos de marketing _basados en cuentas_ en Journey Optimizer B2B edition y _basados en posibles clientes_ en Marketo Engage.
 
-Complete los siguientes pasos para configurar estas conexiones:
+<table>
+<thead>
+<tr>
+<th colspan="2">Tarea</th>
+<th>Detalles e instrucciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>Para que cada instancia de Marketo Engage</strong> admita acciones de recorrido</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Creación del servicio personalizado de Marketo Engage</td>
+<td><a href="./admin/marketo-actions-connect.md#create-the-marketo-engage-custom-service">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Añadir la integración en Journey Optimizer B2B edition</td>
+<td><a href="./admin/marketo-actions-connect.md#add-the-integration">Más información</a></td>
+</tr>
+</tbody>
+</table>
 
-1. Vaya a **[!UICONTROL Administración] > [!UICONTROL Configuraciones]**.
+## &#x200B;6. Habilitar acceso de usuario
 
-1. En el panel de navegación, seleccione **[!UICONTROL Clases XDM]**.
+Cuando se complete el aprovisionamiento, los entornos limitados están enlazados y las tareas de configuración iniciales están completadas, configure el acceso de Journey Optimizer B2B edition y Marketo Engage para su equipo y para los usuarios.
 
-1. Seleccione la ficha **[!UICONTROL Integraciones]**.
-
-1. Haga clic en **[!UICONTROL Crear conexión]**.
-
-1. Escriba **[!UICONTROL Nombre]** y **[!UICONTROL Descripción]**.
-
-1. Seleccione **[!UICONTROL Actualizar directiva]** para los registros de persona coincidentes.
-
-1. Escriba **[!UICONTROL Munchkin ID]**, **[!UICONTROL ID de cliente]**, **[!UICONTROL Secreto de cliente]** y haga clic en **[!UICONTROL Conectarse a Marketo]**.
-
-1. Haga clic en **[!UICONTROL Crear]**.
-
-## Incorporación del usuario
-
-Consulte la página [Administración de usuarios](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/user-management) para obtener una descripción general.
-
-### Grupos de usuarios existentes
-
-Si todos los usuarios de Journey Optimizer B2B edition existentes necesitan acceder a la nueva arquitectura, utilice el grupo de usuarios de Journey Optimizer B2B edition existente. Un administrador del sistema o de productos puede realizar los siguientes pasos.
-
-1. Cree un perfil de producto en la Marketo Engage específica.
-
-1. Agregue un grupo de usuarios existente al perfil de productos creado.
-
-Los perfiles otorgan todas las funciones y permisos ya asignados a ese grupo de usuarios, que ya deben configurarse para que los usuarios accedan a Journey Optimizer B2B edition. Si solo un subconjunto de usuarios debe acceder a la nueva arquitectura, complete los pasos descritos a continuación. Más detalles en la [documentación actual](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/user-management).
-
-### Crear un nuevo grupo de usuarios
-
-1. Cree un perfil de producto en la instancia de Marketo Engage específica.
-1. Cree un grupo de usuarios para los nuevos usuarios.
-1. Seleccione y asigne los perfiles de producto necesarios al grupo de usuarios:
-
-   * Perfil de Marketo Engage que ha creado
-   * Perfiles de Adobe Experience Platform
-      * AEP-Default-All-Users
-      * Recopilación de datos de Adobe Experience Platform
-      * Recopilación de datos: todo el acceso
-
-1. Agregue los usuarios al grupo de usuarios.
-1. Agregue un nuevo grupo de usuarios a las funciones de Journey Optimizer B2B edition en Experience Platform.
+<table>
+<thead>
+<tr>
+<th colspan="2">Tarea</th>
+<th>Detalles e instrucciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><strong>Proporcionar acceso al producto y permisos</strong> para los usuarios</td>
+<td></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Crear un perfil de producto de Marketo Engage en Adobe Admin Console (solo la nueva instancia de Marketo Engage)</td>
+<td><a href="./admin/user-management.md#create-the-marketo-engage-product-profile">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Añadir un grupo de usuarios para el perfil</td>
+<td><a href="./admin/user-management.md#add-a-user-group-for-the-profile">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Configuración de funciones de usuario B2B</td>
+<td><a href="./admin/user-management.md#b2b-built-in-roles">Más información</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td>Agregar usuarios o grupos a las funciones</td>
+<td><a href="./admin/user-management.md#add-users-to-a-role">Más información</a></td>
+</tr>
+</tbody>
+</table>

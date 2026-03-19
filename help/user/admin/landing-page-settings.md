@@ -3,14 +3,12 @@ title: Configuración de página de aterrizaje
 description: Configure subdominios de página de aterrizaje, configuración de relleno previo de formularios y flujos de datos para habilitar la publicación de páginas web de Campaign en Journey Optimizer B2B edition.
 feature: Setup, Landing Pages, Content
 role: Admin
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 6719755db59ed79a4bd32e4f0df0ebb8207aecda
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 31%
+source-wordcount: '500'
+ht-degree: 35%
 
 ---
 
@@ -31,7 +29,7 @@ Para revisar la configuración de la página de aterrizaje, ve a **[!UICONTROL A
 >title="Cadena de cuenta de las páginas de destino"
 >abstract="La cadena de la cuenta identifica la instancia de Adobe Journey Optimizer B2B Edition que aloja las páginas de destino."
 
-La cadena de cuenta identifica la instancia de Adobe Journey Optimizer B2B edition que aloja las páginas de aterrizaje. Asegúrese de que el equipo de sistemas agrega y configura la entrada DNS.
+La cadena de la cuenta identifica la instancia de Adobe Journey Optimizer B2B Edition que aloja las páginas de destino. Asegúrese de que el equipo de sistemas agrega y configura la entrada DNS.
 
 ### Relleno previo de formulario {#form-prefill}
 
