@@ -4,10 +4,10 @@ description: 'Optimice la generación de demanda con recorridos: cree, publique 
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 6511f40329df34db665ed6f971fa20670be0ae32
+source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 44%
+source-wordcount: '1525'
+ht-degree: 43%
 
 ---
 
@@ -18,7 +18,7 @@ En Journey Optimizer B2B edition, los recorridos son planes de marketing automat
 
 Journey Optimizer B2B edition admite dos tipos de recorrido:
 
-* **recorridos de cuenta**: optimice la generación de demanda y la calificación de grupos de compra y genere una demanda más calificada para sus programas de adquisición, ampliación de ventas/ventas cruzadas y retención. Personalice sus recorridos para cada grupo de compras y miembro del grupo de compras mediante la participación automatizada a través de correos electrónicos, SMS, eventos y mucho más. 
+* **recorridos de cuenta**: optimice la generación de demanda y la calificación de grupos de compra y genere una demanda más calificada para sus programas de adquisición, ampliación de ventas/ventas cruzadas y retención. Personalice sus recorridos para cada grupo de compras y miembro del grupo de compras mediante la participación automatizada a través de correos electrónicos, SMS, eventos y mucho más.
 
   ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general sobre el recorrido de la cuenta](#overview-video)
 
@@ -70,7 +70,7 @@ Escriba el texto en la herramienta _Búsqueda_ situada en la parte superior de l
 
 En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de Recorrido]** y haga clic en **[!UICONTROL recorridos de persona]**.
 
-Escriba texto en la herramienta _Buscar_ situada en la parte superior de la lista para filtrar la lista mostrada por nombre.
+Escriba el texto en la herramienta _Búsqueda_ situada en la parte superior de la lista para filtrar la lista mostrada por el nombre.
 
 ![Filtrar la lista de recorridos de personas](./assets/person-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
@@ -103,11 +103,11 @@ El estado de un recorrido puede cambiar según las acciones que se apliquen. En 
 
 | Estado | Descripción | Acciones disponibles |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Borrador**&#x200B;_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Activo**&#x200B;_ | El estado del recorrido cambia de _Draft_ a _Live_ cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
-| _&#x200B;**Cerrado a nuevas entradas**&#x200B;_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
-| _&#x200B;**Anulado**&#x200B;_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Finalizado**&#x200B;_ | Cuando todos los miembros de audiencia de persona o cuenta de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Borrador**_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Activo**_ | El estado del recorrido cambia de _Draft_ a _Live_ cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
+| _**Cerrado a nuevas entradas**_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
+| _**Anulado**_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Finalizado**_ | Cuando todos los miembros de audiencia de persona o cuenta de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
 
 ## mapas de recorrido
 
@@ -157,7 +157,7 @@ Si se cierra un recorrido activo, las cuentas que se encuentran actualmente en e
 
 1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Cerrar nuevas entradas]**.
 
-### Duplicación de un recorrido
+### Duplicación de un recorrido {#duplicate-journey}
 
 Una acción de duplicado es similar a una función de clonado, pero el recorrido duplicado no incluye ningún recurso de contenido de recorrido creado. Puede duplicar los detalles del recorrido o simplemente un _esqueleto_ de la estructura de flujo y ruta.
 
@@ -165,7 +165,7 @@ Una acción de duplicado es similar a una función de clonado, pero el recorrido
 >
 >Esta acción no está disponible actualmente para recorridos de persona.
 
-1. Haga clic en el icono Más __ (**...**) junto al nombre del recorrido y seleccione **[!UICONTROL Duplicar]**.
+1. Haga clic en el icono _Más_ (**...**) junto al nombre del recorrido y elija **[!UICONTROL Duplicate]**.
 
    ![Haga clic en el icono de... y seleccione Duplicar](./assets/account-journeys-list-more-menu.png){width="450"}
 
@@ -179,7 +179,7 @@ Una acción de duplicado es similar a una función de clonado, pero el recorrido
 
 1. En el cuadro de diálogo _Duplicar recorrido_, defina el **[!UICONTROL Nombre]** y la **[!UICONTROL Descripción]** del nuevo recorrido.
 
-   De forma predeterminada, el cuadro de diálogo utiliza el nombre del recorrido duplicado con __copy_. Introduzca otro nombre único para el recorrido si es necesario.
+   De forma predeterminada, el cuadro de diálogo utiliza el nombre del recorrido duplicado con __ copy_. Introduzca otro nombre único para el recorrido si es necesario.
 
    ![Cuadro de diálogo Duplicar recorrido](./assets/account-journey-duplicate-dialog.png){width="400"}.
 
@@ -197,7 +197,7 @@ Una acción de duplicado es similar a una función de clonado, pero el recorrido
 
 Utilice una acción de eliminación para eliminar un recorrido de forma permanente. No puede eliminar un recorrido activo o programado.
 
-1. Haga clic en el icono _Más_ (**...**) que está junto al nombre del recorrido y seleccione **[!UICONTROL Eliminar]**.
+1. Haga clic en el icono _Más_ (**...**) junto al nombre del recorrido y elija **[!UICONTROL Eliminar]**.
 
    Según el estado del recorrido, también puede acceder a la acción de eliminación desde los detalles del recorrido o el mapa del recorrido:
 
@@ -219,4 +219,4 @@ Cuando seleccione el nodo, haga clic en el número para ver una lista de cuentas
 
 ## Vídeo de información general sobre el recorrido de cuentas {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443210/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
