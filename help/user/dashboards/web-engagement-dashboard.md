@@ -4,9 +4,10 @@ description: Analice el comportamiento de los visitantes web con análisis de vi
 feature: Dashboards, Landing Pages
 level: Beginner
 role: User
-source-git-commit: 8192a9619ca0126125c32c2976482af316c1fc6a
+exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
+source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 3%
 
 ---
@@ -79,7 +80,7 @@ Esta visualización muestra los recuentos de visitantes segmentados por el secto
 
 ## Interactúe con los datos
 
-Para interactuar con los datos, usa el menú _Más_ (**...**) en la parte superior derecha de cada gráfico y elige **[!UICONTROL Ver más]** para ver datos y perspectivas ampliados.
+Para interactuar con los datos, use _Más_ (**...**) en la parte superior derecha de cada gráfico y elija **[!UICONTROL Ver más]** para ver datos y perspectivas ampliados.
 
 La ventana emergente que se muestra incluye un gráfico y una tabla que muestran el desglose de los datos.
 
