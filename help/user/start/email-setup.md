@@ -1,12 +1,13 @@
 ---
 title: Configuración del correo electrónico
-description: Marcador de posición
+description: Configure las opciones de Marketo Engage para la entrega de correo electrónico B2B de Journey Optimizer, incluidos los valores predeterminados, la cancelación de la suscripción, la vista web, los límites de objetos de Velocity, el seguimiento de encabezados y el filtrado de bots.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 55ffa7995a8d74d352a52f14bed5dd89d7d1c239
+exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+source-git-commit: 0a9cff812d0631a34a09cca059ffb8496248c2b4
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 0%
+source-wordcount: '1346'
+ht-degree: 83%
 
 ---
 
@@ -70,7 +71,7 @@ Si alguna vez necesita volver al contenido predeterminado del sistema, copie y p
 
 ### Ver como página web
 
-El contenido del correo electrónico tiene capacidades de visualización limitadas (CSS limitado y sin JavaScript ni formularios). Los especialistas en marketing pueden usar la opción _Ver como página web_, que aplica una cookie para el destinatario de correo electrónico mediante Marketo Munchkin. Como administrador de productos, debe configurar el HTML predeterminado y el texto que se rellena cuando un experto en marketing elige esta opción.
+El contenido del correo electrónico tiene capacidades de visualización limitadas (CSS limitado y sin JavaScript ni formularios). Los especialistas en marketing pueden usar la opción _Ver como página web_ para aplicar una cookie para el destinatario de correo electrónico mediante Marketo Munchkin. Como administrador de productos, debe configurar el HTML predeterminado y el texto que se rellena cuando un experto en marketing elige esta opción.
 
 1. Vaya al área de **[!UICONTROL Admin]** en la instancia de Marketo Engage adjunta y seleccione **[!UICONTROL Correo electrónico]**.
 
@@ -157,8 +158,8 @@ Cambie _[!UICONTROL Opciones de encabezado personalizado]_ para el correo electr
 
 La actividad de bots de correo electrónico, también conocida como interacción no humana (NHI), puede inflar los datos de _aperturas_ y _clics_ del correo electrónico, distorsionando las métricas de participación y activando la progresión de recorridos basada en eventos. Utilice el filtrado de bots de correo electrónico para mantener la integridad de las métricas y perspectivas de participación de clics. Existen dos métodos para identificar la sospecha de actividad de bots:
 
-* _&#x200B;**[!UICONTROL Coincidencia con la lista de bots de la IAB]**&#x200B;_: las actividades que coinciden con cualquier elemento de la [lista de bots de la empresa de Advertising interactiva](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agente de usuario/dirección IP) están marcadas como bots.
-* _&#x200B;**[!UICONTROL Coincidencia con el patrón de proximidad]**&#x200B;_: dos o más actividades que se producen al mismo tiempo (en menos de un segundo) se identifican como bots. Los atributos considerados durante la comparación son:
+* _**[!UICONTROL Coincidencia con la lista de bots de la IAB]**_: las actividades que coinciden con cualquier elemento de la [lista de bots de la empresa de Advertising interactiva](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agente de usuario/dirección IP) están marcadas como bots.
+* _**[!UICONTROL Coincidencia con el patrón de proximidad]**_: dos o más actividades que se producen al mismo tiempo (en menos de un segundo) se identifican como bots. Los atributos considerados durante la comparación son:
    * ID de posible cliente (debe ser el mismo)
    * Recurso de correo electrónico (debe ser el mismo)
    * Clic en vínculo o correo electrónico abierto
@@ -188,11 +189,11 @@ Para la actividad de clic en vínculo de correo electrónico y de apertura de co
 
    ![Administrador de correo electrónico de Marketo Engage - Opciones de identificación de actividad de bots](./assets/me-admin-email-bot-activity-set-filters.png){width="500"}
 
-   Para _[!UICONTROL Coincidir con el patrón de proximidad]_, también puede establecer la cantidad de segundos para **[!UICONTROL Duración entre actividades]** (el valor predeterminado es `0`, el máximo es `3`).
+   Para _[!UICONTROL Coincidir con el patrón de proximidad]_, también puede establecer el número de segundos para **[!UICONTROL Duración entre actividades]** (el valor predeterminado es `0`, el máximo es `3`).
 
    >[!NOTE]
    >
-   >Con _Duración entre actividades_ establecida en `0` segundos, Marketo Engage identifica las actividades de correo electrónico que se producen en el mismo segundo. Si se producen varias actividades de correo electrónico en la cantidad de segundos designada, se identifica como actividad de bots.
+   >Con _Duración entre actividades_ establecida en `0` segundos, Marketo Engage identifica las actividades de correo electrónico que se producen en ese segundo exacto. Si se producen varias actividades de correo electrónico en el número designado de segundos, se identifica como actividad de bots.
 
    Para desactivar cualquiera de los métodos de filtrado, coloque el control deslizante a la izquierda. Si lo hace, los datos no se restablecen.
 
@@ -256,7 +257,6 @@ Adobe ha identificado una lista de direcciones IP responsables de generar millon
 
 >[!NOTE]
 >
->Cada dirección IP se analiza y examina meticulosamente antes de que se incluya en esta lista, lo que garantiza que solo se bloqueen las direcciones IP más críticas y dañinas.
+>Cada dirección IP se analiza y examina cuidadosamente antes de incluirse en esta lista, lo que garantiza que solo se bloqueen las direcciones IP más críticas y dañinas.
 
 +++
-

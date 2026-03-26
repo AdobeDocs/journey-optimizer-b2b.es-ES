@@ -4,10 +4,10 @@ description: Configure Journey Optimizer B2B edition en la arquitectura simplifi
 feature: Setup, Administration
 role: Admin, Data Engineer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-source-git-commit: 38d1794ed30a34dbb34dfaec2d3088bc3a4680ac
+source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Utilice esta lista de comprobación para completar la configuración de Journey 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
 <td>Recopile las credenciales de la API de Experience Platform y los encabezados necesarios.</td>
-<td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-guide?lang=es">Más información</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide?lang=es">Más información</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
@@ -273,7 +273,7 @@ Para permitir que los especialistas en marketing incluyan otros canales en sus r
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
 <td>Configure el sitio web de su empresa para que admita Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview">Más información</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Más información</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
@@ -336,12 +336,12 @@ Cuando se complete el aprovisionamiento, los entornos limitados están enlazados
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
 <td>Crear un perfil de producto de Marketo Engage en Adobe Admin Console (solo la nueva instancia de Marketo Engage)</td>
-<td><a href="./admin/user-management.md#create-the-marketo-engage-product-profile">Más información</a></td>
+<td><a href="./admin/user-management.md#marketo-engage-profile">Más información</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
 <td>Añadir un grupo de usuarios para el perfil</td>
-<td><a href="./admin/user-management.md#add-a-user-group-for-the-profile">Más información</a></td>
+<td><a href="./admin/user-management.md#add-user-group">Más información</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
