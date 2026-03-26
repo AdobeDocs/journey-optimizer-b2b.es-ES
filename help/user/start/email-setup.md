@@ -158,8 +158,8 @@ Cambie _[!UICONTROL Opciones de encabezado personalizado]_ para el correo electr
 
 La actividad de bots de correo electrónico, también conocida como interacción no humana (NHI), puede inflar los datos de _aperturas_ y _clics_ del correo electrónico, distorsionando las métricas de participación y activando la progresión de recorridos basada en eventos. Utilice el filtrado de bots de correo electrónico para mantener la integridad de las métricas y perspectivas de participación de clics. Existen dos métodos para identificar la sospecha de actividad de bots:
 
-* _**[!UICONTROL Coincidencia con la lista de bots de la IAB]**_: las actividades que coinciden con cualquier elemento de la [lista de bots de la empresa de Advertising interactiva](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agente de usuario/dirección IP) están marcadas como bots.
-* _**[!UICONTROL Coincidencia con el patrón de proximidad]**_: dos o más actividades que se producen al mismo tiempo (en menos de un segundo) se identifican como bots. Los atributos considerados durante la comparación son:
+* _&#x200B;**[!UICONTROL Coincidencia con la lista de bots de la IAB]**&#x200B;_: las actividades que coinciden con cualquier elemento de la [lista de bots de la empresa de Advertising interactiva](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agente de usuario/dirección IP) están marcadas como bots.
+* _&#x200B;**[!UICONTROL Coincidencia con el patrón de proximidad]**&#x200B;_: dos o más actividades que se producen al mismo tiempo (en menos de un segundo) se identifican como bots. Los atributos considerados durante la comparación son:
    * ID de posible cliente (debe ser el mismo)
    * Recurso de correo electrónico (debe ser el mismo)
    * Clic en vínculo o correo electrónico abierto
