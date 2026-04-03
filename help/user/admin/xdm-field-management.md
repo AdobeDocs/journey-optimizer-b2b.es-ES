@@ -5,10 +5,10 @@ feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función se encuentra en una versión beta limitada sobre la arquitectura simplificada"
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: abe7d2b90c97ffb754d63411aead5cca60689b79
+source-git-commit: fd41d620249274fc25228ad3ecf4ca4c63d35e65
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 98%
+source-wordcount: '1217'
+ht-degree: 95%
 
 ---
 
@@ -92,7 +92,7 @@ Al elegir **[!UICONTROL Campos administrados]**, el cuadro de diálogo _Seleccio
 
 Establezca los campos actualizables para elegir qué campos se pueden modificar mediante las acciones de recorrido **[!UICONTROL Actualizar perfil de cuenta]** o **[!UICONTROL Actualizar perfil de persona]**.
 
-Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
+Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
 
 >[!IMPORTANT]
 >
@@ -115,11 +115,15 @@ Cree un conjunto de datos para Perfil individual y otro para Cuenta empresarial.
 
 Los esquemas relacionales permiten crear clases de datos personalizadas. Con acceso a varios conjuntos de datos, puede crear clases adaptadas específicamente a sus necesidades de datos. Utilice esquemas relacionales para entidades comerciales, como compras, licencias y registros de eventos, en las decisiones de recorrido y la personalización de correo electrónico. Puede seleccionar hasta 20 esquemas y hasta 50 campos por esquema.
 
-Para obtener información sobre cómo usar los campos seleccionados para la personalización avanzada de correo electrónico, consulte [Personalización de contenido](../content/personalization.md#custom-datasets). Para obtener información sobre cómo usar los campos seleccionados para la toma de decisiones de recorrido (dividir rutas por cuenta o personas), consulte [Filtrado de datos personalizado](../journeys/split-merge-paths-nodes.md#custom-data-filtering).
+Existen varias funciones que admiten el uso de los campos y esquemas relacionales configurados:
+
+* [Personalización de contenido](../content/personalization.md#custom-datasets)
+* [Recorrido de decisiones (rutas divididas)](../journeys/split-merge-paths-nodes.md#custom-data-filtering)
+* [Funciones de grupo de compra](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) (solo persona B2B)
 
 >[!AVAILABILITY]
 >
->Los [esquemas relacionales](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión de disponibilidad limitada. Los esquemas relacionales y de Data Mirror están disponibles para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licencias. Los esquemas relacionales también están disponibles como una versión limitada para [!DNL Customer Journey Analytics] usuarios, según su licencia y la habilitación de características. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Los [esquemas relacionales](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión de disponibilidad limitada. Los esquemas relacionales y de Data Mirror están disponibles para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licencias. Los esquemas relacionales también están disponibles como una versión limitada para [!DNL Customer Journey Analytics] usuarios, según su licencia y la habilitación de características. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 >[!NOTE]
 >

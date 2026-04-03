@@ -4,16 +4,16 @@ description: Cree plantillas de funciones con asignación automática condiciona
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
+source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1410'
 ht-degree: 5%
 
 ---
 
 # Plantillas de función del grupo de compras
 
-En un mercado B2B, las decisiones de compra suelen ser tomadas por varios individuos. Esas personas participan en el proceso de adopción de decisiones de acuerdo con su función dentro de la organización. Cree plantillas de rol Grupo de compra que contengan un grupo de definiciones de rol según cada tipo de oferta de producto o caso de uso de cuenta.
+En un mercado B2B, las decisiones de compra suelen ser tomadas por varios individuos. Esas personas participan en el proceso de adopción de decisiones de acuerdo con su función dentro de la organización. Cree plantillas de funciones de grupo de compra que contengan un grupo de definiciones de funciones según cada tipo de oferta de producto o caso de uso de cuenta.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
@@ -60,11 +60,12 @@ Después de crear la plantilla, esta se abrirá en el espacio de trabajo y se le
 
 Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condiciones_ para determinar los miembros asignados al rol. Utilice los siguientes tipos de filtros para definir las condiciones de un rol:
 
-| Tipo | Condición |
+| Tipo | Condiciones |
 | ---- | --------- |
-| Atributos de la persona | <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Número de fax <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Segundo nombre <li>Número de teléfono móvil <li>Puntuación de participación de persona <li>Número de teléfono <li>Código postal <li>Estado <li>Suscripción cancelada <li>Razón de la cancelación de la suscripción |
-| Filtros especiales | <li>Miembro de la lista <li>Miembro del programa |
-| Datos de intención | <li>Intento de categoría <li>Intención del producto <li>Intento de palabra clave<br/>[Más información acerca de los datos de intención](../admin/intent-data.md) |
+| [!UICONTROL Atributos de persona] | Atributos del [perfil de persona](../admin/field-mapping.md#xdm-business-person-attributes), entre ellos: <li>Ciudad <li>País <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de persona <li>Número de teléfono <li>Código postal <li>Estado |
+| [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"} La cuenta tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según se han configurado en los [esquemas relacionales XDM](../admin/xdm-field-management.md#relational-schemas). |
+| Filtros especiales | <li>Miembro de la lista (obsoleto) <li>Miembro del programa (obsoleto) |
+| Datos de intención | <li>Intento de categoría <li>Intención del producto <li>Intento de palabra clave <br/> (consulte [_Datos de intención_](../admin/intent-data.md)) |
 
 1. Para la primera tarjeta de función, defina las propiedades de la función.
 
@@ -92,15 +93,19 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 
      >[!NOTE]
      >
-     >Si tiene campos de persona personalizados definidos en el esquema de audiencia de cuenta en Experience Platform, estos campos también están disponibles para usarlos como atributos de persona en condiciones.
+     >Si tiene campos de persona personalizados definidos en el esquema de persona de negocio en Experience Platform, estos campos también están disponibles para usarlos como atributos de persona en condiciones.
 
-   * Utilice el atributo para crear un filtro coincidente con uno o más valores.
+     Utilice el atributo para crear un filtro coincidente con uno o más valores.
 
      En el ejemplo siguiente, se utiliza el atributo Job title para identificar una coincidencia para Decision Maker. Cualquier valor del título que comience por `Director` o `Sr Director` se evalúa como verdadero para la condición.
 
      ![Ejemplo de condición de plantilla de roles usando el cargo](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * Si es necesario, agregue otro atributo y condición que restrinja aún más los criterios para una coincidencia en la función.
+   * Si hay objetos personalizados configurados relacionados con las personas [definidas en los esquemas relacionales de XDM](../admin/xdm-field-management.md#relational-schemas), expanda la lista de **[!UICONTROL objetos personalizados]** para usarlos en la condición de rol.
+
+     ![La plantilla de roles agregó una condición de objeto personalizada](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
+
+   * Si es necesario, agregue otro atributo/objeto y condición que restrinja aún más los criterios para una coincidencia al rol.
 
    * Haga clic en **[!UICONTROL Finalizado]**.
 
@@ -108,13 +113,15 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 
    ![Plantilla de roles con varios roles definidos](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
+   Los cambios se guardarán automáticamente en el estado _Borrador_. Si no está listo para publicar la plantilla de roles, haga clic en la flecha izquierda (atrás) en la parte superior de la página y vuelva a la lista _[!UICONTROL Plantillas de roles]_.
+
 >[!BEGINSHADEBOX &quot;inscripción a la lista Marketo Engage&quot;]
 
 En Marketo Engage, _Campañas inteligentes_ comprueba la pertenencia de los programas para asegurarte de que los posibles clientes no reciban correos electrónicos duplicados y no sean miembros de varios flujos de correos electrónicos al mismo tiempo. En Journey Optimizer B2B, puede comprobar la pertenencia a listas de Marketo Engage como condición para la plantilla de funciones a fin de eliminar la duplicación en la compra de actividades de recorrido y pertenencia a grupos.
 
 Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** al espacio de filtro. A continuación, complete la definición del filtro para evaluar la pertenencia a una o varias listas de Marketo Engage.
 
-![Condición de plantilla de roles para pertenencia a lista de Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+![Condición de plantilla de roles para la pertenencia a la lista Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 <br/>
 
 >[!NOTE]
@@ -124,8 +131,6 @@ Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTR
 >Con la [arquitectura simplificada](../simplified-architecture.md) para Journey Optimizer B2B edition, no se admite el filtrado basado en la pertenencia a listas o programas en una instancia de Marketo Engage.
 
 >[!ENDSHADEBOX]
-
-Los cambios se guardarán automáticamente en el estado _Borrador_. Si no está listo para publicar la plantilla de roles, haga clic en la flecha izquierda (atrás) en la parte superior de la página y vuelva a la lista _[!UICONTROL Plantillas de roles]_.
 
 ### Cambio de la configuración de puntuación de integridad
 
@@ -141,7 +146,7 @@ Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener
 
 1. En el cuadro de diálogo, cambie el valor **[!UICONTROL Miembros necesarios]** para cada rol definido según sea necesario.
 
-   Puede introducir el valor o hacer clic en **&plus;** o **−** para aumentarlo o reducirlo.
+   Puede escribir el valor o hacer clic en **&amp;plus;** o **−** para aumentarlo o reducirlo.
 
    ![Plantilla de roles - botón de configuración de puntuación de integridad](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -189,4 +194,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
