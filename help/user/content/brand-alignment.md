@@ -1,5 +1,5 @@
 ---
-title: Puntuación de alineación de marca
+title: Puntuación de la alineación de marca
 description: 'Evaluar el contenido del correo electrónico con la puntuación de alineación de marca: valide los colores, las fuentes, los logotipos y el estilo de escritura en las directrices de marca en Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 5824f311da00468b3e85c4e212f81c5d9657c5f7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 16%
+source-wordcount: '472'
+ht-degree: 19%
 
 ---
 
@@ -46,7 +46,7 @@ La evaluación y las puntuaciones de alineación de marca le ayudan a crear, rev
 
 >[!AVAILABILITY]
 >
->Actualmente, esta funcionalidad está disponible como una versión beta privada, con una disponibilidad progresiva planificada para todos los clientes en futuras versiones.
+>Actualmente, esta funcionalidad está disponible como una versión beta pública.
 >
 >Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B edition. Para obtener más información, contacte con su representante de Adobe.
 >

@@ -3,15 +3,13 @@ title: Uso de marcas para la generación y coherencia de contenido
 description: 'Defina las directrices de marca para la creación de contenido coherente: mantenga la identidad visual, la alineación de la mensajería y la voz auténtica en Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 9%
+source-wordcount: '868'
+ht-degree: 12%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 9%
 >title="Seleccione su marca"
 >abstract="Elija su marca para asegurarse de que todo el contenido generado por la IA se adapte a las especificaciones y directrices de su marca."
 
-Las marcas ayudan a definir su _identidad de marca_ y desempeñan un papel crucial a la hora de garantizar una creación de contenido coherente y eficaz que represente con precisión la identidad, los valores y los mensajes de su marca. Al adherirse a estilos de marca bien definidos, las organizaciones pueden mantener una presencia de marca cohesiva y reconocible en todos los canales y puntos de contacto, y fortalecer su reconocimiento de marca, confianza y lealtad entre sus audiencias de destino.
+Las marcas ayudan a definir su _identidad de marca_ y desempeñan un papel crucial a la hora de garantizar una creación de contenido coherente y eficaz que represente con precisión la identidad, los valores y los mensajes de su marca. Al adherirse a estilos de marca bien definidos, las organizaciones pueden mantener una presencia de marca cohesiva y reconocible en todos los canales y puntos de contacto, y fortalecer el reconocimiento de su marca, la confianza y la lealtad entre sus audiencias de destino.
 
 +++Ventajas de utilizar marcas
 
@@ -47,7 +45,7 @@ Su organización puede obtener un valor significativo utilizando una marca en la
 
 >[!AVAILABILITY]
 >
->Actualmente, esta funcionalidad está disponible como una versión beta privada, con una disponibilidad progresiva planificada para todos los clientes en futuras versiones.
+>Actualmente, esta funcionalidad está disponible como una versión beta pública.
 >
 >Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B edition. Para obtener más información, contacte con su representante de Adobe.
 
@@ -75,7 +73,7 @@ Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe us
 
 Los administradores de productos pueden habilitar el acceso a las funciones de administración y alineación de marcas asignando los permisos de recursos de **[!UICONTROL Administrar kit de marca]** o **[!UICONTROL Habilitar asistente de IA]** a través de la interfaz de usuario de _Permisos_ en Adobe Experience Cloud.
 
-1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
+1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
 
 1. Haga clic en **[!UICONTROL Editar]** para modificar los permisos.
 
