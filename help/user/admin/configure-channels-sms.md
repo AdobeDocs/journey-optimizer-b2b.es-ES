@@ -4,9 +4,9 @@ description: Conecte proveedores de SMS como Sinch, Twilio e Infobip con credenc
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: ee6000d8527222a246f715de033ee99ea49f47fd
+source-git-commit: 1a764cd8d2187b58ce02fefeeab78b0cd79de037
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Antes de configurar un canal SMS en Adobe Journey Optimizer B2B edition, debe cr
 >
 >Los ajustes descritos solo son accesibles para los usuarios con privilegios de administrador de SMS.
 
-1. En el panel de navegación izquierdo, expanda la sección **[!UICONTROL Administrador]** y haga clic en **[!UICONTROL Canales]**.
+1. En el panel de navegación izquierdo, expanda la sección **[!UICONTROL Administración]** y haga clic en **[!UICONTROL Canales]**.
 
    ![Acceder a la configuración de credenciales de API de SMS](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
