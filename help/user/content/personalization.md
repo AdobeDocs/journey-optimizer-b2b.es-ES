@@ -9,8 +9,8 @@ keywords: expresión, editor, inicio, personalización
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
 source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 0%
+source-wordcount: '771'
+ht-degree: 6%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="aj-b2b_personalization"
->title="Personalizar experiencias de contenido"
->abstract="Use **Adobe Journey Optimizer B2B edition** para adaptar los mensajes a cada destinatario específico aprovechando los datos y la información que tiene sobre ellos. Puede ser su nombre, sector, título y mucho más."
+>title="Personalización de experiencias de contenido"
+>abstract="Utilice la **Edición B2B de Adobe Journey Optimizer** para adaptar los mensajes a cada destinatario específico aprovechando los datos y la información que tiene sobre ellos. Puede ser su nombre, sector de actividad, título, etc."
 
-Las funcionalidades de personalización de [!DNL Adobe Journey Optimizer B2B Edition] le permiten adaptar sus mensajes de correo electrónico a cada destinatario específico aprovechando los datos y la información que tiene sobre ellos. Puede ser su nombre, sector, título y mucho más.
+Las funcionalidades de personalización de [!DNL Adobe Journey Optimizer B2B Edition] le permiten adaptar sus mensajes de correo electrónico a cada destinatario específico aprovechando los datos y la información que tiene sobre ellos. Puede ser su nombre, sector de actividad, título, etc.
 
 Con el _editor de personalización_, puede seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada para su contenido. Utilice varias herramientas, como funciones de ayuda, para adaptar los mensajes. El editor usa una sintaxis de personalización en línea basada en _Handlebars_, donde las expresiones se construyen con contenido entre llaves dobles `{{}}`.
 
@@ -43,7 +43,7 @@ En [!DNL Journey Optimizer B2B Edition], puede generar su contenido de correo el
 
 >[!NOTE]
 >
->Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}.
+>Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## editor de Personalization
 

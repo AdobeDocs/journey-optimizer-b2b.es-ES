@@ -3,20 +3,20 @@ title: Puntuaciones de integridad para grupos compradores
 description: Calcule las puntuaciones de integridad del grupo de compra mediante umbrales basados en funciones, requisitos de miembro personalizables y configuración de integridad en Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
-source-git-commit: 1ebc27a709e1b82029c22950897505f3945a507f
+exl-id: 6f54d4ac-9d1a-4009-b9bf-8bc80e4cc63c
+source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 3%
+source-wordcount: '895'
+ht-degree: 9%
 
 ---
-
 
 # Puntuaciones de integridad {#completeness-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_completeness_score"
 >title="Puntuación de integridad"
->abstract="Las puntuaciones de integridad reflejan la alineación de la pertenencia al grupo de compra para un grupo de compra preparado para las ventas."
+>abstract="Las puntuaciones de integridad reflejan cómo es la alineación de la pertenencia al grupo de compra para un grupo de compra listo para las ventas."
 
 Una puntuación de integridad es un porcentaje que indica la forma en que un grupo de compra se rellena con los miembros necesarios en sus funciones definidas. Estas puntuaciones se basan en los umbrales de miembros de rol que configure en la plantilla roles y en el número real de miembros asignados a cada rol en el grupo comprador. Las puntuaciones resultantes ayudan a los especialistas en marketing a evaluar la preparación de las ventas e identificar lagunas en la composición del grupo de compra. El cálculo de puntuación se produce automáticamente cuando cambia la pertenencia al grupo comprador.
 
@@ -64,12 +64,12 @@ The buying group completeness score is available to use for filtering in [journe
 
 >[!ENDSHADEBOX] -->
 
-## Cálculo de integridad de roles {#role-completeness-calculation}
+## Cálculo de integridad de función {#role-completeness-calculation}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_role_completeness_calculation"
->title="Cálculo de integridad de roles"
->abstract="Las puntuaciones de integridad de roles se calculan como un porcentaje basado en el número de miembros asignados a un rol."
+>title="Cálculo de integridad de función"
+>abstract="Las puntuaciones de integridad de la función se calculan como un porcentaje basado en el número de miembros asignados a una función."
 
 Journey Optimizer B2B edition calcula la puntuación de integridad de cada función de grupo de compra individual como un porcentaje. Base esta puntuación en la cantidad de miembros asignados al rol, en comparación con [el número requerido en la plantilla de roles](./buying-groups-role-templates.md#change-the-completeness-score-settings) para la finalización.
 
@@ -98,12 +98,12 @@ Los siguientes ejemplos ilustran los cálculos de integridad de funciones con di
 
 | Función | Miembros necesarios | Miembros asignados | Cálculo | Integridad de funciones |
 |------|------------------|------------------|-------------|-------------------|
-| Persona responsable de la toma de decisiones | 3 | 0 | Ninguna | 0 % |
-|  |  | 1 | 1/3 × 100 | 33 % |
-|  |  | 2 | 2/3 × 100 | 66 % |
+| Persona responsable de la toma de decisiones | 3 | 0 | Ninguna | 0% |
+|  |  | 1 | 1/3 × 100 | 33% |
+|  |  | 2 | 2/3 × 100 | 66% |
 |  |  | 3 | En el umbral | 100 % |
 |  |  | 4 | Por encima del umbral | 100 % |
-| Marcador de tendencias | 5 | 0 | Ninguna | 0 % |
+| Marcador de tendencias | 5 | 0 | Ninguna | 0% |
 |  |   | 1 | 1/5 × 100 | 20 % |
 |  |   | 2 | 2/5 × 100 | 40 % |
 |  |   | 3 | 3/5 × 100 | 60 % |

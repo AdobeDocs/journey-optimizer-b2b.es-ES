@@ -4,10 +4,11 @@ description: 'Diseñe experiencias web con editores visuales y no visuales: aña
 feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
-source-git-commit: d01f4c14f72ebf78b10e4fc6691df42707bedb47
+exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
+source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
-source-wordcount: '2333'
-ht-degree: 0%
+source-wordcount: '2371'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +24,7 @@ Antes de diseñar experiencias web, asegúrese de que se cumplen los siguientes 
 
 * Un administrador de productos ha configurado uno o más canales web para definir las direcciones URL (páginas) que se incluirán en una experiencia web. Para obtener más información, vea [Configuraciones del canal Web](../admin/configure-channels-web.md).
 
-* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Se requiere Adobe Experience Platform Web SDK versión 2.16 o superior.
+* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Se requiere Adobe Experience Platform Web SDK versión 2.16 o superior.
 
 * Tiene los [permisos](../admin/user-management.md#b2b-product-permissions) necesarios para crear y administrar experiencias web en un recorrido:
    * _[!UICONTROL Campañas]_ > _[!UICONTROL Administrar campañas]_: necesario para agregar o actualizar un nodo de acción de personalización web.
@@ -54,8 +55,8 @@ En las propiedades de la experiencia web, use la opción **[!UICONTROL Editor vi
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_experience_browse"
->title="Uso del modo Examinar"
->abstract="En este modo, puede navegar a la página exacta que desee personalizar para la configuración del canal Web seleccionada."
+>title="Usar el modo Examinar"
+>abstract="En este modo, puede desplazarse a la página exacta que desee personalizar para la configuración del canal web seleccionado."
 
 El editor visual carga las páginas web dentro de un iframe, donde puede seleccionar elementos y aplicar modificaciones directamente en la vista previa de la página. Complete los siguientes pasos para utilizar el editor visual para diseñar la experiencia web:
 
@@ -224,12 +225,12 @@ Las modificaciones del selector de CSS le permiten segmentar elementos con preci
 
     **Selectores de ejemplo:**
     
-    | Selector | Objetivos |
+    | Selector | Destinos |
     | -------- | ------- |
-    | #hero-banner. | Elemento con ID `hero-banner` |
-    | `.cta-button` | Todos los elementos con la clase &quot;cta-button&quot; |
+    | `#hero-banner` | Elemento con ID `hero-banner` |
+    | `.cta-button` | Todos los elementos con clase `cta-button` |
     | `header nav a` | Vínculos dentro de la navegación, dentro del encabezado |
-    | &quot;[data-offer=&quot;premium&quot;]&quot; | Elementos con un atributo de datos específico |
+    | `[data-offer=&quot;premium&quot;]` | Elementos con un atributo de datos específico |
 
 1. Elija un **[!UICONTROL Tipo de acción]** y especifique la información o el contenido necesarios.
 
@@ -245,7 +246,7 @@ Las modificaciones del selector de CSS le permiten segmentar elementos con preci
 
 Puede agregar código personalizado utilizando el tipo de modificación Página `<head>`. El elemento `<head>` es un contenedor de metadatos (datos sobre datos) y se coloca entre la etiqueta `<html>` y la etiqueta `<body>`. En este caso, el código no espera eventos body o page-load: se ejecuta al principio de la carga de la página.
 
-El elemento `<head>` se utiliza comúnmente para agregar código JavaScript o CSS al principio de la página. Los selectores para las acciones visuales posteriores dependen de los elementos de HTML agregados en esta pestaña.
+El elemento `<head>` se utiliza comúnmente para agregar código JavaScript o CSS al principio de la página. Los selectores para acciones visuales siguientes dependen de los elementos HTML agregados en esta pestaña.
 
 >[!NOTE]
 >
@@ -268,7 +269,7 @@ El elemento `<head>` se utiliza comúnmente para agregar código JavaScript o CS
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_experience_modifications"
 >title="Administrar fácilmente todos los cambios"
->abstract="Con este panel, puede navegar y administrar todos los ajustes y adiciones definidos para la página web."
+>abstract="Con este panel, puede desplazarse por la página web y administrar todos los ajustes y adiciones que haya definido para la misma."
 
 Todas las modificaciones que cree se rastrearán y se podrán administrar desde el panel **[!UICONTROL Modificaciones]** tanto del editor visual como del no visual. Haga clic en el icono _[!UICONTROL Modificaciones]_ <!-- ( ![Modifications icon](../assets/do-not-localize/icon-web-exp-modifications.svg) ) -->de la barra de herramientas izquierda para ver todas las modificaciones.
 
@@ -326,7 +327,7 @@ Rastree las interacciones del usuario con los elementos para medir la participac
 
 Cuando se activa la experiencia web (activa), también puede crear informes con Adobe Customer Journey Analytics (que requiere una suscripción al producto). Para mejorar la monitorización de la experiencia web, también puede rastrear los clics en cualquier elemento específico del sitio web. El seguimiento permite mostrar el número de clics de ese elemento en los informes web.
 
-Para obtener más información sobre Customer Journey Analytics y la generación de informes web, consulte la [documentación de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-landing).
+Para obtener más información sobre Customer Journey Analytics y la generación de informes web, consulte la [documentación de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Seleccione un elemento en el editor de experiencia web, como, por ejemplo, una imagen o un vínculo.
 

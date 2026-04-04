@@ -8,7 +8,7 @@ exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
 source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
@@ -32,12 +32,12 @@ Haga clic en el icono _Filtro_ ( ![Icono de filtro](../assets/do-not-localize/ic
 
 Seleccione tantos valores para cada atributo que desee usar para filtrar los datos y haga clic en **[!UICONTROL Aplicar]**.
 
-## [!UICONTROL Vistas de página principales] {#top-page-views}
+## [!UICONTROL Vistas de la página principal] {#top-page-views}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_top_page_views"
 >title="Vistas de la página principal"
->abstract="Las páginas vistas con más frecuencia en su sitio web, lo que le ayuda a identificar qué contenido genera la mayor cantidad de tráfico."
+>abstract="Las páginas vistas con más frecuencia en su sitio web, esto le ayuda a identificar qué contenido genera la mayor cantidad de tráfico."
 
 Esta tabla muestra las 10 páginas web más visitadas, lo que le ayuda a identificar qué contenido resuena más con los visitantes. Los datos incluyen:
 
@@ -64,7 +64,7 @@ Esta visualización muestra los recuentos de visitantes segmentados por la regi�
 
 ![Vistas de página por región de cuenta](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
 
-## [!UICONTROL Vistas de página por sector de cuenta] {#page-views-by-industry}
+## [!UICONTROL Vistas de página por sector de la cuenta] {#page-views-by-industry}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_industry"
@@ -76,7 +76,7 @@ Esta visualización muestra los recuentos de visitantes segmentados por el secto
 * Nombre del sector de la cuenta
 * Recuento de vistas de página
 
-![Vistas de página por sector de cuenta](./assets/web-engagement-dashboard-page-views-by-account-industry.png){width="500" zoomable="yes"}
+![Vistas de página por sector de la cuenta](./assets/web-engagement-dashboard-page-views-by-account-industry.png){width="500" zoomable="yes"}
 
 ## Interactúe con los datos
 
