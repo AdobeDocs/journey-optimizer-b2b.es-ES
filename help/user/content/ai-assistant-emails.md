@@ -4,9 +4,9 @@ description: 'Generar contenido de correo electrónico con el Asistente de IA: c
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: c7c08dc1d9b041bfc83cf8b5766a953fa765f4c9
+source-git-commit: 859656dc4e355be0d9efe9414ad93404970d6e73
 workflow-type: tm+mt
-source-wordcount: '3591'
+source-wordcount: '3632'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Esta nueva capacidad proporciona una generación de contenido basada en mensajes
 
 ## Directrices y limitaciones
 
-Antes de empezar a usar esta capacidad, revise las [directrices y limitaciones](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [También se requiere la aceptación del acuerdo de usuario &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las capacidades de IA en [!DNL Journey Optimizer B2B Edition]. Para obtener más información, contacte con su representante de Adobe.
+Antes de empezar a usar esta capacidad, revise las [directrices y limitaciones](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). También se requiere la aceptación de [Acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las capacidades de IA en [!DNL Journey Optimizer B2B Edition]. Para obtener más información, contacte con su representante de Adobe.
 
-Con el compromiso de Adobe de promover la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/es/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por Firefly cuando se descarga o exporta.
+Con el compromiso de Adobe de promover la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por Firefly cuando se descarga o exporta.
 
 Las siguientes limitaciones y directrices se aplican a las funciones del Asistente de inteligencia artificial utilizadas para generar contenido de correo electrónico en [!DNL Journey Optimizer B2B Edition]:
 
@@ -88,7 +88,7 @@ Para incluir imágenes en el contenido generado, expanda **[!UICONTROL Configura
 
 La opción **[!UICONTROL Generar imágenes mediante IA]** está deshabilitada de manera predeterminada. Active esta función y defina las siguientes opciones para incluir las imágenes generadas en las variaciones de contenido propuestas:
 
-<!-- * **[!UICONTROL Generative model]**: Select from available built-in models, custom Firefly models trained on your brand assets, or third-party image generation providers to create images that align with your specific needs and brand requirements. -->
+* **[!UICONTROL Modelo generador]**: seleccione uno de los modelos listos para usar proporcionados por Adobe, el modelo de socio para funciones especializadas o modelos personalizados configurados y formados en los recursos de su marca. Para obtener más información sobre los modelos generativos, consulte _[Modelos de IA generativa para la alineación de marca](generative-ai-models.md)_.
 * **[!UICONTROL Proporción de aspecto]**: cuando se selecciona un componente de imagen, esta configuración determina la anchura y la altura del recurso. Tiene la opción de elegir entre proporciones comunes como 16:9, 4:3, 3:2 o 1:1, o bien puede especificar un tamaño personalizado.
 * **[!UICONTROL Tipo de contenido]**: El tipo categoriza la naturaleza del elemento visual, distinguiendo entre diferentes formas de representación visual, como fotografías, gráficos o arte.
 * **[!UICONTROL Intensidad visual]**: controla el impacto de la imagen ajustando su intensidad. Un ajuste más bajo (por ejemplo, 2) crea un aspecto más suave y restringido, mientras que un ajuste más alto (por ejemplo, 10) hace que la imagen sea más vibrante y visualmente potente.
@@ -96,7 +96,7 @@ La opción **[!UICONTROL Generar imágenes mediante IA]** está deshabilitada de
 * **[!UICONTROL Iluminación]**: estilo de iluminación utilizado para la imagen, que da forma a su atmósfera y resalta elementos específicos.
 * **[!UICONTROL Composición]**: La disposición de elementos dentro del marco de una imagen.
 
-![El panel de configuración de imagen muestra las opciones Tipo de contenido, Intensidad visual, Color y tono, Iluminación y Composición](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
+![Panel de configuración de imagen que muestra las opciones Modelo generador, Tipo de contenido, Intensidad visual, Color y tono, Iluminación y Composición](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
 
 Haga clic en la flecha izquierda para volver a la _[!UICONTROL configuración]_ principal.
 
