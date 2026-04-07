@@ -4,10 +4,10 @@ description: 'Diseñe correos electrónicos, páginas de aterrizaje y fragmentos
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
+source-git-commit: ab9e6a1d8785ad4f36e1026a8c376abc9c526c9e
 workflow-type: tm+mt
-source-wordcount: '2825'
-ht-degree: 6%
+source-wordcount: '3057'
+ht-degree: 7%
 
 ---
 
@@ -48,7 +48,7 @@ La sección **[!UICONTROL Contenido]** de la parte inferior de la biblioteca de 
 | ![Icono de HTML](../../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | Añada este componente al diseño para copiar y pegar las diferentes partes del HTML existente. Utilice este componente para crear un bloque modular gratuito de HTML para reutilizar contenido externo. |
 | ![Icono de imagen](../../assets/do-not-localize/icon-content-component-image.svg) | [Imagen](#image) | Añada este componente al diseño para insertar un archivo de imagen. |
 | ![Icono social](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Añada este componente al diseño para insertar vínculos a páginas de medios sociales. |
-| ![Icono de formulario](../../assets/do-not-localize/icon-content-component-form.svg) | [Formulario](#form) | **_Solo está disponible para páginas de aterrizaje._** Agregue este componente al diseño para insertar un formulario creado. |
+| ![Icono de formulario](../../assets/do-not-localize/icon-content-component-form.svg) | [Formulario](#form) | **_Solo disponible para páginas de aterrizaje._** Agregue este componente al diseño para insertar un formulario creado. |
 
 ## Barras de herramientas de componentes de contenido
 
@@ -210,7 +210,7 @@ Cada tipo de componente de contenido muestra una barra de herramientas al selecc
 
 1. En la biblioteca **[!UICONTROL Componentes]**, agarre el _controlador de arrastre_ ![controlador de arrastre](../../assets/do-not-localize/icon-drag-handle.svg) para el componente de contenido de su elección y arrástrelo y suéltelo en los componentes de la estructura.
 
-   Puede añadir varios componentes en un solo componente de estructura y en cada columna de un componente de estructura.
+   Puede añadir varios componentes en un único componente de estructura y en cada columna de un componente de estructura.
 
    ![Arrastre el componente de contenido al componente de estructura](./assets/content-components-drag.png){width="600" zoomable="yes"}
 
@@ -239,7 +239,7 @@ Si desea excluir el componente de la pantalla del escritorio o del dispositivo m
 
 Utilice un contenedor para aplicar un estilo específico a un grupo de componentes de contenido. Agregue un componente [!UICONTROL Contenedor] y, a continuación, agregue otros componentes de contenido dentro de él. Este componente es similar a cómo se podría usar un elemento `div` en HTML. Puede aplicar un estilo distinto al contenedor que difiera del estilo aplicado a los componentes de contenido que contiene.
 
-Por ejemplo, agregue un componente _[!UICONTROL Container]_ y, a continuación, agregue un componente _[!UICONTROL Button]_ dentro de ese contenedor. Puede utilizar un estilo de área específico para el contenedor y aplicar estilo al botón y su fondo según sea necesario.
+Por ejemplo, agregue el componente _[!UICONTROL Contenedor]_ y el componente _[!UICONTROL Botón]_ dentro de ese contenedor. Puede utilizar un estilo de área específico para el contenedor y aplicar estilo al botón y su fondo según sea necesario.
 
 ![Estilos de componente de contenido de contenedor](./assets/content-components-container.png){width="600" zoomable="yes"}
 
@@ -345,9 +345,13 @@ Personalice el estilo del botón en la ficha **[!UICONTROL Estilos]**.
 
 +++Alineación
 
+{{styles-alignment-h-v}}
+
 +++
 
 +++Margen del botón
+
+{{styles-margin}}
 
 +++
 
@@ -423,8 +427,6 @@ Estos estilos se aplican a todo el bloque de texto. Puede aplicar estilos en lí
 
 Agregue un componente _Divider_ para incorporar una división lineal entre las secciones del contenido.
 
-
-
 +++Contexto
 
 {{styles-background}}
@@ -432,6 +434,22 @@ Agregue un componente _Divider_ para incorporar una división lineal entre las s
 +++
 
 +++Línea
+
+En el panel derecho con la ficha _[!UICONTROL Estilos]_ seleccionada, expanda la sección **[!UICONTROL Línea]** y establezca las opciones para la altura y anchura del componente:
+
+* **[!UICONTROL Color]**: haga clic en el cuadrado de color para elegir un color del selector. Puede elegir un color introduciendo un valor RGB, HSL, HSB o hexadecimal conocido. O bien, puede utilizar el regulador de color y el campo de color para seleccionar el color.
+
+* **[!UICONTROL Altura]**: haga clic en los iconos de flecha arriba y abajo para aumentar o reducir el número de píxeles. Un valor vacío (Automático) es el valor predeterminado y ajusta el tamaño de la altura del elemento según su contenido.
+
+* **[!UICONTROL Anchura]**: utilice la opción para establecer la anchura en píxeles o porcentaje.
+
+   * Para una anchura porcentual, utilice el control deslizante para definir el valor porcentual. El porcentaje determina el tamaño del elemento en función del cuadro de contenido del bloque contenedor, que excluye el relleno y los bordes. Por ejemplo, un valor de 50 establece el ancho del elemento en el 50 % del ancho del contenido del bloque que lo contiene.
+
+  ![Definir estilo de línea para un componente divisor](./assets/component-divider-line-options.png){width="250"}
+
+   * Para un ancho basado en píxeles, haga clic en los iconos de flecha arriba y abajo para aumentar o reducir el número de píxeles. Un valor vacío (Automático) es el valor predeterminado y ajusta el ancho del elemento según su contenido.
+
+* **[!UICONTROL Style]**: elige un valor de la lista de valores CSS estándar `line-style`, como _Solid_, _Dotted_ y _Dashed_.
 
 +++
 
@@ -471,7 +489,7 @@ Utilice el componente HTML para añadir partes de su HTML existente. Este compon
 
 1. Seleccione el componente en el lienzo y haga clic en el icono _Mostrar código fuente_ de la barra de herramientas.
 
-   [Abra el editor de código para agregar el HTML](./assets/content-components-html-show-code.png){width="450"}
+   [Abra el editor de código para añadir el HTML.](./assets/content-components-html-show-code.png){width="450"}
 
 1. Pegue el HTML en el cuadro de texto y haga clic en **[!UICONTROL Guardar]**.
 
