@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '868'
 ht-degree: 12%
 
 ---
@@ -63,9 +63,9 @@ Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe us
 
 1. Cuando esté listo para usarse, [publique la marca](./brands-manage-create.md#publish-the-brand).
 
-1. Usar la marca para [alineación de contenido de correo electrónico](./brand-alignment.md).
-
-1. Use la marca para [generar contenido de correo electrónico](./ai-assistant-emails.md).
+1. Usar la marca para [alineación de contenido de correo electrónico](./content-evaluation.md#brand-alignment-score).
+<!-- 
+1. Use the brand to generate content. -->
 
 >[!BEGINSHADEBOX]
 
@@ -73,7 +73,7 @@ Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe us
 
 Los administradores de productos pueden habilitar el acceso a las funciones de administración y alineación de marcas asignando los permisos de recursos de **[!UICONTROL Administrar kit de marca]** o **[!UICONTROL Habilitar asistente de IA]** a través de la interfaz de usuario de _Permisos_ en Adobe Experience Cloud.
 
-1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
+1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
 
 1. Haga clic en **[!UICONTROL Editar]** para modificar los permisos.
 

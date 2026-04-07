@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-source-git-commit: 859656dc4e355be0d9efe9414ad93404970d6e73
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
 source-wordcount: '2700'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Puede generar experiencias de contenido completas para sus páginas de aterrizaj
 
 Antes de empezar a usar esta capacidad, revise las [directrices y limitaciones](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). También se requiere la aceptación de [Acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las capacidades de IA en [!DNL Journey Optimizer B2B Edition]. Para obtener más información, contacte con su representante de Adobe.
 
-Con el compromiso de Adobe de promover la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/es/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por Firefly cuando se descarga o exporta.
+Con el compromiso de Adobe de promover la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por Firefly cuando se descarga o exporta.
 
 Las siguientes limitaciones y directrices se aplican a las funciones del Asistente de IA utilizadas para generar contenido de páginas de aterrizaje en [!DNL Journey Optimizer B2B Edition]:
 
@@ -314,6 +314,6 @@ Proporcione comentarios sobre las variantes generadas haciendo clic en los icono
 
 La evaluación y la puntuación de alineación de marca le ayudan a garantizar la coherencia en el tono, la mensajería y la identidad visual de sus campañas, a la vez que sirven como una comprobación de calidad antes de que el contenido se publique. Cuando finalice el contenido de la página de aterrizaje, haga clic en el icono _Alineación de marca_ ( ![icono de alineación de marca](../assets/do-not-localize/icon-brand-compliance.svg) ) que aparece a la derecha para abrir el panel derecho _Alineación de marca_ en el espacio de diseño de la página de aterrizaje.
 
-![Acceder a las herramientas de alineación de marca](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+![Acceder a las herramientas de puntuación de alineación de marca](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
 
-Para obtener información detallada, consulte [Validar la alineación de marca](./brand-alignment.md#validate-your-brand-alignment)
+Para obtener información detallada, consulte [_Puntuación de alineación de marca_](./content-evaluation.md#brand-alignment-score)
