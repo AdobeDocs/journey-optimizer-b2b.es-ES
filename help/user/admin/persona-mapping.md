@@ -3,10 +3,11 @@ title: Asignación de personas
 description: Aprenda a configurar la asignación de personalidades para el marketing B2B. Asigne atributos de persona en Journey Optimizer B2B edition para crear plantillas de función y optimizar la segmentación de grupos de compra.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
+exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +30,7 @@ Limitaciones de uso y definición personal:
 
 Muchos equipos de marketing y ventas utilizan los puestos como una forma de identificar diferentes personas dentro de una cuenta. Sin embargo, los títulos de los contactos pueden ser incoherentes y utilizar numerosas variaciones para funciones similares. Al crear plantillas de roles de grupo de compra, puede ser necesario definir todos los puestos relacionados posibles para un rol determinado. Puede simplificar estas definiciones y colocar a las personas con títulos de trabajo similares en una sola persona deducida, lo que puede aprovechar en diferentes plantillas de funciones para comprar grupos.
 
-Por ejemplo, podría configurar un personaje llamado _Administración de productos_ y definirlo usando el atributo de puesto de trabajo para los valores de _Administrador de productos_, _Sr. Gerente de productos_, _Gerente de productos sénior_, _PM_, _Sr. PM_, _PM principal_ y _Gerente de producto principal_. A continuación, utilice este personaje en una plantilla de roles donde la condición coincida con _Persona es Product Management_. Al utilizar el perfil configurado, la creación de cada plantilla de funciones es más sencilla y no requiere una condición complicada que pueda coincidir con todos los puestos posibles.
+Por ejemplo, puede configurar un perfil llamado _Administración de productos_ y definirlo con el atributo de puesto de trabajo para los valores de _Administrador de productos_, _Administrador de productos senior_, _Administrador de productos sénior_, _PM_, _Administrador de productos senior_, _Administrador de productos principales_ y _Administrador de productos principales_. A continuación, utilice este personaje en una plantilla de roles donde la condición coincida con _Persona es Product Management_. Al utilizar el perfil configurado, la creación de cada plantilla de funciones es más sencilla y no requiere una condición complicada que pueda coincidir con todos los puestos posibles.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +46,7 @@ Por ejemplo, podría configurar un personaje llamado _Administración de product
 
    La lista de asignación Persona está organizada en forma de tabla y muestra los perfiles actualizados más recientemente en la parte superior (ordenados por _[!UICONTROL Última actualización]_). Puede personalizar la tabla mostrada si hace clic en el icono _Configuración de columna_ ( ![Configuración de columna](../assets/do-not-localize/icon-column-settings.svg) ) en la esquina superior derecha y activa o desactiva las casillas de verificación de la columna.
 
-![Columnas para mostrar en la lista de asignación de personas](./assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![Columnas para mostrar en la lista de asignación de personas](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Para acceder a los detalles de una persona, haga clic en el nombre.
 
@@ -118,6 +119,6 @@ Al eliminar una persona, esta se eliminará de la lista _Asignación de personas
 
 1. En la página _[!UICONTROL Asignación personal]_, busque el perfil que desee eliminar.
 
-1. Junto al nombre, haga clic en los puntos suspensivos (**...**) de y elija **[!UICONTROL Eliminar]**.
+1. Junto al nombre, haga clic en los puntos suspensivos (**...**) icono para y elija **[!UICONTROL Eliminar]**.
 
 1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Eliminar]**.

@@ -4,7 +4,7 @@ description: Conecte su cuenta comercial de WhatsApp a través de la API de nube
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-source-git-commit: ce039c5e2a7dc836b434d9ab373ebdfe1d19fc3b
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 11%
@@ -72,7 +72,7 @@ Complete las siguientes tareas:
    * **[!UICONTROL Token de API]**: introduzca su token de API. Para obtener más información, consulte la [Documentación de Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Id. de cuenta empresarial]** - Escriba el número único relacionado con su portafolio empresarial. Para obtener más información, consulte la [Documentación de Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Credenciales de la API de configuración de WhatsApp &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Credenciales de la API de configuración de WhatsApp ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Continuar]**.
 
@@ -212,11 +212,11 @@ Una configuración de canal define la configuración de envío utilizada al envi
 
 1. Para **[!UICONTROL Seleccionar canal]**, elija `WhatsApp`.
 
-<!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration.
+   <!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration. -->
 
-   Make sure to include all applicable marketing actions to ensure compliance with customer preferences.
+   <!-- Make sure to include all applicable marketing actions to ensure compliance with customer preferences. -->
 
-   All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
+   <!-- All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
 
 1. En _[!UICONTROL Configuración de WhatsApp]_, selecciona la **[!UICONTROL configuración de WhatsApp]** (credenciales de la API) que creaste en la tarea anterior.
 

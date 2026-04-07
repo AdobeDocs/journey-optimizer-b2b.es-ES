@@ -4,9 +4,9 @@ description: Realice un seguimiento del progreso del grupo de compras con puntua
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '593'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Esta visualización ilustra la distribución de los grupos de compra en función
 
 Para ver información más detallada, haga clic en el icono de menú **...** en la parte superior derecha.
 
-![Visualización de la puntuación de participación del grupo comprador](./assets/buying-group-completion-score-chart.png){width="500"}
+![Visualización de la puntuación de participación del grupo comprador](./assets/buying-group-engagement-score-chart.png){width="500"}
 
 ## Grupos de compras por interés de la solución
 
@@ -74,7 +74,7 @@ Seleccione tantos valores para cada atributo que desee usar para filtrar los dat
 
 ## Interactúe con los datos
 
-Para interactuar con los datos, usa el menú _Más_ (**...**) en la parte superior derecha de cada gráfico.
+Para interactuar con los datos, use _Más_ (**...**) en la parte superior derecha de cada gráfico.
 
 ### [!UICONTROL Obtener detalles]
 
@@ -84,7 +84,7 @@ Elija **[!UICONTROL Obtener detalles]** para obtener un análisis detallado de l
 
 Los filtros globales aplicados al panel se transfieren. Haga clic en el icono _Filtro_ ( ![Icono de filtro](../assets/do-not-localize/icon-filter.svg) ) en la parte superior izquierda para [cambiar los filtros de atributo](#filter-the-data) para la vista de obtención de detalles.
 
-Puede hacer clic en el menú _Más_ (**...**) en la parte superior derecha y elegir **[!UICONTROL Ver más]** para [ver datos extendidos](#view-more).
+Puede hacer clic en _Más_ (**...**) en la parte superior derecha y elige **[!UICONTROL Ver más]** para [ver datos extendidos](#view-more).
 
 ### [!UICONTROL Ver más]
 
