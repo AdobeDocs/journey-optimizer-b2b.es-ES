@@ -4,9 +4,9 @@ description: 'Optimice la generación de demanda con recorridos: cree, publique 
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
+source-git-commit: 0e79785bd8baf3914127cc650b8e503a8d461a3d
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1524'
 ht-degree: 43%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 43%
 
 # administración de recorrido
 
-En Journey Optimizer B2B edition, los recorridos son planes de marketing automatizados y basados en cuentas de varios pasos que organizan experiencias personalizadas en varios canales en respuesta a la participación, los eventos comerciales o las campañas programadas. Defina un acuerdo basado en las ventas que incluya correo electrónico, SMS y mucho más en para coordinar el marketing entrante con las actividades de ventas salientes de cada miembro del grupo comprador.
+En Journey Optimizer B2B edition, los recorridos son planes de marketing automatizados y basados en cuentas de varios pasos que organizan experiencias personalizadas en varios canales en respuesta a la participación, los eventos comerciales o las campañas programadas. Defina un acuerdo basado en las ventas que incluya correo electrónico, SMS y mucho más para coordinar el marketing entrante con las actividades de ventas salientes de cada miembro del grupo comprador.
 
 Journey Optimizer B2B edition admite dos tipos de recorrido:
 
@@ -103,11 +103,11 @@ El estado de un recorrido puede cambiar según las acciones que se apliquen. En 
 
 | Estado | Descripción | Acciones disponibles |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Borrador**&#x200B;_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Activo**&#x200B;_ | El estado del recorrido cambia de _Draft_ a _Live_ cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
-| _&#x200B;**Cerrado a nuevas entradas**&#x200B;_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
-| _&#x200B;**Anulado**&#x200B;_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Finalizado**&#x200B;_ | Cuando todos los miembros de audiencia de persona o cuenta de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Borrador**_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Activo**_ | El estado del recorrido cambia de _Draft_ a _Live_ cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
+| _**Cerrado a nuevas entradas**_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
+| _**Anulado**_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Finalizado**_ | Cuando todos los miembros de audiencia de persona o cuenta de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
 
 ## mapas de recorrido
 
@@ -219,4 +219,4 @@ Cuando seleccione el nodo, haga clic en el número para ver una lista de cuentas
 
 ## Vídeo de información general sobre el recorrido de cuentas {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443210/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

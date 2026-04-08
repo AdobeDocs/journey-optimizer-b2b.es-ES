@@ -3,7 +3,7 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1d63c0a2f595a81fc6cb41e9fac628a2ff72d4a1
+source-git-commit: ab1462bc8f81c6983e8e4a620f0502e799901c1b
 workflow-type: tm+mt
 source-wordcount: '4907'
 ht-degree: 70%
@@ -16,9 +16,9 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
-## Notas de la versión 2026.3
+## Notas de la versión 2026.3 {#rel-2026-3}
 
 **Fecha de implementación**: 27 de marzo de 2026
 
@@ -43,7 +43,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 >Estos cambios de versión comienzan la implementación el 27 de marzo de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 
-## Notas de la versión 2026.2
+## Notas de la versión 2026.2 {#rel-2026-2}
 
 **Fecha de implementación**: 20 de febrero de 2026
 
@@ -58,7 +58,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 >
 >Estos cambios de versión comienzan la implementación el 20 de febrero de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
-## Notas de la versión 2026.1
+## Notas de la versión 2026.1 {#rel-2026-1}
 
 **Fecha de implementación**: 3 de febrero de 2026
 
@@ -74,7 +74,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 >
 >Estos cambios de versión comienzan la implementación el 3 de febrero de 2026, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
-## Funciones de la IA agéntica
+## Funciones de la IA agéntica {#rel-agents}
 
 Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimizer B2B edition en la interfaz del asistente de IA:
 
@@ -84,7 +84,7 @@ Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimi
 | Audience Agent | Nuevo | Audience Agent identifica y crea automáticamente grupos de compra con datos estructurados y no estructurados. Ayuda a los especialistas en marketing a dirigirse a las personas adecuadas de forma más rápida y precisa. [Más información](../agents/audience-agent-b2b.md) |
 | Calificador de ventas | Nuevo | El cualificador de ventas es una aplicación complementaria de Adobe Journey Optimizer B2B edition basada en IA que contiene Account Qualification Agent y que está diseñada para optimizar los flujos de trabajo de los representantes de desarrollo empresarial (BDR). Automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. [Más información](../agents/sales-qualifier.md) |
 
-## Notas de la versión 2025.10
+## Notas de la versión 2025.10 {#rel-2025-10}
 
 **Fecha de implementación**: 31 de octubre de 2025
 
@@ -138,7 +138,7 @@ Con la arquitectura simplificada, las siguientes nuevas funciones y mejoras est�
 | Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
 | | | -->
 
-## Notas de la versión 2025.9
+## Notas de la versión 2025.9 {#rel-2025-9}
 
 **Fecha de implementación**: 30 de septiembre de 2025
 
@@ -155,7 +155,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 >
 >Los cambios en la versión comienzan a implementarse el 30 de septiembre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
-## Notas de la versión 2025.8
+## Notas de la versión 2025.8 {#rel-2025-8}
 
 **Fecha de implementación**: 26 de agosto de 2025
 
@@ -170,7 +170,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Mejora | Actualizaciones de puntuación de participación | La lógica de puntuación de participación del grupo de compras se actualiza para normalizar las puntuaciones. Además, puede trabajar con puntuaciones de participación de nivel de miembro, así como puntuaciones de participación colectiva para todo el grupo de compras. [Más información](../buying-groups/engagement-scores.md) |
 | Mejora | Observabilidad activa del recorrido: cuentas en cada nodo | Para un recorrido de cuentas activo, puede acceder a una lista de las cuentas que han llegado a cada nodo de cuenta del recorrido. |
 
-## Notas de la versión 2025.6
+## Notas de la versión 2025.6 {#rel-2025-6}
 
 **Fecha de implementación**: 15 de julio de 2025
 
@@ -188,7 +188,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Mejora | Simular contenido desde el resumen del correo electrónico | Ahora puede acceder a las herramientas _Simular contenido_ desde el resumen del correo electrónico (detalles y propiedades) al abrir un mensaje de correo electrónico desde la lista de correos electrónicos. Este acceso se suma al espacio de diseño del correo electrónico. [Más información](../content/email-simulate-content.md#display-the-email-preview) |
 | Mejora | Visualización del recuento total para la lista de plantillas de funciones | La página de la lista _[!UICONTROL Plantillas de las funciones]_ se ha mejorado con la visualización del recuento total junto a la barra de búsqueda. |
 
-## Notas de la versión 2025.5
+## Notas de la versión 2025.5 {#rel-2025-5}
 
 **Fecha de implementación**: 3 de junio de 2025
 
@@ -201,7 +201,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Mejora | Formato del token de Handlebar para correo electrónico | Los tokens de personalización para el contenido del correo electrónico ahora utilizan un formato actualizado que es totalmente compatible con los scripts de Handlebar. Este formato usa _palabras compuestas de mayúsculas y minúsculas_ o guiones bajos, lo que elimina espacios. [Más información](../content/email-authoring.md#content-authoring---personalization) |
 | Mejora | Visualización del recuento total de listas | Las páginas de la lista _[!UICONTROL Intereses de la solución]_ y _[!UICONTROL Recorridos de cuenta]_ se han mejorado con la visualización del recuento total junto a la barra de búsqueda. |
 
-## Notas de la versión 2025.4
+## Notas de la versión 2025.4 {#rel-2025-4}
 
 **Fecha de implementación**: martes, 29 de abril de 2025
 
@@ -216,7 +216,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Mejora | Filtro de páginas web visitadas | Organice los recorridos en función de la actividad de las páginas web visitadas asociadas con las campañas y programas de Marketo Engage. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Más información</a> |
 | Mejora | Lista de correos electrónicos | Vea una lista global de correos electrónicos activos y borrador para buscar, revisar y actualizar los correos en los recorridos de cuenta asociados. <a href="../content/emails-list.md">Más información</a> |
 
-## Notas de la versión 2025.3
+## Notas de la versión 2025.3 {#rel-2025-3}
 
 **Fecha de implementación**: 1 de abril de 2025
 
@@ -229,7 +229,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Función | Eliminar fases del grupo de compras | Puede eliminar el modelo de fases del grupo de compras cuando esté en estado borrador o publicado. Si se publica (está activo), solo podrá eliminarlo si no está asociado a un interés de solución. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Más información</a> |
 | Mejora | Recuentos del nodos del recorrido | Mayor visibilidad de los recuentos de abonos del recorrido publicados en el nivel de nodo. En el _Mapa del recorrido_, los nodos muestran el _[!UICONTROL Total de cuentas introducidas]_. Cuando un especialista en mercadotecnia selecciona un nodo de acción, los detalles a la derecha también incluyen _[!UICONTROL Cuentas que aún no se han llevado a cabo en]_. Y los detalles del nodo _Escuchar un evento_ incluyen _[!UICONTROL Cuentas en este paso]_. Esta información resulta útil para validar la progresión de la cuenta en recorridos activos, finalizados y anulados. |
 
-## Notas de la versión 2025.2
+## Notas de la versión 2025.2 {#rel-2025-2}
 
 **Fecha de implementación**: 11 de marzo de 2025
 
