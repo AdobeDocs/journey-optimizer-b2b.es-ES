@@ -3,9 +3,9 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: bcfd4703c2cd4175670df22dc21ed4626db42a1a
+source-git-commit: 1d63c0a2f595a81fc6cb41e9fac628a2ff72d4a1
 workflow-type: tm+mt
-source-wordcount: '4911'
+source-wordcount: '4907'
 ht-degree: 70%
 
 ---
@@ -16,7 +16,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2026.3
 
@@ -28,7 +28,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Función | Formularios | Los especialistas en marketing ahora pueden crear y publicar componentes de formulario reutilizables para habilitar el envío de datos desde páginas de aterrizaje que se crean y publican en Journey Optimizer B2B edition _(anteriormente una función de programa de Beta)_. |
 | Función | Canal de WhatsApp | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible con arquitectura simplificada"} Los especialistas en marketing ahora pueden enviar mensajes de WhatsApp directamente desde los recorridos de la cuenta a través de [!DNL Meta Cloud API]. Esta función permite una integración perfecta de la mensajería de WhatsApp para admitir canales de contenido de recorrido. [Más información](../admin/configure-channels-whatsapp.md) |
 | Función | Compatibilidad con [!DNL Firefly] y modelos de IA generativa personalizados | Los equipos de marketing ahora pueden habilitar la integración de los modelos estándar y personalizados [!DNL Firefly], junto con los modelos de imagen de terceros aprobados (como [!DNL NanoBanana]). Los diseñadores de correo electrónico pueden seleccionar el mejor modelo para cada caso de uso: estándar [!DNL Firefly] para necesidades generales, personalizado [!DNL Firefly] para la generación sin marca o modelos de terceros aprobados para escenarios especializados o experimentales. [Más información](../content/generative-ai-models.md) |
-| Función | Acciones externas personalizadas para recorridos | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible con arquitectura simplificada"} Los desarrolladores ahora pueden usar API para generar integraciones con sus sistemas de origen. Con estas integraciones personalizadas, los especialistas en marketing pueden agregar nodos de _Acción externa_ y _Ruta de división externa_ para realizar solicitudes salientes a servicios externos durante la ejecución del recorrido de la cuenta. [Más información]&#x200B;(../admin/configure-external-actions.md |
+| Función | Acciones externas personalizadas para recorridos | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible con arquitectura simplificada"} Los desarrolladores ahora pueden usar API para generar integraciones con sus sistemas de origen. Con estas integraciones personalizadas, los especialistas en marketing pueden agregar nodos de _Acción externa_ y _Ruta de división externa_ para realizar solicitudes salientes a servicios externos durante la ejecución del recorrido de la cuenta. [Más información](../admin/configure-external-actions.md) |
 | Función | Marcas | (Beta) Los equipos de marketing pueden mantener la coherencia de la marca en todos sus recursos de contenido de correo electrónico almacenando y administrando perfiles de marca. Al agregar recursos, como colores, fuentes, logotipos, temas, contenido visual y directrices de conformidad, pueden utilizar el perfil de marca para la creación de contenido de IA generativo. También pueden medir la alineación de la marca para garantizar el cumplimiento. [Más información](../content/brands-overview.md) |
 | Mejora | Envío de correo electrónico: optimización del tiempo de envío | [!BADGE Arquitectura simplificada]{type=Informative tooltip="Disponible con arquitectura simplificada"} Para _Enviar correo electrónico_ nodos de acción en recorridos de persona, puede usar las opciones de _Optimización del tiempo de envío_ para personalizar el tiempo de envío del correo electrónico al predecir cuándo es más probable que se involucre cada perfil. [Más información](../content/email-send-time-optimization.md) |
 | Mejora | Herramientas de diseño de plantillas de correo electrónico: modo HTML avanzado | Con el _modo avanzado de HTML_ en el espacio de diseño de plantillas de correo electrónico, los usuarios pueden realizar pequeñas ediciones de HTML/CSS y agregar etiquetas de script a una plantilla de correo electrónico para resolver los problemas de procesamiento. [Más información](../content/email-template-advanced-html.md) |
