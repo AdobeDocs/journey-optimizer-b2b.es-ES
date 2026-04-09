@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '4853'
+source-wordcount: '4943'
 ht-degree: 6%
 
 ---
@@ -420,7 +420,9 @@ La siguiente operación define a las personas cuyos colores favoritos incluyen a
 
 +++
 
-<!-- ## Intersection{#intersection}
+<!--
+
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -450,7 +452,7 @@ La función `bottomN` ordena una matriz en orden ascendente en función de la ex
 ```
 
 | Argumento | Descripción |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | Matriz o lista que se va a ordenar. |
 | `{VALUE}` | Propiedad utilizada para ordenar la matriz o la lista. |
 | `{AMOUNT}` | Número de elementos que se van a devolver. |
@@ -471,7 +473,7 @@ Utilice la función `notIn` para determinar si un elemento no es miembro de una 
 
 >[!NOTE]
 >
->La función `notIn`also *de* garantiza que ninguno de los valores es igual a nulo. Por lo tanto, los resultados no son una negación exacta de la función `in`.
+>La función *also* de `notIn` garantiza que ninguno de los valores es igual a nulo. Por lo tanto, los resultados no son una negación exacta de la función `in`.
 
 +++Sintaxis
 
@@ -2685,7 +2687,7 @@ Utilice la función `replaceAll` para reemplazar todas las subcadenas de un text
 
 >[!NOTE]
 >
-> Cuando la expresión tomada como segundo argumento sea un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
+> Cuando la expresión tomada como segundo argumento sea un carácter regex especial, utilice una doble barra invertida (`//`).  Los caracteres regex especiales son: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
 > Obtenga más información en [Documentación de Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >

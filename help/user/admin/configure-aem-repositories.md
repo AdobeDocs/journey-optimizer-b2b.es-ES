@@ -4,7 +4,7 @@ description: Conecte los repositorios de Experience Manager Assets a Journey Opt
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer B2B Edition] se integra con [!DNL Adobe Experience Manager Assets as a Cloud Service], lo que permite el uso de recursos en el contenido del correo electrónico. Garantiza la transparencia al intercambiar información con [!DNL Experience Manager Assets]. Configure la conexión con [!DNL Adobe Experience Assets] para habilitar esta capacidad.
 
-Adobe Experience Manager Cloud Manager está organizado en programas y cada programa tiene varios entornos y repositorios ([Más información](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Al configurar Adobe Experience Manager Assets en Adobe Journey Optimizer B2B edition, se configuran las conexiones a cada repositorio que desea utilizar para acceder a los recursos digitales.
+Adobe Experience Manager Cloud Manager está organizado en programas y cada programa tiene varios entornos y repositorios ([Más información](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Al configurar Adobe Experience Manager Assets en Adobe Journey Optimizer B2B edition, se configuran las conexiones a cada repositorio que desea utilizar para acceder a los recursos digitales.
 
 {{aem-assets-licensing-note}}
 
 ## Requisitos previos
 
-* Genere las credenciales de servicio para el entorno deseado en AEM Headless Developer Console ([Más información](https://experienceleague.adobe.com/es/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Genere las credenciales de servicio para el entorno deseado en AEM Headless Developer Console ([Más información](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Adquiera los certificados necesarios para la conexión. Como práctica recomendada, asegúrese de que restan al menos seis meses para la caducidad de los certificados. Los certificados caducan cada 365 días.
 * Adobe Journey Optimizer B2B edition admite el acceso a una fuente de administración de recursos digitales a la vez. Asegúrese de que los recursos necesarios estén disponibles en Adobe Experience Manager antes de cambiar.
 
@@ -37,8 +37,7 @@ Adobe Experience Manager Cloud Manager está organizado en programas y cada prog
 
    ![Acceder al espacio de configuración de Assets](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
-   <!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
-    -->
+   <!-- The default digital asset management option is configured as `Adobe Marketo Engage`. -->
    Desde aquí, puede configurar las conexiones a cada repositorio de entorno de AEM uno a uno.
 
 1. En el cuadro _[!UICONTROL Adobe Experience Manager Assets]_, haga clic en la flecha situada junto a **[!UICONTROL Configurar un repositorio]** y elija el repositorio.

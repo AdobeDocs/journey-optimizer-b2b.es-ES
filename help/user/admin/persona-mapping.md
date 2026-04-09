@@ -4,7 +4,7 @@ description: Aprenda a configurar la asignación de personalidades para el marke
 feature: Setup, Buying Groups
 role: Admin
 exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
-source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 2%
@@ -15,9 +15,11 @@ ht-degree: 2%
 
 Las personas son un aspecto clave de un enfoque de marketing basado en cuentas (ABM), ya que ayudan a los especialistas en marketing a ajustar sus estrategias a las necesidades, preferencias y puntos problemáticos específicos de las personas dentro de las cuentas de destino. Los especialistas en marketing pueden crear perfiles detallados para cada persona, incluidos sus antecedentes, responsabilidades, puntos problemáticos y canales de comunicación preferidos. Con estas definiciones, los administradores pueden configurar las personas según sus atributos en Journey Optimizer B2B edition, de modo que las plantillas de funciones puedan utilizar condiciones de función optimizadas y coherentes que capturan a estas personas.
 
-<!-- Currently there is no insight into what persona goes into what role. With buying group agent, when asked questions about, what should be the size of the buying group, what persona should be in that buying group, what role do they play, etc, then agent will analyze all the data, (opportunity data, engagement data, sales conversation, etc) and informs the user that the buying group needs 7 persona, e.g.CMO, VP of marketing, marketing leader, Marketing ops, etc. 
+<!--
+ Currently there is no insight into what persona goes into what role. With buying group agent, when asked questions about, what should be the size of the buying group, what persona should be in that buying group, what role do they play, etc, then agent will analyze all the data, (opportunity data, engagement data, sales conversation, etc) and informs the user that the buying group needs 7 persona, e.g.CMO, VP of marketing, marketing leader, Marketing ops, etc.
 
-Then based on what agent informed, users can create a template with those personas. -->
+Then based on what agent informed, users can create a template with those personas. 
+-->
 Limitaciones de uso y definición personal:
 
 * Puede tener hasta 20 personalidades definidas en la lista _[!UICONTROL Asignación personal]_.

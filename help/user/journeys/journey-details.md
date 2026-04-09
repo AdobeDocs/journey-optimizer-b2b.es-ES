@@ -4,9 +4,9 @@ description: Monitorice el rendimiento del recorrido de la cuenta con las tasas 
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -60,12 +60,13 @@ Las tablas de rendimiento proporcionan una visión detallada de la eficacia de l
 * _[!UICONTROL Enviado]_: número de mensajes SMS enviados
 * _[!UICONTROL Tasa de entrega]_: número de mensajes SMS enviados dividido por el número enviado
 * _[!UICONTROL Tasa de clics]_: número de mensajes SMS en los que se hizo clic dividido por el número de mensajes entregados
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+<!--
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
+-->
 
 ## Interacción mejorada
 
-Siga interactuando con los datos mediante el icono de acción (**...**) en la parte superior derecha de cada gráfico o tabla.
+Interactúe aún más con los datos mediante el icono de acción (**...**) en la parte superior derecha de cada gráfico o tabla.
 
 ### Obtención de detalles
 
@@ -73,7 +74,8 @@ Para el gráfico _[!UICONTROL estado de Recorrido]_, elija **[!UICONTROL Obtener
 
 ![Exploración detallada de los datos del gráfico](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.
+-->
 
 ### Ver más
 

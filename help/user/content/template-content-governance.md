@@ -4,7 +4,7 @@ description: 'Bloquee los componentes de plantillas de correo electrónico para 
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -48,14 +48,15 @@ Después de usar el espacio de diseño visual para [crear los componentes estruc
    ![Habilitar adiciones de contenido](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
 
    Con este modo establecido en el nivel raíz, todos los elementos de la plantilla se bloquean. La estructura de árbol de la izquierda muestra el icono _Solo lectura_ ( ![Icono de solo lectura](../assets/do-not-localize/icon-tree-lock.svg) ) junto a la raíz y todos los elementos secundarios.
-<!-- 
+<!--
 
    
 - ![Link icon](../assets/do-not-localize/icon-navigation-tree.svg)
 - ![Read only icon](../assets/do-not-localize/icon-tree-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-content-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-edit-text.svg)
-- ![Edit element](../assets/do-not-localize/icon-edit.svg) -->
+- ![Edit element](../assets/do-not-localize/icon-edit.svg) 
+-->
 
 ## Aplicar bloqueo a una estructura
 

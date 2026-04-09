@@ -4,10 +4,10 @@ description: Calcule las puntuaciones de participación de grupos y personas com
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 859e96ce0d450b52a8216f767c595938c23a9d50
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 28%
+source-wordcount: '1298'
+ht-degree: 29%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
 >title="Puntuación de participación"
->abstract="Las puntuaciones de participación determinan el nivel de participación para comprar miembros del grupo."
+>abstract="Las puntuaciones de participación determinan el nivel de participación de los miembros del grupo de compras."
 
 Una puntuación de participación es un número que indica el nivel de participación de los miembros de un grupo comprador. Estas puntuaciones se basan en las actividades de los miembros del grupo comprador, las acciones ponderadas y los roles ponderados. Las puntuaciones resultantes se normalizan dentro de un inquilino (instancia) para permitir una comparación coherente y perspectivas procesables. El cálculo de puntuación comienza en cuanto se crea el grupo comprador. El sistema del centro de datos de Journey Optimizer B2B edition calcula las puntuaciones diariamente y las carga en el sistema MySQL de marketing de varios niveles (MLM) mediante el servicio de ingesta.
 
@@ -30,7 +30,7 @@ Existen dos tipos de puntuaciones de participación:
 
 * **Puntuación de participación de persona** - La puntuación de participación de persona se basa en las actividades de un miembro individual del grupo de compra.
 
-  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros &#x200B;]_&#x200B;tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
+  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros ]_tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
 
   ![Miembros del grupo de compras más comprometidos](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -61,7 +61,8 @@ Hay un límite de frecuencia diario de 20 para cada actividad. Si un miembro de 
 | Page Views | Un miembro ve una página web | Web | 20 | 40 |
 | Registrarse para el evento | Un miembro registrado para un evento | Evento | 20 | 60 |
 
-<!-- old list
+<!--
+ old list
 
 | Activity name | Description | Engagement type | Max daily frequency count | Activity weight |
 | --- | --- | --- | --- | --- |
@@ -99,7 +100,8 @@ Hay un límite de frecuencia diario de 20 para cada actividad. Si un miembro de 
 | [!UICONTROL Interacted with Document in Conversational Flow] | A member interacts with a document in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Engaged with an Agent in Conversational Flow] | A member engages with an Agent in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
-| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 | -->
+| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
+-->
 
 >[!NOTE]
 >

@@ -1,9 +1,9 @@
 ---
 title: 'Creación de contenido: componentes'
 description: Sección reutilizada sobre el uso de componentes y elementos de contenido para la creación de contenido
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,10 @@ ht-degree: 0%
 1. Expanda la sección **[!UICONTROL Contenido]** y agregue tantos componentes de contenido como necesite a uno o más componentes de estructura.
 
    ![Arrastre un elemento de contenido al lienzo y ajuste la configuración](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
-   <!--
-   reference to the contents elements when we have a completed reference for each.--->
+&lt;!--
+hacer referencia a los elementos de contenido cuando tengamos una referencia completa para cada uno.
+
+   -->
 
 1. Si es necesario, puede realizar personalizaciones adicionales para cada componente en las fichas _[!UICONTROL Configuración]_ o _[!UICONTROL Estilo]_.
 

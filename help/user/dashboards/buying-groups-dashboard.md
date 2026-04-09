@@ -4,7 +4,7 @@ description: Realice un seguimiento del progreso del grupo de compras con puntua
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 3%
@@ -33,7 +33,8 @@ Gain insights into your buying groups' progression with the Buying Group Status 
 **[!UICONTROL Status]** (y-axis): Track the journey of buying groups through various stages.
 **[!UICONTROL Number of Buying Groups]** (x-axis): Quantify the number of buying groups at each status, providing a clear metric of your funnel's health and activity.
 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. 
+-->
 
 ## Distribución de la puntuación de finalización del grupo de compras
 

@@ -4,9 +4,9 @@ description: Cree correos electrónicos con herramientas de diseño visual, impo
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1175'
 ht-degree: 2%
 
 ---
@@ -17,13 +17,13 @@ Después de [agregar un recurso de correo electrónico a un nodo de acción de r
 
 Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la ficha _[!UICONTROL Detalles]_ del panel derecho.
 
-![Haga clic en Editar contenido de correo electrónico &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Haga clic en Editar contenido de correo electrónico ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Esta acción inicia las herramientas de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
 * [Diseñe su correo electrónico desde cero](#design-your-email-from-scratch) mediante la interfaz de Designer de correo electrónico.
 
-* [Importe contenido existente de HTML](#import-existing-html-content) desde un archivo o una carpeta .zip.
+* [Importe contenido de HTML existente](#import-existing-html-content) desde un archivo o una carpeta .zip.
 
 * [Seleccione una plantilla existente](#select-a-template) de una lista de plantillas de correo electrónico integradas o personalizadas.
 
@@ -51,11 +51,13 @@ Utilice el espacio de diseño de contenido visual para definir la estructura y e
 
 1. [Probar el correo electrónico](#check-and-test-the-email).
 
-<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
+<!--
+ If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual design space for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. 
+-->
 
 Cuando esté satisfecho con el contenido, haga clic en **[!UICONTROL Guardar]**.
 

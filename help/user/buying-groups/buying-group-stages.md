@@ -4,10 +4,10 @@ description: Cree modelos de fase de grupo de compra personalizados con etapas d
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 1%
+source-wordcount: '2357'
+ht-degree: 2%
 
 ---
 
@@ -181,16 +181,18 @@ Si no hay errores de validación, el modelo se puede publicar. Cuando se publica
    Al volver a la página de detalles del modelo, el modelo se designa como _[!UICONTROL Activo]_. Haga clic en la flecha _Atrás_ en la parte superior izquierda para regresar a la página de fichas _[!UICONTROL Fases]_.
 
 ![El modelo publicado](assets/stages-tab-model-live.png){width="700" zoomable="yes"}
-<!-- list these later when the Published columns are working correctly
+<!--
+ list these later when the Published columns are working correctly
 
 Columns - Name, Status, Created by, Created date, Last updated by, Last update, Published by, Published on.
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
-Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. 
+-->
 
 ## Eliminar el modelo de etapas de grupo de compra
 
-Puede eliminar el modelo de fases del grupo de compras cuando esté en estado borrador o publicado. Si se publica (activo), solo puede eliminarse cuando no esté asociado a un interés de solución.
+Puede eliminar el modelo de fases del grupo de compras cuando esté en estado borrador o publicado. Si se publica (está activo), solo podrá eliminarlo si no está asociado a un interés de solución.
 
 1. En el panel de navegación de la izquierda, ve a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos compradores]**.
 
@@ -215,7 +217,7 @@ Para cada interés de solución existente donde desee asociar el modelo de fases
 1. Abra el interés de la solución mediante uno de los siguientes métodos para abrir las propiedades del interés de la solución que desee editar:
 
    * Haga clic en el nombre de interés de la solución.
-   * Haga clic en los puntos suspensivos (**...**) junto a él y elija **[!UICONTROL Editar]**.
+   * Haga clic en los puntos suspensivos (**...**) al lado y elige **[!UICONTROL Editar]**.
 
    ![Menú más de interés para la solución](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
@@ -363,6 +365,6 @@ Utilice la ocurrencia de un cambio de fase de grupo de compra para mover la cuen
 
 1. Continúe con los demás cambios y guarde el recorrido.
 
-## Vídeo de información general
+## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3448697/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

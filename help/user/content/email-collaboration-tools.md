@@ -3,10 +3,11 @@ title: Herramientas de Collaboration de correo electrónico
 description: Colabore en correos electrónicos en Journey Optimizer B2B edition. Agregue comentarios, invite a revisores, resuelva comentarios y optimice los flujos de trabajo de revisión para los equipos.
 feature: Email Authoring, Content
 role: User
-source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
+exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 3%
+source-wordcount: '1213'
+ht-degree: 4%
 
 ---
 
@@ -24,11 +25,13 @@ El [espacio de diseño de correo electrónico](./email-authoring.md) incluye her
 
 * **_Collaboration en contexto_**: revise la copia del cuerpo del correo electrónico, las imágenes y los elementos de call-to-action (CTA) dentro del diseño.
 
-<!-- Enable asynchronous collaboration between team members for an email asset
+<!--
+ Enable asynchronous collaboration between team members for an email asset
 Allow users to attach comments to specific design elements
 Provide a unified interface for viewing and managing all comments within a project
 Support comment placement, editing, deleting, and navigation
-Display visual indicators (badges) for elements with associated comments -->
+Display visual indicators (badges) for elements with associated comments 
+-->
 
 ## Habilitar herramientas de colaboración por correo electrónico para revisores
 
@@ -36,7 +39,7 @@ Los administradores de productos pueden habilitar el acceso a las herramientas d
 
 +++ Habilitar permisos de correo electrónico
 
-1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
+1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
 
 1. Haga clic en **[!UICONTROL Editar]** para modificar los permisos.
 

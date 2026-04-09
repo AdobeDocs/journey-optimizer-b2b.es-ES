@@ -4,7 +4,7 @@ description: Cree variantes de contenido dinámico con reglas condicionales basa
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 12%
@@ -47,7 +47,7 @@ Cuando cree un fragmento o un correo electrónico en el espacio de diseño visua
 
    Se abre el cuadro de diálogo _[!UICONTROL Seleccionar condición]_ y muestra la biblioteca de condiciones.
 
-   Si desea ver los detalles de una condición para asegurarse de que es lo que desea, haga clic en el icono de _menú Más_ (**...**) y elija **[!UICONTROL Ver información]**.
+   Si desea ver los detalles de una condición para asegurarse de que es lo que desea, haga clic en el icono _Más menú_ (**...**) y elija **[!UICONTROL Ver información]**.
 
    ![Detalles de la condición de acceso a la biblioteca de condiciones](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
@@ -55,7 +55,7 @@ Cuando cree un fragmento o un correo electrónico en el espacio de diseño visua
 
 1. Seleccione la regla condicional y haga clic en **[!UICONTROL Seleccionar]** para asociarla con la variante.
 
-   Para revisar la condición asociada, haga clic en el icono _Más menú_ (**...**) de la variante y elija **[!UICONTROL Ver condición]**.
+   Para revisar la condición asociada, haga clic en el icono _Más menú_ (**...**) para la variante y eligiendo **[!UICONTROL Ver condición]**.
 
    ![Ver la condición asociada con la variante](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Cuando cree un fragmento o un correo electrónico en el espacio de diseño visua
 
    ![Ver detalles de la condición asociada](./assets/conditions-info-popup.png){width="500"}
 
-1. Para facilitar la lectura, cambie el nombre de la variante haciendo clic en el icono _Más menú_ (**...**) de la variante y eligiendo **[!UICONTROL Cambiar nombre]**.
+1. Para facilitar la lectura, cambie el nombre de la variante haciendo clic en el icono _Más menú_ (**...**) para la variante y eligiendo **[!UICONTROL Rename]**.
 
    Introduzca un nombre significativo para la variante que le ayude a identificar la variante y su intención.
 
@@ -87,7 +87,7 @@ Cuando cree un fragmento o un correo electrónico en el espacio de diseño visua
    >
    >Si ninguna de las condiciones de variante definidas se evalúa como verdadera al enviar el correo electrónico, el componente de contenido aparece según la **[!UICONTROL variante predeterminada]**.
 
-1. Para eliminar una variante, haga clic en el icono de _menú Más_ (**...**) de la variante y elija **[!UICONTROL Eliminar]**.
+1. Para eliminar una variante, haga clic en el icono _Más menú_ (**...**) para la variante y elija **[!UICONTROL Eliminar]**.
 
    Haga clic en **[!UICONTROL Eliminar]** en el cuadro de diálogo de confirmación.
 
@@ -98,7 +98,8 @@ Las reglas se almacenan en la biblioteca de condiciones, donde están disponible
 <!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.
+-->
 
 ### Filtros de condición {#condition-filters}
 
@@ -106,7 +107,7 @@ Las reglas se almacenan en la biblioteca de condiciones, donde están disponible
 | -------------- | ------- | ----------- |
 | **Cuenta** | Atributos de la cuenta | Atributos del perfil de cuenta, incluidos: <li>Ingresos anuales</li><li>Ciudad</li><li>País</li><li>Cantidad de empleados</li><li>Industria</li><li>Nombre</li><li>Código SIC</li><li>Estado</li> |
 | | [!UICONTROL Filtros especiales] > [!UICONTROL Tiene grupo de compra] | La cuenta tiene o no miembros de grupos compradores. El filtro también se puede evaluar con uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li> |
-| **Persona** | [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico asociadas con el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico]</li><li>Abrió el email</li><li>Se entregó el email</li><li>Se envió email</li> Estas condiciones se evalúan utilizando un mensaje de correo electrónico seleccionado de anteriormente en el recorrido. |
+| **Persona** | [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico asociadas con el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico]</li><li>Abrió el correo electrónico</li><li>Se entregó el correo electrónico</li><li>Se envió correo electrónico</li> Estas condiciones se evalúan utilizando un mensaje de correo electrónico seleccionado de anteriormente en el recorrido. |
 |  | [!UICONTROL Atributos de persona] | Atributos del perfil de la persona, incluidos: <li>Ciudad</li><li>País</li><li>Fecha de nacimiento</li><li>Dirección de correo electrónico</li><li>Email no válido</li><li>Email suspendido</li><li>Nombre</li><li>Región del estado inferida</li><li>Cargo</li><li>Apellido</li><li>Número de teléfono móvil</li><li>Número de teléfono</li><li>Código postal</li><li>Estado</li><li>Suscripción cancelada</li><li>Razón de la cancelación de la suscripción</li> |
 | | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Se ha eliminado</li><li>Función</li> |
 
@@ -151,7 +152,7 @@ Puede acceder al generador de reglas condicionales desde el espacio de diseño d
 
 No se pueden modificar las reglas condicionales guardadas en la biblioteca. Sin embargo, puede duplicar una regla existente y cambiarla para crear una nueva.
 
-1. Haga clic en el icono _Más menú_ (**...**) de la variante y elija **[!UICONTROL Duplicado]**.
+1. Haga clic en el icono _Más menú_ (**...**) para la variante y elija **[!UICONTROL Duplicate]**.
 
    Se abre un duplicado de la regla en el generador de reglas. Utilice el duplicado como punto de partida para la regla que desea crear.
 

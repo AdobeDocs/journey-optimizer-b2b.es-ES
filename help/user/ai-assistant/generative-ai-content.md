@@ -6,7 +6,7 @@ level: Beginner
 topic: Artificial Intelligence
 role: User
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-source-git-commit: ce4df9a2726cf842c088738521b3e5dd88dd768f
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 2%
@@ -36,7 +36,8 @@ La IA generativa para el contenido en [!DNL Adobe Journey Optimizer B2B Edition]
 Utilice las características de IA generativa para la creación de contenido en [!DNL Journey Optimizer B2B Edition] para aprovechar las capacidades de IA generativa de Adobe. Cree texto e imágenes personalizados para correos electrónicos, mensajes SMS, páginas de aterrizaje y mucho más. Cuando crea una campaña completa o simplemente perfecciona recursos específicos, estas funciones le ayudan a alinear el contenido sin problemas con las directrices de marca, a la vez que ahorran un tiempo valioso.
 
 <!--
-Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. -->
+Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
+-->
 
 >[!IMPORTANT]
 >
@@ -49,7 +50,7 @@ Las herramientas del Asistente de IA para la generación de contenido son compat
 
 ## Directrices y limitaciones generales {#general-guidelines-and-limitations}
 
-Su uso de las funciones de IA generativa está sujeto a las [Directrices del usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Con el compromiso de Adobe con la transparencia en el uso de herramientas de IA generativa para la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/es/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por [!DNL Firefly] cuando se descarga o exporta.
+Su uso de las funciones de IA generativa está sujeto a las [Directrices del usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Con el compromiso de Adobe con la transparencia en el uso de herramientas de IA generativa para la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por [!DNL Firefly] cuando se descarga o exporta.
 
 Revise estas directrices generales para usar IA generativa para el contenido en [!DNL Journey Optimizer B2B Edition]:
 
@@ -243,7 +244,8 @@ Proporcione siempre el contexto y la propuesta de valor para producir contenido 
 </tbody>
 </table>
 
-<!-- channels not yet supported
+<!--
+ channels not yet supported
 <tr>
 <td><strong>SMS</strong></td>
 <td>"Alert VIP customers about a 4-hour flash sale on premium electronics with 40% discount, limited to the first 100 customers"</td>
@@ -251,9 +253,11 @@ Proporcione siempre el contexto y la propuesta de valor para producir contenido 
 <tr>
 <td><strong>Push Notifications</strong></td>
 <td>"Re-engage users who haven't opened the app in 7 days with personalized content recommendations based on their reading history"</td>
-</tr> -->
+</tr> 
+-->
 
-<!-- Wait on more B2B specific examples
+<!--
+ Wait on more B2B specific examples
 
 ### Industry-specific approaches {#industry-approaches}
 
@@ -291,7 +295,8 @@ Proporcione siempre el contexto y la propuesta de valor para producir contenido 
 </tr>
 </tbody>
 </table>
- -->
+ 
+-->
 
 ### Contenido nuevo frente a modificación de contenido existente {#new-vs-modify}
 

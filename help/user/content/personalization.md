@@ -7,7 +7,7 @@ role: User, Developer
 level: Intermediate
 keywords: expresión, editor, inicio, personalización
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
+source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 6%
@@ -43,7 +43,7 @@ En [!DNL Journey Optimizer B2B Edition], puede generar su contenido de correo el
 
 >[!NOTE]
 >
->Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}.
+>Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## editor de Personalization
 
@@ -65,10 +65,12 @@ Haga clic en el icono de _menú Más_ ( **...** ) (junto al icono de _Agregar_ (
 
 ![Editor de Personalization - menú Token More](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
-<!-- >>[!NOTE]
+<!--
+>[!NOTE]
 >
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->
+
 También puede definir una cadena de texto de reserva predeterminada que se muestra si un atributo de perfil de tipo cadena está vacío. Haga clic en el icono _Menú más_ ( **...** ) del atributo y seleccione **[!UICONTROL Insertar con texto de reserva]**. Escriba el texto que se debe mostrar cuando el valor del atributo esté vacío para un perfil y, a continuación, haga clic en **[!UICONTROL Agregar]**.
 
 Se recomienda validar la expresión antes de insertarla en el contenido. Haga clic en **[!UICONTROL Validar]** en la parte inferior del editor para comprobar la sintaxis y asegurarse de que no haya errores.

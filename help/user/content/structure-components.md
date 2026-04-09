@@ -4,9 +4,9 @@ description: 'Utilice componentes de estructura para crear diseños para correos
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1603'
 ht-degree: 7%
 
 ---
@@ -74,7 +74,7 @@ La barra de herramientas se muestra en el lienzo cuando se selecciona en el lien
 
 Después de agregar un componente, se selecciona en el espacio de diseño visual y sus propiedades se muestran en el panel derecho. La ficha _[!UICONTROL Configuración]_ se muestra de manera predeterminada. También puede seleccionar un componente de estructura en cualquier momento para cambiar la configuración.
 
-#### Mostrar opciones
+#### Opciones de visualización
 
 Si desea excluir el componente de la pantalla del escritorio o del dispositivo móvil, cambie la configuración de **[!UICONTROL Opciones de visualización]**. De forma predeterminada, _[!UICONTROL Mostrar en todos los dispositivos]_, habilita la visualización en todos los dispositivos.
 
@@ -97,7 +97,7 @@ Para quitar la designación del encabezado o pie de página, seleccione el compo
 
 En el caso de pantallas o ventanas de visualización más pequeñas, las columnas del componente de estructura se muestran como apiladas a menos que cambie la configuración predeterminada. Con el componente de estructura de varias columnas seleccionado, cambie la configuración **[!UICONTROL No apilar columnas en dispositivos móviles]** moviendo el control deslizante de alternancia a la derecha.
 
-![No apilar columnas en el móvil &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
+![No apilar columnas en el móvil ](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Estilos de componente
 

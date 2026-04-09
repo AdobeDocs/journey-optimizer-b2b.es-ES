@@ -6,10 +6,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 2%
+source-wordcount: '361'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +35,7 @@ Donde:
 
   >[!NOTE]
   >
-  >La estructura de atributos se define en un [esquema XDM de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}.
+  >La estructura de atributos se define en un [esquema XDM de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Los identificadores pueden ser cualquier carácter Unicode excepto los siguientes:
 
@@ -48,9 +49,11 @@ Donde:
 
 * En Handlebars, los valores devueltos por {\{expression}\} son _HTML-escaped_. Si la expresión contiene `&`, el resultado devuelto con escape de HTML se generará como `&amp;`. Si no desea que Handlebars escape un valor, utilice el signo +triple-stash_.
 
-<!-- For example:
+<!--
+ For example:
 
-    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. -->
+    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. 
+-->
 
 * Para los argumentos de funciones literales, el analizador de idioma de plantilla no admite un único símbolo de barra invertida sin escape (`\`). Este carácter debe especificarse con una barra invertida (`\`) adicional. Por ejemplo:
 
@@ -68,9 +71,11 @@ Una función de ayuda Handlebars es un identificador simple que se puede anexar 
 {{/each }}
 ```
 
-<!-- These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name. 
+<!--
+ These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name.
 
-Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
+Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). 
+-->
 
 Para obtener información más detallada sobre estas funciones, consulte [Funciones de ayuda](./personalization-helper-functions.md).
 
@@ -83,7 +88,7 @@ Para obtener información más detallada sobre estas funciones, consulte [Funcio
 | Cadena | Un tipo de datos compuesto por caracteres entre comillas dobles. <br>Ejemplos: `"prospect"`, `"jobs"`, `"articles"` |
 | Booleano | Un tipo de datos que puede ser verdadero o falso. |
 | Entero | Un tipo de datos que representa un número entero. Puede ser positivo, negativo o cero. <br>Ejemplos: `-201`, `0`, `412` |
-| Matriz | Un tipo de datos que se comprende como un grupo de otros valores literales. Utiliza corchetes para agrupar y comas para delimitar entre distintos valores. <br> **Nota:** No puede tener acceso directo a las propiedades de los elementos de una matriz. <br> ejemplos: `[1, 4, 7]`, `["US", "FR"]` |
+| Matriz | Un tipo de datos que se comprende como un grupo de otros valores literales. Utiliza corchetes para agrupar y comas para delimitar entre distintos valores. <br> **Nota:** No puede tener acceso directo a las propiedades de los elementos de una matriz. <br> Ejemplos: `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
 >

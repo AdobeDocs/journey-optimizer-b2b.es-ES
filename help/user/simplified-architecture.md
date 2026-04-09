@@ -2,9 +2,9 @@
 title: Configuración de arquitectura simplificada
 description: Configure Journey Optimizer B2B edition en la arquitectura simplificada. Configure esquemas XDM, canales de correo electrónico/SMS, acciones de recorrido de Marketo Engage y usuarios.
 feature: Setup, Administration
-role: Admin, Data Engineer
+role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Utilice esta lista de comprobación para completar la configuración de Journey 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
 <td>Recopile las credenciales de la API de Experience Platform y los encabezados necesarios.</td>
-<td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-guide?lang=es">Más información</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide?lang=es">Más información</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
@@ -207,7 +207,8 @@ Para enviar correos electrónicos desde [!DNL Journey Optimizer B2B Edition] seg
 </tbody>
 </table>
 
-<!-- TBD for later 
+<!--
+ TBD for later
 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Checkbox"/></td>
@@ -273,7 +274,7 @@ Para permitir que los especialistas en marketing incluyan otros canales en sus r
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
 <td>Configure el sitio web de su empresa para que admita Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview">Más información</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Más información</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>

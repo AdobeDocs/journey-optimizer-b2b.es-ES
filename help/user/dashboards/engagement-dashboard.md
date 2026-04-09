@@ -4,9 +4,9 @@ description: Monitorice las métricas de participación en tiempo real de cuenta
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '561'
 ht-degree: 6%
 
 ---
@@ -77,7 +77,7 @@ Los filtros globales (rango de datos y atributos) aplicados al panel se transfie
 
 | Participación por cuentas | Participación por grupos de compras | Participación por personas |
 | ---------------------- | --------------------------- | -------------------- |
-| <li>Nombre de cuenta <li>Estado <li>Personas comprometidas (número)<li>Actividades de participación (número) <li>Último compromiso (fecha) | <li>Grupo de compras <li>Cuenta <li>Interés de la solución <li>Estado <li>Actividades de participación (número) | <li>Nombre <li>Estado <li>Correo electrónico (dirección) <li>Actividades de participación (número) <li>Último compromiso (fecha) |
+| <li>Nombre de la cuenta <li>Estado <li>Personas comprometidas (número)<li>Actividades de participación (número) <li>Último compromiso (fecha) | <li>Grupo de compra <li>Cuenta <li>Interés de la solución <li>Estado <li>Actividades de participación (número) | <li>Nombre <li>Estado <li>Correo electrónico (dirección) <li>Actividades de participación (número) <li>Último compromiso (fecha) |
 
 Puede hacer clic en el icono de menú **...** en la parte superior derecha y elegir **[!UICONTROL Ver más]** para [ver datos y perspectivas ampliados](#view-more).
 
@@ -90,7 +90,7 @@ Elija **[!UICONTROL Ver más]** para obtener datos y perspectivas ampliados.
 Según el gráfico, hay datos ampliados para lo siguiente:
 
 | Participación por cuentas / comprar grupos / personas | Cuentas/grupos de compra/personas comprometidas a lo largo del tiempo |
-| ----------------------------------------------- | -------------------------------------------------- | 
-| <li>Comprometido <li>Sin participación | <li>Fecha <li>Cuentas / Grupos de compra / Personas (número) <li>Comprometido/No comprometido |
+| ----------------------------------------------- | -------------------------------------------------- |
+| <li>Interacciones <li>Sin participación | <li>Fecha <li>Cuentas / Grupos de compra / Personas (número) <li>Comprometido/No comprometido |
 
 Para copiar los datos extendidos, haga clic en **[!UICONTROL Descargar CSV]** en la parte superior derecha.

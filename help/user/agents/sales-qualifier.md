@@ -4,7 +4,7 @@ description: Automatice la calificación y alcance de clientes potenciales B2B c
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Utilice los complementos de explorador y correo electrónico para acceder a inte
 
 El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 El calificador de ventas se incluye con [!UICONTROL Journey Optimizer B2B edition], pero es una aplicación independiente dentro de Experience Platform Experience Cloud.
 
@@ -209,7 +209,8 @@ El panel _[!UICONTROL Administración de representantes]_ muestra los representa
 
 Este panel presenta análisis en torno a las reuniones completadas.
 
-<!-- SHPHR-24341 remove section 
+<!--
+ SHPHR-24341 remove section
 ## Set up the Chrome plugin
 
 The AI Assistant Chrome plugin is available on the [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
@@ -220,7 +221,8 @@ When the plugin is installed in Chrome, the Adobe logo appears on the middle rig
 * Salesforce
 * Outlook
 * Microsoft Dynamics and web applications
-* Google applications -->
+* Google applications 
+-->
 
 ## Editar la barra de navegación izquierda
 
