@@ -1,16 +1,16 @@
 ---
 title: Modo oscuro para el contenido del correo electrónico
-description: Obtenga información acerca del diseño de correo electrónico en modo oscuro en Journey Optimizer B2B edition. Obtenga una vista previa del renderizado, personalice la configuración, garantice la accesibilidad y realice pruebas en todos los clientes de correo electrónico.
+description: Obtenga información acerca del diseño de correo electrónico en modo oscuro en Journey Optimizer B2B Edition. Obtenga una vista previa del renderizado, personalice la configuración, garantice la accesibilidad y realice pruebas en todos los clientes de correo electrónico.
 feature: Email Authoring
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: modo oscuro, correo electrónico, color, diseño
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 7%
+source-wordcount: '1606'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Cambiar a modo oscuro"
->abstract="Cambie al modo oscuro, donde puede obtener una vista previa del renderizado y definir ajustes personalizados específicos. <br>El renderizado final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que no todos los clientes de correo electrónico admiten el modo oscuro personalizado."
+>abstract="Cambie al modo oscuro, donde puede obtener una vista previa del renderizado y definir ajustes personalizados específicos. <br>El renderizado final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que todos los clientes de correo electrónico no admiten el modo oscuro personalizado."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
@@ -30,9 +30,9 @@ _El modo oscuro_ permite que un cliente de correo electrónico o aplicación com
 
 ![Diagrama de concepto de modo claro y oscuro que muestra la representación del contenido en los temas claro y oscuro](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-A medida que [crea su contenido de correo electrónico](./email-authoring.md) en el espacio de diseño visual de [!DNL Journey Optimizer B2B Edition], puede cambiar a la vista de _&#x200B;**[!UICONTROL modo oscuro]**&#x200B;_. En esta vista, también puede definir la configuración personalizada específica para admitir clientes de correo electrónico cuando su modo oscuro esté habilitado.
+A medida que [crea su contenido de correo electrónico](./email-authoring.md) en el espacio de diseño visual de [!DNL Journey Optimizer B2B Edition], puede cambiar a la vista de _**[!UICONTROL modo oscuro]**_. En esta vista, también puede definir la configuración personalizada específica para admitir clientes de correo electrónico cuando su modo oscuro esté habilitado.
 
-## Consideraciones del cliente de correo electrónico
+## Consideraciones del cliente de correo electrónico {#email-client-considerations}
 
 Hay una variación significativa en la forma en que diferentes clientes de correo electrónico y aplicaciones aplican el modo oscuro. Por este motivo, debe tener en cuenta las expectativas de procesamiento en modo oscuro con precaución. Antes de utilizar el modo oscuro en el espacio de diseño del correo electrónico, tenga en cuenta los siguientes casos de uso del cliente de correo electrónico:
 <!--
@@ -61,7 +61,7 @@ Algunos clientes de correo electrónico aplican sistemáticamente su propio modo
 * Outlook Windows Mail
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
-En este caso, la configuración del modo oscuro del cliente anula la configuración del modo oscuro personalizado que se define en [!DNL Journey Optimizer B2B Edition]
+En este caso, la configuración del modo oscuro del cliente anula la configuración del modo oscuro personalizado que se define en [!DNL Journey Optimizer B2B Edition].
 
 +++
 
@@ -86,9 +86,9 @@ Para obtener resultados óptimos, pruebe el contenido con los clientes de correo
 
 Al aplicar estilo al contenido del correo electrónico para el modo oscuro en [!DNL Journey Optimizer B2B Edition], el espacio de diseño visual proporciona dos tipos de herramientas:
 
-* Utilice la [función de vista previa](#preview-default-dark-mode) para revisar el procesamiento predeterminado del modo oscuro para la mayoría de los clientes de correo electrónico de soporte.
+* Utilice la [función de vista previa](#preview-dark-mode) para revisar el procesamiento predeterminado del modo oscuro para la mayoría de los clientes de correo electrónico de soporte.
 
-* Si desea anular la configuración predeterminada de los clientes de correo electrónico de soporte, defina y aplique la configuración personalizada del modo oscuro al contenido del correo electrónico. [Más información](#define-custom-dark-mode)
+* Si desea anular la configuración predeterminada de los clientes de correo electrónico de soporte, defina y aplique la configuración personalizada del modo oscuro al contenido del correo electrónico. [Más información](#custom-dark-mode)
 
 ### Previsualizar modo oscuro predeterminado {#preview-dark-mode}
 
@@ -107,7 +107,7 @@ Al aplicar estilo al contenido del correo electrónico para el modo oscuro en [!
 
 1. Cambie el selector a _Modo oscuro_ ( ![icono de modo oscuro](../assets/do-not-localize/icon-content-dark-mode.svg) ).
 
-   El lienzo muestra el contenido con el modo oscuro predeterminado preview.x
+   El lienzo muestra el contenido con la previsualización predeterminada en modo oscuro.
 
    De manera predeterminada, la vista previa en modo oscuro aplica el esquema de colores `full color invert` a todos los elementos, excepto a las imágenes y los iconos. Esta combinación de colores detecta las áreas con elementos claros y oscuros y las invierte. Los fondos claros se vuelven oscuros y el texto oscuro se vuelve claro, o los fondos oscuros se vuelven claros y el texto claro se vuelve oscuro.
 
@@ -168,7 +168,7 @@ _Para definir la configuración personalizada del modo oscuro :_
 
    Utilice las herramientas de previsualización y corrección para probar el diseño del correo electrónico. Consulte [Previsualizar y probar el contenido del correo electrónico](./email-simulate-content.md) para obtener más información.
 
-1. Si tiene una cuenta de Litmus Enterprise, seleccione **[!UICONTROL Procesar correo electrónico]** para ver la representación final en modo oscuro para varios clientes de correo electrónico en Litmus
+1. Si tiene una cuenta de Litmus Enterprise, seleccione **[!UICONTROL Procesar correo electrónico]** para ver el procesamiento final en modo oscuro para varios clientes de correo electrónico en la integración de Litmus.
 
    Consulte [Probar el procesamiento de correo electrónico con Litmus](./email-test-rendering.md) para obtener más información.
 
@@ -178,7 +178,7 @@ _Para definir la configuración personalizada del modo oscuro :_
 
 ## Prácticas recomendadas {#best-practices}
 
-A medida que la adopción del modo oscuro aumenta en los principales clientes de correo electrónico, es esencial tener en cuenta cómo se procesan los mensajes de correo electrónico en los entornos claro y oscuro, tanto si utiliza [modo oscuro personalizado](#define-custom-dark-mode) como si no.
+A medida que la adopción del modo oscuro aumenta en los principales clientes de correo electrónico, es esencial tener en cuenta cómo se procesan los mensajes de correo electrónico en los entornos claro y oscuro, tanto si utiliza [modo oscuro personalizado](#custom-dark-mode) como si no.
 
 El modo oscuro puede alterar colores, fondos e imágenes, a veces anulando las opciones de diseño. Para garantizar la coherencia visual, la accesibilidad y la integridad de la marca, siga estas prácticas recomendadas:
 
@@ -187,12 +187,12 @@ El modo oscuro puede alterar colores, fondos e imágenes, a veces anulando las o
 | Optimizar imágenes y logotipos | Lista de comprobación:<ul><li>Guarde los logotipos e iconos como archivos PNG con fondos transparentes para evitar cuadros blancos visibles en modo oscuro. <li>Evite imágenes con fondos blancos o claros codificados. <li>Si la transparencia no es una opción, coloque las imágenes sobre un fondo sólido en el diseño para evitar incómodas inversiones de color. |
 | Cuida tus fondos | Lista de comprobación:<ul><li>Asegúrese de que haya suficiente contraste entre los colores del texto y del fondo para facilitar la lectura tanto en los modos claro como oscuro. <li>Evite depender únicamente de los colores de fondo para el contenido crítico. Algunos clientes omiten los colores de fondo en el modo oscuro, por lo que debe asegurarse de que la información clave sigue siendo visible. |
 | Diseño de contenido accesible en modo oscuro | Lista de comprobación:<ul><li>Utilice combinaciones de colores fáciles de distinguir para las personas con daltonismo. <li>Utilice una paleta de medios tonos para garantizar el contraste con fondos claros y oscuros. <li>Utilice combinaciones de colores accesibles con alto contraste para mejorar la legibilidad y cumplir con los estándares de [!DNL Web Content Accessibility Guidelines (WCAG)]. Use herramientas como [!DNL WebAIM Contrast Checker] para comprobar el contraste de color. <li>Evite las fuentes delgadas, ya que pueden afectar a la legibilidad. Si su marca requiere una fuente fina, atíguela en modo oscuro. <li>Omitir blanco puro sobre negro puro, que puede causar fatiga ocular y podría invertirse automáticamente en algunos clientes de correo electrónico. <li>Proporcionar un estilo de reserva accesible si no se admite el modo oscuro. |
-| Prueba de correos electrónicos en un entorno de modo oscuro | Lista de comprobación:<ul><li>Use la [vista previa en modo oscuro](#preview-dark-mode) en el espacio de diseño del correo electrónico, que usa combinaciones de colores invertidos para detectar los problemas de forma temprana. <li>Use una cuenta de Litmus Enterprise con la opción [[!UICONTROL Procesar correo electrónico]](./email-test-rendering.md) para simular los diseños en los principales clientes de correo electrónico (como Apple Mail, Gmail y Outlook) y ver cómo se comportan los colores y las imágenes en el modo oscuro. |
+| Prueba de correos electrónicos en un entorno de modo oscuro | Lista de comprobación:<ul><li>Use la [vista previa en modo oscuro](#preview-dark-mode) en el espacio de diseño del correo electrónico, que usa combinaciones de colores invertidos para detectar los problemas de forma temprana. <li>Use una cuenta de Litmus Enterprise con la opción [_[!UICONTROL Procesar correo electrónico]_](./email-test-rendering.md) para simular los diseños en los principales clientes de correo electrónico (como Apple Mail, Gmail y Outlook) y ver cómo se comportan los colores y las imágenes en el modo oscuro. |
 
 <!--
 KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+The best practices for designing accessible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
 -->
 
 <!--

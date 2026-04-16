@@ -1,12 +1,12 @@
 ---
 title: Plantillas de correo electrónico
-description: 'Cree plantillas de correo electrónico reutilizables desde cero, HTML import o diseños existentes: administre plantillas para recorridos de cuenta en Journey Optimizer B2B edition.'
+description: 'Cree plantillas de correo electrónico reutilizables desde cero, HTML import o diseños existentes: administre plantillas para recorridos de cuenta en Journey Optimizer B2B Edition.'
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Utilice el editor de contenido visual para definir la estructura del contenido d
 
 ### Importar HTML
 
-Adobe Journey Optimizer B2B edition le permite importar contenido existente de HTML para diseñar sus plantillas de correo electrónico.
+Adobe Journey Optimizer B2B Edition le permite importar contenido existente de HTML para diseñar sus plantillas de correo electrónico.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -121,7 +121,7 @@ En la página de detalles de las plantillas de correo electrónico, haga clic en
 
 ![Haga clic en la ficha Utilizado por para comprobar el uso de la plantilla](./assets/template-details-used-by.png){width="400"}
 
-Los correos electrónicos de Journey Optimizer B2B edition están incrustados y creados en recorrido, por lo que el recorrido principal del correo electrónico que utiliza la plantilla se muestra en las referencias.
+Los correos electrónicos de Journey Optimizer B2B Edition están incrustados y creados en recorrido, por lo que el recorrido principal del correo electrónico que utiliza la plantilla se muestra en las referencias.
 
 * Al hacer clic en el vínculo, se le redirige al correo electrónico de recorrido correspondiente donde se utiliza la plantilla de correo electrónico.
 
@@ -132,7 +132,7 @@ Los correos electrónicos de Journey Optimizer B2B edition están incrustados y 
 Esta acción se puede realizar desde:
 
 * La página de detalles: haga clic en **[!UICONTROL Editar plantilla de correo electrónico]**.
-* La página del listado: haga clic en los puntos suspensivos (**...**) junto a una plantilla de correo electrónico y elija **[!UICONTROL Editar]**.
+* La página de listado: haga clic en los puntos suspensivos (**...**) junto a una plantilla de correo electrónico y elija **[!UICONTROL Editar]**.
 
 Esta acción lo lleva a la página _Diseñar su plantilla_ o a la página del editor de contenido visual (según el último estado guardado de la plantilla de correo electrónico). Desde aquí puede editar el contenido de su plantilla de correo electrónico según sea necesario. Consulte [Crear plantillas de correo electrónico](#create-email-templates) para obtener información sobre las opciones de edición.
 
@@ -144,7 +144,7 @@ Puede duplicar una plantilla de correo electrónico mediante cualquiera de los s
 
   ![Haga clic en Más para acceder a las acciones Eliminar y Duplicar](./assets/template-details-more-menu.png){width="400"}
 
-* En la página de lista _[!UICONTROL Plantillas de correo electrónico]_, haga clic en los puntos suspensivos (...) junto a la plantilla y elija **[!UICONTROL Duplicado]**.
+* En la página de lista _[!UICONTROL Plantillas de correo electrónico]_, haga clic en los puntos suspensivos (...) junto a la plantilla y elija **[!UICONTROL Duplicate]**.
 
 En el cuadro de diálogo, introduzca un nombre útil (único) y una descripción. Haga clic en **[!UICONTROL Duplicar]** para completar la acción.
 
@@ -175,7 +175,7 @@ Desde la pantalla _Crear tu correo electrónico_, usa la sección _Seleccionar p
 
 Para empezar a crear contenido con una de las plantillas de correo electrónico creadas, siga estos pasos:
 
-1. Acceda al Designer de correo electrónico desde la página _Editar contenido_.
+1. Acceda al espacio de diseño visual desde la página _Editar contenido_.
 
    En la página _Crear su correo electrónico_, la pestaña _Plantillas de ejemplo_ está seleccionada de forma predeterminada.
 

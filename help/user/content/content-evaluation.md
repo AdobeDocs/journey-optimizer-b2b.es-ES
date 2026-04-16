@@ -1,25 +1,25 @@
 ---
-title: Puntuación de contenido
-description: 'Evaluar el contenido del correo electrónico con la puntuación de alineación de marca: valide los colores, las fuentes, los logotipos y el estilo de escritura en las directrices de marca en Journey Optimizer B2B edition.'
+title: Evaluación y puntuación del contenido
+description: 'Evaluar el contenido del correo electrónico con la puntuación de alineación de marca: valide los colores, las fuentes, los logotipos y el estilo de escritura en comparación con las directrices de marca en Journey Optimizer B2B Edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 37e4a7976d716f24edf2c2e92cbfa4c149aa66ec
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 8%
 
 ---
 
-# Puntuación de contenido {#content-scoring}
+# Evaluación y puntuación del contenido {#content-scoring}
 
 La evaluación y puntuación de contenido le ayudan a crear, revisar y administrar contenido que se ajusta a las directrices [definidas en la marca seleccionada](./brands-manage-create.md#brand-definitions) y a los estándares de calidad generales. La ejecución de una evaluación garantiza la coherencia en el tono, la mensajería y la identidad visual de todas las campañas de correo electrónico, a la vez que sirve como una comprobación de calidad antes de que el contenido se publique.
 
 >[!AVAILABILITY]
 >
->Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B edition. Para obtener más información, contacte con su representante de Adobe.
+>Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B Edition. Para obtener más información, contacte con su representante de Adobe.
 >
 >Consulte [Permisos relacionados con la marca](./brands-overview.md#brand-related-permissions) para obtener información sobre cómo los administradores de productos pueden habilitar estas características.
 
@@ -41,7 +41,7 @@ La evaluación y puntuación de contenido le ayudan a crear, revisar y administr
 
    ![Puntuaciones de evaluación en el panel derecho](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
-## Puntuación de la alineación de marca {#brand-score}
+## Puntuación de la alineación de marca {#brand-alignment-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -81,7 +81,7 @@ La puntuación se calcula según las infracciones identificadas en el contenido 
 * 60-79 = Justo - Algunas violaciones significativas
 * Menos de 60 = Pobre - Las violaciones importantes requieren atención
 
-Puede revisar los resultados de la evaluación con más detalle para identificar infracciones y mejorar las puntuaciones de alineación de la categoría (_Alta_, _Medium_ y _Baja_), así como los detalles.
+Puede revisar los resultados de la evaluación con más detalle para identificar infracciones y mejorar las puntuaciones de alineación de categorías (_Alta_, _Medium_ y _Baja_).
 
 Para el **[!UICONTROL estilo de escritura]** o **[!UICONTROL contenido visual]**, haga clic en la flecha de _Expandir_ ( ![Expandir flecha](../assets/do-not-localize/icon-expand-right.svg) ) para mostrar los detalles de la evaluación.
 

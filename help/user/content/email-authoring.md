@@ -1,10 +1,10 @@
 ---
 title: Creación de mensajes de correo electrónico
-description: Cree correos electrónicos con herramientas de diseño visual, importación de HTML o plantillas; utilice la generación de contenido del asistente de IA, CSS personalizado y personalización en Journey Optimizer B2B edition.
+description: Cree correos electrónicos con herramientas de diseño visual, importación de HTML o plantillas; utilice la generación de contenido del asistente de IA, CSS personalizado y personalización en Journey Optimizer B2B Edition.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 2%
@@ -17,11 +17,11 @@ Después de [agregar un recurso de correo electrónico a un nodo de acción de r
 
 Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la ficha _[!UICONTROL Detalles]_ del panel derecho.
 
-![Haga clic en Editar contenido de correo electrónico &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Haga clic en Editar contenido de correo electrónico ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Esta acción inicia las herramientas de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
-* [Diseñe su correo electrónico desde cero](#design-your-email-from-scratch) mediante la interfaz de Designer de correo electrónico.
+* [Diseñe su correo electrónico desde cero](#design-your-email-from-scratch) con la interfaz de diseño visual.
 
 * [Importe contenido de HTML existente](#import-existing-html-content) desde un archivo o una carpeta .zip.
 
@@ -31,7 +31,7 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 
 >[!TIP]
 >
->Utilice el asistente de IA en Adobe Journey Optimizer B2B edition, con tecnología de IA generativa, para elevar el contenido al siguiente nivel. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos, contenido de texto de destino y obteniendo recomendaciones del asistente de IA para imágenes que resuenen con su audiencia. [Más información](./ai-assistant-emails.md)
+>Utilice el asistente de IA en Adobe Journey Optimizer B2B Edition, con tecnología de IA generativa, para elevar el contenido al siguiente nivel. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos, contenido de texto de destino y obteniendo recomendaciones del asistente de IA para imágenes que resuenen con su audiencia. [Más información](./ai-assistant-emails.md)
 
 ## Diseñe el correo electrónico desde cero {#design-from-scratch}
 

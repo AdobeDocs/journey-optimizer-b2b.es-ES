@@ -4,9 +4,9 @@ description: 'Generar contenido de correo electrónico con el Asistente de IA: c
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '3632'
+source-wordcount: '3633'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Esta nueva capacidad proporciona una generación de contenido basada en mensajes
 
 >[!IMPORTANT]
 >
->Para acceder a estas funciones en Adobe Journey Optimizer B2B edition, debe tener el permiso _[!UICONTROL Asistente de IA]_ > _[!UICONTROL Generar contenido]_. Para obtener más información sobre cómo un administrador de productos puede conceder permisos de características, consulte [Editar roles para permisos de productos](../admin/user-management.md#edit-roles-for-product-permissions).
+>Para acceder a estas funciones en Adobe Journey Optimizer B2B Edition, debe tener el permiso _[!UICONTROL Asistente de IA]_ > _[!UICONTROL Generar contenido]_. Para obtener más información sobre cómo un administrador de productos puede conceder permisos de características, consulte [Editar roles para permisos de productos](../admin/user-management.md#edit-roles-for-product-permissions).
 
 ## Directrices y limitaciones
 
 Antes de empezar a usar esta capacidad, revise las [directrices y limitaciones](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). También se requiere la aceptación de [Acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las capacidades de IA en [!DNL Journey Optimizer B2B Edition]. Para obtener más información, contacte con su representante de Adobe.
 
-Con el compromiso de Adobe de promover la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/es/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por Firefly cuando se descarga o exporta.
+Con el compromiso de Adobe de promover la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por Firefly cuando se descarga o exporta.
 
 Las siguientes limitaciones y directrices se aplican a las funciones del Asistente de inteligencia artificial utilizadas para generar contenido de correo electrónico en [!DNL Journey Optimizer B2B Edition]:
 
@@ -222,7 +222,7 @@ Después de [crear y personalizar tu correo electrónico](./email-authoring.md),
 
 En el espacio de diseño del correo electrónico, el asistente de IA puede ayudarle a optimizar el impacto de sus envíos al generar el cuerpo completo del correo electrónico, el contenido de texto de destino y las imágenes que interesan a su audiencia. Esta optimización de las campañas de correo electrónico está diseñada para producir una mejor participación. Seleccione el _Asistente de IA_ (![conmutador de menú Asistente de IA](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) para mostrar las herramientas de generación de contenido disponibles para la selección de contenido actual.
 
-![Asistente de IA activa o desactiva el diseñador de correo electrónico](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+![Alternar el asistente de IA en el espacio de diseño de correo electrónico](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
 Siga estos pasos según el tipo de generación de contenido de correo electrónico que desee utilizar:
 
