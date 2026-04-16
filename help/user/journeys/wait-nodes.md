@@ -4,9 +4,9 @@ description: Utilice los nodos de espera para pausar la progresión del recorrid
 feature: Account Journeys, Person Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,6 @@ Habilite la opción **[!UICONTROL Debe finalizar el]** para configurar un _paso 
 Con un _paso de espera avanzado_, usted define **_cuándo_** la persona o la cuenta deben salir, no solo cuánto tiempo deben esperar.
 
 ![nodo de Recorrido - paso de espera avanzado](./assets/node-wait-advanced.png){width="500"}
-
->[!AVAILABILITY]
->
->La configuración de espera avanzada está disponible para [!DNL Journey Optimizer B2B Edition] entornos que se han aprovisionado en la [arquitectura simplificada](../simplified-architecture.md).
 
 ### Tipos de espera
 

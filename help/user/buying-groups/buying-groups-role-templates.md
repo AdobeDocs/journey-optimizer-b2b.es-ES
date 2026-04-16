@@ -1,10 +1,10 @@
 ---
 title: Comprar plantillas de rol de grupo
-description: Cree plantillas de funciones con asignación automática condicional para identificar a los responsables de la toma de decisiones y a las partes interesadas en la compra de grupos en Journey Optimizer B2B edition.
+description: Cree plantillas de funciones con asignación automática condicional para identificar a los responsables de la toma de decisiones y a las partes interesadas en la compra de grupos en Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '1410'
 ht-degree: 5%
@@ -128,7 +128,7 @@ Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTR
 >
 >**Desaprobación de características**</br></br>
 >
->Con la [arquitectura simplificada](../simplified-architecture.md) para Journey Optimizer B2B edition, no se admite el filtrado basado en la pertenencia a listas o programas en una instancia de Marketo Engage.
+>En la versión actual de Journey Optimizer B2B Edition, ya no se admite el filtrado basado en la pertenencia a listas o programas en una instancia de Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -146,7 +146,7 @@ Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener
 
 1. En el cuadro de diálogo, cambie el valor **[!UICONTROL Miembros necesarios]** para cada rol definido según sea necesario.
 
-   Puede escribir el valor o hacer clic en **&plus;** o **−** para aumentarlo o reducirlo.
+   Puede escribir el valor o hacer clic en **&amp;plus;** o **−** para aumentarlo o reducirlo.
 
    ![Plantilla de roles - botón de configuración de puntuación de integridad](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -194,4 +194,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

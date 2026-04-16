@@ -1,15 +1,15 @@
 ---
 title: Funciones de ayuda
-description: Guía de referencia para funciones de ayuda de personalización en Journey Optimizer B2B edition. Incluye sintaxis y ejemplos de cadenas, fechas, matemáticas, etc.
+description: Guía de referencia para funciones de ayuda de personalización en Journey Optimizer B2B Edition. Incluye sintaxis y ejemplos de cadenas, fechas, matemáticas, etc.
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4943'
+source-wordcount: '4930'
 ht-degree: 6%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 6%
 # Funciones de ayuda
 
 Utilice las funciones de ayuda del editor de personalización para definir experiencias de contenido personalizado con precisión y eficacia, manipulando datos, realizando cálculos y dando formato al contenido. Explore y experimente con estas funciones, operadores y ayudantes para descubrir cómo trabajan juntos para ayudarle a crear recorridos personalizados y basados en datos.
-
->[!AVAILABILITY]
->
->Las funciones de ayuda están disponibles para [!DNL Journey Optimizer B2B Edition] entornos que se han aprovisionado en la [arquitectura simplificada](../simplified-architecture.md).
 
 ## Funciones de agregación
 

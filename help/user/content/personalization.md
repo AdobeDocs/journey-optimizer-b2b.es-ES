@@ -1,15 +1,15 @@
 ---
 title: Personalización de contenido
-description: Personalice los correos electrónicos B2B con tokens de cuenta, persona y sistema en Journey Optimizer B2B edition. Aprenda a utilizar el editor de personalización y la sintaxis.
+description: Personalice los correos electrónicos B2B con tokens de cuenta, persona y sistema en Journey Optimizer B2B Edition. Aprenda a utilizar el editor de personalización y la sintaxis.
 feature: Personalization, Content Design Tools, Email Authoring
 topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: expresión, editor, inicio, personalización
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '751'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ Las funcionalidades de personalización de [!DNL Adobe Journey Optimizer B2B Edi
 
 Con el _editor de personalización_, puede seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada para su contenido. Utilice varias herramientas, como funciones de ayuda, para adaptar los mensajes. El editor usa una sintaxis de personalización en línea basada en _Handlebars_, donde las expresiones se construyen con contenido entre llaves dobles `{{}}`.
 
-Al procesar el mensaje, Journey Optimizer B2B edition reemplaza la expresión por los datos contenidos en el conjunto de datos de Adobe Experience Platform y los valores del sistema local. Por ejemplo, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` se convierte dinámicamente en `Hello John Doe`.
+Al procesar el mensaje, Journey Optimizer B2B Edition reemplaza la expresión con los datos contenidos en el conjunto de datos de Adobe Experience Platform y los valores del sistema local. Por ejemplo, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` se convierte dinámicamente en `Hello John Doe`.
 
 Con esta sintaxis, puede personalizar los mensajes en varios campos, incluidas las líneas de asunto de los correos electrónicos, los cuerpos de los mensajes y la información del remitente.
 
@@ -43,7 +43,7 @@ En [!DNL Journey Optimizer B2B Edition], puede generar su contenido de correo el
 
 >[!NOTE]
 >
->Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}.
+>Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## editor de Personalization
 
@@ -52,10 +52,6 @@ El editor de personalización está disponible en todos los contextos en los que
 Agregue personalización en cualquier campo o componente de contenido haciendo clic en el icono _Agregar personalización_ ( ![Agregar icono de personalización](../../assets/do-not-localize/icon-personalization-field.svg) ).
 
 ![Editor de Personalization](./assets/personalization-editor.png){width="800" zoomable="yes"}
-
->[!NOTE]
->
->La siguiente información sobre el editor de personalización refleja los cambios disponibles para [!DNL Journey Optimizer B2B Edition] entornos aprovisionados en la [arquitectura simplificada](../simplified-architecture.md).
 
 ### Tokens y funciones de ayuda
 
