@@ -3,10 +3,10 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: fcc2d738bd22b7fd38e4d086f36d675945600520
 workflow-type: tm+mt
-source-wordcount: '4838'
-ht-degree: 70%
+source-wordcount: '4794'
+ht-degree: 71%
 
 ---
 
@@ -16,17 +16,23 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
-<!-- ## 2026.4 release notes {#rel-2026-4}
+<!--
+## 2026.4/5 release notes {#rel-2026-5}
 
-**Deployment date**: May 1, 2026
+**Deployment date**: May 15, 2026
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
 | Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. |
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | 
+
+>[!NOTE]
+>
+>These release changes begin deployment on May 15, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+-->
 
 ## Notas de la versión 2026.3 {#rel-2026-3}
 
@@ -41,7 +47,6 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Mejora | Envío de correo electrónico: optimización del tiempo de envío | Para los nodos de acción _Enviar correo electrónico_ en los recorridos de persona, puede usar las opciones de _Optimización del tiempo de envío_ para personalizar el tiempo de envío del correo electrónico mediante la predicción de cuándo es más probable que interactúe cada perfil. [Más información](../content/email-send-time-optimization.md) |
 | Mejora | Herramientas de diseño de plantillas de correo electrónico: modo HTML avanzado | Con el _modo avanzado de HTML_ en el espacio de diseño de plantillas de correo electrónico, los usuarios pueden realizar pequeñas ediciones de HTML/CSS y agregar etiquetas de script a una plantilla de correo electrónico para resolver los problemas de procesamiento. [Más información](../content/email-template-advanced-html.md) |
 | Mejora | Objetos personalizados de persona: comprar plantillas de roles de grupo | Cuando los administradores configuran objetos personalizados relacionados con un perfil de persona de negocios, los especialistas en marketing ahora pueden definir funciones de grupo de compra mediante estos objetos personalizados. [Más información](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
-| Mejora | Puntuación de contenido de correo electrónico: validación de calidad de contenido | Además de la alineación de marca, puede evaluar la calidad general del contenido para descubrir posibles problemas con la legibilidad, la coherencia y la eficacia (independientemente de las directrices de marca). Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. |
 | Mejora | Puntuación de contenido de correo electrónico: evaluación de la calidad del contenido | Además de la alineación de marca, puede evaluar la calidad general del contenido para descubrir posibles problemas con la legibilidad, la coherencia y la eficacia (independientemente de las directrices de marca). Estas comprobaciones automatizadas ayudan a identificar mensajes poco claros, tonos incoherentes o lagunas estructurales. [Más información](../content/content-evaluation.md) |
 
 <!--
