@@ -4,10 +4,10 @@ description: Configure las opciones de Marketo Engage para la entrega de correo 
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
-source-git-commit: 0a9cff812d0631a34a09cca059ffb8496248c2b4
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 83%
+source-wordcount: '1326'
+ht-degree: 73%
 
 ---
 
@@ -58,7 +58,7 @@ Para los correos electrónicos de marketing no operativos, el texto de cancelaci
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
-Si alguna vez necesita volver al contenido predeterminado del sistema, copie y pegue lo siguiente:
+Si necesita volver al contenido predeterminado del sistema, copie y pegue lo siguiente:
 
 +++ Texto de cancelación de suscripción predeterminado del sistema
 
@@ -130,7 +130,7 @@ field.
 
    ![Administrador de correo electrónico de Marketo Engage - Límites de recuperación de objetos personalizados - valores predeterminados](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
-   Se admiten valores entre 10 y 100. El _[!UICONTROL límite de recuperación secundaria]_ se establece automáticamente al dividir 1000 por el límite principal. Por ejemplo, si establece el límite principal en 50, el límite secundario se calcula como 20 (1000 ÷ 50 = 20).
+   Se admiten valores entre 10 y 100. El sistema establece automáticamente el _[!UICONTROL límite de recuperación secundaria]_ dividiendo 1000 por el límite principal. Por ejemplo, si establece el límite principal en 50, el límite secundario se calcula como 20 (1000 ÷ 50 = 20).
 
 1. Haga clic en **[!UICONTROL Guardar cambios]**.
 
@@ -142,9 +142,9 @@ Cambie _[!UICONTROL Opciones de encabezado personalizado]_ para el correo electr
 
 1. Desplácese al panel _[!UICONTROL Opciones de encabezado personalizado]_ y cambie la configuración según las directivas de vínculos de seguimiento:
 
-   ![Administrador de correo electrónico de Marketo Engage - Configuración predeterminada de opciones de encabezado personalizadas](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
+   ![Administrador de correo electrónico de Marketo Engage - Configuración predeterminada de opciones de encabezado personalizadas](./assets/me-admin-email-custom-header-options.png){width="500"}
 
-   * **[!UICONTROL Seguridad de transporte estricta]**: establezca esta opción en Habilitada para garantizar que los vínculos de seguimiento siempre se proporcionen a través de HTTPS (solo debe establecerse para suscripciones con vínculos de seguimiento protegidos por SSL).
+   * **[!UICONTROL Seguridad estricta de transporte]** - Establezca esta opción en _Habilitado_ para garantizar que los vínculos de seguimiento siempre se proporcionen a través de HTTPS. Habilitar esto solo para suscripciones con vínculos de seguimiento protegidos por SSL
    * **[!UICONTROL Max-age]**: este campo admite la directiva obligatoria para especificar el tiempo, en segundos, que el explorador debe recordar para acceder únicamente al dominio a través de HTTPS.
    * **[!UICONTROL IncludeSubDomains]**: utilice esta opción para incluir la directiva que aplica la directiva HSTS a todos los subdominios del host.
 
@@ -158,8 +158,8 @@ Cambie _[!UICONTROL Opciones de encabezado personalizado]_ para el correo electr
 
 La actividad de bots de correo electrónico, también conocida como interacción no humana (NHI), puede inflar los datos de _aperturas_ y _clics_ del correo electrónico, distorsionando las métricas de participación y activando la progresión de recorridos basada en eventos. Utilice el filtrado de bots de correo electrónico para mantener la integridad de las métricas y perspectivas de participación de clics. Existen dos métodos para identificar la sospecha de actividad de bots:
 
-* _&#x200B;**[!UICONTROL Coincidencia con la lista de bots de la IAB]**&#x200B;_: las actividades que coinciden con cualquier elemento de la [lista de bots de la empresa de Advertising interactiva](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agente de usuario/dirección IP) están marcadas como bots.
-* _&#x200B;**[!UICONTROL Coincidencia con el patrón de proximidad]**&#x200B;_: dos o más actividades que se producen al mismo tiempo (en menos de un segundo) se identifican como bots. Los atributos considerados durante la comparación son:
+* _**[!UICONTROL Coincidencia con la lista de bots de la IAB]**_: las actividades que coinciden con cualquier elemento de la [lista de bots de la empresa de Advertising interactiva](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agente de usuario/dirección IP) están marcadas como bots.
+* _**[!UICONTROL Coincidencia con el patrón de proximidad]**_: dos o más actividades que se producen al mismo tiempo (en menos de un segundo) se identifican como bots. Los atributos considerados durante la comparación son:
    * ID de posible cliente (debe ser el mismo)
    * Recurso de correo electrónico (debe ser el mismo)
    * Clic en vínculo o correo electrónico abierto
@@ -199,7 +199,7 @@ Para la actividad de clic en vínculo de correo electrónico y de apertura de co
 
 ### LISTA DE BLOQUEADOS IP
 
-Adobe ha identificado una lista de direcciones IP responsables de generar millones de participaciones falsas, ya que las participaciones recibidas de cualquiera de las siguientes direcciones IP se filtran automáticamente y no se agregan a la instancia de Marketo Engage. Este filtrado puede reducir las aperturas de correo electrónico, los clics y otras actividades relacionadas. Esta lista puede actualizarse periódicamente.
+Adobe ha identificado las direcciones IP responsables de la generación de participaciones falsas. La participación desde estas IP se filtra y excluye automáticamente de la instancia de Marketo Engage. Este filtrado puede reducir las aperturas de correo electrónico, los clics y otras actividades relacionadas. Esta lista puede actualizarse periódicamente.
 
 +++ Direcciones IP bloqueadas
 

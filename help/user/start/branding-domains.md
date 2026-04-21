@@ -3,10 +3,11 @@ title: Configurar dominios de marca
 description: Configure los dominios de promoción de la marca para que cada una de las marcas tenga sus propios vínculos de seguimiento de marca.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 1%
+source-wordcount: '1014'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +23,7 @@ Un dominio de promoción de la marca en Marketo Engage es un subdominio personal
 
 **CNAME únicos para vínculos de seguimiento**
 
-Los vínculos de seguimiento de correo electrónico deben ser nuevos y únicos para la instancia de Marketo Engage adjunta. Si tiene CNAME existentes para el seguimiento de vínculos que apuntan a una instancia de Marketo Engage preexistente (de producción), no se pueden reutilizar _tal cual_.
+Los vínculos de seguimiento de correo electrónico deben ser nuevos y únicos para la instancia de Marketo Engage adjunta. Si tiene CNAME existentes para el seguimiento de vínculos que apuntan a una instancia de Marketo Engage preexistente (producción), no se pueden reutilizar sin realizar modificaciones.
 
 Puede compartir la marca del dominio de ruta de retorno entre la instancia de producción de Marketo Engage y la instancia adjunta, pero se trata de un cambio en el servidor. Abra un ticket de asistencia y proporcione su prefijo Marketo Engage (Munchkin ID) y su nuevo prefijo Journey Optimizer B2B edition (Munchkin ID) para solicitar la promoción de marca de dominio de ruta de retorno compartida.
 
@@ -30,7 +31,7 @@ Puede compartir la marca del dominio de ruta de retorno entre la instancia de pr
 
 >[!PREREQUISITES]
 >
->Antes de editar o agregar un dominio en la interfaz de usuario, debe tener un CNAME [asignado a un dominio de Marketo Engage proporcionado por Adobe](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Antes de editar o agregar un dominio en la interfaz de usuario, debe tener un CNAME [asignado a un dominio de Marketo Engage proporcionado por Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
 >Al añadir un dominio, el sistema comprueba los SSL preexistentes, que pueden haberse creado manualmente anteriormente. Si se produce esta validación, cree el dominio sin seleccionar la creación de SSL y, a continuación, conéctelo como un procedimiento independiente.
 
@@ -70,11 +71,11 @@ El primer paso para trabajar con los dominios de promoción de la marca es edita
 
 ## Definir un dominio adicional
 
-Después de editar el dominio predeterminado, puede agregar otro dominio de promoción de la marca cuando desee ejecutar varias marcas fuera del entorno de Journey Optimizer B2B edition, donde cada una tiene sus propios vínculos de seguimiento de marca. Al agregar un dominio, tiene las siguientes opciones:
+Después de editar el dominio predeterminado, puede agregar otro dominio de promoción de la marca para admitir varias marcas dentro del entorno de Journey Optimizer B2B Edition, donde cada una tiene sus propios vínculos de seguimiento de marca. Al agregar un dominio, tiene las siguientes opciones:
 
 >* _Convertir en dominio principal_: Convierta este dominio en el dominio principal del área de trabajo. Al seleccionar esta opción, todos los correos electrónicos no enviados existentes se establecen en el dominio principal predeterminado y todos los correos electrónicos recién creados se establecen de forma predeterminada en este dominio principal. Los especialistas en marketing pueden elegir un dominio de marca alternativo donde sea necesario.
 >
->* _Generar certificado SSL_: Cree una capa de sockets seguros (SSL) con la creación del dominio. El primer dominio de seguimiento inicia una configuración única de infraestructura que puede tardar unas horas. El sistema envía una notificación al finalizar.
+>* _Generar certificado SSL_: Cree una capa de sockets seguros (SSL) con la creación del dominio. El primer dominio de seguimiento inicia una configuración única de la infraestructura que puede tardar unas horas. El sistema envía una notificación al finalizar.
 
 _Para agregar el dominio :_
 
@@ -92,7 +93,7 @@ _Para agregar el dominio :_
 
    >[!NOTE]
    >
-   >**_SSL personalizados_**: Si necesita un SSL personalizado, puede enviar un [ticket de asistencia](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. No utilice la casilla de verificación para la creación SSL.
+   >**_SSL personalizados_**: Si necesita un SSL personalizado, puede enviar un [ticket de asistencia](https://experienceleague.adobe.com/en/support){target="_blank"}. No utilice la casilla de verificación para la creación SSL.
 
 1. Si tiene varios espacios de trabajo definidos para la instancia de Marketo Engage, haga clic en **[!UICONTROL Siguiente]**.
 

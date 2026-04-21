@@ -6,21 +6,21 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Esta función se encuentra actualmente en versión beta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1476'
 ht-degree: 13%
 
 ---
 
 # Seleccionar eventos de experiencia y campos
 
-Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
+Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 El uso de eventos de experiencia de AEP en recorrido es un proceso de dos pasos:
 
-1. Un administrador [agrega eventos y campos de experiencia de AEP](#add-an-event) en las configuraciones de Journey Optimizer B2B edition.
+1. Un administrador [agrega eventos y campos de experiencia de AEP](#add-an-event) en las configuraciones de Journey Optimizer B2B Edition.
 
 2. En un recorrido, un experto en marketing agrega un nodo _Escuchar un evento_ y [selecciona un Evento de experiencia](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -31,13 +31,13 @@ El uso de eventos de experiencia de AEP en recorrido es un proceso de dos pasos:
 
 ## Directrices y limitaciones
 
-A medida que seleccione eventos para cumplir con sus objetivos organizativos, tenga en cuenta lo siguiente:
+A medida que seleccione eventos para satisfacer sus objetivos organizativos, tenga en cuenta lo siguiente:
 
 * Puede seleccionar hasta 50 eventos y hasta 100 campos por evento.
 
 * Los recorridos pueden escuchar los eventos de experiencia que se incorporan mediante las funciones de flujo continuo de Experience Platform, como Web SDK o la API HTTP.
 
-* Puede utilizar eventos de experiencia para la toma de decisiones dentro de un recorrido, pero no se conservan. Por lo tanto, no puede aprovechar un registro histórico de eventos de experiencia en Journey Optimizer B2B edition.
+* Puede utilizar eventos de experiencia para la toma de decisiones dentro de un recorrido, pero no se conservan. Por lo tanto, no puede aprovechar un registro histórico de eventos de experiencia dentro de Journey Optimizer B2B Edition.
 
 * Cuando se utiliza un evento de experiencia y se publica el recorrido, se pueden añadir más campos, pero no se pueden eliminar los seleccionados anteriormente.
 
@@ -53,7 +53,7 @@ A medida que seleccione eventos para cumplir con sus objetivos organizativos, te
 
    ![Acceder a los eventos de experiencia seleccionados](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
-   La tabla está ordenada por la columna _[!UICONTROL Última actualización]_, con los eventos actualizados más recientemente en la parte superior de forma predeterminada.
+   La lista se muestra de acuerdo con la columna _[!UICONTROL Última actualización]_, con los eventos actualizados más recientemente en la parte superior de forma predeterminada.
 
    Desde esta página, puede [seleccionar](#add-an-event) y [editar](#edit-an-event) eventos para usarlos en recorridos.
 
@@ -127,7 +127,7 @@ Edite los detalles del evento para cambiar los campos.
 
 ## Eventos y campos
 
-Para [!DNL Journey Optimizer B2B Edition], ciertas actividades a nivel de personas se capturan como [!DNL Experience Platform] eventos de experiencia. Estos eventos se almacenan en un conjunto de datos del sistema que utiliza el esquema de evento de experiencia XDM e incluye grupos de campos específicos del recorrido. Puede usar estos eventos en [!UICONTROL Journey Optimizer B2B edition] como cualquier otro evento de experiencia.
+Para [!DNL Journey Optimizer B2B Edition], ciertas actividades a nivel de personas se capturan como [!DNL Experience Platform] eventos de experiencia. Estos eventos se almacenan en un conjunto de datos del sistema que utiliza el esquema de evento de experiencia XDM e incluye grupos de campos específicos del recorrido. Puede usar estos eventos en [!UICONTROL Journey Optimizer B2B Edition] como cualquier otro evento de experiencia.
 
 Cada evento expone un conjunto definido de campos que se pueden utilizar en el recorrido _Escuchar un evento_ nodos (toma de decisiones basada en eventos). Revise los tipos de evento disponibles y sus campos para determinar qué evento y campos utilizar en estos nodos de recorrido:
 
@@ -465,5 +465,5 @@ Tipo de evento: `leadOperation.interestingMoment `
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448686/?captions=spa&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

@@ -4,22 +4,22 @@ description: 'Configuración de los protocolos de envío de correo electrónico:
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '2396'
-ht-degree: 99%
+source-wordcount: '2374'
+ht-degree: 89%
 
 ---
 
 # Configuración del seguimiento y el envío de correo electrónico
 
-Adobe Journey Optimizer B2B edition aprovecha las funciones del canal de correo electrónico y el seguimiento de eventos en la instancia de Marketo Engage adjunta. Para asegurarse de que el envío de correo electrónico funciona de acuerdo con lo previsto para las organizaciones que utilizan cortafuegos restrictivos o una configuración de servidor proxy, un administrador del sistema debe añadir determinados dominios e intervalos de direcciones IP a la lista de permitidos.
+Adobe Journey Optimizer B2B edition aprovecha las funciones del canal de correo electrónico y el seguimiento de eventos en la instancia de Marketo Engage adjunta. Para garantizar que la entrega de correo electrónico funciona según lo esperado en las organizaciones que utilizan una configuración restrictiva del servidor de seguridad o del servidor proxy, un administrador del sistema debe añadir determinados dominios e intervalos de direcciones IP a la lista de permitidos.
 
 >[!NOTE]
 >
 >Si su organización ya está utilizando la instancia de Marketo Engage conectada para ejecutar las operaciones de marketing, estos protocolos y configuraciones ya deben estar implementados.
 
-Asegúrese de que los siguientes dominios (incluido el asterisco) se añaden a la lista de permitidos para habilitar todos los recursos de Marketo Engage y sockets web:
+Asegúrese de que los siguientes dominios (incluido el asterisco) se agregan a la lista de permitidos para habilitar todos los recursos de Marketo Engage y sockets web:
 
 * `*.experience.adobe.com`
 * `*.adobe.net`
@@ -27,13 +27,13 @@ Asegúrese de que los siguientes dominios (incluido el asterisco) se añaden a l
 * `*.marketodesigner.com`
 * `*.mktoweb.com`
 
-Siga estos pasos para garantizar el seguimiento y el envío de correos electrónicos:
+Complete los siguientes pasos para garantizar el seguimiento y la entrega por correo electrónico:
 
 1. [Creación de registros DNS para páginas de aterrizaje y correo electrónico](#create-dns-records-for-landing-pages-and-email)
 1. [Configurar SPF y DKIM](#set-up-spf-and-dkim)
 1. [Configurar DMARC](#set-up-dmarc)
 1. [Configurar registros MX para el dominio](#set-up-mx-records-for-your-domain)
-1. [Añadir direcciones IP de salida a las listas de permitidos](#outbound-ip-addresses)
+1. [Adición de direcciones IP salientes a listas de permitidos](#outbound-ip-addresses)
 
 >[!NOTE]
 >
@@ -106,20 +106,20 @@ Puede utilizar la misma configuración de DKIM para la instancia de producción 
 
 ## Configurar DMARC
 
-DMARC (Domain-based Message Authentication, Reporting, and Conformance) es un protocolo de autenticación que se utiliza para ayudar a las organizaciones a proteger su dominio frente al uso no autorizado. Amplía los protocolos de autenticación existentes, como SPF y DKIM, para informar a los servidores de destinatario sobre las acciones que deben realizarse si se produce un error de autenticación en su dominio. DMARC es opcional, pero se recomienda muy especialmente porque ayuda a proteger su marca y su reputación. Los principales proveedores, como Google y Yahoo, comenzaron a exigir el uso de DMARC para remitentes masivos a partir de febrero de 2024.
+DMARC (Domain-based Message Authentication, Reporting, and Conformance) es un protocolo de autenticación que se utiliza para ayudar a las organizaciones a proteger su dominio frente al uso no autorizado. Amplía los protocolos de autenticación existentes, como SPF y DKIM, para informar a los servidores de destinatario sobre las acciones que deben realizarse si se produce un error de autenticación en su dominio. DMARC es opcional, pero se recomienda encarecidamente porque ayuda a proteger su marca y su reputación. Los principales proveedores, como Google y Yahoo, comenzaron a exigir el uso de DMARC para remitentes masivos a partir de febrero de 2024.
 
 Para que DMARC funcione, debe tener al menos uno de los siguientes registros TXT de DNS:
 
 * Un SPF válido
 * Un registro de DKIM válido para su dominio FROM: (recomendado para [!DNL Marketo Engage] y [!UICONTROL Journey Optimizer B2B edition])
 
-También debe tener un registro TXT de DNS específico de DMARC para su dominio `FROM:`. Opcionalmente, puede definir una dirección correo electrónico que especifique adónde deben ir los informes DMARC dentro de su organización para la monitorización de informes.
+Además, configure un registro TXT DNS específico de DMARC para su dominio `FROM:`. Opcionalmente, puede definir una dirección correo electrónico que especifique adónde deben ir los informes DMARC dentro de su organización para la monitorización de informes.
 
 ### Ejemplo de flujo de trabajo DMARC
 
 >[!TIP]
 >
->Es una buena práctica implementar DMARC como un _despliegue lento_. Escale su directiva de DMARC de `p=none`, a `p=quarantine`, y luego a `p=reject`, a medida que vaya comprendiendo el impacto potencial, y establezca su directiva DMARC en una alineación relajada en SPF y DKIM.
+>Se recomienda implementar DMARC como un _despliegue gradual_. Escale su directiva de DMARC de `p=none`, a `p=quarantine`, y luego a `p=reject`, a medida que vaya comprendiendo el impacto potencial, y establezca su directiva DMARC en una alineación relajada en SPF y DKIM.
 
 Si recibe informes DMARC, debe hacer lo siguiente:
 
@@ -135,7 +135,7 @@ Si recibe informes DMARC, debe hacer lo siguiente:
 
    Revise los informes para asegurarse de que los resultados son los esperados.
 
-1. Si está satisfecho con el comportamiento de los mensajes en el nivel `p=quarantine`, puede ajustar la directiva en (`p=reject`).
+1. Si está satisfecho con el comportamiento de los mensajes en el nivel `p=quarantine`, puede ajustar la directiva a (`p=reject`).
 
    La directiva de rechazo indica al receptor que deniegue (rechace) cualquier correo electrónico del dominio que no supere la autenticación. Con esta directiva habilitada, solo el correo electrónico verificado como 100 % autenticado por su dominio tiene la oportunidad de colocarse en la bandeja de entrada.
 
@@ -145,13 +145,13 @@ Si recibe informes DMARC, debe hacer lo siguiente:
 
 ### Sistema de informes DMARC
 
-DMARC ofrece la posibilidad de recibir informes sobre correos electrónicos en los que se producen errores en SPF/DKIM. Existen dos informes distintos que generan los proveedores de servicios de Internet como parte del proceso de autenticación. Los remitentes pueden recibir estos informes a través de las etiquetas RUA/RUF de su directiva DMARC.
+DMARC ofrece la posibilidad de recibir informes sobre correos electrónicos en los que se producen errores en SPF/DKIM. Los servicios ISP generan dos informes diferentes como parte del proceso de autenticación. Los remitentes pueden recibir estos informes a través de las etiquetas RUA/RUF de su directiva DMARC.
 
 * **Informes agregados (RUA):** no contienen ninguna PII (información de identificación personal) que pueda ser sensible al RGPD (Reglamento general de protección de datos).
 
 * **Informes forenses (FRU):** contienen direcciones correo electrónico que son sensibles al RGPD. Antes de implementar este informe, verifique la directiva de su organización para gestionar la información que debe cumplir con el RGPD.
 
-El principal uso de estos informes es recibir información general de los correos electrónicos cuya identidad se ha intentando suplantar. Son informes muy técnicos y es mejor procesarlos a través de un herramienta de terceros.
+El principal uso de estos informes es recibir información general de los correos electrónicos cuya identidad se ha intentando suplantar. Son informes muy técnicos y se analizan mejor con una herramienta de terceros.
 
 ### Ejemplos de registros DMARC
 
@@ -183,7 +183,7 @@ Existen dos tipos de alineación para DMARC:
 
 * Alineación **DKIM** (Domain Keys Identified Mail): el dominio especificado en el encabezado `From:` de un correo electrónico coincide con DKIM-Signature. La firma de DKIM contiene un valor `d=` en el que el dominio se ha especificado para coincidir con el dominio del encabezado `From:`.
 
-  La alineación DKIM valida si el remitente está autorizado a enviar correo desde el dominio y comprueba que no se ha cambiado ningún contenido durante el envío de correo. Para implementar DMARC alineado con DKIM:
+  La alineación de DKIM valida si el remitente está autorizado para enviar correo desde el dominio y comprueba que no se ha cambiado ningún contenido durante el envío de correo electrónico. Para implementar DMARC alineado con DKIM:
 
    * Configure DKIM para el dominio MAIL FROM del mensaje. Siga las [instrucciones](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} de la documentación de Marketo Engage.
 
@@ -216,7 +216,7 @@ Si envía un correo electrónico mediante Marketo Engage a través de una IP ded
 
 Si tiene direcciones IP dedicadas, debe tener la nueva instancia de Journey Optimizer B2B edition creada en la misma región que la instancia de Marketo Engage existente. Si la nueva instancia se encuentra en una región diferente, no es posible compartir la IP existente. Si la región coincide, abre un ticket con [Soporte técnico de Adobe](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support){target="_blank"} para solicitar que tus grupos de enlace e IP existentes se compartan con la nueva instancia. Proporcione el prefijo Marketo Engage (Munchkin ID) y el nuevo prefijo Journey Optimizer B2B edition (Munchkin ID).
 
-Con esta solicitud, Adobe replica las mismas direcciones IP, grupos de enlace y dominios de ruta de retorno configurados como instancia de Marketo Engage. Cuando las IP se comparten entre la instancia de Marketo Engage y Journey Optimizer B2B edition, ambas las utilizan al mismo tiempo (un envío de Marketo Engage y un envío de Journey Optimizer B2B edition utilizan las mismas IP).
+Con esta solicitud, Adobe replica las mismas direcciones IP, grupos de enlace y dominios de ruta de retorno configurados como instancia de Marketo Engage. Cuando las IP se comparten entre las instancias de Marketo Engage y Journey Optimizer B2B Edition, las utilizan simultáneamente.
 
 >[!ENDSHADEBOX]
 
@@ -228,24 +228,20 @@ Las IP de confianza son un grupo compartido de IP reservadas a usuarios con un v
 
 Los clientes del grupo de IP compartidas no necesitan ninguna configuración adicional. Sigue utilizando los mismos grupos de IP y el mismo dominio de ruta de retorno predeterminado que antes.
 
-
-
 ## Configurar registros MX para el dominio
 
 Un registro MX le permite recibir correo en el dominio desde el que envía correo para procesar respuestas y respondedores automáticos. Si envía desde su dominio corporativo, probablemente ya esté configurado. Si no es así, puede configurarlo para que se asigne al registro MX de su dominio corporativo.
 
 ## Direcciones IP permitidas
 
-Una conexión de salida es aquella creada por Marketo Engage en un servidor de Internet en su nombre. Su organización de TI y algunos socios/proveedores pueden utilizar listas de permitidos para restringir el acceso a los servidores. Si es así, debe proporcionarles bloques de direcciones IP de salida de Marketo Engage para añadirlos a sus listas de permitidos.
+Marketo Engage establece una conexión saliente con un servidor de Internet en su nombre. Su organización de TI y algunos socios/proveedores pueden utilizar listas de permitidos para restringir el acceso a los servidores. Si es así, debe proporcionarles bloques de direcciones IP salientes de Marketo Engage para añadirlos a sus listas de permitidos.
 
 <!--
- ### Webhooks
-
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
 -->
 
 ## Bloques de direcciones IP de salida

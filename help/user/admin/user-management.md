@@ -4,10 +4,10 @@ description: 'Administre el acceso de los usuarios con Experience Cloud Admin Co
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '2161'
-ht-degree: 91%
+source-wordcount: '2143'
+ht-degree: 86%
 
 ---
 
@@ -28,7 +28,7 @@ Antes de poder usar Admin Console para administrar usuarios dentro de su equipo,
 
 1. Como administrador del sistema, debe recibir varios correos electrónicos de Adobe como parte del proceso de incorporación.
 
-   Busque el correo electrónico de bienvenida que proporciona la información acerca del nombre de la organización a la que se le ha concedido acceso.
+   Busque el correo electrónico de bienvenida que proporciona la información sobre el nombre de la organización a la que se le ha concedido acceso.
 
 1. Haga clic en el vínculo **[!UICONTROL Introducción]** del correo electrónico de bienvenida para ir a Admin Console.
 
@@ -50,7 +50,7 @@ Antes de poder usar Admin Console para administrar usuarios dentro de su equipo,
 
    * Si el acceso está configurado correctamente, la búsqueda devolverá el registro.
 
-   * Si el valor de la columna **[!UICONTROL ROL DE ADMINISTRADOR]** muestra `System`, sabrá que usted (o el usuario mostrado) es administrador del sistema.
+   * Si el valor de la columna **[!UICONTROL ROL DE ADMINISTRADOR]** muestra `System`, el usuario mostrado es un administrador del sistema.
 
 ## Creación del perfil de producto de Marketo Engage {#marketo-engage-profile}
 
@@ -62,7 +62,7 @@ Para obtener más información sobre el uso de perfiles de producto para las aut
 
 Cuando agrega un usuario al perfil de producto de Marketo Engage, posteriormente se agrega al rol _Usuario estándar_ dentro del área de trabajo predeterminada de la suscripción de Marketo Engage. Esta función les concede todos los permisos estándar para Marketo Engage en ese espacio de trabajo. Actualmente, todos los usuarios de Journey Optimizer B2B edition deben ser usuarios de Marketo Engage. Un administrador de Marketo Engage puede restringir el acceso actualizando los permisos de la función _Usuario estándar_ o moviendo al usuario a una función de usuario de Marketo Engage diferente con permisos más restrictivos.
 
-Para obtener más información sobre la administración de estos permisos en Marketo Engage, consulte [Administración de roles y permisos de usuarios](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} en la documentación de Marketo Engage.
+Para obtener más información sobre la administración de estos permisos en Marketo Engage, consulte [Administración de roles y permisos de usuarios](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} en la documentación de Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Un grupo de usuarios es una colección de usuarios a los que se concede un conju
 
 >[!TIP]
 >
->Si está migrando desde una implementación heredada y desea agregar los usuarios de Journey Optimizer B2B Edition existentes a Marketo Engage, puede omitir los pasos de creación de grupos de usuarios y simplemente abrir el grupo de usuarios existente y agregar el perfil de producto de Marketo Engage.
+>Al migrar desde una implementación heredada y agregar usuarios existentes a Marketo Engage, puede omitir la creación de grupos de usuarios y simplemente abrir el grupo existente y agregar el perfil de producto de Marketo Engage.
 
 Para obtener más información sobre cómo se usan los grupos de usuarios para administrar permisos, consulte [Administrar grupos de usuarios](https://helpx.adobe.com/es/enterprise/using/user-groups.html){target="_blank"} en la documentación de Admin Console.
 
@@ -143,11 +143,11 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
 ## Editar funciones para permisos de productos {#edit-roles-for-product-permissions}
 
-Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a un perfil de producto. Cada permiso se recopila en una funcionalidad, como recorridos o grupos de compra, que representa las diferentes funcionalidades u objetos de Journey Optimizer B2B edition.
+Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a un perfil de producto. Cada permiso se agrupa en una funcionalidad, como _recorridos_ o _grupos compradores_. Estas funciones representan funciones u objetos en Journey Optimizer B2B Edition.
 
 El área _Permisos_ de Adobe Experience Platform es donde los administradores pueden definir roles de usuario y directivas de acceso para administrar permisos de acceso para características y objetos dentro de una aplicación de producto. En esta aplicación, puede crear y administrar funciones, así como asignar los permisos de recursos deseados para estas. Los permisos también le permiten administrar los entornos limitados y los usuarios asociados a una función específica.
 
-Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
+Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
 
 ### Permisos de productos B2B {#b2b-product-permissions}
 
@@ -179,7 +179,7 @@ Cuando su organización tiene el producto Journey Optimizer B2B edition aprovisi
 
 Para las funciones integradas o personalizadas, puede decidir en cualquier momento agregar o eliminar permisos. Si modifica una función predeterminada o personalizada, afectará a todos los usuarios asignados a la función.
 
-En el ejemplo siguiente, se desea añadir permisos relacionados con el recurso Recorridos B2B para usuarios asignados a la función Administrador de canales B2B. Este cambio permite que los usuarios de esa función también administren recorridos de cuenta.
+En el ejemplo siguiente, se desea añadir permisos relacionados con el recurso Recorridos B2B para usuarios asignados a la función Administrador de canales B2B. Este cambio permite a los usuarios con ese rol administrar también los recorridos de la cuenta.
 
 >[!NOTE]
 >

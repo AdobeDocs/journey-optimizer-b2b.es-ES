@@ -4,10 +4,10 @@ description: Utilice la administración de campos XDM para controlar los datos d
 feature: Data Management, Integrations
 role: User
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 95%
+source-wordcount: '1180'
+ht-degree: 90%
 
 ---
 
@@ -63,7 +63,7 @@ La información de clase mostrada incluye:
 * Número de campos actualizables
 * Hora de la última actualización
 
-Para seleccionar campos del esquema de unión para clases XDM estándar, haga clic en el nombre de clase para abrir el cuadro de diálogo de selección _Campos administrados_ o haga clic en el icono _Menú más_ ( **...** ) para elegir entre _[!UICONTROL Campos administrados]_ y _[!UICONTROL Campos actualizables]_.
+Para seleccionar campos del esquema de unión, haga clic en el nombre de clase para abrir el cuadro de diálogo de selección Campos administrados. O bien, haga clic en el _menú Más_ (**...**) y elija entre los campos Managed y Updatable.
 
 ![Haga clic en el icono del menú Más para elegir entre campos administrados y campos actualizables](./assets/xdm-classes-standard-more-menu.png){width="550" zoomable="yes"}
 
@@ -87,7 +87,7 @@ Al elegir **[!UICONTROL Campos administrados]**, el cuadro de diálogo _Seleccio
 
 Establezca los campos actualizables para elegir qué campos se pueden modificar mediante las acciones de recorrido **[!UICONTROL Actualizar perfil de cuenta]** o **[!UICONTROL Actualizar perfil de persona]**.
 
-Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
+Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
 
 >[!IMPORTANT]
 >
@@ -118,7 +118,7 @@ Existen varias funciones que admiten el uso de los campos y esquemas relacionale
 
 >[!AVAILABILITY]
 >
->Los [esquemas relacionales](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión de disponibilidad limitada. Los esquemas relacionales y de Data Mirror están disponibles para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licencias. Los esquemas relacionales también están disponibles como una versión limitada para [!DNL Customer Journey Analytics] usuarios, según su licencia y la habilitación de características. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Los [esquemas relacionales](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión de disponibilidad limitada. Los esquemas relacionales y de Data Mirror están disponibles para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licencias. Los esquemas relacionales también están disponibles como una versión limitada para [!DNL Customer Journey Analytics] usuarios, según su licencia y la habilitación de características. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 >[!NOTE]
 >
