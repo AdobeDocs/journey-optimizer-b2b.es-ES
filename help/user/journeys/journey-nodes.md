@@ -1,11 +1,11 @@
 ---
 title: Nodos de recorrido
-description: Cree recorridos con nodos de acción, evento y orquestación (audiencia, espera, división y combinación) para el marketing multicanal en Journey Optimizer B2B edition.
+description: Cree recorridos con nodos de acción, evento y orquestación (audiencia, espera, división y combinación) para el marketing multicanal en Journey Optimizer B2B Edition.
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 6d3967babc1bc868fde0c76ac9068e63156070cd
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 12%

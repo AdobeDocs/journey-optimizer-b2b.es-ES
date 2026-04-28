@@ -1,10 +1,11 @@
 ---
 title: Modo de HTML avanzado para el diseño de plantillas de correo electrónico
-description: Utilice el modo Avanzado de HTML para ver y editar directamente el origen sin procesar de HTML del contenido de la plantilla de correo electrónico en el espacio de diseño de correo electrónico en Journey Optimizer B2B edition.
+description: Utilice el modo Avanzado de HTML para ver y editar directamente el origen sin procesar de HTML del contenido de la plantilla de correo electrónico en el espacio de diseño de correo electrónico en Journey Optimizer B2B Edition.
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
-source-git-commit: 95dba963e08125370f998cf3960d51ede94c2fb9
+exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -13,12 +14,14 @@ ht-degree: 0%
 
 # Modo de HTML avanzado para el diseño de plantillas de correo electrónico
 
-_El modo de HTML avanzado_ proporciona una vista que permite a los usuarios con experiencia ver y editar directamente el código fuente sin procesar del contenido de las plantillas de correo electrónico. Este modo es ideal cuando desea insertar expresiones sofisticadas, como lógica condicional, directamente en el origen. También es útil para hacer ajustes estructurales que van más allá de lo que exponen las herramientas de diseño visual.
+_El modo de HTML avanzado_ proporciona una vista que permite a los usuarios con experiencia ver y editar directamente el código fuente sin procesar del contenido de las plantillas de correo electrónico. This mode is ideal when you want to insert sophisticated expressions, such as conditional logic, directly into the source. También es útil para hacer ajustes estructurales que van más allá de lo que exponen las herramientas de diseño visual.
 
-<!-- We don't have the code editor at this point 
+<!-- 
+We don't have the code editor at this point 
 >[!NOTE]
 >
->_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. -->
+>_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. 
+-->
 
 >[!AVAILABILITY]
 >
@@ -26,7 +29,7 @@ _El modo de HTML avanzado_ proporciona una vista que permite a los usuarios con 
 
 ## Limitaciones importantes
 
-Antes de usar el modo avanzado de HTML para la creación de plantillas de correo electrónico [1&rbrace;, asegúrese de comprender las siguientes limitaciones:](./email-template-authoring.md)
+Antes de usar el modo avanzado de HTML para la creación de plantillas de correo electrónico [1}, asegúrese de comprender las siguientes limitaciones:](./email-template-authoring.md)
 
 * **Sin validación**: el editor de HTML no realiza la comprobación de sintaxis ni la verificación del diseño. Revise el código detenidamente antes de guardarlo.
 
@@ -40,7 +43,7 @@ Antes de usar el modo avanzado de HTML para la creación de plantillas de correo
 
 Se puede acceder al modo avanzado de HTML desde la barra de herramientas situada en la parte superior del espacio de diseño visual cuando se tiene una plantilla de correo electrónico cargada en el lienzo.
 
-1. Abra o [cree una plantilla de correo electrónico](./email-templates.md#create-an-email-template) y abra el espacio de diseño para editar el contenido.
+1. Open or [create an email template](./email-templates.md#create-an-email-template) and open the design space to edit the content.
 
 1. En el espacio de diseño, haga clic en el icono _[!UICONTROL HTML]_ ( ![HTML icon](../assets/do-not-localize/icon-code.svg) ) de la barra de herramientas.
 

@@ -1,16 +1,16 @@
 ---
 title: Plantillas de la página de destino
-description: 'Cree, administre y reutilice plantillas de página de aterrizaje: diseñe desde cero, importe HTML, duplique, elimine y realice un seguimiento del uso para equipos de marketing en Journey Optimizer B2B edition.'
+description: 'Cree, administre y reutilice plantillas de página de aterrizaje: diseñe desde cero, importe HTML, duplique, elimine y realice un seguimiento del uso para equipos de marketing en Journey Optimizer B2B Edition.'
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 0%
+source-wordcount: '1290'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Para un proceso de diseño acelerado y mejorado, puede crear plantillas de pági
 
 ## Acceso y administración de plantillas de página de aterrizaje
 
-Para acceder a las plantillas de página de aterrizaje de Adobe Journey Optimizer B2B edition, ve a **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**. En _[!UICONTROL WEB]_ del panel de navegación, seleccione **[!UICONTROL Plantillas de página de aterrizaje]**.
+Para acceder a las plantillas de página de aterrizaje de Adobe Journey Optimizer B2B Edition, ve a **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**. En _[!UICONTROL WEB]_ del panel de navegación, seleccione **[!UICONTROL Plantillas de página de aterrizaje]**.
 
 La página de lista mostrada incluye todas las plantillas de página de aterrizaje creadas en la instancia que aparece en formato de tabla. La tabla está ordenada por la columna _[!UICONTROL Modificada]_ de forma predeterminada, con las plantillas actualizadas más recientemente en la parte superior. Haga clic en el título de la columna para cambiar entre ascendente y descendente.
 
@@ -64,7 +64,7 @@ Utilice el espacio de diseño visual para definir la estructura del contenido de
 
 ### Importar HTML
 
-Adobe Journey Optimizer B2B edition le permite importar contenido existente de HTML para diseñar las plantillas de página de aterrizaje.
+Adobe Journey Optimizer B2B Edition le permite importar contenido existente de HTML para diseñar las plantillas de página de aterrizaje.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -111,7 +111,7 @@ En la página de detalles de plantillas, haga clic en la ficha **[!UICONTROL Uti
 Esta acción se puede realizar desde:
 
 * La página de detalles: haga clic en **[!UICONTROL Editar plantilla de página de aterrizaje]**.
-* La página del listado: haga clic en los puntos suspensivos (**...**) junto a una plantilla y elija **[!UICONTROL Editar]**.
+* La página de listado: haga clic en los puntos suspensivos (**...**) junto a una plantilla y elija **[!UICONTROL Editar]**.
 
 Esta acción lo lleva a la página _Diseñar su plantilla_ o a la página del editor de contenido visual (según el último estado guardado de la plantilla de página de aterrizaje). Desde aquí puede editar el contenido de la plantilla de la página de aterrizaje según sea necesario. Consulte [Crear una plantilla de página de aterrizaje](#create-a-landing-page-template) para obtener información sobre las opciones de edición.
 
@@ -123,7 +123,7 @@ Puede duplicar una plantilla de página de aterrizaje mediante cualquiera de los
 
   ![Haga clic en Más para acceder a las acciones Eliminar y Duplicar](./assets/template-details-more-menu.png){width="400"}
 
-* En la página de listado _[!UICONTROL Plantillas de página de aterrizaje]_, haga clic en los puntos suspensivos (...) junto a la plantilla y elija **[!UICONTROL Duplicar]**.
+* En la página de listado _[!UICONTROL Plantillas de página de aterrizaje]_, haga clic en los puntos suspensivos (...) junto a la plantilla y elija **[!UICONTROL Duplicate]**.
 
 En el cuadro de diálogo, introduzca un nombre útil (único) y una descripción. Haga clic en **[!UICONTROL Duplicar]** para completar la acción.
 
