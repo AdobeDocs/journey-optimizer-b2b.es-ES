@@ -1,8 +1,8 @@
 ---
 source-git-commit: 14ce84c26dc292c33479ca60841dafd1ab20db53
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 49%
+source-wordcount: '517'
+ht-degree: 46%
 
 ---
 # Artículo sobre colaboración
@@ -11,7 +11,7 @@ Las contribuciones de la comunidad y de los empleados de Adobe ajenos a los equi
 
 ## Código de conducta de Adobe Open Source
 
-Este proyecto ha adoptado el [Código de conducta de código abierto de Adobe](code-of-conduct.md) o el [Código de conducta de la Fundación .NET](https://dotnetfoundation.org/about/policies/code-of-conduct). Para obtener más información, consulte el artículo [Colaboración](contributing.md).
+Este proyecto ha adoptado el [Código de conducta de Adobe Open Source](code-of-conduct.md) o el [Código de conducta de .NET Foundation](https://dotnetfoundation.org/about/policies/code-of-conduct). Para obtener más información, consulte el artículo [Contribución](contributing.md).
 
 ## Contribuciones al contenido de Adobe
 
@@ -26,7 +26,7 @@ Este proyecto ha adoptado el [Código de conducta de código abierto de Adobe](c
 Si su contribución es una actualización menor:
 
 1. Desplácese hasta el tema que desee editar.
-1. En el _¿Fue útil este contenido?_ titular en la parte inferior de la ventana del explorador, haga clic en **Opciones de comentarios detalladas**.
+1. En el _¿Fue útil este contenido?_ en la parte inferior de la ventana del explorador, haga clic en **Opciones de comentarios detalladas**.
 1. Haga clic en **Sugerir una edición** y envíe una solicitud de extracción (PR) con sus cambios en la interfaz de usuario de GitHub.
 
    Consulte la guía [general del colaborador de Adobe Docs](https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/introduction) para obtener más información.
@@ -54,7 +54,7 @@ Si es redactor técnico, administrador de programa o desarrollador del equipo de
 Todos los artículos de este repositorio utilizan GitHub Flavored Markdown. Si no está familiarizado con Markdown, consulte:
 
 * [Conceptos básicos de Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
-* [documentos de GitHub](https://docs.github.com/en)
+* [Documentos de GitHub](https://docs.github.com/en)
 
 ## Etiquetas
 
