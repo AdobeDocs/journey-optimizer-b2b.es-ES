@@ -1,13 +1,12 @@
 ---
 title: Plantillas de la página de destino
-description: 'Cree, administre y reutilice plantillas de página de aterrizaje: diseñe desde cero, importe HTML, duplique, elimine y realice un seguimiento del uso para equipos de marketing en Journey Optimizer B2B Edition.'
+description: 'Cree, administre y reutilice plantillas de página de aterrizaje: diseñe desde cero, importe HTML, duplique, elimine y realice un seguimiento del uso para equipos de marketing en Journey Optimizer B2B edition.'
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 1%
@@ -20,7 +19,7 @@ Para un proceso de diseño acelerado y mejorado, puede crear plantillas de pági
 
 ## Acceso y administración de plantillas de página de aterrizaje
 
-Para acceder a las plantillas de página de aterrizaje de Adobe Journey Optimizer B2B Edition, ve a **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**. En _[!UICONTROL WEB]_ del panel de navegación, seleccione **[!UICONTROL Plantillas de página de aterrizaje]**.
+Para acceder a las plantillas de página de aterrizaje de Adobe Journey Optimizer B2B edition, ve a **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**. En _[!UICONTROL WEB]_ del panel de navegación, seleccione **[!UICONTROL Plantillas de página de aterrizaje]**.
 
 La página de lista mostrada incluye todas las plantillas de página de aterrizaje creadas en la instancia que aparece en formato de tabla. La tabla está ordenada por la columna _[!UICONTROL Modificada]_ de forma predeterminada, con las plantillas actualizadas más recientemente en la parte superior. Haga clic en el título de la columna para cambiar entre ascendente y descendente.
 
@@ -64,7 +63,7 @@ Utilice el espacio de diseño visual para definir la estructura del contenido de
 
 ### Importar HTML
 
-Adobe Journey Optimizer B2B Edition le permite importar contenido existente de HTML para diseñar las plantillas de página de aterrizaje.
+Adobe Journey Optimizer B2B edition le permite importar contenido existente de HTML para diseñar las plantillas de página de aterrizaje.
 
 {{$include /help/_includes/content-design-import.md}}
 
