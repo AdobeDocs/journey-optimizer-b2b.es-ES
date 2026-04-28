@@ -29,7 +29,7 @@ We don't have the code editor at this point
 
 ## Limitaciones importantes
 
-Antes de usar el modo avanzado de HTML para la creación de plantillas de correo electrónico [1}, asegúrese de comprender las siguientes limitaciones:](./email-template-authoring.md)
+Antes de usar el modo avanzado de HTML para la creación de plantillas de correo electrónico [1&rbrace;, asegúrese de comprender las siguientes limitaciones:](./email-template-authoring.md)
 
 * **Sin validación**: el editor de HTML no realiza la comprobación de sintaxis ni la verificación del diseño. Revise el código detenidamente antes de guardarlo.
 
