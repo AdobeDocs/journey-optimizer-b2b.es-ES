@@ -29,7 +29,7 @@ Si su contribución es una actualización menor:
 1. En el _¿Fue útil este contenido?_ en la parte inferior de la ventana del explorador, haga clic en **Opciones de comentarios detalladas**.
 1. Haga clic en **Sugerir una edición** y envíe una solicitud de extracción (PR) con sus cambios en la interfaz de usuario de GitHub.
 
-   Consulte la guía [general del colaborador de Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) para obtener más información.
+   Consulte la guía [general del colaborador de Adobe Docs](https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/introduction) para obtener más información.
 
 Las correcciones o aclaraciones menores que envía para la documentación y los ejemplos de código de este repositorio están incluidos en las condiciones de uso de Adobe.
 
@@ -43,7 +43,7 @@ Si forma parte de la comunidad de Adobe y desea crear un nuevo tema o enviar cam
 
 Los colaboradores de la comunidad pueden utilizar la interfaz de usuario de GitHub para editar o ramificar el repositorio con el fin de realizar contribuciones importantes.
 
-Consulte la [Guía del colaborador de Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) para obtener más detalles.
+Consulte la [Guía del colaborador de Adobe Docs](https://experienceleague.adobe.com/es/docs/contributor/contributor-guide/introduction) para obtener más detalles.
 
 ## Colaboradores internos
 
