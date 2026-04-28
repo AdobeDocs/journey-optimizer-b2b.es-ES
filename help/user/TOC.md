@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 94%
    + [Recorridos de cuenta y persona](./journeys/journeys-overview.md)
    + [Creación y publicación de un recorrido](./journeys/create-publish-journey.md)
    + [reentrada de recorrido](./journeys/journey-re-entry.md)
-   + [Nodos del recorrido](./journeys/journey-nodes.md)
+   + {hide-from-toc}[nodos de Recorrido](./journeys/journey-nodes.md)
    + Nodos del recorrido {#journey-nodes}
       + [Público de cuenta](./journeys/account-audience-nodes.md)
       + [Audiencia de personas (Beta)](./journeys/person-audience-nodes.md)
@@ -119,7 +119,7 @@ ht-degree: 94%
          + [Edición avanzada de HTML](./content/email-template-advanced-html.md)
          + [Convertir imagen en plantilla](./content/email-template-image-convert.md)
       + Plantillas de la página de destino (beta) {#landing-page-templates}
-         + [Información general](./content/landing-page-templates.md)
+         + {hide-from-toc}[Información general](./content/landing-page-templates.md)
          + [Diseño de plantilla de la página de destino](./content/landing-page-template-design.md)
    + Fragmentos {#visual-fragments}
       + [Información general](./content/fragments.md)
@@ -167,4 +167,4 @@ ht-degree: 94%
       + [Configuraciones de WhatsApp](./admin/configure-channels-whatsapp.md)
       + [Configuraciones del canal web (Beta)](./admin/configure-channels-web.md)
       + [Configuración de la página de aterrizaje (Beta)](./admin/landing-page-settings.md)
-      + [Configuración de las secuencias de datos para la colección de eventos](./data/aep-event-collection.md)
+      + {hide-from-toc}[Configurar flujos de datos para la colección de eventos](./data/aep-event-collection.md)
