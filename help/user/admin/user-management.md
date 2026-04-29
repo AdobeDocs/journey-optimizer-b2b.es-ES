@@ -4,10 +4,10 @@ description: 'Administre el acceso de los usuarios con Experience Cloud Admin Co
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+source-git-commit: 18d38a3e03e1eb275f3aac01c315d0b7e3ddbfab
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 86%
+source-wordcount: '2178'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Antes de poder usar Admin Console para administrar usuarios dentro de su equipo,
 
 1. Como administrador del sistema, debe recibir varios correos electrónicos de Adobe como parte del proceso de incorporación.
 
-   Busque el correo electrónico de bienvenida que proporciona la información sobre el nombre de la organización a la que se le ha concedido acceso.
+   Busque el correo electrónico de bienvenida que proporciona la información acerca del nombre de la organización a la que se le ha concedido acceso.
 
 1. Haga clic en el vínculo **[!UICONTROL Introducción]** del correo electrónico de bienvenida para ir a Admin Console.
 
@@ -50,7 +50,7 @@ Antes de poder usar Admin Console para administrar usuarios dentro de su equipo,
 
    * Si el acceso está configurado correctamente, la búsqueda devolverá el registro.
 
-   * Si el valor de la columna **[!UICONTROL ROL DE ADMINISTRADOR]** muestra `System`, el usuario mostrado es un administrador del sistema.
+   * Si el valor de la columna **[!UICONTROL ROL DE ADMINISTRADOR]** muestra `System`, sabrá que usted (o el usuario mostrado) es administrador del sistema.
 
 ## Creación del perfil de producto de Marketo Engage {#marketo-engage-profile}
 
@@ -86,7 +86,7 @@ Un grupo de usuarios es una colección de usuarios a los que se concede un conju
 
 >[!TIP]
 >
->Al migrar desde una implementación heredada y agregar usuarios existentes a Marketo Engage, puede omitir la creación de grupos de usuarios y simplemente abrir el grupo existente y agregar el perfil de producto de Marketo Engage.
+>Si desea agregar los usuarios existentes de Journey Optimizer B2B edition a Marketo Engage, puede omitir los pasos de creación de grupos de usuarios y simplemente abrir el grupo de usuarios existente y agregar el perfil de producto de Marketo Engage.
 
 Para obtener más información sobre cómo se usan los grupos de usuarios para administrar permisos, consulte [Administrar grupos de usuarios](https://helpx.adobe.com/es/enterprise/using/user-groups.html){target="_blank"} en la documentación de Admin Console.
 
@@ -143,7 +143,7 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
 ## Editar funciones para permisos de productos {#edit-roles-for-product-permissions}
 
-Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a un perfil de producto. Cada permiso se agrupa en una funcionalidad, como _recorridos_ o _grupos compradores_. Estas funciones representan funciones u objetos en Journey Optimizer B2B Edition.
+Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a un perfil de producto. Cada permiso se recopila en una funcionalidad, como recorridos o grupos de compra, que representa las diferentes funcionalidades u objetos de Journey Optimizer B2B edition.
 
 El área _Permisos_ de Adobe Experience Platform es donde los administradores pueden definir roles de usuario y directivas de acceso para administrar permisos de acceso para características y objetos dentro de una aplicación de producto. En esta aplicación, puede crear y administrar funciones, así como asignar los permisos de recursos deseados para estas. Los permisos también le permiten administrar los entornos limitados y los usuarios asociados a una función específica.
 
@@ -157,11 +157,11 @@ Los siguientes permisos rigen el acceso a las funciones de Journey Optimizer B2B
 | -------- | ----------- | ---------- |
 | Listas de cuentas B2B | Configure, administre, visualice y publique permisos para listas de cuentas B2B. Estos permisos incluyen acciones como agregar, quitar, importar y eliminar cuentas de listas de cuentas. | <li>Administrar listas de cuentas B2B |
 | Configuraciones de administración B2B | Configure, administre y visualice permisos para configuraciones administrativas B2B. Estos permisos incluyen conexiones de administración de recursos digitales, repositorios de recursos y eventos. | <li>Administrar configuraciones de administración B2B |
-| Assets B2B | Configure, administre y visualice permisos para recursos B2B. Estos permisos incluyen correos electrónicos, SMS, páginas de aterrizaje, fragmentos, plantillas e imágenes. | <li>Administración de Assets B2B <li>Administrar plantillas B2B <li>Administrar fragmentos B2B |
-| Grupos de compra B2B | Configure, administre y visualice permisos para grupos de compra B2B. Estos permisos incluyen intereses de la solución, funciones, plantillas y el estado del grupo de compra. | <li>Administrar grupos de compra B2B |
+| Assets B2B | Configure, administre y visualice permisos para recursos B2B. Estos permisos incluyen correos electrónicos, SMS, páginas de aterrizaje, fragmentos, plantillas e imágenes. | <li>Administración de Assets B2B <li>Administrar plantillas B2B <li>Administrar fragmentos B2B <li>Administración de correos electrónicos B2B |
+| Grupos de compra B2B | Configure, administre y visualice permisos para grupos de compra B2B. Estos permisos incluyen intereses de la solución, funciones, plantillas y el estado del grupo de compra. | <li>Administrar grupos de compra B2B <li>Administrar intereses de soluciones B2B <li>Administrar plantillas de rol B2B <li>Administrar etapas B2B <li>Ver grupos de compra B2B |
 | Configuraciones de canal B2B | Configure, administre y visualice permisos para configuraciones de canal B2B. Estos permisos incluyen configuración para límites de comunicación, credenciales de API y configuración de seguridad. | <li>Administrar configuraciones de canales B2B |
-| Paneles B2B | Configure y vea permisos para paneles B2B. Estos permisos incluyen la participación en la cuenta, la compra de etapas de grupo, las cuentas emergentes y la cobertura de contactos. | <li>Administración de paneles B2B |
-| Recorridos B2B | Configuración, administración, visualización y publicación de permisos para recorridos B2B. Estos permisos incluyen acciones de cuenta y persona, detectores de eventos y rutas divididas. | <li>Administración de Recorridos B2B |
+| Paneles B2B | Configure y vea permisos para paneles B2B. Estos permisos incluyen la participación en la cuenta, la compra de etapas de grupo, las cuentas emergentes y la cobertura de contactos. | <li>Ver tablero de participación B2B |
+| Recorridos B2B | Configuración, administración, visualización y publicación de permisos para recorridos B2B. Estos permisos incluyen acciones de cuenta y persona, detectores de eventos y rutas divididas. | <li>Administrar Recorridos de cuenta B2B |
 | Reglas de Journey Optimizer | Acceder y configurar reglas de frecuencia (límites de comunicación). Estos permisos deben limitarse a los administradores de productos. | <li>Ver reglas de frecuencia <li>Administrar reglas de frecuencia |
 
 ### Funciones integradas B2B
@@ -173,13 +173,13 @@ Cuando su organización tiene el producto Journey Optimizer B2B edition aprovisi
 | Administrador de Recorrido B2B | <li>Administración de Recorridos B2B <li>Administrar grupos de compra B2B <li>Administrar listas de cuentas B2B <li>Ver tablero de participación B2B <li>Ver tablero de perspectivas B2B |
 | Administrador de canales B2B | <li>Administración de Assets B2B <li>Administrar plantillas B2B <li>Administrar fragmentos B2B |
 | Administrador del sistema B2B | <li>Administrar configuraciones de canales B2B <li>Administrar configuraciones de administración B2B |
-| Usuario de ventas B2B | <li>Ver tablero de participación B2B <li>Acceder a Insights en CRM |
+| Usuario de ventas B2B | <li>Ver tablero de participación B2B <li>Ver grupos de compra B2B <li>Acceder a Insights en CRM |
 
 ### Editar permisos de funciones
 
 Para las funciones integradas o personalizadas, puede decidir en cualquier momento agregar o eliminar permisos. Si modifica una función predeterminada o personalizada, afectará a todos los usuarios asignados a la función.
 
-En el ejemplo siguiente, se desea añadir permisos relacionados con el recurso Recorridos B2B para usuarios asignados a la función Administrador de canales B2B. Este cambio permite a los usuarios con ese rol administrar también los recorridos de la cuenta.
+En el ejemplo siguiente, se desea añadir permisos relacionados con el recurso Recorridos B2B para usuarios asignados a la función Administrador de canales B2B. Este cambio permite que los usuarios de esa función también administren recorridos de cuenta.
 
 >[!NOTE]
 >
