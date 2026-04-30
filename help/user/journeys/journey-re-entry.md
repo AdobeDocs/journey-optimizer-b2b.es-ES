@@ -5,10 +5,10 @@ feature: Account Journeys
 role: User
 level: Intermediate
 exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
-source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
+source-git-commit: 585f98370f6741a5f4854beedd14a69c3a663f3c
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 9%
 
 ---
 
@@ -61,6 +61,9 @@ Puede habilitar la reentrada y cambiar la configuración de esta cuando el recor
 ## Progresión y actividad de la cuenta
 
 Para un recorrido de cuenta publicado, el mapa de recorrido muestra [progresión de cuenta](./journeys-overview.md#review-account-progression) para los nodos de recorrido. Cada nodo del mapa muestra el número de cuentas que se van a alcanzar y, para los recorridos activos, el número de cuentas que hay actualmente en ese nodo. Cada vez que una cuenta vuelve a introducir un recorrido, se cuenta como una entrada distinta.
-<!-- You can see how many times accounts have entered the journey. ?? -->
 
-Cuando explora en [detalles de la cuenta](../accounts/account-details.md), la actividad de la cuenta se muestra cada vez que la cuenta ingresó al recorrido. Incluye una actividad explícita y un recuento de periodicidad para que pueda ver claramente las reentradas.
+<!-- 
+You can see how many times accounts have entered the journey. ?? 
+
+When you drill in to [account details](../accounts/account-details.md), the account activity shows each time the account entered the journey. It includes explicit activity and a recurrence count so that you can see re-entries clearly.
+-->
