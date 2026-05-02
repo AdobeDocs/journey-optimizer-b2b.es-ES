@@ -43,7 +43,7 @@ En [!DNL Journey Optimizer B2B Edition], puede generar su contenido de correo el
 
 >[!NOTE]
 >
->Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
+>Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## editor de Personalization
 
