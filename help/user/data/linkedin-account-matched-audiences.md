@@ -6,18 +6,18 @@ role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
 source-git-commit: f50108fa113312c05ded9c09e7d91eeb49fb90ff
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 12%
+source-wordcount: '1015'
+ht-degree: 14%
 
 ---
 
 # Audiencias coincidentes con cuentas de LinkedIn
 
-[!DNL Journey Optimizer B2B Edition] ofrece la capacidad de generar audiencias de anuncios de LinkedIn a través de audiencias coincidentes con la cuenta y está diseñado para ayudarle a llenar los roles vacíos en sus grupos de compras. Al definir un conjunto de filtros de grupo de compra, puede mantener una audiencia coincidente de LinkedIn para segmentar a los posibles clientes que coincidan con los parámetros del grupo de compra. También puede activar una audiencia desde un recorrido de cuenta desde un nodo _Realizar una acción_.
+[!DNL Journey Optimizer B2B Edition] ofrece la capacidad de generar audiencias de anuncios de LinkedIn a través de audiencias coincidentes con la cuenta y está diseñado para ayudarle a llenar los roles vacíos en sus grupos de compras. Al definir un conjunto de filtros de grupo de compras, puede mantener un público coincidente de LinkedIn para segmentar a los posibles clientes que coincidan con los parámetros del grupo de compras. También puede activar una audiencia desde un recorrido de cuenta desde un nodo _Realizar una acción_.
 
 Esta función aprovecha los destinos de Experience Platform para administrar algunos aspectos de la integración. Hay un límite de diez flujos de datos.
 
-Antes de iniciar un flujo de datos desde Journey Optimizer B2B edition, debe tener al menos una instancia del [(Empresas) conector de destino de audiencia coincidente de LinkedIn](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con una cuenta de Administrador de campañas de LinkedIn configurada en la aplicación de Experience Platform.
+Antes de iniciar un flujo de datos desde Journey Optimizer B2B edition, debe tener al menos una instancia del [(Empresas) conector de destino de audiencia coincidente de LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} con una cuenta de Administrador de campañas de LinkedIn configurada en la aplicación de Experience Platform.
 
 ## Configure una nueva conexión de cuenta de LinkedIn {#linkedin-destination-setup}
 
@@ -34,7 +34,7 @@ Antes de iniciar un flujo de datos desde Journey Optimizer B2B edition, debe ten
    >
    >Puede encontrar rápidamente el conector ingresando `LinkedIn` en el cuadro de búsqueda.
 
-1. En la tarjeta del conector, haga clic en el icono _Más_ (**...**) y elija **[!UICONTROL Configurar nuevo destino]**.
+1. En la tarjeta del conector, haga clic en _Más_ (**...**) y elija **[!UICONTROL Configurar nuevo destino]**.
 
    ![Acceder al conector de audiencias coincidentes de (Companies) LinkedIn](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
@@ -58,7 +58,7 @@ El nombre y la descripción de la cuenta de LinkedIn son visibles para los grupo
 
 1. Vaya a **[!UICONTROL Conexiones]** > **[!UICONTROL Destinos]** en el panel de navegación izquierdo y seleccione la pestaña **[!UICONTROL Cuentas]**.
 
-1. Para la nueva cuenta que creó, haga clic en el menú _Más_ (**...**) y elija **[!UICONTROL Editar detalles]**.
+1. Para la nueva cuenta que creó, haga clic en _Más_ (**...**) y elija **[!UICONTROL Editar detalles]**.
 
    ![Editar detalles de la cuenta](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
 
@@ -76,7 +76,7 @@ El nombre y la descripción de la cuenta de LinkedIn son visibles para los grupo
 
 1. En Journey Optimizer B2B Edition, vaya a **[!UICONTROL Cuentas]** > **[!UICONTROL Grupos de compra]** en el panel de navegación izquierdo.
 
-1. Seleccione la pestaña **[!UICONTROL Examinar]**. 
+1. Seleccione la pestaña **[!UICONTROL Examinar]**.
 
 1. Haga clic en **[!UICONTROL Activar en destino de LinkedIn]** en la parte superior derecha.
 
@@ -148,4 +148,4 @@ A partir de la versión 2025.10, use la acción _Activar en destino_ para que la
 
 Puede interactuar con los miembros de su cuenta a través de un canal de medios de pago, como audiencias de publicidad de LinkedIn, para adquirirlos, nutrirlos y calificarlos para ventas. Use un nodo _Realizar una acción_ en un recorrido de cuentas para automatizar la participación con los miembros clave de una cuenta a través de un canal externo que sea más adecuado para los distintos miembros de la cuenta.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448675/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

@@ -1,6 +1,6 @@
 ---
 title: Uso de marcas para la generación y coherencia de contenido
-description: 'Defina las directrices de marca para la creación coherente de contenido: mantenga la identidad visual, la alineación de la mensajería y la voz auténtica en Journey Optimizer B2B Edition.'
+description: 'Defina las directrices de marca para la creación de contenido coherente: mantenga la identidad visual, la alineación de la mensajería y la voz auténtica en Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -47,9 +47,9 @@ Su organización puede obtener un valor significativo utilizando una marca en la
 >
 >Actualmente, esta funcionalidad está disponible como una versión beta pública.
 >
->Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B Edition. Para obtener más información, contacte con su representante de Adobe.
+>Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B edition. Para obtener más información, contacte con su representante de Adobe.
 
-Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe usar cuando cree contenido visual o escrito. Cuando se compilan estas directrices y se comparten los recursos de marca, cualquier miembro del equipo o colaborador puede crear contenido sin marca para el producto. Para habilitar la creación de contenido en la marca en Journey Optimizer B2B Edition, complete estas tareas:
+Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe usar cuando cree contenido visual o escrito. Cuando se compilan estas directrices y se comparten los recursos de marca, cualquier miembro del equipo o colaborador puede crear contenido sin marca para el producto. Para habilitar la creación de contenido de marca en Journey Optimizer B2B edition, complete estas tareas:
 
 1. Prepare su definición de marca.
 
@@ -59,7 +59,7 @@ Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe us
 
 1. Organice esta información en uno o varios archivos PDF.
 
-1. Use el archivo PDF para [crear la marca](./brands-manage-create.md#create-and-define-a-brand) en Journey Optimizer B2B Edition.
+1. Use el archivo PDF para [crear la marca](./brands-manage-create.md#create-and-define-a-brand) en Journey Optimizer B2B edition.
 
 1. Cuando esté listo para usarse, [publique la marca](./brands-manage-create.md#publish-the-brand).
 
@@ -74,7 +74,7 @@ Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe us
 
 Los administradores de productos pueden habilitar el acceso a las funciones de administración y alineación de marcas asignando los permisos de recursos de **[!UICONTROL Administrar kit de marca]** o **[!UICONTROL Habilitar asistente de IA]** a través de la interfaz de usuario de _Permisos_ en Adobe Experience Cloud.
 
-1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
+1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
 
 1. Haga clic en **[!UICONTROL Editar]** para modificar los permisos.
 

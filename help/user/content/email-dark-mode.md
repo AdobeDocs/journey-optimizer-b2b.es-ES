@@ -1,6 +1,6 @@
 ---
 title: Modo oscuro para el contenido del correo electrónico
-description: Obtenga información acerca del diseño de correo electrónico en modo oscuro en Journey Optimizer B2B Edition. Obtenga una vista previa del renderizado, personalice la configuración, garantice la accesibilidad y realice pruebas en todos los clientes de correo electrónico.
+description: Obtenga información acerca del diseño de correo electrónico en modo oscuro en Journey Optimizer B2B edition. Obtenga una vista previa del renderizado, personalice la configuración, garantice la accesibilidad y realice pruebas en todos los clientes de correo electrónico.
 feature: Email Authoring
 topic: Content Management
 role: User
@@ -30,7 +30,7 @@ _El modo oscuro_ permite que un cliente de correo electrónico o aplicación com
 
 ![Diagrama de concepto de modo claro y oscuro que muestra la representación del contenido en los temas claro y oscuro](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-A medida que [crea su contenido de correo electrónico](./email-authoring.md) en el espacio de diseño visual de [!DNL Journey Optimizer B2B Edition], puede cambiar a la vista de _&#x200B;**[!UICONTROL modo oscuro]**&#x200B;_. En esta vista, también puede definir la configuración personalizada específica para admitir clientes de correo electrónico cuando su modo oscuro esté habilitado.
+A medida que [crea su contenido de correo electrónico](./email-authoring.md) en el espacio de diseño visual de [!DNL Journey Optimizer B2B Edition], puede cambiar a la vista de _**[!UICONTROL modo oscuro]**_. En esta vista, también puede definir la configuración personalizada específica para admitir clientes de correo electrónico cuando su modo oscuro esté habilitado.
 
 ## Consideraciones del cliente de correo electrónico {#email-client-considerations}
 
