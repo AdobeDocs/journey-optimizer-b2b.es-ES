@@ -1,6 +1,6 @@
 ---
 title: Evaluación y puntuación del contenido
-description: 'Evaluar el contenido del correo electrónico con la puntuación de alineación de marca: valide los colores, las fuentes, los logotipos y el estilo de escritura en comparación con las directrices de marca en Journey Optimizer B2B Edition.'
+description: 'Evaluar el contenido del correo electrónico con la puntuación de alineación de marca: valide los colores, las fuentes, los logotipos y el estilo de escritura en las directrices de marca en Journey Optimizer B2B edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -19,7 +19,7 @@ La evaluación y puntuación de contenido le ayudan a crear, revisar y administr
 
 >[!AVAILABILITY]
 >
->Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B Edition. Para obtener más información, contacte con su representante de Adobe.
+>Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B edition. Para obtener más información, contacte con su representante de Adobe.
 >
 >Consulte [Permisos relacionados con la marca](./brands-overview.md#brand-related-permissions) para obtener información sobre cómo los administradores de productos pueden habilitar estas características.
 
