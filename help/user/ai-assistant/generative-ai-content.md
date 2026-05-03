@@ -9,7 +9,7 @@ exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2506'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
->title="Generación de contenido de IA"
->abstract="Después de haber creado el diseño, puede usar herramientas de IA generativa en [!DNL Journey Optimizer B2B Edition] para mejorar el contenido. Esta función simplifica el proceso de personalización y mejora de contenido al ajustar el contenido según el mensaje descriptivo."
+>title="Generación de contenido mediante IA"
+>abstract="Después de haber creado el diseño, puede usar herramientas de IA generativa en [!DNL Journey Optimizer B2B Edition] para mejorar el contenido. Esta función simplifica el proceso de personalización y mejora de contenido al ajustar el contenido según la indicación descriptiva."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="Contenido de referencia"
->abstract="Use _Contenido de referencia_ para cargar un archivo de recursos que contenga contenido que proporcione contexto adicional para IA generativa en [!DNL Journey Optimizer B2B Edition] o para seleccionar un archivo cargado anteriormente. Esta opción garantiza que todos los materiales necesarios estén disponibles para mejorar la calidad y la relevancia del contenido generado."
+>abstract="Use el _Contenido de referencia_ para cargar un archivo de recursos que contenga contenido que proporcione contexto adicional para IA generativa en [!DNL Journey Optimizer B2B Edition] o para seleccionar un archivo cargado anteriormente. Esta opción garantiza que todos los materiales necesarios estén disponibles para mejorar la calidad y la relevancia del contenido generado."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
->title="Términos generativos de IA de Adobe"
->abstract="El acceso a esta función está sujeto a su acuerdo con las directrices de usuario de IA generativa de Adobe Experience Cloud. Revise la precisión de cualquier resultado de esta función y asegúrese de que sea apropiado para su caso de uso."
+>title="Términos de la IA generativa de Adobe"
+>abstract="El acceso a esta función está sujeto a su acuerdo con las directrices de usuario de IA generativa de Adobe Experience Cloud. Revise cualquier resultado de esta función para verificar su exactitud y pertinencia para su caso de uso."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Directrices del usuario de IA generativa de Adobe"
 
 La IA generativa para el contenido en [!DNL Adobe Journey Optimizer B2B Edition], con tecnología de Microsoft Azure OpenAI y Adobe Firefly, proporciona sugerencias de variación del contenido proactivas para texto e imágenes. Optimice el impacto de su contenido experimentando con diferentes títulos e imágenes principales.
@@ -62,12 +62,12 @@ Revise estas directrices generales para usar IA generativa para el contenido en 
 
 * Asegúrese de informar de cualquier salida problemática utilizando los iconos de la miniatura hacia arriba, la miniatura hacia abajo o el indicador al seleccionar variantes.
 
-## Prácticas recomendadas rápidas para IA generativa {#generative-ai-prompting-guide}
+## Prácticas recomendadas para indicaciones de IA generativa {#generative-ai-prompting-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai_content_prompt"
->title="Guía rápida"
->abstract="Explore la documentación de [!DNL Journey Optimizer B2B Edition] para aprender a crear indicadores eficaces que produzcan contenido de marketing de alta conversión y sin marca."
+>title="Guía para la creación de indicaciones"
+>abstract="Explore la documentación de [!DNL Journey Optimizer B2B Edition] para aprender a crear indicaciones eficaces que produzcan contenido de marketing de alta conversión y coherente con la marca."
 
 Esta guía le ayuda a estructurar sus solicitudes, comunicar la intención con claridad y asegurarse de que la IA produzca mensajes que se ajusten a las directrices de marca, las necesidades de audiencia y los objetivos de la campaña.
 
