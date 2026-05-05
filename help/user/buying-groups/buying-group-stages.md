@@ -381,4 +381,4 @@ Utilice la ocurrencia de un cambio de fase de grupo de compra para mover la cuen
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448697/?captions=spa&learn=on)
