@@ -5,11 +5,16 @@ feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
@@ -35,7 +40,7 @@ We don't have the code editor at this point
 
 ## Limitaciones importantes
 
-Antes de usar el modo avanzado de HTML para la creación de plantillas de correo electrónico [1}, asegúrese de comprender las siguientes limitaciones:](./email-template-authoring.md)
+Antes de usar el modo avanzado de HTML para la creación de plantillas de correo electrónico [1&rbrace;, asegúrese de comprender las siguientes limitaciones:](./email-template-authoring.md)
 
 * **Sin validación**: el editor de HTML no realiza la comprobación de sintaxis ni la verificación del diseño. Revise el código detenidamente antes de guardarlo.
 

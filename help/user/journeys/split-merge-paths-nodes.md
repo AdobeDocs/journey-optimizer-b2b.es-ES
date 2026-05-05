@@ -5,12 +5,19 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-03-30T23:10:13.939Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
@@ -37,7 +44,7 @@ _(solo recorridos de cuenta)_
 
 Dividir por rutas de cuentas puede incluir acciones y eventos de cuenta y personas. Estas rutas se pueden dividir más.
 
-_**Funcionamiento de un nodo de ruta dividida por cuentas**_
+_&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
 
 * Cada ruta que agregue incluirá un nodo final con la capacidad de agregar nodos a cada borde.
 * Dividir por nodos de cuenta se puede anidar (puede dividir la ruta por cuentas repetidamente).
@@ -134,7 +141,7 @@ _(recorridos de cuenta y persona)_
 
 Dividir por rutas de personas solo puede incluir acciones de personas. Estas rutas no se pueden volver a dividir y se vuelven a unir automáticamente.
 
-_**Funcionamiento de un nodo de ruta dividida por personas**_
+_&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 
 * Dividido por nodos de personas funciona dentro de una combinación de _nodo agrupado_ de combinación dividida. Las rutas divididas se combinan automáticamente para que todas las personas puedan pasar al siguiente paso sin perder el contexto de su cuenta.
 * No se pueden anidar nodos divididos por personas (no se puede agregar una ruta dividida para personas en una ruta que se encuentre en este nodo agrupado).
@@ -148,11 +155,11 @@ _**Funcionamiento de un nodo de ruta dividida por personas**_
 
 | Filtros | Descripción |
 | ------------ | ----------- |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico basadas en condiciones que se evalúan utilizando uno o más mensajes de correo electrónico seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico] <li>Abrió el email <li>Se entregó el correo electrónico <li>Se envió el correo electrónico <br>**[!UICONTROL Cambiar al filtro de inactividad ]**. Use esta opción para filtrar según la falta de actividad (una persona no tuvo la actividad de correo electrónico). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Mensaje SMS] | Actividades de SMS basadas en condiciones que se evalúan utilizando uno o más mensajes SMS seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en un vínculo en SMS] <li>[!UICONTROL SMS rechazado] <br>**[!UICONTROL Cambiar al filtro de inactividad ]**: use esta opción para filtrar según la falta de actividad (una persona no tuvo la actividad de SMS). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Se ha cambiado el valor de los datos] | Se ha producido un cambio de valor en un atributo de persona seleccionado. Estos tipos de cambio incluyen: <li>Nuevo valor<li>Valor anterior<li>Razón<li>Origen<li>Fecha de la actividad<li>Mín. número de veces <br>**[!UICONTROL Cambiar al filtro de inactividad ]**: utilice esta opción para filtrar según la falta de actividad (una persona no tuvo un cambio de valor de datos). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Ha tenido un momento interesante] | Actividad de momento interesante que se define en la instancia [!DNL Marketo Engage] asociada. Las restricciones incluyen: <li>Hito<li>Correo electrónico<li>Web <br>**[!UICONTROL Cambiar al filtro de inactividad ]**: utilice esta opción para filtrar según la falta de actividad (una persona no ha tenido un momento interesante). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Página web visitada] | Actividad de la página web que corresponde a una o varias páginas web administradas por la instancia de [!DNL Marketo Engage] asociada. Las restricciones incluyen: <li>Página web (obligatorio)<li>Fecha de la actividad<li>Dirección IP del cliente <li>Querystring <li>Remitente del reenvío <li>Agente de usuario <li>Motor de búsqueda <li>Consulta de búsqueda <li>URL personalizada <li>Token <li>Explorador <li>Plataforma <li>Device <li>Mín. número de veces <br>**[!UICONTROL Cambiar al filtro de inactividad ]**: utilice esta opción para filtrar según la falta de actividad (una persona no visitó la página web). |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico basadas en condiciones que se evalúan utilizando uno o más mensajes de correo electrónico seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico] <li>Abrió el email <li>Se entregó el correo electrónico <li>Se envió el correo electrónico <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**. Use esta opción para filtrar según la falta de actividad (una persona no tuvo la actividad de correo electrónico). |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Mensaje SMS] | Actividades de SMS basadas en condiciones que se evalúan utilizando uno o más mensajes SMS seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en un vínculo en SMS] <li>[!UICONTROL SMS rechazado] <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: use esta opción para filtrar según la falta de actividad (una persona no tuvo la actividad de SMS). |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Se ha cambiado el valor de los datos] | Se ha producido un cambio de valor en un atributo de persona seleccionado. Estos tipos de cambio incluyen: <li>Nuevo valor<li>Valor anterior<li>Razón<li>Origen<li>Fecha de la actividad<li>Mín. número de veces <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: utilice esta opción para filtrar según la falta de actividad (una persona no tuvo un cambio de valor de datos). |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Ha tenido un momento interesante] | Actividad de momento interesante que se define en la instancia [!DNL Marketo Engage] asociada. Las restricciones incluyen: <li>Hito<li>Correo electrónico<li>Web <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: utilice esta opción para filtrar según la falta de actividad (una persona no ha tenido un momento interesante). |
+| [!UICONTROL Historial de actividades] > [!UICONTROL Página web visitada] | Actividad de la página web que corresponde a una o varias páginas web administradas por la instancia de [!DNL Marketo Engage] asociada. Las restricciones incluyen: <li>Página web (obligatorio)<li>Fecha de la actividad<li>Dirección IP del cliente <li>Querystring <li>Remitente del reenvío <li>Agente de usuario <li>Motor de búsqueda <li>Consulta de búsqueda <li>URL personalizada <li>Token <li>Explorador <li>Plataforma <li>Device <li>Mín. número de veces <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: utilice esta opción para filtrar según la falta de actividad (una persona no visitó la página web). |
 | [!UICONTROL Atributos de persona] | Atributos del [perfil de persona](../admin/field-mapping.md#xdm-business-person-attributes), entre ellos: <li>Ciudad <li>País <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de persona <li>Número de teléfono <li>Código postal <li>Estado |
 | [!UICONTROL Atributos De Persona] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"}: la persona tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según la configuración del [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtrado de datos personalizados](#custom-data-filtering)) |
 | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | (Obsoleto) La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Se ha eliminado</li><li>Función</li> |
@@ -230,7 +237,7 @@ Para una ruta dividida por personas, puede definir una ruta según la actividad 
 
 >[!BEGINSHADEBOX &quot;Filtro de inactividad&quot;]
 
-Para cada uno de los filtros _[!UICONTROL Historial de actividades]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Por ejemplo, agregue el filtro _[!UICONTROL Correo electrónico]_ > _[!UICONTROL Correo electrónico abierto]_ para crear una ruta para las personas que _**no**_ abrieron un correo electrónico desde antes en el recorrido. Active la opción de inactividad y especifique el correo electrónico. Se recomienda usar la restricción _[!UICONTROL Fecha de actividad]_ para definir un período de tiempo para la inactividad.
+Para cada uno de los filtros _[!UICONTROL Historial de actividades]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Por ejemplo, agregue el filtro _[!UICONTROL Correo electrónico]_ > _[!UICONTROL Correo electrónico abierto]_ para crear una ruta para las personas que _&#x200B;**no**&#x200B;_ abrieron un correo electrónico desde antes en el recorrido. Active la opción de inactividad y especifique el correo electrónico. Se recomienda usar la restricción _[!UICONTROL Fecha de actividad]_ para definir un período de tiempo para la inactividad.
 
 ![Condición de división de ruta por personas para comprar la membresía del grupo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 

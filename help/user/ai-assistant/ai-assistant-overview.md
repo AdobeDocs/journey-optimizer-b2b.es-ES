@@ -5,12 +5,18 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
@@ -37,7 +43,7 @@ El Asistente de IA en Journey Optimizer B2B edition se creó a partir de la mism
 
 ## Funciones del asistente de IA en Journey Optimizer B2B edition
 
-Para formular una respuesta a las preguntas enviadas, AI Assistant consulta una base de datos y traduce los datos de la base de datos a una respuesta legible en lenguaje natural. Esta respuesta es una representación interna de los datos subyacentes y también se conoce como _**_Gráfico de conocimientos_**_, una completa web de conceptos, datos y metadatos para una respuesta determinada. El gráfico de conocimiento consta de subgráficos a los que se hace referencia cada vez que se envían consultas:
+Para formular una respuesta a las preguntas enviadas, AI Assistant consulta una base de datos y traduce los datos de la base de datos a una respuesta legible en lenguaje natural. Esta respuesta es una representación interna de los datos subyacentes y también se conoce como _&#x200B;**_Gráfico de conocimientos_**&#x200B;_, una completa web de conceptos, datos y metadatos para una respuesta determinada. El gráfico de conocimiento consta de subgráficos a los que se hace referencia cada vez que se envían consultas:
 
 * Documentación de Experience League.
 * Artefactos operativos, como esquemas, campos, audiencias y recorridos.

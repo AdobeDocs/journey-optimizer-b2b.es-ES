@@ -4,11 +4,21 @@ description: Activar audiencias externas a  [!DNL Adobe Target] mediante recorri
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: '2026-03-30T19:48:50.374Z'
 source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt

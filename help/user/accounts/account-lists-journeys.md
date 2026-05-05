@@ -4,10 +4,14 @@ description: Utilice listas de cuentas en la orquestación de recorrido, agregue
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-03-27T22:29:03.719Z'
 source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt

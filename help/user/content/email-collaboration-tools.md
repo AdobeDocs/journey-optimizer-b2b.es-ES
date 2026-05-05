@@ -4,11 +4,19 @@ description: Colabore en correos electrónicos en Journey Optimizer B2B edition.
 feature: Email Authoring, Content
 role: User
 exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-03-30T22:09:19.178Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt

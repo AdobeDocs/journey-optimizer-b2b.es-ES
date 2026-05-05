@@ -4,11 +4,17 @@ description: Aprenda a utilizar los nodos Acción externa y Ruta de división ex
 feature: Account Journeys, Integrations
 role: User
 exl-id: fc0d6baa-d2e9-4a28-9d78-c74b99282ec1
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt

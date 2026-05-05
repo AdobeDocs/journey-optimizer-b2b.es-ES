@@ -4,12 +4,19 @@ description: Cree recorridos de cuenta y persona en el lienzo visual, agregue no
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-03-30T23:14:46.843Z'
 source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt

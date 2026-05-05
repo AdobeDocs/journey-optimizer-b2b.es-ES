@@ -7,12 +7,19 @@ role: User
 level: Beginner, Intermediate
 keywords: modo oscuro, correo electrónico, color, diseño
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-03-30T22:06:55.168Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
@@ -37,7 +44,7 @@ _El modo oscuro_ permite que un cliente de correo electrónico o aplicación com
 
 ![Diagrama de concepto de modo claro y oscuro que muestra la representación del contenido en los temas claro y oscuro](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-A medida que [crea su contenido de correo electrónico](./email-authoring.md) en el espacio de diseño visual de [!DNL Journey Optimizer B2B Edition], puede cambiar a la vista de _**[!UICONTROL modo oscuro]**_. En esta vista, también puede definir la configuración personalizada específica para admitir clientes de correo electrónico cuando su modo oscuro esté habilitado.
+A medida que [crea su contenido de correo electrónico](./email-authoring.md) en el espacio de diseño visual de [!DNL Journey Optimizer B2B Edition], puede cambiar a la vista de _&#x200B;**[!UICONTROL modo oscuro]**&#x200B;_. En esta vista, también puede definir la configuración personalizada específica para admitir clientes de correo electrónico cuando su modo oscuro esté habilitado.
 
 ## Consideraciones del cliente de correo electrónico {#email-client-considerations}
 

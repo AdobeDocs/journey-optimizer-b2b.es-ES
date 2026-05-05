@@ -4,12 +4,19 @@ description: Realice un seguimiento del progreso del grupo de compras con puntua
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-subfeature_v2: id: dd41174d-42f1-4265-98b1-dfe80da860ce
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2:
+  - id: dd41174d-42f1-4265-98b1-dfe80da860ce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-03-30T22:45:21.856Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt

@@ -4,12 +4,19 @@ description: 'Cree, administre y reutilice fragmentos de contenido visual para c
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: '2026-03-30T22:25:36.421Z'
 source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
@@ -309,7 +316,7 @@ Los fragmentos están diseñados para su reutilización y se pueden insertar par
 
 1. Vaya a **[!UICONTROL Recorridos de cuenta]** y abra un recorrido existente o cree uno nuevo.
 
-1. Crear un nodo [_[!UICONTROL Enviar correo electrónico ]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Crear un nodo [_[!UICONTROL Enviar correo electrónico &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Cree o edite el contenido de [correo electrónico para el nodo](./email-authoring.md).
 
