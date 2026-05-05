@@ -4,9 +4,16 @@ description: 'Cree, administre y reutilice fragmentos de contenido visual para c
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+autotag-review: '2026-03-30T22:25:36.421Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: 2748
 ht-degree: 2%
 
 ---
@@ -46,7 +53,7 @@ El estado del fragmento determina su disponibilidad para utilizarlo en un correo
 
 | Estado | Descripción |
 | -------------------- | ----------- |
-| Borrador | Cuando crea un fragmento, está en estado de borrador. Permanece en este estado mientras define o edita el espacio de diseño visual hasta que lo publica para utilizarlo en un correo electrónico o plantilla de correo electrónico. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Editar en el espacio de diseño visual<li>Publicación<li>Duplicado<li>Eliminar |
+| Borrador | Cuando crea un fragmento, está en estado de borrador. Permanece en este estado mientras define o edita el espacio de diseño visual hasta que lo publica para utilizarlo en un correo electrónico o plantilla de correo electrónico. Acciones disponibles:<br/><ul><li>Editar todos los detalles<li>Editar en el espacio de diseño visual<li>Publicar<li>Duplicado<li>Eliminar |
 | Publicadas | Al publicar un fragmento, pasa a estar disponible para su uso en un correo electrónico o plantilla de correo electrónico. El contenido de fragmento publicado no se puede modificar en el espacio de diseño visual. Acciones disponibles:<br/><ul><li>Editar descripción<li>Añadir a un correo electrónico o plantilla<li>Crear versión de borrador<li>Duplicado<li>Eliminar (si no está en uso) |
 | Publicado con borrador | Cuando crea un borrador a partir de un fragmento publicado, la versión publicada permanece disponible para su uso en un correo electrónico o plantilla de correo electrónico, y el contenido del borrador se puede modificar en el espacio de diseño visual. Si publica la versión de borrador, reemplazará la versión publicada actual y el contenido se actualizará en los correos electrónicos y las plantillas de correo electrónico donde esté en uso. Acciones disponibles:<br/><ul><li>Editar descripción<li>Añadir a un correo electrónico o plantilla<li>Editar versión de borrador en el espacio de diseño visual<li>Publicar versión de borrador<li>Duplicado<li>Eliminar (si no está en uso) |
 
@@ -263,7 +270,7 @@ Para actualizar el contenido:
 
 Puede duplicar un fragmento mediante cualquiera de los siguientes métodos:
 
-* En la página de listado de _[!UICONTROL Fragmentos]_, haga clic en el icono _Más_ (**...**) junto al nombre del fragmento y elija **[!UICONTROL Duplicado]**.
+* En la página del listado de _[!UICONTROL Fragmentos]_, haga clic en el icono _Más_ (**...**) junto al nombre del fragmento y elija **[!UICONTROL Duplicar]**.
 * En la parte superior derecha de la página de detalles del fragmento, haga clic en **[!UICONTROL ... Más]** y elige **[!UICONTROL Duplicar]**.
 
 ![Duplicar el fragmento](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
@@ -300,9 +307,9 @@ Los fragmentos están diseñados para su reutilización y se pueden insertar par
 
 >[!TAB Agregar fragmentos a un correo electrónico]
 
-1. Vaya a **[!UICONTROL Recorridos de cuenta]** y abra un recorrido recorrido existente o cree uno nuevo.
+1. Vaya a **[!UICONTROL Recorridos de cuenta]** y abra un recorrido existente o cree uno nuevo.
 
-1. Crear un nodo [_[!UICONTROL Enviar correo electrónico &#x200B;]_](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Crear un nodo [_[!UICONTROL Enviar correo electrónico ]_](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Cree o edite el contenido de [correo electrónico para el nodo](./email-authoring.md).
 

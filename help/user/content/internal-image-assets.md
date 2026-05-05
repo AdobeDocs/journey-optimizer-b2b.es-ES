@@ -4,9 +4,16 @@ description: 'Examine, administre y utilice recursos de B2B edition de Journey O
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
+autotag-review: '2026-03-30T22:14:12.746Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: 1765
 ht-degree: 1%
 
 ---
@@ -90,7 +97,7 @@ Utilice cualquiera de los siguientes métodos para eliminar un recurso:
 
   ![Acciones de acceso para el recurso](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
 
-* En la página de listado de _[!UICONTROL Assets]_, haga clic en el icono _Más_ (**[!UICONTROL ...]**) que está junto al elemento del recurso y elija **[!UICONTROL Eliminar]** de las opciones.
+* En la página de listado de _[!UICONTROL Assets]_, haga clic en el icono _Más_ (**[!UICONTROL ...]**) junto al elemento de recurso y elija **[!UICONTROL Eliminar]** de las opciones.
 
   ![Acciones de acceso para el recurso](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
@@ -104,7 +111,7 @@ Utilice cualquiera de los siguientes métodos para reemplazar un recurso que res
 
 * Vaya a los detalles del recurso, haga clic en **[!UICONTROL ... Más]** en la parte superior derecha y elige **[!UICONTROL Reemplazar]** de las opciones.
 
-* En la página de listado de _[!UICONTROL Assets]_, haga clic en el icono _Más_ (**[!UICONTROL ...]**) que está junto al elemento del recurso y elija **[!UICONTROL Reemplazar]** entre las opciones.
+* En la página de listado de _[!UICONTROL Assets]_, haga clic en el icono _Más_ (**[!UICONTROL ...]**) junto al elemento del recurso y elija **[!UICONTROL Reemplazar]** de entre las opciones.
 
 En el cuadro de diálogo _[!UICONTROL Reemplazar recurso]_, arrastre y suelte el archivo de reemplazo desde el sistema al cuadro de archivo. También puede hacer clic en el vínculo _[!UICONTROL Seleccionar un archivo del equipo]_ para usar el sistema de archivos local y seleccionar un archivo. (Si selecciona varios archivos en el sistema local, se utilizará el primer archivo seleccionado para el reemplazo.)
 
@@ -120,7 +127,7 @@ Puede descargar un recurso mediante cualquiera de los siguientes métodos:
 
 * Vaya a los detalles del recurso y haga clic en **[!UICONTROL Descargar]** en la parte superior derecha.
 
-* En la página de listado de _[!UICONTROL Assets]_, haga clic en los _puntos suspensivos_ (**[!UICONTROL ...]**) junto al elemento del recurso y elija **[!UICONTROL Descargar]** de las opciones.
+* En la página de listado de _[!UICONTROL Assets]_, haga clic en los _puntos suspensivos_ (**[!UICONTROL ...]**) junto al elemento de recurso y elija **[!UICONTROL Descargar]** de las opciones.
 
 En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Descargar]** para iniciar la descarga del recurso en su sistema local. Puede anular el proceso haciendo clic en **[!UICONTROL Cancelar]**.
 
@@ -174,7 +181,7 @@ Puede realizar las siguientes acciones masivas con los recursos seleccionados qu
 
 ## Aplicar acciones de nivel de carpeta
 
-Puede aplicar acciones a una carpeta o recursos dentro de la carpeta. Haga clic en el icono _Más_ (**...**) que se encuentra junto a la carpeta para mostrar las acciones que puede aplicarle.
+Puede aplicar acciones a una carpeta o recursos dentro de la carpeta. Haga clic en el icono _Más_ (**...**) situado junto a la carpeta para mostrar las acciones que puede aplicarle.
 
 ![Aplicar acciones a una carpeta o recursos de la carpeta](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 

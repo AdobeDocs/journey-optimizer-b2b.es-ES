@@ -4,9 +4,16 @@ description: Rastree el rendimiento del recorrido de la cuenta con las tasas de 
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+autotag-review: '2026-03-30T22:42:55.045Z'
+source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: 371
 ht-degree: 2%
 
 ---
@@ -45,7 +52,7 @@ Para el gráfico circular, elija **[!UICONTROL Obtener detalles]** para obtener 
 
 ![Obtener detalles para acceder a los datos del gráfico](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-Puede hacer clic en el menú _Más_ (**...**) en la parte superior derecha y elegir **[!UICONTROL Ver más]** para [ver datos extendidos](#view-more).
+Puede hacer clic en _Más_ (**...**) en la parte superior derecha y elige **[!UICONTROL Ver más]** para [ver datos extendidos](#view-more).
 
 ### [!UICONTROL Ver más]
 

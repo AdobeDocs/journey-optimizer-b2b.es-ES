@@ -6,9 +6,16 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, deduplicación, recorrido, duplicado
-source-git-commit: 89dcfae6293fc2bd1eefb58943bee354c57bc73a
+exl-id: 93107acd-1cb2-4316-acfc-e32ab1e065ae
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-03-30T22:08:16.582Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: 343
 ht-degree: 1%
 
 ---
@@ -35,7 +42,7 @@ Para habilitar la anulación de duplicación de correo electrónico en un recorr
 
 1. Abra un recorrido de cuenta.
 
-1. Haga clic en **[!UICONTROL Más]** (**...**) en la esquina superior derecha del área de trabajo de recorrido.
+1. Haga clic en **[!UICONTROL Más]** (**...**) en la esquina superior derecha del espacio de trabajo de recorrido.
 
    ![Espacio de trabajo de Recorrido con menú Más expandido que muestra la opción Deduplicación de correo electrónico](./assets/email-deduplication-more-menu.png){width="450"}
 

@@ -7,9 +7,16 @@ role: Developer
 level: Intermediate
 keywords: expresión, editor, sintaxis, personalización
 exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+autotag-review: '2026-03-30T22:05:22.123Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: 361
 ht-degree: 3%
 
 ---
@@ -35,7 +42,7 @@ Donde:
 
   >[!NOTE]
   >
-  >La estructura de atributos se define en un [esquema XDM de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}.
+  >La estructura de atributos se define en un [esquema XDM de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Los identificadores pueden ser cualquier carácter Unicode excepto los siguientes:
 

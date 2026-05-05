@@ -1,12 +1,19 @@
 ---
 title: Plantillas de correo electrónico
-description: 'Cree plantillas de correo electrónico reutilizables desde cero, HTML import o diseños existentes: administre plantillas para recorridos de cuenta en Journey Optimizer B2B Edition.'
+description: 'Cree plantillas de correo electrónico reutilizables desde cero, HTML import o diseños existentes: administre plantillas para recorridos de cuenta en Journey Optimizer B2B edition.'
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+autotag-review: '2026-03-30T22:17:40.055Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: 1538
 ht-degree: 0%
 
 ---
@@ -83,7 +90,7 @@ Utilice el editor de contenido visual para definir la estructura del contenido d
 
 ### Importar HTML
 
-Adobe Journey Optimizer B2B Edition le permite importar contenido existente de HTML para diseñar sus plantillas de correo electrónico.
+Adobe Journey Optimizer B2B edition le permite importar contenido existente de HTML para diseñar sus plantillas de correo electrónico.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -121,7 +128,7 @@ En la página de detalles de las plantillas de correo electrónico, haga clic en
 
 ![Haga clic en la ficha Utilizado por para comprobar el uso de la plantilla](./assets/template-details-used-by.png){width="400"}
 
-Los correos electrónicos de Journey Optimizer B2B Edition están incrustados y creados en recorrido, por lo que el recorrido principal del correo electrónico que utiliza la plantilla se muestra en las referencias.
+Los correos electrónicos de Journey Optimizer B2B edition están incrustados y creados en recorrido, por lo que el recorrido principal del correo electrónico que utiliza la plantilla se muestra en las referencias.
 
 * Al hacer clic en el vínculo, se le redirige al correo electrónico de recorrido correspondiente donde se utiliza la plantilla de correo electrónico.
 

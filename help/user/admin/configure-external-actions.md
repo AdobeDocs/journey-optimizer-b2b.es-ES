@@ -3,9 +3,15 @@ title: Configuración de acciones externas
 description: Descubra cómo los desarrolladores, administradores y especialistas en marketing trabajan juntos para implementar, configurar y utilizar acciones externas que conectan Journey Optimizer B2B edition con servicios externos en recorridos de cuenta.
 feature: Setup, Integrations
 role: Admin, Developer
-source-git-commit: 6d3967babc1bc868fde0c76ac9068e63156070cd
+exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: 907
 ht-degree: 1%
 
 ---

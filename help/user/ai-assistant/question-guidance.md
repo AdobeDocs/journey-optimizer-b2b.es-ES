@@ -5,9 +5,15 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: 895
 ht-degree: 1%
 
 ---
@@ -25,8 +31,8 @@ Las siguientes preguntas de ejemplo se agrupan según los objetivos que puede lo
 | Conceptos de aprendizaje y flujos de trabajo continuos | Como usuario novato, puede utilizar el asistente de IA para aprender los conceptos de Real-Time CDP y Adobe Journey Optimizer B2B edition, e incorporarse a productos y funciones con los que no está familiarizado. <br>Como usuario experimentado, puede utilizar el Asistente de IA para resolver un caso límite que pueda estar bloqueando el flujo de trabajo. | <li>Dime algunos casos de uso para Real-Time CDP. <li>Explícame el concepto de Grupo de Compra. |
 | Resolución de problemas | Utilice el Asistente de IA para aprender a depurar los errores básicos que pueden producirse en el flujo de trabajo. | <li>¿Qué significa este error &lt;ERROR_MESSAGE>? <li>¿Por qué no puedo eliminar la audiencia llamada &quot;...&quot;? |
 | Higiene de zona protegida | Utilice el asistente de IA para identificar duplicados u objetos que no se utilicen, de modo que pueda mantener de forma eficaz la zona protegida. | <li>¿Puede mostrarme audiencias de cuenta similares? <li>¿Hay algún esquema que no tenga un conjunto de datos asociado? |
-| Análisis de valor | Utilice el asistente de IA para identificar los objetos de datos más utilizados, evaluar cualquier indicador de rendimiento o encontrar los objetos de datos más valiosos. | <li>¿Cuántas cuentas hay en nuestra definición de segmento &quot;...&quot;? <li>¿Cuándo se activaron las audiencias en el destino de Audiencias de Experience Cloud? |
-| Buscar | Utilice el asistente de IA para encontrar objetos Experience Platform y Adobe Journey Optimizer B2B edition compatibles, como audiencias de cuenta, conjuntos de datos, destinos, esquemas, fuentes, recorridos de cuenta, plantillas de grupo de compra e intereses de soluciones | <li>Enumere las audiencias que contienen &quot;Luma&quot; en el nombre y que se utilizaron en los recorridos de la cuenta. <li>¿Qué atributos hay en el esquema XDM &quot;Luma: Custom Actions&quot;? |
+| Análisis de valor | Utilice el asistente de IA para identificar los objetos de datos más utilizados, evaluar cualquier indicador de rendimiento o encontrar los objetos de datos más valiosos. | <li>¿Cuántas cuentas hay en nuestro &quot;...&quot;? ¿definición del segmento? <li>¿Cuándo se activaron las audiencias en el destino de Audiencias de Experience Cloud? |
+| Búsqueda | Utilice el asistente de IA para encontrar objetos Experience Platform y Adobe Journey Optimizer B2B edition compatibles, como audiencias de cuenta, conjuntos de datos, destinos, esquemas, fuentes, recorridos de cuenta, plantillas de grupo de compra e intereses de soluciones | <li>Enumere las audiencias que contienen &quot;Luma&quot; en el nombre y que se utilizaron en los recorridos de la cuenta. <li>¿Qué atributos hay en el esquema XDM &quot;Luma: Custom Actions&quot;? |
 | Análisis de impacto | Utilice el asistente de IA para identificar objetos de datos que se han utilizado en determinados flujos de trabajo y así poder evaluar el impacto de cualquier cambio. | <li>¿Qué audiencias de cuenta utilizan `workEmail.address` en el esquema &quot;Persona B2B&quot;? <li>¿En qué conjuntos de datos se almacenan los ... `jobTitle`? |
 
 ## Formulación de preguntas

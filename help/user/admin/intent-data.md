@@ -4,10 +4,15 @@ description: Configure los datos de intención con asignación de palabras clave
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T23:18:01.223Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 0%
+source-wordcount: 593
+ht-degree: 1%
 
 ---
 
@@ -62,7 +67,7 @@ Cuando la hoja de cálculo esté lista, vuelva a la página de configuración _[
 
 1. Arrastre y suelte el archivo en el cuadro de diálogo _[!UICONTROL Cargar archivos]_ o haga clic en **[!UICONTROL Seleccionar un archivo]** para buscar y seleccionar el archivo en su sistema.
 
-1. Haga clic en **[!UICONTROL Siguiente]**.
+1. Haga clic en **[!UICONTROL Next]**.
 
    El preprocesamiento se ejecuta para agrupar palabras clave similares, lo que mejora la detección de intención y evita la dilución de palabras clave. Se muestra una notificación de pulso en cuanto se completa este preprocesamiento (hasta 15 minutos, según los datos).
 

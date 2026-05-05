@@ -1,12 +1,19 @@
 ---
 title: administración de recorrido
-description: 'Optimice la generación de demanda con recorridos: cree, publique y administre la participación del grupo comprador mediante correo electrónico, SMS y eventos en Journey Optimizer B2B Edition.'
+description: 'Optimice la generación de demanda con recorridos: cree, publique y administre la participación del grupo comprador mediante correo electrónico, SMS y eventos en Journey Optimizer B2B edition.'
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6beid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: '2026-03-30T23:09:32.398Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: 1520
 ht-degree: 44%
 
 ---
@@ -14,9 +21,9 @@ ht-degree: 44%
 
 # administración de recorrido
 
-En Journey Optimizer B2B Edition, los recorridos son planes de marketing automatizados y basados en cuentas de varios pasos y posibles clientes que organizan experiencias personalizadas en varios canales en respuesta a la participación, los eventos comerciales o las campañas programadas. Defina un acuerdo basado en las ventas que incluya correo electrónico, SMS y mucho más para coordinar el marketing entrante con las actividades de ventas salientes de cada miembro del grupo comprador.
+En Journey Optimizer B2B edition, los recorridos son planes de marketing automatizados y basados en cuentas de varios pasos que organizan experiencias personalizadas en varios canales en respuesta a la participación, los eventos comerciales o las campañas programadas. Defina un acuerdo basado en las ventas que incluya correo electrónico, SMS y mucho más para coordinar el marketing entrante con las actividades de ventas salientes de cada miembro del grupo comprador.
 
-Journey Optimizer B2B Edition admite dos tipos de recorrido:
+Journey Optimizer B2B edition admite dos tipos de recorrido:
 
 * **recorridos de cuenta**: optimice la generación de demanda y la calificación de grupos de compra y genere una demanda más calificada para sus programas de adquisición, ampliación de ventas/ventas cruzadas y retención. Personalice sus recorridos para cada grupo de compras y miembro del grupo de compras mediante la participación automatizada a través de correos electrónicos, SMS, eventos y mucho más.
 
@@ -103,11 +110,11 @@ El estado de un recorrido puede cambiar según las acciones que se apliquen. En 
 
 | Estado | Descripción | Acciones disponibles |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Borrador**&#x200B;_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Activo**&#x200B;_ | El estado del recorrido cambia de _Draft_ a _Live_ cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
-| _&#x200B;**Cerrado a nuevas entradas**&#x200B;_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
-| _&#x200B;**Anulado**&#x200B;_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Finalizado**&#x200B;_ | Cuando todos los miembros de audiencia de persona o cuenta de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Borrador**_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Activo**_ | El estado del recorrido cambia de _Draft_ a _Live_ cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
+| _**Cerrado a nuevas entradas**_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
+| _**Anulado**_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Finalizado**_ | Cuando todos los miembros de audiencia de persona o cuenta de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
 
 ## mapas de recorrido
 
@@ -125,7 +132,7 @@ Desde el mapa de recorrido, puede [agregar los nodos](./create-publish-journey.m
 
 ## acciones de recorrido
 
-La página de lista recorridos incluye todos los recorridos de cuenta o persona de la instancia de Journey Optimizer B2B Edition. Desde la página de lista, puede aplicar una serie de acciones a un recorrido.
+La página de lista recorridos incluye todos los recorridos de cuenta o persona de la instancia de Journey Optimizer B2B edition. Desde la página de lista, puede aplicar una serie de acciones a un recorrido.
 
 ### Anular recorrido
 
@@ -219,4 +226,4 @@ Cuando seleccione el nodo, haga clic en el número para ver una lista de cuentas
 
 ## Vídeo de información general sobre el recorrido de cuentas {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443210/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

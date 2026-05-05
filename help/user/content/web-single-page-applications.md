@@ -4,10 +4,18 @@ description: 'Cree experiencias web para aplicaciones de una sola página (SPA):
 feature: Channels, Personalization
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
-source-git-commit: e50b6830736bf763d3aae6a58595e868bbac36e0
+exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: '2026-03-30T22:02:23.111Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 0%
+source-wordcount: 848
+ht-degree: 2%
 
 ---
 
@@ -119,7 +127,7 @@ Las experiencias web de Journey Optimizer B2B edition funcionan con marcos de SP
 
 Las SPA suelen generar nombres de clase dinámicos o ID (especialmente con soluciones CSS-en-JS). Como alternativa, puede utilizar:
 
-* **Atributos de datos** - Agregue atributos de datos personalizados (`data-testid`, `data-section`, etc.) a los elementos que desea asignar.
+* **Atributos de datos** - Agregar atributos de datos personalizados (`data-testid`, `data-section`, etc.) a los elementos que desee segmentar.
 * **HTML semántico**: destino basado en la estructura y los elementos semánticos de HTML.
 * **Atributos de ID** - Use atributos de ID estables siempre que sea posible.
 

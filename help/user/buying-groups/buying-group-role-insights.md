@@ -3,9 +3,16 @@ title: Panel de perspectivas de rol
 description: Obtenga información acerca del panel Perspectivas de funciones, que realiza un seguimiento de la adquisición de funciones y la participación en grupos compradores en Journey Optimizer B2B edition.
 feature: Buying Groups, Dashboards, Engagement
 role: User
-source-git-commit: 3bdf75356c16041e915c36215e68a6c931e4ccb4
+exl-id: 045a217f-a905-4286-804b-2717bb1d5e5d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T21:42:19.942Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: 622
 ht-degree: 1%
 
 ---
@@ -79,7 +86,7 @@ Para ver información más detallada, haga clic en el icono de menú **...** en 
 
 ## Interactúe con los datos
 
-Para interactuar con los datos, usa el menú _Más_ (**...**) en la parte superior derecha de cada gráfico.
+Para interactuar con los datos, use _Más_ (**...**) en la parte superior derecha de cada gráfico.
 
 ### [!UICONTROL Obtener detalles]
 

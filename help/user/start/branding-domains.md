@@ -4,9 +4,15 @@ description: Configure los dominios de promoción de la marca para que cada una 
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: 1014
 ht-degree: 89%
 
 ---
@@ -31,7 +37,7 @@ Puede compartir la marca del dominio de ruta de retorno entre la instancia de pr
 
 >[!PREREQUISITES]
 >
->Antes de editar o agregar un dominio en la interfaz de usuario, debe tener un CNAME [asignado a un dominio de Marketo Engage proporcionado por Adobe](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Antes de editar o agregar un dominio en la interfaz de usuario, debe tener un CNAME [asignado a un dominio de Marketo Engage proporcionado por Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
 >Al añadir un dominio, el sistema comprueba los SSL preexistentes, que pueden haberse creado manualmente anteriormente. Si se produce esta validación, cree el dominio sin seleccionar la creación de SSL y, a continuación, conéctelo como un procedimiento independiente.
 
@@ -71,7 +77,7 @@ El primer paso para trabajar con los dominios de promoción de la marca es edita
 
 ## Definir un dominio adicional
 
-Después de editar el dominio predeterminado, puede agregar otro dominio de promoción de la marca para admitir varias marcas dentro del entorno de Journey Optimizer B2B Edition, donde cada una tiene sus propios vínculos de seguimiento de marca. Al agregar un dominio, tiene las siguientes opciones:
+Después de editar el dominio predeterminado, puede agregar otro dominio de promoción de la marca para admitir varias marcas dentro del entorno de Journey Optimizer B2B edition, donde cada una tiene sus propios vínculos de seguimiento de marca. Al agregar un dominio, tiene las siguientes opciones:
 
 >* _Convertir en dominio principal_: Convierta este dominio en el dominio principal del área de trabajo. Al seleccionar esta opción, todos los correos electrónicos no enviados existentes se establecen en el dominio principal predeterminado y todos los correos electrónicos recién creados se establecen de forma predeterminada en este dominio principal. Los especialistas en marketing pueden elegir un dominio de marca alternativo donde sea necesario.
 >
@@ -93,7 +99,7 @@ _Para agregar el dominio :_
 
    >[!NOTE]
    >
-   >**_SSL personalizados_**: Si necesita un SSL personalizado, puede enviar un [ticket de asistencia](https://experienceleague.adobe.com/es/support){target="_blank"}. No utilice la casilla de verificación para la creación SSL.
+   >**_SSL personalizados_**: Si necesita un SSL personalizado, puede enviar un [ticket de asistencia](https://experienceleague.adobe.com/en/support){target="_blank"}. No utilice la casilla de verificación para la creación SSL.
 
 1. Si tiene varios espacios de trabajo definidos para la instancia de Marketo Engage, haga clic en **[!UICONTROL Siguiente]**.
 
