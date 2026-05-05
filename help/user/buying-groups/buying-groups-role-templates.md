@@ -4,20 +4,15 @@ description: Cree plantillas de funciones con asignación automática condiciona
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-subfeature_v2:
-  - id: ac532e39-bc90-4c8f-b14c-5730180e1f68
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2: id: ac532e39-bc90-4c8f-b14c-5730180e1f68
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: '2026-03-30T21:37:51.618Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 09e0fead8d6a04b432cb6fd94aaea561b84a0063
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: 1412
 ht-degree: 5%
 
 ---
@@ -74,7 +69,7 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 | Tipo | Condiciones |
 | ---- | --------- |
 | [!UICONTROL Atributos de persona] | Atributos del [perfil de persona](../admin/field-mapping.md#xdm-business-person-attributes), entre ellos: <li>Ciudad <li>País <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de persona <li>Número de teléfono <li>Código postal <li>Estado |
-| [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"} La cuenta tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según se han configurado en los [esquemas relacionales XDM](../admin/xdm-field-management.md#relational-schemas). |
+| [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"}: la cuenta o la persona tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según se han configurado en los [esquemas relacionales XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtros especiales | <li>Miembro de la lista (obsoleto) <li>Miembro del programa (obsoleto) |
 | Datos de intención | <li>Intento de categoría <li>Intención del producto <li>Intento de palabra clave <br/> (consulte [_Datos de intención_](../admin/intent-data.md)) |
 
@@ -157,7 +152,7 @@ Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener
 
 1. En el cuadro de diálogo, cambie el valor **[!UICONTROL Miembros necesarios]** para cada rol definido según sea necesario.
 
-   Puede escribir el valor o hacer clic en **&plus;** o **−** para aumentarlo o reducirlo.
+   Puede escribir el valor o hacer clic en **&amp;plus;** o **−** para aumentarlo o reducirlo.
 
    ![Plantilla de roles - botón de configuración de puntuación de integridad](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -205,4 +200,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
