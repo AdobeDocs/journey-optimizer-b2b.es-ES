@@ -74,7 +74,7 @@ Utilice esta lista de comprobación para completar la configuración de Journey 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
 <td>Recopile las credenciales de la API de Experience Platform y los encabezados necesarios.</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide?lang=es">Más información</a></td>
+<td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-guide?lang=es">Más información</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
@@ -297,7 +297,7 @@ Para permitir que los especialistas en marketing incluyan otros canales en sus r
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
 <td>Configure el sitio web de su empresa para que admita Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Más información</a></td>
+<td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview">Más información</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>

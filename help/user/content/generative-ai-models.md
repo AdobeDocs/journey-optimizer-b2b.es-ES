@@ -30,7 +30,7 @@ Amplíe sus capacidades de creación de imágenes de IA con modelos integrados, 
 - **[!UICONTROL Modelo de socio]**, con tecnología Gemini 2.5 Flash, ofrece capacidades especializadas para casos de uso específicos.
 - **[!UICONTROL Los modelos personalizados]** son modelos específicos de tu marca, entrenados en tus propios recursos y añadidos por tu organización.
 
-Obtenga información acerca de los modelos personalizados en la [documentación de Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+Obtenga información acerca de los modelos personalizados en la [documentación de Adobe Firefly](https://helpx.adobe.com/es/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 Los especialistas en marketing pueden seleccionar cualquiera de los modelos generativos habilitados al generar imágenes para el contenido de su correo electrónico o página de aterrizaje.
 
@@ -80,7 +80,7 @@ Cree modelos de Firefly personalizados o conecte proveedores de generación de i
 
 1. Escriba el **[!UICONTROL ID de modelo]**.
 
-   Para encontrar el ID de modelo, acceda al sitio web de Firefly y vaya a los modelos formados. El identificador único está disponible en la sección de administración del modelo una vez publicado. Para obtener más información, consulte la [documentación de modelos personalizados de Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+   Para encontrar el ID de modelo, acceda al sitio web de Firefly y vaya a los modelos formados. El identificador único está disponible en la sección de administración del modelo una vez publicado. Para obtener más información, consulte la [documentación de modelos personalizados de Firefly](https://helpx.adobe.com/es/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 1. Opcionalmente, escriba una **[!UICONTROL Descripción]** para ayudar a identificar el modelo y su uso previsto.
 
