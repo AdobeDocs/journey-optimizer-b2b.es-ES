@@ -4,9 +4,19 @@ description: Vea información de la cuenta con resúmenes de IA, detección de i
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-27T22:20:55.565Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: 641
 ht-degree: 6%
 
 ---

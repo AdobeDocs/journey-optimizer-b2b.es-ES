@@ -4,10 +4,23 @@ description: Cree públicos de cuenta con segmentación para dirigirse a cuentas
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+autotag-review: '2026-03-30T19:50:18.033Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: 585
+ht-degree: 92%
 
 ---
 
@@ -52,13 +65,13 @@ Defina el público de cuenta creando una segmentación de cuentas. Tiene la opci
 
    En el siguiente ejemplo se define el público creado con `Country Code`, `Revenue Amount` y `Market segment`. La consulta en inglés sería: “Quiero todas las cuentas en los Estados Unidos que estén en el segmento Finanzas cuyos ingresos superen 1 millón de dólares”.
 
-   ![ejemplo del generador de segmentos del público de cuenta](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   ejemplo del generador de segmentos de audiencia de cuenta ![](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
 
    >[!IMPORTANT]
    >
-   >El atributo `Account Name` de los registros de cuenta debe contener un valor que se va a incluir en los recorridos de cuenta. Si este atributo está vacío (nulo), se excluirá el registro de cuenta.<br/>
-   >Para asegurarse de que solo se incluyen las cuentas con un nombre de cuenta que no esté vacío, añada el atributo **[!UICONTROL Account Name]** y seleccione _[!UICONTROL exists]_ como condición de coincidencia.<br/>
+   >El atributo `Account Name` de los registros de cuenta debe contener un valor que se va a incluir en los recorridos de cuenta. Si este atributo está vacío (nulo), se excluye el registro de cuenta.<br/>
+   >Para asegurarse de que solo se incluyen las cuentas con un nombre de cuenta que no esté vacío, agregue el atributo **[!UICONTROL Account Name]** y seleccione _[!UICONTROL exists]_ como condición de coincidencia.<br/>
    >![El atributo Nombre de cuenta existe](./assets/audience-segment-builder-account-name-exists.png){width="600"}
    ><br/>Si está usando un atributo personalizado para el nombre de cuenta, use su nombre de atributo personalizado en lugar de _[!UICONTROL Nombre de cuenta]_.
 

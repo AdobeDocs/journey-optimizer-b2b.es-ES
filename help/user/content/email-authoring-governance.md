@@ -4,9 +4,22 @@ description: 'Cree correos electrónicos a partir de plantillas gobernadas con c
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+autotag-review: '2026-03-30T22:35:16.900Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 277
 ht-degree: 1%
 
 ---

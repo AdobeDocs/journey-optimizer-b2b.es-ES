@@ -4,9 +4,28 @@ description: 'Generar contenido de correo electrónico con el Asistente de IA: c
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+autotag-review: '2026-03-30T21:53:30.297Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '3633'
+source-wordcount: 3633
 ht-degree: 0%
 
 ---
@@ -19,7 +38,7 @@ Esta nueva capacidad proporciona una generación de contenido basada en mensajes
 
 >[!IMPORTANT]
 >
->Para acceder a estas funciones en Adobe Journey Optimizer B2B Edition, debe tener el permiso _[!UICONTROL Asistente de IA]_ > _[!UICONTROL Generar contenido]_. Para obtener más información sobre cómo un administrador de productos puede conceder permisos de características, consulte [Editar roles para permisos de productos](../admin/user-management.md#edit-roles-for-product-permissions).
+>Para acceder a estas funciones en Adobe Journey Optimizer B2B edition, debe tener el permiso _[!UICONTROL Asistente de IA]_ > _[!UICONTROL Generar contenido]_. Para obtener más información sobre cómo un administrador de productos puede conceder permisos de características, consulte [Editar roles para permisos de productos](../admin/user-management.md#edit-roles-for-product-permissions).
 
 ## Directrices y limitaciones
 

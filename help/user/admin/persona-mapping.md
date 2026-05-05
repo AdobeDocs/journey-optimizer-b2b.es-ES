@@ -4,9 +4,23 @@ description: Aprenda a configurar la asignación de personalidades para el marke
 feature: Setup, Buying Groups
 role: Admin
 exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
-source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T22:59:15.291Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: 914
 ht-degree: 2%
 
 ---
@@ -32,7 +46,7 @@ Limitaciones de uso y definición personal:
 
 Muchos equipos de marketing y ventas utilizan los puestos como una forma de identificar diferentes personas dentro de una cuenta. Sin embargo, los títulos de los contactos pueden ser incoherentes y utilizar numerosas variaciones para funciones similares. Al crear plantillas de roles de grupo de compra, puede ser necesario definir todos los puestos relacionados posibles para un rol determinado. Puede simplificar estas definiciones y colocar a las personas con títulos de trabajo similares en una sola persona deducida, lo que puede aprovechar en diferentes plantillas de funciones para comprar grupos.
 
-Por ejemplo, puede configurar un perfil llamado _Administración de productos_ y definirlo con el atributo de puesto de trabajo para los valores de _Administrador de productos_, _Administrador de productos senior_, _Administrador de productos sénior_, _PM_, _Administrador de productos senior_, _Administrador de productos principales_ y _Administrador de productos principales_. A continuación, utilice este personaje en una plantilla de roles donde la condición coincida con _Persona es Product Management_. Al utilizar el perfil configurado, la creación de cada plantilla de funciones es más sencilla y no requiere una condición complicada que pueda coincidir con todos los puestos posibles.
+Por ejemplo, podría configurar un personaje llamado _Administración de productos_ y definirlo usando el atributo de puesto de trabajo para los valores de _Administrador de productos_, _Sr. Gerente de productos_, _Gerente de productos sénior_, _PM_, _Sr. PM_, _PM principal_ y _Gerente de producto principal_. A continuación, utilice este personaje en una plantilla de roles donde la condición coincida con _Persona es Product Management_. Al utilizar el perfil configurado, la creación de cada plantilla de funciones es más sencilla y no requiere una condición complicada que pueda coincidir con todos los puestos posibles.
 
 >[!ENDSHADEBOX]
 

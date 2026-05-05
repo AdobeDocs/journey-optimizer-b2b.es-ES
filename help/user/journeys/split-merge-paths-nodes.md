@@ -1,13 +1,27 @@
 ---
 title: Dividir y combinar rutas
-description: Cree nodos de ruta divididos y fusionados para segmentar cuentas y personas con lógica condicional, filtrar comprando grupos y recombinar rutas en Journey Optimizer B2B Edition.
+description: Cree nodos de ruta divididos y combinados para segmentar cuentas y personas con lógica condicional, filtrar comprando grupos y recombinar rutas en Journey Optimizer B2B edition.
 feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: '2026-03-30T23:10:13.939Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: 2744
 ht-degree: 4%
 
 ---
@@ -262,7 +276,7 @@ Para usar la pertenencia a una lista en una condición dividida, expanda **[!UIC
 >
 >**Desaprobación de características**</br></br>
 >
->En la versión actual de Journey Optimizer B2B Edition, no se admite el filtrado basado en la pertenencia a listas o programas en una instancia de Marketo Engage.
+>En la versión actual de Journey Optimizer B2B edition, no se admite el filtrado basado en la pertenencia a listas o programas en una instancia de Marketo Engage.
 
 >[!ENDSHADEBOX]
 

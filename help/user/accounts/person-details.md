@@ -4,9 +4,19 @@ description: Vea la información de la persona con resúmenes de IA, puntuacione
 feature: Account Insights
 role: User
 exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-27T22:21:27.328Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 299
 ht-degree: 7%
 
 ---

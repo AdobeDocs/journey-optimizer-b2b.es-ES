@@ -4,9 +4,18 @@ description: 'Administre el acceso de los usuarios con Experience Cloud Admin Co
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 18d38a3e03e1eb275f3aac01c315d0b7e3ddbfab
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T22:47:43.575Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: 2178
 ht-degree: 90%
 
 ---

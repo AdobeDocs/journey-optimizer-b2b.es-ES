@@ -4,10 +4,24 @@ description: Administre recursos de imagen desde Journey Optimizer B2B edition y
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: da3860b0-d637-47df-bef0-273751180266
+autotag-review: '2026-03-30T22:17:01.501Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 60%
+source-wordcount: 867
+ht-degree: 61%
 
 ---
 

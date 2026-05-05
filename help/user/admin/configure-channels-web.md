@@ -4,10 +4,24 @@ description: Obtenga información sobre cómo configurar los canales web para de
 feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
-source-git-commit: 2f9b007df233cf8a233c3646bf691b7cff139f86
+exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T23:15:46.632Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 0%
+source-wordcount: 1075
+ht-degree: 2%
 
 ---
 
@@ -54,7 +68,7 @@ La configuración del canal web en Journey Optimizer B2B edition requiere los si
 
 1. Haga clic en **[!UICONTROL Enviar]** para guardar los cambios.
 
-Después de guardar la configuración, pasa a estar en _Borrador_ y estará disponible para los especialistas en marketing cuando usen un canal web en sus recorridos. Puede seguir editando la configuración mientras permanezca en estado de borrador. También puede eliminar un borrador de configuración de canal web si hace clic en el icono _Más_ (**...**) que aparece junto al nombre y elige **[!UICONTROL Eliminar]**.
+Después de guardar la configuración, pasa a estar en _Borrador_ y estará disponible para los especialistas en marketing cuando usen un canal web en sus recorridos. Puede seguir editando la configuración mientras permanezca en estado de borrador. También puede eliminar un borrador de configuración de canal web si hace clic en el icono _Más_ (**...**) junto al nombre y eligiendo **[!UICONTROL Eliminar]**.
 
 Tan pronto como el canal web se usa en un recorrido, pasa a un estado _Activo_. En este estado, puede editar el nombre y la descripción de la configuración. No puede cambiar la configuración web ni eliminarla.
 
@@ -123,7 +137,7 @@ Por ejemplo, es posible que desee aplicar cambios a un banner a pantalla complet
 
 Puede duplicar una configuración de canal web existente y cambiarla para crear un nuevo canal web basado en una existente. No se puede modificar una configuración de canal Web activa guardada en la biblioteca.
 
-1. Haga clic en el icono _Más menú_ (**...**) de la variante y elija **[!UICONTROL Duplicado]**.
+1. Haga clic en el icono _Más menú_ (**...**) para la variante y elija **[!UICONTROL Duplicate]**.
 
    ![Haga clic en el icono del menú Más para duplicar una configuración de canal web existente](./assets/config-web-channels-more-menu.png){width="450"}
 

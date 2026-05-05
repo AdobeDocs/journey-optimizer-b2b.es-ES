@@ -4,9 +4,23 @@ description: Utilice los nodos de espera para pausar la progresión del recorrid
 feature: Account Journeys, Person Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: '2026-03-30T23:11:12.994Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: 687
 ht-degree: 0%
 
 ---

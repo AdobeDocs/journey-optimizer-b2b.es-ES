@@ -4,9 +4,23 @@ description: 'Configuración de correos electrónicos de alerta de ventas en rec
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T22:20:15.181Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: 535
 ht-degree: 6%
 
 ---

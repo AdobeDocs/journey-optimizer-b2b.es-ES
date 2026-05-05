@@ -4,9 +4,22 @@ description: Filtre posibles clientes comprando pertenencia a grupos en las list
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T21:39:24.495Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: 562
 ht-degree: 1%
 
 ---
@@ -17,18 +30,18 @@ ht-degree: 1%
 >
 >**Desaprobación de características**</br></br>
 >
->En Journey Optimizer B2B Edition, los filtros del grupo comprador ya no están disponibles en una instancia de Marketo Engage conectada.</br></br>
+>En Journey Optimizer B2B edition, los filtros de grupo de compra ya no están disponibles en una instancia de Marketo Engage conectada.</br></br>
 >
 >Como alternativa, puede crear una lista estática para cada interés de solución y, a continuación, [usar la acción _Agregar a la lista de Marketo_](../journeys/action-nodes.md#marketo-engage-actions) desde un nodo de recorrido. Esta acción añade miembros del grupo de compra a una lista estática concreta de una instancia de Marketo Engage conectada. A continuación, utilice la lista estática centrada en los intereses de la solución para un filtro de lista inteligente.
 
-Como experto en marketing, es posible que desee suprimir las campañas de Marketo Engage para las personas que forman parte de grupos compradores en Journey Optimizer B2B Edition. También puede informar a los flujos de trabajo de puntuación de posibles clientes en Marketo Engage mediante la información sobre los posibles clientes asociados a los grupos de compra. Por ejemplo:
+Como experto en marketing, es posible que desee suprimir las campañas de Marketo Engage para las personas que forman parte de grupos de compra en Journey Optimizer B2B edition. También puede informar a los flujos de trabajo de puntuación de posibles clientes en Marketo Engage mediante la información sobre los posibles clientes asociados a los grupos de compra. Por ejemplo:
 
 * ¿Es este cliente potencial parte de un grupo de compra?
 * ¿Está completo y comprometido el grupo comprador?
 
 Si estas condiciones son verdaderas, puede elegir puntuar el posible cliente cuanto más alto sea. Si no es así, puede optar por no marcarlo como posible cliente calificado de marketing (MQL).
 
-En la instancia de Marketo Engage que esté conectada a Journey Optimizer B2B Edition, puede usar el filtro _[!UICONTROL Miembro del grupo de compra]_ en sus listas inteligentes para identificar a estos posibles clientes según su estrategia de campaña.
+En la instancia de Marketo Engage que esté conectada a Journey Optimizer B2B edition, puede usar el filtro _[!UICONTROL Miembro del grupo de compra]_ en sus listas inteligentes para identificar a estos posibles clientes según su estrategia de campaña.
 
 1. Después de [crear una lista inteligente en Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"}, seleccione la ficha **[!UICONTROL Lista inteligente]** para abrir el editor de filtros.
 
@@ -56,7 +69,7 @@ En la instancia de Marketo Engage que esté conectada a Journey Optimizer B2B Ed
 
      Para excluir a los miembros que se eliminaron de un grupo de compras, use la restricción _[!UICONTROL Se ha eliminado]_ establecida en `false`. También puede incluir explícitamente miembros eliminados en la lista inteligente estableciendo esta restricción en `true`.
 
-     Para un elemento discreto, como los intereses de la solución definidos en Journey Optimizer B2B Edition, puede seleccionar uno o varios elementos para la lista.
+     Para un elemento discreto, como los intereses de la solución definidos en Journey Optimizer B2B edition, puede seleccionar uno o varios elementos para la lista.
 
      ![Seleccione un valor para la restricción de la lista](./assets/me-member-of-buying-group-filter-constraint-list.png){width="600" zoomable="yes"}
 

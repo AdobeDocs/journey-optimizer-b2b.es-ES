@@ -4,9 +4,25 @@ description: Cree listas de cuentas estáticas y dinámicas con filtros personal
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: e935834c-48b7-43d8-b754-a815196a1b05
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: 1358
 ht-degree: 2%
 
 ---
@@ -178,6 +194,6 @@ El estado de la lista de cuentas dinámicas cambia a _[!UICONTROL Live]_ y está
 
 >[!ENDTABS]
 
-## Vídeo de información general
+## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3448652/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3448652/?captions=spa&learn=on)

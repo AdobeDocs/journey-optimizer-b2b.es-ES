@@ -5,10 +5,25 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 0%
+source-wordcount: 971
+ht-degree: 1%
 
 ---
 
@@ -40,7 +55,7 @@ Las preguntas sobre conocimientos del producto se refieren a conceptos e informa
 * ¿Cómo se envía un correo electrónico en un recorrido?
 * ¿Cómo puedo personalizar el contenido de mi correo electrónico?
 
-Para hacer una pregunta sobre un producto, indíquela en el campo situado en la parte inferior del panel y pulse Intro. Por ejemplo, cuando necesita aprender a utilizar un grupo de compra en un recorrido. En este caso, ingresa _¿Cómo uso un grupo de compra en un recorrido?_ Después de enviar la pregunta, el Asistente de inteligencia artificial consultará su base de conocimiento y compilará una respuesta en unos segundos.
+Para hacer una pregunta sobre un producto, indíquela en el campo situado en la parte inferior del panel y pulse Intro. Por ejemplo, cuando necesita aprender a utilizar un grupo de compra en un recorrido. En este caso, escribe _¿Cómo uso un grupo de compra en un recorrido?_ Después de enviar la pregunta, AI Assistant consulta su base de conocimiento y compila una respuesta en unos segundos.
 
 ![Escriba una pregunta en el cuadro de texto](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -64,7 +79,7 @@ Debe estar en una zona protegida activa para que AI Assistant proporcione una re
 >
 >Los únicos objetos de Adobe Journey Optimizer B2B edition compatibles con las preguntas de perspectivas operativas del Asistente de IA se enumeran en la [tabla de dominio de perspectivas operativas](./ai-assistant-overview.md#operational-insights). Solo puede acceder a los datos de la zona protegida en la que se encuentra actualmente.
 
-Para hacer una pregunta de información operativa, indíquela en el campo situado en la parte inferior del panel y pulse Intro. Por ejemplo, cuando desea conocer las audiencias de su zona protegida. En este caso, ingresa _¿Cuántas audiencias hay?_.  El asistente de IA proporciona un recuento de las audiencias de la zona protegida y una explicación de cómo calculó la respuesta. En la siguiente respuesta de ejemplo, el Asistente de IA proporciona un vínculo para acceder a las audiencias en la interfaz de usuario y describe los pasos que se han realizado para identificar el número de audiencias.
+Para hacer una pregunta de información operativa, indíquela en el campo situado en la parte inferior del panel y pulse Intro. Por ejemplo, cuando desea conocer las audiencias de su zona protegida. En este caso, debe ingresar _¿Cuántas audiencias hay?_.  El asistente de IA proporciona un recuento de las audiencias de la zona protegida y una explicación de cómo calculó la respuesta. En la siguiente respuesta de ejemplo, el Asistente de IA proporciona un vínculo para acceder a las audiencias en la interfaz de usuario y describe los pasos que se han realizado para identificar el número de audiencias.
 
 ![Respuesta del asistente de IA para cuántas audiencias](./assets/ai-assistant-insights-answer.png){width="420"}
 

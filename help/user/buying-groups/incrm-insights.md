@@ -3,13 +3,27 @@ title: Perspectivas en CRM
 description: Acceda a los grupos de compra de Journey Optimizer B2B edition directamente en los CRM. Los miembros del equipo de ventas pueden ver los datos de participación e identificar las oportunidades de ventas con Perspectivas In-CRM.
 feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: 2eb5b6226730a1948b480a9dee0c6f2786e01cc5
+exl-id: c55a1fce-2ddc-481b-9f60-5e67a4bf9633
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2:
+  - id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T21:40:22.011Z'
+source-git-commit: ff337a5f215daee1ea6dbe8d6b643087ac3324e2
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: 483
+ht-degree: 2%
 
 ---
-
 
 # Perspectivas en CRM
 

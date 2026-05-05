@@ -5,10 +5,22 @@ feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+autotag-review: '2026-03-27T22:24:19.286Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 1%
+source-wordcount: 1470
+ht-degree: 2%
 
 ---
 
