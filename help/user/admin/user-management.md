@@ -6,9 +6,14 @@ roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: '2026-03-27T22:47:43.575Z'
 source-git-commit: e749e60ba2f27d72931c44c4259c0c0483fdbbd7
 workflow-type: tm+mt
