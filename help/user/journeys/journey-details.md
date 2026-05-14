@@ -4,10 +4,15 @@ description: Monitorice el rendimiento del recorrido de la cuenta con las tasas 
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc

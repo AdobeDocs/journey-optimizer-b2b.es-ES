@@ -4,10 +4,14 @@ description: Cree plantillas de funciones con asignación automática condiciona
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -152,7 +156,7 @@ Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener
 
 1. En el cuadro de diálogo, cambie el valor **[!UICONTROL Miembros necesarios]** para cada rol definido según sea necesario.
 
-   Puede escribir el valor o hacer clic en **&amp;plus;** o **−** para aumentarlo o reducirlo.
+   Puede escribir el valor o hacer clic en **&plus;** o **−** para aumentarlo o reducirlo.
 
    ![Plantilla de roles - botón de configuración de puntuación de integridad](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 

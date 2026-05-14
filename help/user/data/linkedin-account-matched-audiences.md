@@ -4,11 +4,19 @@ description: Obtenga información sobre cómo conectar una cuenta de LinkedIn y 
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:49:08.608Z
 TQID: https://experienceleague.adobe.com/rFBH54jR-xCWenpoD13UzmONLdKn9WLdtNdTCtgQNbQ
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc

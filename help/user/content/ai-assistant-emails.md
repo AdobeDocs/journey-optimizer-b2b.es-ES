@@ -4,11 +4,21 @@ description: 'Generar contenido de correo electrónico con el Asistente de IA: c
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc

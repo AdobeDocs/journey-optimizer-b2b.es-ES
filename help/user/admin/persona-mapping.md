@@ -4,10 +4,17 @@ description: Aprenda a configurar la asignación de personalidades para el marke
 feature: Setup, Buying Groups
 role: Admin
 exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:59:15.291Z
 TQID: https://experienceleague.adobe.com/4cluYiSNQFIHT8sx2CuKMonlohM1qmQsAeCdxz5Hu0U
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
