@@ -4,11 +4,16 @@ description: 'Optimice la generación de demanda con recorridos: cree, publique 
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -109,11 +114,11 @@ El estado de un recorrido puede cambiar según las acciones que se apliquen. En 
 
 | Estado | Descripción | Acciones disponibles |
 | ------ | ----------- | ----------------- |
-| _**Borrador**_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _**Activo**_ | El estado del recorrido cambia de _Draft_ a _Live_ cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
-| _**Cerrado a nuevas entradas**_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
-| _**Anulado**_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _**Finalizado**_ | Cuando todos los miembros de audiencia de persona o cuenta de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _&#x200B;**Borrador**&#x200B;_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _&#x200B;**Activo**&#x200B;_ | El estado del recorrido cambia de _Draft_ a _Live_ cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
+| _&#x200B;**Cerrado a nuevas entradas**&#x200B;_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
+| _&#x200B;**Anulado**&#x200B;_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _&#x200B;**Finalizado**&#x200B;_ | Cuando todos los miembros de audiencia de persona o cuenta de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
 
 ## mapas de recorrido
 

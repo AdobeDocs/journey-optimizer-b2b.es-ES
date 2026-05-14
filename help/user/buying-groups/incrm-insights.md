@@ -4,10 +4,17 @@ description: Acceda a los grupos de compra de Journey Optimizer B2B edition dire
 feature: Sales Insights, Buying Groups
 role: User
 exl-id: c55a1fce-2ddc-481b-9f60-5e67a4bf9633
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: fc1ff3b2-6614-41ad-a113-de48597598fdid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:40:22.011Z
 TQID: https://experienceleague.adobe.com/HfypAUMJxZyWaQlkknyxUn63x5uVqcfJU-pzXcDWYBs
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
