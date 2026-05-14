@@ -4,19 +4,14 @@ description: 'Guía de incorporación para especialistas en marketing: cree grup
 role: User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-autotag-review: '2026-03-30T23:05:00.531Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266id: e0eb8757-182f-49f3-94a4-1587d16f5094
+autotag-review: 2026-03-30T23:05:00.531Z
+TQID: https://experienceleague.adobe.com/3gCGyaNUShU2ZHvIqc4FwsH7floQjrSy9fcdfevRYlE
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 386
 ht-degree: 95%
@@ -31,7 +26,7 @@ Una vez que un administrador complete las [tareas de instalación](../setup-ulti
 
 >[!TIP]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 Como especialista en marketing o _profesional de recorridos de cuentas_, es responsable de diseñar recorridos y crear contenido. Puede empezar a trabajar con Adobe Journey Optimizer B2B Edition después de que el administrador del sistema y el ingeniero de datos preparen su entorno y le concedan acceso.
 

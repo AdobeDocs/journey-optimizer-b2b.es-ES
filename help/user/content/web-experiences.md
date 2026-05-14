@@ -5,23 +5,14 @@ feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: '2026-03-30T22:04:21.575Z'
-source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: 2026-03-30T22:04:21.575Z
+TQID: https://experienceleague.adobe.com/tdFuPXow263TwebK-OF7bUenVrBuT1MYIG9FYC6gp-o
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1551
 ht-degree: 3%
@@ -47,7 +38,7 @@ Antes de crear experiencias web, asegúrese de que se cumplen los siguientes req
 
 * Un administrador de productos ha configurado uno o más canales web para definir las direcciones URL (páginas) que se incluirán en una experiencia web. Para obtener más información, vea [Configuraciones del canal Web](../admin/configure-channels-web.md).
 
-* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
+* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
 
 * Tiene los [permisos](../admin/user-management.md#b2b-product-permissions) necesarios para crear y administrar experiencias web en un recorrido:
    * _[!UICONTROL Campañas]_ > _[!UICONTROL Administrar campañas]_: necesario para agregar o actualizar un nodo de acción de personalización web.
@@ -206,13 +197,13 @@ Para habilitar la entrega de experiencias web, se debe definir la siguiente conf
 
 * En la recopilación de datos de Adobe Experience Platform, asegúrese de que tiene un conjunto de datos definido con la opción Adobe Journey Optimizer B2B edition activada en el servicio Adobe Experience Platform.
 
-  Esta configuración garantiza que Adobe Experience Platform Edge pueda gestionar correctamente los eventos entrantes. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure)
+  Esta configuración garantiza que Adobe Experience Platform Edge pueda gestionar correctamente los eventos entrantes. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * En Adobe Experience Platform, asegúrese de tener una política de combinación con la opción _[!UICONTROL Política de combinación activa en Edge]_ habilitada.
 
-  Seleccione una política en el menú Experience Platform Cliente > Perfiles > Políticas de combinación. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Seleccione una política en el menú Experience Platform Cliente > Perfiles > Políticas de combinación. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Los canales entrantes de Journey Optimizer B2B edition utilizan esta política de combinación para activar y publicar correctamente las experiencias web entrantes en Edge. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/ui-guide)
+  Los canales entrantes de Journey Optimizer B2B edition utilizan esta política de combinación para activar y publicar correctamente las experiencias web entrantes en Edge. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Resolución de problemas
 

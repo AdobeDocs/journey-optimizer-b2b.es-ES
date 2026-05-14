@@ -6,22 +6,13 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Esta función se encuentra actualmente en versión beta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: '2026-03-27T22:58:08.848Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: 2026-03-27T22:58:08.848Z
+TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1476
 ht-degree: 13%
@@ -30,7 +21,7 @@ ht-degree: 13%
 
 # Seleccionar eventos de experiencia y campos
 
-Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
+Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 El uso de eventos de experiencia de AEP en recorrido es un proceso de dos pasos:
@@ -480,5 +471,5 @@ Tipo de evento: `leadOperation.interestingMoment `
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448686/?captions=spa&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

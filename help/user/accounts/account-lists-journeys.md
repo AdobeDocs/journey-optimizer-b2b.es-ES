@@ -4,16 +4,13 @@ description: Utilice listas de cuentas en la orquestación de recorrido, agregue
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: '2026-03-27T22:29:03.719Z'
-source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: 2026-03-27T22:29:03.719Z
+TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 731
 ht-degree: 0%
@@ -86,7 +83,7 @@ Por ejemplo, puede tener una ruta de recorrido por la que enviar un correo elect
 
 Como especialista en marketing, es posible que desee suprimir programas en Marketo Engage para personas que forman parte de listas de cuentas en Journey Optimizer B2B edition.
 
-En la instancia de Marketo Engage que está conectada a Journey Optimizer B2B edition, puede usar el filtro _[!UICONTROL Lista de miembros de la cuenta]_ de sus listas inteligentes para identificar estos posibles clientes según su estrategia de campaña. Para obtener más información sobre listas inteligentes, consulte la [documentación de Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
+En la instancia de Marketo Engage que está conectada a Journey Optimizer B2B edition, puede usar el filtro _[!UICONTROL Lista de miembros de la cuenta]_ de sus listas inteligentes para identificar estos posibles clientes según su estrategia de campaña. Para obtener más información sobre listas inteligentes, consulte la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Agregar el filtro a una lista inteligente
 
@@ -104,7 +101,7 @@ En la instancia de Marketo Engage que está conectada a Journey Optimizer B2B ed
 
 1. En el flujo de campaña, agregue el paso **[!UICONTROL Agregar a la lista]** y elija la lista en la que desea rellenar las personas de la lista de cuentas de Journey Optimizer B2B edition.
 
-   Consulte _[Agregar un paso de flujo a una campaña inteligente](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ en la documentación de Marketo Engage para obtener información detallada sobre cómo agregar pasos a un flujo.
+   Consulte _[Agregar un paso de flujo a una campaña inteligente](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ en la documentación de Marketo Engage para obtener información detallada sobre cómo agregar pasos a un flujo.
 
 ### Revisar los miembros
 

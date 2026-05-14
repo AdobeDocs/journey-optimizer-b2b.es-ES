@@ -4,21 +4,14 @@ description: 'Cree mensajes SMS para recorridos de cuenta con personalización, 
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: '2026-03-30T22:13:38.262Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+autotag-review: 2026-03-30T22:13:38.262Z
+TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1328
 ht-degree: 3%
@@ -110,7 +103,7 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
      >[!NOTE]
      >
      >Cuando permite el seguimiento pero deshabilita _[!UICONTROL Incluir mkt_tok]_, la dirección URL de destino no incluye el parámetro de cadena de consulta `mkt_tok` después del redireccionamiento. Este parámetro lo utilizan las páginas de aterrizaje de Marketo Engage y Munchkin para garantizar que el seguimiento de las actividades personales (como cuando una persona cancela la suscripción de un correo electrónico). No desactive esta opción a menos que el parámetro esté causando problemas en el sitio web.<br/>
-     >Para obtener más información sobre cómo usar los códigos de seguimiento de Munchkin en tu sitio web, consulta la [documentación de Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Para obtener más información sobre cómo usar los códigos de seguimiento de Munchkin en tu sitio web, consulta la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Cuadro de diálogo Agregar vínculo para mensaje SMS](./assets/sms-add-link-dialog.png){width="470"}
 
