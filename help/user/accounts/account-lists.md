@@ -195,4 +195,4 @@ El estado de la lista de cuentas dinámicas cambia a _[!UICONTROL Live]_ y está
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448652/?captions=spa&learn=on)
