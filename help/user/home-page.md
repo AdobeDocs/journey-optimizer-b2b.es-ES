@@ -4,15 +4,10 @@ description: 'Acceda a Journey Optimizer B2B Edition y navegue por las páginas 
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -39,7 +34,7 @@ La página de inicio se muestra al iniciar sesión en Adobe Experience Platform 
 
 ![Página principal de Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition tiene dos perfiles de usuario principales: un _&#x200B;**experto en marketing**&#x200B;_ y un _&#x200B;**administrador**&#x200B;_. Cada persona tiene una página de inicio específica para diferentes etapas de madurez (nuevas o avanzadas). El contenido de la página se basa en lo que cada persona necesita en términos de información y en las siguientes acciones que debe realizar.
+Journey Optimizer B2B Edition tiene dos perfiles de usuario principales: un _**experto en marketing**_ y un _**administrador**_. Cada persona tiene una página de inicio específica para diferentes etapas de madurez (nuevas o avanzadas). El contenido de la página se basa en lo que cada persona necesita en términos de información y en las siguientes acciones que debe realizar.
 
 * **Experto en marketing - nuevo usuario**: la página de inicio de _Experto en marketing_ para un usuario nuevo le ayuda a familiarizarse con Journey Optimizer B2B y sus funcionalidades. Incluye una guía con el fin de que el nuevo experto en marketing obtenga una guía de incorporación para que pueda comprender los matices del sistema y ser eficiente en el desarrollo de estrategias e iniciativas de marketing B2B.
 * **Experto en marketing - usuario avanzado**: la página de inicio de _Experto en marketing_ para un experto en marketing avanzado muestra el progreso de la iniciativa actual, las acciones siguientes recomendadas y proporciona acceso rápido a las secciones relevantes.

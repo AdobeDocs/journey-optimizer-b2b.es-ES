@@ -4,14 +4,10 @@ description: Calcule las puntuaciones de integridad del grupo de compra mediante
 feature: Buying Groups
 role: User
 exl-id: 6f54d4ac-9d1a-4009-b9bf-8bc80e4cc63c
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: 2026-03-30T21:41:28.711Z
 TQID: https://experienceleague.adobe.com/Ph7PyKNEs2XWnMwmjk16OKMOZUmAI3pfwcVV3Mk1jvM
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc

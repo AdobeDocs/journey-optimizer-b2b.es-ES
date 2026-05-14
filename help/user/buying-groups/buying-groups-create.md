@@ -4,15 +4,10 @@ description: Cree grupos de compra automatizada seleccionando intereses de soluc
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:45:20.382Z
 TQID: https://experienceleague.adobe.com/qHzxSCz9m5JzAbc6g0v2y5m4nXs7O2-TALzA-PjA3GE
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -76,4 +71,4 @@ Remove a member of the buying group.
 
 ## Vídeo práctico
 
->[!VIDEO](https://video.tv.adobe.com/v/3451764/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

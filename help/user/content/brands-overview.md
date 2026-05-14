@@ -6,17 +6,11 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
 autotag-review: 2026-03-30T21:50:39.165Z
 TQID: https://experienceleague.adobe.com/NdhUbWDeiDqGc7jq8gFG6GAueMnkYnGAJdbizdgKb1g
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -87,7 +81,7 @@ Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe us
 
 Los administradores de productos pueden habilitar el acceso a las funciones de administración y alineación de marcas asignando los permisos de recursos de **[!UICONTROL Administrar kit de marca]** o **[!UICONTROL Habilitar asistente de IA]** a través de la interfaz de usuario de _Permisos_ en Adobe Experience Cloud.
 
-1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
+1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
 
 1. Haga clic en **[!UICONTROL Editar]** para modificar los permisos.
 

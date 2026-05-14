@@ -4,17 +4,11 @@ description: Cree modelos de fase de grupo de compra personalizados con etapas d
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -380,4 +374,4 @@ Utilice la ocurrencia de un cambio de fase de grupo de compra para mover la cuen
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3448697/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

@@ -5,16 +5,10 @@ feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -32,7 +26,7 @@ Una configuración web es una propiedad web identificada por una dirección URL 
 
 **Requisitos previos**
 
-Para usar canales web, tu sitio web debe tener [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
+Para usar canales web, tu sitio web debe tener [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
 
 La configuración del canal web en Journey Optimizer B2B edition requiere los siguientes [permisos](../admin/user-management.md#b2b-product-permissions):
 

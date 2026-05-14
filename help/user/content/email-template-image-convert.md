@@ -3,16 +3,11 @@ title: Conversión de una imagen en una plantilla de correo electrónico
 description: Transforme archivos de imagen en plantillas de correo electrónico de HTML con Journey Optimizer B2B edition. Cargar archivos PNG/JPEG y generar automáticamente contenido de correo electrónico reutilizable.
 feature: Email Authoring, Content
 exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:06:11.745Z
 TQID: https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc

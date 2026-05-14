@@ -7,15 +7,10 @@ role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, deduplicación, recorrido, duplicado
 exl-id: 93107acd-1cb2-4316-acfc-e32ab1e065ae
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: 2026-03-30T22:08:16.582Z
 TQID: https://experienceleague.adobe.com/aWKXaC6x4Izeh81A6Fpy-Nrf18fHgnq6jUc-82ohErs
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc

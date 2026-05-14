@@ -6,14 +6,9 @@ roles: Admin
 level: Beginner
 solution: Journey Optimizer B2B Edition
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -74,7 +69,7 @@ Para obtener más información sobre el uso de perfiles de producto para las aut
 
 Cuando agrega un usuario al perfil de producto de Marketo Engage, posteriormente se agrega al rol _Usuario estándar_ dentro del área de trabajo predeterminada de la suscripción de Marketo Engage. Esta función les concede todos los permisos estándar para Marketo Engage en ese espacio de trabajo. Actualmente, todos los usuarios de Journey Optimizer B2B edition deben ser usuarios de Marketo Engage. Un administrador de Marketo Engage puede restringir el acceso actualizando los permisos de la función _Usuario estándar_ o moviendo al usuario a una función de usuario de Marketo Engage diferente con permisos más restrictivos.
 
-Para obtener más información sobre la administración de estos permisos en Marketo Engage, consulte [Administración de roles y permisos de usuarios](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} en la documentación de Marketo Engage.
+Para obtener más información sobre la administración de estos permisos en Marketo Engage, consulte [Administración de roles y permisos de usuarios](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} en la documentación de Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +162,7 @@ Los permisos son derechos unitarios que le permiten definir las autorizaciones a
 
 El área _Permisos_ de Adobe Experience Platform es donde los administradores pueden definir roles de usuario y directivas de acceso para administrar permisos de acceso para características y objetos dentro de una aplicación de producto. En esta aplicación, puede crear y administrar funciones, así como asignar los permisos de recursos deseados para estas. Los permisos también le permiten administrar los entornos limitados y los usuarios asociados a una función específica.
 
-Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
+Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
 
 ### Permisos de productos B2B {#b2b-product-permissions}
 

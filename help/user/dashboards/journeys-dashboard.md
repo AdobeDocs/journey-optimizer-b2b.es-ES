@@ -4,18 +4,11 @@ description: Rastree el rendimiento del recorrido de la cuenta con las tasas de 
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 autotag-review: 2026-03-30T22:42:55.045Z
 TQID: https://experienceleague.adobe.com/jI0qWqL96aKv0FxEAwtFOnabJQZQ4r1OZd1CMz01hLE
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc

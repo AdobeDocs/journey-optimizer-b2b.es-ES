@@ -4,17 +4,11 @@ description: 'Cree fragmentos de contenido reutilizables con las herramientas de
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:26:28.969Z
 TQID: https://experienceleague.adobe.com/mCpO2VPJbZtkGFlIljSZ4Zsx-3cKW38YfX-KmZC4RZ0
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc

@@ -4,16 +4,11 @@ description: 'Examine, administre y utilice recursos de B2B edition de Journey O
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:14:12.746Z
 TQID: https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
