@@ -5,10 +5,17 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
 autotag-review: 2026-03-30T15:10:20.350Z
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fdid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
 source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
 workflow-type: tm+mt
@@ -280,10 +287,10 @@ En la página _[!UICONTROL Flujo de trabajo saliente]_, la pestaña **[!UICONTRO
 ### Prácticas recomendadas de flujo de trabajo saliente
 
 * **Invierta en la meta.** El direccionamiento descendente, la cadencia y los correos electrónicos se remontan al objetivo. Los objetivos específicos, centrados en los resultados, superan a los vagos.
-* **Finalizar mensajes de punto de contacto antes de la generación por cliente potencial.**** Después de la generación masiva, los cambios se realizan normalmente de un cliente potencial a la vez.
+* **Finalizar mensajes de punto de contacto antes de la generación por cliente potencial.**&#x200B;** Después de la generación masiva, los cambios se realizan normalmente de un cliente potencial a la vez.
 * **Usar razonamiento como comprobación de calidad.** Si se enfatiza la señal incorrecta (o falta una obvia), edite el correo electrónico o vuelva a visitar el indicador de punto de contacto y vuelva a generar la cadencia.
-* **Haga coincidir la herramienta de edición con el cambio.**** Ediciones directas para redacción y tono; **[!UICONTROL Generar con IA]** para reestructurar o reenmarcar.
-* **Apruebe solo lo que ha revisado.**** Expanda los puntos de contacto, lea el contenido y aclare donde sea necesario antes de inscribirse.
+* **Haga coincidir la herramienta de edición con el cambio.**&#x200B;**&#x200B; Ediciones directas para redacción y tono; &#x200B;** [!UICONTROL Generar con IA]** para reestructurar o reenmarcar.
+* **Apruebe solo lo que ha revisado.**&#x200B;** Expanda los puntos de contacto, lea el contenido y aclare donde sea necesario antes de inscribirse.
 
 ## Bandeja de salida de correo
 
