@@ -17,9 +17,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 1328
+source-wordcount: 1343
 ht-degree: 3%
 
 ---
@@ -56,7 +56,7 @@ Puede configurar envíos de mensajes de texto en un recorrido de cuentas cuando 
 >
 >**Administración de consentimiento de SMS**<br/>
 >
->De acuerdo con las normas y regulaciones del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Para ello, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. Se admiten y se respetan todas las palabras clave de inclusión y exclusión estándar. Además, se admiten y respetan todas las palabras clave personalizadas configuradas para la cuenta del proveedor de servicios SMS.
+>De acuerdo con las normas y regulaciones del sector, todos los mensajes SMS sobre marketing deben contener una forma para que los destinatarios puedan cancelar la suscripción fácilmente. Para ello, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. Se admiten y se respetan todas las palabras clave de inclusión y exclusión estándar. Además, se admiten y respetan todas las palabras clave personalizadas configuradas para la cuenta del proveedor de servicios SMS. Para obtener más información sobre cómo se evalúan las preferencias de consentimiento de SMS en el momento de la entrega, consulte [Preferencias de consentimiento](./channels-consent-preferences.md).
 
 Escriba el texto que desee enviar en el campo **[!UICONTROL Mensaje]**.
 
