@@ -4,21 +4,15 @@ description: Obtenga información acerca de las funciones de gobernanza que est�
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: 418
 ht-degree: 0%
 
 ---
@@ -29,7 +23,7 @@ Journey Optimizer B2B edition es una aplicación integrada de Adobe Experience P
 
 ## Privacidad - RGPD
 
-Journey Optimizer B2B edition utiliza las funciones de control del RGPD de Marketo Engage existentes que proporcionan Privacy Service y el servicio de agente de privacidad de Marketo.
+Journey Optimizer B2B edition utiliza las funciones de control del RGPD de Marketo Engage existentes proporcionadas por Privacy Service y el Servicio de agente de privacidad de Marketo.
 
 ## Control de acceso basado en roles (RBAC)
 
@@ -37,19 +31,21 @@ Con Journey Optimizer B2B edition y el acceso a Adobe Admin Console, los adminis
 
 ## Cifrado de datos
 
-**_Cifrado para datos en reposo_**: todos los datos de cuentas y perfiles de persona transferidos desde Adobe Experience Platform a Journey Optimizer B2B edition están cifrados para mantener la conformidad existente desde Experience Platform. Todas las entidades que se originan en Journey Optimizer B2B edition, como recorridos y grupos de compra, también están cifradas.
+**_Cifrado para datos en reposo_**: todos los datos de cuenta y perfil de persona transferidos desde Adobe Experience Platform a Journey Optimizer B2B edition se cifran para mantener la conformidad existente desde Experience Platform. Todas las entidades que se originan en Journey Optimizer B2B edition, como recorridos y grupos de compra, también están cifradas.
 
 **_Cifrado para datos en tránsito_** (a través de una red pública): todas las entidades y API de Journey Optimizer B2B edition se cifran en tránsito mediante TLS 1.2.
 
 ## Inclusión/exclusión de consentimiento
 
-La inclusión/exclusión de consentimiento es una forma de gobernanza en la que un perfil puede excluirse de un canal de comunicación, como correo electrónico o SMS, y un perfil se excluye del canal de comunicación.
+Journey Optimizer B2B edition lee las preferencias de consentimiento por persona almacenadas en perfiles XDM de Adobe Experience Platform y las aplica en el momento de la entrega de los mensajes para canales de correo electrónico, SMS y WhatsApp. Las personas que optaron por no participar en un canal quedan excluidas de la entrega antes de que se envíe el contenido desde el canal o el proveedor de mensajería descendente.
 
-Con Journey Optimizer B2B edition, puede crear y administrar casos de uso de suscripción/cancelación de suscripción para sus casos de uso de envío de correo electrónico y SMS. Estas preferencias de consentimiento se almacenan dentro del grupo de campos de consentimiento de perfil de XDM y se sincronizan con y desde Journey Optimizer B2B edition como parte del marco de trabajo de sincronización de datos. Estas preferencias se utilizan en el momento de la entrega para excluir los perfiles de exclusión de las entregas.
+El consentimiento se evalúa en el momento de la entrega mediante los campos XDM del grupo de campos de consentimiento del perfil. El comportamiento de consentimiento predeterminado difiere según el canal: el correo electrónico se establece de forma predeterminada como &quot;Opted in&quot; cuando no se establece ninguna preferencia, mientras que SMS y WhatsApp se establecen de forma predeterminada como &quot;opted out&quot;.
+
+Para obtener más información sobre los atributos XDM evaluados para cada canal y sus comportamientos predeterminados, consulte [Preferencias de consentimiento](../content/channels-consent-preferences.md).
 
 ## Restablecer zona protegida
 
-El restablecimiento de la zona protegida **no es compatible** actualmente con Adobe Journey Optimizer B2B edition. Restablecer o eliminar una zona protegida asignada a Journey Optimizer B2B edition puede provocar la pérdida permanente de datos en Journey Optimizer B2B edition y requerir la provisión de una nueva instancia de Journey Optimizer B2B edition.
+El restablecimiento de la zona protegida **no es compatible** actualmente con Adobe Journey Optimizer B2B edition. Restablecer o eliminar una zona protegida asignada a Journey Optimizer B2B edition puede causar una pérdida de datos permanente y requerir el aprovisionamiento de una nueva instancia.
 
 ## Aún no está disponible
 

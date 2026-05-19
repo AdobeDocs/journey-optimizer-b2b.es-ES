@@ -4,19 +4,14 @@ description: Cree mensajes de WhatsApp para recorridos de cuenta con plantillas 
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: 828
 ht-degree: 1%
 
 ---
@@ -92,7 +87,7 @@ Puede configurar los envíos de mensajes de WhatsApp en un recorrido de cuenta a
 
 >[!IMPORTANT]
 >
->**Administración de consentimientos de WhatsApp**: De acuerdo con las políticas de Meta y las regulaciones aplicables, todos los mensajes de marketing de WhatsApp deben enviarse únicamente a los destinatarios que se hayan suscrito para recibir comunicaciones. Los destinatarios de WhatsApp pueden excluirse en cualquier momento respondiendo con una palabra clave de exclusión. Las respuestas de exclusión se respetan automáticamente y los perfiles correspondientes se eliminan de las futuras audiencias de mensajes de marketing.
+>**Administración de consentimientos de WhatsApp**: De acuerdo con las políticas de Meta y las regulaciones aplicables, todos los mensajes de marketing de WhatsApp deben enviarse únicamente a los destinatarios que se hayan suscrito para recibir comunicaciones. Los destinatarios de WhatsApp pueden excluirse en cualquier momento respondiendo con una palabra clave de exclusión. Las respuestas de exclusión se respetan automáticamente y los perfiles correspondientes se eliminan de las futuras audiencias de mensajes de marketing. Para obtener detalles sobre cómo se evalúan las preferencias de consentimiento de WhatsApp en el momento de la entrega, consulte [Preferencias de consentimiento](./channels-consent-preferences.md).
 
 Los mensajes de WhatsApp se envían utilizando plantillas de mensaje aprobadas previamente desde su cuenta de Meta WhatsApp Business. **Meta debe revisar y aprobar las plantillas** para poder usarlas en Journey Optimizer B2B edition. Trabaje con el administrador de su cuenta de [!DNL Meta Business Manager] para administrar y enviar las plantillas para su aprobación.
 
