@@ -14,7 +14,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 1%
@@ -26,6 +26,7 @@ ht-degree: 1%
 Utiliza Adobe Journey Optimizer B2B edition para enviar mensajes de WhatsApp a los miembros de la cuenta en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes utilizando plantillas de mensaje de Meta aprobadas desde el editor de WhatsApp. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 Antes de crear mensajes de WhatsApp para recorridos de cuenta, asegúrate de que tienes el [canal de WhatsApp configurado](../admin/configure-channels-whatsapp.md) necesario en la configuración de _[!UICONTROL Administrator]_.
+
 
 >[!NOTE]
 >
@@ -58,6 +59,10 @@ Las siguientes opciones de call-to-action están disponibles para tus mensajes d
 
 ## Añadir una acción de WhatsApp en un recorrido de cuenta
 
+>[!IMPORTANT]
+>
+>**Administración de consentimientos de WhatsApp**: De acuerdo con las políticas de Meta y las regulaciones aplicables, todos los mensajes de marketing de WhatsApp deben enviarse únicamente a los destinatarios que se hayan suscrito para recibir comunicaciones. Los destinatarios de WhatsApp pueden excluirse en cualquier momento respondiendo con una palabra clave de exclusión. Las respuestas de exclusión se respetan automáticamente y los perfiles correspondientes se eliminan de las futuras audiencias de mensajes de marketing. Para obtener detalles sobre cómo se evalúan las preferencias de consentimiento de WhatsApp en el momento de la entrega, consulte [Preferencias de consentimiento](./channels-consent-preferences.md).
+
 Puede configurar los envíos de mensajes de WhatsApp en un recorrido de cuenta al [agregar un nodo _[!UICONTROL Realizar una acción]_](../journeys/action-nodes.md) y hacer lo siguiente:
 
 1. Para la _[!UICONTROL acción en]_ destino, elige **[!UICONTROL Personas]**.
@@ -89,10 +94,6 @@ Puede configurar los envíos de mensajes de WhatsApp en un recorrido de cuenta a
 1. Haga clic en **[!UICONTROL Editar contenido]** para pasar a los parámetros y al texto del mensaje.
 
 ### Seleccione una plantilla de mensaje
-
->[!IMPORTANT]
->
->**Administración de consentimientos de WhatsApp**: De acuerdo con las políticas de Meta y las regulaciones aplicables, todos los mensajes de marketing de WhatsApp deben enviarse únicamente a los destinatarios que se hayan suscrito para recibir comunicaciones. Los destinatarios de WhatsApp pueden excluirse en cualquier momento respondiendo con una palabra clave de exclusión. Las respuestas de exclusión se respetan automáticamente y los perfiles correspondientes se eliminan de las futuras audiencias de mensajes de marketing. Para obtener detalles sobre cómo se evalúan las preferencias de consentimiento de WhatsApp en el momento de la entrega, consulte [Preferencias de consentimiento](./channels-consent-preferences.md).
 
 Los mensajes de WhatsApp se envían utilizando plantillas de mensaje aprobadas previamente desde su cuenta de Meta WhatsApp Business. **Meta debe revisar y aprobar las plantillas** para poder usarlas en Journey Optimizer B2B edition. Trabaje con el administrador de su cuenta de [!DNL Meta Business Manager] para administrar y enviar las plantillas para su aprobación.
 

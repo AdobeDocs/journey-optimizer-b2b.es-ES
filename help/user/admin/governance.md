@@ -16,9 +16,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 419
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Con Journey Optimizer B2B edition y el acceso a Adobe Admin Console, los adminis
 
 ## Inclusión/exclusión de consentimiento
 
-Journey Optimizer B2B edition lee las preferencias de consentimiento por persona almacenadas en perfiles XDM de Adobe Experience Platform y las aplica en el momento de la entrega de los mensajes para canales de correo electrónico, SMS y WhatsApp. Las personas que optaron por no participar en un canal quedan excluidas de la entrega antes de que se envíe el contenido desde el canal o el proveedor de mensajería descendente.
+Journey Optimizer B2B edition lee las preferencias de consentimiento por persona almacenadas en perfiles XDM de Adobe Experience Platform y las aplica en el momento de la entrega de los mensajes para canales de correo electrónico, SMS y WhatsApp. Una persona que se excluyó de un canal queda excluida de la entrega antes de que se envíe el contenido desde el canal o el proveedor de mensajería descendente.
 
 El consentimiento se evalúa en el momento de la entrega mediante los campos XDM del grupo de campos de consentimiento del perfil. El comportamiento de consentimiento predeterminado difiere según el canal: el correo electrónico se establece de forma predeterminada como &quot;Opted in&quot; cuando no se establece ninguna preferencia, mientras que SMS y WhatsApp se establecen de forma predeterminada como &quot;opted out&quot;.
 
