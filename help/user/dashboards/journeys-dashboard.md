@@ -1,39 +1,56 @@
 ---
-title: Tablero general de Recorridos de cuenta
-description: Rastree el rendimiento del recorrido de la cuenta con las tasas de finalización, las métricas de participación y los análisis de efectividad del canal en Journey Optimizer B2B edition.
-feature: Dashboards, Account Journeys
+title: Panel de información general de Recorrido
+description: Rastree el rendimiento del recorrido de personas y cuentas con tasas de finalización, métricas de participación y análisis de eficacia de canal en Journey Optimizer B2B edition.
+feature: Dashboards, Account Journeys, Person Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
+autotag-review: '2026-05-21T21:07:43.367Z'
+TQID: 'https://experienceleague.adobe.com/u-zKjTHRErQFQCHxuft-gJiiiE5a1oJUIZfziasvcHs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-autotag-review: 2026-03-30T22:42:55.045Z
-TQID: https://experienceleague.adobe.com/jI0qWqL96aKv0FxEAwtFOnabJQZQ4r1OZd1CMz01hLE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: a1947a16cde3ba625027b794cd370a0143238e36
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: 432
 ht-degree: 2%
 
 ---
 
-# Panel general de Recorridos de cuenta
+# Panel de información general de Recorrido
 
-Este tablero proporciona una visión general completa de los recorridos activos de la cuenta, en la que se detalla el progreso de la cuenta mediante los diagramas de círculos y barras que categorizan y cuantifican las finalizaciones y las actividades de participación. Ayuda a los especialistas en marketing a evaluar la eficacia de los canales de correo electrónico y SMS a través de métricas clave de envío y participación.
+El panel Información general de [recorridos de cuenta y persona](../journeys/journeys-overview.md) proporciona una instantánea completa de tus recorridos activos. Los gráficos de círculos y barras categorizan y cuantifican las finalizaciones y las actividades de participación para que pueda evaluar la eficacia de los canales de correo electrónico y SMS a través de las métricas clave de entrega y participación.
 
-Esta descripción general está disponible para los recorridos de cuentas publicadas y los datos tardan aproximadamente cuatro horas en empezar a rellenar los gráficos y tablas.
+Esta información general está disponible para los recorridos publicados y los datos tardan aproximadamente cuatro horas en empezar a rellenarlos.
 
-![descripción general del Recorrido](./assets/journey-overview.png){width="700" zoomable="yes"}
+>[!BEGINTABS]
 
-## Distribución de tasa de finalización del recorrido
+>[!TAB recorridos de cuenta]
+
+En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de Recorrido]** y haga clic en **[!UICONTROL recorridos de cuenta]**. Seleccione la ficha **[!UICONTROL Información general]** si no se muestra de manera predeterminada.
+
+![Resumen de recorridos de cuenta](./assets/journey-overview-account.png){width="800" zoomable="yes"}
+
+>[!TAB recorridos de personas (Beta)]
+
+[!BADGE Beta]{type=Informative tooltip="Disponible como función beta"}
+
+En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de Recorrido]** y haga clic en **[!UICONTROL recorridos de persona]**. Seleccione la ficha **[!UICONTROL Información general]** si no se muestra de manera predeterminada.
+
+![Información general sobre recorridos de personas](./assets/journey-overview-person.png){width="800" zoomable="yes"}
+
+>[!ENDTABS]
+
+## Distribución de tasa de finalización del recorrido {#journey-completion-rate-distribution}
 
 Este gráfico ilustra la distribución de los recorridos según su tasa de finalización y se clasifica en cuatro bandas de puntuación distintas. La cifra central representa el número total de recorridos y proporciona una instantánea rápida del progreso general. Los colores segmentados indican la proporción de recorridos dentro de cada rango de puntuación, lo que le permite evaluar las tendencias de finalización de un vistazo.
 
@@ -41,27 +58,27 @@ Para ver información más detallada, haga clic en el icono de menú **...** en 
 
 ![distribución de tasa de finalización de Recorridos](./assets/journey-completion-rate-distribution.png){width="500"}
 
-## Recorridos por tipo de participación
+## Recorridos por tipo de participación {#journeys-by-engagement-type}
 
-Este gráfico de barras muestra la distribución de los recorridos en función del tipo de participación y le ayuda a identificar qué participaciones se utilizaron más en los distintos recorridos. Cada barra representa un tipo de participación específico, con su longitud que indica el número de recorridos con actividades de ese tipo. Esta visualización proporciona una comprensión clara e inmediata de las tendencias de participación dentro de los recorridos de la cuenta.
+Este gráfico de barras muestra la distribución de los recorridos en función del tipo de participación y le ayuda a identificar qué participaciones se utilizaron más en los distintos recorridos. Cada barra representa un tipo de participación específico, con su longitud que indica el número de recorridos con actividades de ese tipo. Esta visualización proporciona una comprensión clara e inmediata de las tendencias de participación dentro de los recorridos de cuenta o persona.
 
 Para ver información más detallada, haga clic en el icono de menú **...** en la parte superior derecha.
 
-![distribución de tasa de finalización de Recorridos](./assets/journeys-by-engagement-type.png){width="500"}
+![Recorridos por tipo de participación](./assets/journeys-by-engagement-type.png){width="500"}
 
-## Interactúe con los datos
+## Interactúe con los datos {#engage-with-the-data}
 
 Para interactuar con los datos, utilice el menú **...** en la parte superior derecha de cada gráfico.
 
-### [!UICONTROL Obtener detalles]
+### [!UICONTROL Obtener detalles] {#drill-through}
 
 Para el gráfico circular, elija **[!UICONTROL Obtener detalles]** para obtener un análisis detallado de los datos.
 
-![Obtener detalles para acceder a los datos del gráfico](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
+![Elija Obtener detalles para acceder a los datos del gráfico](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
 Puede hacer clic en _Más_ (**...**) en la parte superior derecha y elige **[!UICONTROL Ver más]** para [ver datos extendidos](#view-more).
 
-### [!UICONTROL Ver más]
+### [!UICONTROL Ver más] {#view-more}
 
 Elija **[!UICONTROL Ver más]** para ver datos y perspectivas ampliados.
 
