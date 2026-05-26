@@ -3,39 +3,30 @@ title: Seleccionar eventos y campos de experiencia
 description: Seleccione eventos y campos de Experience Platform para almacenar en déclencheur la toma de decisiones en tiempo real en recorrido en función del comportamiento del cliente.
 feature: Setup, Integrations
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="Esta función se encuentra actualmente en versión beta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
 workflow-type: tm+mt
-source-wordcount: 1608
+source-wordcount: 1605
 ht-degree: 12%
 
 ---
 
 # Seleccionar eventos de experiencia y campos
 
-Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
+Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->El uso de eventos y campos de experiencia en Journey Optimizer B2B edition requiere esquemas de eventos de experiencia con perfil habilitado. Para obtener más información, consulte [Habilitar perfiles de clientes en tiempo real](https://experienceleague.adobe.com/es/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} en los tutoriales de Experience Platform.
+>El uso de eventos y campos de experiencia en Journey Optimizer B2B edition requiere esquemas de eventos de experiencia con perfil habilitado. Para obtener más información, consulte [Habilitar perfiles de clientes en tiempo real](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} en los tutoriales de Experience Platform.
 
 El uso de eventos de experiencia de AEP en recorrido es un proceso de dos pasos:
 
@@ -48,7 +39,7 @@ El uso de eventos de experiencia de AEP en recorrido es un proceso de dos pasos:
 
 >[!BEGINSHADEBOX]
 
-## Directrices y limitaciones
+## Directrices y limitaciones {#guidelines-and-limitations}
 
 A medida que seleccione eventos para satisfacer sus objetivos organizativos, tenga en cuenta lo siguiente:
 
@@ -62,11 +53,11 @@ A medida que seleccione eventos para satisfacer sus objetivos organizativos, ten
 
 * Cuando se utiliza un evento de experiencia y se publica el recorrido, se pueden añadir más campos, pero no se pueden eliminar los seleccionados anteriormente.
 
-* Puede hacer referencia a un evento de experiencia en varios recorridos o utilizar el mismo evento más de una vez dentro del mismo recorrido.
+* Puede hacer referencia a un evento de experiencia en varios recorridos o utilizarlo más de una vez en el mismo recorrido.
 
 >[!ENDSHADEBOX]
 
-## Administrar eventos de experiencia
+## Administrar eventos de experiencia {#manage-experience-events}
 
 1. En el panel de navegación izquierdo, elija **[!UICONTROL Administración]** > **[!UICONTROL Configuraciones]**.
 
@@ -80,7 +71,7 @@ A medida que seleccione eventos para satisfacer sus objetivos organizativos, ten
 
    Para acceder a los detalles de un evento seleccionado, haga clic en el nombre del evento.
 
-### Filtrado de la lista de eventos
+### Filtrado de la lista de eventos {#filter-the-event-list}
 
 Escriba texto en el campo _[!UICONTROL Buscar]_ para filtrar los eventos mostrados y buscar una coincidencia en el nombre del evento.
 
@@ -89,10 +80,6 @@ Escriba texto en el campo _[!UICONTROL Buscar]_ para filtrar los eventos mostrad
 ### Añadir un evento {#add-an-event}
 
 Para que un evento de experiencia esté disponible para un nodo _Escuchar un evento_ en un recorrido, seleccione el evento y los campos admitidos.
-
->[!NOTE]
->
->En la versión beta, no se pueden eliminar eventos de la lista. Asegúrese de que cada evento que agregue sea uno que su organización pretenda utilizar.
 
 1. Haga clic en **[!UICONTROL Seleccionar evento de experiencia]** en la parte superior derecha.
 
@@ -142,19 +129,23 @@ Edite los detalles del evento para cambiar los campos.
 
 1. Haga clic en **[!UICONTROL Seleccionar]** para guardar las selecciones.
 
-### Eliminar un evento
+### Eliminar un evento {#remove-an-event}
 
->[!NOTE]
->
->Para la versión de Beta de esta función, no se puede quitar un evento de la lista de eventos seleccionados. Se ha planificado la eliminación de eventos para la versión de GA.
+Para evitar que se use un evento de experiencia en un nodo _Escuchar un evento_ dentro de un recorrido, quite el evento. No puede quitar un evento si lo usa un recorrido con los estados _Programado_, _Activo_ o _Finalizado_.
 
-## Eventos y campos
+1. Haga clic en el icono _Más menú_ ( **...** ) junto al nombre del evento y elija **[!UICONTROL Quitar]**.
+
+1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Quitar]**.
+
+   ![Confirmar la eliminación del evento](./assets/configurations-xdm-events-remove.png){width="500" zoomable="yes"}
+
+## Eventos y campos {#events-and-fields}
 
 Para [!DNL Journey Optimizer B2B Edition], ciertas actividades a nivel de personas se capturan como [!DNL Experience Platform] eventos de experiencia. Estos eventos se almacenan en un conjunto de datos del sistema que utiliza el esquema de evento de experiencia XDM e incluye grupos de campos específicos del recorrido. Puede usar estos eventos en [!UICONTROL Journey Optimizer B2B edition] como cualquier otro evento de experiencia.
 
 Cada evento expone un conjunto definido de campos que se pueden utilizar en el recorrido _Escuchar un evento_ nodos (toma de decisiones basada en eventos). Revise los tipos de evento disponibles y sus campos para determinar qué evento y campos utilizar en estos nodos de recorrido:
 
-### Se envió el email
+### Se envió el email {#email-sent}
 
 Este evento rastrea cuándo se envió un correo electrónico de marketing a una persona.
 
@@ -182,7 +173,7 @@ Tipo de evento: `directMarketing.emailSent`
 
 +++
 
-### Correo electrónico entregado
+### Correo electrónico entregado {#email-delivered}
 
 Este evento rastrea cuándo se entregó correctamente un correo electrónico al servicio de correo electrónico de una persona.
 
@@ -210,7 +201,7 @@ Tipo de evento: `directMarketing.emailDelivered`
 
 +++
 
-### Se abrió el email
+### Se abrió el email {#email-opened}
 
 Este evento rastrea cuándo una persona ha abierto un correo electrónico de marketing.
 
@@ -242,7 +233,7 @@ Tipo de evento: `directMarketing.emailOpened`
 
 +++
 
-### Correo electrónico clicado
+### Correo electrónico clicado {#email-clicked}
 
 Este evento rastrea cuándo una persona hizo clic en un vínculo en un correo electrónico de marketing.
 
@@ -275,7 +266,7 @@ Tipo de evento: `directMarketing.emailClicked`
 
 +++
 
-### El email se rechazó
+### El email se rechazó {#email-bounced}
 
 Este evento rastrea cuándo rebotó un correo electrónico a una persona.
 
@@ -306,7 +297,7 @@ Tipo de evento: `directMarketing.emailBounced`
 
 +++
 
-### Se rechazó el email temporalmente
+### Se rechazó el email temporalmente {#email-bounced-soft}
 
 Este evento rastrea cuándo ha rebotado suavemente un correo electrónico a una persona.
 
@@ -337,7 +328,7 @@ Tipo de evento: `directMarketing.emailBouncedSoft`
 
 +++
 
-### Correo electrónico cancelado
+### Correo electrónico cancelado {#email-unsubscribed}
 
 Este evento rastrea cuándo una persona canceló la suscripción a un correo electrónico de marketing.
 
@@ -365,7 +356,7 @@ Tipo de evento: `directMarketing.emailUnsubscribed`
 
 +++
 
-### Visite la página web
+### Visite la página web {#visit-web-page}
 
 Este tipo de evento es el método estándar para marcar la visita como una vista de página.
 
@@ -396,7 +387,7 @@ Tipo de evento: `web.webpagedetails.pageViews`
 
 +++
 
-### Formulario rellenado
+### Formulario rellenado {#form-filled-out}
 
 Este evento rastrea cuándo una persona ha rellenado un formulario en una página web.
 
@@ -427,7 +418,7 @@ Tipo de evento: `web.formFilledOut`
 
 +++
 
-### Vínculo web pulsado
+### Vínculo web pulsado {#web-link-clicked}
 
 El evento indica que Web SDK registró automáticamente un clic en vínculo.
 
@@ -458,7 +449,7 @@ Tipo de evento: `web.webinteraction.linkClicks`
 
 +++
 
-### Momento interesante
+### Momento interesante {#interesting-moment}
 
 Este evento rastrea cuándo se grabó un momento interesante para una persona.
 
@@ -488,5 +479,5 @@ Tipo de evento: `leadOperation.interestingMoment`
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448686/?captions=spa&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->
