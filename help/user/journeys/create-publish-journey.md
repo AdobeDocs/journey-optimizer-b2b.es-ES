@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
 workflow-type: tm+mt
-source-wordcount: 859
-ht-degree: 4%
+source-wordcount: 862
+ht-degree: 5%
 
 ---
 
@@ -74,6 +74,7 @@ Después de crear un recorrido de cuentas y agregar la audiencia, genere el reco
 * [Iniciar una acción](./action-nodes.md)
 * [Escuchar un evento](./listen-for-event-nodes.md)
 * [Dividir rutas](./split-merge-paths-nodes.md)
+* [Siguiente mejor ruta](./next-best-path-node.md)
 * [Espera](./wait-nodes.md)
 * [Combinar rutas](./split-merge-paths-nodes.md)
 

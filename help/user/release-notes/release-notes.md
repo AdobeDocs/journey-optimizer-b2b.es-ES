@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 4cc24ff8a19aa1ec6888c7ef35c1a4c6ac93f344
+source-git-commit: dd5dae1845686654d2935d9d10b4cd61c5fc502f
 workflow-type: tm+mt
-source-wordcount: 5096
+source-wordcount: 5099
 ht-degree: 67%
 
 ---
@@ -43,8 +43,8 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Función | Páginas de aterrizaje | Los especialistas en marketing ahora pueden crear y publicar páginas de aterrizaje en Journey Optimizer B2B edition para admitir recorridos y programas _(anteriormente una característica de programa de Beta)_. |
 | Función | Formularios | Los especialistas en marketing ahora pueden crear y publicar componentes de formulario reutilizables para habilitar el envío de datos desde páginas de aterrizaje que se crean y publican en Journey Optimizer B2B edition _(anteriormente una función de programa de Beta)_. |
 | Función | Miembro del filtro Lista de cuentas | Utilice la pertenencia a Listas de cuentas como punto de orquestación en los recorridos de cuentas. Los especialistas en marketing pueden crear listas de bloqueados de cuentas, listas de prioridades o cualquier otro tipo de subconjunto de su audiencia y proporcionar a las cuentas experiencias únicas en recorridos según su pertenencia. |
-| Función | Filtrado del historial de eventos de experiencia | Esta función permite que la orquestación de recorrido B2B utilice la participación histórica para impulsar decisiones basadas en el comportamiento para los miembros de la audiencia. |
-| Función | decisión de ruta dividida de recorrido | Puede optimizar la toma de decisiones de rutas divididas para los recorridos de cuenta y persona, refinando la forma en que las audiencias se enrutan por las rutas antes de la activación del recorrido o durante la ejecución. |
+| Función | Filtrado del historial de eventos de experiencia | Esta función permite que la orquestación de recorrido B2B utilice la participación histórica para impulsar decisiones basadas en el comportamiento para los miembros de la audiencia. [Más información](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
+| Función | Siguientes nodos de recorrido de mejor ruta | Puede optimizar la toma de decisiones de ruta dividida para los recorridos de persona, refinando la forma en que las audiencias se enrutan por las rutas antes de la activación del recorrido o durante la ejecución. [Más información](../journeys/next-best-path-node.md) |
 | Mejora | Aptitudes de Audience Agent B2B | Se han actualizado las aptitudes de Audience Agent B2B, incluida la creación de plantillas de grupo de compra con tecnología de IA. Utilice la asignación de intención y personalidad de origen para generar plantillas de grupo de compra, revisar las asignaciones de función a persona recomendadas por IA y refinar las plantillas con lenguaje natural antes de publicarlas. [Más información](../agents/audience-agent-b2b.md) |
 | Mejora | Informe Rendimiento de participación de correo electrónico | El informe Rendimiento de participación en el correo electrónico ofrece a los especialistas en marketing una vista unificada de la actividad de correo electrónico en todos los recorridos de Adobe Journey Optimizer B2B edition. |
 | Mejora | Panel de información general de Recorridos de personas | Este tablero proporciona una descripción general completa de los recorridos de personas activas. |
