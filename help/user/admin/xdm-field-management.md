@@ -4,26 +4,16 @@ description: Utilice la administración de campos XDM para controlar los datos d
 feature: Data Management, Integrations
 role: User
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 87%
+source-wordcount: 1191
+ht-degree: 79%
 
 ---
 
@@ -31,21 +21,21 @@ ht-degree: 87%
 
 Los campos XDM (Experience Data Model) son elementos de esquema que proporcionan datos a la aplicación [!DNL Journey Optimizer B2B Edition]. Utilice campos XDM como filtros y restricciones en nodos de recorrido, grupos de compra y para funciones de contenido, como personalización de correo electrónico y contenido condicional.
 
-Los esquemas definen campos basados en clases XDM estándar. Las clases XDM estándar incluyen Perfil individual, Cuenta empresarial y Evento de experiencia. Los esquemas relacionales también definen campos que permiten modelar datos estructurados de manera similar a las bases de datos relacionales tradicionales.
+Los esquemas definen campos basados en perfiles XDM estándar. Las configuraciones XDM estándar incluyen Perfil individual, Cuenta empresarial y Evento de experiencia. Los esquemas relacionales también definen campos que permiten modelar datos estructurados de manera similar a las bases de datos relacionales tradicionales.
 
 Los esquemas de Adobe Experience Platform (AEP) suelen contener muchos campos en jerarquías complejas. Recorrer los árboles de esquema XDM lleva tiempo. La administración de campos XDM optimiza la selección de campos al mostrar solo los campos relevantes para los recorridos, los grupos de compra y la personalización.  Los administradores habilitan estos campos para usarlos en Journey Optimizer B2B edition, incluidos los que son de solo lectura o editables.
 
-Los administradores que comprenden XDM y colaboran con los ingenieros de datos o las partes interesadas en el modelado de datos de la plataforma de datos del cliente (CDP) B2B deben seguir los siguientes pasos para configurar clases XDM para [!DNL Journey Optimizer B2B Edition].
+Los administradores que comprenden XDM y colaboran con los ingenieros de datos o las partes interesadas en el modelado de datos de la plataforma de datos del cliente B2B (CDP) deben seguir los siguientes pasos para configurar los campos XDM de [!DNL Journey Optimizer B2B Edition].
 
-## Acceso a clases XDM
+## Acceso a configuraciones de XDM
 
 1. En el panel de navegación izquierdo, elija **[!UICONTROL Administración]** > **[!UICONTROL Configuración]**.
 
-1. Haga clic en **[!UICONTROL Clases XDM]** en el panel intermedio.
+1. Haga clic en **[!UICONTROL Configuraciones de XDM]** en el panel intermedio.
 
    * Utilice las fichas **[!UICONTROL Estándar]** y **[!UICONTROL Relacional]** para agregar nuevos campos y hacer que estén disponibles en Journey Optimizer B2B edition.
 
-   * Use la ficha **Eventos** para [seleccionar eventos de experiencia de AEP específicos y sus campos asociados](./configure-aep-events.md) para usarlos en los nodos de eventos de recorrido.
+   * Use la ficha **[!UICONTROL Eventos]** para [seleccionar eventos de experiencia de AEP específicos y sus campos asociados](./configure-aep-events.md) para usarlos en los nodos de eventos de recorrido.
 
 ## Selecciones de campos
 
@@ -66,7 +56,7 @@ En la ficha _[!UICONTROL Estándar]_, puede editar _Campos administrados_ y _Cam
 * Los campos administrados aparecen en los recorridos, los grupos de compra y las funciones de personalización.
 * Los campos actualizables sirven como restricciones para los nodos de recorrido _Actualizar perfil de cuenta_ y _Actualizar perfil de persona_.
 
-![Pestaña de clases estándar que muestra la configuración de clase XDM](assets/xdm-standard.png){width="600" zoomable="yes"}
+![Pestaña de clases estándar que muestra la configuración XDM](./assets/xdm-standard.png){width="600" zoomable="yes"}
 
 La lista incluye dos clases:
 
@@ -91,11 +81,11 @@ Para seleccionar campos del esquema de unión, haga clic en el nombre de clase p
 
 Al elegir **[!UICONTROL Campos administrados]**, el cuadro de diálogo _Seleccionar campos_ enumera todos los campos configurables.
 
-1. Seleccione hasta 100 campos para cada clase XDM.
+1. Seleccione hasta 100 campos para cada esquema XDM.
 
    Utilice el campo _[!UICONTROL Buscar]_ para filtrar la lista mostrada por nombre. Use el control deslizante **[!UICONTROL Mostrar solo los campos seleccionados]** para revisar las selecciones actuales.
 
-   ![Cuadro de diálogo de selección de campos administrados para clases XDM estándar que muestran opciones de campos configurables](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
+   ![Cuadro de diálogo de selección de campos administrados para esquemas XDM estándar que muestran opciones de campos configurables](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Guardar]** para confirmar las selecciones.
 
@@ -103,14 +93,14 @@ Al elegir **[!UICONTROL Campos administrados]**, el cuadro de diálogo _Seleccio
 
 Establezca los campos actualizables para elegir qué campos se pueden modificar mediante las acciones de recorrido **[!UICONTROL Actualizar perfil de cuenta]** o **[!UICONTROL Actualizar perfil de persona]**.
 
-Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
+Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
 
 >[!IMPORTANT]
 >
 >Protecciones para campos actualizables:
 >
 >* Esquemas: el esquema debe utilizar la identidad principal de la persona B2B (`b2b.personKey.sourceKey`). En la clase Perfil individual de XDM, cualquier campo requerido en el esquema debe estar definido por el sistema, como `identityMap` o `personID`.
->* Conjuntos de datos: no utilice un conjunto de datos que ya esté en uso para otro propósito. Se recomienda crear conjuntos de datos específicos para almacenar campos actualizables. Utilice un conjunto de datos independiente para cada clase XDM.
+>* Conjuntos de datos: no utilice un conjunto de datos que ya esté en uso para otro propósito. Se recomienda crear conjuntos de datos específicos para almacenar campos actualizables. Utilice un conjunto de datos independiente para cada esquema XDM.
 
 Cree un conjunto de datos para Perfil individual y otro para Cuenta empresarial. Seleccione cada nuevo conjunto de datos durante el proceso de configuración:
 
@@ -134,7 +124,7 @@ Existen varias funciones que admiten el uso de los campos y esquemas relacionale
 
 >[!AVAILABILITY]
 >
->Los [esquemas relacionales](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión de disponibilidad limitada. Los esquemas relacionales y de Data Mirror están disponibles para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licencias. Los esquemas relacionales también están disponibles como una versión limitada para [!DNL Customer Journey Analytics] usuarios, según su licencia y la habilitación de características. Póngase en contacto con su representante de Adobe para obtener acceso.
+>Los [esquemas relacionales](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) están disponibles para [!DNL Journey Optimizer B2B Edition] como una versión de disponibilidad limitada. Los esquemas relacionales y de Data Mirror están disponibles para [!DNL Journey Optimizer Orchestrated Campaigns] titulares de licencias. Los esquemas relacionales también están disponibles como una versión limitada para [!DNL Customer Journey Analytics] usuarios, según su licencia y la habilitación de características. Póngase en contacto con su representante de Adobe para obtener acceso.
 
 >[!NOTE]
 >

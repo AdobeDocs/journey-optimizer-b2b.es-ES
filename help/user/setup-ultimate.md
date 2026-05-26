@@ -4,27 +4,15 @@ description: Configure Journey Optimizer B2B edition. Configure esquemas XDM, ca
 feature: Setup, Administration
 role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
 source-wordcount: 853
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -74,7 +62,7 @@ Utilice esta lista de comprobación para completar la configuración de Journey 
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
 <td>Recopile las credenciales de la API de Experience Platform y los encabezados necesarios.</td>
-<td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-guide?lang=es">Más información</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide?lang=es">Más información</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
@@ -104,7 +92,7 @@ Utilice esta lista de comprobación para completar la configuración de Journey 
 </thead>
 <tbody>
 <tr>
-<td colspan="2"><strong>Clases XDM estándar</strong>: configure clases de perfil XDM individual y de cuenta empresarial XDM.</td>
+<td colspan="2"><strong>Configuraciones XDM estándar</strong>: configure los esquemas Perfil individual XDM y Cuenta empresarial XDM.</td>
 <td></td>
 </tr>
 <tr>
@@ -118,7 +106,7 @@ Utilice esta lista de comprobación para completar la configuración de Journey 
 <td><a href="./admin/xdm-field-management.md#updatable-fields">Más información</a></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Esquemas relacionales</strong>: seleccione una clase XDM relacional (objeto personalizado varios a uno de la cuenta).</td>
+<td colspan="2"><strong>Esquemas relacionales</strong>: seleccione campos XDM relacionales (objeto personalizado varios a uno de la cuenta).</td>
 <td></td>
 </tr>
 <tr>
@@ -297,7 +285,7 @@ Para permitir que los especialistas en marketing incluyan otros canales en sus r
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
 <td>Configure el sitio web de su empresa para que admita Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview">Más información</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Más información</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>

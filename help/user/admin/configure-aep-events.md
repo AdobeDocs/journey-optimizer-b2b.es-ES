@@ -6,21 +6,13 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Esta función se encuentra actualmente en versión beta"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
+source-git-commit: 56fb0ea71e7f85c91d8faa24719888a5f1b9b780
 workflow-type: tm+mt
 source-wordcount: 1522
 ht-degree: 12%
@@ -29,13 +21,13 @@ ht-degree: 12%
 
 # Seleccionar eventos de experiencia y campos
 
-Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
+Los administradores pueden seleccionar [Eventos de experiencia de AEP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} específicos y sus campos asociados dentro del esquema de unión de eventos de experiencia. Después de la selección, los usuarios pueden configurar reglas de toma de decisiones para escuchar esos eventos de experiencia y habilitar acciones de campaña dinámicas y segmentadas basadas en datos de eventos casi en tiempo real.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->El uso de eventos y campos de experiencia en Journey Optimizer B2B edition requiere esquemas de eventos de experiencia con perfil habilitado. Para obtener más información, consulte [Habilitar perfiles de clientes en tiempo real](https://experienceleague.adobe.com/es/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} en los tutoriales de Experience Platform.
+>El uso de eventos y campos de experiencia en Journey Optimizer B2B edition requiere esquemas de eventos de experiencia con perfil habilitado. Para obtener más información, consulte [Habilitar perfiles de clientes en tiempo real](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} en los tutoriales de Experience Platform.
 
 El uso de eventos de experiencia de AEP en recorrido es un proceso de dos pasos:
 
@@ -68,7 +60,7 @@ A medida que seleccione eventos para satisfacer sus objetivos organizativos, ten
 
 1. En el panel de navegación izquierdo, elija **[!UICONTROL Administración]** > **[!UICONTROL Configuraciones]**.
 
-1. Haga clic en **[!UICONTROL Clases XDM]** en el panel intermedio y, a continuación, haga clic en la pestaña **[!UICONTROL Eventos]** para mostrar la lista de los eventos disponibles.
+1. Haga clic en **[!UICONTROL Configuraciones de XDM]** en el panel intermedio y, a continuación, haga clic en la pestaña **[!UICONTROL Eventos]** para mostrar la lista de los eventos disponibles.
 
    ![Acceder a los eventos de experiencia seleccionados](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
@@ -484,5 +476,5 @@ Tipo de evento: `leadOperation.interestingMoment `
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448686/?captions=spa&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->
