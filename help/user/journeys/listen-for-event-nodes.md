@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1844
+source-wordcount: 1879
 ht-degree: 12%
 
 ---
@@ -65,6 +65,10 @@ En un recorrido de cuenta, puede detectar un evento basado en la cuenta cuando d
 ## Eventos de personas
 
 En un recorrido de cuentas, puede detectar un evento basado en personas cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por la actividad de personas. También puede filtrar eventos según los atributos de las personas.
+
+>[!TIP]
+>
+>Para enrutar a las personas según los eventos de experiencia que se produjeron _antes de_ que ingresaron al recorrido (como un clic previo en un correo electrónico o una interacción web), usa el filtro [!UICONTROL Historial de eventos] en un nodo [Dividir rutas por personas](./split-merge-paths-nodes.md#experience-event-history-filtering).
 
 ### Eventos y restricciones
 
@@ -145,7 +149,7 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 1. En el mapa de recorrido, añada el siguiente nodo que se ejecutará cuando se produzca el evento.
 
-### Escuchar un evento de experiencia
+### Escuchar un evento de experiencia {#listen-for-an-experience-event}
 
 Los administradores pueden seleccionar [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permiten a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real. El uso de eventos de experiencia en recorrido es un proceso de dos pasos:
 

@@ -20,9 +20,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 56fb0ea71e7f85c91d8faa24719888a5f1b9b780
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: 1608
 ht-degree: 12%
 
 ---
@@ -41,10 +41,10 @@ El uso de eventos de experiencia de AEP en recorrido es un proceso de dos pasos:
 
 1. Un administrador [agrega eventos y campos de experiencia de AEP](#add-an-event) en las configuraciones de Journey Optimizer B2B edition.
 
-2. En un recorrido, un experto en marketing agrega un nodo _Escuchar un evento_ y [selecciona un Evento de experiencia](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+1. En un recorrido, un experto en marketing utiliza los eventos configurados de una de las dos maneras siguientes:
 
-   * Selecciona el evento que se va a utilizar en el nodo.
-   * Selecciona los campos que se van a utilizar como restricciones.
+   * Agrega un nodo _Listen for an event_ y [selecciona un evento de experiencia](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) para almacenar en déclencheur la progresión de recorrido basada en la actividad de evento en tiempo real durante el recorrido.
+   * Agrega un nodo _Split paths by people_ y configura una ruta para [filtrar en un evento](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) desde la carpeta **[!UICONTROL Event history]**.
 
 >[!BEGINSHADEBOX]
 
@@ -56,11 +56,13 @@ A medida que seleccione eventos para satisfacer sus objetivos organizativos, ten
 
 * Los recorridos pueden escuchar los eventos de experiencia que se incorporan mediante las funciones de flujo continuo de Experience Platform, como Web SDK o la API HTTP.
 
-* Puede utilizar eventos de experiencia para la toma de decisiones dentro de un recorrido, pero no se conservan. Por lo tanto, no puede aprovechar un registro histórico de eventos de experiencia en Journey Optimizer B2B edition.
+* Los datos de evento de experiencia histórica comienzan a acumularse para una persona cuando el evento existe en la base de datos de Journey Optimizer B2B edition. Para las personas que ya existen cuando se configura un tipo de evento por primera vez, el relleno comienza en el momento de la configuración. Para las personas nuevas, la acumulación comienza cuando se añade la persona por primera vez (su historial anterior no está disponible de forma retroactiva).
+
+* Actualmente no hay ningún mecanismo de eliminación para el historial de eventos acumulado. La política de retención a largo plazo está sujeta a cambios.
 
 * Cuando se utiliza un evento de experiencia y se publica el recorrido, se pueden añadir más campos, pero no se pueden eliminar los seleccionados anteriormente.
 
-* Puede hacer referencia a un evento de experiencia en varios recorridos o utilizar uno más de una vez dentro del mismo recorrido.
+* Puede hacer referencia a un evento de experiencia en varios recorridos o utilizar el mismo evento más de una vez dentro del mismo recorrido.
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +86,7 @@ Escriba texto en el campo _[!UICONTROL Buscar]_ para filtrar los eventos mostrad
 
 ![Filtrar la lista de eventos seleccionados por nombre](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-### Añadir un evento
+### Añadir un evento {#add-an-event}
 
 Para que un evento de experiencia esté disponible para un nodo _Escuchar un evento_ en un recorrido, seleccione el evento y los campos admitidos.
 
@@ -126,7 +128,7 @@ Para que un evento de experiencia esté disponible para un nodo _Escuchar un eve
 
 El evento guardado se muestra en la lista de la ficha _[!UICONTROL Eventos]_.
 
-### Edición de un evento
+### Edición de un evento {#edit-an-event}
 
 Edite los detalles del evento para cambiar los campos.
 
@@ -134,7 +136,9 @@ Edite los detalles del evento para cambiar los campos.
 
    ![Haga clic en el icono del menú Más](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Editar campos]** para agregar más campos o eliminar las selecciones existentes en el cuadro de diálogo _[!UICONTROL Seleccionar campos]_.
+1. Haga clic en **[!UICONTROL Editar campos]** para abrir el cuadro de diálogo _[!UICONTROL Seleccionar campos]_ y agregar más campos.
+
+   No puede quitar campos seleccionados previamente después de publicar un recorrido que utilice este evento.
 
 1. Haga clic en **[!UICONTROL Seleccionar]** para guardar las selecciones.
 
@@ -170,8 +174,8 @@ Tipo de evento: `directMarketing.emailSent`
 | Clave de origen de persona | `personKey.sourceKey` |
 | ID de origen de correo electrónico | `directMarketing.emailSent.mailingKey.sourceID` |
 | Tipo de origen de correo electrónico | `directMarketing.emailSent.mailingKey.sourceType` |
-| ID de instancia de correo electrónico | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
-| Clave de origen de correo electrónico | `directMailing.emailSent.mailingKey.sourceKey` |
+| ID de instancia de correo electrónico | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
+| Clave de origen de correo electrónico | `directMarketing.emailSent.mailingKey.sourceKey` |
 | Nombre de correo | `directMarketing.emailSent.mailingName` |
 | ID de recorrido | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | ID de nodo | `_experience.journeyOrchestration.stepEvents.nodeID` |
@@ -182,7 +186,7 @@ Tipo de evento: `directMarketing.emailSent`
 
 Este evento rastrea cuándo se entregó correctamente un correo electrónico al servicio de correo electrónico de una persona.
 
-Tipo de evento: `directMarketing.emailDelivered `
+Tipo de evento: `directMarketing.emailDelivered`
 
 +++Campos
 
@@ -337,7 +341,7 @@ Tipo de evento: `directMarketing.emailBouncedSoft`
 
 Este evento rastrea cuándo una persona canceló la suscripción a un correo electrónico de marketing.
 
-Tipo de evento: `directMarketing.emailUnsubscribed `
+Tipo de evento: `directMarketing.emailUnsubscribed`
 
 +++Campos
 
@@ -458,7 +462,7 @@ Tipo de evento: `web.webinteraction.linkClicks`
 
 Este evento rastrea cuándo se grabó un momento interesante para una persona.
 
-Tipo de evento: `leadOperation.interestingMoment `
+Tipo de evento: `leadOperation.interestingMoment`
 
 +++Campos
 

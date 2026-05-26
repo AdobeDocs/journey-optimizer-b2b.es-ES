@@ -1,6 +1,6 @@
 ---
 title: Dividir y combinar rutas
-description: Cree nodos de ruta divididos y combinados para segmentar cuentas y personas con lógica condicional, filtrar comprando grupos y recombinar rutas en Journey Optimizer B2B edition.
+description: Divida y fusione las rutas de recorrido a cuentas de segmento o personas por condiciones, grupos de compra e historial de eventos en Journey Optimizer B2B edition.
 feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
@@ -18,14 +18,14 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
 workflow-type: tm+mt
-source-wordcount: 2744
-ht-degree: 4%
+source-wordcount: 2550
+ht-degree: 3%
 
 ---
 
-# Dividir y combinar rutas
+# Dividir y combinar rutas {#split-paths}
 
 Utilice los nodos de ruta divididos y combinados para segmentar personas o cuentas según las condiciones que defina. Cree rutas para la audiencia o la lista de cuentas según las condiciones, defina cada ruta con nodos de acción y evento para el segmento y, a continuación, combine las rutas y continúe con el recorrido.
 
@@ -37,9 +37,9 @@ Un nodo _Split paths_ define una o más rutas segmentadas en función de la cuen
 >
 >Se admite un máximo de 25 rutas.
 
-## Dividir rutas por cuentas
+## Dividir rutas por cuentas {#split-paths-by-accounts}
 
-_(solo recorridos de cuenta)_
+**_(solo recorridos de cuenta)_**
 
 Dividir por rutas de cuentas puede incluir acciones y eventos de cuenta y personas. Estas rutas se pueden dividir más.
 
@@ -53,18 +53,13 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
 
 ![nodo de Recorrido - dividir rutas por cuenta](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
-### Condiciones de ruta de cuenta
+### Condiciones de ruta de cuenta {#account-path-filters}
 
 | Condiciones de ruta | Descripción |
 | --------------- | ----------- |
 | [!UICONTROL Atributos de cuenta] | Atributos del perfil de cuenta, incluidos: <li>Ingresos anuales <li>Ciudad <li>País <li>Cantidad de empleados <li>Industria <li>Nombre <li>Código SIC <li>Estado |
-| [!UICONTROL Atributos De Cuenta] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"} La cuenta tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según la configuración del [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtrado de datos personalizados](#custom-data-filtering)). |
+| [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"} La cuenta tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según la configuración del [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtrado de datos personalizados](#custom-data-filtering)). |
 | [!UICONTROL Filtros especiales] > [!UICONTROL La cuenta ha coincidido con el grupo comprador] | La cuenta coincide con uno o más grupos compradores. Se puede evaluar con una o más de las siguientes restricciones para un grupo comprador coincidente: <li>Interés de solución <li>Fase de grupo de compra <li>Estado del grupo de compra <li>Puntaje de participación <li>Puntuación de integridad <li> Número de personas en la función de grupo de compras |
-| [!UICONTROL Filtros especiales] > [!UICONTROL Tiene grupo de compra] | La cuenta tiene o no miembros de grupos compradores. También puede evaluarse con uno o más de los siguientes criterios: <li>Interés de solución <li>Fase de grupo de compra <li>Estado del grupo de compra <li>Puntaje de participación <li>Puntuación de integridad |
-
->[!NOTE]
->
->El filtro _[!UICONTROL Tiene un grupo de compra]_ está marcado para una futura obsolescencia. Para nuevos recorridos, usa el filtro _[!UICONTROL La cuenta ha encontrado coincidencias con el grupo de compras]_, que incluye todas las mismas restricciones.
 
 ### Adición de una ruta dividida por nodo de cuenta
 
@@ -108,7 +103,7 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
 
 ### Filtrado de grupos de compra para cuentas {#buying-group-filtering-accounts}
 
-Puede definir una ruta para las cuentas asociadas con grupos de compra y filtrar la ruta según los criterios de grupo de compra. Use el filtro **[!UICONTROL La cuenta ha coincidido con el grupo de compra]** para definir el segmento de ruta de acceso usando un grupo de compra coincidente. Este filtro también incluye esa opción para identificar las cuentas en función del número de funciones asignadas dentro de un grupo comprador coincidente.
+Puede definir una ruta para las cuentas asociadas con grupos de compra y filtrar la ruta según los criterios de grupo de compra. Use el filtro **[!UICONTROL La cuenta ha coincidido con el grupo de compra]** para definir el segmento de ruta de acceso usando un grupo de compra coincidente. Este filtro también incluye la opción de identificar las cuentas en función del número de funciones asignadas dentro de un grupo comprador coincidente.
 
 Por ejemplo, es posible que desee evaluar la preparación del grupo de compra en función de la profundidad (número de personas) que tiene en diferentes funciones, como tres responsables de la toma de decisiones y dos influyentes. En este caso, establezca la condición en cuentas de destino con un mínimo de tres (3) responsables de la toma de decisiones y dos (2) influyentes en un grupo de compra coincidente:
 
@@ -150,17 +145,13 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 
 ![Nodo de recorrido de cuenta: dividir rutas por personas](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### Filtros de ruta de personas
+### Filtros de ruta de personas {#people-path-filters}
 
 | Filtros | Descripción |
 | ------------ | ----------- |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Correo electrónico] | Actividades de correo electrónico basadas en condiciones que se evalúan utilizando uno o más mensajes de correo electrónico seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en el vínculo del correo electrónico] <li>Abrió el email <li>Se entregó el correo electrónico <li>Se envió el correo electrónico <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**. Use esta opción para filtrar según la falta de actividad (una persona no tuvo la actividad de correo electrónico). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Mensaje SMS] | Actividades de SMS basadas en condiciones que se evalúan utilizando uno o más mensajes SMS seleccionados de anteriormente en el recorrido: <li>[!UICONTROL Se hizo clic en un vínculo en SMS] <li>[!UICONTROL SMS rechazado] <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: use esta opción para filtrar según la falta de actividad (una persona no tuvo la actividad de SMS). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Se ha cambiado el valor de los datos] | Se ha producido un cambio de valor en un atributo de persona seleccionado. Estos tipos de cambio incluyen: <li>Nuevo valor<li>Valor anterior<li>Razón<li>Origen<li>Fecha de la actividad<li>Mín. número de veces <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: utilice esta opción para filtrar según la falta de actividad (una persona no tuvo un cambio de valor de datos). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Ha tenido un momento interesante] | Actividad de momento interesante que se define en la instancia [!DNL Marketo Engage] asociada. Las restricciones incluyen: <li>Hito<li>Correo electrónico<li>Web <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: utilice esta opción para filtrar según la falta de actividad (una persona no ha tenido un momento interesante). |
-| [!UICONTROL Historial de actividades] > [!UICONTROL Página web visitada] | Actividad de la página web que corresponde a una o varias páginas web administradas por la instancia de [!DNL Marketo Engage] asociada. Las restricciones incluyen: <li>Página web (obligatorio)<li>Fecha de la actividad<li>Dirección IP del cliente <li>Querystring <li>Remitente del reenvío <li>Agente de usuario <li>Motor de búsqueda <li>Consulta de búsqueda <li>URL personalizada <li>Token <li>Explorador <li>Plataforma <li>Device <li>Mín. número de veces <br>**[!UICONTROL Cambiar al filtro de inactividad &#x200B;]**: utilice esta opción para filtrar según la falta de actividad (una persona no visitó la página web). |
+| [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"}: la persona tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según la configuración del [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtrado de datos personalizados](#custom-data-filtering)) |
+| [!UICONTROL Historial de eventos] | Divide a las personas en función de los eventos de experiencia que se produjeron antes de la entrada en el recorrido. Amplíe la carpeta para ver todos los tipos de eventos configurados en [Administración > Configuración de eventos XDM](../admin/configure-aep-events.md) y seleccione uno para agregarlo como filtro. Las restricciones incluyen campos del evento seleccionado, una ventana de tiempo retrospectiva medida desde el momento en que la persona entra en el recorrido y un número mínimo de veces opcional. |
 | [!UICONTROL Atributos de persona] | Atributos del [perfil de persona](../admin/field-mapping.md#xdm-business-person-attributes), entre ellos: <li>Ciudad <li>País <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de persona <li>Número de teléfono <li>Código postal <li>Estado |
-| [!UICONTROL Atributos De Persona] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"}: la persona tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según la configuración del [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtrado de datos personalizados](#custom-data-filtering)) |
 | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | (Obsoleto) La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Se ha eliminado</li><li>Función</li> |
 | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro de la lista] | (Obsoleto) La persona es o no es miembro de una o más listas [!DNL Marketo Engage]. |
 | [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del programa] | (En desuso) La persona es o no miembro de uno o más programas de [!DNL Marketo Engage]. |
@@ -171,7 +162,7 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 | --------------- | ----------- |
 | [!UICONTROL Rol en la cuenta] | La persona tiene o no una función asignada en la cuenta. Restricciones opcionales: <li>Nombre de la función |
 
-### Agregar un nodo de ruta dividida por personas
+### Agregar un nodo de ruta dividida por personas {#add-a-split-path-by-people-node}
 
 >[!NOTE]
 >
@@ -224,21 +215,27 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 
    Cuando haya definido condiciones para cada ruta para dividir la audiencia en personas, puede agregar las acciones que desee realizar con las personas.
 
-### Filtrado de actividades
+### Filtrado del historial de eventos de experiencia {#experience-event-history-filtering}
 
-Para una ruta dividida por personas, puede definir una ruta según la actividad de la persona relacionada con lo siguiente:
+Para una ruta dividida por personas, puede definir una ruta basada en los eventos de experiencia que se produjeron antes de que la persona ingresara al recorrido. En el editor de condiciones, expanda la carpeta **[!UICONTROL Historial de eventos]** para ver una lista de todos los tipos de eventos configurados por el administrador. Seleccione un tipo de evento para añadirlo como condición de filtro.
 
-* Mensajes de correo electrónico de versiones anteriores del recorrido
-* Mensajes SMS de anteriores versiones del recorrido
-* Cambio en el valor de los datos en el perfil de la persona
-* Un momento interesante (rastreado en [!DNL Marketo Engage]) asociado con un correo electrónico, página web o hito
-* Visita a una página web (rastreada en [!DNL Marketo Engage])
+La ventana de tiempo retrospectiva para el historial de eventos se mide hacia atrás desde el momento en que la persona entra en el recorrido. Por ejemplo, una ventana de 30 días evalúa si el evento correspondiente se produjo dentro de los 30 días anteriores al registro de recorrido.
+
+Puede restringir aún más el filtro mediante restricciones específicas de los campos del evento seleccionado. Las restricciones **[!UICONTROL Minimum number of times]** y **[!UICONTROL Date of activity]** opcionales se evalúan dentro de la ventana retrospectiva definida. Debido a que los datos del historial de eventos se sincronizan desde Adobe Experience Platform, puede haber un breve retraso antes de que un evento reciente sea visible para este filtro.
+
+>[!NOTE]
+>
+>Los eventos disponibles en la carpeta [!UICONTROL Historial de eventos] están determinados por las [configuraciones de campos y eventos de experiencia](../admin/configure-aep-events.md).
+
+**Ejemplo:** Para enrutar a las personas que hicieron clic en un vínculo en un mensaje de correo electrónico de marketing antes de entrar en el recorrido, seleccione el evento de clic de correo electrónico de la carpeta [!UICONTROL Historial de eventos], establezca la ventana retrospectiva para cubrir el período de tiempo relevante y aplique las restricciones de nivel de campo (como una dirección URL de vínculo específica) según sea necesario.
+
+![Dividir ruta por condición de persona para el historial de eventos](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX &quot;Filtro de inactividad&quot;]
 
-Para cada uno de los filtros _[!UICONTROL Historial de actividades]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Por ejemplo, agregue el filtro _[!UICONTROL Correo electrónico]_ > _[!UICONTROL Correo electrónico abierto]_ para crear una ruta para las personas que _&#x200B;**no**&#x200B;_ abrieron un correo electrónico desde antes en el recorrido. Active la opción de inactividad y especifique el correo electrónico. Se recomienda usar la restricción _[!UICONTROL Fecha de actividad]_ para definir un período de tiempo para la inactividad.
+Para cada uno de los filtros _[!UICONTROL Historial de eventos]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Por ejemplo, agregue el filtro _[!UICONTROL Apertura de correo electrónico de marketing directo]_ para crear una ruta para las personas que _&#x200B;**no**&#x200B;_ abrieron un correo electrónico. Active la opción de inactividad y especifique el correo electrónico.
 
-![Condición de división de ruta por personas para comprar la membresía del grupo](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
+![Dividir ruta por condición de inactividad de personas](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -279,39 +276,21 @@ Para usar la pertenencia a una lista en una condición dividida, expanda **[!UIC
 
 >[!ENDSHADEBOX]
 
-## Filtrado de datos personalizado
+## Filtrado de datos personalizado {#custom-data-filtering}
 
 [!BADGE Beta]{type=Informative tooltip="Función Beta"}
 
 Puede utilizar esquemas relacionales (clases basadas en modelos) para dividir rutas por cuenta o personas. Los objetos personalizados se definen en _esquemas relacionales_, y un administrador de productos puede [configurar campos de esquema relacionales](../admin/xdm-field-management.md#relational-schemas) en [!DNL Journey Optimizer B2B Edition]. Los campos de esquema seleccionados están disponibles en el editor de condiciones para su uso en _ruta de acceso dividida por cuenta_ y _ruta de acceso dividida por personas_ nodos.
 
-Para una condición **[!UICONTROL Split path by account]**, use el campo de búsqueda para filtrar la lista por el nombre de objeto personalizado en _[!UICONTROL Atributos de cuenta]_. Agregue la condición y establezca el valor en `true` o `false`.
+Para una condición **[!UICONTROL Split path by account]** o **[!UICONTROL Split path by people]**, expanda _[!UICONTROL Custom Objects]_. Agregue la condición y establezca el valor en `true` o `false`. Haga clic en **[!UICONTROL Agregar restricción]** para usar los valores de campo para el filtrado.
 
-![Ejemplo de condiciones de atributos de persona para el objeto personalizado de esquema relacional](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
+![Ejemplo de condiciones de cuenta para el objeto personalizado de esquema relacional](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
 
-Para una condición **[!UICONTROL Split path by people]**, use el campo de búsqueda para filtrar la lista por el nombre de objeto personalizado en _[!UICONTROL Atributos de persona]_.
-
-![Ejemplo de condiciones de atributos de persona para el objeto personalizado de esquema relacional](./assets/node-split-paths-people-relational-schema.png){width="600" zoomable="yes"}
-
-<!--
- SPHR-21734
-
-Note: These are currently going under Account Attributes/Person Attributes folder, which is a bug. This will move to Special filters when resolved (? release).
--->
-
-## Combinar rutas
+## Combinar rutas {#merge-paths}
 
 Agregue un nodo _Combinar rutas_ para combinar diferentes _rutas divididas por cuenta_ en su recorrido.
 
-1. Vaya al mapa del recorrido.
-
-1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **[!UICONTROL Dividir rutas]**.
-
-1. Haga clic en el nodo dividido para abrir sus propiedades a la derecha.
-
-1. Haga clic en [!UICONTROL Agregar ruta] para crear tres rutas.
-
-1. Agregue una combinación de acciones y eventos a cada ruta.
+1. En un mapa de recorrido con un nodo dividido que tiene tres o más rutas, agregue una combinación de acciones y eventos a cada ruta.
 
 1. Haga clic en el icono de signo más ( **+** ) de cualquiera de estas rutas y elija **[!UICONTROL Combinar]** de las opciones que se muestran.
 
@@ -325,6 +304,6 @@ Agregue un nodo _Combinar rutas_ para combinar diferentes _rutas divididas por c
 
 1. Si es necesario, puede anular la combinación de rutas volviendo a las propiedades del nodo de rutas de combinación y desactivando la casilla de verificación de las rutas que desee eliminar.
 
-## Vídeo resumen
+## Vídeo resumen {#overview-video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3443259/?captions=spa&learn=on)

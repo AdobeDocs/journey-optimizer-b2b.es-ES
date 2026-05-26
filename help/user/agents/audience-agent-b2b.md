@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
 workflow-type: tm+mt
-source-wordcount: 3099
+source-wordcount: 2500
 ht-degree: 1%
 
 ---
@@ -31,13 +31,13 @@ Con la tecnología [Adobe Experience Platform Agent Orchestrator](https://experi
 
 * **_Priorizar las audiencias de destino por intención_**: infiera las personas en función de la intención del producto para distintas audiencias y optimice la planificación de la campaña, lo que reduce el tiempo empleado en la validación de audiencias.
 
-* **_Aproveche la IA para detectar grupos compradores_**: Utilice IA, datos estructurados y no estructurados y datos unificados de origen para optimizar la detección y creación de grupos compradores.
+* **_Aproveche la IA para detectar y crear grupos de compra_**: Utilice IA, datos estructurados y no estructurados y datos unificados de origen para optimizar la detección y creación de grupos de compra.
 
-![Audience Agent para B2B en modo de página completa](./assets/audience-agent-full.png){width="700" zoomable="yes"}
+![Audience Agent B2B en modo de página completa](./assets/audience-agent-full.png){width="700" zoomable="yes"}
 
 >[!PREREQUISITES]
 >
->Para usar Audience Agent para B2B, se requieren definiciones y asignaciones de datos:<br/>
+>Para usar Audience Agent B2B, se requieren definiciones y asignaciones de datos:<br/>
 >
 >* [Asignación/taxonomía de datos por intención](../admin/intent-data.md)
 >* [Asignación/taxonomía de campos XDM](#xdm-data-prerequisites)
@@ -49,10 +49,15 @@ Con la tecnología [Adobe Experience Platform Agent Orchestrator](https://experi
 | Análisis por intención | <li> Mida la intensidad de la intención de la cuenta (como baja, media y alta) para productos específicos. <li>Comparar las tendencias de interés de productos con el paso del tiempo (por ejemplo, los productos principales de los últimos _n_ días). <li>Identifique las cuentas que muestren interés de forma activa en productos específicos. <li>Patrones de participación superficial que combinan la actividad de la cuenta con la cobertura personal. | <li>Ayuda a los equipos a centrarse en las cuentas correctas en el momento adecuado. <li>Mejora la calidad de la canalización priorizando las cuentas con señales de compra genuinas. <li>Habilita la participación proactiva antes de que la competencia actúe. |
 | Asignación de persona | <li>Detecte y clasifique las personas principales por intención de producto. <li>Identifique a las personas involucradas en la compra de uno o varios productos. <li>Asigne personalidades a funciones funcionales (como _Campeón_, _Responsable de la toma de decisiones_ e _Influenciador_) con justificación. <li>Validar por qué una persona determinada se considera un campeón. | <li>Garantiza que el equipo de ventas involucre a los verdaderos tomadores de decisiones e influenciadores. <li>Reduce el esfuerzo perdido en contactos de bajo impacto. <li>Aumenta las tasas de ganancia al alinear el alcance con la dinámica del poder del comprador. |
 | Evaluación del grupo de compra | <li>Evalúe el tamaño del grupo comprador (por ejemplo, grupos con más de _n_ miembros). <li>Mida la cobertura personal entre cuentas (por ejemplo, por debajo de _x_%). <li>Rastree la distribución de funciones y las brechas de cobertura dentro de los grupos compradores. <li>Resaltar cuentas con campeones identificados en acuerdos recientes. | <li>Revela brechas de cobertura que podrían estancar acuerdos. <li>Fortalece las estrategias de subprocesamiento múltiple al garantizar la representación completa de las funciones. <li>Mejora el seguimiento de la salud de los acuerdos mediante perspectivas de participación a nivel de grupo. |
+| Creación de grupos de compra y capacidad de acción | <li>Recomendar asignaciones de función a persona en función de los patrones de función y persona observados. <li>Genere una plantilla de rol de grupo de compra para un producto especificado. <li>Admitir la personalización de plantillas al incluir o excluir personas y funciones específicas. <li>Compruebe que los roles necesarios se han definido antes de crear los grupos de compra. | <li>Reduce el esfuerzo manual y el riesgo de plantillas de grupo de compra incompletas. <li>Garantiza que la cobertura de funciones se valide antes de la creación y mitiga el riesgo de lagunas de cobertura. <li>Convierte los datos del análisis en próximos pasos inmediatos y operativos. |
+
+## Limitaciones
+
+Audience Agent B2B depende de la taxonomía por intención configurada, las asignaciones de campos XDM y los datos de evento de experiencia. Las perspectivas son menos fiables cuando los datos de oportunidad están incompletos, falta la taxonomía por intención o están obsoletos, o los identificadores de perfil y cuenta requeridos no están asignados. Para el cálculo de intención, el agente procesa solo estos eventos de experiencia: `directMarketing.emailClicked`, `directMarketing.emailOpened`, `directMarketing.emailUnsubscribed` y `web.webpagedetails.pageViews`.
 
 ## Ejemplos de indicaciones
 
-Estos ejemplos de mensajes muestran algunas formas de utilizar el agente:
+Estos ejemplos de mensajes muestran algunas de las formas en que puede utilizar el agente:
 
 * Mostrar la ventana de tendencias: actualización más reciente y más temprana de la calidad del producto de la cuenta por producto.
 * Para `<product>`, enumere los grupos de compra con la intención y las puntuaciones del producto.
@@ -60,26 +65,27 @@ Estos ejemplos de mensajes muestran algunas formas de utilizar el agente:
 * Para las cuentas de `<industry>`, ¿cuál es el promedio de cobertura personal de la cuenta para `<product>`?
 * ¿Qué cuentas tienen poca intención de cualquier producto pero aún tienen oportunidades abiertas (vale la pena nutrirlas)?
 * ¿Qué cuentas agregaron nuevas señales de intención para `<account_name>` esta semana?
+* Mostrarme los perfiles asociados con `<product>`.
+* Mostrarme la recomendación de asignación de rol a persona para `<product>`.
+* Crear una plantilla de grupo de compra para `<product>`.
+* Cree una plantilla de grupo de compra para `<product>` sin el perfil `<persona>` y quite el rol `<role>`.
 
 ## Conceptos
 
 | Concepto | Explicación |
 | ------- | ----------- |
 | Detección de audiencias | Entre bastidores, el agente observa las señales de intención de origen basadas en dos cosas: qué tan comprometidas están las personas con su marca y el tipo de personas que representan. El análisis repasa los últimos 18 meses de actividad para detectar la intención del producto en todos los usuarios de la cuenta, especialmente durante el tiempo previo al cierre de una oportunidad. Este análisis ayuda al agente a resaltar las personas que tienen más probabilidades de influir en el acuerdo.<br/><br/>A veces las cuentas no tienen todos sus datos de oportunidad en perfecta forma, lo cual está bien y el agente puede detectar la intención del producto únicamente a partir de patrones de participación. |
-| Persona | Personas representa los tipos de personas que se relacionan con una cuenta. El agente lo crea mirando el cargo, la función y el nivel de antigüedad, y luego normalizando esa información para que sea coherente en las diferentes cuentas. De esa manera, en lugar de perderse en títulos desordenados, puede ver rápidamente si está llegando a los encargados de tomar decisiones, influenciadores o roles de soporte. Las personas le ayudan a comprender quién muestra interés, no solo cuánto interés hay. <br/><br/> Cuando el agente asigna personalidades a la compra de roles de grupo, toma el tipo de personalidad identificada, según su cargo, función, antigüedad y cualquier otro atributo que elija agregar, y los alinea con los roles que es más probable que desempeñen en una decisión de compra, como _responsable de la toma de decisiones_, _influencer_ o _campeón_. Estas funciones son relevantes para el producto específico en cuestión, para que pueda ver quién importa más para esa oportunidad. El agente también muestra la cobertura de cada función, lo que le ayuda a comprender rápidamente qué funciones están bien representadas y dónde puede haber lagunas para rellenar su estrategia de participación. |
-| Asignación de funciones de grupo de compra | Una vez que las personas se asignan a las funciones, las reúne en un grupo comprador. Piense en él como el equipo completo dentro de la cuenta que tiene más probabilidades de influir o decidir la compra. Cada rol (como _encargado de la toma de decisiones_, _influencer_ o _campeón_) agrega una parte de la imagen, para que tengas una visión clara de todo el comité que está impulsando el acuerdo. <br/><br/> Al asignar personas a roles de grupo de compra, toma el tipo de persona identificada, según su cargo, función, antigüedad y cualquier otro atributo que elijas agregar, y los alinea con el rol que tienen más probabilidades de desempeñar en una decisión de compra, como _encargado de tomar decisiones_, _influencer_ o _campeón_. Estas funciones son relevantes para el producto específico en cuestión, para que pueda ver quién importa más para esa oportunidad. El agente muestra la cobertura de cada función, lo que le ayuda a comprender rápidamente qué funciones están bien representadas y dónde puede haber lagunas para rellenar su estrategia de participación. |
-| Grupos de compras | Los grupos de compra permiten a los especialistas en marketing gestionar la verdadera complejidad de los comités de compra, no las posibles clientes o las cuentas aisladas. Adobe Journey Optimizer B2B edition ofrece las herramientas (perspectivas impulsadas por IA, recorridos basados en roles y seguimiento de integridad) para aportar estructura, personalización y claridad analítica a ese proceso, lo que a la larga alinea más estrechamente el marketing y las ventas con los resultados de ingresos.<br/><br/>Crear un grupo de compra es realmente acerca de unir tres cosas clave: la audiencia correcta, el contexto del producto y los roles del grupo de compra. A continuación se muestra una vista previa paso a paso de cómo funciona: <ol><li>**Identifique a su audiencia** <ul><li>En primer lugar, el agente descubre las cuentas más relevantes para su producto. Este descubrimiento incluye cuentas que ya muestran interés y cuentas con potencial.<li>Dentro de estas cuentas, identifica a las personas (sus personalidades clave) que pueden influir en la decisión de compra o formar parte de ella.<li>Elige entre las cuentas que aparecen: una lista de cuentas o una audiencia de cuentas.</ul><li>**Considerar el contexto del producto**<ul><li>A continuación, examina el producto o la solución en los que se centra, lo que garantiza que las personas identificadas sean realmente relevantes para lo que desea vender o promocionar.<li>También ayuda a resaltar cualquier brecha en la cobertura (tal vez falten ciertas funciones para el producto) para que sepa dónde centrarse.</ul> <li>**Asignar perfiles a roles de grupo compradores** <ul><li>Por último, el agente asigna esas personas a funciones específicas de grupos de compra, como responsables de la toma de decisiones, influyentes y campeones.<li>En función de esta asignación, el agente puede recomendar una composición de grupo de compra para usted, que puede revisar, ajustar o confirmar.</ul> </ol> Cuando estos tres componentes se unen, crea su grupo de compra con detalles de miembros, funciones y perspectivas listas para usar. |
-| Comprar grupos en un recorrido | Dentro de un recorrido, un grupo comprador puede utilizarse como unidad central de orquestación, lo que permite a los especialistas en marketing diseñar experiencias que se adapten a la dinámica del grupo en lugar de tratar a los miembros de forma aislada. Por ejemplo, puede dirigirse a todo el grupo con mensajes coordinados, y al mismo tiempo adaptar el contenido específico de la función a los responsables de la toma de decisiones, las personas influyentes o los usuarios finales. A medida que las señales de intención y los datos de participación fluyen en, los recorridos pueden ramificarse en función de la preparación del grupo, las alertas de superficie para las ventas cuando interactúan con funciones críticas o los pasos de nutrición del déclencheur automáticamente si faltan personas clave. Este flujo garantiza que cada punto de contacto (desde correos electrónicos hasta anuncios basados en cuentas o alcance de ventas) trabaje en conjunto para hacer avanzar al grupo en su proceso de compra, acelerando el consenso y reduciendo la fricción en el camino hacia la compra. |
-| Recorridos en Journey Optimizer B2B edition | Un recorrido se puede crear con o sin un grupo de compra, pero el nivel de precisión y el impacto cambian significativamente:<ul><li>**Sin un grupo de compras**, los recorridos se suelen generar alrededor de las cuentas. Los especialistas en marketing pueden seguir utilizando señales como la intención, la conducta o el interés en un producto para fomentar los flujos y el alcance de los déclencheur. Este método funciona para movimientos más simples o cuando tiene datos limitados sobre una cuenta. Sin embargo, se corre el riesgo de pasar por alto el conjunto más amplio de partes interesadas que influyen en el acuerdo, lo que puede ralentizar la conversión o causar lagunas en la participación.<li>**Con un grupo comprador**, los recorridos se organizan en torno al conjunto completo de personas involucradas en una decisión de compra. Puede alinear los pasos con los hitos de nivel de grupo (como cuando el comité alcanza una puntuación de integridad o muestra un compromiso colectivo), al mismo tiempo que personaliza los puntos de contacto para cada función. Este método le permite diseñar una participación coordinada de varios subprocesos: un responsable de la toma de decisiones puede recibir contenido de retorno de la inversión estratégico, mientras que los influyentes reciben análisis exhaustivos del producto y se avisa a las ventas cuando interactúan funciones críticas. Al asignar el recorrido individual y colectivo, los especialistas en marketing y los vendedores pueden acelerar la creación de consenso y hacer que las oportunidades avancen de forma más eficiente. </ul> |
+| Persona | Personas representa los tipos de personas que se relacionan con una cuenta. El agente los crea mirando el cargo, la función y el nivel de antigüedad, y luego normalizando esa información para que sea coherente en las diferentes cuentas. De esa manera, en lugar de perderse en títulos desordenados, puede ver rápidamente si está llegando a los encargados de tomar decisiones, influenciadores o roles de soporte. Las personas le ayudan a comprender quién muestra interés, no solo cuánto interés hay. |
+| Asignación de funciones de grupo de compra | Una vez que las personas se asignan a las funciones, las reúne en un grupo de compra: el equipo completo dentro de la cuenta que tiene más probabilidades de influir o decidir la compra. Cada rol (como _encargado de tomar decisiones_, _influencer_ o _campeón_) agrega una parte de la imagen para que tengas una visión clara del comité que está impulsando el acuerdo.<br/><br/>El agente asigna a cada persona identificada la función que tiene más probabilidades de desempeñar para un producto específico, según el cargo, la función, la antigüedad y otros atributos que configure. También muestra la cobertura de cada función para que pueda ver qué funciones están bien representadas y dónde quedan las lagunas en la estrategia de participación. |
 | Uso de datos de oportunidad para detectar un perfil | Para ofrecerle la visión más precisa de quién es atractivo y dónde se encuentran sus intereses, el agente aborda la clasificación personal y la intención del producto de acuerdo con lo siguiente: <ul><li>Caso más probable: si puede proporcionar datos como _Fase de oportunidad_, _Fecha de cierre de oportunidad_ y una _asignación de oportunidad a producto_ clara, el agente puede clasificar con confianza a las personas por producto.<li>Esta clasificación proporciona una comprensión precisa de la participación y el interés en toda la cuenta. </ul>Pero el agente sabe que los datos no siempre están completos, lo cual es correcto. Incluye retrocesos inteligentes para mantener las cosas en movimiento:<ul><li>El agente analiza el volumen de las actividades, dando más peso a las recientes utilizando la decadencia temporal.<li>Esta ponderación permite al agente diferenciar y clasificar personas, incluso sin datos de oportunidad completos. </ul>Cuando se trata de vincular oportunidades a productos, el agente se encarga de ello de la siguiente manera:<ul><li>_Ideal_: usted proporciona o ayuda al agente a crear la tabla de asignación.<li>_Si no está disponible_: el agente usa la coincidencia difusa para conectar los puntos.<li>_Sin vinculación_: el agente infiere la intención del producto en función de las actividades recientes anteriores a la fecha de cierre.</ul>Este enfoque por niveles garantiza que el agente pueda seguir ofreciendo perspectivas significativas, incluso cuando los datos no sean perfectos. |
 | Análisis de oportunidad | El agente examina los datos de oportunidades históricas para comprender qué factores predicen más fuertemente una victoria y utiliza tres dimensiones principales para hacerlo:<ol><li>Tasa de victorias: muestra la frecuencia con la que se cierran correctamente las ofertas cuando participan determinadas personas. Si las cuentas con un patrón personal específico (como un evaluador técnico o un tomador de decisiones a nivel de vicepresidente) tienden a convertirse con más frecuencia, el modelo le da mayor peso a ese patrón. Esta información es un porcentaje del total de oportunidades, como las oportunidades cerradas o ganadas.<li>Tasa de pertenencia a grupos: mide la frecuencia con la que se muestra un tipo de persona en las oportunidades de un producto determinado. Si ciertas personas aparecen de forma consistente en las ofertas exitosas, esto indica que juegan un papel crítico en el proceso de compra.<li>Influencia personal: cuantifica cuánto contribuye una persona determinada al resultado, no solo si está presente, sino también cómo se correlaciona su nivel de participación o actividad con las ganancias.</ol>En conjunto, estas señales ayudan a deducir qué personas tienen el mayor impacto en los resultados de compra, incluso cuando los datos de oportunidad están incompletos. Con el tiempo, permite que el sistema muestre personalidades de alto impacto y patrones que son más predictivos del éxito de la operación, lo que a su vez informa la intención de la cuenta, el mapeo de personalidades y las recomendaciones de grupos de compra. |
 | Intención | Cuando alguien visita una página web o hace clic en un vínculo de correo electrónico relacionado con un producto, es una señal de que está interesado y se llama _intención_.<br/><br/>El agente comienza con una taxonomía, que es básicamente una lista de los productos del cliente y las palabras clave que los describen. Esta información ayuda al agente a comprender de qué trata cada parte del contenido o interacción.<br/><br/>A continuación, el agente usa esa taxonomía para etiquetar la actividad del visitante, como las palabras clave o los productos a los que se relacionan sus acciones.<br/><br/>A continuación, el agente observa la profundidad con que se involucra alguien, como la cantidad de páginas que visita o la frecuencia con que interactúa. Utiliza esta información para calcular la puntuación de intención individual para palabras clave, productos o categorías de productos específicos. Agrupa cada puntuación de intención en _Alta_, _Medium_ o _Baja_ para indicar la intensidad del interés. (Intención baja: `<=0.2`, intención de Medium: `0.2 < score <= 0.6`, intención alta: `0.6 < score <= 1`)<br/><br/>Por último, el agente combina las puntuaciones de intención de todas las personas de la misma compañía (cuenta) para ver la intención general a nivel de cuenta, mostrando qué productos o temas parecen interesar más a la compañía. |
-| Funciones que influyen en un grupo comprador | Cada grupo comprador está formado por funciones que contribuyen de forma diferente a la decisión de compra, como _Decisionista_, _Influenciador_, _Campeón_ y _Usuario final_. Cada función tiene distintos grados de impacto.<br/><br/>Los encargados de tomar decisiones tienen la mayor influencia y generalmente controlan las aprobaciones presupuestarias. Los influenciadores modelan la evaluación y las recomendaciones. Los Campeones ayudan a crear un consenso interno, mientras que los Usuarios finales validan el ajuste del producto.<br/><br/>Al mostrarle estas funciones, el agente le ayuda a comprender quién es el responsable de la decisión de compra, dónde es más sólida su participación y dónde pueden existir brechas de cobertura. Esta información le permite centrarse en las funciones más importantes para este producto. |
+| Funciones que influyen en un grupo comprador | Cada grupo comprador está formado por funciones que contribuyen de forma diferente a la decisión de compra, como _Decisionista_, _Influenciador_, _Campeón_ y _Usuario final_. Cada función tiene un grado variable de impacto.<br/><br/>Los encargados de tomar decisiones tienen la mayor influencia y generalmente controlan las aprobaciones presupuestarias. Los influenciadores modelan la evaluación y las recomendaciones. Los Campeones ayudan a crear un consenso interno, mientras que los Usuarios finales validan el ajuste del producto.<br/><br/>Al mostrarle estas funciones, el agente le ayuda a comprender quién es el responsable de la decisión de compra, dónde es más sólida su participación y dónde pueden existir brechas de cobertura. Esta información le permite centrarse en las funciones más importantes para este producto. |
 | Cobertura de persona o función | Para cualquier producto dado, normalmente hay un conjunto de roles y personalidades clave que se sabe que influyen en la compra (_N_ personalidades o roles).<br/><br/>Para cada cuenta, el agente calcula la cobertura comprobando cuántos de esos roles de _N_ están representados por al menos una persona dentro de esa cuenta.<br/><br/>Si todos los roles de _N_ están presentes, la cuenta tiene cobertura total. Si solo se representan algunos roles, la cobertura es parcial.<br/><br/>En términos sencillos, la cobertura de funciones y personas mide la integridad del grupo de compra de un producto, en función de si se incluyen todas las personas que toman decisiones, influyentes y campeones importantes. |
 
 ## Requisitos previos de datos XDM
 
-Audience Agent proporciona perspectivas sobre las cuentas que muestran la intención de origen de los productos y calcula el perfil y las funciones en función de los datos definidos. Asegúrese de que los siguientes datos previos estén configurados para utilizar las funciones de Audience Agent:
+Audience Agent proporciona perspectivas sobre las cuentas que muestran la intención de origen de los productos y calcula las personas y las funciones en función de los datos definidos. Asegúrese de que los siguientes datos previos estén configurados para utilizar las funciones de Audience Agent:
 
 ### Asignación de campo XDM
 
@@ -340,7 +346,7 @@ Audience Agent proporciona perspectivas sobre las cuentas que muestran la intenc
           <span>Oportunidad</span>
         </p>
       </td>
-      <td>si la oportunidad está ganada (binaria)</td>
+      <td>Si la oportunidad está ganada (binaria)</td>
     </tr>
     <tr>
       <td>
@@ -563,7 +569,7 @@ Además de [configurar la taxonomía por intención](../admin/intent-data.md), s
           <span>Evento de experiencia</span>
         </p>
       </td>
-      <td>Solo para referencia/mantenimiento de libros; información sobre el ID de origen al que se dirige el correo electrónico</td>
+      <td>Solo como referencia/teneduría de libros; información sobre el ID de origen al que se dirige el correo electrónico</td>
     </tr>
     <tr>
       <td>
@@ -591,7 +597,7 @@ Además de [configurar la taxonomía por intención](../admin/intent-data.md), s
           <span>Evento de experiencia</span>
         </p>
       </td>
-      <td>Se utiliza para recuperar el contenido del correo electrónico del centro de datos de Marketo Engage; se compone de (SourceID@SourceInsatceID.SourceType)</td>
+      <td>Se utiliza para recuperar el contenido del correo electrónico del centro de datos de Marketo Engage; se compone de (SourceID@SourceInstanceID.SourceType)</td>
     </tr>
     <tr>
       <td>
@@ -605,7 +611,7 @@ Además de [configurar la taxonomía por intención](../admin/intent-data.md), s
           <span>Evento de experiencia</span>
         </p>
       </td>
-      <td>Solo para referencia/teneduría de libros; Información sobre el tipo de fuente o desde dónde se originó la fuente </td>
+      <td>Solo para referencia/teneduría de libros; Información sobre el tipo de origen o de dónde se originó la fuente </td>
     </tr>
     <tr>
       <td>
@@ -619,7 +625,7 @@ Además de [configurar la taxonomía por intención](../admin/intent-data.md), s
           <span>Evento de experiencia</span>
         </p>
       </td>
-      <td>Información sobre el origen para el que se dirige el correo electrónico</td>
+      <td>Información sobre el origen de la visita a la página web</td>
     </tr>
     <tr>
       <td>
@@ -673,7 +679,7 @@ Además de [configurar la taxonomía por intención](../admin/intent-data.md), s
           <span>Evento de experiencia</span>
         </p>
       </td>
-      <td>Solo para referencia/mantenimiento de libros; información sobre el ID de origen al que se dirige el correo electrónico</td>
+      <td>Solo como referencia/teneduría de libros; información sobre el ID de origen al que se dirige el correo electrónico</td>
     </tr>
     <tr>
       <td>
@@ -687,7 +693,7 @@ Además de [configurar la taxonomía por intención](../admin/intent-data.md), s
           <span>Evento de experiencia</span>
         </p>
       </td>
-      <td>Solo para referencia/teneduría de libros; Información sobre la instancia de origen a la que se dirige el correo electrónico</td>
+      <td>Solo para referencia/teneduría de libros; información sobre la instancia de origen a la que se dirige el correo electrónico</td>
     </tr>
     <tr class="">
       <td>
@@ -699,7 +705,7 @@ Además de [configurar la taxonomía por intención](../admin/intent-data.md), s
       <td>
         <span>Evento de experiencia</span>
       </td>
-      <td>Solo para referencia/contabilidad; se compone de (SourceID@SourceInsatceID.SourceType)</td>
+      <td>Solo para referencia/contabilidad; se compone de (SourceID@SourceInstanceID.SourceType)</td>
     </tr>
     <tr>
       <td>
@@ -710,7 +716,7 @@ Además de [configurar la taxonomía por intención](../admin/intent-data.md), s
       <td>
         <span>Evento de experiencia</span>
       </td>
-      <td>Solo para referencia/teneduría de libros; Información sobre el tipo de fuente o desde dónde se originó la fuente</td>
+      <td>Solo para referencia/teneduría de libros; Información para el tipo de fuente o de dónde procede la fuente</td>
     </tr>
     <tr>
       <td>

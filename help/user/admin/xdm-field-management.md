@@ -20,7 +20,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
 source-wordcount: 1191
 ht-degree: 79%
@@ -59,7 +59,7 @@ Utilice la siguiente guía para realizar selecciones de campo:
 * Eliminar, cambiar el nombre o los tipos de campo pueden causar problemas de funcionalidad de recorrido. Tenga cuidado al manipular esquemas.
 * No cambie el nombre ni elimine esquemas, ni modifique claves en esquemas relacionales.
 
-### Clases estándar
+### Esquemas estándar
 
 En la ficha _[!UICONTROL Estándar]_, puede editar _Campos administrados_ y _Campos actualizables_ para las clases estándar:
 

@@ -14,26 +14,50 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
 workflow-type: tm+mt
-source-wordcount: 1412
-ht-degree: 5%
+source-wordcount: 1571
+ht-degree: 4%
 
 ---
 
 # Plantillas de función del grupo de compras
 
-En un mercado B2B, las decisiones de compra suelen ser tomadas por varios individuos. Esas personas participan en el proceso de adopción de decisiones de acuerdo con su función dentro de la organización. Cree plantillas de funciones de grupo de compra que contengan un grupo de definiciones de funciones según cada tipo de oferta de producto o caso de uso de cuenta.
+En un mercado B2B, varias personas suelen tomar decisiones de compra. Esas personas participan en el proceso de adopción de decisiones de acuerdo con su función dentro de la organización. Cree plantillas de funciones de grupo de compra que contengan un grupo de definiciones de funciones según cada tipo de oferta de producto o caso de uso de cuenta.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
-## Acceso y exploración de plantillas de función
+>[!BEGINSHADEBOX]
+
+## Audience Agent B2B
+
+[Audience Agent B2B](../agents/audience-agent-b2b.md) puede generar una plantilla de roles de grupo de compra a partir de la detección de intención de origen y la asignación de personas. En el flujo guiado, puede identificar personas vinculadas a un producto, revisar las asignaciones de funciones a personas recomendadas por IA y refinar la plantilla con lenguaje natural antes de publicarla.
+
+**Indicadores para intentarlo:**
+
+* Crear una plantilla de grupo de compra para `<product>`
+* Agregar `<role>` asignado a `<persona>`
+* Eliminar `<role>` / `<persona>`
+
+![Audience Agent B2B está creando una plantilla de roles de grupo de compra](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+
+>[!ENDSHADEBOX]
+
+>[!PREREQUISITES]
+>
+>Antes de crear una plantilla de funciones, configure los datos que pueden utilizar las condiciones de funciones:
+>
+>* [Asignación de campos de perfil de persona](../admin/field-mapping.md#xdm-business-person-attributes) para filtros de atributos de persona
+>* [Datos por intención](../admin/intent-data.md) si usa filtros por intención en condiciones de rol
+>* [Funciones de grupo de compra personalizadas](./default-custom-roles.md#custom-roles) (opcional) si necesita funciones que superen los seis valores predeterminados
+
+## Acceso y exploración de plantillas de función {#access-and-browse-role-templates}
 
 1. En el panel de navegación izquierdo, haz clic en **[!UICONTROL Comprar grupos]**.
 
 1. En la página _[!UICONTROL Comprar grupos]_, seleccione la pestaña **[!UICONTROL Plantillas de roles]**.
 
-   ![Ficha Plantillas de roles](assets/roles-templates-tab.png){width="800" zoomable="yes"}
+   ![Ficha de inventario de plantillas de roles](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    La pestaña proporciona una lista de inventario de todas las plantillas de funciones existentes y muestra la siguiente información en formato de columna:
 
@@ -64,9 +88,11 @@ En un mercado B2B, las decisiones de compra suelen ser tomadas por varios indivi
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-### Añadir las funciones de plantilla
+### Añadir las funciones de plantilla {#add-the-template-roles}
 
-Después de crear la plantilla, esta se abrirá en el espacio de trabajo y se le pedirá que añada las funciones. La tarjeta de la primera función se muestra de forma predeterminada.
+Después de crear la plantilla, esta se abrirá en el espacio de trabajo y se le pedirá que añada las funciones. El sistema muestra la primera tarjeta de función de forma predeterminada.
+
+#### Tipos de filtro de condición de rol
 
 Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condiciones_ para determinar los miembros asignados al rol. Utilice los siguientes tipos de filtros para definir las condiciones de un rol:
 
@@ -76,6 +102,8 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 | [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"}: la cuenta o la persona tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según se han configurado en los [esquemas relacionales XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtros especiales | <li>Miembro de la lista (obsoleto) <li>Miembro del programa (obsoleto) |
 | Datos de intención | <li>Intento de categoría <li>Intención del producto <li>Intento de palabra clave <br/> (consulte [_Datos de intención_](../admin/intent-data.md)) |
+
+#### Definir propiedades de rol
 
 1. Para la primera tarjeta de función, defina las propiedades de la función.
 
@@ -89,11 +117,13 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 
      El valor de cada opción se traduce en un porcentaje para el cálculo de puntuación: [!UICONTROL Trivial] = 20, [!UICONTROL Menor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Importante] = 80 y [!UICONTROL Vital] = 100.
 
-     Por ejemplo, una plantilla de función con funciones que utilizan Vital, Importante y Normal se convierte a continuación como 100/240, 80/240, 60/240.
+     Por ejemplo, una plantilla de rol con las funciones Vital, Importante y Normal se convierte en 100, 80 y 60 de 240.
 
    * **[!UICONTROL Agregar condiciones para la asignación automática]**: seleccione esta casilla de verificación para agregar condiciones para la asignación automática de miembros al grupo de compra que cumplan la condición. Si la casilla de verificación no está seleccionada, la adición de condiciones NO es obligatoria.
 
    * **[!UICONTROL Necesario para la puntuación de integridad]**. Seleccione esta casilla de verificación para el rol si desea que sea un requisito para calcular una puntuación de integridad.
+
+#### Agregar condiciones para la asignación automática
 
 1. Haga clic en **[!UICONTROL Agregar condición]** y defina la regla de condición para el rol.
 
@@ -103,7 +133,7 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 
      >[!NOTE]
      >
-     >Si tiene campos de persona personalizados definidos en el esquema de persona de negocio en Experience Platform, estos campos también están disponibles para usarlos como atributos de persona en condiciones.
+     >Si tiene campos de persona personalizados definidos en el esquema de persona de negocios de Experience Platform, puede utilizarlos como atributos de persona en las condiciones.
 
      Utilice el atributo para crear un filtro coincidente con uno o más valores.
 
@@ -119,7 +149,9 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 
    * Haga clic en **[!UICONTROL Finalizado]**.
 
-1. Para cada rol adicional que desee incluir en la plantilla, haga clic en **[!UICONTROL Agregar otro rol]** y repita los pasos 1 y 2 para definir el rol.
+#### Agregar más funciones
+
+1. Para cada rol adicional que desee incluir en la plantilla, haga clic en **[!UICONTROL Agregar otro rol]** y repita los pasos de **Definir propiedades de rol** y **Agregar condiciones para la asignación automática** para definir el rol.
 
    ![Plantilla de roles con varios roles definidos](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -136,15 +168,15 @@ Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTR
 
 >[!NOTE]
 >
->**Desaprobación de características**</br></br>
+>**Desaprobación de características**
 >
 >En la versión actual de Journey Optimizer B2B edition, ya no se admite el filtrado basado en la pertenencia a listas o programas en una instancia de Marketo Engage.
 
 >[!ENDSHADEBOX]
 
-### Cambio de la configuración de puntuación de integridad
+### Cambio de la configuración de puntuación de integridad {#change-the-completeness-score-settings}
 
-De forma predeterminada, la integridad de un rol se define como un miembro asignado al rol. Si desea usar la integridad del grupo de compra como indicador de la preparación para las ventas o del éxito <!-- journey decisioning coming later-->, puede usar esta configuración para alinear la puntuación con el número de miembros por rol necesario para cerrar una oportunidad.
+De forma predeterminada, la integridad de un rol se define como un miembro asignado al rol. Cuando utilice la integridad del grupo de compra para indicar la preparación de las ventas, utilice estos ajustes para alinear la puntuación con el número de miembros necesarios para cerrar una oportunidad.
 
 Por ejemplo, para cerrar un acuerdo para la solución _X_, es necesario que se identifiquen y se involucren varios encargados de tomar decisiones de marketing, ya que varios equipos de marketing de una organización usarían la solución. En este caso, desea aumentar el umbral para calcular un grupo de compra _completo_ requiriendo al menos dos encargados de la toma de decisiones de marketing.
 
@@ -158,7 +190,7 @@ Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener
 
    Puede escribir el valor o hacer clic en **&plus;** o **−** para aumentarlo o reducirlo.
 
-   ![Plantilla de roles - botón de configuración de puntuación de integridad](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+   ![Cuadro de diálogo de configuración de puntuación de integridad de plantilla de roles](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -168,11 +200,13 @@ Si la plantilla está lista para usarse, haga clic en **[!UICONTROL Publicar]** 
 
 Al publicar la plantilla, se establece el estado en _Activo_ y está disponible para asociarla con un interés de solución. Debe haber al menos una función definida para publicar la plantilla de funciones.
 
+Después de publicar, el estado de la plantilla es _Activo_ en la ficha **[!UICONTROL Plantillas de roles]** y puede seleccionarla cuando [cree un interés de solución](./solution-interests.md).
+
 ## Editar una plantilla de funciones de borrador
 
 Cuando una plantilla de roles se encuentra en estado _Borrador_, puede seguir editando los roles definidos. Los cambios que realice se guardarán automáticamente.
 
-Cambie cualquiera de las configuraciones en el encabezado de la tarjeta de función, incluido el requisito de rol de grupo de compra, ponderación, asignación automática y puntuación de integridad.
+Cambie la configuración del encabezado de la tarjeta de funciones, como la función del grupo de compra, la ponderación, la asignación automática o el requisito de puntuación de integridad.
 
 ![Cambiar propiedades de rol de grupo de compra](./assets/roles-template-role-properties.png){width="600"}
 
@@ -198,10 +232,12 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 1. Haga clic en **[!UICONTROL Eliminar]** en la parte superior derecha.
 
-   ![Cambiar prioridad de rol](./assets/roles-template-delete.png){width="700"}
+   ![Cuadro de diálogo de confirmación de la plantilla Eliminar roles](./assets/roles-template-delete.png){width="700"}
 
 1. En el cuadro de diálogo, haga clic en **[!UICONTROL Eliminar]** para confirmar.
 
-## Vídeo resumen
+   Después de confirmar, la plantilla de roles se quita de la lista de inventario **[!UICONTROL Plantillas de roles]**.
+
+## Vídeo resumen {#overview-video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3453303/?captions=spa&learn=on)
