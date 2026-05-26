@@ -4,22 +4,17 @@ description: Cree recorridos de cuenta y persona en el lienzo visual, agregue no
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
 workflow-type: tm+mt
-source-wordcount: 859
-ht-degree: 4%
+source-wordcount: 862
+ht-degree: 5%
 
 ---
 
@@ -74,6 +69,7 @@ Después de crear un recorrido de cuentas y agregar la audiencia, genere el reco
 * [Iniciar una acción](./action-nodes.md)
 * [Escuchar un evento](./listen-for-event-nodes.md)
 * [Dividir rutas](./split-merge-paths-nodes.md)
+* [Siguiente mejor ruta](./next-best-path-node.md)
 * [Espera](./wait-nodes.md)
 * [Combinar rutas](./split-merge-paths-nodes.md)
 
@@ -177,4 +173,4 @@ Puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique,
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3443222/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
