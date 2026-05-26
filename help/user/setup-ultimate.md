@@ -21,10 +21,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
 source-wordcount: 853
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -104,7 +104,7 @@ Utilice esta lista de comprobación para completar la configuración de Journey 
 </thead>
 <tbody>
 <tr>
-<td colspan="2"><strong>Clases XDM estándar</strong>: configure clases de perfil XDM individual y de cuenta empresarial XDM.</td>
+<td colspan="2"><strong>Configuraciones XDM estándar</strong>: configure los esquemas Perfil individual XDM y Cuenta empresarial XDM.</td>
 <td></td>
 </tr>
 <tr>
@@ -118,7 +118,7 @@ Utilice esta lista de comprobación para completar la configuración de Journey 
 <td><a href="./admin/xdm-field-management.md#updatable-fields">Más información</a></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Esquemas relacionales</strong>: seleccione una clase XDM relacional (objeto personalizado varios a uno de la cuenta).</td>
+<td colspan="2"><strong>Esquemas relacionales</strong>: seleccione campos XDM relacionales (objeto personalizado varios a uno de la cuenta).</td>
 <td></td>
 </tr>
 <tr>

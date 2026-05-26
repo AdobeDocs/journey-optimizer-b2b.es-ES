@@ -17,7 +17,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
 source-wordcount: 2037
 ht-degree: 3%
@@ -53,7 +53,7 @@ En un recorrido de cuentas, utilice una acción en las cuentas cuando desee apli
 >
 >La acción _[!UICONTROL Valor de datos de cambio de cuenta]_ está obsoleta para la versión 2025.10. _[!UICONTROL Actualizar perfil de cuenta]_ reemplaza esta acción en Journey Optimizer B2B edition.<br/>
 >
->Un administrador puede configurar los atributos disponibles para la cuenta empresarial de XDM actualizando los campos de las _[!UICONTROL clases XDM]_ > _[!UICONTROL clases estándar]_. Para obtener más información, vea [Clases estándar](../admin/xdm-field-management.md#standard-classes).
+>Un administrador puede configurar los atributos disponibles para la cuenta empresarial de XDM actualizando los campos en las _[!UICONTROL configuraciones de XDM]_ > _[!UICONTROL clases estándar]_. Para obtener más información, vea [Clases estándar](../admin/xdm-field-management.md#standard-classes).
 
 ### Añadir una acción basada en cuentas
 
@@ -272,7 +272,7 @@ Utilice esta acción para cambiar el valor de un atributo de perfil de [personas
 >
 >El _[!UICONTROL perfil de persona de actualización]_ reemplaza la acción _[!UICONTROL Cambiar valor de datos]_ de la versión actual de Journey Optimizer B2B edition.<br/>
 >
->Un administrador puede configurar los atributos disponibles para el perfil individual de XDM actualizando los campos en las _[!UICONTROL clases XDM]_ > [!UICONTROL clases estándar]. Para obtener más información, vea [Clases estándar](../admin/xdm-field-management.md#standard-classes).
+>Un administrador puede configurar los atributos disponibles para el perfil individual de XDM actualizando los campos en las _[!UICONTROL configuraciones de XDM]_ > [!UICONTROL clases estándar]. Para obtener más información, vea [Clases estándar](../admin/xdm-field-management.md#standard-classes).
 
 +++
 
