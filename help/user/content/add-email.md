@@ -17,16 +17,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 1387
+source-wordcount: 1403
 ht-degree: 0%
 
 ---
 
 # Añadir un correo electrónico al recorrido
 
-Utilice Adobe Journey Optimizer B2B edition para enviar mensajes de correo electrónico a sus clientes a través de los recorridos de cuenta. Puede elegir crear, personalizar y previsualizar mensajes en el espacio de diseño de correo electrónico. También puede elegir enviar un correo electrónico que ya esté definido en la instancia de Marketo Engage conectada.
+Utilice Adobe Journey Optimizer B2B edition para enviar mensajes de correo electrónico a sus clientes a través de los recorridos de cuenta. Puede elegir crear, personalizar y previsualizar mensajes en el espacio de diseño de correo electrónico. También puede elegir enviar un correo electrónico que ya esté definido en la instancia de Marketo Engage conectada. Una vez que los correos electrónicos estén activos en los recorridos, supervisa el envío, la entrega y la participación en el [informe de rendimiento del correo electrónico](../dashboards/email-performance-dashboard.md).
 
 >[!NOTE]
 >

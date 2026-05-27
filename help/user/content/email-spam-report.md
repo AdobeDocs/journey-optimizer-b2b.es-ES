@@ -19,16 +19,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:30:57.478Z
 TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 378
 ht-degree: 0%
 
 ---
 
 # Revisión del informe de correo no deseado
 
-Muchos proveedores de bandejas de entrada de correo electrónico y la mayoría de los sistemas corporativos emplean un proceso de filtrado de correo no deseado. El envío de correos electrónicos que almacenan en déclencheur estos filtros puede afectar gravemente a la capacidad de entrega. En Journey Optimizer B2B edition, puede comprobar la puntuación de spam del contenido del correo electrónico mediante la generación de un informe de spam. Este informe usa [[!DNL SpamAssassin]](https://spamassassin.apache.org/) para probar el correo electrónico y le ayuda a determinar si las herramientas de filtrado de correo no deseado pueden considerar un mensaje como no deseado. Puede utilizar la información del informe para realizar acciones que mejoren la puntuación del contenido del correo electrónico y la capacidad de envío.
+Muchos proveedores de bandejas de entrada de correo electrónico y la mayoría de los sistemas corporativos emplean un proceso de filtrado de correo no deseado. El envío de correos electrónicos que almacenan en déclencheur estos filtros puede afectar gravemente a la capacidad de entrega. En Journey Optimizer B2B edition, puede comprobar la puntuación de spam del contenido del correo electrónico mediante la generación de un informe de spam. Este informe usa [[!DNL SpamAssassin]](https://spamassassin.apache.org/) para probar el correo electrónico y le ayuda a determinar si las herramientas de filtrado de correo no deseado pueden considerar un mensaje como no deseado. Puede utilizar la información del informe para realizar acciones que mejoren la puntuación del contenido del correo electrónico y la capacidad de envío. Después de ajustar el contenido, haga un seguimiento de la tasa de salida hacia otro sitio y del envío en el [informe de rendimiento del correo electrónico](../dashboards/email-performance-dashboard.md).
 
 Cuando revise la configuración de correo electrónico o edite el contenido, abra la página _[!UICONTROL Simular]_ y genere un _informe de correo no deseado_ para revisar la puntuación y los elementos marcados que pueden almacenar en déclencheur el filtrado de correo no deseado.
 

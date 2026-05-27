@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ae856607a1ded85eee6bef6d3fee7e46456e23b3
+source-git-commit: e1d68e75c6bcbab943f3ddf8326f4f9ffb4922c4
 workflow-type: tm+mt
 source-wordcount: 5116
 ht-degree: 66%
@@ -45,8 +45,8 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Función | Miembro del filtro Lista de cuentas | Utilice la pertenencia a Listas de cuentas como punto de orquestación en los recorridos de cuentas. Los especialistas en marketing pueden crear listas de bloqueados de cuentas, listas de prioridades o cualquier otro tipo de subconjunto de su audiencia y proporcionar a las cuentas experiencias únicas en recorridos según su pertenencia. |
 | Función | Filtrado del historial de eventos de experiencia | Esta función permite que la orquestación de recorrido B2B utilice la participación histórica para impulsar decisiones basadas en el comportamiento para los miembros de la audiencia. [Más información](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Función | Siguientes nodos de recorrido de mejor ruta | Puede optimizar la toma de decisiones de ruta dividida para los recorridos de persona, refinando la forma en que las audiencias se enrutan por las rutas antes de la activación del recorrido o durante la ejecución. [Más información](../journeys/next-best-path-node.md) |
+| Función | Panel de rendimiento de correo electrónico | El panel Rendimiento de correo electrónico proporciona a los especialistas en marketing una vista unificada de la actividad de correo electrónico en todos los recorridos de Adobe Journey Optimizer B2B edition. [Más información](../dashboards/email-performance-dashboard.md) |
 | Mejora | Aptitudes de Audience Agent B2B | Se han actualizado las aptitudes de Audience Agent B2B, incluida la creación de plantillas de grupo de compra con tecnología de IA. Utilice la asignación de intención y personalidad de origen para generar plantillas de grupo de compra, revisar las asignaciones de función a persona recomendadas por IA y refinar las plantillas con lenguaje natural antes de publicarlas. [Más información](../agents/audience-agent-b2b.md) |
-| Mejora | Informe Rendimiento de participación de correo electrónico | El informe Rendimiento de participación en el correo electrónico ofrece a los especialistas en marketing una vista unificada de la actividad de correo electrónico en todos los recorridos de Adobe Journey Optimizer B2B edition. |
 | Mejora | Panel de información general de recorridos: recorridos de persona | Los recorridos de persona (Beta) ahora incluyen una ficha _[!UICONTROL Información general]_ con los mismos análisis que los recorridos de cuenta, incluida la distribución de la tasa de finalización de recorridos, los recorridos por tipo de participación y las acciones de obtención de detalles y exportación. <a href="../dashboards/journeys-dashboard.md">Más información</a> |
 | Mejora | Compatibilidad con conjuntos de datos relacionales de AEP | Los nuevos conjuntos de datos relacionales ahora aparecen en el entorno limitado de AEP, junto con los conjuntos de datos existentes. |
 
