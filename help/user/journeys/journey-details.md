@@ -4,20 +4,15 @@ description: Monitorice el rendimiento del recorrido de la cuenta con las tasas 
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 568
 ht-degree: 0%
 
 ---
@@ -26,7 +21,7 @@ ht-degree: 0%
 
 Al hacer clic en el nombre de un recorrido de cuenta activo, se muestran los detalles del recorrido. La pestaña _[!UICONTROL Información general]_ proporciona información útil sobre el recorrido, incluidos resúmenes de IA generativos.
 
-Este tablero proporciona una visión general completa de un recorrido de cuentas seleccionado, en el que se detalla el progreso de las cuentas mediante los gráficos de líneas y círculos que categorizan y cuantifican las finalizaciones, las actividades en curso y las anulaciones a lo largo del tiempo. Ayuda a los especialistas en marketing a evaluar la eficacia de los canales de correo electrónico y SMS a través de métricas clave de envío y participación.
+Este tablero proporciona una visión general completa de un recorrido de cuentas seleccionado, en el que se detalla el progreso de las cuentas mediante los gráficos de líneas y círculos que categorizan y cuantifican las finalizaciones, las actividades en curso y las anulaciones a lo largo del tiempo. Ayuda a los especialistas en marketing a evaluar la eficacia de los canales de correo electrónico y SMS a través de métricas clave de envío y participación. Para ver las métricas de correo electrónico agregadas en todos los recorridos, consulte el [informe de rendimiento del correo electrónico](../dashboards/email-performance-dashboard.md).
 
 Esta descripción general está disponible para los recorridos de cuentas publicadas y los datos tardan aproximadamente cuatro horas en empezar a rellenar los gráficos y tablas.
 
@@ -55,7 +50,7 @@ Esta sección presenta dos métricas vitales:
 
 ## Rendimiento de correo electrónico y SMS
 
-Las tablas de rendimiento proporcionan una visión detallada de la eficacia de los canales de correo electrónico y SMS. Cada tabla muestra métricas, como tasas de entrega y tasas de clics, que le ayudan a evaluar el impacto de cada punto de contacto de comunicación.
+Las tablas de rendimiento proporcionan una visión detallada de la eficacia de los canales de correo electrónico y SMS. Cada tabla muestra métricas, como tasas de entrega y tasas de clics, que le ayudan a evaluar el impacto de cada punto de contacto de comunicación. Las siguientes tablas muestran las métricas de correo electrónico y SMS solo para este recorrido. Para las mismas métricas de correo electrónico en todos los recorridos, usa el [informe de rendimiento del correo electrónico](../dashboards/email-performance-dashboard.md).
 
 **[!UICONTROL Rendimiento de correo electrónico]** columnas de tabla:
 
