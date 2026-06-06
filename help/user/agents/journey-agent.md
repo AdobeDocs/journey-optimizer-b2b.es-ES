@@ -4,6 +4,8 @@ description: Aprenda a utilizar Journey Agent con tecnología de IA y sus habili
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
+autotag-review: '2026-06-05T16:42:46.785Z'
+TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -16,11 +18,13 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1165
 ht-degree: 0%
 
 ---
@@ -59,7 +63,7 @@ Para utilizar la aptitud de Journey Agent Build, escriba en la ventana de mensaj
 
 ![Solicitud B2B del agente de Recorrido para la aptitud de compilación](./assets/journey-agent-tasks.png)
 
-Cuantos más detalles pueda proporcionar, mejor será la respuesta. Si ya dispone de material de marketing que describe el evento, el producto, etc., péguelo en el mensaje para que el agente tenga una mejor idea del objetivo.
+Cuantos más detalles proporcione, mejor será la respuesta. Si ya dispone de material de marketing que describe el evento, el producto, etc., péguelo en el mensaje para que el agente comprenda mejor el objetivo.
 
 &quot;Actúe como estratega de recorrido B2B para crear un recorrido de cuentas de cliente de varias fases que nutra y involucre a los responsables de la toma de decisiones y a los profesionales de marketing en la fase de exploración temprana de `<Solution Name>`. El objetivo es convertir a los visitantes anónimos en contactos conocidos, profundizar la participación con contenido relevante en `<domain>`.com y crear posibles clientes cualificados para el alcance de ventas de `<Product Name>`. Utilice canales como correo electrónico y medios de pago, aprovechando los segmentos de audiencia y el contenido existentes. Estructurar el recorrido a través de las etapas de sensibilización, consideración y evaluación durante 4-6 semanas, con déclencheur, acciones y objetivos claros para cada etapa. Incluya KPI como tasas de conversión, puntuaciones de participación y solicitudes de demostración, y devuelva el resultado como un flujo de recorrido estructurado&quot;.
 
@@ -85,8 +89,7 @@ Ejemplos de mensajes de Recorrido de extremo a extremo:
 
 ### Recorridos de varias etapas
 
-Puede actuar como diseñador de recorridos B2B para crear un recorrido de cuentas de cliente de varias fases que informe a los responsables de la toma de decisiones y a las personas de marketing al principio de la fase de exploración.
-El objetivo es convertir a los visitantes anónimos en contactos conocidos, profundizar la participación con contenido relevante y crear posibles clientes cualificados para el alcance de las ventas.
+Puede actuar como diseñador de recorridos B2B para crear un recorrido de cuentas de cliente de varias fases que informe a los responsables de la toma de decisiones y a las personas de marketing al principio de la fase de exploración. El objetivo es convertir a los visitantes anónimos en contactos conocidos, profundizar la participación con contenido relevante y crear posibles clientes cualificados para el alcance de las ventas.
 
 * Use canales como `Email`, `Paid media`, `Personalized web experiences` para aprovechar el contenido y los segmentos de audiencia existentes.
 * Estructurar el recorrido en `awareness`, `consideration` y `evaluation` etapas durante 4-6 semanas, con déclencheur, acciones y objetivos claros para cada etapa.
@@ -145,7 +148,7 @@ En el caso de los recorridos que llevan a canales externos como LinkedIn, puede 
 
 ### Sincronización de datos y observabilidad de canalización
 
-La habilidad Observabilidad también puede mostrar información de estado de sincronización de datos para ayudar a solucionar por qué una cuenta o posible cliente no se ha incluido en un recorrido:
+La habilidad Observabilidad también puede mostrar información de estado de sincronización de datos para ayudar a solucionar el problema de por qué una cuenta o posible cliente no se incluyó en un recorrido:
 
 * Métricas y estado del trabajo de exportación de audiencias externas
 * Programaciones de segmentación por lotes y horas de finalización

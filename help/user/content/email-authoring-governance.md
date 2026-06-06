@@ -15,9 +15,9 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:35:16.900Z
 TQID: https://experienceleague.adobe.com/iwVl-dwU9oGG0rHQ9-J3EO5r3B778jQCe6XK742ArEo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 273
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 Los diseñadores de contenido pueden habilitar el [control (_bloqueo de contenido_)](./template-content-governance.md) al crear plantillas de correo electrónico. Las funciones de control les permiten designar las partes del diseño que no se pueden cambiar cuando se utilizan en un recorrido de cuentas. Cuando [selecciona una plantilla guardada](./email-authoring.md#select-a-template) para crear un mensaje de correo electrónico, el espacio de diseño visual carga la plantilla para que pueda utilizarla como base para el correo electrónico.
 
-Si la plantilla tiene el control habilitado, se muestra una alerta en el panel de propiedades de la derecha. Puede activar **[!UICONTROL Resaltar áreas editables]** en la parte superior del lienzo para ver qué componentes y elementos de contenido se pueden editar para usarlos en el recorrido.
+Si la plantilla tiene el control habilitado, se muestra una alerta en el panel de propiedades de la derecha. Seleccione **[!UICONTROL Resaltar áreas editables]** en la parte superior del lienzo para ver qué componentes y elementos de contenido se pueden editar para usarlos en el recorrido.
 
 ![Ver áreas editables en una plantilla controlada](./assets/email-designer-governed-highlight.png){width="800" zoomable="yes"}
 

@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 81%
+ht-degree: 75%
 
 ---
 
@@ -41,7 +41,7 @@ Para usar acciones de recorrido de Marketo Engage, un administrador crea primero
 >title="Conexiones externas de Marketo Engage"
 >abstract="Los administradores de productos pueden configurar conexiones a instancias externas de Marketo Engage, lo que las pone a disposición de las acciones del recorrido."
 
-Complete las siguientes tareas para configurar una instancia de Marketo Engage externa y utilizarla con las acciones del recorrido.
+Para configurar una instancia de Marketo Engage externa para usarla con acciones de recorrido, complete las siguientes tareas.
 
 ### Creación del servicio personalizado de Marketo Engage
 
@@ -86,6 +86,6 @@ Cuando un especialista en marketing utiliza una acción de Marketo Engage en un 
 >
 >Las acciones de Marketo Engage ejecutadas desde un recorrido no se aplican a los límites de la API de REST para la instancia de Marketo Engage conectada.
 
-Con la integración completada, las acciones de Marketo Engage están disponibles en **Acciones en:** en las propiedades del nodo.
+Con la integración completada, las acciones de Marketo Engage están disponibles en **_Actions en:_** en las propiedades del nodo.
 
 ![lista de acciones de Marketo](assets/marketo-actions-list.png){width="800" zoomable="yes"}

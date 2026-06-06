@@ -17,7 +17,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 483
 ht-degree: 0%
@@ -61,7 +61,7 @@ Puede configurar la optimización del tiempo de envío al [agregar un nodo _[!UI
 
 1. Utilice la opción **[!UICONTROL Optimización del tiempo de envío]** para habilitar la característica.
 
-1. Defina las opciones de STO para especificar la distribución de ventana y prueba:
+1. Para especificar la ventana y la distribución de prueba, defina las opciones de STO:
 
    * **[!UICONTROL Enviar en el plazo del siguiente]**: este valor determina la ventana de optimización (en días), que es el intervalo de tiempo en el que se pueden enviar los correos electrónicos. Por ejemplo, para un seminario web que se produzca en cinco días, puede establecer una ventana de cuatro o cinco días. STO selecciona el tiempo de envío mejor predicho para cada perfil dentro de esta ventana.
 

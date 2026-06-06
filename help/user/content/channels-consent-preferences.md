@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 415
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Journey Optimizer B2B edition evalúa el siguiente atributo XDM para el consenti
 | --- | --- | --- | --- |
 | `consents.marketing.email.val` | Incluido | Excluido | Incluido |
 
-Tenga en cuenta las siguientes consideraciones para el consentimiento por correo electrónico:
+Considere lo siguiente para el consentimiento por correo electrónico:
 
 * Las personas que se hayan excluido globalmente del correo electrónico pueden recibir correos electrónicos marcados como operativos.
 * No se admiten las preferencias de nivel de suscripción.
@@ -58,7 +58,7 @@ Journey Optimizer B2B edition evalúa los siguientes atributos XDM para el conse
 | `consents.marketing.subscriptions.<senderID>` | Incluido | Excluido | Excluido |
 | `consents.marketing.sms.subscriptions.<senderId>.subscribers.<phoneNumber>` | Incluido | Excluido | Excluido |
 
-Tenga en cuenta las siguientes consideraciones para el consentimiento SMS:
+Considere lo siguiente para el consentimiento SMS:
 
 * Cuando se excluye un registro de posible cliente (persona) de SMS, el registro se excluye por completo y no se pasa a proveedores de SMS descendentes.
 * Cuando está disponible, se evalúa el consentimiento en el nivel de suscripción. La exclusión global se utiliza como alternativa cuando el consentimiento a nivel de suscripción no está disponible.
@@ -74,7 +74,7 @@ Journey Optimizer B2B edition evalúa los siguientes atributos XDM para el conse
 | `consents.marketing.whatsApp.val` | Incluido | Excluido | Excluido |
 | `consents.idSpecific.Phone.<number>.marketing.whatsApp.val` | Incluido | Excluido | Excluido |
 
-Tenga en cuenta las siguientes consideraciones para el consentimiento de WhatsApp:
+Consideremos lo siguiente para el consentimiento de WhatsApp:
 
 * Si el valor de atributo global de WhatsApp (`consents.marketing.whatsApp.val`) está presente, se utiliza para la evaluación del consentimiento.
 * Si el valor de atributo global no está presente pero hay una entrada específica del remitente, la entrada específica del remitente se utiliza para evaluar el consentimiento.

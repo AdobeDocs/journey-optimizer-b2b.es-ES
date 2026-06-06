@@ -17,16 +17,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 2037
+source-wordcount: 2031
 ht-degree: 3%
 
 ---
 
 # Iniciar una acción
 
-En su recorrido, puede agregar un nodo _[!UICONTROL Realizar una acción]_ para ejecutar una acción, como enviar un mensaje de correo electrónico, cambiar una puntuación, asignar a un grupo comprador, etc. Las acciones suelen ser lo que desea que ocurra como resultado de algún tipo de déclencheur, como un evento o una acción anterior.
+Para ejecutar una acción, como enviar un correo electrónico, cambiar una puntuación, asignar a un grupo comprador, etc., puede agregar un nodo _[!UICONTROL Realizar una acción]_ en el recorrido. Las acciones suelen ser lo que desea que ocurra como resultado de algún tipo de déclencheur, como un evento o una acción anterior.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
@@ -101,7 +101,7 @@ Para obtener más información sobre el uso de audiencias coincidentes con la cu
 
 ## Acciones de personas
 
-En un recorrido de cuenta o persona, utilice una acción para las personas cuando desee aplicar un cambio a todas las personas de la ruta del nodo. Para un recorrido de cuenta, este tipo de nodo se puede usar dentro de la _ruta dividida por personas_ o _ruta dividida por cuentas_.
+En un recorrido de cuenta o persona, utilice una acción para las personas cuando desee aplicar un cambio a todas las personas de la ruta del nodo. Para un recorrido de cuenta, puede usar este tipo de nodo dentro de la _ruta dividida por personas_ o _ruta dividida por cuentas_.
 
 ### Acciones y restricciones {#people-action-constraints}
 
@@ -109,7 +109,7 @@ En un recorrido de cuenta o persona, utilice una acción para las personas cuand
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Agregar a la audiencia de cliente externa] | <li>Recorrido de cuenta <li>Recorrido de la persona | <li>Seleccionar el público externo del cliente |
 | | [!UICONTROL Asignar a grupo de compra] | <li>Recorrido de cuenta | <li>Seleccionar interés de la solución <li>Seleccionar función |
-| | [!UICONTROL Cambiar puntuación] | <li>Recorrido de cuenta | <li>Nombre de la puntuación <li>Cambio en la puntuación |
+| | [!UICONTROL Cambiar puntuación] | <li>Recorrido de cuenta | <li>Nombre del puntaje <li>Cambio en la puntuación |
 | | [!UICONTROL Momento interesante para la persona] | <li>Recorrido de cuenta <li>Recorrido de la persona | <li>Tipo <li>Descripción |
 | | [!UICONTROL Personalizar experiencia web] (Beta) | <li>Recorrido de cuenta | <li>Crear/editar experiencia web |
 | | [!UICONTROL Quitar del grupo de compra] | <li>Recorrido de cuenta | <li>Seleccionar interés de la solución |
@@ -238,7 +238,7 @@ Utilice esta acción para enviar un correo electrónico. Después de [crear el c
 
 ![Realizar una acción - Enviar correo electrónico](./assets/node-action-send-email-from-marketo.png){width="300"}
 
-Para los recorridos de las personas, puedes usar [Optimización del tiempo de envío](../content/email-send-time-optimization.md) para personalizar el tiempo de envío de los correos electrónicos y predecir cuándo es más probable que se involucre cada perfil.
+Para los recorridos de las personas, usa [Optimización del tiempo de envío](../content/email-send-time-optimization.md) para personalizar el tiempo de envío del correo electrónico y predecir cuándo es más probable que se involucre cada perfil.
 
 >[!NOTE]
 >
@@ -284,7 +284,7 @@ Las acciones basadas en personas de Marketo Engage están diseñadas para coordi
 >
 >Las acciones de Marketo Engage requieren la integración configurada con una o más instancias de Marketo Engage externas. Para obtener información detallada sobre esta configuración, consulte [_Activar conexiones de Marketo Engage para admitir acciones_](../admin/marketo-actions-connect.md).
 
-Por ejemplo: es posible que desee suprimir las campañas de Marketo Engage para personas que forman parte de grupos compradores en Journey Optimizer B2B edition. En este caso, puede crear una lista estática en Marketo Engage específicamente para la solución que le interese. A continuación, en una ruta dividida al comprar un grupo, use la acción _Agregar a la lista de Marketo_ desde un nodo de recorrido. Esta acción añade miembros del grupo de compra a una lista estática concreta de una instancia de Marketo Engage conectada. A continuación, utilice la lista estática centrada en el interés de la solución para un filtro de lista inteligente en Marketo Engage.
+Por ejemplo, suprima las campañas de Marketo Engage para las personas que forman parte de grupos compradores en Journey Optimizer B2B edition. En este caso, puede crear una lista estática en Marketo Engage específicamente para la solución que le interese. A continuación, en una ruta dividida al comprar un grupo, use la acción _Agregar a la lista de Marketo_ desde un nodo de recorrido. Esta acción añade miembros del grupo de compra a una lista estática concreta de una instancia de Marketo Engage conectada. A continuación, utilice la lista estática centrada en el interés de la solución para un filtro de lista inteligente en Marketo Engage.
 
 +++[!UICONTROL Agregar a la campaña de solicitudes de Marketo]
 

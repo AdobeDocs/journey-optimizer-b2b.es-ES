@@ -18,24 +18,24 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: 2026-03-30T22:08:16.582Z
 TQID: https://experienceleague.adobe.com/aWKXaC6x4Izeh81A6Fpy-Nrf18fHgnq6jUc-82ohErs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: 327
 ht-degree: 1%
 
 ---
 
 # Deduplicación de correo electrónico
 
-Utilice la anulación de deduplicación de correos electrónicos en las recorridos de cuenta para asegurarse de que el mismo correo electrónico no se envíe varias veces a la misma dirección de correo electrónico dentro de un recorrido. Al habilitar esta función, se bloquean las direcciones de correo electrónico duplicadas hasta que el primer registro con esa dirección de correo electrónico complete el recorrido. Una vez que una cuenta termina un recorrido, una persona puede cumplir los requisitos para recibir correos electrónicos de nuevo como parte de una nueva cuenta que entra en el recorrido.
+Para asegurarse de que el mismo correo electrónico no se envíe varias veces a la misma dirección de correo electrónico dentro de un recorrido, utilice la anulación de duplicación de correo electrónico en los recorridos de cuenta. Al habilitar esta función, se bloquean las direcciones de correo electrónico duplicadas hasta que el primer registro con esa dirección de correo electrónico complete el recorrido. Una vez que una cuenta termina un recorrido, una persona puede cumplir los requisitos para recibir correos electrónicos de nuevo como parte de una nueva cuenta que entra en el recorrido.
 
 ## Cuándo utilizar la deduplicación de correo electrónico
 
-Hay un par de escenarios clave en los que debe considerar la posibilidad de habilitar la deduplicación de correo electrónico:
+Hay algunos escenarios clave a considerar para habilitar la deduplicación de correo electrónico:
 
 * **El correo electrónico no se usa como identidad en Real-Time CDP**. Puede que aparezca la misma dirección de correo electrónico en varios perfiles de persona. Si esos perfiles duplicados cumplen los requisitos para el mismo recorrido y desea evitar que se envíe el correo electrónico más de una vez, habilite esta función.
 
-* **Persona única asociada con varias cuentas**: si el modelo de datos de Real-Time CDP permite que una sola persona se asocie con varias cuentas y desea evitar enviar el mismo correo electrónico dos veces a esa persona cuando varias cuentas (incluidos perfiles con la misma dirección de correo electrónico) cumplen los requisitos para el mismo recorrido, habilite esta característica.
+* **Persona única asociada con varias cuentas**: si el modelo de datos de [!DNL Real-Time CDP] asocia a una sola persona con varias cuentas, habilite esta característica para evitar que se envíe el mismo correo electrónico dos veces cuando varios perfiles con la misma dirección de correo electrónico cumplan los requisitos para el mismo recorrido.
 
 >[!NOTE]
 >
@@ -59,4 +59,4 @@ Para habilitar la anulación de duplicación de correo electrónico en un recorr
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Cuando la deduplicación de correo electrónico está habilitada, el recorrido comprueba cada dirección de correo electrónico antes de enviarlo. Si ya ha introducido un registro con la misma dirección de correo electrónico en ese nodo de recorrido, la nueva entrada se bloquea hasta que el primer registro complete la recorrido.
+Cuando la deduplicación de correo electrónico está habilitada, el recorrido comprueba cada dirección de correo electrónico antes de enviarlo. Si ya ha entrado en ese nodo de recorrido un registro con la misma dirección de correo electrónico, la nueva entrada se bloquea hasta que el primer registro complete la recorrido.

@@ -19,9 +19,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: 678
 ht-degree: 1%
 
 ---
@@ -42,11 +42,11 @@ Utilice una de las siguientes opciones de entrada para el nodo del recorrido de 
 
 ## Ingesta de perfil
 
-En Journey Optimizer B2B edition, una tarea de ingesta de audiencia nocturna mantiene los perfiles sincronizados con Experience Platform. Aunque los recorridos de persona basados en eventos pueden calificar perfiles que no forman parte de un perfil o audiencia de cuenta que Journey Optimizer B2B edition incorpora o utiliza, el resultado es que los perfiles incorporados permanecen obsoletos a menos que formen parte de una audiencia que utiliza un recorrido de persona, un recorrido de cuenta o un grupo comprador. Si se incorpora un perfil y se añade posteriormente a una audiencia, se realiza la unión de perfiles y el perfil permanece sincronizado con Experience Platform. Se han planificado mejoras en esta sincronización de datos de perfil para futuras versiones.
+En Journey Optimizer B2B edition, una tarea de ingesta de audiencia nocturna sincroniza perfiles con Experience Platform. Los recorridos de persona basados en eventos pueden calificar perfiles que no están en una audiencia utilizada por Journey Optimizer B2B edition, pero estos perfiles permanecen obsoletos a menos que se unan a una audiencia utilizada por un recorrido de persona, un recorrido de cuenta o un grupo de compra. Si se incorpora un perfil y se añade posteriormente a una audiencia, se realiza la unión de perfiles y el perfil permanece sincronizado con Experience Platform. Se han planificado mejoras en esta sincronización de datos de perfil para futuras versiones.
 
-Es posible que un perfil recién creado que ha introducido un recorrido de persona basado en eventos no tenga la información de perfil actualizada en el momento de la ingesta. Por ejemplo, si se crea un perfil a través de un evento de rellenado de formulario y un recorrido de personas lo ingiere desde el evento de rellenado de formulario correspondiente, es posible que los datos enviados en el formulario aún no se sincronicen con el perfil cuando el recorrido los ingirió. El resultado podría ser datos incompletos para la personalización (como en el contenido del correo electrónico). Se han planificado mejoras en esta sincronización de datos de evento de perfil para futuras versiones.
+Un perfil recién creado e introducido por un recorrido de persona basado en eventos podría carecer de la información de perfil actualizada en el momento de la ingesta. Por ejemplo, si se crea un perfil a través de un evento de rellenado de formulario, es posible que los datos enviados no se sincronicen con el perfil cuando el recorrido los ingrese. El resultado podría ser datos incompletos para la personalización (como en el contenido del correo electrónico). Se han planificado mejoras en esta sincronización de datos de evento de perfil para futuras versiones.
 
-Los recorridos de persona basados en eventos pueden calificar perfiles que siguen siendo anónimos/sin direcciones de correo electrónico y que solo contienen ECID. Sucede normalmente cuando tiene lógica de calificación para la actividad de la página web. Una lógica de audiencia basada en eventos demasiado amplia podría provocar que la instancia alcance el límite de 40 millones de perfiles si se clasifican demasiados perfiles. Limite el posible ámbito de la audiencia para evitar este escenario.
+Los recorridos de persona basados en eventos pueden calificar perfiles que siguen siendo anónimos/sin direcciones de correo electrónico y que solo contienen ECID. Esto ocurre normalmente cuando tiene lógica de calificación para la actividad de página web. Una lógica de audiencia basada en eventos demasiado amplia podría hacer que la instancia alcanzara el límite de 40 millones de perfiles si se clasifican demasiados perfiles. Para evitar este escenario, limite el posible ámbito de la audiencia.
 
 >[!IMPORTANT]
 >

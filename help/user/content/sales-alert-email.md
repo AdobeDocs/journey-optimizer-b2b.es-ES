@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:20:15.181Z
 TQID: https://experienceleague.adobe.com/npmmJAOBjGr4QPoK5320jVjN-PDpWZ99aqN1ldljXzk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 531
 ht-degree: 6%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 6%
 
 Un _correo electrónico de alerta de ventas_ indica la transferencia de grupos de compra a Ventas. El correo electrónico contiene un resumen del grupo de compra e información sobre los miembros del grupo de compra y sus actividades.
 
-Como experto en marketing, puede configurar un nodo de correo electrónico de alerta de ventas en los recorridos de su cuenta para avisar al equipo de ventas sobre la finalización del recorrido para grupos de compra específicos. En el nodo, puede especificar las direcciones de correo electrónico del equipo de ventas o un alias de distribución que llegue a un conjunto de cuentas.
+Para avisar al equipo de ventas de la finalización del recorrido para grupos de compra específicos, puede configurar un nodo de correo electrónico de alerta de ventas en las recorridos de la cuenta. En el nodo, puede especificar las direcciones de correo electrónico del equipo de ventas o un alias de distribución que llegue a un conjunto de cuentas.
 
 >[!IMPORTANT]
 >

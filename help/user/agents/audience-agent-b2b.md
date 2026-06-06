@@ -4,9 +4,12 @@ description: Audience Agent B2B en Journey Optimizer B2B edition utiliza el aná
 feature: Agentic AI, Audiences
 role: User
 exl-id: c1210912-66ba-4b5f-8f3b-96eb6280c926
+autotag-review: '2026-06-05T16:43:42.459Z'
+TQID: 'https://experienceleague.adobe.com/d7KMYbH0NpoYGnBdTCmCpzLgpGIYfNP-YIFCQUjZpIg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
 subfeature_v2:
@@ -16,9 +19,11 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 2500
 ht-degree: 1%
@@ -59,7 +64,7 @@ Audience Agent B2B depende de la taxonomía por intención configurada, las asig
 
 Estos ejemplos de mensajes muestran algunas de las formas en que puede utilizar el agente:
 
-* Mostrar la ventana de tendencias: actualización más reciente y más temprana de la calidad del producto de la cuenta por producto.
+* Mostrar la ventana de tendencias: actualizaciones más antiguas y más recientes de la calidad del producto de la cuenta por producto.
 * Para `<product>`, enumere los grupos de compra con la intención y las puntuaciones del producto.
 * Para `<product>`, enumere los personajes y las funciones con sus métricas de oportunidad (tasa de victorias, tasa de membresía, recuentos).
 * Para las cuentas de `<industry>`, ¿cuál es el promedio de cobertura personal de la cuenta para `<product>`?

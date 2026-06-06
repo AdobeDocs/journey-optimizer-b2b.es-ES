@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 79%
+source-wordcount: 1186
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ Los esquemas definen campos basados en perfiles XDM estándar. Las configuracion
 
 Los esquemas de Adobe Experience Platform (AEP) suelen contener muchos campos en jerarquías complejas. Recorrer los árboles de esquema XDM lleva tiempo. La administración de campos XDM optimiza la selección de campos al mostrar solo los campos relevantes para los recorridos, los grupos de compra y la personalización.  Los administradores habilitan estos campos para usarlos en Journey Optimizer B2B edition, incluidos los que son de solo lectura o editables.
 
-Los administradores que comprenden XDM y colaboran con los ingenieros de datos o las partes interesadas en el modelado de datos de la plataforma de datos del cliente B2B (CDP) deben seguir los siguientes pasos para configurar los campos XDM de [!DNL Journey Optimizer B2B Edition].
+Los administradores que comprenden XDM y colaboran con los ingenieros de datos o las partes interesadas en el modelado de datos de la plataforma de datos del cliente (CDP) B2B, siguen los siguientes pasos para configurar los campos XDM de [!DNL Journey Optimizer B2B Edition].
 
 ## Acceso a configuraciones de XDM
 
@@ -51,7 +51,7 @@ Los administradores que comprenden XDM y colaboran con los ingenieros de datos o
 
 >[!IMPORTANT]
 >
->Puede actualizar la selección de campos en cualquier momento seleccionando nuevos campos o anulando la selección de los campos que ya no necesite. Cuando publica un recorrido con este esquema, bloquea la estructura del esquema. No se admite la eliminación o el cambio de nombre del esquema, la adición de nuevos campos o el cambio de tipos de campos, y puede provocar errores de recorrido.
+>Puede actualizar la selección de campos en cualquier momento seleccionando nuevos campos o anulando la selección de los campos que ya no necesite. Cuando publica un recorrido con este esquema, bloquea la estructura del esquema. No se admite la eliminación o el cambio de nombre del esquema, la adición de nuevos campos o el cambio de tipos de campos, lo que podría provocar errores de recorrido.
 
 Utilice la siguiente guía para realizar selecciones de campo:
 
@@ -101,7 +101,7 @@ Al elegir **[!UICONTROL Campos administrados]**, el cuadro de diálogo _Seleccio
 
 #### Campos actualizables
 
-Establezca los campos actualizables para elegir qué campos se pueden modificar mediante las acciones de recorrido **[!UICONTROL Actualizar perfil de cuenta]** o **[!UICONTROL Actualizar perfil de persona]**.
+Para elegir qué campos se modifican mediante las acciones de recorrido **[!UICONTROL Actualizar perfil de cuenta]** o **[!UICONTROL Actualizar perfil de persona]**, establezca los campos actualizables.
 
 Antes de configurar campos actualizables, deben residir en un conjunto de datos personalizado. Para ver un tutorial del flujo de trabajo del conjunto de datos personalizado, consulte [Crear conjuntos de datos e ingerir datos](https://experienceleague.adobe.com/es/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"}, y use la opción **[!UICONTROL Crear conjunto de datos a partir del esquema]**. Este conjunto de datos se utiliza para aislar campos actualizables. Todos los campos actualizables deben estar en este conjunto de datos.
 
@@ -138,7 +138,7 @@ Existen varias funciones que admiten el uso de los campos y esquemas relacionale
 
 >[!NOTE]
 >
->Actualmente, esta función admite casos de uso de objetos personalizados relacionados con cuentas y personas, y tiene previsto admitir más casos de uso de objetos predeterminados en el futuro.
+>Actualmente, esta función admite casos de uso de objetos personalizados relacionados con cuentas y personas, y tiene previsto admitir más casos de uso de objetos estándar en el futuro.
 
 Puede crear esquemas relacionales mediante el editor de esquemas (vaya a **[!UICONTROL Administración de datos]** > **[!UICONTROL Esquemas]** en el panel de navegación izquierdo).
 

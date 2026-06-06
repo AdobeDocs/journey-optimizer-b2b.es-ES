@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 861
 ht-degree: 5%
 
 ---
@@ -69,7 +69,7 @@ El _mapa de recorrido_ es la zona central del área de trabajo de recorrido. Es 
 * [Nodo de audiencia de cuenta](./account-audience-nodes.md)
 * [Nodo de audiencia de persona](./person-audience-nodes.md)
 
-Después de crear un recorrido de cuentas y agregar la audiencia, genere el recorrido con los nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos utilizando los siguientes tipos de nodos para crear un recorrido de cuentas:
+Después de crear un recorrido de cuentas y agregar la audiencia, diseñe el recorrido con los nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos utilizando los siguientes tipos de nodos para crear un recorrido de cuentas:
 
 * [Iniciar una acción](./action-nodes.md)
 * [Escuchar un evento](./listen-for-event-nodes.md)
@@ -100,7 +100,7 @@ Para ayudarle a crear un recorrido sin que se produzcan errores, se han implemen
 
 1. En las propiedades del nodo, a la derecha, haga clic en el icono _Eliminar_ ( ![Icono Eliminar](../assets/do-not-localize/icon-delete.svg) ).
 
-1. En el cuadro de diálogo de conformación, haga clic en **[!UICONTROL Eliminar]**.
+1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Eliminar]**.
 
 ## Adición y eliminación de una ruta
 

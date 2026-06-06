@@ -18,20 +18,20 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 2374
-ht-degree: 89%
+source-wordcount: 2362
+ht-degree: 80%
 
 ---
 
 # Configuración del seguimiento y el envío de correo electrónico
 
-Adobe Journey Optimizer B2B edition aprovecha las funciones del canal de correo electrónico y el seguimiento de eventos en la instancia de Marketo Engage adjunta. Para garantizar que la entrega de correo electrónico funciona según lo esperado en las organizaciones que utilizan una configuración restrictiva del servidor de seguridad o del servidor proxy, un administrador del sistema debe añadir determinados dominios e intervalos de direcciones IP a la lista de permitidos.
+Adobe Journey Optimizer B2B edition aprovecha las funciones del canal de correo electrónico y el seguimiento de eventos en la instancia de Marketo Engage adjunta. Algunas organizaciones utilizan una configuración restrictiva del servidor de seguridad o del servidor proxy. Para garantizar que la entrega de correo electrónico funciona según lo esperado en estas organizaciones, un administrador del sistema debe añadir determinados dominios e intervalos de direcciones IP a la lista de permitidos.
 
 >[!NOTE]
 >
->Si su organización ya está utilizando la instancia de Marketo Engage conectada para ejecutar las operaciones de marketing, estos protocolos y configuraciones ya deben estar implementados.
+>Si su organización ya está utilizando la instancia de Marketo Engage conectada para ejecutar las operaciones de marketing, estos protocolos y configuraciones ya están implementados.
 
 Asegúrese de que los siguientes dominios (incluido el asterisco) se agregan a la lista de permitidos para habilitar todos los recursos de Marketo Engage y sockets web:
 
@@ -51,13 +51,13 @@ Complete los siguientes pasos para garantizar el seguimiento y la entrega por co
 
 >[!NOTE]
 >
->Los servicios de envío de correo electrónico y consultoría son ofertas pagadas independientes de Adobe. Si necesita o desea recibir asistencia del equipo de entrega de la instancia de Journey Optimizer B2B edition, debe adquirir uno de los paquetes de servicios de entrega de correo electrónico (Essentials, Enhanced o Plus) para esa instancia. Esto es independiente de cualquier paquete de capacidad de entrega en una instancia de Marketo Engage preexistente. Los servicios de capacidad de entrega se adjuntan por instancia, no por organización. La compatibilidad con la entrega en ambas instancias requiere dos paquetes de servicios de entrega independientes. Cada vez que se aprovisiona una nueva IP para Journey Optimizer B2B edition, se requiere un nuevo paquete de servicios de capacidad de entrega para el calentamiento de la IP y la compatibilidad de la capacidad de entrega continua.
+>Los servicios de envío de correo electrónico y consultoría son ofertas pagadas independientes de Adobe. Si necesita o desea recibir asistencia del equipo de entrega de la instancia de Journey Optimizer B2B edition, debe adquirir uno de los paquetes de servicios de entrega de correo electrónico (Essentials, Enhanced o Plus) para esa instancia. Esta configuración es independiente de cualquier paquete de capacidad de entrega en una instancia de Marketo Engage preexistente. Los servicios de capacidad de entrega se adjuntan por instancia, no por organización. La compatibilidad con la entrega en ambas instancias requiere dos paquetes de servicios de entrega independientes. Cada vez que se aprovisiona una nueva IP para Journey Optimizer B2B edition, se requiere un nuevo paquete de servicios de capacidad de entrega para el calentamiento de la IP y la compatibilidad de la capacidad de entrega continua.
 
 ## Creación de registros DNS para páginas de aterrizaje y correo electrónico
 
-La conexión de un registro CNAME permite a los especialistas en marketing alojar versiones web de los correos electrónicos, páginas de destino y blogs con una personalización de marca coherente que mejora el tráfico y las conversiones. Se recomienda muy especialmente añadir los CNAME a su host de dominio raíz para que Marketo Engage aloje sus recursos web centrados en marketing. Como administrador, debe trabajar con su equipo de marketing para planificar e implementar un registro CNAME para los vínculos de seguimiento que se incluyen en los correos electrónicos enviados a través de Marketo Engage.
+La conexión de un registro CNAME permite a los especialistas en marketing alojar versiones web de los correos electrónicos, páginas de destino y blogs con una personalización de marca coherente que mejora el tráfico y las conversiones. Se recomienda muy especialmente añadir los CNAME a su host de dominio raíz para que Marketo Engage aloje sus recursos web centrados en marketing. Para planificar e implementar un registro CNAME para los vínculos de seguimiento incluidos en los correos electrónicos enviados a través de Marketo Engage, trabaje con su equipo de marketing como administrador.
 
-Como administrador, debe trabajar con su equipo de marketing para planificar e implementar dos registros CNAME. El primero es para las direcciones URL de las páginas de aterrizaje, de modo que las páginas de aterrizaje aparezcan en direcciones URL que reflejen el dominio y no Adobe Marketo Engage (el host real). El segundo es para los vínculos de seguimiento incluidos en los correos electrónicos enviados a través de Marketo Engage.
+Para planificar e implementar dos registros CNAME, trabaje con su equipo de marketing como administrador. El primero es para las direcciones URL de las páginas de aterrizaje, de modo que las páginas de aterrizaje aparezcan en direcciones URL que reflejen el dominio y no Adobe Marketo Engage (el host real). El segundo es para los vínculos de seguimiento incluidos en los correos electrónicos enviados a través de Marketo Engage.
 
 ### Añadir el CNAME para páginas de aterrizaje
 
@@ -89,7 +89,7 @@ Este proceso puede tardar hasta tres días hábiles en completarse.
 
 ## Configurar SPF y DKIM
 
-El equipo de marketing debe proporcionar la información de DKIM (Domain Keys Identifed Mail) que se añadirá al registro de recursos DNS. Siga estos pasos para configurar DKIM y SPF (marco de directivas de remitente) y, a continuación, notifíqueselo a su equipo de marketing cuando esté actualizado.
+El equipo de marketing debe proporcionar la información de DKIM (Domain Keys Identifed Mail) que se añadirá al registro de recursos DNS. Para configurar DKIM y SPF (Entorno de directivas de remitente), siga estos pasos y, a continuación, notifique al equipo de marketing cuando se actualice.
 
 Puede utilizar la misma configuración de DKIM para la instancia de producción de Marketo Engage y la instancia de Journey Optimizer B2B edition adjunta. En la instancia adjunta, cree exactamente el mismo dominio que en la instancia de Marketo Engage. No es necesario que coincidan los valores del selector y el cifrado. Una vez agregado el dominio a la instancia de Journey Optimizer B2B edition, abra un ticket de asistencia de Adobe para solicitar que la configuración de DKIM se comparta desde la instancia de Marketo Engage a la nueva. Proporcione el prefijo Marketo Engage (Munchkin ID) y el nuevo prefijo Journey Optimizer B2B edition (Munchkin ID).
 
@@ -100,7 +100,7 @@ Puede utilizar la misma configuración de DKIM para la instancia de producción 
    include: mktomail.com ~all
    ```
 
-   Si ya tiene un registro SPF existente en la entrada de DNS, simplemente añada lo siguiente:
+   Si tiene un registro SPF en la entrada DNS, agréguele lo siguiente:
 
    ```
    include: mktomail.com
@@ -127,7 +127,7 @@ Para que DMARC funcione, debe tener al menos uno de los siguientes registros TXT
 * Un SPF válido
 * Un registro de DKIM válido para su dominio FROM: (recomendado para [!DNL Marketo Engage] y [!UICONTROL Journey Optimizer B2B edition])
 
-Además, configure un registro TXT DNS específico de DMARC para su dominio `FROM:`. Opcionalmente, puede definir una dirección correo electrónico que especifique adónde deben ir los informes DMARC dentro de su organización para la monitorización de informes.
+Además, configure un registro TXT DNS específico de DMARC para su dominio `FROM:`. De forma opcional, defina una dirección de correo electrónico que especifique adónde van los informes de DMARC dentro de su organización para la monitorización de informes.
 
 ### Ejemplo de flujo de trabajo DMARC
 
@@ -135,7 +135,7 @@ Además, configure un registro TXT DNS específico de DMARC para su dominio `FRO
 >
 >Se recomienda implementar DMARC como un _despliegue gradual_. Escale su directiva de DMARC de `p=none`, a `p=quarantine`, y luego a `p=reject`, a medida que vaya comprendiendo el impacto potencial, y establezca su directiva DMARC en una alineación relajada en SPF y DKIM.
 
-Si recibe informes DMARC, debe hacer lo siguiente:
+Si recibe informes de DMARC, haga lo siguiente:
 
 1. Utilice `p=none` y analice los comentarios e informes que reciba. Los informes indican al receptor que no realice ninguna acción con los mensajes que no superan la autenticación y que envíe informes de correo electrónico al remitente.
 
@@ -165,7 +165,7 @@ DMARC ofrece la posibilidad de recibir informes sobre correos electrónicos en l
 
 * **Informes forenses (FRU):** contienen direcciones correo electrónico que son sensibles al RGPD. Antes de implementar este informe, verifique la directiva de su organización para gestionar la información que debe cumplir con el RGPD.
 
-El principal uso de estos informes es recibir información general de los correos electrónicos cuya identidad se ha intentando suplantar. Son informes muy técnicos y se analizan mejor con una herramienta de terceros.
+El uso principal de estos informes es recibir una descripción general de los correos electrónicos que intentan suplantar. Son informes muy técnicos y se analizan mejor con una herramienta de terceros.
 
 ### Ejemplos de registros DMARC
 
@@ -228,7 +228,7 @@ Si envía un correo electrónico mediante Marketo Engage a través de una IP ded
 
 **Migración de direcciones IP dedicadas a Journey Optimizer B2B edition**
 
-Si tiene direcciones IP dedicadas, debe tener la nueva instancia de Journey Optimizer B2B edition creada en la misma región que la instancia de Marketo Engage existente. Si la nueva instancia se encuentra en una región diferente, no es posible compartir la IP existente. Si la región coincide, abre un ticket con [Soporte técnico de Adobe](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support){target="_blank"} para solicitar que tus grupos de enlace e IP existentes se compartan con la nueva instancia. Proporcione el prefijo Marketo Engage (Munchkin ID) y el nuevo prefijo Journey Optimizer B2B edition (Munchkin ID).
+Si tiene direcciones IP dedicadas, debe tener la nueva instancia de Journey Optimizer B2B edition creada en la misma región que la instancia de Marketo Engage existente. Si la nueva instancia se encuentra en una región diferente, no es posible compartir la IP existente. Si la región coincide, abra un ticket con [Soporte técnico de Adobe](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support){target="_blank"} y solicite que sus grupos de enlace e IP existentes se compartan con la nueva instancia. Proporcione el prefijo Marketo Engage (Munchkin ID) y el nuevo prefijo Journey Optimizer B2B edition (Munchkin ID).
 
 Con esta solicitud, Adobe replica las mismas direcciones IP, grupos de enlace y dominios de ruta de retorno configurados como instancia de Marketo Engage. Cuando las IP se comparten entre las instancias de Marketo Engage y Journey Optimizer B2B edition, las utilizan simultáneamente.
 
@@ -248,7 +248,7 @@ Un registro MX le permite recibir correo en el dominio desde el que envía corre
 
 ## Direcciones IP permitidas
 
-Marketo Engage establece una conexión saliente con un servidor de Internet en su nombre. Su organización de TI y algunos socios/proveedores pueden utilizar listas de permitidos para restringir el acceso a los servidores. Si es así, debe proporcionarles bloques de direcciones IP salientes de Marketo Engage para añadirlos a sus listas de permitidos.
+Marketo Engage establece una conexión saliente con un servidor de Internet en su nombre. Su organización de TI y algunos socios/proveedores pueden utilizar listas de permitidos para restringir el acceso a los servidores. Si es así, proporcióneles bloques de direcciones IP salientes de Marketo Engage para añadirlos a sus listas de permitidos.
 
 <!--
 Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.

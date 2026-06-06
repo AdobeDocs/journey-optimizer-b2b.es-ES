@@ -17,9 +17,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1399
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Puede configurar los envíos de correo electrónico en un recorrido cuando [agre
 
    * Elija **[!UICONTROL Seleccionar correo electrónico de Adobe Marketo Engage]** para usar uno de los correos electrónicos creados previamente en Marketo Engage y enviarlo como parte del recorrido.
 
-     Si tiene más de un espacio de trabajo disponible en la instancia de Market Engage conectada, seleccione el espacio de trabajo. A continuación, seleccione el correo electrónico aprobado que desea enviar para el nodo de recorrido.
+     Si tiene más de un espacio de trabajo disponible en la instancia de Marketo Engage conectada, seleccione el espacio de trabajo. A continuación, seleccione el correo electrónico aprobado que desea enviar para el nodo de recorrido.
 
      ![Seleccionar correo electrónico de Marketo Engage](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
@@ -138,7 +138,7 @@ Se pueden detectar dos tipos de alertas:
      >
      >Los mensajes de correo electrónico de estilo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales.
 
-   * `Text version of HTML is empty`: no olvide definir una versión de texto de su cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido de HTML.
+   * `Text version of HTML is empty`: defina una versión de texto de su cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido de HTML.
 
    * `Empty link is present in email body`: compruebe que todos los vínculos del correo electrónico sean correctos.
 

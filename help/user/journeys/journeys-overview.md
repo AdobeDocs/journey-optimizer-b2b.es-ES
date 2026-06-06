@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1511
-ht-degree: 44%
+source-wordcount: 1512
+ht-degree: 42%
 
 ---
 
@@ -110,7 +110,7 @@ Para personalizar (mostrar/ocultar) las columnas que se muestran en la tabla, ha
 
 ### Estado del recorrido
 
-El estado de un recorrido puede cambiar según las acciones que se apliquen. En función del estado de un recorrido, determinadas acciones no estarán disponibles en el lado derecho del encabezado.
+El estado de un recorrido puede cambiar según las acciones que se apliquen. En función del estado de un recorrido, ciertas acciones están o no disponibles en el lado derecho del encabezado.
 
 | Estado | Descripción | Acciones disponibles |
 | ------ | ----------- | ----------------- |
@@ -170,7 +170,7 @@ Si se cierra un recorrido activo, las cuentas que se encuentran actualmente en e
 
 ### Duplicación de un recorrido {#duplicate-journey}
 
-Una acción de duplicado es similar a una función de clonado, pero el recorrido duplicado no incluye ningún recurso de contenido de recorrido creado. Puede duplicar los detalles del recorrido o simplemente un _esqueleto_ de la estructura de flujo y ruta.
+Una acción de duplicado es similar a una función de clonado, pero el recorrido duplicado no incluye ningún recurso de contenido de recorrido creado. Puede duplicar los detalles del recorrido o una _estructura_ simple del flujo y la estructura de la ruta.
 
 1. Haga clic en el icono _Más_ (**...**) junto al nombre del recorrido y elija **[!UICONTROL Duplicate]**.
 
@@ -194,7 +194,7 @@ Una acción de duplicado es similar a una función de clonado, pero el recorrido
 
    * **[!UICONTROL Duplicación parcial del contenido]**: use este tipo para copiar todo el contenido del recorrido, sin incluir los mensajes de correo electrónico o SMS creados. Los nodos que hacen referencia a un mensaje de correo electrónico o SMS de Marketo Engage están totalmente intactos.
 
-   * **[!UICONTROL Duplicado sin detalles]**: use este tipo para copiar solo la estructura y las rutas del nodo. Todos los ajustes de nodo y las condiciones de la ruta están sin definir (valor predeterminado), de modo que puede reutilizar el flujo básico con diferentes públicos, acciones y configuraciones de segmentación de la ruta. Todos los nodos de _espera_ utilizan el valor predeterminado de cinco días.
+   * **[!UICONTROL Duplicado sin detalles]**: use este tipo para copiar solo la estructura y las rutas de acceso del nodo. Todos los ajustes de nodo y las condiciones de la ruta están sin definir (valor predeterminado), de modo que puede reutilizar el flujo básico con diferentes públicos, acciones y configuraciones de segmentación de la ruta. Todos los nodos de _espera_ utilizan el valor predeterminado de cinco días.
 
 1. Haga clic en **[!UICONTROL Duplicar]**.
 

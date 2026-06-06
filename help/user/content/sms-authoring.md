@@ -17,9 +17,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1306
 ht-degree: 3%
 
 ---
@@ -74,7 +74,7 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
 
 1. Agregue un token haciendo clic en el símbolo más ( **+** ) que hay junto a él.
 
-   Si desea agregar el token con una reserva (valor predeterminado que aparece en caso de que el campo no esté disponible para un posible cliente), haga clic en el icono _Más_ ( **...** ) y elija **[!UICONTROL Insertar con texto de reserva]**.
+   Si desea agregar el token con una reserva, haga clic en el icono _Más_ ( **...** ) y elija **[!UICONTROL Insertar con texto de reserva]**. La reserva es la opción predeterminada que aparece en caso de que el campo no esté disponible para un posible cliente.
 
    ![Haga clic en los puntos suspensivos para utilizar una reserva para el token](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
@@ -108,7 +108,7 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
 
      >[!NOTE]
      >
-     >Cuando permite el seguimiento pero deshabilita _[!UICONTROL Incluir mkt_tok]_, la dirección URL de destino no incluye el parámetro de cadena de consulta `mkt_tok` después del redireccionamiento. Este parámetro lo utilizan las páginas de aterrizaje de Marketo Engage y Munchkin para garantizar que el seguimiento de las actividades personales (como cuando una persona cancela la suscripción de un correo electrónico). No desactive esta opción a menos que el parámetro esté causando problemas en el sitio web.<br/>
+     >Cuando permite el seguimiento pero deshabilita _[!UICONTROL Incluir mkt_tok]_, la dirección URL de destino no incluye el parámetro de cadena de consulta `mkt_tok` después del redireccionamiento. Este parámetro lo utilizan las páginas de aterrizaje de Marketo Engage y Munchkin para garantizar que el seguimiento de las actividades personales (como cuando una persona cancela la suscripción de un correo electrónico). No deshabilite esta opción a menos que el parámetro esté causando problemas en el sitio web.<br/>
      >Para obtener más información sobre cómo usar los códigos de seguimiento de Munchkin en tu sitio web, consulta la [documentación de Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Cuadro de diálogo Agregar vínculo para mensaje SMS](./assets/sms-add-link-dialog.png){width="470"}
@@ -157,7 +157,7 @@ Cuando se define el contenido del mensaje, puede utilizar perfiles de prueba par
 
    En la lista mostrada, puede buscar y agregar cualquiera de los posibles clientes (hasta 10 posibles clientes a la vez) de la base de datos de posibles clientes de Marketo Engage.
 
-   Para buscar, escribe toda la dirección de correo electrónico y presiona _Intro_. Se muestra el perfil de posible cliente correspondiente para la selección.
+   Para buscar, escribe toda la dirección de correo electrónico y pulsa _Entrar_. Se muestra el perfil de posible cliente correspondiente para la selección.
 
    La vista previa se actualiza a los campos de personalización del perfil seleccionado.
 
@@ -175,9 +175,9 @@ Cuando se define el contenido del mensaje, puede utilizar perfiles de prueba par
 
 ## Administración de consentimiento de SMS
 
-Proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones de una marca y cumplir con esta opción es un requisito legal. El incumplimiento de estas regulaciones conlleva riesgos legales para su marca. Esta función también le ayuda a evitar enviar comunicaciones no solicitadas a sus destinatarios, lo que podría hacer que marquen sus mensajes como correo no deseado y dañar su reputación.
+Proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones de una marca y cumplir con esta opción es un requisito legal. El incumplimiento de estas regulaciones conlleva riesgos legales para su marca. Esta función le ayuda a evitar enviar comunicaciones no solicitadas a sus destinatarios, lo que podría hacer que marquen sus mensajes como correo no deseado y dañar su reputación.
 
-Cuando proporciona esta opción, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. Se admiten y respetan todas las palabras clave de inclusión y exclusión estándar, así como cualquier palabra clave personalizada que se haya configurado con el proveedor de servicios SMS. Al cancelar la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.
+Cuando proporciona esta opción, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. Todas las palabras clave de inclusión y exclusión estándar son compatibles y se respetan, al igual que cualquier palabra clave personalizada que se haya configurado con el proveedor de servicios SMS. Al cancelar la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.
 
 Journey Optimizer B2B edition permite administrar la exclusión en mensajes SMS mediante la siguiente lógica:
 

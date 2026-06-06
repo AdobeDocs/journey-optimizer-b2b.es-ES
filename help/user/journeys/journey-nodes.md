@@ -16,23 +16,23 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 134
-ht-degree: 14%
+source-wordcount: 133
+ht-degree: 15%
 
 ---
 
 # Nodos del recorrido
 
-Después de crear un recorrido (recorrido de cuenta o recorrido de persona), añada la audiencia y cree el recorrido con los nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos.
+Después de crear un recorrido (recorrido de cuenta o recorrido de persona), añada la audiencia y construya el recorrido mediante nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos.
 
 Los nodos de audiencia son automáticamente el primer nodo del recorrido:
 
 * [Público de cuenta](./account-audience-nodes.md)
 * [Audiencia de personas](./person-audience-nodes.md) (Beta)
 
-Cree su recorrido combinando los diferentes nodos de acción, evento y orquestación como un escenario de varios pasos y canales cruzados. Cada nodo de un recorrido representa un paso a lo largo de una ruta lógica. Utilice los siguientes tipos de nodos para construir un recorrido de cuentas:
+Construya su recorrido combinando los diferentes nodos de acción, evento y orquestación como un escenario de varios pasos y canales cruzados. Cada nodo de un recorrido representa un paso a lo largo de una ruta lógica. Utilice los siguientes tipos de nodos para construir un recorrido de cuentas:
 
 * [Iniciar una acción](./action-nodes.md)
 * [Escuchar un evento](./listen-for-event-nodes.md)

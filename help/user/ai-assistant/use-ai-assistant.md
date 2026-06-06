@@ -5,11 +5,14 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+autotag-review: '2026-06-05T16:09:10.773Z'
+TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -17,11 +20,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-04-29T23:21:59.633Z
-TQID: https://experienceleague.adobe.com/nLvepx6T0xVR0KZqO-8zRgf2z63sJtGJLCVCCpYoNYk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 970
 ht-degree: 1%
 
 ---
@@ -32,13 +33,13 @@ En Journey Optimizer B2B edition, el asistente de IA es una función de la inter
 
 >[!IMPORTANT]
 >
->Se requiere un acuerdo para las Directrices del usuario de IA generativas de Adobe Experience Cloud antes de poder utilizar el asistente de IA. Para obtener más información sobre este contrato y las directrices de uso, consulte [Directrices del usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Se requiere un acuerdo para las Directrices generativas del usuario de IA de Adobe Experience Cloud antes de poder utilizar el asistente de IA. Para obtener más información sobre este contrato y las directrices de uso, consulte las [Directrices del usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 Para acceder al asistente de IA, haga clic en el icono del encabezado. El asistente de IA se abre en un panel a la derecha.
 
 ![Haga clic en el icono para acceder al asistente de IA](./assets/ai-assistant-icon-displayed.png){width="420"}
 
-Aparecerá la interfaz del Asistente de IA, que le proporcionará inmediatamente información para empezar. Puede usar las opciones que se proporcionan en _Ideas para empezar_ a responder preguntas y comandos como los siguientes:
+Aparecerá la interfaz del Asistente de IA, que le proporcionará inmediatamente información para empezar. Puede usar las opciones que se proporcionan en _[!UICONTROL Ideas para empezar]_ a responder preguntas y comandos como los siguientes:
 
 * ¿Qué recorridos se publicaron?
 * ¿Qué intereses de solución se han creado?
@@ -54,7 +55,7 @@ Las preguntas sobre conocimientos del producto se refieren a conceptos e informa
 * ¿Cómo se envía un correo electrónico en un recorrido?
 * ¿Cómo puedo personalizar el contenido de mi correo electrónico?
 
-Para hacer una pregunta sobre un producto, indíquela en el campo situado en la parte inferior del panel y pulse Intro. Por ejemplo, cuando necesita aprender a utilizar un grupo de compra en un recorrido. En este caso, escribe _¿Cómo uso un grupo de compra en un recorrido?_ Después de enviar la pregunta, AI Assistant consulta su base de conocimiento y compila una respuesta en unos segundos.
+Para hacer una pregunta sobre un producto, indíquela en el campo situado en la parte inferior del panel y pulse Intro. Por ejemplo, cuando necesita aprender a utilizar un grupo de compra en un recorrido. En este caso, escribe _¿Cómo uso un grupo de compra en un recorrido?_ Después de enviar la pregunta, AI Assistant consulta su base de conocimientos y genera una respuesta en unos segundos.
 
 ![Escriba una pregunta en el cuadro de texto](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -66,13 +67,13 @@ Para hacer una pregunta sobre un producto, indíquela en el campo situado en la 
 
 ## Formular preguntas sobre perspectivas operativas
 
-Las preguntas de Operational Insights se refieren a los objetos de recorrido de la zona protegida de su organización. Puede hacer preguntas sobre artefactos operativos, como la audiencia de la cuenta, el recorrido de la cuenta, el interés de la solución y la plantilla del grupo de compra. Algunos ejemplos de preguntas o mensajes de información operativa son los siguientes:
+Las preguntas de Operational Insights se refieren a los objetos de recorrido de la zona protegida de su organización. Puede hacer preguntas sobre artefactos operativos, como audiencias de cuenta, recorridos, intereses de soluciones y plantillas de grupos de compra. Algunos ejemplos de preguntas o mensajes de información operativa son los siguientes:
 
 * ¿Cuántos recorridos en directo tengo en Adobe Journey Optimizer B2B edition?
 * Dame una lista de todos los recorridos programados
 * ¿Cuántos recorridos se han creado en los últimos 7 días?
 
-Debe estar en una zona protegida activa para que AI Assistant proporcione una respuesta suficiente a una pregunta sobre sus perspectivas operativas.
+Asegúrese de que está en una zona protegida activa para que el asistente de IA proporcione una respuesta suficiente a una pregunta sobre sus perspectivas operativas.
 
 >[!NOTE]
 >
@@ -106,13 +107,13 @@ El asistente de IA proporciona vínculos a la documentación que corrobora la re
 
 Después de recibir una respuesta a una pregunta de información operativa, haga clic en **[!UICONTROL Mostrar origen]** y, a continuación, seleccione **[!UICONTROL Ver consulta de origen]**.
 
-Puede verificar cada respuesta relacionada con las preguntas de información operativa mediante una consulta SQL que proporciona el Asistente de inteligencia artificial. Cuando se consulta con una pregunta de información operativa, el Asistente de IA proporciona una consulta SQL que puede utilizar para verificar el proceso que llevó calcular la respuesta. Esta consulta de origen es solo para fines de verificación y no se admite en el servicio de consultas.
+Puede verificar cada respuesta relacionada con las preguntas de información operativa mediante una consulta SQL que proporciona el Asistente de inteligencia artificial. Cuando se consulta con una pregunta de información operativa, el Asistente de IA proporciona una consulta SQL. Puede utilizarlo para verificar el proceso que llevó calcular la respuesta. Esta consulta de origen es solo para fines de verificación y no se admite en el servicio de consultas.
 
 ![Resultados de la consulta del Asistente de IA](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
 
 ## Proporcionar comentarios
 
-Use los iconos _Pulgar arriba_ (![Pulgar arriba](../assets/do-not-localize/icon-thumb-up.svg)) o _Pulgar abajo_ ( ![Pulgar abajo](../assets/do-not-localize/icon-thumb-down.svg)) para evaluar la utilidad y la calidad de la respuesta. Complete el breve formulario de la encuesta según su experiencia y haga clic en **[!UICONTROL Enviar]**. La información que proporciona se utiliza para realizar mejoras en AI Assistant.
+Use los iconos _Valoración positiva_ (![Pulgar arriba](../assets/do-not-localize/icon-thumb-up.svg)) o _Valoración negativa_ ( ![Pulgar abajo](../assets/do-not-localize/icon-thumb-down.svg) ) para valorar la utilidad y la calidad de la respuesta. Complete el breve formulario de la encuesta según su experiencia y haga clic en **[!UICONTROL Enviar]**. La información que proporciona se utiliza para realizar mejoras en AI Assistant.
 
 Si nota algún problema en la respuesta, haga clic en el icono _Indicador_ ( ![Icono de indicador](../assets/do-not-localize/icon-flag.svg) ). Use el formulario para describir el problema y haga clic en **[!UICONTROL Enviar]** para informar el problema.
 

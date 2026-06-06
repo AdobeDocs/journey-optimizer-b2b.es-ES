@@ -16,10 +16,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 2267
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ Una vez completado el aprovisionamiento y enlazados los entornos limitados, comp
 1. [Editar funciones integradas](#edit-roles-for-product-permissions) o [crear una función personalizada](#create-a-custom-role) con permisos de Journey Optimizer B2B edition.
 1. [Agregar usuarios](#add-users) o [grupos](#add-user-groups-to-a-role) a los roles.
 
-Como administrador, puede completar estas tareas en Adobe Admin Console, que es un lugar central para administrar las licencias y los usuarios de productos de Adobe. En Admin Console, puede crear y administrar usuarios en una sola ubicación en lugar de en las distintas soluciones individuales. Consulte la página [Información general de Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html) para obtener más información sobre sus funciones y capacidades.
+Como administrador, puede completar estas tareas en Adobe Admin Console, que es un lugar central para administrar las licencias y los usuarios de productos de Adobe. En Admin Console, puede crear y administrar usuarios en una sola ubicación en lugar de en las distintas soluciones individuales. Para obtener más información sobre sus funciones y capacidades, consulte la página [Información general de Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
 
 ## Acceso a Admin Console
 
@@ -317,7 +317,7 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
 1. Añadir permisos de productos B2B:
 
-   Consulte la lista de [permisos de producto B2B](#b2b-product-permissions) para determinar qué capacidades de producto desea para la función.
+   Para determinar qué capacidades de producto desea para la función, consulte la lista de [permisos de productos B2B](#b2b-product-permissions).
 
    En la lista _[!UICONTROL Recursos]_ de la izquierda, busque los elementos **[!UICONTROL B2B]** y haga clic en el icono _Agregar_ (**+**) para agregar cada atributo que desee habilitar para el rol.
 

@@ -16,7 +16,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:11:12.994Z
 TQID: https://experienceleague.adobe.com/a-dPU6YNtDv86OD-i35749QY4HCDFtVIVn9F6jm0zEA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 0%
@@ -40,10 +40,10 @@ Existen dos formas de definir el tiempo de espera:
 
    ![Agregar nodo de recorrido: espera](./assets/add-node-wait.png){width="440"}
 
-1. En las propiedades del nodo de la derecha, establezca el **[!UICONTROL Tipo]** de tiempo de espera antes de que el recorrido continúe al siguiente nodo de la ruta.
+1. Para establecer el tiempo de espera antes de que el recorrido continúe con el siguiente nodo en la ruta de acceso, use las propiedades del nodo a la derecha para establecer **[!UICONTROL Type]**.
 
    * **[!UICONTROL Duración]**: defina un número específico de días, horas o minutos entre la entrada y la salida del nodo de espera.
-   * **[!UICONTROL Fecha]** - Especifique una fecha y hora específicas para la salida.
+   * **[!UICONTROL Fecha]** - Especifique una fecha y hora para la salida.
 
    ![nodo de Recorrido: espera](./assets/node-wait.png){width="500"}
 
@@ -51,7 +51,7 @@ Existen dos formas de definir el tiempo de espera:
 
 Habilite la opción **[!UICONTROL Debe finalizar el]** para configurar un _paso de espera avanzado_ y garantizar que los mensajes lleguen a las personas y a los miembros de la cuenta en el momento óptimo. Esta configuración le proporciona un control preciso sobre cuándo una persona o cuenta sale de un paso de espera y pasa al siguiente nodo de la recorrido. En lugar de un número fijo de horas o días desde la entrada hasta la salida, puede programar acciones para que se produzcan en momentos específicos y en días específicos de la semana.
 
-Con un _paso de espera avanzado_, usted define **_cuándo_** la persona o la cuenta deben salir, no solo cuánto tiempo deben esperar.
+Con un _paso de espera avanzado_, usted define **_cuándo_** sale la persona o cuenta, no simplemente cuánto tiempo esperan.
 
 ![nodo de Recorrido - paso de espera avanzado](./assets/node-wait-advanced.png){width="500"}
 
@@ -66,11 +66,11 @@ Con un _paso de espera avanzado_, usted define **_cuándo_** la persona o la cue
 
 ### Casos comunes
 
-Los siguientes escenarios ilustran cómo se pueden aplicar escenarios típicos a la configuración del nodo de espera:
+Los siguientes escenarios ilustran cómo se pueden aplicar ejemplos típicos a la configuración del nodo de espera:
 
 +++Llegada por correo electrónico durante el horario laboral
 
-**Escenario:** Vende a clientes B2B que leen correos electrónicos en el trabajo. Desea que todos los correos electrónicos lleguen durante el horario laboral.
+**Escenario:** Vende a clientes B2B que leen correos electrónicos durante su jornada laboral. Desea que todos los correos electrónicos lleguen durante el horario laboral.
 
 **Solución:** configure su paso de espera para liberar posibles clientes a las 9:00 de la mañana en días laborables (de lunes a viernes). Independientemente de cuándo un posible cliente entre en el nodo de espera, recibirá el correo electrónico durante el horario laboral.
 
@@ -86,7 +86,7 @@ Los siguientes escenarios ilustran cómo se pueden aplicar escenarios típicos a
 
 +++Tareas de seguimiento compatibles con SLA
 
-**Escenario:** su equipo de ventas tiene un SLA de dos días hábiles para hacer un seguimiento de los posibles clientes de las cuentas calificadas para mercadeo. Los fines de semana no cuentan.
+**Escenario:** su equipo de ventas tiene un SLA de dos días hábiles para hacer un seguimiento de los posibles clientes de las cuentas calificadas para mercadeo. Se excluyen los fines de semana.
 
 **Solución:** configure el paso de espera para liberar posibles clientes solo en días laborables. Una ventaja clasificada el viernes se dirige para el seguimiento el lunes o el martes, no durante el fin de semana.
 

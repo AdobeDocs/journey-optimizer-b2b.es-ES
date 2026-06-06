@@ -22,10 +22,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 73%
+source-wordcount: 1321
+ht-degree: 70%
 
 ---
 
@@ -55,7 +55,7 @@ Cambie los valores del correo electrónico De y la etiqueta para que los nuevos 
 
 ### Mensajes de cancelación de suscripción
 
-Para los correos electrónicos de marketing no operativos, el texto de cancelación de suscripción y los vínculos se anexan en la parte inferior. Como administrador de productos, debe configurar el HTML predeterminado y el texto que se rellena cuando un experto en marketing no marca el correo electrónico como operativo.
+Para los correos electrónicos de marketing no operativos, el texto de cancelación de suscripción y los vínculos se anexan en la parte inferior. Como administrador de productos, configure el HTML predeterminado y el texto que se rellenan cuando un experto en marketing no marca el correo electrónico como operativo.
 
 1. Vaya al área de **[!UICONTROL Admin]** en la instancia de Marketo Engage adjunta y seleccione **[!UICONTROL Correo electrónico]**.
 
@@ -89,7 +89,7 @@ Si necesita volver al contenido predeterminado del sistema, copie y pegue lo sig
 
 ### Ver como página web
 
-El contenido del correo electrónico tiene capacidades de visualización limitadas (CSS limitado y sin JavaScript ni formularios). Los especialistas en marketing pueden usar la opción _Ver como página web_ para aplicar una cookie para el destinatario de correo electrónico mediante Marketo Munchkin. Como administrador de productos, debe configurar el HTML predeterminado y el texto que se rellena cuando un experto en marketing elige esta opción.
+El contenido del correo electrónico tiene capacidades de visualización limitadas (CSS limitado y sin JavaScript ni formularios). Los especialistas en marketing pueden usar la opción _Ver como página web_ para aplicar una cookie para el destinatario de correo electrónico mediante Marketo Munchkin. Como administrador de productos, configure el HTML predeterminado y el texto que se rellenará cuando un experto en marketing elija esta opción.
 
 1. Vaya al área de **[!UICONTROL Admin]** en la instancia de Marketo Engage adjunta y seleccione **[!UICONTROL Correo electrónico]**.
 
@@ -163,7 +163,7 @@ Cambie _[!UICONTROL Opciones de encabezado personalizado]_ para el correo electr
    ![Administrador de correo electrónico de Marketo Engage - Configuración predeterminada de opciones de encabezado personalizadas](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL Seguridad estricta de transporte]** - Establezca esta opción en _Habilitado_ para garantizar que los vínculos de seguimiento siempre se proporcionen a través de HTTPS. Habilitar esto solo para suscripciones con vínculos de seguimiento protegidos por SSL
-   * **[!UICONTROL Max-age]**: este campo admite la directiva obligatoria para especificar el tiempo, en segundos, que el explorador debe recordar para acceder únicamente al dominio a través de HTTPS.
+   * **[!UICONTROL Max-age]**: este campo admite la directiva obligatoria para especificar el tiempo, en segundos, que el explorador recuerda para acceder solo al dominio a través de HTTPS.
    * **[!UICONTROL IncludeSubDomains]**: utilice esta opción para incluir la directiva que aplica la directiva HSTS a todos los subdominios del host.
 
    >[!IMPORTANT]

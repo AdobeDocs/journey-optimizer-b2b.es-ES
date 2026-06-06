@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: bb44a295784fbdeab2583cf7c759b15c0808d7d5
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 419
 ht-degree: 9%
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 # reentrada de recorrido
 
-_Solo recorridos de cuenta_
+_&#x200B;**Solo recorridos de cuenta**&#x200B;_
 
 Al habilitar la reentrada para un recorrido de cuenta, puede controlar cuándo y con qué frecuencia una cuenta puede volver a introducir el mismo recorrido. Utilice la configuración de reentrada para establecer criterios, límites y tiempos de espera para que las cuentas se vuelvan a calificar para el recorrido de forma controlada.
 

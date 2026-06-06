@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1004
-ht-degree: 96%
+source-wordcount: 1003
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,7 @@ La configuración de Journey Optimizer B2B edition incluye la configuración de 
 
 >[!AVAILABILITY]
 >
->- Debe tener acceso a [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} para que sus esquemas B2B califiquen en [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home){target="_blank"}.
+>- Para que tus esquemas B2B califiquen en [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home){target="_blank"}, debes tener acceso a [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}.
 >
 >- Las entidades de Experience Platform B2B deben utilizar las relaciones estándar descritas en la [guía de esquemas y áreas de nombres B2B](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
@@ -104,7 +104,7 @@ Las áreas de nombres B2B se utilizan en la identidad principal de la entidad.
 
 Experience Platform utiliza esquemas para describir la estructura de los datos de una manera uniforme y reutilizable. Al definir los datos de forma coherente en todos los sistemas, resulta más fácil conservar el significado y, por lo tanto, obtener valor de los datos.
 
-Para que Experience Platform pueda introducir datos, debe haber un esquema que describa la estructura de los datos y proporcione restricciones al tipo de datos que se pueden contener en cada campo. Los esquemas constan de una clase base y cero o más grupos de campos de esquema.
+Para que Experience Platform pueda introducir datos, debe haber un esquema que describa la estructura de los datos y proporcione restricciones sobre el tipo de datos que se pueden contener en cada campo. Los esquemas constan de una clase base y cero o más grupos de campos de esquema.
 
 Para obtener más información sobre el modelo de composición de esquema, incluidos los principios de diseño y las prácticas recomendadas, vea [_Conceptos básicos de la composición de esquema_](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition){target="_blank"}.
 
@@ -387,7 +387,7 @@ Para obtener más información sobre el modelo de composición de esquema, inclu
 
 >[!NOTE]
 >
->Static List in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
+>A Static List in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
 
 +++
 
@@ -431,7 +431,7 @@ Para obtener más información sobre el modelo de composición de esquema, inclu
 
 >[!NOTE]
 >
->Static List member in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
+>A Static List member in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
 
 +++
 

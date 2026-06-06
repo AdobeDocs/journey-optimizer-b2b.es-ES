@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:21:17.156Z
 TQID: https://experienceleague.adobe.com/PhcREmr9HfV-uGyGUB6YRATemaGn0du0VWaGaBHUmxY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 605
 ht-degree: 2%
@@ -32,7 +32,7 @@ Además de _Mis tokens_, que son específicos del recorrido de la cuenta, puede 
 
 ## Administrar mis tokens {#my-tokens}
 
-Los _Mis tokens_ son variables personalizadas que se crean o modifican para un recorrido de cuenta en estado de Borrador. Actualmente, este conjunto de tokens personalizados admite definiciones de tokens de texto y número.
+Los _Mis tokens_ son variables personalizadas que se crean o modifican para un recorrido de cuenta en estado de Borrador. Actualmente, este conjunto de tokens personalizados admite definiciones de tokens de texto y números.
 
 Cuando agrega un token personalizado a un correo electrónico, se muestra como `{{my.TokenName}}`. Por ejemplo, podría tener `{{my.EventDate}}` o `{{my.WebinarSpeaker}}` tokens creados para administrar el contenido de los correos electrónicos relacionados con los próximos seminarios web.
 
@@ -100,7 +100,7 @@ Cuando esté creando contenido de correo electrónico para el recorrido de su cu
 
    Esta acción abre el diálogo _Editar Personalization_. El cuadro de diálogo incluye una carpeta _[!UICONTROL Mis tokens]_ en la biblioteca _[!UICONTROL Personalization Tokens]_ si hay tokens personalizados definidos para el recorrido de la cuenta.
 
-1. Expanda la carpeta **[!UICONTROL Mis tokens]** y, a continuación, haga clic en **+** o **...** para agregar uno de sus tokens personalizados al espacio en blanco.
+1. Para agregar uno de los tokens personalizados al espacio en blanco, expanda la carpeta **[!UICONTROL Mis tokens]** y, a continuación, haga clic en **+** o **...**.
 
    Puede agregar cualquier texto estático adicional que necesite.
 
