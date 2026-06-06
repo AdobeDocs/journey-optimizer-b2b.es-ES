@@ -4,26 +4,16 @@ description: 'Generar contenido de correo electrónico con el Asistente de IA: c
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 3633
+source-wordcount: 3592
 ht-degree: 0%
 
 ---
@@ -32,7 +22,7 @@ ht-degree: 0%
 
 A medida que el sector de marketing se vuelve más competitivo, las marcas buscan formas eficientes de generar contenido impactante de forma rápida y eficaz. El asistente de IA para la creación de correo electrónico en [!DNL Adobe Journey Optimizer B2B Edition] es la capacidad de generación de contenido de Adobe que funciona con IA y que revoluciona la forma en que los especialistas en marketing crean contenido de correo electrónico profesional y coherente con la marca. Con modelos de IA generativos avanzados y una comprensión profunda de las directrices de marca, el asistente de IA genera automáticamente contenido personalizado, atractivo y eficaz. Utiliza su objetivo de marketing y optimiza el contenido para los estilos, diseños, tonos y mucho más descritos de la marca. El asistente de IA hace que la creación y ejecución de campañas de marketing por correo electrónico sea intuitiva, sencilla y sin complicaciones. Añadir esta capacidad a los flujos de trabajo le permite ahorrar tiempo, mejorar la eficacia y obtener mejores resultados.
 
-Esta nueva capacidad proporciona una generación de contenido basada en mensajes para la generación completa de correo electrónico o dirigida dentro de los componentes estructurales del correo electrónico. Para las imágenes, puede generar nuevos recursos de imagen o simplemente generar recomendaciones desde el catálogo de imágenes en el recurso de marca de entrada. También puede utilizar esta capacidad para generar líneas de asunto y encabezados óptimos para afectar a la tasa de apertura de los correos electrónicos.
+Esta nueva capacidad proporciona una generación de contenido basada en mensajes para la generación completa de correo electrónico o dirigida dentro de los componentes estructurales del correo electrónico. En el caso de las imágenes, puede generar nuevos recursos de imagen o generar recomendaciones desde el catálogo de imágenes en el recurso de marca de entrada. También puede utilizar esta capacidad para generar líneas de asunto y encabezados óptimos para afectar a la tasa de apertura de los correos electrónicos.
 
 >[!IMPORTANT]
 >
@@ -42,7 +32,7 @@ Esta nueva capacidad proporciona una generación de contenido basada en mensajes
 
 Antes de empezar a usar esta capacidad, revise las [directrices y limitaciones](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). También se requiere la aceptación de [Acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las capacidades de IA en [!DNL Journey Optimizer B2B Edition]. Para obtener más información, contacte con su representante de Adobe.
 
-Con el compromiso de Adobe de promover la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/es/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por Firefly cuando se descarga o exporta.
+Adobe aplica [credenciales de contenido](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} a los recursos generados por Firefly al descargarlos o exportarlos para aumentar la transparencia.
 
 Las siguientes limitaciones y directrices se aplican a las funciones del Asistente de inteligencia artificial utilizadas para generar contenido de correo electrónico en [!DNL Journey Optimizer B2B Edition]:
 
@@ -54,7 +44,7 @@ Las siguientes limitaciones y directrices se aplican a las funciones del Asisten
 
 ## Entrada y configuración para la generación de contenido
 
-Puede generar contenido completo para un correo electrónico o para los componentes seleccionados en el correo electrónico. Cuando utilice las herramientas del Asistente de IA para generar el contenido que necesita, proporcione la entrada, incluidos los mensajes y el contenido de referencia, y la configuración para texto e imágenes.
+Puede generar contenido completo para un correo electrónico o para los componentes seleccionados en el correo electrónico. Al utilizar las herramientas del Asistente de IA, se proporcionan indicadores, contenido de referencia y configuración para texto e imágenes.
 
 ### Indicadores
 
@@ -103,10 +93,10 @@ Haga clic en la flecha izquierda para volver a la _[!UICONTROL configuración]_ 
 
 Para incluir imágenes en el contenido generado, expanda **[!UICONTROL Configuración de imagen]** en el panel derecho y establezca las opciones.
 
-La opción **[!UICONTROL Generar imágenes mediante IA]** está deshabilitada de manera predeterminada. Active esta función y defina las siguientes opciones para incluir las imágenes generadas en las variaciones de contenido propuestas:
+El sistema deshabilita la opción **[!UICONTROL Generar imágenes con IA]** de forma predeterminada. Active esta función y defina las siguientes opciones para incluir las imágenes generadas en las variaciones de contenido propuestas:
 
 * **[!UICONTROL Modelo generador]**: seleccione uno de los modelos listos para usar proporcionados por Adobe, el modelo de socio para funciones especializadas o modelos personalizados configurados y formados en los recursos de su marca. Para obtener más información sobre los modelos generativos, consulte _[Modelos de IA generativa para la alineación de marca](generative-ai-models.md)_.
-* **[!UICONTROL Proporción de aspecto]**: cuando se selecciona un componente de imagen, esta configuración determina la anchura y la altura del recurso. Tiene la opción de elegir entre proporciones comunes como 16:9, 4:3, 3:2 o 1:1, o bien puede especificar un tamaño personalizado.
+* **[!UICONTROL Proporción de aspecto]**: cuando se selecciona un componente de imagen, esta configuración determina la anchura y la altura del recurso. Elija entre proporciones comunes, como 16:9, 4:3, 3:2 o 1:1, o indique un tamaño personalizado.
 * **[!UICONTROL Tipo de contenido]**: El tipo categoriza la naturaleza del elemento visual, distinguiendo entre diferentes formas de representación visual, como fotografías, gráficos o arte.
 * **[!UICONTROL Intensidad visual]**: controla el impacto de la imagen ajustando su intensidad. Un ajuste más bajo (por ejemplo, 2) crea un aspecto más suave y restringido, mientras que un ajuste más alto (por ejemplo, 10) hace que la imagen sea más vibrante y visualmente potente.
 * **[!UICONTROL Color y tono]**: El aspecto general de los colores de una imagen y el estado de ánimo o atmósfera que transmite.
@@ -155,7 +145,7 @@ Los siguientes pasos describen la secuencia de tareas para utilizar el Asistente
 
    Use la [Biblioteca de mensajes](#prompt-library) si necesita ayuda para crear un mensaje eficaz.
 
-1. (Opcional) Complete la configuración de la guía de contenido para proporcionar información adicional para generar el preencabezado:
+1. (Opcional) Para proporcionar entradas adicionales para generar el preencabezado, complete la configuración de la guía de contenido:
 
    * [**[!UICONTROL Configuración de texto]**](#text-settings): proporcione instrucciones para el contenido de texto generado.
    * [**[!UICONTROL Contenido de referencia]**](#reference-content): proporcione el recurso de contenido que sirve como origen para la generación de contenido.
@@ -200,7 +190,7 @@ Un preencabezado de correo electrónico es el texto corto de resumen que sigue a
 
    Use la [Biblioteca de mensajes](#prompt-library) si necesita ayuda para crear un mensaje eficaz.
 
-1. (Opcional) Complete la configuración de la guía de contenido para proporcionar información adicional para generar el preencabezado:
+1. (Opcional) Para proporcionar entradas adicionales para generar el preencabezado, complete la configuración de la guía de contenido:
 
    * [**[!UICONTROL Configuración de texto]**](#text-settings): proporcione instrucciones para el contenido de texto generado.
    * [**[!UICONTROL Contenido de referencia]**](#reference-content): proporcione el recurso de contenido que sirve como origen para la generación de contenido.

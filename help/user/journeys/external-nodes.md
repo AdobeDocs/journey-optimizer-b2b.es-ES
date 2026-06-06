@@ -4,21 +4,15 @@ description: Aprenda a utilizar los nodos Acción externa y Ruta de división ex
 feature: Account Journeys, Integrations
 role: User
 exl-id: fc0d6baa-d2e9-4a28-9d78-c74b99282ec1
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 870
+source-wordcount: 866
 ht-degree: 0%
 
 ---
@@ -63,11 +57,11 @@ El nodo _Acción externa_ llama a un servicio externo y continúa en una sola ru
 
 1. Continúe creando la recorrido desde las rutas de salida del nodo.
 
-   La ruta de acceso _[!UICONTROL Tiempo de espera o error]_ se crea automáticamente. Si el período de tiempo de espera (como se configura en el servicio) transcurre antes de recibir una respuesta, la cuenta o la persona progresa por esta ruta. Es lo mismo si se recibe una respuesta de error. Puede añadir nodos de recorrido a esta ruta para gestionar estos escenarios o el recorrido termina para el miembro de la audiencia.
+   La ruta de acceso _[!UICONTROL Tiempo de espera o error]_ se crea automáticamente. Si el período de tiempo de espera (como se configura en el servicio) transcurre antes de recibir una respuesta, la cuenta o la persona progresa por esta ruta. Lo mismo se aplica si se recibe una respuesta de error. Para gestionar estos escenarios, puede añadir nodos de recorrido a esta ruta o el recorrido termina para el miembro de la audiencia.
 
 ## Nodo de rutas divididas externas {#external-split-paths}
 
-El nodo Rutas de acceso divididas externas llama a un servicio externo y utiliza la respuesta para determinar qué cuentas de ruta de acceso son las siguientes. Cada ruta está definida por una condición basada en una variable (descriptor de acceso) devuelta por el servicio externo. El recorrido evalúa la respuesta con respecto a las condiciones de ruta definidas y enruta cada cuenta a lo largo de la primera ruta coincidente. Las condiciones de ruta se evalúan en orden descendente. Cada cuenta continúa con la primera ruta cuya condición coincida con el valor devuelto por el servicio externo.
+El nodo Rutas de acceso divididas externas llama a un servicio externo y utiliza la respuesta para determinar qué cuentas de ruta de acceso son las siguientes. Una condición basada en una variable (descriptor de acceso) devuelta por el servicio externo define cada ruta. El recorrido evalúa la respuesta con respecto a las condiciones de ruta definidas y enruta cada cuenta a lo largo de la primera ruta coincidente. Las condiciones de ruta se evalúan en orden descendente. Cada cuenta continúa con la primera ruta cuya condición coincida con el valor devuelto por el servicio externo.
 
 1. Vaya al mapa de recorrido de la cuenta.
 
@@ -101,6 +95,6 @@ El nodo Rutas de acceso divididas externas llama a un servicio externo y utiliza
 
 1. Continúe creando la recorrido desde cada ruta de salida del nodo.
 
-   La ruta de acceso _[!UICONTROL Tiempo de espera o error]_ se crea automáticamente. Si el período de tiempo de espera (como se configura en el servicio) transcurre antes de recibir una respuesta, la cuenta o la persona progresa por esta ruta. Es lo mismo si se recibe una respuesta de error. Puede añadir nodos de recorrido a esta ruta para gestionar estos escenarios o el recorrido termina para el miembro de la audiencia.
+   La ruta de acceso _[!UICONTROL Tiempo de espera o error]_ se crea automáticamente. Si el período de tiempo de espera (como se configura en el servicio) transcurre antes de recibir una respuesta, la cuenta o la persona progresa por esta ruta. Lo mismo se aplica si se recibe una respuesta de error. Para gestionar estos escenarios, puede añadir nodos de recorrido a esta ruta o el recorrido termina para el miembro de la audiencia.
 
-1. Para _Dividir por cuentas_, puede agregar un [nodo de rutas de combinación](./split-merge-paths-nodes.md#merge-paths) para combinar dos o más rutas según sea necesario.
+1. Para combinar dos o más rutas según sea necesario para _Dividir por cuentas_, puede agregar un [nodo de rutas de combinación](./split-merge-paths-nodes.md#merge-paths).

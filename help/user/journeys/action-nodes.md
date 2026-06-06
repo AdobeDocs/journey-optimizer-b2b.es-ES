@@ -4,29 +4,23 @@ description: 'Configure nodos de acción para acciones de cuenta y personas: env
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 2037
+source-wordcount: 2031
 ht-degree: 3%
 
 ---
 
 # Iniciar una acción
 
-En su recorrido, puede agregar un nodo _[!UICONTROL Realizar una acción]_ para ejecutar una acción, como enviar un mensaje de correo electrónico, cambiar una puntuación, asignar a un grupo comprador, etc. Las acciones suelen ser lo que desea que ocurra como resultado de algún tipo de déclencheur, como un evento o una acción anterior.
+Para ejecutar una acción, como enviar un correo electrónico, cambiar una puntuación, asignar a un grupo comprador, etc., puede agregar un nodo _[!UICONTROL Realizar una acción]_ en el recorrido. Las acciones suelen ser lo que desea que ocurra como resultado de algún tipo de déclencheur, como un evento o una acción anterior.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
@@ -101,7 +95,7 @@ Para obtener más información sobre el uso de audiencias coincidentes con la cu
 
 ## Acciones de personas
 
-En un recorrido de cuenta o persona, utilice una acción para las personas cuando desee aplicar un cambio a todas las personas de la ruta del nodo. Para un recorrido de cuenta, este tipo de nodo se puede usar dentro de la _ruta dividida por personas_ o _ruta dividida por cuentas_.
+En un recorrido de cuenta o persona, utilice una acción para las personas cuando desee aplicar un cambio a todas las personas de la ruta del nodo. Para un recorrido de cuenta, puede usar este tipo de nodo dentro de la _ruta dividida por personas_ o _ruta dividida por cuentas_.
 
 ### Acciones y restricciones {#people-action-constraints}
 
@@ -109,7 +103,7 @@ En un recorrido de cuenta o persona, utilice una acción para las personas cuand
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Agregar a la audiencia de cliente externa] | <li>Recorrido de cuenta <li>Recorrido de la persona | <li>Seleccionar el público externo del cliente |
 | | [!UICONTROL Asignar a grupo de compra] | <li>Recorrido de cuenta | <li>Seleccionar interés de la solución <li>Seleccionar función |
-| | [!UICONTROL Cambiar puntuación] | <li>Recorrido de cuenta | <li>Nombre de la puntuación <li>Cambio en la puntuación |
+| | [!UICONTROL Cambiar puntuación] | <li>Recorrido de cuenta | <li>Nombre del puntaje <li>Cambio en la puntuación |
 | | [!UICONTROL Momento interesante para la persona] | <li>Recorrido de cuenta <li>Recorrido de la persona | <li>Tipo <li>Descripción |
 | | [!UICONTROL Personalizar experiencia web] (Beta) | <li>Recorrido de cuenta | <li>Crear/editar experiencia web |
 | | [!UICONTROL Quitar del grupo de compra] | <li>Recorrido de cuenta | <li>Seleccionar interés de la solución |
@@ -156,7 +150,7 @@ Utilice esta acción para dirigir a las personas a una audiencia externa que se 
 Al seleccionar esta acción basada en personas, puede crear una audiencia externa nueva o seleccionar en la lista de audiencias externas existentes.
 
 * Para las audiencias existentes, puede elegir entre audiencias de clientes externos que se crearon solamente en [!DNL Journey Optimizer B2B Edition].
-* Cuando cree una audiencia y la utilice para esta acción de recorrido, asegúrese de conectar el destino. Para obtener más información, consulte [Crear una nueva conexión de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} y [Descripción general de la activación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} en la documentación de [!DNL Experience Platform].
+* Cuando cree una audiencia y la utilice para esta acción de recorrido, asegúrese de conectar el destino. Para obtener más información, consulte [Crear una nueva conexión de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} y [Descripción general de la activación](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} en la documentación de [!DNL Experience Platform].
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea un vídeo de información general sobre la orquestación de medios de pago](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -202,7 +196,7 @@ Utilice esta acción para agregar perfiles de personas a un [grupo de compra](..
 
 +++[!UICONTROL Cambiar puntuación]
 
-Utilice esta acción para cambiar la puntuación de la persona en Marketo Engage. [Más información](https://experienceleague.adobe.com/es/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Utilice esta acción para cambiar la puntuación de la persona en Marketo Engage. [Más información](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Realizar una acción - Cambiar puntuación](./assets/node-action-change-score.png){width="300"}
 
@@ -234,11 +228,11 @@ Utilice esta acción para quitar perfiles de personas de un [grupo de compra](..
 
 +++[!UICONTROL Enviar correo electrónico]
 
-Utilice esta acción para enviar un correo electrónico. Después de [crear el correo electrónico](../content/add-email.md#add-an-email-to-your-journey) para el nodo, puede diseñar, personalizar y previsualizar mensajes de correo electrónico en el espacio de diseño de correo electrónico (consulte [Creación de correo electrónico](../content/email-authoring.md)). También puedes enviar un [correo electrónico desde Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleccione el espacio de trabajo de Marketo Engage y, a continuación, el correo electrónico que desea enviar.
+Utilice esta acción para enviar un correo electrónico. Después de [crear el correo electrónico](../content/add-email.md#add-an-email-to-your-journey) para el nodo, puede diseñar, personalizar y previsualizar mensajes de correo electrónico en el espacio de diseño de correo electrónico (consulte [Creación de correo electrónico](../content/email-authoring.md)). También puedes enviar un [correo electrónico desde Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleccione el espacio de trabajo de Marketo Engage y, a continuación, el correo electrónico que desea enviar.
 
 ![Realizar una acción - Enviar correo electrónico](./assets/node-action-send-email-from-marketo.png){width="300"}
 
-Para los recorridos de las personas, puedes usar [Optimización del tiempo de envío](../content/email-send-time-optimization.md) para personalizar el tiempo de envío de los correos electrónicos y predecir cuándo es más probable que se involucre cada perfil.
+Para los recorridos de las personas, usa [Optimización del tiempo de envío](../content/email-send-time-optimization.md) para personalizar el tiempo de envío del correo electrónico y predecir cuándo es más probable que se involucre cada perfil.
 
 >[!NOTE]
 >
@@ -284,11 +278,11 @@ Las acciones basadas en personas de Marketo Engage están diseñadas para coordi
 >
 >Las acciones de Marketo Engage requieren la integración configurada con una o más instancias de Marketo Engage externas. Para obtener información detallada sobre esta configuración, consulte [_Activar conexiones de Marketo Engage para admitir acciones_](../admin/marketo-actions-connect.md).
 
-Por ejemplo: es posible que desee suprimir las campañas de Marketo Engage para personas que forman parte de grupos compradores en Journey Optimizer B2B edition. En este caso, puede crear una lista estática en Marketo Engage específicamente para la solución que le interese. A continuación, en una ruta dividida al comprar un grupo, use la acción _Agregar a la lista de Marketo_ desde un nodo de recorrido. Esta acción añade miembros del grupo de compra a una lista estática concreta de una instancia de Marketo Engage conectada. A continuación, utilice la lista estática centrada en el interés de la solución para un filtro de lista inteligente en Marketo Engage.
+Por ejemplo, suprima las campañas de Marketo Engage para las personas que forman parte de grupos compradores en Journey Optimizer B2B edition. En este caso, puede crear una lista estática en Marketo Engage específicamente para la solución que le interese. A continuación, en una ruta dividida al comprar un grupo, use la acción _Agregar a la lista de Marketo_ desde un nodo de recorrido. Esta acción añade miembros del grupo de compra a una lista estática concreta de una instancia de Marketo Engage conectada. A continuación, utilice la lista estática centrada en el interés de la solución para un filtro de lista inteligente en Marketo Engage.
 
 +++[!UICONTROL Agregar a la campaña de solicitudes de Marketo]
 
-Utilice esta acción para agregar perfiles de personas a una [campaña de solicitudes](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} en una instancia de Marketo Engage conectada.
+Utilice esta acción para agregar perfiles de personas a una [campaña de solicitudes](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} en una instancia de Marketo Engage conectada.
 
 En primer lugar, seleccione una instancia de Marketo Engage conectada. A continuación, seleccione el nombre de la campaña de solicitud.
 
@@ -298,7 +292,7 @@ En primer lugar, seleccione una instancia de Marketo Engage conectada. A continu
 
 +++[!UICONTROL Agregar a la lista de Marketo]
 
-Utilice esta acción para agregar personas a una [lista estática](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en una instancia de Marketo Engage conectada.
+Utilice esta acción para agregar personas a una [lista estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en una instancia de Marketo Engage conectada.
 
 En primer lugar, seleccione una instancia de Marketo Engage conectada. A continuación, seleccione el nombre de la lista.
 
@@ -308,7 +302,7 @@ En primer lugar, seleccione una instancia de Marketo Engage conectada. A continu
 
 +++[!UICONTROL Quitar de la lista de Marketo]
 
-Use esta acción para quitar personas de una [lista estática](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en Marketo Engage.
+Use esta acción para quitar personas de una [lista estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en Marketo Engage.
 
 En primer lugar, seleccione una instancia de Marketo Engage conectada. A continuación, seleccione el nombre de la lista.
 
@@ -318,4 +312,4 @@ En primer lugar, seleccione una instancia de Marketo Engage conectada. A continu
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3443248/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

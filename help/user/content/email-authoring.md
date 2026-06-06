@@ -4,23 +4,16 @@ description: Cree correos electrónicos con herramientas de diseño visual, impo
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 2%
+source-wordcount: 1164
+ht-degree: 3%
 
 ---
 
@@ -30,7 +23,7 @@ Después de [agregar un recurso de correo electrónico a un nodo de acción de r
 
 Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la ficha _[!UICONTROL Detalles]_ del panel derecho.
 
-![Haga clic en Editar contenido de correo electrónico &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Haga clic en Editar contenido de correo electrónico ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Esta acción inicia las herramientas de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
@@ -44,11 +37,11 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 
 >[!TIP]
 >
->Utilice el asistente de IA en Adobe Journey Optimizer B2B edition, con tecnología de IA generativa, para elevar el contenido al siguiente nivel. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos, contenido de texto de destino y obteniendo recomendaciones del asistente de IA para imágenes que resuenen con su audiencia. [Más información](./ai-assistant-emails.md)
+>Utilice el asistente de IA en Adobe Journey Optimizer B2B edition, con tecnología de IA generativa, para mejorar el contenido. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos, contenido de texto de destino y obteniendo recomendaciones del asistente de IA para imágenes que resuenen con su audiencia. [Más información](./ai-assistant-emails.md)
 
 ## Diseñe el correo electrónico desde cero {#design-from-scratch}
 
-Utilice el espacio de diseño de contenido visual para definir la estructura y el contenido del correo electrónico. Al agregar y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar la forma del contenido del correo electrónico reutilizable en cuestión de segundos.
+Utilice el espacio de diseño de contenido visual para definir la estructura y el contenido del correo electrónico. Al añadir y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar el diseño y la organización del contenido del correo electrónico en cuestión de segundos.
 
 1. En la página de inicio de _[!UICONTROL Diseña tu plantilla]_, selecciona la opción **[!UICONTROL Diseñar desde cero]**.
 
@@ -156,9 +149,9 @@ Aproveche las opciones de vista y validación de contenido disponibles en el edi
 
 * Acercar/alejar el contenido en las opciones de zoom preestablecidas.
 
-* Cambie la visualización del contenido en Escritorio, Móvil o Solo texto/Texto sin formato.
+* Cambie entre ver el contenido en equipos de escritorio, dispositivos móviles o solo texto/texto sin formato.
    * Haz clic en el icono _Ver_ para obtener una vista previa del contenido entre dispositivos.
-   * Seleccione uno de los dispositivos predeterminados o introduzca dimensiones personalizadas para obtener una vista previa del contenido.
+   * Seleccione uno de los dispositivos predefinidos o introduzca dimensiones personalizadas para obtener una vista previa del contenido.
 
 ## Más opciones
 
@@ -166,7 +159,7 @@ En el menú _[!UICONTROL Más...]_ de la parte superior del espacio de diseño v
 
 ![Haga clic en Más para acceder a las acciones de plantilla](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Restablecer correo electrónico]**: haga clic en esta opción para borrar el lienzo del diseño del correo electrónico en una pizarra en blanco y reiniciar la creación del contenido.
+* **[!UICONTROL Restablecer correo electrónico]**: haga clic en esta opción para borrar el lienzo del diseño del correo electrónico y reiniciar la creación del contenido.
 * **[!UICONTROL Guardar como fragmento]**: guarde todo o parte del correo electrónico como un fragmento para reutilizarlo en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para el fragmento y guárdelo en la lista de fragmentos disponibles.
 * **[!UICONTROL Cambia tu diseño]** - Vuelve a la página _Diseña tu correo electrónico_. Desde allí, puede elegir otra plantilla para reiniciar el proceso de diseño. También puede diseñar el contenido desde cero con un lienzo en blanco (_Modo clásico_) o con un [tema de marca](./brand-themes.md) (_Modo de tema_).
 * **[!UICONTROL Guardar como plantilla de contenido]** - Guarde el cuerpo del correo electrónico como una plantilla de correo electrónico para reutilizarla en varios correos electrónicos o plantillas de correo electrónico. Proporcione un nombre y una descripción para la plantilla y guárdela en la lista de plantillas de correo electrónico guardadas.
@@ -180,7 +173,7 @@ Para [obtener una vista previa del contenido del correo electrónico](./email-si
 
 ![Simule el contenido del correo electrónico para comprobar su diseño](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
 
-Puede acceder a herramientas adicionales para validar y revisar el contenido del correo electrónico:
+Para validar y revisar el contenido del correo electrónico, acceda a herramientas adicionales:
 
 * [Envío de una prueba](./email-simulate-content.md#send-proofs)
 * [Prueba de procesamiento en clientes de correo electrónico](./email-test-rendering.md)

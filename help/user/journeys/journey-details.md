@@ -4,20 +4,15 @@ description: Monitorice el rendimiento del recorrido de la cuenta con las tasas 
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -26,7 +21,7 @@ ht-degree: 0%
 
 Al hacer clic en el nombre de un recorrido de cuenta activo, se muestran los detalles del recorrido. La pestaña _[!UICONTROL Información general]_ proporciona información útil sobre el recorrido, incluidos resúmenes de IA generativos.
 
-Este tablero proporciona una visión general completa de un recorrido de cuentas seleccionado, en el que se detalla el progreso de las cuentas mediante los gráficos de líneas y círculos que categorizan y cuantifican las finalizaciones, las actividades en curso y las anulaciones a lo largo del tiempo. Ayuda a los especialistas en marketing a evaluar la eficacia de los canales de correo electrónico y SMS a través de métricas clave de envío y participación. Para ver las métricas de correo electrónico agregadas en todos los recorridos, consulte el [informe de rendimiento del correo electrónico](../dashboards/email-performance-dashboard.md).
+Este tablero proporciona una visión general completa de un recorrido de cuentas seleccionado, en el que se detalla el progreso de las cuentas mediante los gráficos de líneas y círculos que categorizan y cuantifican las finalizaciones, las actividades en curso y las anulaciones a lo largo del tiempo. Ayuda a los equipos de marketing a evaluar la eficacia de los canales de correo electrónico y SMS a través de las métricas clave de envío y participación. Para ver las métricas de correo electrónico agregadas en todos los recorridos, consulte el [informe de rendimiento del correo electrónico](../dashboards/email-performance-dashboard.md).
 
 Esta descripción general está disponible para los recorridos de cuentas publicadas y los datos tardan aproximadamente cuatro horas en empezar a rellenar los gráficos y tablas.
 
@@ -41,7 +36,7 @@ Esta sección presenta dos métricas de finalización:
 
 ## participación de recorrido
 
-Esta sección presenta dos métricas de finalización:
+Esta sección presenta dos métricas de participación:
 
 * **[!UICONTROL Participación por cuentas]**: este gráfico circular segmenta las cuentas de un recorrido en las categorías _Participado_ y _No comprometido_. La figura central muestra el recuento total. Esta visualización proporciona una comprensión rápida de la participación general de la cuenta.
 * **Participación de personas**: esta visualización muestra el número total de personas calificadas como _comprometidas_ en un recorrido.
@@ -55,29 +50,29 @@ Esta sección presenta dos métricas vitales:
 
 ## Rendimiento de correo electrónico y SMS
 
-Las tablas de rendimiento proporcionan una visión detallada de la eficacia de los canales de correo electrónico y SMS. Cada tabla muestra métricas, como tasas de entrega y tasas de clics, que le ayudan a evaluar el impacto de cada punto de contacto de comunicación. Las siguientes tablas muestran las métricas de correo electrónico y SMS solo para este recorrido. Para las mismas métricas de correo electrónico en todos los recorridos, usa el [informe de rendimiento del correo electrónico](../dashboards/email-performance-dashboard.md).
+Las tablas de rendimiento proporcionan información detallada sobre la eficacia de los canales de correo electrónico y SMS. Cada tabla muestra métricas, como tasas de entrega y tasas de clics, que le ayudan a evaluar el impacto de cada punto de contacto de comunicación. Las siguientes tablas muestran las métricas de correo electrónico y SMS solo para este recorrido. Para las mismas métricas de correo electrónico en todos los recorridos, usa el [informe de rendimiento del correo electrónico](../dashboards/email-performance-dashboard.md).
 
 **[!UICONTROL Rendimiento de correo electrónico]** columnas de tabla:
 
-* _[!UICONTROL Nombre del recurso]_ - nombre del recurso
-* _[!UICONTROL Enviado]_ - número de correos electrónicos enviados
-* _[!UICONTROL Tasa de entrega]_: número de correos electrónicos enviados dividido por el número de correos electrónicos enviados
-* _[!UICONTROL Tasa de apertura]_: número de correos electrónicos abiertos dividido por el número de envíos
+* _[!UICONTROL Nombre del recurso]_ - Nombre del recurso
+* _[!UICONTROL Enviado]_ - Cantidad de correos electrónicos enviados
+* _[!UICONTROL Tasa de entrega]_ - Número de correos electrónicos enviados dividido por el número de correos electrónicos enviados
+* _[!UICONTROL Tasa de apertura]_ - Número de correos electrónicos abiertos dividido por el número de envíos
 * _[!UICONTROL Tasa de clics]_: número de correos electrónicos en los que se hizo clic dividido por el número de envíos
 
 **[!UICONTROL Rendimiento de SMS]** columnas de tabla:
 
-* _[!UICONTROL Nombre del recurso]_ - nombre del recurso
-* _[!UICONTROL Enviado]_: número de mensajes SMS enviados
+* _[!UICONTROL Nombre del recurso]_ - Nombre del recurso
+* _[!UICONTROL Enviado]_ - Número de mensajes SMS enviados
 * _[!UICONTROL Tasa de entrega]_: número de mensajes SMS enviados dividido por el número enviado
-* _[!UICONTROL Tasa de clics]_: número de mensajes SMS en los que se hizo clic dividido por el número de mensajes entregados
+* _[!UICONTROL Tasa de clics]_: número de mensajes SMS en los que se hizo clic dividido por el número entregado
 <!--
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
 -->
 
 ## Interacción mejorada
 
-Interactúe aún más con los datos mediante el icono de acción (**...**) en la parte superior derecha de cada gráfico o tabla.
+Interactúe con los datos mediante el icono de acción (**...**) en la parte superior derecha de cada gráfico o tabla.
 
 ### Obtención de detalles
 

@@ -4,17 +4,12 @@ description: Cree mensajes de WhatsApp para recorridos de cuenta con plantillas 
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 1%
@@ -91,11 +86,11 @@ Puede configurar los envíos de mensajes de WhatsApp en un recorrido de cuenta a
 
    ![Crear WhatsApp: ficha Acciones](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Editar contenido]** para pasar a los parámetros y al texto del mensaje.
+1. Haga clic en **[!UICONTROL Editar contenido]** para continuar con los parámetros y el texto del mensaje.
 
 ### Seleccione una plantilla de mensaje
 
-Los mensajes de WhatsApp se envían utilizando plantillas de mensaje aprobadas previamente desde su cuenta de Meta WhatsApp Business. **Meta debe revisar y aprobar las plantillas** para poder usarlas en Journey Optimizer B2B edition. Trabaje con el administrador de su cuenta de [!DNL Meta Business Manager] para administrar y enviar las plantillas para su aprobación.
+Los mensajes de WhatsApp se envían utilizando plantillas de mensaje aprobadas previamente desde su cuenta de Meta WhatsApp Business. **Meta debe revisar y aprobar las plantillas** para poder usarlas en Journey Optimizer B2B edition. Para administrar y enviar plantillas para su aprobación, comuníquese con el administrador de cuentas de [!DNL Meta Business Manager].
 
 1. Para **[!UICONTROL Seleccionar categoría de plantilla]**, elija una de las siguientes opciones:
 
@@ -109,7 +104,7 @@ Los mensajes de WhatsApp se envían utilizando plantillas de mensaje aprobadas p
 
    ![Plantilla de mensaje de WhatsApp seleccionada con mensaje cargado en la ventana de vista previa](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
-   Las plantillas están organizadas por categoría (_Marketing_, _Utilidad_ y _Autenticación_) y estado. Solo hay **_plantillas aprobadas_** disponibles para su selección. Para obtener más información sobre cómo crear plantillas de WhatsApp, consulta [_Crear plantillas de mensajes para tu cuenta de WhatsApp Business_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) en la documentación de Meta.
+   El sistema organiza las plantillas por categoría (_Marketing_, _Utilidad_ y _Autenticación_) y estado. Solo hay **_plantillas aprobadas_** disponibles para su selección. Para obtener más información sobre cómo crear plantillas de WhatsApp, consulta [_Crear plantillas de mensajes para tu cuenta de WhatsApp Business_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) en la documentación de Meta.
 
 ### URL de imagen
 

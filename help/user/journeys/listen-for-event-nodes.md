@@ -4,28 +4,23 @@ description: 'Configuración de nodos de evento para déclencheur de cuentas y p
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1879
+source-wordcount: 1880
 ht-degree: 12%
 
 ---
 
 # Escuchar un evento
 
-Agregue el nodo _Listen for an event_ para mover la audiencia hacia adelante al siguiente paso del recorrido cuando se produzca un evento.
+Para mover la audiencia al siguiente paso del recorrido cuando se produzca un evento, agregue el nodo _Escuchar un evento_.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Vea el vídeo de información general](#overview-video)
 
@@ -68,7 +63,7 @@ En un recorrido de cuentas, puede detectar un evento basado en personas cuando d
 
 >[!TIP]
 >
->Para enrutar a las personas según los eventos de experiencia que se produjeron _antes de_ que ingresaron al recorrido (como un clic previo en un correo electrónico o una interacción web), usa el filtro [!UICONTROL Historial de eventos] en un nodo [Dividir rutas por personas](./split-merge-paths-nodes.md#experience-event-history-filtering).
+>Los eventos de experiencia pueden ocurrir _antes de que_ personas ingresen al recorrido (como un clic previo en un correo electrónico o una interacción web). Para enrutar a las personas según estos eventos, usa el filtro [!UICONTROL Historial de eventos] en un nodo [Dividir rutas entre personas](./split-merge-paths-nodes.md#experience-event-history-filtering).
 
 ### Eventos y restricciones
 
@@ -82,8 +77,8 @@ En un recorrido de cuentas, puede detectar un evento basado en personas cuando d
 | | [!UICONTROL Eliminado del grupo de compra] | Interés de la solución<br/>Fecha de la actividad (opcional)<br/>Tiempo de espera (opcional) |
 | | [!UICONTROL La puntuación ha cambiado] | Nombre de puntuación<br/><br/>Restricciones adicionales (opcional):<li>Cambiar</li><li>Nuevo puntaje</li><li>Urgencia</li><li>Prioridad</li><li>Puntaje relativo</li><li>Urgencia relativa</li><li>Fecha de la actividad</li><li>Mín. número de veces</li><br/>Tiempo de espera (opcional) |
 | | [!UICONTROL Devoluciones de SMS] | Mensaje SMS<br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Número mínimo de veces</li><br/>Tiempo de espera (opcional) |
-| Marketo Engage | [!UICONTROL Visita la página web] | Página web <br/> Seleccione una o más páginas de Marketo Engage para que coincidan. <br/><br/>Restricciones adicionales (opcional): <li>Querystring</li><li>Dirección IP del cliente</li><li>Remitente del reenvío</li><li>Agente de usuario</li><li>Motor de búsqueda</li><li>Consulta de búsqueda</li><li>Token</li><li>Explorador</li><li>Plataforma</li><li>Device</li><li>Fecha de la actividad</li> |
-| | [!UICONTROL Rellena el formulario] | Formulario <br/>: seleccione uno o varios formularios de Marketo Engage para que coincidan. <br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Querystring</li><li>Dirección IP del cliente</li><li>Remitente del reenvío</li><li>Agente de usuario</li><li>Plataforma</li><li>Device</li><br/>Tiempo de espera (opcional) |
+| Marketo Engage | [!UICONTROL Visita la página web] | Página web <br/> Seleccione una o más páginas de Marketo Engage para que coincidan. <br/><br/>Restricciones adicionales (opcional): <li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Motor de búsqueda</li><li>Consulta de búsqueda</li><li>Token</li><li>Explorador</li><li>Plataforma</li><li>Device</li><li>Fecha de la actividad</li> |
+| | [!UICONTROL Rellena el formulario] | Formulario <br/>: seleccione uno o varios formularios de Marketo Engage para que coincidan. <br/><br/>Restricciones adicionales (opcional): <li>Fecha de la actividad</li><li>Querystring</li><li>Dirección IP del cliente</li><li>Referente</li><li>Agente de usuario</li><li>Plataforma</li><li>Device</li><br/>Tiempo de espera (opcional) |
 | Adobe Experience Platform | [!UICONTROL Definición de evento] | Tipo de evento <br/><br/>Restricciones adicionales (opcional): <li>Campos</li> <br/>Restricciones adicionales (no admitidas): <li>Fecha de la actividad</li><li>Mín. número de veces</li>Tiempo de espera de <br/> (opcional) |
 
 ### Filtros de eventos de personas
@@ -139,7 +134,7 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
      ![Escuchar un evento de experiencia](./assets/node-listen-events-people-me-event-edit-dialog.png){width="700" zoomable="yes"}
 
-     Puede repetir esta acción para incluir restricciones de campo adicionales según sea necesario.
+     Para incluir restricciones de campo adicionales según sea necesario, repita esta acción.
 
    * Si es necesario, seleccione la ficha **[!UICONTROL Filtros]** para [agregar filtros para el evento](#add-a-filter-to-the-people-event).
 
@@ -151,7 +146,7 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 ### Escuchar un evento de experiencia {#listen-for-an-experience-event}
 
-Los administradores pueden seleccionar [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permiten a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real. El uso de eventos de experiencia en recorrido es un proceso de dos pasos:
+Los administradores pueden seleccionar [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permiten a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real. El uso de eventos de experiencia en recorrido es un proceso de dos pasos:
 
 1. Un administrador [agrega los tipos de eventos y campos de interés](../admin/configure-aep-events.md#add-an-event) para que estén disponibles en los recorridos.
 
@@ -211,7 +206,7 @@ _Para incluir un evento de experiencia en el recorrido :_
 
    ![Escuchar el nodo de eventos por personas: selecciona la pestaña Filtros para editar el evento](./assets/node-listen-event-people-edit-event-filters.png){width="700" zoomable="yes"}
 
-1. Añada uno o más filtros para dirigirse a las personas del evento.
+1. Para dirigirse a las personas del evento, añada uno o más filtros.
 
    * Arrastre y suelte cualquiera de los [filtros de personas](#people-event-filters) de la navegación izquierda y complete la definición de la coincidencia.
 
@@ -219,7 +214,7 @@ _Para incluir un evento de experiencia en el recorrido :_
      >
      >Si tiene campos de persona personalizados definidos en el esquema de audiencia de cuenta en Experience Platform, estos campos también están disponibles en **[!UICONTROL Atributos]** para usarlos como atributos de persona en los filtros.
 
-   * Ajuste el filtro aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todos los filtros o cualquier filtro.
+   * Refine el filtro aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todos los filtros o cualquier filtro.
 
      ![Filtros de persona usados en una definición de evento](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 
@@ -242,5 +237,5 @@ Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento.
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443237/?captions=spa&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

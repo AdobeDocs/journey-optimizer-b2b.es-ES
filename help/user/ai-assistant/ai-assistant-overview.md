@@ -5,29 +5,24 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+autotag-review: '2026-06-05T16:05:30.499Z'
+TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 1314
+source-wordcount: 1300
 ht-degree: 8%
 
 ---
 
 # Asistente de IA en Journey Optimizer B2B edition
 
-El Asistente de IA en Journey Optimizer B2B edition se creó a partir de la misma base tecnológica de [Asistente de IA en Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}. Es una experiencia de conversación que puede utilizar para acelerar los flujos de trabajo en Adobe Journey Optimizer B2B edition. Puede utilizar el asistente de IA para comprender mejor las funciones del producto, solucionar problemas o buscar información y encontrar perspectivas operativas para Journey Optimizer B2B edition.
+El Asistente de IA de Journey Optimizer B2B edition se creó a partir de la misma base tecnológica que el [Asistente de IA de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home){target="_blank"}. Es una experiencia de conversación que puede utilizar para acelerar los flujos de trabajo en Adobe Journey Optimizer B2B edition. Puede utilizar el asistente de IA para comprender mejor las funciones del producto, solucionar problemas o buscar información y encontrar perspectivas operativas para Journey Optimizer B2B edition.
 
 >[!IMPORTANT]
 >
@@ -43,7 +38,7 @@ El Asistente de IA en Journey Optimizer B2B edition se creó a partir de la mism
 
 ## Funciones del asistente de IA en Journey Optimizer B2B edition
 
-Para formular una respuesta a las preguntas enviadas, AI Assistant consulta una base de datos y traduce los datos de la base de datos a una respuesta legible en lenguaje natural. Esta respuesta es una representación interna de los datos subyacentes y también se conoce como _&#x200B;**_Gráfico de conocimientos_**&#x200B;_, una completa web de conceptos, datos y metadatos para una respuesta determinada. El gráfico de conocimiento consta de subgráficos a los que se hace referencia cada vez que se envían consultas:
+Para formular una respuesta a las preguntas enviadas, AI Assistant consulta una base de datos y traduce los datos de la base de datos a una respuesta legible en lenguaje natural. Esta respuesta es una representación interna de los datos subyacentes y también se conoce como _**_Gráfico de conocimientos_**_, una colección completa de conceptos, datos y metadatos para una respuesta determinada. El gráfico de conocimiento consta de subgráficos a los que se hace referencia cada vez que se envían consultas:
 
 * Documentación de Experience League.
 * Artefactos operativos, como esquemas, campos, audiencias y recorridos.
@@ -57,12 +52,12 @@ El conocimiento del producto hace referencia a conceptos y temas basados en la d
 | Conocimiento del producto | Ejemplos |
 | --- | --- |
 | Aprendizaje puntual | <li>¿Qué es un grupo de compra? <li> ¿Desea mostrar un ejemplo de una plantilla de funciones de grupo de compra? |
-| Abrir detección | <li>¿Cuáles son los pasos para crear grupos de compra? <li>¿Cómo utilizo los campos personalizados en una plantilla de funciones de grupo de compra? |
+| Descubrimiento abierto | <li>¿Cuáles son los pasos para crear grupos de compra? <li>¿Cómo utilizo los campos personalizados en una plantilla de funciones de grupo de compra? |
 | Resolución de problemas | <li>¿Por qué no se crearon los grupos de compra para mi recorrido? <li>¿Por qué no puedo encontrar eventos de experiencia para escuchar en el recorrido? |
 
 ### Datos operativos
 
-_Perspectivas operativas_ se refiere a las respuestas que genera AI Assistant sobre sus objetos de metadatos (atributos, audiencias de cuenta, flujos de datos, conjuntos de datos, destinos, recorridos de cuenta, esquemas, fuentes, plantillas de grupos de compras e intereses de soluciones). Estas perspectivas incluyen recuentos, búsquedas e impacto de linaje. No buscan ningún dato dentro de la zona protegida.
+_Perspectivas operativas_ se refiere a las respuestas que genera el Asistente de IA acerca de sus objetos de metadatos (atributos, audiencias de cuenta, flujos de datos, conjuntos de datos, destinos, recorridos de cuenta, esquemas, fuentes, plantillas de grupos de compra e intereses de soluciones). Estas perspectivas incluyen recuentos, búsquedas e impacto de linaje. No buscan ningún dato dentro de la zona protegida.
 
 * ¿Qué audiencia de cuenta tiene el tamaño de audiencia más grande y cuál es ese tamaño?
 * ¿Cuántas audiencias de cuenta nunca se han utilizado en ningún recorrido?
@@ -77,10 +72,10 @@ Puede hacer preguntas al asistente de IA sobre sus perspectivas operativas en lo
 | Flujos de datos | <li>Recuentos de flujo de datos <li>Estado de flujo de datos <li>Flujo de datos: relación de conjunto de datos <li>Flujo de datos: relación de origen | <li>Creación/modificación <li>Relaciones entre flujo de datos y lotes <li>Ingesta de recuento de perfiles |
 | Conjuntos de datos | <li>Recuento de conjuntos de datos <li>Estado de habilitación de perfil <li>Fecha de creación/modificación <li>Conjunto de datos: relación de esquema <li>Conjunto de datos: relación de audiencia <li>Conjunto de datos: relación de atributos <li>Conjunto de datos: relación de flujo de datos <li>Búsqueda de nombres <li>Búsqueda de nombre e ID | <li>Auditoría <li>Creado por <li>Conjunto de datos: relación por lotes <li>Creación/modificación de conjuntos de datos <li>Tamaño del conjunto de datos <li>Número de perfiles <li>Número de filas <li>Búsqueda de valores |
 | Destinos | <li>Recuentos de destino configurados <li>Destino: relación de audiencia <li>Relación de atributo de destino | <li>Configuración de cuenta <li>Información de credenciales de cuenta <li>Perfiles únicos activados |
-| Recorridos (Recorridos de cuenta) | <li>Conteo <li>Búsqueda de nombre e ID <li>Estado del recorrido <li>Fechas de creación/modificación | <li>Atributos - Auditoría de relaciones de recorrido <li>Creación/modificación <li>Creado por |
+| Recorridos (Recorridos de cuenta) | <li>Recuento <li>Búsqueda de nombre e ID <li>Estado del recorrido <li>Fechas de creación/modificación | <li>Atributos - Auditoría de relaciones de recorrido <li>Creación/modificación <li>Creado por |
 | Esquemas | <li>Recuentos de esquemas <li>Fecha de creación/modificación <li>Esquema: relación de atributos <li>Esquema: relación del conjunto de datos <li>Esquema: relación de audiencia <li>Estado de habilitación de perfil <li>Búsqueda de nombres <li>Búsqueda de nombre e ID | <li>Auditoría <li>Creación/modificación <li>Creado por <li>Grupos de campos <li>Identidades <li>Espacios de nombres de identidad <li>Etiquetas <li>Número de perfiles |
 | Fuentes | <li>Recuentos de cuentas <li>Estado de cuenta <li>Flujos de datos activos/inactivos para cada cuenta <li>Conector de Source: relación de flujo de datos <li>cuenta de Source: relación de flujo de datos | <li>Información de credenciales de cuenta <li>Configuración de cuentaMétricas de ingesta de datos <li>Número de perfilesOrigen - relaciones por lotes |
-| Plantilla de grupo de compra | <li>Recuentos <li>Estado <li>Roles <li>Búsqueda de nombre e ID | <li>Reglas de rol |
+| Plantilla de grupo de compra | <li>Recuentos <li>Estado <li>Funciones <li>Búsqueda de nombre e ID | <li>Reglas de rol |
 | Interés de solución | <li>Recuentos <li>Estado <li>Interés de la solución: relación de plantilla del grupo de compra <li>Búsqueda de nombre e ID | <li>Interés de la solución: relación de grupo de compra |
 
 {style="table-layout:fixed"}
@@ -97,19 +92,19 @@ En la actualidad, el ámbito del asistente de IA es el siguiente:
 
 ### Privacidad, seguridad y gobernanza
 
-El asistente de IA de Journey Optimizer B2B edition está diseñado con privacidad, seguridad y control en la vanguardia. Revise la siguiente información para obtener más información acerca de las capacidades centradas en la confianza del cliente que puede esperar de AI Assistant:
+Asistente de IA en Journey Optimizer B2B edition da prioridad a la privacidad, la seguridad y la gobernanza. Revise la siguiente información para obtener más información acerca de las capacidades centradas en la confianza del cliente que puede esperar de AI Assistant:
 
-* AI Assistant no utiliza datos personales hoy en día, ni siquiera con fines formativos.
+* AI Assistant no utiliza datos personales en la actualidad, ni siquiera con fines formativos.
 
-* El asistente de IA desconoce los datos del cliente, como las personas, la cuenta, las oportunidades y los grupos de compra.
+* El asistente de IA desconoce los datos de los clientes, como las personas, las cuentas, las oportunidades y los grupos de compra.
 
 * Debe tener permiso explícito para interactuar con el Ayudante de IA.
 
-   * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} y [Admin Console](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} y [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Los permisos son granulares y el administrador de la zona protegida puede configurar qué usuarios pueden hacer diferentes categorías de preguntas (preguntas basadas en el conocimiento del producto con el asistente de IA o preguntas sobre perspectivas operativas).
 
-* Puede ver un registro de las interacciones anteriores con el asistente de IA con una política de retención de 30 días.
+* Puede ver un registro de 30 días de sus interacciones anteriores con el asistente de IA.
 
 * El asistente de IA se basa en datos específicos de zonas protegidas y en la documentación pública de Adobe al responder a las solicitudes de los usuarios. Los datos no se comparten en entornos limitados.
 
@@ -129,7 +124,7 @@ El asistente de IA puede abordar las consultas sobre conocimientos de productos 
 
 **¿Puede el Asistente de IA proporcionar información sobre los datos del cliente?**
 
-No. El asistente de IA no tiene acceso a los datos del cliente y, por lo tanto, no lo analiza ni lo utiliza.
+No. El asistente de IA no tiene acceso a los datos del cliente y, por lo tanto, no se consulta ni utiliza.
 
 **¿Se utiliza mi información personal en los datos de aprendizaje del Asistente de IA?**
 

@@ -5,27 +5,23 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+autotag-review: '2026-06-05T16:08:18.792Z'
+TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 895
+source-wordcount: 889
 ht-degree: 1%
 
 ---
 
 # Guía de preguntas para el asistente de IA en Journey Optimizer B2B edition
 
-Revise el siguiente conjunto de preguntas de ejemplo para consultar el Asistente de IA en Journey Optimizer B2B edition. Esta información también incluye sugerencias para formular preguntas y obtener respuestas óptimas del asistente de IA.
+Revise las siguientes preguntas de ejemplo para consultar el Asistente de IA en Journey Optimizer B2B edition. Esta información también incluye sugerencias para formular preguntas y obtener respuestas óptimas del asistente de IA.
 
 ## Preguntas basadas en objetivos
 
@@ -42,13 +38,13 @@ Las siguientes preguntas de ejemplo se agrupan según los objetivos que puede lo
 
 ## Formulación de preguntas
 
-Debe formular sus preguntas al asistente de IA con claridad y contexto para obtener una respuesta lo más precisa posible. Consulte la siguiente lista de sugerencias para obtener instrucciones sobre cómo hacer una pregunta clara con contexto:
+Para obtener una respuesta lo más precisa posible, formule sus preguntas al asistente de IA con claridad y contexto. Consulte la siguiente lista de sugerencias para obtener instrucciones sobre cómo hacer una pregunta clara con contexto:
 
 * Exponga su tarea y/o pregunta de forma concisa.
 * Evite el lenguaje ambiguo o la sintaxis demasiado compleja para facilitar la comprensión.
 * Proporcione un contexto relevante con respecto a su tarea o pregunta, ya que el contexto puede ayudar al Asistente de IA a generar respuestas más relevantes.
 
-En las tablas siguientes se proporcionan algunas prácticas recomendadas que puede seguir al utilizar el Asistente para IA:
+En las tablas siguientes se proporcionan algunas recomendaciones que puede seguir al utilizar el Asistente para IA:
 
 | Hacer | Ejemplo |
 | --- | --- |
@@ -68,12 +64,12 @@ En las tablas siguientes se proporcionan algunas prácticas recomendadas que pue
 
 La siguiente lista incluye ejemplos de preguntas que el Asistente de IA de Journey Optimizer B2B edition no admite actualmente:
 
-* ¿Qué audiencias de cuenta utilizan el campo workEmail.address del grupo de campos... en su condición? 
-* Mostrar el número de recorridos activos que utilizan audiencias de cuenta de un tamaño superior a 10 000, 5000-10 000, 1000-5000 e inferior a 1000 en un elemento visual de distribución
+* ¿Qué audiencias de cuenta utilizan el campo workEmail.address del grupo de campos ... en su condición? 
+* Mostrar el número de recorridos activos que utilizan audiencias de cuenta de más de 10 000, 5000-10 000, 1000-5000 e inferiores a 1000 en un elemento visual de distribución
 * ¿Quién realizó la última actualización del recorrido de la cuenta x?
 * ¿Cuántos recorridos activos añaden miembros del grupo comprador al interés de la solución x?
 * ¿Qué recorridos activos añaden miembros del grupo comprador al interés de la solución x?
-* ¿Cuál es el título más común del responsable de la toma de decisiones al comprar plantillas de grupo?
+* ¿Cuál es el título más común para quienes toman decisiones al comprar plantillas de grupo?
 * ¿Quiénes son los encargados de tomar decisiones para comprar la plantilla de grupo x?
 
 ## Próximos pasos

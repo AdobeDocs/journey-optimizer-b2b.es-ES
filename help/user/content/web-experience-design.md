@@ -5,24 +5,15 @@ feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-04-29T23:47:13.174Z
 TQID: https://experienceleague.adobe.com/8L1-UpqqSPlLqMwUpwOgOMT4cDzc55tua87M8-X1dKk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2339
 ht-degree: 4%
 
 ---
@@ -39,11 +30,11 @@ Antes de diseñar experiencias web, asegúrese de que se cumplen los siguientes 
 
 * Un administrador de productos ha configurado uno o más canales web para definir las direcciones URL (páginas) que se incluirán en una experiencia web. Para obtener más información, vea [Configuraciones del canal Web](../admin/configure-channels-web.md).
 
-* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Se requiere Adobe Experience Platform Web SDK versión 2.16 o superior.
+* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Se requiere Adobe Experience Platform Web SDK versión 2.16 o superior.
 
 * Tiene los [permisos](../admin/user-management.md#b2b-product-permissions) necesarios para crear y administrar experiencias web en un recorrido:
    * _[!UICONTROL Campañas]_ > _[!UICONTROL Administrar campañas]_: necesario para agregar o actualizar un nodo de acción de personalización web.
-   * _[!UICONTROL Campañas]_ > _[!UICONTROL Ver campañas]_ - Necesario para ver detalles de nodos de acción de personalización web.
+   * _[!UICONTROL Campañas]_ > _[!UICONTROL Ver campañas]_: necesario para ver los detalles de un nodo de acción de personalización web.
 
 >[!ENDSHADEBOX]
 
@@ -99,11 +90,11 @@ El editor visual carga las páginas web dentro de un iframe, donde puede selecci
 
    * [Inserte nuevos componentes](#insert-new-components) (divisor, HTML, imagen, encabezado, párrafo o vínculo) en la página para la experiencia web.
 
-   * Seleccione cualquier elemento existente de la página, como una imagen, un botón, un párrafo, un texto, un contenedor, un encabezado o un vínculo, y [modifíquelo para la experiencia web](#modify-elements).
+   * Seleccione cualquier elemento existente de la página y [modifíquelo para la experiencia web](#modify-elements).
 
    * [Agregar rastreo de clics](#click-tracking-for-web-experiences) para que los elementos midan la participación y recopilen información.
 
-1. Repita el paso 2 para cargar otras páginas que desee incluir en la experiencia web y el paso 3 para definir las modificaciones de la página.
+1. Repita el paso 2 para cargar otras páginas que desee incluir en la experiencia web. Repita el paso 3 para definir las modificaciones de la página.
 
 1. [Revise sus modificaciones](#manage-modifications) y realice los ajustes necesarios.
 
@@ -179,14 +170,14 @@ Para obtener más información acerca de las opciones de estilo de texto para lo
 
 ### Insertar nuevos componentes
 
-Al seleccionar el icono **+** en el diseño de navegación izquierda para el editor visual, puede agregar los siguientes tipos de componentes a la página como una modificación de la experiencia web:
+Al seleccionar el icono **+** en la navegación de la izquierda de diseño para el editor visual, puede agregar los siguientes tipos de componentes a la página como una modificación de la experiencia web:
 
 * **[!UICONTROL Divisor]**: utilice este componente para insertar una línea divisoria y organizar el diseño y el contenido del correo electrónico. Puede ajustar atributos de estilo como el color de línea, el estilo y la altura desde las propiedades del panel derecho. Consulte [Divisor](./content-components.md#divider) en _Componentes de contenido_ para obtener más información.
 * **[!UICONTROL HTML]**: use este componente para copiar y pegar código HTML en la estructura existente. Permite crear componentes modulares de HTML gratuitos para reutilizar contenido externo. Consulte [HTML](./content-components.md#html) en _Componentes de contenido_ para obtener más información.
 * **[!UICONTROL Imagen]**: utilice este componente para insertar un archivo de imagen en la página. Puede ajustar atributos de estilo como la anchura y la altura desde las propiedades del panel derecho. Consulte [Imagen](./content-components.md#image) en _Componentes de contenido_ para obtener más información.
 * **[!UICONTROL Encabezado]**: utilice este componente para insertar texto de clase de encabezado. Puede ajustar atributos de estilo como el color, el estilo, la fuente y el tamaño del texto desde las propiedades del panel derecho. Consulte [Texto](./content-components.md#text) en _Componentes de contenido_ para obtener más información.
 * **[!UICONTROL Párrafo]**: utilice este componente para insertar un elemento de texto estándar. Puede ajustar atributos de estilo como el color, el estilo, la fuente y el tamaño del texto desde las propiedades del panel derecho. Consulte [Texto](./content-components.md#text) en _Componentes de contenido_ para obtener más información.
-* **[!UICONTROL Vínculo]**: utilice este componente para insertar un vínculo de texto independiente en una dirección URL especificada. Puede ajustar atributos de estilo como el color, el estilo, la alineación y el tamaño del texto desde las propiedades del panel derecho.
+* **[!UICONTROL Vínculo]**: utilice este componente para insertar un vínculo de texto independiente en una dirección URL especificada. Puede ajustar los atributos de estilo desde las propiedades del panel derecho.
 
 Seleccione un tipo de componente a la izquierda y, a continuación, pase el ratón sobre un elemento adyacente a donde desee agregarlo.
 
@@ -251,7 +242,7 @@ Las modificaciones del selector de CSS le permiten segmentar elementos con preci
 
    * **[!UICONTROL Establecer contenido]** - Escriba el texto en el campo **[!UICONTROL Contenido]** para el elemento identificado por el valor _[!UICONTROL Selector de elementos CSS]_.
 
-   * **[!UICONTROL Establecer atributo]**: especifique un atributo que se asociará con el selector CSS actual para que este atributo pueda identificar el elemento. Escriba un nombre en el campo **[!UICONTROL Nombre de atributo]** y un valor en el campo **[!UICONTROL Contenido]**. Si el atributo ya existe, el valor se actualiza; de lo contrario, se agrega un nuevo atributo con el nombre y valor especificados.
+   * **[!UICONTROL Establecer atributo]**: especifique un atributo para asociarlo al selector CSS actual a fin de que pueda identificar el elemento por este atributo. Escriba un nombre en el campo **[!UICONTROL Nombre de atributo]** y un valor en el campo **[!UICONTROL Contenido]**. Si el atributo ya existe, el valor se actualiza; de lo contrario, se agrega un nuevo atributo con el nombre y valor especificados.
 
    ![Modificación del selector css del editor no visual](./assets/web-experience-design-non-visual-editor-modification-css-selector.png){width="800" zoomable="yes"}
 
@@ -344,7 +335,7 @@ Rastree las interacciones del usuario con los elementos para medir la participac
 
 Cuando se activa la experiencia web (activa), también puede crear informes con Adobe Customer Journey Analytics (que requiere una suscripción al producto). Para mejorar la monitorización de la experiencia web, también puede rastrear los clics en cualquier elemento específico del sitio web. El seguimiento permite mostrar el número de clics de ese elemento en los informes web.
 
-Para obtener más información sobre Customer Journey Analytics y la generación de informes web, consulte la [documentación de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-landing).
+Para obtener más información sobre Customer Journey Analytics y la generación de informes web, consulte la [documentación de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Seleccione un elemento en el editor de experiencia web, como, por ejemplo, una imagen o un vínculo.
 

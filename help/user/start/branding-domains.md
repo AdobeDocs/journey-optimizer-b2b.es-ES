@@ -4,22 +4,16 @@ description: Configure los dominios de promoción de la marca para que cada una 
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1014
-ht-degree: 89%
+source-wordcount: 1015
+ht-degree: 83%
 
 ---
 
@@ -29,23 +23,23 @@ Un dominio de promoción de la marca en Marketo Engage es un subdominio personal
 
 * Reemplaza los vínculos genéricos con su propia marca en los hipervínculos de correo electrónico.
 * Cuando un posible cliente de la cuenta hace clic en un vínculo, redirige a través de este dominio personalizado para permitir el seguimiento del rendimiento mientras parece legítimo a los filtros de correo electrónico.
-* Si tiene varias marcas, puede configurar dominios de promoción de otras marcas para que admitan distintas unidades de negocio o marcas.
+* Para admitir diferentes unidades de negocio o marcas, puede configurar dominios de promoción de otras marcas si tiene varias marcas.
 
 >[!BEGINSHADEBOX]
 
 **CNAME únicos para vínculos de seguimiento**
 
-Los vínculos de seguimiento de correo electrónico deben ser nuevos y únicos para la instancia de Marketo Engage adjunta. Si tiene CNAME existentes para el seguimiento de vínculos que apuntan a una instancia de Marketo Engage preexistente (producción), no se pueden reutilizar sin realizar modificaciones.
+Los vínculos de seguimiento de correo electrónico deben ser nuevos y únicos para la instancia de Marketo Engage adjunta. Si tiene CNAME existentes para el seguimiento de vínculos que apuntan a una instancia de Marketo Engage preexistente (producción), deben modificarse antes de poder reutilizarse.
 
-Puede compartir la marca del dominio de ruta de retorno entre la instancia de producción de Marketo Engage y la instancia adjunta, pero se trata de un cambio en el servidor. Abra un ticket de asistencia y proporcione su prefijo Marketo Engage (Munchkin ID) y su nuevo prefijo Journey Optimizer B2B edition (Munchkin ID) para solicitar la promoción de marca de dominio de ruta de retorno compartida.
+Puede compartir la marca del dominio de la ruta de retorno entre la instancia de producción de Marketo Engage y la instancia adjunta, pero este cambio es un cambio en el servidor. Abra un ticket de asistencia y proporcione su prefijo Marketo Engage (Munchkin ID) y su nuevo prefijo Journey Optimizer B2B edition (Munchkin ID) para solicitar la promoción de marca de dominio de ruta de retorno compartida.
 
 >[!ENDSHADEBOX]
 
 >[!PREREQUISITES]
 >
->Antes de editar o agregar un dominio en la interfaz de usuario, debe tener un CNAME [asignado a un dominio de Marketo Engage proporcionado por Adobe](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Antes de editar o agregar un dominio en la interfaz de usuario, debe tener un CNAME [asignado a un dominio de Marketo Engage proporcionado por Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
->Al añadir un dominio, el sistema comprueba los SSL preexistentes, que pueden haberse creado manualmente anteriormente. Si se produce esta validación, cree el dominio sin seleccionar la creación de SSL y, a continuación, conéctelo como un procedimiento independiente.
+>Al añadir un dominio, el sistema comprueba los SSL preexistentes, que se creaban manualmente antes. Si se produce esta validación, cree el dominio sin seleccionar la creación de SSL y, a continuación, conéctelo como un procedimiento independiente.
 
 ## Acceso a dominios de marca en Marketo Engage
 
@@ -105,7 +99,7 @@ _Para agregar el dominio :_
 
    >[!NOTE]
    >
-   >**_SSL personalizados_**: Si necesita un SSL personalizado, puede enviar un [ticket de asistencia](https://experienceleague.adobe.com/es/support){target="_blank"}. No utilice la casilla de verificación para la creación SSL.
+   >**_SSL personalizados_**: Si necesita un SSL personalizado, puede enviar un [ticket de asistencia](https://experienceleague.adobe.com/en/support){target="_blank"}. No utilice la casilla de verificación para la creación SSL.
 
 1. Si tiene varios espacios de trabajo definidos para la instancia de Marketo Engage, haga clic en **[!UICONTROL Siguiente]**.
 

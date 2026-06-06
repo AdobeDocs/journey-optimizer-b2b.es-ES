@@ -4,22 +4,16 @@ description: 'Añadir nodos de acción de correo electrónico a los recorridos d
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1399
 ht-degree: 0%
 
 ---
@@ -96,7 +90,7 @@ Puede configurar los envíos de correo electrónico en un recorrido cuando [agre
 
    * Elija **[!UICONTROL Seleccionar correo electrónico de Adobe Marketo Engage]** para usar uno de los correos electrónicos creados previamente en Marketo Engage y enviarlo como parte del recorrido.
 
-     Si tiene más de un espacio de trabajo disponible en la instancia de Market Engage conectada, seleccione el espacio de trabajo. A continuación, seleccione el correo electrónico aprobado que desea enviar para el nodo de recorrido.
+     Si tiene más de un espacio de trabajo disponible en la instancia de Marketo Engage conectada, seleccione el espacio de trabajo. A continuación, seleccione el correo electrónico aprobado que desea enviar para el nodo de recorrido.
 
      ![Seleccionar correo electrónico de Marketo Engage](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
@@ -115,7 +109,7 @@ Con la pestaña **[!UICONTROL Detalles]** seleccionada en el panel _Resumen_ de 
 | [!UICONTROL Dirección de respuesta] | La dirección del remitente utilizada en el encabezado del correo electrónico. El valor predeterminado se rellena desde la [configuración de envío del canal de correo electrónico](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL de la etiqueta]). Introduzca la dirección de correo electrónico que desea rellenar si el destinatario utiliza la función de respuesta (puede ser diferente o igual a la dirección del remitente). Haga clic en el icono _Personalizar_ ( ![Personalizar icono](../assets/do-not-localize/icon-personalize.svg) ) para usar un token de personalización en el campo. |
 | [!UICONTROL Línea de asunto] | Texto mostrado en el campo de asunto del correo electrónico. El valor predeterminado se rellena a partir del texto que ingresó en el cuadro de diálogo _[!UICONTROL Crear nuevo correo electrónico]_. Puede cambiar el texto si es necesario. Haga clic en el icono _Personalizar_ (![Personalizar icono](../assets/do-not-localize/icon-personalize.svg) ) para usar un token de personalización en el campo.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL Dominio de marca] | Si tiene más de un [dominio de personalización de marca](../admin/configure-channels-emails.md#branding-domains) definido en el sistema, seleccione el dominio de personalización de marca que se utilizará para enviar el correo electrónico. Utilice un dominio de promoción de la marca específico para enviar correos electrónicos que parezcan provenir de su marca en lugar de la compañía en su conjunto. Crea confianza con la marca, personaliza la experiencia de correo electrónico y aumenta las tasas de apertura y respuesta. |
-| [!UICONTROL IP dedicada] | Si tiene más de una dirección IP dedicada definida, seleccione una dirección IP dedicada para utilizar para enviar el correo electrónico. Al utilizar una IP específica para sus programas, puede realizar un seguimiento y una monitorización de la capacidad de entrega de forma más estrecha y responder rápidamente a cualquier cambio en las métricas de entrega. Para obtener más información sobre cómo agregar una IP dedicada para la instancia de Marketo Engage conectada, consulte la [documentación de Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
+| [!UICONTROL IP dedicada] | Si tiene más de una dirección IP dedicada definida, seleccione una dirección IP dedicada para utilizar para enviar el correo electrónico. Al utilizar una IP específica para sus programas, puede realizar un seguimiento y una monitorización de la capacidad de entrega de forma más estrecha y responder rápidamente a cualquier cambio en las métricas de entrega. Para obtener más información sobre cómo agregar una IP dedicada para la instancia de Marketo Engage conectada, consulte la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
 | [!UICONTROL Correo electrónico operativo] | Seleccione la casilla de verificación si desea designar el correo electrónico como operativo. Los correos electrónicos operativos se excluyen de las listas de exclusión/cancelación de suscripción y de los límites de comunicación. Seleccione esta opción únicamente cuando el destinatario no pueda considerar que el mensaje de correo electrónico es un mensaje comercial no solicitado (SPAM). |
 | [!UICONTROL Incluir vista como página web] | Seleccione la casilla de verificación para incluir un vínculo a una página web que se genera a partir del contenido del mensaje de correo electrónico. Los mensajes de correo electrónico tienen capacidades más limitadas que las páginas web, por lo que son útiles para JavaScript, CSS extendido y formularios. El texto usado para generar el vínculo está configurado en la [configuración de envío del canal de correo electrónico](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Ver como página web HTML] y [!UICONTROL Ver como texto de página web]). |
 | [!UICONTROL Deshabilitar seguimiento de aperturas] | Seleccione la casilla de verificación cuando no desee rastrear la actividad de apertura de correo electrónico. Con la función desactivada, los recuentos de actividades abiertas de correo electrónico solo se incrementan cuando una persona única abre el correo electrónico. Puede [administrar el seguimiento de vínculos de contenido de correo electrónico](./email-authoring.md#content-authoring---link-tracking) al diseñar el contenido del cuerpo del correo electrónico. |
@@ -138,7 +132,7 @@ Se pueden detectar dos tipos de alertas:
      >
      >Los mensajes de correo electrónico de estilo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales.
 
-   * `Text version of HTML is empty`: no olvide definir una versión de texto de su cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido de HTML.
+   * `Text version of HTML is empty`: defina una versión de texto de su cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido de HTML.
 
    * `Empty link is present in email body`: compruebe que todos los vínculos del correo electrónico sean correctos.
 

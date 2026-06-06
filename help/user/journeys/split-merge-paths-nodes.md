@@ -5,22 +5,16 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 2550
+source-wordcount: 2542
 ht-degree: 3%
 
 ---
@@ -43,11 +37,11 @@ Un nodo _Split paths_ define una o más rutas segmentadas en función de la cuen
 
 Dividir por rutas de cuentas puede incluir acciones y eventos de cuenta y personas. Estas rutas se pueden dividir más.
 
-_&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
+_**Funcionamiento de un nodo de ruta dividida por cuentas**_
 
 * Cada ruta que agregue incluirá un nodo final con la capacidad de agregar nodos a cada borde.
 * Dividir por nodos de cuenta se puede anidar (puede dividir la ruta por cuentas repetidamente).
-* La evaluación de cada ruta es de arriba abajo. Si una cuenta coincide para la primera y la segunda ruta, solo continúa en la primera ruta.
+* La evaluación de cada ruta es de arriba abajo. Si una cuenta coincide con la primera y la segunda ruta, solo continúa con la primera ruta.
 * Se pueden combinar dos o más rutas mediante un nodo de combinación.
 * El nodo admite la definición de una ruta de acceso de _[!UICONTROL Otras cuentas]_, donde puede agregar acciones o eventos para cuentas que no coincidan con uno de los segmentos o rutas definidos.
 
@@ -75,11 +69,11 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
 
    ![Nodo de ruta dividida - agregar condición](./assets/node-split-properties-apply-condition.png){width="500" zoomable="yes"}
 
-1. En el editor de condiciones, añada uno o más filtros para definir la ruta dividida.
+1. Para definir la ruta dividida, añada uno o más filtros en el editor de condiciones.
 
    * Arrastre y suelte los atributos de filtro desde la navegación izquierda y complete la definición de la coincidencia.
 
-   * Ajuste las condiciones aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todos los filtros o cualquier filtro.
+   * Refine las condiciones aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todos los filtros o cualquier filtro.
 
      ![Nodo de ruta de división: condiciones de cuentas, lógica de filtro](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
@@ -105,7 +99,7 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
 
 Puede definir una ruta para las cuentas asociadas con grupos de compra y filtrar la ruta según los criterios de grupo de compra. Use el filtro **[!UICONTROL La cuenta ha coincidido con el grupo de compra]** para definir el segmento de ruta de acceso usando un grupo de compra coincidente. Este filtro también incluye la opción de identificar las cuentas en función del número de funciones asignadas dentro de un grupo comprador coincidente.
 
-Por ejemplo, es posible que desee evaluar la preparación del grupo de compra en función de la profundidad (número de personas) que tiene en diferentes funciones, como tres responsables de la toma de decisiones y dos influyentes. En este caso, establezca la condición en cuentas de destino con un mínimo de tres (3) responsables de la toma de decisiones y dos (2) influyentes en un grupo de compra coincidente:
+Por ejemplo, puede evaluar la preparación del grupo de compra en función de la profundidad (cantidad de personas) que tenga en diferentes funciones, como tres responsables de la toma de decisiones y dos influyentes. En este caso, establezca la condición en cuentas de destino con un mínimo de tres (3) responsables de la toma de decisiones y dos (2) influyentes en un grupo de compra coincidente:
 
 1. Haga clic en **[!UICONTROL Agregar filtro]** y elija el filtro **[!UICONTROL Número de personas en el rol de grupo que compra]**.
 
@@ -127,7 +121,7 @@ Por ejemplo, es posible que desee evaluar la preparación del grupo de compra en
 
 1. Haga clic en **[!UICONTROL Listo]** cuando haya definido todas las condiciones para la ruta.
 
-Para las cuentas identificadas, es posible que desee añadir un nodo de acción en la ruta para actualizar el estado del grupo o fase de compra o para enviar un correo electrónico de alerta de ventas.
+Para las cuentas identificadas, puede añadir un nodo de acción en la ruta para actualizar el estado del grupo o fase de compra o para enviar un correo electrónico de alerta de ventas.
 
 ## Dividir rutas por personas
 
@@ -135,11 +129,11 @@ _(recorridos de cuenta y persona)_
 
 Dividir por rutas de personas solo puede incluir acciones de personas. Estas rutas no se pueden volver a dividir y se vuelven a unir automáticamente.
 
-_&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
+_**Funcionamiento de un nodo de ruta dividida por personas**_
 
 * Dividido por nodos de personas funciona dentro de una combinación de _nodo agrupado_ de combinación dividida. Las rutas divididas se combinan automáticamente para que todas las personas puedan pasar al siguiente paso sin perder el contexto de su cuenta.
 * No se pueden anidar nodos divididos por personas (no se puede agregar una ruta dividida para personas en una ruta que se encuentre en este nodo agrupado).
-* La evaluación de cada ruta es de arriba abajo. Si una persona coincide para la primera y la segunda ruta, solo continúa por la primera ruta.
+* La evaluación de cada ruta es de arriba abajo. Si una persona coincide con la primera y la segunda ruta, solo seguirá la primera ruta.
 * El nodo admite el uso de _relaciones cuenta-persona_, lo que le permite filtrar a las personas según su función (como contratista o empleado a tiempo completo) según se defina en la relación.
 * El nodo admite la definición de una ruta de acceso de _[!UICONTROL Otras personas]_, donde puede agregar acciones o eventos para las personas que no coincidan con uno de los segmentos o rutas definidos.
 
@@ -191,7 +185,7 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
      >
      >Si tiene campos de persona personalizados definidos en el esquema de público de cuenta en Experience Platform, estos campos también están disponibles para usarlos como atributos de persona en condiciones.
 
-   * Ajuste las condiciones aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todas las condiciones de atributo o cualquier condición.
+   * Refine las condiciones aplicando la **[!UICONTROL lógica de filtro]** en la parte superior. Puede elegir hacer coincidir todas las condiciones de atributo o cualquier condición.
 
      ![Nodo de ruta de división: lógica de filtro de persona de condiciones](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 
@@ -233,7 +227,7 @@ Puede restringir aún más el filtro mediante restricciones específicas de los 
 
 >[!BEGINSHADEBOX &quot;Filtro de inactividad&quot;]
 
-Para cada uno de los filtros _[!UICONTROL Historial de eventos]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Por ejemplo, agregue el filtro _[!UICONTROL Apertura de correo electrónico de marketing directo]_ para crear una ruta para las personas que _&#x200B;**no**&#x200B;_ abrieron un correo electrónico. Active la opción de inactividad y especifique el correo electrónico.
+Para cada uno de los filtros _[!UICONTROL Historial de eventos]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Por ejemplo, agregue el filtro _[!UICONTROL Apertura de correo electrónico de marketing directo]_ para crear una ruta para las personas que _**no**_ abrieron un correo electrónico. Active la opción de inactividad y especifique el correo electrónico.
 
 ![Dividir ruta por condición de inactividad de personas](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -265,7 +259,7 @@ En [!DNL Marketo Engage], _Campañas inteligentes_ comprueba la pertenencia de l
 
 Para usar la pertenencia a una lista en una condición dividida, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** o **[!UICONTROL Miembro del programa]** al espacio de filtro. Complete la definición del filtro para evaluar la pertenencia a una o varias listas de [!DNL Marketo Engage].
 
-![Dividir ruta por condición de persona para la pertenencia a lista [!DNL Marketo Engage]](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![Condición de división de ruta por personas para [!DNL Marketo Engage] pertenencia a lista](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 <br/>
 
 >[!NOTE]
@@ -306,4 +300,4 @@ Agregue un nodo _Combinar rutas_ para combinar diferentes _rutas divididas por c
 
 ## Vídeo resumen {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443259/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

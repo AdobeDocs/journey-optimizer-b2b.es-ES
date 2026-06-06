@@ -5,36 +5,28 @@ feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T22:04:21.575Z
 TQID: https://experienceleague.adobe.com/tdFuPXow263TwebK-OF7bUenVrBuT1MYIG9FYC6gp-o
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1551
+source-wordcount: 1544
 ht-degree: 3%
 
 ---
 
 # Experiencias web
 
-El canal web de Adobe Journey Optimizer B2B edition le permite crear experiencias personalizadas directamente en el sitio web, lo que le ayuda a conectarse con los clientes de formas significativas. Esta función ofrece un kit de herramientas flexible que puede utilizar para mejorar la participación con contenido personalizado e integrarlo sin problemas con otros canales, como correo electrónico y SMS.
+El canal web de Adobe Journey Optimizer B2B edition le permite crear experiencias personalizadas directamente en el sitio web, lo que le ayuda a conectarse con los clientes de formas significativas. Esta función ofrece un conjunto flexible de herramientas que puede utilizar para mejorar la participación con contenido personalizado e integrarlo sin problemas con otros canales, como correo electrónico y SMS.
 
 Las experiencias web le permiten:
 
 * Entrega de modificaciones de contenido personalizadas a los visitantes de un sitio web segmentado
-* Personalice elementos de sitios web como titulares, texto, imágenes y botones en función de atributos de cuenta
+* Personalice elementos de sitios web como titulares, texto, imágenes y botones mediante atributos de cuenta
 * Páginas específicas de destino o aplicar cambios en varias páginas mediante reglas de coincidencia de URL
 * Rastree la participación y monitorice el impacto de sus esfuerzos de personalización web
 
@@ -46,11 +38,11 @@ Antes de crear experiencias web, asegúrese de que se cumplen los siguientes req
 
 * Un administrador de productos ha configurado uno o más canales web para definir las direcciones URL (páginas) que se incluirán en una experiencia web. Para obtener más información, vea [Configuraciones del canal Web](../admin/configure-channels-web.md).
 
-* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
+* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
 
 * Tiene los [permisos](../admin/user-management.md#b2b-product-permissions) necesarios para crear y administrar experiencias web en un recorrido:
    * _[!UICONTROL Campañas]_ > _[!UICONTROL Administrar campañas]_: necesario para agregar o actualizar un nodo de acción de personalización web.
-   * _[!UICONTROL Campañas]_ > _[!UICONTROL Ver campañas]_ - Necesario para ver detalles de nodos de acción de personalización web.
+   * _[!UICONTROL Campañas]_ > _[!UICONTROL Ver campañas]_: necesario para ver los detalles de un nodo de acción de personalización web.
    * _[!UICONTROL Campañas]_ > _[!UICONTROL Aprobar y publicar campañas]_ - Necesario para publicar un recorrido que tenga uno o más nodos de acción de personalización web.
 
 * Tiene instalada la extensión de explorador [Ayuda de edición visual](#install-the-visual-editing-helper-extension) de Adobe Experience Cloud para su explorador web. Esta extensión es necesaria para abrir, crear y previsualizar las páginas web de forma fiable en el espacio de diseño de contenido de Journey Optimizer B2B edition.
@@ -140,7 +132,7 @@ Puede configurar experiencias web en un recorrido al [agregar un nodo _[!UICONTR
 
 1. Cuando haya completado las modificaciones, haga clic en la flecha izquierda encima del editor para volver a la pestaña de contenido y a las propiedades del nodo de experiencia web personalizado.
 
-   Puede hacer clic en la flecha izquierda situada en la parte superior para volver al lienzo de recorrido.
+   Haga clic en la flecha izquierda de la parte superior para volver al lienzo de recorrido.
 
 ## Editar una experiencia web
 
@@ -159,11 +151,11 @@ Puede configurar experiencias web en un recorrido al [agregar un nodo _[!UICONTR
 
 1. Cuando haya completado las definiciones de modificación, haga clic en la flecha izquierda encima del editor para volver a la pestaña de contenido y a las propiedades de la experiencia web.
 
-   Puede hacer clic en la flecha izquierda situada en la parte superior para volver al lienzo de recorrido.
+   Haga clic en la flecha izquierda de la parte superior para volver al lienzo de recorrido.
 
 ## Redirigir a URL
 
-Al crear una experiencia web, puede redirigir a los visitantes a otra URL existente en lugar de crear una nueva variación en el editor de contenido. Esta opción es útil cuando desea ejecutar un experimento de contenido comparando dos experiencias diferentes en lugar de solo cambiar algunos elementos dentro de una página.
+Al crear una experiencia web, puede redirigir a los visitantes a otra URL existente en lugar de crear una nueva variación en el editor de contenido. Esta opción es útil cuando desea ejecutar un experimento de contenido comparando dos experiencias diferentes en lugar de cambiar algunos elementos dentro de una página.
 
 Por ejemplo, cree una campaña web con dos tratamientos:
 
@@ -177,7 +169,7 @@ En Tratamiento B, seleccione la opción _[!UICONTROL Redirigir a URL]_ para la o
 >
 >Con esta opción seleccionada, la vista previa del sitio web no se muestra y la opción _[!UICONTROL Editor visual]_ está deshabilitada.
 
-Cuando la campaña web esté activa, puede realizar un seguimiento del rendimiento de la experiencia web definida en Journey Optimizer B2B edition frente a las experiencias web que utilizaron una redirección a la página alternativa.
+Cuando la campaña web esté activa, puede realizar un seguimiento del rendimiento de la experiencia web definida en Journey Optimizer B2B edition frente a las experiencias web que utilizan una redirección a la página alternativa.
 
 ## Prueba de la experiencia web
 
@@ -187,7 +179,7 @@ Una vez completado el diseño de contenido para la experiencia web, puede usar l
 
 1. Seleccione un perfil de prueba.
 
-1. Agregue un perfil de prueba para comprobar la página web mediante los datos del perfil de prueba.
+1. Para comprobar la página web mediante los datos del perfil de prueba, agregue un perfil de prueba.
 
 <!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
 
@@ -203,15 +195,15 @@ La experiencia web se activa y se hace visible para la audiencia al [publicar el
 
 Para habilitar la entrega de experiencias web, se debe definir la siguiente configuración:
 
-* En la recopilación de datos de Adobe Experience Platform, asegúrese de que tiene un conjunto de datos definido con la opción Adobe Journey Optimizer B2B edition activada en el servicio Adobe Experience Platform.
+* En la recopilación de datos de Adobe Experience Platform, asegúrese de que ha definido una secuencia de datos. Asegúrese de que la opción Adobe Journey Optimizer B2B edition esté habilitada en el servicio Adobe Experience Platform.
 
-  Esta configuración garantiza que Adobe Experience Platform Edge pueda gestionar correctamente los eventos entrantes. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure)
+  Esta configuración garantiza que Adobe Experience Platform Edge pueda gestionar correctamente los eventos entrantes. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * En Adobe Experience Platform, asegúrese de tener una política de combinación con la opción _[!UICONTROL Política de combinación activa en Edge]_ habilitada.
 
-  Seleccione una política en el menú Experience Platform Cliente > Perfiles > Políticas de combinación. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Seleccione una política en el menú Cliente > Perfiles > Políticas de combinación en Experience Platform. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Los canales entrantes de Journey Optimizer B2B edition utilizan esta política de combinación para activar y publicar correctamente las experiencias web entrantes en Edge. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/ui-guide)
+  Los canales entrantes de Journey Optimizer B2B edition utilizan esta política de combinación para activar y publicar correctamente las experiencias web entrantes en Edge. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Resolución de problemas
 

@@ -5,25 +5,16 @@ feature: Channels, Personalization
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: 846
 ht-degree: 2%
 
 ---
@@ -115,9 +106,9 @@ Configure las modificaciones para esperar a que los elementos de destinatario ex
 
 1. La modificación se aplica una vez que el elemento de destino aparece en el DOM.
 
-#### Uso de observadores de mutaciones
+#### Implementar observadores de mutaciones
 
-Para el contenido altamente dinámico, Web SDK incluye observadores de mutación integrados que detectan cuándo se añaden nuevos elementos a la página. Estos observadores garantizan que las modificaciones se apliquen incluso cuando los elementos se cargan asincrónicamente.
+Para el contenido altamente dinámico, Web SDK incluye observadores de mutación que detectan cuándo se añaden nuevos elementos a la página. Estos observadores garantizan que las modificaciones se apliquen incluso cuando los elementos se cargan asincrónicamente.
 
 ### Marcos de SPA
 
@@ -170,12 +161,12 @@ Al probar experiencias web de SPA:
 Algunos SPA utilizan animaciones o transiciones entre vistas. Considere:
 
 * **Intervalo**: asegúrese de que las modificaciones se apliquen después de completar las animaciones de transición.
-* **Visibilidad del elemento**: los elementos pueden existir pero estar ocultos durante las transiciones.
+* **Visibilidad del elemento**: los elementos pueden existir pero están ocultos durante las transiciones.
 * **Parpadeo**: aplique las modificaciones con la suficiente antelación para evitar cambios en el contenido visible.
 
 ## Resolución de problemas
 
-A medida que revise los cambios de diseño de la SPA, utilice las siguientes recomendaciones para resolver algunos problemas comunes:
+A medida que revise los cambios de diseño de la SPA, utilice las siguientes recomendaciones para abordar algunos problemas comunes:
 
 * **Las modificaciones no aparecen**. Si no aparecen en su SPA:
 
