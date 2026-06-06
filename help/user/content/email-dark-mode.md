@@ -20,10 +20,10 @@ topic_v2:
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: 2026-03-30T22:06:55.168Z
 TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJEgNE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1606
-ht-degree: 9%
+source-wordcount: 1564
+ht-degree: 4%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Cambiar a modo oscuro"
->abstract="Cambie al modo oscuro, donde puede obtener una vista previa del renderizado y definir ajustes personalizados específicos. <br>El renderizado final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que no todos los clientes de correo electrónico admiten el modo oscuro personalizado."
+>abstract="Cambie al modo oscuro para previsualizar el procesamiento y definir la configuración personalizada. <br>El procesamiento depende del cliente de correo electrónico del destinatario. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
 >title="Cambiar a modo oscuro"
->abstract="Cambie al modo oscuro, donde puede obtener una vista previa de cómo se puede representar en los clientes de correo electrónico compatibles. <br>El renderizado final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que no todos los clientes de correo electrónico admiten el modo oscuro."
+>abstract="Cambie al modo oscuro para previsualizar el procesamiento en los clientes de correo electrónico de soporte. <br>El renderizado final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que no todos los clientes de correo electrónico admiten el modo oscuro."
 
 _El modo oscuro_ permite que un cliente de correo electrónico o aplicación compatible muestre correos electrónicos con fondos más oscuros y colores más claros para texto, botones y otros elementos visuales. Este tipo de pantalla puede reducir la fatiga visual, ahorrar batería y mejorar la legibilidad en entornos con poca luz para una experiencia de visualización más cómoda. Como tendencia creciente en los principales sistemas operativos y aplicaciones, ahora es una consideración importante en el diseño moderno del correo electrónico garantizar que el contenido sea legible y visualmente atractivo para todos los usuarios.
 
@@ -47,7 +47,7 @@ A medida que [crea su contenido de correo electrónico](./email-authoring.md) en
 
 ## Consideraciones del cliente de correo electrónico {#email-client-considerations}
 
-Hay una variación significativa en la forma en que diferentes clientes de correo electrónico y aplicaciones aplican el modo oscuro. Por este motivo, debe tener en cuenta las expectativas de procesamiento en modo oscuro con precaución. Antes de utilizar el modo oscuro en el espacio de diseño del correo electrónico, tenga en cuenta los siguientes casos de uso del cliente de correo electrónico:
+Hay una variación significativa en la forma en que diferentes clientes de correo electrónico y aplicaciones aplican el modo oscuro. Por este motivo, tenga en cuenta las expectativas de procesamiento en modo oscuro con precaución. Antes de utilizar el modo oscuro en el espacio de diseño del correo electrónico, tenga en cuenta los siguientes casos de uso del cliente de correo electrónico:
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
 
@@ -67,7 +67,7 @@ Si define la configuración personalizada de modo oscuro en el diseño de correo
 
 +++Clientes que aplican su propio modo oscuro {#default-support}
 
-Algunos clientes de correo electrónico aplican sistemáticamente su propio modo oscuro predeterminado a todos los correos electrónicos recibidos. Ajustan automáticamente los colores, fondos, imágenes y otros elementos según su configuración de modo oscuro y no son posibles los ajustes externos. Estos clientes incluyen:
+Algunos clientes de correo electrónico aplican sistemáticamente su propio modo oscuro predeterminado a todos los correos electrónicos recibidos. Ajustan automáticamente los colores, fondos, imágenes y otros elementos según su configuración de modo oscuro y no es posible realizar ajustes externos. Estos clientes incluyen:
 
 * Gmail (Desktop Webmail, iOS, Android™, Mobile Webmail)
 * Outlook Windows
@@ -128,14 +128,14 @@ Al aplicar estilo al contenido del correo electrónico para el modo oscuro en [!
 
 >[!CAUTION]
 >
->La renderización final puede variar según el cliente de correo electrónico del destinatario. Para ver una simulación que se aproxime lo más posible al resultado final de cada cliente de correo electrónico, use la integración [Litmus test email rendering](./email-test-rendering.md).
+>La renderización final puede variar según el cliente de correo electrónico del destinatario. Para ver una simulación lo más parecida posible al resultado final de cada cliente de correo electrónico, use la integración [Litmus email test rendering](./email-test-rendering.md).
 
 ### Definir configuración del modo oscuro personalizado {#custom-dark-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Utilizar una imagen específica para el modo oscuro"
->abstract="Puede seleccionar otra imagen distinta para que se muestre cuando el modo oscuro esté activado. <br>Añadir una imagen específica para el modo oscuro no garantiza que se renderice correctamente en todos los clientes de correo electrónico. Tenga en cuenta que no todos los clientes de correo electrónico admiten el modo oscuro personalizado."
+>abstract="Seleccione otra imagen para el modo oscuro. <br>Añadir una imagen específica no garantiza una representación correcta en todos los clientes de correo electrónico. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
 
 Después de cambiar al modo oscuro, puede editar elementos de estilo específicos del contenido que se muestran solo cuando el modo oscuro está habilitado en el cliente de correo electrónico del destinatario (siempre que admita esa función).
 
@@ -143,7 +143,7 @@ Después de cambiar al modo oscuro, puede editar elementos de estilo específico
 >
 >El procesamiento final del modo oscuro depende de cada cliente de correo electrónico, por lo que los resultados pueden variar de uno a otro. Revise las [consideraciones del cliente de correo electrónico](#email-client-considerations) para obtener más información.
 
-El estilo de modo oscuro personalizado en el espacio de diseño del correo electrónico utiliza <!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)` consulta CSS, que detecta si el cliente de correo electrónico está configurado en modo oscuro y aplica el diseño de tema oscuro definido en el correo electrónico.
+El estilo de modo oscuro personalizado utiliza la consulta CSS `@media (prefers-color-scheme: dark)` para detectar si el cliente de correo electrónico está configurado en modo oscuro y aplicar el diseño de tema oscuro definido.
 
 _Para definir la configuración personalizada del modo oscuro :_
 
