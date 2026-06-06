@@ -32,7 +32,7 @@ Una vez que un administrador complete las [tareas de instalación](../setup-ulti
 
 >[!TIP]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente sobre las protecciones del rendimiento y las limitaciones estáticas.
 
 Como especialista en marketing o _profesional de recorridos de cuentas_, es responsable de diseñar recorridos y crear contenido. Puede empezar a trabajar con Adobe Journey Optimizer B2B Edition después de que el administrador del sistema y el ingeniero de datos preparen su entorno y le concedan acceso.
 
