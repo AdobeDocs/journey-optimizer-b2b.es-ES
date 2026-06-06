@@ -4,12 +4,23 @@ description: Configure las opciones de Marketo Engage para la entrega de correo 
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: f467931a-9b22-4ca8-869f-adfbd64061ceid: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
@@ -165,8 +176,8 @@ Cambie _[!UICONTROL Opciones de encabezado personalizado]_ para el correo electr
 
 La actividad de bots de correo electrónico, también conocida como interacción no humana (NHI), puede inflar los datos de _aperturas_ y _clics_ del correo electrónico, distorsionando las métricas de participación y activando la progresión de recorridos basada en eventos. Utilice el filtrado de bots de correo electrónico para mantener la integridad de las métricas y perspectivas de participación de clics. Existen dos métodos para identificar la sospecha de actividad de bots:
 
-* _**[!UICONTROL Coincidencia con la lista de bots de la IAB]**_: las actividades que coinciden con cualquier elemento de la [lista de bots de la empresa de Advertising interactiva](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agente de usuario/dirección IP) están marcadas como bots.
-* _**[!UICONTROL Coincidencia con el patrón de proximidad]**_: dos o más actividades que se producen al mismo tiempo (en menos de un segundo) se identifican como bots. Los atributos considerados durante la comparación son:
+* _&#x200B;**[!UICONTROL Coincidencia con la lista de bots de la IAB]**&#x200B;_: las actividades que coinciden con cualquier elemento de la [lista de bots de la empresa de Advertising interactiva](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (agente de usuario/dirección IP) están marcadas como bots.
+* _&#x200B;**[!UICONTROL Coincidencia con el patrón de proximidad]**&#x200B;_: dos o más actividades que se producen al mismo tiempo (en menos de un segundo) se identifican como bots. Los atributos considerados durante la comparación son:
    * ID de posible cliente (debe ser el mismo)
    * Recurso de correo electrónico (debe ser el mismo)
    * Clic en vínculo o correo electrónico abierto
