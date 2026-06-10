@@ -3,32 +3,24 @@ title: Diseño de página de aterrizaje
 description: 'Diseñe páginas de aterrizaje con herramientas visuales: añada componentes de contenido, formularios, CSS personalizado, personalización y previsualización de dispositivo para recorridos de cuenta en Journey Optimizer B2B edition.'
 feature: Landing Pages, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:18:56.836Z
 TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 5%
+source-wordcount: 411
+ht-degree: 2%
 
 ---
 
 # Diseño de la página de destino
 
-Después de [crear una página de aterrizaje](./landing-pages.md#create-a-landing-page), use el espacio de diseño visual para crear los componentes estructurales y de contenido en su página.
+Después de [crear una página de aterrizaje](./landing-pages-create-publish.md#create-landing-page), use el espacio de diseño visual para crear los componentes estructurales y de contenido en su página.
 
 ## Añadir estructura y contenido {#structure-content-landing-page}
 
@@ -64,6 +56,18 @@ Con al menos un componente de contenido en el lienzo, selecciona el componente *
 
 {{$include /help/_includes/content-design-links.md}}
 
+![Haga clic en el icono Editar para acceder al seguimiento de vínculos](./assets/landing-page-link-tracking.png){width="400"}
+
+Use **[!UICONTROL Tipo de seguimiento]** para controlar el seguimiento del vínculo:
+
+* **[!UICONTROL Rastreado]**: activa el seguimiento en la dirección URL del vínculo.
+<!-- 
+* External Opt-out - Considers the link URL as an opt-out or unsubscription URL.
+
+* Mirror page - Considers the link URL as a mirror page URL.
+-->
+* **[!UICONTROL Nunca]**: Nunca activa el seguimiento de la dirección URL del vínculo.
+
 ### Guarde el trabajo
 
 Haga clic en **[!UICONTROL Guardar]** en cualquier momento para guardar el borrador de la página de aterrizaje.
@@ -84,7 +88,7 @@ Aproveche las opciones de vista y validación de contenido disponibles en el esp
 
 En el menú _[!UICONTROL Más...]_ de la parte superior del espacio de diseño visual, puede realizar las siguientes acciones:
 
-![Haga clic en Más para acceder a las acciones de plantilla](./assets/landing-page-designer-more-menu.png){width="500"}
+![Haga clic en más para acceder a las acciones de la página de aterrizaje](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL Restablecer página de aterrizaje]**: haga clic en esta opción para borrar el lienzo de diseño visual de una pizarra en blanco y reiniciar la creación del contenido de la página.
 * **[!UICONTROL Cambia tu diseño]** - Vuelve a la página de inicio de _[!UICONTROL Crear tu página de aterrizaje principal]_. Desde allí, puede elegir otra plantilla para reiniciar el proceso de diseño o elegir diseñar la página desde cero en un lienzo en blanco.

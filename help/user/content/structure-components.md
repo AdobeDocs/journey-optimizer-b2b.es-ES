@@ -4,19 +4,15 @@ description: 'Utilice componentes de estructura para crear diseños para correos
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-autotag-review: 2026-03-30T22:18:21.301Z
-TQID: https://experienceleague.adobe.com/HuQTfczlpI3Iw9laE3rp-ndKPUHtHFNW9D7sa02Y50M
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+autotag-review: '2026-05-27T16:19:08.483Z'
+TQID: 'https://experienceleague.adobe.com/Y3QgxZVcu76zBWJp9Ky7dUWjSOGg5JoPcPzPFrNsDXo'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
 source-wordcount: 1603
 ht-degree: 7%
@@ -109,7 +105,7 @@ Para quitar la designación del encabezado o pie de página, seleccione el compo
 
 En el caso de pantallas o ventanas de visualización más pequeñas, las columnas del componente de estructura se muestran como apiladas a menos que cambie la configuración predeterminada. Con el componente de estructura de varias columnas seleccionado, cambie la configuración **[!UICONTROL No apilar columnas en dispositivos móviles]** moviendo el control deslizante de alternancia a la derecha.
 
-![No apilar columnas en el móvil &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
+![No apilar columnas en el móvil ](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Estilos de componente
 

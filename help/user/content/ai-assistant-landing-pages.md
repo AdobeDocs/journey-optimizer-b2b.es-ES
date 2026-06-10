@@ -2,31 +2,21 @@
 title: Asistente de IA para contenido de página de aterrizaje
 description: 'Generar contenido de página de aterrizaje con el asistente de IA: cree texto e imágenes de página con sus recursos de referencia y compre la segmentación de funciones de grupo en Journey Optimizer B2B edition.'
 feature: Generative AI, Landing Pages, Content
-badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 2700
-ht-degree: 1%
+source-wordcount: 2690
+ht-degree: 0%
 
 ---
 
@@ -48,7 +38,7 @@ Puede generar experiencias de contenido completas para sus páginas de aterrizaj
 
 Antes de empezar a usar esta capacidad, revise las [directrices y limitaciones](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). También se requiere la aceptación de [Acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las capacidades de IA en [!DNL Journey Optimizer B2B Edition]. Para obtener más información, contacte con su representante de Adobe.
 
-Con el compromiso de Adobe de promover la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/es/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por Firefly cuando se descarga o exporta.
+Con el compromiso de Adobe de promover la transparencia en el uso de herramientas de IA generativa en la creación de medios, Adobe aplica [credenciales de contenido](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} para cualquier contenido o proyecto que incluya un recurso generado por Firefly cuando se descarga o exporta.
 
 Las siguientes limitaciones y directrices se aplican a las funciones del Asistente de IA utilizadas para generar contenido de páginas de aterrizaje en [!DNL Journey Optimizer B2B Edition]:
 
@@ -140,7 +130,7 @@ Siga estos pasos según el tipo de generación de contenido de página de aterri
 
 Siga estos pasos para utilizar el Asistente de IA para generar una página de aterrizaje completa refinando una plantilla de página de aterrizaje existente:
 
-1. Después de [crear la página de aterrizaje](./landing-pages.md#create-a-landing-page), haga clic en **[!UICONTROL Editar página de aterrizaje]**.
+1. Después de [crear la página de aterrizaje](./landing-pages-create-publish.md#create-landing-page), haga clic en **[!UICONTROL Editar página de aterrizaje]**.
 
 1. Seleccione una plantilla.
 

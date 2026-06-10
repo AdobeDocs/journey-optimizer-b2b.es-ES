@@ -3,23 +3,18 @@ title: Páginas de destino
 description: 'Cree, diseñe y publique páginas de aterrizaje para recorridos de cuenta: genere desde cero, importe HTML, añada formularios, personalice contenido y vincule desde correos electrónicos en Journey Optimizer B2B edition.'
 feature: Landing Pages, Content
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-03-30T21:57:18.444Z
-TQID: https://experienceleague.adobe.com/vrsWEm-DjB2IuI4ghEBKhQAlbYRgnWgddPCDV4a2mmI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+autotag-review: '2026-05-27T16:16:24.088Z'
+TQID: 'https://experienceleague.adobe.com/zAr9SwPBHxU50gD1ZRdJQo3M-qL-BEO6R1UYq7hSG-8'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 2220
+source-wordcount: 1637
 ht-degree: 2%
 
 ---
@@ -28,28 +23,34 @@ ht-degree: 2%
 
 Una página de aterrizaje es una página web independiente en la que puede dirigir a contactos y clientes después de hacer clic en un elemento vinculado en un correo electrónico, un mensaje SMS o cualquier ubicación digital. Puede incorporar estas páginas en los recorridos de su cuenta para que sus clientes potenciales y clientes vean sus mensajes en la web y progresen en los recorridos de su cuenta. Puede crear, personalizar y previsualizar páginas de aterrizaje en el espacio de diseño visual de la página de aterrizaje.
 
-Para dirigir a los clientes a una página web definida cuando hagan clic en un vínculo específico, cree una página de aterrizaje en Journey Optimizer B2B edition:
+Casos de uso comunes de las páginas de aterrizaje:
 
-* Creación de la página
-* Diseño de la página de aterrizaje y creación de contenido
-* Prueba de la página
-* Publicación de la página
-* Vínculo a la página desde el contenido del recorrido
+* Proporcione comunicaciones de marketing de inclusión o exclusión para un servicio específico. Utilice un vínculo en un correo electrónico u otra comunicación para enviar una lista de destino.
+* Recopile el consentimiento antes de enviar comunicaciones y envíe un correo electrónico de confirmación tras la inclusión o la exclusión.
+* Capture o actualice datos de perfil (perfil progresivo, preferencias, registros y escenarios similares) mediante formularios en páginas de aterrizaje.
+* Dirija a las personas a información específica de la campaña diseñada para su orquestación de recorrido.
+* Redirija a las personas a un formulario web específico sin crear una página externa fuera de Journey Optimizer B2B edition.
+
+## Flujo de trabajo de página de aterrizaje
+
+Para dirigir a los miembros de una audiencia de recorrido a una página web definida cuando hagan clic en un vínculo específico, cree una página de aterrizaje en Journey Optimizer B2B edition:
+
+1. [Crear la página](./landing-pages-create-publish.md): seleccione un ajuste preestablecido, configure la página principal y agregue las subpáginas necesarias.
+1. [Diseño del contenido de la página de aterrizaje](./landing-page-design.md): cree el contenido de la página mediante componentes de diseño visuales de arrastrar y soltar.
+1. [Probar y publicar la página de aterrizaje](./landing-pages-create-publish.md): obtenga una vista previa de la página, pruebe el comportamiento del formulario y, a continuación, publique para activarla.
+1. [Vínculo a la página desde el recorrido](#link-to-a-landing-page): agregue la dirección URL de la página de aterrizaje a un correo electrónico, un SMS o una acción de recorrido para que los destinatarios puedan llegar a ella.
 
 Por ejemplo, puede crear y diseñar páginas de aterrizaje para dirigir a los usuarios a la información en línea. La página puede incluir un formulario en el que pueden optar por su inclusión o exclusión en la recepción de comunicaciones. O podría ser una oportunidad para suscribirse a una comunicación recurrente, como un boletín informativo.
 
 Puede crear, personalizar y previsualizar páginas de aterrizaje en el espacio de diseño visual.
-<!--
-For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. 
--->
 
 ## Acceso y administración de páginas de aterrizaje
 
-Para acceder a las páginas de aterrizaje de Adobe Journey Optimizer B2B edition, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Páginas de aterrizaje]**. Esta acción abre una página de lista con todas las páginas de aterrizaje creadas en la instancia enumeradas en una tabla.
+Para acceder a las páginas de aterrizaje de Journey Optimizer B2B edition, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Páginas de aterrizaje]**. Esta acción muestra una lista de todas las páginas de aterrizaje creadas en la instancia.
 
 ![Acceder a la biblioteca de páginas de aterrizaje](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
-La tabla está ordenada por la columna _[!UICONTROL Modificado]_, con los elementos actualizados más recientemente en la parte superior de forma predeterminada. Haga clic en el título de la columna para cambiar entre ascendente y descendente.
+La lista se ordena según la columna _[!UICONTROL Modificado]_, con los elementos actualizados más recientemente en la parte superior. Haga clic en el título de la columna para cambiar entre ascendente y descendente.
 
 ### Filtrado de la lista de páginas de aterrizaje
 
@@ -57,13 +58,15 @@ Para buscar una página de aterrizaje por nombre, introduzca una cadena de texto
 
 ![Filtrar las páginas de aterrizaje mostradas](./assets/landing-pages-list-filtered.png){width="700" zoomable="yes"}
 
-### Personalización de la visualización de columnas
+<!-- 
+This is going away? ### Customize the column display
 
-Personalice las columnas que desee mostrar en la tabla haciendo clic en el icono _Personalizar tabla_ ( ![Personalizar icono de tabla](../assets/do-not-localize/icon-column-settings.svg) ) en la parte superior derecha.
+Customize the columns that you want to display in the table by clicking the _Customize table_ icon ( ![Customize table icon](../assets/do-not-localize/icon-column-settings.svg) ) at the top right. 
 
-En el cuadro de diálogo, seleccione las columnas que desea mostrar y haga clic en **[!UICONTROL Aplicar]**.
+In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 
-![Seleccione las columnas que desea mostrar](./assets/landing-pages-customize-table-dialog.png){width="300"}
+![Select the columns that you want to display](./assets/landing-pages-customize-table-dialog.png){width="300"} 
+-->
 
 ### Estado de la página de aterrizaje y ciclo vital
 
@@ -71,105 +74,11 @@ El estado de la página de aterrizaje determina su disponibilidad para la vincul
 
 | Estado | Descripción |
 | -------------------- | ----------- |
-| Borrador | Cuando crea una página de aterrizaje, está en estado de borrador. Permanece en este estado a medida que define o edita el contenido visual y hasta que lo publica como una página alojada. Acciones disponibles:<br/><ul><li>Editar nombre o descripción<li>Editar URL del vínculo<li>Editar en el espacio de diseño visual<li>Publicar<li>Duplicado<li>Eliminar |
+| Borrador | Cuando crea una página de aterrizaje, está en estado de borrador. Permanece en este estado a medida que define o edita el contenido visual y hasta que lo publica como una página alojada. Acciones disponibles:<br/><ul><li>Editar nombre o descripción<li>Editar URL del vínculo<li>Editar en el espacio de diseño visual<li>Publicación<li>Duplicado<li>Eliminar |
 | Publicadas | Al publicar una página de aterrizaje, esta se aloja en la instancia de Journey Optimizer B2B edition y está disponible para vincularse en el contenido de un mensaje de correo electrónico o SMS. Acciones disponibles:<br/><ul><li>Editar nombre o descripción<li>Editar URL del vínculo<li>Añadir vínculo en el contenido del correo electrónico o del mensaje SMS<li>Crear versión de borrador<li>Duplicado<li>Eliminar |
 | Publicado con borrador | Cuando crea un borrador a partir de una página de aterrizaje publicada, la versión publicada se mantiene y el contenido del borrador se puede modificar en el espacio de diseño visual. Si publica la versión de borrador, reemplazará la versión publicada actual y el contenido se actualizará en la página alojada. Acciones disponibles:<br/><ul><li>Editar nombre o descripción<li>Editar URL del vínculo<li>Añadir vínculo en el contenido del correo electrónico o del mensaje SMS<li>Editar versión de borrador en el espacio de diseño visual<li>Publicar versión de borrador<li>Duplicado<li>Eliminar (elimina ambas versiones)<li>Descartar borrador (vuelve al estado publicado) |
 
 ![Ciclo de vida del estado de la página de aterrizaje](./assets/status-lifecycle-diagram.png){zoomable="yes"}
-
-## Creación de una página de destino
-
-Puede agregar una nueva página de aterrizaje en Journey Optimizer B2B edition haciendo clic en **[!UICONTROL Crear página de aterrizaje]** en la parte superior derecha.
-
-1. En el cuadro de diálogo _[!UICONTROL Crear página de aterrizaje]_, escriba un **[!UICONTROL Nombre]** y una **[!UICONTROL Descripción]** útiles (opcional).
-
-   Requisitos de la página de aterrizaje:
-
-   * Nombre: máximo de 100 caracteres, debe ser único, sin distinción de mayúsculas y minúsculas
-
-   * Descripción: máximo de 300 caracteres
-
-   * Se permiten caracteres Alpha, numéricos y especiales
-
-   * Los caracteres reservados **_no se permiten_**: `\ / : * ? " < > |`
-
-   ![Crear cuadro de diálogo de página de aterrizaje](./assets/landing-page-create-dialog.png){width="400"}
-
-1. Si es necesario y hay varios subdominios configurados, cambie el **[!UICONTROL subdominio]** que se utilizará en la página de aterrizaje.
-
-1. Haga clic en **[!UICONTROL Crear]**.
-
-   Se abre la página de inicio _[!UICONTROL Crear su página de aterrizaje principal]_ y proporciona varias opciones para crear la página: _[!UICONTROL Diseñar desde cero]_, _[!UICONTROL Importar HTML]_ o usar una plantilla guardada.
-
-   ![Elige cómo quieres comenzar con el diseño de tu página de aterrizaje](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
-
-   Después de seleccionar el método que desea usar para iniciar el diseño de la página de aterrizaje, use el espacio de diseño visual para [diseñar la página](./landing-page-design.md).
-
-### Diseñe desde cero
-
-Utilice el editor de contenido visual para definir la estructura del contenido de la página de aterrizaje. Al agregar y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar la forma del contenido de la página en cuestión de segundos.
-
-1. En la página de inicio _[!UICONTROL Crear su página de aterrizaje principal]_, seleccione la opción **[!UICONTROL Diseñar desde cero]**.
-
-1. [Agregar estructura y contenido](./landing-page-design.md#add-structure-and-content) a la página.
-
-### Importar HTML
-
-Adobe Journey Optimizer B2B edition le permite importar contenido existente de HTML para diseñar sus páginas de aterrizaje.
-
-{{$include /help/_includes/content-design-import.md}}
-
-![importar contenido html en un archivo zip](./assets/templates-import-zip-file.png){width="500"}
-
->[!NOTE]
->
->El uso de una etiqueta `<table>` como primera capa de un archivo HTML puede causar la pérdida de estilo, incluida la configuración del fondo y el ancho en la etiqueta de la capa superior.
-
-Puede personalizar el contenido importado según sea necesario con el espacio de diseño visual.
-
-### Seleccionar una plantilla guardada o de ejemplo
-
-Puede elegir entre:
-
-* **Plantillas de ejemplo**. La interfaz de B2B edition de Journey Optimizer ofrece una colección de plantillas de página de aterrizaje integradas que puede utilizar como punto de partida para el diseño de páginas de aterrizaje.
-
-* **Plantillas guardadas**. Usar una plantilla personalizada guardada creada por un miembro de su organización mediante el menú _[!UICONTROL Plantillas]_ <!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
-
-Utilice la sección _[!UICONTROL Seleccionar plantilla de diseño]_ para empezar a crear contenido a partir de una plantilla. Puede utilizar una plantilla de ejemplo o una plantilla de página de aterrizaje personalizada guardada desde la instancia de Journey Optimizer B2B edition.
-
->[!BEGINTABS]
-
->[!TAB Plantillas guardadas]
-
-En la página de inicio _Crear su página de aterrizaje principal_, la ficha _Plantillas de ejemplo_ está seleccionada de forma predeterminada. Para usar una plantilla personalizada, selecciona la pestaña **[!UICONTROL Plantillas guardadas]**.
-
-Se muestra la lista de todas las plantillas de página de aterrizaje guardadas. Puede ordenarlos por _[!UICONTROL Nombre]_, _[!UICONTROL Última modificación]_ y _[!UICONTROL Última creación]_.
-
-![Elegir una plantilla guardada](./assets/landing-page-design-saved-templates-sort-by.png){width="700" zoomable="yes"}
-
-Seleccione la plantilla que desee en la lista.
-
-Después de la selección, se muestra una previsualización de la plantilla. En el modo de vista previa, puede desplazarse entre todas las plantillas de una categoría (de ejemplo o guardadas, según su selección) utilizando las flechas derecha e izquierda.
-
-![Vista previa de la plantilla guardada](./assets/landing-page-design-saved-template-preview.png){width="800" zoomable="yes"}
-
-Cuando la pantalla coincida con lo que desea usar, haga clic en **[!UICONTROL Usar esta plantilla]** en la parte superior derecha de la ventana de vista previa.
-
-Esta acción copia el contenido en el espacio de diseño visual, donde puede editarlo según sea necesario.
-
->[!TAB Plantillas de muestra]
-
-Adobe Journey Optimizer B2B edition ofrece una selección de _plantillas de página de aterrizaje predeterminadas_, que se pueden usar para crear sus propias páginas de aterrizaje y plantillas de página de aterrizaje.
-
-<!-- ![Choose a template provided by Adobe](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"} -->
-
->[!ENDTABS]
-
-<!--
->[!NOTE]
->
-> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). 
--->
 
 ## Edición de una página de aterrizaje
 
@@ -195,7 +104,7 @@ Las ediciones realizadas en una página de aterrizaje dependen de su estado actu
 
    Utilice las herramientas de diseño visual según sea necesario:
 
-   * [Añadir estructura y contenido](./landing-page-design.md#add-structure-and-content)
+   * [Añadir estructura y contenido](./landing-page-design.md#structure-content-landing-page)
    * [Añadir Assets](./landing-page-design.md#add-assets)
    * [Desplazamiento por las capas, la configuración y los estilos](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalización del contenido](./landing-page-design.md#personalize-content)
@@ -207,7 +116,7 @@ Las ediciones realizadas en una página de aterrizaje dependen de su estado actu
 
 >[!TAB Publicado]
 
-1. En la página de lista _[!UICONTROL Página de aterrizaje]_, haga clic en el nombre de página para abrirla.
+1. En la página de listado _[!UICONTROL Páginas de aterrizaje]_, haga clic en el nombre de la página para abrirla.
 
    Se muestra una previsualización del contenido visual, con los detalles de la página de aterrizaje a la derecha.
 
@@ -223,7 +132,7 @@ Las ediciones realizadas en una página de aterrizaje dependen de su estado actu
 
    Utilice las herramientas de diseño visual según sea necesario:
 
-   * [Añadir estructura y contenido](./landing-page-design.md#add-structure-and-content)
+   * [Añadir estructura y contenido](./landing-page-design.md#structure-content-landing-page)
    * [Añadir Assets](./landing-page-design.md#add-assets)
    * [Desplazamiento por las capas, la configuración y los estilos](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalización del contenido](./landing-page-design.md#personalize-content)
@@ -237,7 +146,7 @@ Las ediciones realizadas en una página de aterrizaje dependen de su estado actu
 
 >[!TAB Publicado con borrador]
 
-Al abrir la página de aterrizaje, se muestra la versión de borrador de forma predeterminada. Las pestañas de la parte superior del espacio de vista previa permiten alternar la visualización entre las versiones publicadas y las de borrador. Las acciones de borrador y los detalles se muestran a la derecha.
+Al abrir la página de aterrizaje, se muestra la versión en borrador. Las pestañas de la parte superior del espacio de vista previa permiten alternar la visualización entre las versiones publicadas y las de borrador. Las acciones de borrador y los detalles se muestran a la derecha.
 
 ![Vista previa y detalles de la versión de borrador de la página de aterrizaje](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
 
@@ -245,7 +154,7 @@ Para actualizar el contenido:
 
 1. Haga clic en **[!UICONTROL Editar página de aterrizaje]** en la parte superior derecha. Utilice las herramientas de diseño visual según sea necesario:
 
-   * [Añadir estructura y contenido](./landing-page-design.md#add-structure-and-content)
+   * [Añadir estructura y contenido](./landing-page-design.md#structure-content-landing-page)
    * [Añadir Assets](./landing-page-design.md#add-assets)
    * [Desplazamiento por las capas, la configuración y los estilos](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Personalización del contenido](./landing-page-design.md#personalize-content)
@@ -258,28 +167,6 @@ Para actualizar el contenido:
    Cuando publica la versión de borrador, reemplaza la versión publicada actual y el contenido se actualiza en la página alojada.
 
 >[!ENDTABS]
-
-### Comprobación de alertas
-
-A medida que diseña el contenido de la página de aterrizaje, las alertas se muestran en la interfaz (parte superior derecha) cuando falta la configuración clave.
-
-![Alertas por problemas con el contenido de la página](./assets/alerts-button.png){width="250"}
-
-Si no ve este botón, no se detectan problemas.
-
-Se pueden detectar dos tipos de alertas:
-
-* **_Advertencias_** que hacen referencia a recomendaciones y prácticas recomendadas, como:
-
-   * `Placeholder links are present in the landing page body`: no olvide reemplazar los marcadores de posición con vínculos válidos.
-
-   * `Text version of HTML is empty`: no se olvide de definir una versión de texto del cuerpo de la página, que se utilizará cuando no se pueda mostrar el contenido de HTML.
-
-   * `Empty link is present in page body`: compruebe que todos los vínculos de la página sean correctos.
-
-* **_Errores_** que impiden probar o activar el recorrido o la campaña siempre y cuando no se resuelvan, como:
-
-   * `The landing page content is empty`: el contenido de la página es obligatorio.
 
 ## Duplicación de una página de aterrizaje
 

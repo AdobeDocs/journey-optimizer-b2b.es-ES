@@ -4,22 +4,16 @@ description: 'Diseñe correos electrónicos, páginas de aterrizaje y fragmentos
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
 workflow-type: tm+mt
-source-wordcount: 3057
+source-wordcount: 3064
 ht-degree: 7%
 
 ---
@@ -165,7 +159,7 @@ Cada tipo de componente de contenido muestra una barra de herramientas al selecc
         <th style="width: 20%;">Componentes</th>
     </tr>
     <tr>
-        <td><img width="160px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="Herramienta Color de fuente"></td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="Herramienta Color de fuente"></td>
         <td>Aplicar color de fuente al texto seleccionado. Elija un color del selector y utilice el regulador de color y el campo de color para seleccionar el color. O bien, puede introducir un valor RGB, HSL, HSB o hexadecimal conocido. </td>
         <td><li>Botón <li>Texto</td>
     </tr>
@@ -182,8 +176,8 @@ Cada tipo de componente de contenido muestra una barra de herramientas al selecc
         <th style="width: 20%;">Componentes</th>
     </tr>
     <tr>
-        <td><img width="120px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="Herramienta Insertar vínculo"></td>
-        <td>Cree un vínculo en el que se pueda hacer clic (dirección URL externa o página de aterrizaje) para el texto o elemento seleccionado.</td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="Herramienta Insertar vínculo"></td>
+        <td>Cree un vínculo en el que se pueda hacer clic para el texto o elemento seleccionado. <li>Contenido de correo electrónico: especifique una dirección URL externa o una página de aterrizaje.<li>Contenido de la página de aterrizaje: especifique un vínculo externo.</td>
         <td><li>Botón <li>Texto <li>Imagen </td>
     </tr>
 </table>
@@ -200,7 +194,7 @@ Cada tipo de componente de contenido muestra una barra de herramientas al selecc
     </tr>
     <tr>
         <td><img width="80px" src="../assets/do-not-localize/toolbar-button-remove-link.png" alt="Quitar herramienta de vinculación"></td>
-        <td> Elimine el vínculo en el que se puede hacer clic (dirección URL externa o página de aterrizaje) del texto o elemento seleccionado.</td>
+        <td> Quitar el vínculo en el que se puede hacer clic para el texto o elemento seleccionado.</td>
         <td><li>Botón <li>Texto <li>Imagen </td>
     </tr>
 </table>
@@ -312,7 +306,7 @@ En la ficha _[!UICONTROL Configuración]_, use las opciones de **[!UICONTROL Ví
 
    * **Página de aterrizaje**: elija este tipo para seleccionar una página de aterrizaje publicada en <!-- Journey Optimizer B2B Edition (_Beta_) or -->la instancia de Marketo Engage conectada.
 
-     Para la opción **[!UICONTROL Página de aterrizaje]**, seleccione la página de aterrizaje publicada. Haga clic en el icono _Seleccionar página_ ( ![Mostrar icono de vínculos](/help/assets/do-not-localize/icon-landing-page-select.svg) ) y [seleccione la página de aterrizaje publicada](./landing-pages.md#link-to-a-landing-page).
+     Para la opción **[!UICONTROL Página de aterrizaje]**, seleccione la página de aterrizaje publicada. Haga clic en el icono _Seleccionar página_ ( ![Mostrar icono de vínculos](../assets/do-not-localize/icon-landing-page-select.svg) ) y [seleccione la página de aterrizaje publicada](./landing-pages.md#link-to-a-landing-page).
 
      ![Definir un vínculo a una página de aterrizaje para un componente de botón](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -628,7 +622,7 @@ En la ficha _[!UICONTROL Configuración]_, use las opciones de **[!UICONTROL Ví
 
    * **Página de aterrizaje**: elija este tipo para seleccionar una página de aterrizaje publicada en <!-- Journey Optimizer B2B Edition (_Beta_) or -->la instancia de Marketo Engage conectada.
 
-     Para la opción **[!UICONTROL Página de aterrizaje]**, seleccione la página de aterrizaje publicada. Haga clic en el icono _Seleccionar página_ ( ![Mostrar icono de vínculos](/help/assets/do-not-localize/icon-landing-page-select.svg) ) y [seleccione la página de aterrizaje publicada](./landing-pages.md#link-to-a-landing-page).
+     Para la opción **[!UICONTROL Página de aterrizaje]**, seleccione la página de aterrizaje publicada. Haga clic en el icono _Seleccionar página_ ( ![Mostrar icono de vínculos](../assets/do-not-localize/icon-landing-page-select.svg) ) y [seleccione la página de aterrizaje publicada](./landing-pages.md#link-to-a-landing-page).
 
      ![Definir un vínculo a una página de aterrizaje para un componente de botón](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -756,7 +750,7 @@ Puede establecer las siguientes opciones de estilo para el componente _Social_:
 
 +++
 
-### Formulario (páginas de aterrizaje)
+### Formulario (solo páginas de aterrizaje) {#form}
 
 [!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Función Beta"}
 
@@ -778,7 +772,7 @@ Utilice el componente _Formulario_ para agregar un formulario publicado a una p�
 
      >[!TIP]
      >
-     >Si desea que el usuario utilice el formulario para descargar un archivo, puede especificar una URL para el archivo alojado. Con esta configuración, el botón de envío funciona como un botón de descarga.
+     >Si desea utilizar el formulario para descargar un archivo, puede especificar una dirección URL para el archivo alojado. Con esta configuración, el botón de envío funciona como un botón de descarga.
 
      ![Cambiar la configuración de seguimiento](../../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 

@@ -4,20 +4,15 @@ description: 'Cree mensajes SMS para recorridos de cuenta con personalización, 
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T22:13:38.262Z
-TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+autotag-review: '2026-05-27T16:18:50.732Z'
+TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
 source-wordcount: 1306
 ht-degree: 3%
@@ -109,7 +104,7 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
      >[!NOTE]
      >
      >Cuando permite el seguimiento pero deshabilita _[!UICONTROL Incluir mkt_tok]_, la dirección URL de destino no incluye el parámetro de cadena de consulta `mkt_tok` después del redireccionamiento. Este parámetro lo utilizan las páginas de aterrizaje de Marketo Engage y Munchkin para garantizar que el seguimiento de las actividades personales (como cuando una persona cancela la suscripción de un correo electrónico). No deshabilite esta opción a menos que el parámetro esté causando problemas en el sitio web.<br/>
-     >Para obtener más información sobre cómo usar los códigos de seguimiento de Munchkin en tu sitio web, consulta la [documentación de Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Para obtener más información sobre cómo usar los códigos de seguimiento de Munchkin en tu sitio web, consulta la [documentación de Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Cuadro de diálogo Agregar vínculo para mensaje SMS](./assets/sms-add-link-dialog.png){width="470"}
 

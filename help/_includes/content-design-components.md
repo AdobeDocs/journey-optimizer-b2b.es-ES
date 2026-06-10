@@ -1,10 +1,10 @@
 ---
 title: 'Creación de contenido: componentes'
 description: Sección reutilizada sobre el uso de componentes y elementos de contenido para la creación de contenido
-source-git-commit: 6ff0d61295d46bfc0706e522ff870d99fc48e70d
+source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,19 @@ ht-degree: 0%
 
    Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de estructura. Solo se pueden eliminar columnas vacías.
 
+   Para obtener más información acerca de cómo usar y dar formato a estos componentes, vea _[Componentes de estructura](../user/content/structure-components.md)_.
+
 1. Expanda la sección **[!UICONTROL Contenido]** y agregue tantos componentes de contenido como necesite a uno o más componentes de estructura.
 
    ![Arrastre un elemento de contenido al lienzo y ajuste la configuración](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
-   <!--
-   reference to the contents elements when we have a completed reference for each.
-   -->
+   * [Contenedor](../user/content/content-components.md#container)
+   * [Botón](../user/content/content-components.md#button)
+   * [Texto](../user/content/content-components.md#text)
+   * [Divisor](../user/content/content-components.md#divider)
+   * [Imagen](../user/content/content-components.md#image)
+   * [Social](../user/content/content-components.md#social)
+   * [Formulario](../user/content/content-components.md#form) (solo páginas de aterrizaje)
 
 1. Si es necesario, puede realizar personalizaciones adicionales para cada componente en las fichas _[!UICONTROL Configuración]_ o _[!UICONTROL Estilo]_.
 
