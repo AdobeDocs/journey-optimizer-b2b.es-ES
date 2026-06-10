@@ -4,20 +4,25 @@ description: 'Cree mensajes SMS para recorridos de cuenta con personalización, 
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
+autotag-review: '2026-05-27T16:18:50.732Z'
+TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: 2026-03-30T22:13:38.262Z
-TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
 source-wordcount: 1306
 ht-degree: 3%

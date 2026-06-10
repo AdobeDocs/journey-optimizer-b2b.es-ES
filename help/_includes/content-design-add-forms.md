@@ -1,9 +1,9 @@
 ---
 title: 'Creación de contenido: añadir formularios'
 description: Sección reutilizada sobre cómo agregar formularios en páginas de aterrizaje y plantillas
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ En el siguiente ejemplo se describen los pasos para agregar un formulario al dis
 
    >[!TIP]
    >
-   >Para agregar el formulario de modo que ocupe todo el diseño horizontal dentro del correo electrónico, agregue una estructura de columna 1:1 y, a continuación, arrastre y suelte el formulario en él.
+   >Para agregar el formulario de modo que ocupe todo el diseño horizontal del correo electrónico, agregue una estructura de columnas de 1:1 y, a continuación, arrastre y suelte el formulario en él.
 
 1. Haga clic en el icono _Formulario_ en la barra de herramientas de componentes o use las propiedades de **[!UICONTROL Incrustar formulario]** a la derecha para seleccionar el formulario publicado.
 
@@ -38,7 +38,7 @@ En el siguiente ejemplo se describen los pasos para agregar un formulario al dis
 
      >[!TIP]
      >
-     >Si desea que el usuario utilice el formulario para descargar un archivo, puede especificar una URL para el archivo alojado. Con esta configuración, el botón de envío funciona como un botón de descarga.
+     >Si desea utilizar el formulario para descargar un archivo, puede especificar una dirección URL para el archivo alojado. Con esta configuración, el botón de envío funciona como un botón de descarga.
 
    ![Cambiar la configuración de seguimiento](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 

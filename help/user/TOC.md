@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
+source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 92%
+source-wordcount: '449'
+ht-degree: 89%
 
 ---
 
@@ -76,6 +76,7 @@ ht-degree: 92%
    + [Audiencias externas de destino](./audiences/target-external-audience.md)
    + [Audiencias coincidentes con cuentas de LinkedIn](./data/linkedin-account-matched-audiences.md)
    + [Campos XDM predeterminados](./admin/field-mapping.md)
+   + [Perfiles de prueba](./audiences/test-profiles.md)
 + Cuentas {#accounts}
    + Grupos de compras {#buying-groups}
       + [Información general](./buying-groups/buying-groups-overview.md)
@@ -121,16 +122,17 @@ ht-degree: 92%
          + [Edición avanzada de HTML](./content/email-template-advanced-html.md)
          + [Convertir imagen en plantilla](./content/email-template-image-convert.md)
       + Plantillas de la página de destino (beta) {#landing-page-templates}
-         + {hide-from-toc}[Información general](./content/landing-page-templates.md)
+         + [Información general](./content/landing-page-templates.md)
          + [Diseño de plantilla de la página de destino](./content/landing-page-template-design.md)
    + Fragmentos {#visual-fragments}
       + [Información general](./content/fragments.md)
       + [Creación de fragmentos](./content/fragment-authoring.md)
-   + Forms (Beta) {#forms}
+   + Formularios {#forms}
       + [Información general](./content/forms.md)
       + [Diseño de formulario](./content/form-design.md)
-   + Páginas de aterrizaje (Beta) {#landing-pages}
+   + Páginas de aterrizaje {#landing-pages}
       + [Información general](./content/landing-pages.md)
+      + [Crear y publicar](./content/landing-pages-create-publish.md)
       + [Diseño de la página de destino](./content/landing-page-design.md)
       + [Asistente de IA para el contenido de páginas de aterrizaje](./content/ai-assistant-landing-pages.md)
    + Herramientas de diseño de contenido {#content-design}
@@ -170,4 +172,5 @@ ht-degree: 92%
       + [Configuración de SMS](./admin/configure-channels-sms.md)
       + [Configuraciones de WhatsApp](./admin/configure-channels-whatsapp.md)
       + [Configuraciones del canal web (Beta)](./admin/configure-channels-web.md)
-      + [Configuración de la página de aterrizaje (Beta)](./admin/landing-page-settings.md)
+      + [Configuraciones de página de aterrizaje](./admin/configure-channels-landing-pages.md)
+      + [Configuraciones de Forms](./admin/configure-channels-forms.md)

@@ -1,10 +1,10 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 2%
+source-wordcount: '2343'
+ht-degree: 3%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Las licencias para AEM Assets y las licencias de as a Cloud Service y Dynamic Media son requisitos previos para la integración. Asegúrese de que [Dynamic Media con API abierta](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esté habilitado. La integración se limita a repositorios del _nivel de entrega_. Si usa el _nivel de Author_ y desea convertirlo, póngase en contacto con el Soporte técnico de Adobe Experience Manager.<br/>
->Según el contrato y la configuración, se puede acceder directamente a Adobe Experience Manager Assets as a Cloud Service desde Adobe Journey Optimizer B2B edition al diseñar contenido visual.
+>Las licencias para AEM Assets y las licencias de as a Cloud Service y Dynamic Media son requisitos previos para la integración. Asegúrese de que [Dynamic Media con API abierta](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esté habilitado. La integración se limita a repositorios del _nivel de entrega_. Si usa el _nivel de creación_ y desea convertirlo, póngase en contacto con el Soporte técnico de Adobe Experience Manager.<br/>
+>Según el contrato y la configuración, se puede acceder directamente a Adobe Experience Manager Assets as a Cloud Service desde Adobe Journey Optimizer B2B edition cuando se diseña contenido visual.
 
 ## Creación de contenido: componentes, paso de estructuras {#structures-step}
 
@@ -141,7 +141,7 @@ Seleccione la casilla de verificación y haga clic en el cuadrado de color para 
 
 En el panel derecho con la ficha _[!UICONTROL Estilos]_ seleccionada, expanda la sección **[!UICONTROL Margen]** y establezca las opciones de espaciado de los márgenes dentro del componente estructural. Este estilo replica el parámetro `margin` de CSS, que controla el espacio fuera del borde de un componente y lo separa de otros componentes. Crea un espacio alrededor del componente para influir en su posición y el diseño del contenido circundante.
 
-Establezca los valores de los márgenes en píxeles según sus necesidades de diseño. Puede establecer el margen para todos los lados, el superior inferior, el izquierdo-derecho o cada lado del componente de forma independiente:
+Establezca los valores de los márgenes en píxeles según sus necesidades de diseño. Puede establecer el margen para todos los lados, el superior-inferior, el izquierdo-derecho o cada lado del componente de forma independiente:
 
 * **Todos los lados**: para establecer un valor que se aplicará a todos los lados, desactive la casilla de verificación **[!UICONTROL Margen diferente para cada lado]**. Haga clic en los iconos de flecha arriba y abajo para aumentar o disminuir el número de píxeles.
 
@@ -161,7 +161,7 @@ Establezca los valores de los márgenes en píxeles según sus necesidades de di
 
 En el panel derecho con la ficha _[!UICONTROL Estilos]_ seleccionada, expanda la sección **[!UICONTROL Relleno]** y establezca las opciones de relleno dentro del componente estructural. Este estilo replica el parámetro CSS `padding`, que es el espacio entre el contenido de un componente y su borde. El relleno proporciona un espacio interno que puede utilizar para controlar la distancia entre el contenido y el borde del componente.
 
-Establezca los valores de relleno en píxeles según sus necesidades de diseño. Puede establecer el relleno para todos los lados, el botón superior, el lado izquierdo-derecho o cada lado del componente de forma independiente:
+Establezca los valores de relleno en píxeles según sus necesidades de diseño. Puede establecer el relleno para todos los lados, de arriba a abajo, de izquierda a derecha o de cada lado del componente de forma independiente:
 
 * **Todos los lados**: para establecer un valor que se aplicará a todos los lados, desactive la casilla de verificación **[!UICONTROL Relleno diferente para cada lado]**. Haga clic en los iconos de flecha arriba y abajo para aumentar o disminuir el número de píxeles.
 

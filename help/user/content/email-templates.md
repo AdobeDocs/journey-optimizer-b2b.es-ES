@@ -17,7 +17,7 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:17:40.055Z
 TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 1538
 ht-degree: 0%
@@ -90,7 +90,7 @@ Utilice el editor de contenido visual para definir la estructura del contenido d
 
    Al hacer clic fuera de la lista, la temática seleccionada aplica los estilos. Puede alternar entre las variantes de color.
 
-1. [Agregar estructura y contenido](./email-authoring.md#add-structure-and-content) a la plantilla.
+1. [Agregar estructura y contenido](./email-authoring.md#structure-content) a la plantilla.
 
    Si hay una temática aplicada, los componentes añadidos heredan automáticamente los estilos definidos en la temática.
 

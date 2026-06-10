@@ -17,10 +17,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
-source-wordcount: 1164
-ht-degree: 3%
+source-wordcount: 1381
+ht-degree: 2%
 
 ---
 
@@ -58,7 +58,7 @@ Utilice el espacio de diseño de contenido visual para definir la estructura y e
 
    * **[!UICONTROL Estilo manual]**: elija esta opción para crear el correo electrónico en _modo manual_. En este modo, se establece manualmente el estilo para todos los componentes de estructura y contenido que se añaden al lienzo en blanco.
 
-1. [Agregar estructura y contenido](./email-authoring.md#add-structure-and-content) a la plantilla.
+1. [Agregar estructura y contenido](./email-authoring.md#structure-content) a la plantilla.
 
 1. [Revisar y actualizar vínculos](#preview-and-edit-linked-urls).
 
@@ -141,6 +141,20 @@ Una vez guardado el correo electrónico, aparecerá en la página de detalles de
 ### Editar seguimiento de URL vinculadas
 
 {{$include /help/_includes/content-design-links.md}}
+
+![Haga clic en el icono Editar para acceder al seguimiento de vínculos](./assets/email-link-tracking.png){width="400"}
+
+El sistema de entrega de correo electrónico (a través de Marketo Engage) ajusta automáticamente todas las direcciones URL de los correos electrónicos de HTML con una redirección de seguimiento única cuando se envían. Use **[!UICONTROL Tipo de seguimiento]** para controlar el seguimiento del vínculo:
+
+* **[!UICONTROL Seguimiento sin token]**: el sistema registra el clic, pero no realiza un seguimiento de lo que hace el usuario a continuación en la página web. Esto puede ser importante en ciertos casos técnicos, como cuando se trata de sistemas de terceros que podrían no gestionar mkt_tok correctamente. Sin embargo, el seguimiento web posterior es limitado.
+
+* **[!UICONTROL Seguimiento con mkt-tok]**: use el token de seguimiento (mkt_tok) para realizar un seguimiento de las actividades web subsiguientes a través de Munchkin. Cuando un destinatario hace clic en el vínculo, registra un evento _Click Email_ en el registro de actividad, rastrea de forma segura su actividad y aplica una cookie para monitorizar las interacciones futuras con el sitio.
+
+* **[!UICONTROL No rastrear]**: el sistema no realiza el seguimiento de la actividad asociada con el vínculo. Esto resulta útil cuando la página de destino no admite parámetros de URL y puede provocar que se rompa un vínculo.
+
+  >[!NOTE]
+  >
+  >Si se envió un correo electrónico hace más de 365 días y nadie hizo clic en ninguno de sus vínculos en los últimos 180 días, el sistema elimina la ruta a la dirección URL desde la base de datos. Esta eliminación provoca que el vínculo se rompa. Si desea que el vínculo sea permanente, debe deshabilitar el seguimiento.
 
 ### Aplicar estilo de modo oscuro
 

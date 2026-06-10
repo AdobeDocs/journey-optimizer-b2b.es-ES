@@ -18,7 +18,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:44:41.871Z
 TQID: https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7b884e313f584252aecc25ee813dfb6c7f5d8f15
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 6%
@@ -57,7 +57,7 @@ Use el _[!UICONTROL filtro de intervalo de fechas]_ en la parte superior derecha
 
 ![Filtrar los datos mostrados por intervalo de fechas](./assets/engagement-date-filter.png){width="380"}
 
-Para el rango **[!UICONTROL Custom]**, puede usar la herramienta de calendario para especificar una fecha de inicio y una de finalización. La fecha de finalización toma como valor predeterminado el día actual.
+Para el intervalo **[!UICONTROL Custom]**, haga clic en el icono _Calendario_ ( ![Icono del calendario](../assets/do-not-localize/icon-calendar.svg) ) para especificar una fecha de inicio y una de finalización. La fecha de finalización toma como valor predeterminado el día actual.
 
 ![Filtrar los datos mostrados por atributos](./assets/engagement-date-filter-custom.png){width="380"}
 
@@ -91,7 +91,7 @@ Los filtros globales (rango de datos y atributos) aplicados al panel se transfie
 
 | Participación por cuentas | Participación por grupos de compras | Participación por personas |
 | ---------------------- | --------------------------- | -------------------- |
-| <li>Nombre de la cuenta <li>Estado <li>Personas comprometidas (número)<li>Actividades de participación (número) <li>Último compromiso (fecha) | <li>Grupo de compra <li>Cuenta <li>Interés de la solución <li>Estado <li>Actividades de participación (número) | <li>Nombre <li>Estado <li>Correo electrónico (dirección) <li>Actividades de participación (número) <li>Último compromiso (fecha) |
+| <li>Nombre de cuenta <li>Estado <li>Personas comprometidas (número)<li>Actividades de participación (número) <li>Último compromiso (fecha) | <li>Grupo de compras <li>Cuenta <li>Interés de la solución <li>Estado <li>Actividades de participación (número) | <li>Nombre <li>Estado <li>Correo electrónico (dirección) <li>Actividades de participación (número) <li>Último compromiso (fecha) |
 
 Puede hacer clic en el icono de menú **...** en la parte superior derecha y elegir **[!UICONTROL Ver más]** para [ver datos y perspectivas ampliados](#view-more).
 
@@ -105,6 +105,6 @@ Según el gráfico, hay datos ampliados para lo siguiente:
 
 | Participación por cuentas / comprar grupos / personas | Cuentas/grupos de compra/personas comprometidas a lo largo del tiempo |
 | ----------------------------------------------- | -------------------------------------------------- |
-| <li>Interacciones <li>Sin participación | <li>Fecha <li>Cuentas / Grupos de compra / Personas (número) <li>Comprometido/No comprometido |
+| <li>Comprometido <li>Sin participación | <li>Fecha <li>Cuentas / Grupos de compra / Personas (número) <li>Comprometido/No comprometido |
 
 Para copiar los datos extendidos, haga clic en **[!UICONTROL Descargar CSV]** en la parte superior derecha.

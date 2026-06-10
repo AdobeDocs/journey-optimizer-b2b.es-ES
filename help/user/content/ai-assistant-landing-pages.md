@@ -2,7 +2,6 @@
 title: Asistente de IA para contenido de página de aterrizaje
 description: 'Generar contenido de página de aterrizaje con el asistente de IA: cree texto e imágenes de página con sus recursos de referencia y compre la segmentación de funciones de grupo en Journey Optimizer B2B edition.'
 feature: Generative AI, Landing Pages, Content
-badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 topic: Artificial Intelligence
 role: User
 level: Beginner
@@ -23,10 +22,10 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 2700
-ht-degree: 1%
+source-wordcount: 2690
+ht-degree: 0%
 
 ---
 
@@ -140,7 +139,7 @@ Siga estos pasos según el tipo de generación de contenido de página de aterri
 
 Siga estos pasos para utilizar el Asistente de IA para generar una página de aterrizaje completa refinando una plantilla de página de aterrizaje existente:
 
-1. Después de [crear la página de aterrizaje](./landing-pages.md#create-a-landing-page), haga clic en **[!UICONTROL Editar página de aterrizaje]**.
+1. Después de [crear la página de aterrizaje](./landing-pages-create-publish.md#create-landing-page), haga clic en **[!UICONTROL Editar página de aterrizaje]**.
 
 1. Seleccione una plantilla.
 
