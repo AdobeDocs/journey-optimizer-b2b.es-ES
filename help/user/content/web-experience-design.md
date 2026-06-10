@@ -7,11 +7,21 @@ badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función e
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
 autotag-review: '2026-05-27T16:20:57.090Z'
 TQID: 'https://experienceleague.adobe.com/VduQltglsVryZl5TEFtWVASl-C8IQX9B7CNNQdIkXnA'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
 source-wordcount: 2339

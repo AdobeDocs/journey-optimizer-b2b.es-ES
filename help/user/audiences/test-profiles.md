@@ -6,11 +6,17 @@ role: Admin
 level: Intermediate
 autotag-review: '2026-05-29T18:38:56.987Z'
 TQID: 'https://experienceleague.adobe.com/7HMk9y8XhI6ONurF341d46oxkWj8dgnUdnWTylUu4pw'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
 workflow-type: tm+mt
 source-wordcount: 843

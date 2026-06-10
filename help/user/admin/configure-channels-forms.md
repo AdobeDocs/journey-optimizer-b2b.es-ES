@@ -5,11 +5,17 @@ feature: Setup, Channels
 role: Admin
 autotag-review: '2026-05-27T16:06:59.553Z'
 TQID: 'https://experienceleague.adobe.com/GFW5SZ5Z-phoEIE6jTVD7EgwcT1Vx647mjoLXJejbFg'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
 source-wordcount: 542
@@ -27,7 +33,7 @@ Cuando los datos aterrizan en el extremo de flujo continuo, se vinculan con la i
 
 ## Prerrequisitos
 
-Para usar formularios web, debes tener una o más _**conexiones de streaming de API HTTP**_ definidas en Adobe Experience Platform. Asegúrese de que cada conexión que desea utilizar cumple los siguientes requisitos:
+Para usar formularios web, debes tener una o más _&#x200B;**conexiones de streaming de API HTTP**&#x200B;_ definidas en Adobe Experience Platform. Asegúrese de que cada conexión que desea utilizar cumple los siguientes requisitos:
 
 * El tipo de datos debe establecerse en XDM (no en datos sin procesar)
 * La autenticación debe estar deshabilitada (conexión no autenticada)
