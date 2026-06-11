@@ -5,11 +5,17 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
 source-git-commit: 06b214f486571275d723e7a67fdf352263990b79
@@ -37,7 +43,7 @@ Un nodo _Split paths_ define una o más rutas segmentadas en función de la cuen
 
 Dividir por rutas de cuentas puede incluir acciones y eventos de cuenta y personas. Estas rutas se pueden dividir más.
 
-_**Funcionamiento de un nodo de ruta dividida por cuentas**_
+_&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
 
 * Cada ruta que agregue incluirá un nodo final con la capacidad de agregar nodos a cada borde.
 * Dividir por nodos de cuenta se puede anidar (puede dividir la ruta por cuentas repetidamente).
@@ -129,7 +135,7 @@ _(recorridos de cuenta y persona)_
 
 Dividir por rutas de personas solo puede incluir acciones de personas. Estas rutas no se pueden volver a dividir y se vuelven a unir automáticamente.
 
-_**Funcionamiento de un nodo de ruta dividida por personas**_
+_&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 
 * Dividido por nodos de personas funciona dentro de una combinación de _nodo agrupado_ de combinación dividida. Las rutas divididas se combinan automáticamente para que todas las personas puedan pasar al siguiente paso sin perder el contexto de su cuenta.
 * No se pueden anidar nodos divididos por personas (no se puede agregar una ruta dividida para personas en una ruta que se encuentre en este nodo agrupado).
@@ -227,7 +233,7 @@ Puede restringir aún más el filtro mediante restricciones específicas de los 
 
 >[!BEGINSHADEBOX &quot;Filtro de inactividad&quot;]
 
-Para cada uno de los filtros _[!UICONTROL Historial de eventos]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Por ejemplo, agregue el filtro _[!UICONTROL Apertura de correo electrónico de marketing directo]_ para crear una ruta para las personas que _**no**_ abrieron un correo electrónico. Active la opción de inactividad y especifique el correo electrónico.
+Para cada uno de los filtros _[!UICONTROL Historial de eventos]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Por ejemplo, agregue el filtro _[!UICONTROL Apertura de correo electrónico de marketing directo]_ para crear una ruta para las personas que _&#x200B;**no**&#x200B;_ abrieron un correo electrónico. Active la opción de inactividad y especifique el correo electrónico.
 
 ![Dividir ruta por condición de inactividad de personas](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
