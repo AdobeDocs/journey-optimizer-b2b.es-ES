@@ -103,7 +103,7 @@ Antes de empezar a crear formularios reutilizables en Journey Optimizer B2B edit
 >id="ajo-b2b_lp_form_preset"
 >title="Selección de un ajuste preestablecido"
 >abstract="Elija un ajuste preestablecido que contenga la conexión que se va a utilizar y un conjunto de datos predefinido para el formulario."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Crear un ajuste preestablecido de un formulario"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Crear un ajuste preestablecido de un formulario"
 
 Puede crear un formulario en Journey Optimizer B2B edition haciendo clic en **[!UICONTROL Crear formulario]** en la parte superior derecha de la página de lista de _[!UICONTROL Forms]_.
 
