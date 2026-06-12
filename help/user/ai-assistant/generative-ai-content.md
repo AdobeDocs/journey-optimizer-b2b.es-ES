@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 2476
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -37,17 +37,17 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="Generación de contenido mediante IA"
->abstract="Después de crear el diseño, use herramientas de IA generativa en [!DNL Journey Optimizer B2B Edition] para mejorar el contenido. Esta función simplifica la personalización y la mejora de contenido mediante el ajuste del contenido en función del mensaje."
+>abstract="Después de crear el diseño, use herramientas de IA generativa en [!DNL Journey Optimizer B2B Edition] para mejorar el contenido. Esta función simplifica la personalización y mejora de contenido al ajustar el contenido según su indicación."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="Contenido de referencia"
->abstract="Use _Contenido de referencia_ para cargar o seleccionar un archivo de recursos que proporcione contexto para IA generativa en [!DNL Journey Optimizer B2B Edition]. Esto garantiza que los materiales estén disponibles para mejorar la calidad y la relevancia del contenido generado."
+>abstract="Use el _contenido de referencia_ para cargar o seleccionar un archivo de recursos que proporcione contexto para la IA generativa en [!DNL Journey Optimizer B2B Edition]. Esto garantiza que todos los materiales estén disponibles para mejorar la calidad y la relevancia del contenido generado."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
 >title="Términos de la IA generativa de Adobe"
->abstract="El acceso a esta función requiere la aceptación de las Directrices del usuario de IA generativa de Adobe Experience Cloud. Revise cualquier resultado de esta función para verificar su exactitud y pertinencia para su caso de uso."
+>abstract="El acceso a esta función requiere su aceptación de las directrices de usuario de la IA generativa de Adobe Experience Cloud. Revise cualquier resultado de esta función para verificar su exactitud y pertinencia para su caso de uso."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Directrices del usuario de IA generativa de Adobe"
 
 La IA generativa para el contenido en [!DNL Adobe Journey Optimizer B2B Edition], con tecnología de Microsoft Azure OpenAI y Adobe Firefly, proporciona sugerencias de variación del contenido proactivas para texto e imágenes. Optimice el impacto de su contenido experimentando con diferentes títulos e imágenes principales.

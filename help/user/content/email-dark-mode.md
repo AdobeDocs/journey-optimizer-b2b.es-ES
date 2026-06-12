@@ -23,7 +23,7 @@ TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJ
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 1564
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Cambiar a modo oscuro"
->abstract="Cambie al modo oscuro para previsualizar el procesamiento y definir la configuración personalizada. <br>El procesamiento depende del cliente de correo electrónico del destinatario. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
+>abstract="Cambie al modo oscuro para previsualizar el renderizado y definir la configuración personalizada. <br>El renderizado depende del cliente de correo electrónico del destinatario. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
 >title="Cambiar a modo oscuro"
->abstract="Cambie al modo oscuro para previsualizar el procesamiento en los clientes de correo electrónico de soporte. <br>El renderizado final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que no todos los clientes de correo electrónico admiten el modo oscuro."
+>abstract="Cambie a modo oscuro para previsualizar el renderizado en los clientes de correo electrónico compatibles. <br>El renderizado final depende del cliente de correo electrónico del destinatario. Tenga en cuenta que no todos los clientes de correo electrónico admiten el modo oscuro."
 
 _El modo oscuro_ permite que un cliente de correo electrónico o aplicación compatible muestre correos electrónicos con fondos más oscuros y colores más claros para texto, botones y otros elementos visuales. Este tipo de pantalla puede reducir la fatiga visual, ahorrar batería y mejorar la legibilidad en entornos con poca luz para una experiencia de visualización más cómoda. Como tendencia creciente en los principales sistemas operativos y aplicaciones, ahora es una consideración importante en el diseño moderno del correo electrónico garantizar que el contenido sea legible y visualmente atractivo para todos los usuarios.
 
@@ -135,7 +135,7 @@ Al aplicar estilo al contenido del correo electrónico para el modo oscuro en [!
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Utilizar una imagen específica para el modo oscuro"
->abstract="Seleccione otra imagen para el modo oscuro. <br>Añadir una imagen específica no garantiza una representación correcta en todos los clientes de correo electrónico. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
+>abstract="Seleccione otra imagen para el modo oscuro. <br>Añadir una imagen específica no garantiza un renderizado correcto en todos los clientes de correo electrónico. No todos los clientes de correo electrónico admiten el modo oscuro personalizado."
 
 Después de cambiar al modo oscuro, puede editar elementos de estilo específicos del contenido que se muestran solo cuando el modo oscuro está habilitado en el cliente de correo electrónico del destinatario (siempre que admita esa función).
 
