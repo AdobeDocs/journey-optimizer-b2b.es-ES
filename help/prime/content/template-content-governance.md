@@ -4,10 +4,15 @@ description: Utilice la configuración de gobernanza en Journey Optimizer B2B Pr
 badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
 autotag-review: '2026-06-12T22:54:55.127Z'
 TQID: 'https://experienceleague.adobe.com/Ui1NkZSLoZ-fDe3xRJLgPLnbh-0FzC01kOafAsFzA9M'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
 source-wordcount: 620
