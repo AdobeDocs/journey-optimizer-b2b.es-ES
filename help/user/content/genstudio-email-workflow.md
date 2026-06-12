@@ -51,7 +51,7 @@ Por ejemplo, un experto en marketing técnico que utilice Journey Optimizer B2B 
 
 ## Funciones de generación de contenido de GenStudio
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio/performance-marketing.html){target="_blank"} es una aplicación generativa de IA-First que permite a los equipos de marketing crear anuncios y correos electrónicos impactantes y personalizados que se ajusten a los estándares de marca y cumplan con sus políticas empresariales. Al aprovechar la tecnología de Adobe AI, proporciona un conjunto completo de herramientas que simplifican las complejidades de la creación y administración de contenido, de modo que los creadores de contenido puedan centrarse en la innovación.
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/es/products/genstudio/performance-marketing.html){target="_blank"} es una aplicación generativa de IA-First que permite a los equipos de marketing crear anuncios y correos electrónicos impactantes y personalizados que se ajusten a los estándares de marca y cumplan con sus políticas empresariales. Al aprovechar la tecnología de Adobe AI, proporciona un conjunto completo de herramientas que simplifican las complejidades de la creación y administración de contenido, de modo que los creadores de contenido puedan centrarse en la innovación.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Crear correos electrónicos de marketing en la marca](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -89,7 +89,7 @@ GenStudio for Performance Marketing reconoce ciertos elementos dentro de la HTML
 
 Utilice el archivo HTML para crear una plantilla en GenStudio for Performance Marketing.
 
-Para obtener más información sobre cómo cargar una plantilla de HTML en Adobe GenStudio for Performance Marketing, consulte [Agregar una plantilla](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template) en la documentación de GenStudio for Performance Marketing.
+Para obtener más información sobre cómo cargar una plantilla de HTML en Adobe GenStudio for Performance Marketing, consulte [Agregar una plantilla](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template) en la documentación de GenStudio for Performance Marketing.
 
 Al cargar la HTML exportada como plantilla, GenStudio for Performance Marketing busca en el archivo HTML campos reconocidos. Utilice la vista previa para revisar los elementos de plantilla y confirmar que los ha identificado correctamente con los nombres de campo reconocidos.
 
@@ -97,7 +97,7 @@ Al cargar la HTML exportada como plantilla, GenStudio for Performance Marketing 
 
 En GenStudio for Performance Marketing, utilice la plantilla para crear varias variaciones de experiencia de correo electrónico y guardarlas.
 
-Para obtener información detallada sobre cómo generar experiencias de correo electrónico de marca, consulte [Crear una experiencia de correo electrónico](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) en la documentación de GenStudio for Performance Marketing.
+Para obtener información detallada sobre cómo generar experiencias de correo electrónico de marca, consulte [Crear una experiencia de correo electrónico](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) en la documentación de GenStudio for Performance Marketing.
 
 ## Añadir experiencias de correo electrónico generadas a Journey Optimizer B2B edition
 
