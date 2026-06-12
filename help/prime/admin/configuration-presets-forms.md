@@ -104,7 +104,7 @@ Al crear un ajuste preestablecido:
 
    >[!NOTE]
    >
-   >Actualmente, solo se pueden seleccionar [conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) habilitados para perfiles y no habilitados para perfiles. Se puede seleccionar un conjunto de datos a la vez. Los conjuntos de datos del sistema no se pueden usar para guardar datos de formulario.
+   >Actualmente, solo se pueden seleccionar [conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview) habilitados para perfiles y no habilitados para perfiles. Se puede seleccionar un conjunto de datos a la vez. Los conjuntos de datos del sistema no se pueden usar para guardar datos de formulario.
 
    Seleccione la casilla de verificación del conjunto de datos y haga clic en **[!UICONTROL Seleccionar]**.
 
