@@ -36,7 +36,6 @@ For example, you can create and design landing pages to direct your users to onl
 
 You can create, personalize, and preview landing pages in the visual design space.
 -->
-
 ## Acceso y administración de páginas de aterrizaje
 
 Para acceder a las páginas de aterrizaje de Journey Optimizer B2B Prime, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Páginas de aterrizaje]**. Esta acción muestra una lista de todas las páginas de aterrizaje creadas en la instancia.

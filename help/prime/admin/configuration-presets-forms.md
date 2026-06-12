@@ -18,7 +18,7 @@ Cuando los datos aterrizan en el extremo de flujo continuo, se vinculan con la i
 
 ## Prerrequisitos
 
-Para usar formularios web, debes tener una o más _&#x200B;**conexiones de streaming de API HTTP**&#x200B;_ definidas en Adobe Experience Platform. Asegúrese de que cada conexión que desea utilizar cumple los siguientes requisitos:
+Para usar formularios web, debes tener una o más _**conexiones de streaming de API HTTP**_ definidas en Adobe Experience Platform. Asegúrese de que cada conexión que desea utilizar cumple los siguientes requisitos:
 
 * El tipo de datos debe establecerse en XDM (no en datos sin procesar)
 * La autenticación debe estar deshabilitada (conexión no autenticada)
@@ -90,7 +90,7 @@ Al crear un ajuste preestablecido:
 
    >[!NOTE]
    >
-   >Actualmente, solo se pueden seleccionar [conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview) habilitados para perfiles y no habilitados para perfiles. Se puede seleccionar un conjunto de datos a la vez. Los conjuntos de datos del sistema no se pueden usar para guardar datos de formulario.
+   >Actualmente, solo se pueden seleccionar [conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) habilitados para perfiles y no habilitados para perfiles. Se puede seleccionar un conjunto de datos a la vez. Los conjuntos de datos del sistema no se pueden usar para guardar datos de formulario.
 
    Seleccione la casilla de verificación del conjunto de datos y haga clic en **[!UICONTROL Seleccionar]**.
 
