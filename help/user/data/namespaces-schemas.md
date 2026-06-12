@@ -4,26 +4,17 @@ description: Configure los espacios de nombres y esquemas de Experience Platform
 feature: Setup, Data Management
 role: Admin
 exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
-feature_v2:
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
+feature_v2: id: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 1003
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -33,9 +24,9 @@ La configuración de Journey Optimizer B2B edition incluye la configuración de 
 
 >[!AVAILABILITY]
 >
->- Para que tus esquemas B2B califiquen en [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home){target="_blank"}, debes tener acceso a [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}.
+>- Para que tus esquemas B2B califiquen en [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/es/docs/experience-platform/profile/home){target="_blank"}, debes tener acceso a [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}.
 >
->- Las entidades de Experience Platform B2B deben utilizar las relaciones estándar descritas en la [guía de esquemas y áreas de nombres B2B](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
+>- Las entidades de Experience Platform B2B deben utilizar las relaciones estándar descritas en la [guía de esquemas y áreas de nombres B2B](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
 Revise la siguiente información sobre la configuración subyacente de los espacios de nombres y esquemas que se utilizarán con orígenes B2B. También proporciona detalles para configurar la utilidad de automatización de Postman, que es necesaria para generar espacios de nombres y esquemas B2B.
 
@@ -44,9 +35,9 @@ Revise la siguiente información sobre la configuración subyacente de los espac
 Consulte los siguientes recursos para conocer los requisitos previos y obtener información detallada sobre cómo configurar su entorno [!DNL Postman] para que sea compatible con el espacio de nombres B2B y la utilidad de generación automática de esquemas.
 
 - Descargue la colección de utilidades de generación automática de esquemas y áreas de nombres del [repositorio de GitHub](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}.
-- Para obtener información sobre el uso de las API de Experience Platform, incluidos detalles sobre la recopilación de valores para los encabezados necesarios y la lectura de llamadas de API de ejemplo, consulte [_Introducción a las API de Adobe Experience Platform_](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-guide?lang=es){target="_blank"}.
-- Para obtener información sobre cómo generar las credenciales para las API de Experience Platform, consulte [_Autenticar y acceder a las API de Experience Platform_](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}.
-- Para obtener información sobre la configuración de [!DNL Postman] para las API de Experience Platform, consulte [_[!DNL Postman] en Adobe Experience Platform _](https://experienceleague.adobe.com/es/docs/experience-platform/landing/platform-apis/postman){target="_blank"}.
+- Para obtener información sobre el uso de las API de Experience Platform, incluidos detalles sobre la recopilación de valores para los encabezados necesarios y la lectura de llamadas de API de ejemplo, consulte [_Introducción a las API de Adobe Experience Platform_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide?lang=es){target="_blank"}.
+- Para obtener información sobre cómo generar las credenciales para las API de Experience Platform, consulte [_Autenticar y acceder a las API de Experience Platform_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}.
+- Para obtener información sobre la configuración de [!DNL Postman] para las API de Experience Platform, consulte [_[!DNL Postman] en Adobe Experience Platform _](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman){target="_blank"}.
 
 ### Valores de entorno
 
@@ -82,7 +73,7 @@ Una solicitud correcta crea los espacios de nombres y esquemas B2B necesarios.
 
 ## Áreas de nombres B2B
 
-Las áreas de nombres de identidad son un componente de Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home){target="_blank"} que sirve para distinguir el contexto de una identidad. Una identidad completa incluye un valor de identidad y un área de nombres. Vea [información general sobre áreas de nombres](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces){target="_blank"} para obtener más información.
+Las áreas de nombres de identidad son un componente de Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"} que sirve para distinguir el contexto de una identidad. Una identidad completa incluye un valor de identidad y un área de nombres. Vea [información general sobre áreas de nombres](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces){target="_blank"} para obtener más información.
 
 Las áreas de nombres B2B se utilizan en la identidad principal de la entidad.
 
@@ -106,14 +97,14 @@ Experience Platform utiliza esquemas para describir la estructura de los datos d
 
 Para que Experience Platform pueda introducir datos, debe haber un esquema que describa la estructura de los datos y proporcione restricciones sobre el tipo de datos que se pueden contener en cada campo. Los esquemas constan de una clase base y cero o más grupos de campos de esquema.
 
-Para obtener más información sobre el modelo de composición de esquema, incluidos los principios de diseño y las prácticas recomendadas, vea [_Conceptos básicos de la composición de esquema_](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition){target="_blank"}.
+Para obtener más información sobre el modelo de composición de esquema, incluidos los principios de diseño y las prácticas recomendadas, vea [_Conceptos básicos de la composición de esquema_](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}.
 
 +++ Cuenta B2B
 
 <table>
     <tr>
         <td style="width: 30%;">Clase base</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">Cuenta empresarial de XDM</a></td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">Cuenta empresarial de XDM</a></td>
     </tr>
     <tr>
         <td>Grupos de campos</td>
@@ -152,7 +143,7 @@ Para obtener más información sobre el modelo de composición de esquema, inclu
 <table>
     <tr>
         <td style="width: 30%;">Clase base</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/individual-profile">Perfil individual de XDM</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile">Perfil individual de XDM</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Grupos de campos</td>
@@ -193,7 +184,7 @@ Para obtener más información sobre el modelo de composición de esquema, inclu
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -233,7 +224,7 @@ Para obtener más información sobre el modelo de composición de esquema, inclu
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -274,7 +265,7 @@ Para obtener más información sobre el modelo de composición de esquema, inclu
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -314,7 +305,7 @@ Para obtener más información sobre el modelo de composición de esquema, inclu
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -352,7 +343,7 @@ Para obtener más información sobre el modelo de composición de esquema, inclu
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -396,7 +387,7 @@ Para obtener más información sobre el modelo de composición de esquema, inclu
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -440,7 +431,7 @@ Para obtener más información sobre el modelo de composición de esquema, inclu
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
