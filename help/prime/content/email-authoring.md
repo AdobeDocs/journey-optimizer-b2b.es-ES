@@ -1,30 +1,34 @@
 ---
 title: Creación del correo electrónico
-description: Utilice las herramientas de diseño de correo electrónico de Journey Optimizer B2B Prime, incluidas las plantillas de correo electrónico, los fragmentos, la personalización, las temáticas, el modo oscuro y la validación.
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+description: Utilice las herramientas de diseño de correo electrónico de Journey Optimizer B2B Prime, incluidas las plantillas de correo electrónico, los fragmentos, la personalización, el modo oscuro y la validación.
+autotag-review: '2026-06-12T22:51:19.543Z'
+TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: 2775
 ht-degree: 1%
 
 ---
 
 # Creación del correo electrónico
 
-En [!DNL Adobe Journey Optimizer B2B Edition] Prime, el espacio de diseño de correo electrónico proporciona un lienzo visual en el que los especialistas en marketing componen el correo electrónico. Las herramientas de diseño de correo electrónico de los paneles izquierdo y superior (estructuras, componentes de contenido, plantillas, fragmentos y mucho más) admiten la creación desde cero con la función de arrastrar y soltar. También puede elegir comenzar desde una plantilla, pegar HTML sin procesar o ensamblar mensajes a partir de fragmentos visuales reutilizables.
+En [!DNL Adobe Journey Optimizer B2B Prime], el espacio de diseño de correo electrónico proporciona un lienzo visual en el que los especialistas en marketing componen el correo electrónico. Las herramientas de diseño de correo electrónico de los paneles izquierdo y superior (estructuras, componentes de contenido, plantillas, fragmentos y mucho más) admiten la creación desde cero con la función de arrastrar y soltar. También puede elegir comenzar desde una plantilla, pegar HTML sin procesar o ensamblar mensajes a partir de fragmentos visuales reutilizables.
 
 >[!IMPORTANT]
 >
 >Para obtener información sobre la configuración de administrador de subdominios, autenticación, grupos de IP y configuraciones de canal de correo electrónico, consulte [Capacidad de entrega de correo electrónico y configuración de canal](../admin/configuration-email-deliverability.md).
 
-En [!DNL Journey Optimizer B2B Edition] Prime, cada correo electrónico está asociado con una acción _[!UICONTROL Enviar correo electrónico]_ dentro de un recorrido. El flujo de trabajo completo, desde el diseño del recorrido hasta la definición de correo electrónico, se produce en una experiencia continua. Cuando [agregue un nodo _Enviar correo electrónico_](../marketing/person-journey-nodes.md#add-an-action-node) a un recorrido de persona, haga clic en **[!UICONTROL Crear correo electrónico]** para iniciar el proceso de diseño del contenido del correo electrónico.
+En [!DNL Journey Optimizer B2B Prime], cada correo electrónico está asociado con una acción _[!UICONTROL Enviar correo electrónico]_ dentro de un recorrido. El flujo de trabajo completo, desde el diseño del recorrido hasta la definición de correo electrónico, se produce en una experiencia continua. Cuando [agregue un nodo _Enviar correo electrónico_](../marketing/person-journey-nodes.md#add-an-action-node) a un recorrido de persona, haga clic en **[!UICONTROL Crear correo electrónico]** para iniciar el proceso de diseño del contenido del correo electrónico.
 
-
-
-Esta acción inicia las herramientas de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
+Esta acción inicia el espacio de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
 * [Diseñe su correo electrónico desde cero](#design-your-email-from-scratch) con la interfaz de diseño visual. Cree el componente Diseño de correo electrónico mediante arrastrar y soltar en un lienzo en blanco. Este método es mejor para crear nuevas plantillas o correos electrónicos únicos.
 
-* [Codifique o pegue su HTML sin procesar](#html) en el editor de código o trabaje en paralelo con el lienzo visual.
+* [Importe HTML](#html) en el editor de código o trabaje en paralelo con el lienzo visual.
 
   <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
 
@@ -38,6 +42,20 @@ Esta acción inicia las herramientas de diseño de correo electrónico, donde pu
 * **Carril izquierdo:** estructuras (diseños de columna), contenido (texto, botón, imagen, divisor, social, HTML), fragmentos, plantillas, árbol de navegación (jerarquía de estilo DOM del correo electrónico).
 * **Lienzo central:** editor de WYSIWYG con vista previa para escritorio y móvil.
 * **Carril derecho:** Configuración y estilos para el componente seleccionado actualmente, incluidas las propiedades de contenido, el fondo, el borde, el relleno y la personalización.
+
+## Prácticas recomendadas para el diseño de correo electrónico {#design-best-practices}
+
+Las siguientes prácticas recomendadas de HTML y CSS ayudan a garantizar un procesamiento coherente entre los clientes de correo electrónico.
+
+| Enfoque | Guía |
+| -------- | -------- |
+| **Recomendado** | Diseños estáticos basados en tablas · Tablas HTML y tablas anidadas · Anchuras de plantilla de 600-800 px · CSS en línea simple · Fuentes seguras para la web |
+| **Usar con cuidado** | Imágenes de fondo (compatibilidad limitada con el cliente) · Fuentes web personalizadas (defina siempre una fuente de reserva) · Diseños más anchos que 800 px · Mapas de imagen |
+| **Evitar** | JavaScript, iframes o Flash · Audio o vídeo incrustados · Formularios HTML · Diseños basados en Div |
+
+>[!NOTE]
+>
+>El contenido del correo electrónico también debe cumplir los requisitos de accesibilidad digital aplicables. Estructura los encabezados de forma lógica, proporciona texto alternativo para todas las imágenes y verifica el contraste de color en los modos claro y oscuro.
 
 ## Creación de un correo electrónico a partir de un recorrido {#email-from-journey}
 
@@ -119,7 +137,7 @@ Las plantillas son diseños de correo electrónico reutilizables. Aceleran la cr
 * **Plantillas de muestra (listas para usar).** Alrededor de 20 plantillas listas para usar que cubren casos de uso comunes (divulgación basada en cuentas, invitaciones a eventos, nutrición, anuncios de productos). Disponible inmediatamente para cada cliente.
 * **Plantillas guardadas (personalizadas).** Plantillas creadas por su equipo: o bien creadas desde cero en **[!UICONTROL Administración de contenido]** → **[!UICONTROL Plantillas]**, o bien guardadas de un correo electrónico existente usando la opción &quot;Guardar como plantilla&quot;.
 
-### Paso a paso: crear un correo electrónico a partir de una plantilla {#create-from-template}
+### Creación de un correo electrónico a partir de una plantilla {#create-from-template}
 
 1. En el nodo de correo electrónico de recorrido, haga clic en **[!UICONTROL Editar contenido]** → **[!UICONTROL Editar cuerpo del correo electrónico]**.
 1. En la pantalla Crear su correo electrónico, la ficha **[!UICONTROL Plantillas de ejemplo]** está seleccionada de forma predeterminada.
@@ -130,7 +148,7 @@ Las plantillas son diseños de correo electrónico reutilizables. Aceleran la cr
 1. Personalice el texto, las imágenes y los vínculos. La estructura heredada de la plantilla se puede modificar como un correo electrónico desde cero.
 1. Haga clic en **[!UICONTROL Guardar]** → **[!UICONTROL Atrás]** para volver a las propiedades de correo electrónico.
 
-### Paso a paso: creación de una plantilla reutilizable {#create-reusable-template}
+### Creación de una plantilla reutilizable {#create-reusable-template}
 
 1. Vaya a **[!UICONTROL Administración de contenido]** → **[!UICONTROL Plantillas]**.
 1. Haga clic en **[!UICONTROL Crear plantilla]**.
@@ -142,7 +160,7 @@ Las plantillas son diseños de correo electrónico reutilizables. Aceleran la cr
    * Bloquear componentes específicos: haga que los componentes individuales sean de solo lectura cuando se utilicen en un correo electrónico.
 1. Haga clic en **[!UICONTROL Guardar]**. La plantilla ahora está disponible para todos los usuarios en la galería Plantillas guardadas.
 
-### Paso a paso: guardar un correo electrónico como plantilla {#save-as-template}
+### Guardar un correo electrónico como plantilla {#save-as-template}
 
 1. Abra un correo electrónico existente en el espacio de diseño de correo electrónico.
 1. En el menú desplegable **[!UICONTROL Guardar]**, haga clic en **[!UICONTROL Guardar como plantilla]**.
@@ -158,7 +176,7 @@ Las plantillas son diseños de correo electrónico reutilizables. Aceleran la cr
 
 Un fragmento visual es un bloque de contenido reutilizable (un encabezado, pie de página, CTA, exención de responsabilidad legal, conjunto de vínculos sociales) que se puede insertar en muchos correos electrónicos. Al actualizar un fragmento, el cambio se propaga automáticamente a todos los correos electrónicos que lo utilicen. Los fragmentos son la forma recomendada de aplicar coherencia de marca y centralizar las actualizaciones de contenido.
 
-### Paso a paso: crear un fragmento visual {#create-fragment}
+### Crear un fragmento visual {#create-fragment}
 
 1. Vaya a **[!UICONTROL Administración de contenido]** → **[!UICONTROL Fragmentos]**.
 1. Haga clic en **[!UICONTROL Crear fragmento]**.
@@ -171,7 +189,7 @@ Un fragmento visual es un bloque de contenido reutilizable (un encabezado, pie d
    * Los autores de correo electrónico que utilizan el fragmento pueden anular estos campos sin romper la estructura del fragmento.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-### Paso a paso: insertar un fragmento en un correo electrónico {#insert-fragment}
+### Inserción de un fragmento en un correo electrónico {#insert-fragment}
 
 1. Abra el correo electrónico en el espacio de diseño del correo electrónico.
 1. En el carril izquierdo, haga clic en **[!UICONTROL Fragmentos]**.
@@ -199,7 +217,7 @@ Prime utiliza la sintaxis Handlebars para la personalización. Los tokens se sus
 >
 >En esta versión solo están disponibles los atributos de perfil en el Editor de Personalization.
 
-### Paso a paso: inserción de un token de personalización {#insert-token}
+### Insertar un token de personalización {#insert-token}
 
 1. En el espacio de diseño de correo electrónico (o en la pantalla de propiedades de correo electrónico de la línea de asunto), haga clic en el campo donde desee insertar un token.
 1. Haga clic en el icono de personalización (con frecuencia denominado **[!UICONTROL Abrir cuadro de diálogo de personalización]** o **[!UICONTROL Agregar expresión]**).
@@ -217,6 +235,18 @@ Utilice expresiones Handlebars como las siguientes (la personalización utiliza 
 * **`{{profile.firstName}}, ready to take the next step?`** — Combina token y texto estático en línea.
 
 Para un saludo de nombre con una alternativa cuando falte el valor, use el asistente `default` como se muestra en los pasos de personalización anteriores (por ejemplo, nombre con el valor predeterminado `"there"`).
+
+### Ayudantes de manillar {#handlebars-helpers}
+
+Más allá de `default`, el editor de personalización incluye controladores Handlebars integrados para la lógica condicional, la transformación de texto y el formato de fecha. Utilice el explorador de funciones del editor para explorar los ayudantes disponibles e insertarlos con la sintaxis correcta.
+
+>[!TIP]
+>
+>En el espacio de diseño del correo electrónico, escriba `{{` directamente en cualquier campo de texto para almacenar en déclencheur un menú desplegable de autocompletar en línea que enumere los atributos de perfil disponibles, sin necesidad de abrir el cuadro de diálogo de personalización completo para realizar inserciones rápidas.
+
+### Expresiones asistidas por IA {#ai-personalization}
+
+El asistente de IA del editor de personalización puede generar expresiones Handlebars a partir de una descripción en lenguaje sencillo, explicar lo que hace una expresión existente e identificar posibles problemas. Utilícelo para acelerar la creación de expresiones, especialmente para la lógica condicional o los ayudantes de formato de fecha.
 
 ## Adición de recursos desde Marketo Design Studio {#marketo-assets}
 
@@ -245,29 +275,11 @@ Prime hace que los recursos existentes de Marketo Design Studio estén disponibl
    * Destino del vínculo: haga que la imagen sea seleccionable.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Temas y modo oscuro {#themes-dark-mode}
+## Modo oscuro {#dark-mode}
 
-### Temas {#themes}
+Se admite el procesamiento en modo oscuro mediante consultas de medios CSS `prefers-color-scheme`. Las herramientas de diseño de correo electrónico incluyen una previsualización en modo oscuro y opciones para definir un estilo personalizado para los clientes de correo electrónico, lo que le ayuda a validar que el texto sigue siendo legible, que los logotipos son visibles y que los colores de la marca se mantienen contra fondos oscuros.
 
-Un tema es un ajuste preestablecido de estilo reutilizable que define colores, tipografía, espaciado, estilos de botón y divisores. Aplique un tema a un correo electrónico para aplicar instantáneamente el estilo de marca en todos los componentes.
-
-Para aplicar o editar temáticas:
-
-1. En el espacio de diseño del correo electrónico, haga clic en **[!UICONTROL Temas]** (en la barra de herramientas superior o en el carril derecho, según la vista).
-1. Elija **[!UICONTROL Aplicar tema]** para seleccionar un tema existente o **[!UICONTROL Crear nuevo tema]** para definir una paleta de marca.
-1. Personalice colores, fuentes y estilos de nivel de componente. Se admiten las variantes claro/oscuro.
-1. Se aplican de forma global; las anulaciones locales por componente siguen siendo posibles.
-1. Cambie la temática más tarde para cambiar la marca sin volver a crear.
-
-### Modo oscuro {#dark-mode}
-
-Se admite el procesamiento en modo oscuro mediante consultas de medios CSS `prefers-color-scheme`. Las herramientas de diseño de correo electrónico incluyen una previsualización en modo oscuro por cliente de correo electrónico para ayudar a los autores a validar que el texto sigue siendo legible, los logotipos no desaparecen y los colores de la marca se mantienen contra fondos oscuros.
-
-Para obtener una vista previa del modo oscuro, haga clic en el botón de alternancia de modo oscuro en los controles de vista previa del lienzo.
-
->[!TIP]
->
->Problemas comunes del modo oscuro: los logotipos oscuros desaparecen en los fondos oscuros, el texto de bajo contraste y los colores invertidos en las imágenes transparentes. Previsualice siempre el correo electrónico en modo oscuro antes de guardar la versión final.
+Para obtener instrucciones detalladas sobre la vista previa, la configuración del modo oscuro personalizado, la compatibilidad con clientes de correo electrónico y las prácticas recomendadas de prueba, consulte [Modo oscuro para el contenido de correo electrónico](./email-dark-mode.md).
 
 ## Validación del contenido de correo electrónico {#validation}
 
@@ -285,7 +297,7 @@ Antes de activar el recorrido, el contenido del correo electrónico debe ser vá
 | **Token de personalización sin resolver** | Un token de Handlebars hace referencia a un atributo de perfil sin reserva y es posible que falte el atributo para algunos destinatarios. | Agregue una reserva utilizando el asistente de Handlebars `default` como se describe en [Personalization](#personalization). Como alternativa, restrinja la audiencia de recorrido a perfiles en los que el atributo esté garantizado. |
 | **Imagen no cargada** | Un componente de imagen hace referencia a un recurso que ya no está disponible. | Haga clic en la imagen, abra el selector de recursos y vuelva a seleccionar el recurso en Marketo Design Studio. |
 
-### Paso a paso: revisar y resolver alertas {#resolve-alerts}
+### Revisión y resolución de alertas {#resolve-alerts}
 
 1. Abra el recorrido que contiene el nodo de correo electrónico. Los nodos de correo electrónico con alertas sin resolver se marcan con un distintivo rojo en el lienzo.
 1. Haga clic en el nodo de correo electrónico para abrir el carril de propiedades.
