@@ -1,11 +1,23 @@
 ---
 title: Crear plantillas de correo electrónico
-description: 'Aprenda a crear plantillas de correo electrónico en Journey Optimizer B2B Prime: diseñe desde cero, guarde un correo electrónico de un recorrido como plantilla o convierta una imagen de diseño en una plantilla de correo electrónico.'
+description: 'Obtenga información sobre cómo crear plantillas de correo electrónico en Journey Optimizer B2B Prime: crear nuevas plantillas, guardar un correo electrónico de un recorrido como plantilla o convertir una imagen de diseño en una plantilla de correo electrónico.'
 badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+autotag-review: '2026-06-12T22:55:41.432Z'
+TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 0%
+source-wordcount: 875
+ht-degree: 1%
 
 ---
 
@@ -14,42 +26,55 @@ ht-degree: 0%
 
 Puede crear una plantilla de correo electrónico en [!DNL Journey Optimizer B2B Edition Prime] de tres maneras:
 
-* **Diseñar desde cero**: cree una nueva plantilla en la biblioteca de plantillas con el espacio de diseño visual de correo electrónico.
+* **Crear una nueva plantilla**: cree una plantilla en la biblioteca de plantillas con el espacio de diseño de correo electrónico visual.
 * **Guardar desde un correo electrónico de recorrido**: guarde un correo electrónico que haya creado en un recorrido como una plantilla reutilizable.
 * **Convertir una imagen**: cargue una imagen de diseño y use IA generativa para convertirla en una plantilla de correo electrónico editable.
 
->[!NOTE]
->
->En esta versión de Beta, solo se admiten plantillas de correo electrónico.
-
-## Diseño de una plantilla desde cero {#design-from-scratch}
+## Crear una plantilla nueva {#build-new}
 
 1. Vaya a **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**.
 1. Haga clic en **[!UICONTROL Crear plantilla]**.
 1. Escriba un **[!UICONTROL nombre de plantilla]** y una **[!UICONTROL descripción]** opcional.
-1. Si lo desea, puede añadir etiquetas para categorizar la plantilla.
+1. Establezca el **[!UICONTROL canal]** (tipo) para la plantilla.
+
+   >[!NOTE]
+   >
+   >En esta versión de Beta, solo se admiten plantillas de correo electrónico.
+
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 1. Haga clic en **[!UICONTROL Crear]** para abrir el espacio de diseño de correo electrónico.
-1. Diseño del diseño del correo electrónico con estructuras y componentes de contenido. Para obtener una referencia completa sobre las herramientas disponibles, consulte [Creación de correo electrónico](email-authoring.md).
-1. Si lo desea, puede configurar [bloqueo de contenido](template-content-locking.md) para restringir qué partes de la plantilla pueden editar los autores al usarla en un recorrido.
+
+1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para acceder al espacio de diseño de contenido.
+
+   Consulte [Creación de correo electrónico](email-authoring.md) para obtener información detallada sobre el diseño de contenido.
+
+1. De forma opcional, habilite **[!UICONTROL Governance]** y configure [el bloqueo de contenido](template-content-governance.md) para restringir qué partes de los autores de plantillas pueden editar al aplicar la plantilla.
+
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Guardar un correo electrónico de recorrido como plantilla {#save-as-template}
+## Guardar un correo electrónico como plantilla {#save-as-template}
 
-Cuando diseñe un correo electrónico en un recorrido que desee reutilizar, guárdelo directamente en la biblioteca de plantillas desde el espacio de diseño de correo electrónico.
+Cuando abra el contenido del correo electrónico que desea reutilizar, guárdelo directamente en la biblioteca de plantillas desde la página de contenido del correo electrónico.
 
-1. En el espacio de diseño del correo electrónico, abra la lista desplegable **[!UICONTROL Guardar]** en la parte superior del editor.
+1. Haga clic en **[!UICONTROL Plantilla de contenido]** en la parte superior de la página.
 1. Seleccione **[!UICONTROL Guardar como plantilla de contenido]**.
-1. Escriba un **[!UICONTROL nombre de plantilla]** y una **[!UICONTROL descripción]** opcional.
-1. Opcionalmente, agregue etiquetas y configure [bloqueo de contenido](template-content-locking.md).
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Escriba un **[!UICONTROL Nombre]** y una **[!UICONTROL Descripción]** opcional.
+1. Opcionalmente, agregue **[!UICONTROL Etiquetas]**.
+1. Haga clic en **[!UICONTROL Crear]**.
 
-El correo electrónico de recorrido original no se ve afectado. La plantilla guardada está disponible en la biblioteca de plantillas para todos los usuarios de la zona protegida.
+El correo electrónico de recorrido original no se ve afectado. La plantilla guardada está disponible en la biblioteca de plantillas para todos los usuarios de la zona protegida. Puede actualizar la plantilla creada para optimizar su reutilización:
+
+* Edite texto y agregue [tokens de personalización](email-authoring.md#personalization).
+* Actualizar o reemplazar imágenes y agregar vínculos.
+* Configurar [bloqueo de contenido](template-content-governance.md).
 
 ## Convertir una imagen en una plantilla {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime] puede convertir una imagen estática, como una maqueta de Figma o Photoshop, en una plantilla de correo electrónico editable mediante IA generativa. Esto elimina la necesidad de volver a generar manualmente los diseños a partir de archivos de diseño.
+[!DNL Journey Optimizer B2B Edition Prime] puede convertir una imagen estática, como una maqueta de Figma o Photoshop, en una plantilla de correo electrónico editable mediante IA generativa. Esto elimina la necesidad de reconstruir manualmente los diseños a partir de archivos de diseño y es ideal para migrar los diseños de correo electrónico existentes desde otras plataformas. Esta función solo está disponible para plantillas de contenido de correo electrónico.
 
-### Requisitos
+>[!BEGINSHADEBOX]
+
+### Prerrequisitos
 
 Antes de empezar:
 
@@ -65,34 +90,57 @@ Antes de empezar:
 >
 >La imagen no debe contener información de identificación personal (PII) ni datos confidenciales.
 
-### Convertir una imagen
+>[!ENDSHADEBOX]
+
+### Creación de la plantilla
 
 1. Vaya a **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**.
-1. Haga clic en **[!UICONTROL Convertir imagen en plantilla]** en el encabezado.
+1. Haga clic en **[!UICONTROL Crear plantilla]**.
 1. Escriba un **[!UICONTROL nombre de plantilla]** y una **[!UICONTROL descripción]** opcional.
-1. Si lo desea, seleccione **[!UICONTROL Tema de marca]** para aplicar los colores, las fuentes y el espaciado de su marca a la salida generada.
-1. Cargue la imagen mediante arrastrar y soltar o el explorador de archivos.
-1. Confirme que la imagen no contiene datos personales.
-1. Revise y acepte las Directrices del usuario de IA generativa de Adobe (solo la primera vez).
-1. Haga clic en **[!UICONTROL Convertir]**.
+1. Establece el **[!UICONTROL canal]** en correo electrónico.
 
-   La conversión suele completarse en cinco minutos. Las imágenes complejas o grandes pueden tardar hasta diez minutos. Puede salir, el proceso continúa en segundo plano.
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+1. Haga clic en **[!UICONTROL Crear]**.
 
-1. Cuando finalice la conversión, haga clic en el nombre de la plantilla para previsualizar y editar el contenido generado.
+### Generación del contenido de la plantilla
 
->[!NOTE]
->
->El resultado no se muestra automáticamente. Actualice la página o vuelva a la biblioteca de plantillas para ver la plantilla completada.
+1. En la sección **[!UICONTROL Convertir imagen en plantilla]**:
 
-### Editar tras la conversión
+   * Si lo desea, seleccione **[!UICONTROL Tema de marca]** para aplicar los colores, las fuentes y el espaciado de su marca a la salida generada.
+   * Seleccione la casilla de verificación de confirmación para confirmar que la imagen no contiene información de identificación personal (PII) u otros datos confidenciales.
+   * Haga clic en **[!UICONTROL Cargar imagen]** y seleccione el archivo de imagen.
 
-La plantilla convertida se abre en el espacio de diseño de correo electrónico como un correo electrónico totalmente editable. Utilice las herramientas de diseño estándar para lo siguiente:
+   >[!CAUTION]
+   >
+   >Al cargar una imagen, se elimina cualquier contenido que esté actualmente en el correo electrónico y se sustituye por la plantilla generada.
+
+1. Si se le solicita, revise y acepte las Directrices del usuario de IA generativa de Adobe.
+
+1. Haga clic en **[!UICONTROL Abrir]** para iniciar el proceso de conversión.
+
+   La conversión suele completarse en unos cinco minutos. Las imágenes complejas o grandes pueden tardar hasta diez minutos. La conversión se ejecuta en segundo plano: puede salir y la plantilla de borrador se guarda automáticamente cuando se completa la conversión.
+
+1. Actualice la página para ver la plantilla completada.
+
+   >[!NOTE]
+   >
+   >El resultado no se muestra automáticamente. Actualice la página o vuelva a la biblioteca de plantillas para ver la plantilla completada.
+
+1. De manera opcional, usa la sección **[!UICONTROL comentarios del convertidor de imágenes a plantillas]** para compartir sugerencias con Adobe.
+
+1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para abrir la plantilla convertida en el espacio de diseño del correo electrónico y editarla.
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+### Editar el contenido convertido
+
+El contenido de plantilla convertido se abre en el espacio de diseño como una plantilla de correo electrónico totalmente editable. Utilice las herramientas de diseño de contenido estándar para lo siguiente:
 
 * Edite texto y agregue [tokens de personalización](email-authoring.md#personalization).
 * Actualizar o reemplazar imágenes y agregar vínculos.
 * Ajustar colores, fuentes y espaciado.
 * Agregar, quitar o reorganizar componentes de contenido.
-* Configurar [bloqueo de contenido](template-content-locking.md).
+* Habilite el control y configure el [bloqueo de contenido](template-content-governance.md).
 
 >[!IMPORTANT]
 >
