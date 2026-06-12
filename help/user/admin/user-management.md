@@ -16,16 +16,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 2267
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
 # Acceso y permisos de usuario
 
-Una vez completado el aprovisionamiento y enlazados los entornos limitados, complete los siguientes pasos para proporcionar acceso a Adobe Journey Optimizer B2B edition a su equipo y a los usuarios.
+Una vez completado el aprovisionamiento y enlazados los entornos limitados, siga estos pasos para proporcionar acceso a Adobe Journey Optimizer B2B edition a su equipo y a los usuarios.
 
 1. [Crear un perfil de producto de Marketo Engage](#marketo-engage-profile) en Admin Console (solo una nueva instancia de Marketo Engage).
 1. [Agregar un grupo de usuarios](#add-user-group) en Admin Console.

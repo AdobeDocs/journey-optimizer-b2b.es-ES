@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 83%
+source-wordcount: 1013
+ht-degree: 80%
 
 ---
 
@@ -144,7 +144,7 @@ Siga estos pasos para habilitar SSL para los dominios existentes.
 
 >[!NOTE]
 >
->Si desea eliminar el dominio de personalización de marca principal (en uno o más espacios de trabajo), primero debe seleccionar un dominio de personalización de marca diferente para que sea el principal de cada espacio de trabajo.
+>Si desea eliminar el dominio de personalización de marca principal (en uno o más espacios de trabajo), seleccione primero un dominio de personalización de marca diferente para que sea el principal de cada espacio de trabajo.
 >
 >Al eliminar un dominio **_no_** se elimina el certificado SSL. Esta protección evita los errores de usuario que hacen que un sitio web no tenga certificados SSL. Si desea eliminar los certificados SSL, póngase en contacto con el servicio de asistencia de Adobe.
 

@@ -18,10 +18,10 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 2362
-ht-degree: 80%
+source-wordcount: 2333
+ht-degree: 81%
 
 ---
 
@@ -55,7 +55,7 @@ Complete los siguientes pasos para garantizar el seguimiento y la entrega por co
 
 ## Creación de registros DNS para páginas de aterrizaje y correo electrónico
 
-La conexión de un registro CNAME permite a los especialistas en marketing alojar versiones web de los correos electrónicos, páginas de destino y blogs con una personalización de marca coherente que mejora el tráfico y las conversiones. Se recomienda muy especialmente añadir los CNAME a su host de dominio raíz para que Marketo Engage aloje sus recursos web centrados en marketing. Para planificar e implementar un registro CNAME para los vínculos de seguimiento incluidos en los correos electrónicos enviados a través de Marketo Engage, trabaje con su equipo de marketing como administrador.
+La conexión de un registro CNAME permite a los especialistas en marketing alojar versiones web de los correos electrónicos, páginas de destino y blogs con una personalización de marca coherente que mejora el tráfico y las conversiones. Se recomienda muy especialmente añadir los CNAME a su host de dominio raíz para que Marketo Engage aloje sus recursos web centrados en marketing.
 
 Para planificar e implementar dos registros CNAME, trabaje con su equipo de marketing como administrador. El primero es para las direcciones URL de las páginas de aterrizaje, de modo que las páginas de aterrizaje aparezcan en direcciones URL que reflejen el dominio y no Adobe Marketo Engage (el host real). El segundo es para los vínculos de seguimiento incluidos en los correos electrónicos enviados a través de Marketo Engage.
 

@@ -22,7 +22,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
 source-wordcount: 1321
 ht-degree: 70%
@@ -35,7 +35,7 @@ Para admitir la infraestructura de envío de correo electrónico proporcionada p
 
 ## Configuración de correo electrónico
 
-Para configurar los valores predeterminados de correo electrónico de la instancia de Marketo Engage adjunta, cambie los valores configurados para reflejar el uso por parte de su organización de marketing.
+Para configurar los valores predeterminados de correo electrónico de la instancia de Marketo Engage adjunta, cambie los valores configurados para reflejar el uso por parte de su equipo de marketing.
 
 ### Desde correo electrónico y etiqueta
 

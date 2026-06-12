@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1186
-ht-degree: 72%
+source-wordcount: 1185
+ht-degree: 71%
 
 ---
 
@@ -55,7 +55,7 @@ Los administradores que comprenden XDM y colaboran con los ingenieros de datos o
 
 Utilice la siguiente guía para realizar selecciones de campo:
 
-* Solo puede agregar nuevos campos después de que un esquema se esté utilizando activamente en un recorrido.
+* Solo puede agregar campos nuevos después de utilizar un esquema en un recorrido.
 * Eliminar, cambiar el nombre o los tipos de campo pueden causar problemas de funcionalidad de recorrido. Tenga cuidado al manipular esquemas.
 * No cambie el nombre ni elimine esquemas, ni modifique claves en esquemas relacionales.
 
