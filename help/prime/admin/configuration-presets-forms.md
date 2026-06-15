@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: ce49389601416e7acefb9f948c052a1d840d8854
 workflow-type: tm+mt
-source-wordcount: 538
+source-wordcount: 541
 ht-degree: 10%
 
 ---
@@ -65,7 +65,7 @@ Al crear un ajuste preestablecido:
    * _Conexión de destino_ - donde se almacenan o consumen los datos.
    * _Flujo de Source_: la canalización que mueve datos de la conexión de origen a Experience Platform. Gestiona la asignación, la transformación y la validación.
 
-## Crear un ajuste preestablecido de un formulario
+## Crear un ajuste preestablecido de un formulario {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -96,7 +96,7 @@ Al crear un ajuste preestablecido:
 
    Esta conexión es el extremo de flujo continuo utilizado para enviar los datos cuando un visor web envía un formulario. Si la conexión de flujo continuo necesaria no aparece en la lista, compruebe que se cumplen los requisitos.
 
-1. Haga clic en el icono _Seleccionar conjunto de datos_<!-- ( ![Select dataset icon](../assets/do-not-localize/icon-select-data.svg) ) --> para vincular un conjunto de datos con el formulario.
+1. Haga clic en el icono _Seleccionar conjunto de datos_ ( ![Seleccionar icono del conjunto de datos](../../user/assets/do-not-localize/icon-select-data.svg) ) para vincular un conjunto de datos con el formulario.
 
    En el conjunto de datos es donde se almacenan y reflejan las respuestas del formulario. Puede introducir una cadena de texto para buscar un conjunto de datos específico o seleccionarlo en la lista.
 
@@ -104,7 +104,7 @@ Al crear un ajuste preestablecido:
 
    >[!NOTE]
    >
-   >Actualmente, solo se pueden seleccionar [conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview) habilitados para perfiles y no habilitados para perfiles. Se puede seleccionar un conjunto de datos a la vez. Los conjuntos de datos del sistema no se pueden usar para guardar datos de formulario.
+   >Actualmente, solo se pueden seleccionar [conjuntos de datos de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview) habilitados para perfiles y no habilitados para perfiles. Puede seleccionar un conjunto de datos a la vez. Los conjuntos de datos del sistema no se pueden usar para guardar datos de formulario.
 
    Seleccione la casilla de verificación del conjunto de datos y haga clic en **[!UICONTROL Seleccionar]**.
 

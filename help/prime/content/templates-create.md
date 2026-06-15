@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 1%
@@ -41,7 +41,8 @@ Puede crear una plantilla de correo electrónico en [!DNL Journey Optimizer B2B 
    >
    >En esta versión de Beta, solo se admiten plantillas de correo electrónico.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. Haga clic en **[!UICONTROL Crear]** para abrir el espacio de diseño de correo electrónico.
 
 1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para acceder al espacio de diseño de contenido.
@@ -99,7 +100,8 @@ Antes de empezar:
 1. Escriba un **[!UICONTROL nombre de plantilla]** y una **[!UICONTROL descripción]** opcional.
 1. Establece el **[!UICONTROL canal]** en correo electrónico.
 
-<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+   <!--  Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+
 1. Haga clic en **[!UICONTROL Crear]**.
 
 ### Generación del contenido de la plantilla
