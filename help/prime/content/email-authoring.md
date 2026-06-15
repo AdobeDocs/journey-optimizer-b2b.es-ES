@@ -3,21 +3,13 @@ title: Creación del correo electrónico
 description: Utilice las herramientas de diseño de correo electrónico de Journey Optimizer B2B Prime, incluidas las plantillas de correo electrónico, los fragmentos, la personalización, el modo oscuro y la validación.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
-source-wordcount: 2775
+source-wordcount: 2789
 ht-degree: 1%
 
 ---
@@ -34,17 +26,15 @@ En [!DNL Journey Optimizer B2B Prime], cada correo electrónico está asociado c
 
 Esta acción inicia el espacio de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
-* [Diseñe su correo electrónico desde cero](#design-your-email-from-scratch) con la interfaz de diseño visual. Cree el componente Diseño de correo electrónico mediante arrastrar y soltar en un lienzo en blanco. Este método es mejor para crear nuevas plantillas o correos electrónicos únicos.
+* [Diseñe su correo electrónico desde cero](#build-from-scratch) con la interfaz de diseño visual. Cree el componente Diseño de correo electrónico mediante arrastrar y soltar en un lienzo en blanco. Este método es mejor para crear nuevas plantillas o correos electrónicos únicos.
 
-* [Importe HTML](#html) en el editor de código o trabaje en paralelo con el lienzo visual.
+* Importe HTML en el editor de código o trabaje en paralelo con el lienzo visual. El flujo de trabajo completo de importación de HTML con cargas .html y .zip se encuentra en la hoja de ruta de Beta.
 
-  <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
-
-* [Seleccione una plantilla existente](#select-a-template) de una lista de plantillas de correo electrónico integradas o personalizadas. Este método es mejor para casos de uso de correo electrónico repetibles.
+* [Seleccione una plantilla existente](#create-from-template) de una lista de plantillas de correo electrónico integradas o personalizadas. Este método es mejor para casos de uso de correo electrónico repetibles.
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assitant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
-## Herramientas de diseño de correo electrónico
+## Herramientas de diseño de correo electrónico {#email-design-tools}
 
 * **Barra de herramientas superior:** Guardar, Atrás, Cambiar al editor de código, controles de vista previa.
 * **Carril izquierdo:** estructuras (diseños de columna), contenido (texto, botón, imagen, divisor, social, HTML), fragmentos, plantillas, árbol de navegación (jerarquía de estilo DOM del correo electrónico).
@@ -140,7 +130,7 @@ El preencabezado es el fragmento de texto que se muestra después de la línea d
 
 Las plantillas son diseños de correo electrónico reutilizables. Aceleran la creación de correos electrónicos, refuerzan la coherencia de la marca y facilitan la colaboración en equipo.
 
-### Tipos de plantilla
+### Tipos de plantilla {#template-types}
 
 * **Plantillas de muestra (listas para usar).** Alrededor de 20 plantillas listas para usar que cubren casos de uso comunes (divulgación basada en cuentas, invitaciones a eventos, nutrición, anuncios de productos). Disponible inmediatamente para cada cliente.
 * **Plantillas guardadas (personalizadas).** Plantillas creadas por su equipo: o bien creadas desde cero en **[!UICONTROL Administración de contenido]** → **[!UICONTROL Plantillas]**, o bien guardadas de un correo electrónico existente usando la opción &quot;Guardar como plantilla&quot;.
@@ -214,7 +204,7 @@ Un fragmento visual es un bloque de contenido reutilizable (un encabezado, pie d
 
 Prime utiliza la sintaxis Handlebars para la personalización. Los tokens se sustituyen en el momento del envío con valores de los datos de perfil de cada destinatario.
 
-### Donde puede personalizar
+### Donde puede personalizar {#where-you-can-personalize}
 
 * **Línea de asunto**: el punto de personalización más común.
 * **Preheader**: se establece dentro del lienzo visual; admite tokens de atributos de perfil.
