@@ -4,22 +4,14 @@ description: Utilice el nodo Siguiente mejor ruta en Journey Optimizer B2B Prime
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 autotag-review: '2026-06-12T23:02:18.769Z'
 TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
 workflow-type: tm+mt
-source-wordcount: 2205
-ht-degree: 0%
+source-wordcount: 1528
+ht-degree: 1%
 
 ---
 
@@ -114,119 +106,11 @@ Las asignaciones de rutas controladas por IA no surtirán efecto hasta que publi
 
 Los siguientes ejemplos muestran cómo escribir indicadores de ruta efectivos en casos de uso comunes de marketing B2B. Utilícelos como punto de partida y adapte el idioma para que coincida con el contexto de recorrido y los datos de audiencia.
 
-+++Señales activas de investigación y compra
+* &quot;Identifique a las personas que han participado en sitios de RRHH (shrm.org, hbr.org/topic/human-resource-management) interesados en Journey Optimizer durante los últimos 30 días y que probablemente asistan a un seminario web sobre IA en operaciones de RRHH. También deberían haber mostrado cierto interés en los productos de IA&quot;.
 
-**Ruta 1 - Investigadores activos de productos**
-*Identifique a las personas que investigan activamente el software CRM. Busque visitas repetidas a la página del producto, participación con contenido de comparación, visitas frecuentes de retorno y señales de intención de terceros elevadas durante los últimos 30 días.*
+* Identifique a las personas que tienen participación en sitios de Finanzas (wsj.com/finance,investopedia.com), interesadas en Marketo en los últimos 30 días y que probablemente asistan a un seminario web sobre IA en Financial Planning. También deberían haber mostrado cierto interés en los productos de IA&quot;.
 
-**Ruta 2 - Comportamiento de comparación de precios**
-*Identifique a los usuarios que hayan visto páginas de comparación de precios o planes varias veces en los últimos 14 días, especialmente los que alternan entre páginas de precios y de documentación de características.*
-
-**Ruta 3 - Intento alto, sin conversión**
-*Identifique a los visitantes con intenciones altas que hayan participado en demostraciones de productos, páginas de precios o documentación de integración en los últimos 21 días, pero que no hayan enviado un formulario ni se hayan convertido.*
-
-**Ruta 4 - Comportamiento de cierre de compra dudoso**
-*Identifique a los usuarios que iniciaron flujos de reservas de cierre de compra o de demostración, pero no los completaron y que regresaron al menos una vez después sin realizar la conversión.*
-
-+++
-
-+++Riesgo de pérdida y retención
-
-**Ruta 1 - Señales de riesgo de pérdida**
-*Identifique a los clientes que muestran signos de pérdida en función del menor uso del producto, la menor frecuencia de inicio de sesión, los picos en los tickets de asistencia y la disminución de la participación de marketing en los últimos 60 días.*
-
-**Ruta 2 - Desvincular usuarios avanzados**
-*Identifique a los usuarios comprometidos anteriormente cuya velocidad de interacción ha disminuido significativamente en los últimos 30 días en comparación con su línea de base histórica.*
-
-+++
-
-+++Educación a las brechas de evaluación
-
-**Ruta 1: investigación de la secuencia de precios**
-*Identifique a los usuarios que descargaron un libro electrónico y luego visitaron la página de precios en un plazo de 7 días, pero que no solicitaron una demostración.*
-
-**Ruta 2 - Seminario web sin seguimiento**
-*Identifique a las personas que asistieron a un seminario web y posteriormente regresaron a las páginas de productos, pero nunca reservaron una demostración ni contactaron con las ventas.*
-
-**Ruta 3 - Evaluación basada en comparación**
-*Identifique a los visitantes que vieron un artículo de comparación de competidores y luego visitaron la documentación de integración o migración en un plazo de 14 días.*
-
-+++
-
-+++Secuencias de participación de correo electrónico
-
-**Ruta 1: se abre sin clics**
-*Identifique a los posibles clientes que abrieron tres o más correos electrónicos de marketing en un plazo de 30 días pero que nunca hicieron clic en el sitio web.*
-
-**Ruta 2 - Se hizo clic pero no hay participación más profunda**
-*Identifique a los usuarios que hicieron clic desde un correo electrónico hasta una página de producto, pero que no exploraron páginas adicionales ni regresaron en un plazo de 7 días.*
-
-+++
-
-+++Patrones de prueba y conversión
-
-**Ruta 1 - Convertidores rápidos**
-*Identifique a los clientes que se actualizaron dentro de los 30 días posteriores al inicio de una prueba y que mostraron una alta participación en el producto durante el período de prueba.*
-
-**Ruta 2 - Usuarios de prueba bloqueados**
-*Identifique a los usuarios de prueba que iniciaron sesión durante la primera semana pero mostraron una actividad mínima posteriormente y no se convirtieron antes de la caducidad de la prueba.*
-
-+++
-
-+++Compradores multicanal
-
-**Ruta 1 - Convergencia de anuncios y orgánica**
-*Identifique a los usuarios que primero se comprometieron a través de anuncios pagados y luego regresaron a través de canales directos u orgánicos en un plazo de 14 días.*
-
-**Ruta 2 - Evaluación de evento a producto**
-*Identifique las cuentas que participaron en un evento personal o virtual y que posteriormente aumentaron el comportamiento de la investigación de productos en un plazo de 30 días.*
-
-**Ruta 3 - Investigadores de medios sociales a sitios**
-*Identifique a los usuarios que interactuaron con el contenido social y más tarde visitaron páginas con intenciones altas, como precios o reservas de demostración.*
-
-+++
-
-+++Señales de compra regionales
-
-**Ruta 1 - Marejada en una región específica**
-*Identifique cuentas en Norteamérica que muestren una mayor actividad de investigación de productos y señales de intención de terceros elevadas en los últimos 30 días en comparación con su línea de base histórica.*
-
-**Ruta 2 - Impulso de los mercados emergentes**
-*Identifique las cuentas en APAC donde la velocidad de participación haya aumentado significativamente en los últimos 14 días, incluso si el volumen de participación general sigue siendo moderado.*
-
-**Ruta 3 - Interés empresarial específico de la región**
-*Identifique las cuentas de tamaño empresarial en EMEA que se involucren con la documentación de cumplimiento, residencia de datos o seguridad en los últimos 21 días.*
-
-**Ruta 4 - Territorio subpenetrado**
-*Identifique las cuentas de alta adecuación en los territorios de ventas asignados que han mostrado señales de intención pero que las ventas aún no han contactado.*
-
-+++
-
-+++Segmentación de audiencia de seminario web
-
-**Ruta 1: líderes de RRHH interesados en IA**
-*Identifique a las personas que han participado en sitios de RRHH (shrm.org, hbr.org/topic/human-resource-management), interesadas en Journey Optimizer en los últimos 30 días y que probablemente asistan a un seminario web sobre &quot;IA en operaciones de RRHH&quot;. También deberían haber mostrado algún interés en los productos de IA.*
-
-**Ruta 2 - Profesionales de finanzas interesados en IA**
-*Identifique a las personas que hayan participado en sitios de finanzas (wsj.com/finance, investopedia.com), interesadas en Marketo en los últimos 30 días y que probablemente asistan a un seminario web sobre &quot;IA en la planificación financiera&quot;. También deberían haber mostrado algún interés en los productos de IA.*
-
-**Ruta 3 - Profesionales de riesgos e investigación interesados en IA**
-*Identifique a las personas que hayan participado en los sitios de Riesgo/Investigación (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research), interesadas en GenStudio en los últimos 30 días y que probablemente asistan a un seminario web sobre &quot;IA en la gestión de riesgos&quot;. También deberían haber mostrado algún interés en los productos de IA.*
-
-+++
-
-+++Señales de temporización de comportamiento
-
-**Ruta 1 - Investigadores fuera de horario**
-*Identifique a los usuarios que interactúan repetidamente con las páginas de productos y precios fuera del horario laboral normal en su huso horario local.*
-
-**Ruta 2 - Ventana de investigación comprimida**
-*Identifique las cuentas que muestren una densidad de participación inusualmente alta en un breve período de 72 horas en varias áreas de productos.*
-
-**Ruta 3 - pico de actividad al final del trimestre**
-*Identifique cuentas con un aumento en la actividad de la fase de evaluación durante los últimos 30 días del trimestre fiscal.*
-
-+++
+* &quot;Identifique a las personas que han participado en los sitios de Riesgo/Investigación (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research), interesadas en GenStudio en los últimos 30 días y que probablemente asistan a un seminario web sobre IA en la gestión de riesgos. También deberían haber mostrado cierto interés en los productos de IA&quot;.
 
 ## Simular la toma de decisiones antes de publicar {#simulate}
 

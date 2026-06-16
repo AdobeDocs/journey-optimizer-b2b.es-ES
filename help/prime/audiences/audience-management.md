@@ -3,25 +3,18 @@ title: Gestión de público
 description: Página de marcador de posición para audiencias.
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c844cb4fb520f802c18a9988461c39106000b778
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 4%
+source-wordcount: 474
+ht-degree: 3%
 
 ---
 
 # Gestión de público
-
-¿Cómo se reproducen las audiencias en AJO B2B Prime?
 
 En el centro de administración de mercadotecnia, haga clic en **[!UICONTROL Listas de personas]** en el panel de navegación derecho.
 
@@ -74,9 +67,9 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## Creación de una lista de personas
 
 
-Para crear una nueva lista dinámica o estática:
+Para crear una lista dinámica o estática:
 
-1. Haga clic en **Crear lista** en la parte superior derecha de la página _[!UICONTROL Listas de personas]_.
+1. Haga clic en **[!UICONTROL Crear lista]** en la parte superior derecha de la página _[!UICONTROL Listas de personas]_.
 1. Seleccione un programa como **[!UICONTROL Principal]** de la lista.
 1. Escriba la lista a **[!UICONTROL Nombre]** y **[!UICONTROL Descripción]** (opcional).
 1. Elija y luego enumere **[!UICONTROL Type]**:
@@ -93,6 +86,10 @@ Para crear una nueva lista dinámica o estática:
 ## Listas estáticas
 
 La pertenencia a una lista estática se define mediante filtros simples que hacen referencia a los atributos y las actividades de las personas. La pertenencia no cambia a menos que califique o descalifique manualmente a los miembros.
+
+>[!NOTE]
+>
+>Las definiciones de filtros de lista estática se aplican una sola vez cuando se agregan o se quitan miembros de la lista. El filtro definido no está disponible posteriormente. Si desea mantener una definición de audiencia coherente mediante filtros, utilice una lista dinámica en su lugar.
 
 ### Añadir miembros
 

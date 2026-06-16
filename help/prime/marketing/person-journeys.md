@@ -1,90 +1,112 @@
 ---
 title: Recorridos de la persona
-description: Página de marcador de posición para recorridos de persona.
+description: 'Cree, publique y administre recorridos de persona en Journey Optimizer B2B edition Prime: examine la lista de recorridos, diseñe flujos de varios pasos y duplique o elimine recorridos.'
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
 workflow-type: tm+mt
-source-wordcount: 683
+source-wordcount: 1426
 ht-degree: 21%
 
 ---
 
 # Recorridos de la persona
 
-En Journey Optimizer B2B edition Prime, los recorridos de personas son planes de marketing automatizados y basados en posibles clientes en varios pasos que utilizan datos de Marketo Engage y que organizan experiencias personalizadas en varios canales en respuesta a participación, eventos empresariales o campañas programadas.
+En [!DNL Adobe Journey Optimizer B2B Edition Prime], los recorridos de personas son planes de marketing automatizados y basados en posibles clientes en varios pasos que organizan experiencias personalizadas en varios canales. Estos recorridos utilizan los datos de Marketo Engage para ejecutar estos planes de marketing en respuesta a la participación, los eventos comerciales o las campañas programadas.
 
-Para empezar con el recorrido en primera persona:
+>[!NOTE]
+>
+>Cada recorrido reside dentro de un [programa](./programs.md) definido. Debe tener al menos un programa para utilizarlo como elemento principal antes de crear un recorrido.
 
-1. Cree un recorrido de persona.
+_Para generar un nuevo recorrido de persona :_
+
+1. Cree el recorrido de persona.
 1. Añada los nodos y defina el flujo de recorrido en el mapa de recorrido.
-1. Publique el recorrido.
+1. [Publicación del recorrido](#publish-a-journey).
 
-## Acceso y exploración de recorridos de persona
+## Acceso y exploración de recorridos de persona {#access-and-browse-person-journeys}
 
-En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de mercadotecnia]** y seleccione **[!UICONTROL recorridos de personas]**.
+1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de mercadotecnia]**.
 
-Puede escribir texto en la herramienta _Buscar_ situada en la parte superior de la lista para filtrar la lista mostrada por nombre.
+1. A la derecha de la lista de recursos de **[!UICONTROL Marketing]**, seleccione **[!UICONTROL recorridos de persona]**.
 
-### Columnas de lista de recorrido
+   La lista _recorridos de personas_ se muestra como una página con fichas en el área de trabajo principal.
+
+   Puede escribir texto en la herramienta _Buscar_ situada en la parte superior de la lista para filtrar la lista mostrada por nombre.
+
+   ![Lista de recorridos de personas](./assets/person-journeys-list-search.png){width="800" zoomable="yes"}
+
+1. Utilice las herramientas de lista para personalizar la lista mostrada:
+
+   * Haga clic en el icono _Filtro_ ( ![Icono de filtro](../../assets/do-not-localize/icon-react-filter.svg) ) para filtrar la lista por estado.
+   * Haga clic en el icono _Personalizar tabla_ ( ![Personalizar icono de tabla](../../assets/do-not-localize/icon-falco-customize-table.svg) ) para controlar las columnas mostradas.
+   * Haga clic en el icono _Restablecer columnas_ ( ![Icono Restablecer ancho de columna](../../assets/do-not-localize/icon-falco-reset-columns.svg) ) para restablecer los anchos de columna.
+
+### Columnas de lista de recorrido {#journey-list-columns}
 
 La página de lista recorridos incluye las siguientes columnas:
 
-Nombre (haga clic en el nombre para abrir el mapa de recorrido y editarlo)
-Estado
-Fecha de creación
-Creado por
-Última actualización
-Última actualización de
-Publicado el
-Publicado por
-Fecha de inicio
-Fecha de finalización
+* [!UICONTROL Nombre] (haga clic en el nombre para abrir el mapa de recorrido y editarlo)
+* [!UICONTROL Estado]
+* [!UICONTROL Fecha de creación]
+* [!UICONTROL Creado por]
+* [!UICONTROL Última actualización]
+* [!UICONTROL Última actualización]
+* [!UICONTROL Publicado el]
+* [!UICONTROL Publicado por]
+* [!UICONTROL Fecha de inicio]
+* [!UICONTROL Fecha de finalización]
 
-Puede ordenar la lista por estado, fecha de creación o última actualización haciendo clic en el encabezado de la columna.
+Puede ordenar la lista por _[!UICONTROL Estado]_, _[!UICONTROL Fecha de creación]_ o _[!UICONTROL Última actualización]_ al hacer clic en el encabezado de la columna. Puede capturar y arrastrar los bordes del encabezado para cambiar los anchos de columna mostrados. En el diálogo _Personalizar tabla_, active o desactive las casillas de verificación y haga clic en **[!UICONTROL Aplicar]**.
 
-Para personalizar (mostrar/ocultar) las columnas que se muestran en la tabla, haga clic en el icono Personalizar tabla ( ) en la esquina superior derecha. Active o desactive las casillas de verificación en el cuadro de diálogo y haga clic en Aplicar.
+### Estado del recorrido {#journey-status}
 
-### Estado del recorrido
-
-El estado de un recorrido puede cambiar según las acciones que se apliquen. En función del estado de un recorrido, determinadas acciones no estarán disponibles en el lado derecho del encabezado.
+El estado de un recorrido puede cambiar según las acciones que se apliquen. En función del estado de un recorrido, ciertas acciones están disponibles en el lado derecho del encabezado.
 
 | Estado | Descripción | Acciones disponibles |
 | ------ | ----------- | ----------------- |
-| Borrador | Un recorrido sin publicar que se puede editar. | <li>Publicar <li>Duplicado <li>Eliminar |
-| En vivo | El estado del recorrido cambia de Borrador a Activo cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>Duplicar |
-| Finalizado | Cuando todos los miembros de la audiencia de una persona o cuenta de un recorrido completan el recorrido, el estado cambia de Activo o Cerrado a nuevas entradas y pasa a Finalizado. | <li>Duplicado <li>Eliminar |
+| _**Borrador**_ | Un recorrido sin publicar que se puede editar. | [Publicar](#publish-a-journey), [Duplicar](#duplicate-a-journey), [Eliminar](#delete-a-journey) |
+| _**Activo**_ | El estado del recorrido cambia de _Borrador_ a _Activo_ al publicar un recorrido. En este estado, ya no se puede editar. | [Duplicado](#duplicate-a-journey), [Cerca de nuevas entradas](#close-to-new-entries), [Anular](#abort-a-journey) |
+| _**Cerrado a nuevas entradas**_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en **[!UICONTROL Cerca de nuevas entradas]** en el encabezado del recorrido. | [Duplicado](#duplicate-a-journey), [Anular](#abort-a-journey) |
+| _**Anulado**_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | [Duplicado](#duplicate-a-journey), [Eliminar](#delete-a-journey) |
+| _**Finalizado**_ | Cuando todos los miembros de la audiencia de una persona en un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | [Duplicado](#duplicate-a-journey), [Eliminar](#delete-a-journey) |
 
-## Crear un recorrido de persona
+## Crear un recorrido de persona {#create-a-person-journey}
 
 1. Haga clic en **[!UICONTROL Crear Recorrido]** en la parte superior derecha de la lista de recorrido.
 
-1. En el cuadro de diálogo, escriba un **[!UICONTROL Nombre]** único (obligatorio) y **[!UICONTROL Descripción]** (opcional).
+1. En el cuadro de diálogo, seleccione el programa **[!UICONTROL Parent]** para el recorrido de persona.
 
-<!-- 
-   ![Create Journey dialog](./assets/person-journey-create-dialog.png){width="400"}
--->
+1. Escriba un **[!UICONTROL Nombre]** único (obligatorio) y una **[!UICONTROL Descripción]** (opcional).
+
+   ![Cuadro de diálogo Crear recorrido de persona](./assets/person-journey-create-dialog.png){width="400"}
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-### Diseño de recorrido
+   El lienzo de recorrido se abre con el nodo de audiencia de persona de inicio.
 
-El _mapa de recorrido_ es la zona central del área de trabajo de recorrido. Es donde puede agregar nodos de recorrido y configurarlos. Haga clic en un nodo para abrir sus propiedades en el panel situado a la derecha del diseño y configúrelas según su diseño. El recorrido de personas siempre comienza con un nodo _[!UICONTROL Audiencia de personas]_, donde puede definir la entrada del recorrido.
+   ![lienzo de Recorrido para recorrido de persona nueva](./assets/person-journey-new.png){width="600" zoomable="yes"}
 
-<!--
-   ![Journey map for newly created journey](./assets/person-journey-create-dialog.png){width="400"}
--->
+### encabezado de recorrido {#journey-header}
 
-Después de crear un recorrido de persona y agregar la audiencia de persona, genere el recorrido con nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos utilizando los siguientes tipos de nodos para construir el recorrido:
+El encabezado de cada mapa de recorrido incluye el nombre del recorrido, el estado y la programación.
+
+![Encabezado de recorrido de persona](./assets/person-journey-header.png){width="600" zoomable="yes"}
+
+* Haga clic en el icono _Editar_ (![Editar icono](../../assets/do-not-localize/icon-react-edit.svg) ) para cambiar el nombre del recorrido o la información de la descripción.
+* Haga clic en **[!UICONTROL Configuración del Recorrido]** para cambiar el inicio y la periodicidad del recorrido.
+* Haga clic en **[!UICONTROL Más]** para aplicar una acción de recorrido o para habilitar/deshabilitar el control de tráfico y la reentrada.
+* Si se resuelven todos los errores y desea activar el recorrido, haga clic en **[!UICONTROL Publicar]**.
+
+### Diseño de recorrido {#journey-design}
+
+El _mapa de recorrido_ es la zona central del área de trabajo de recorrido. Es donde puede agregar nodos de recorrido y configurarlos. Haga clic en un nodo para abrir sus propiedades en el panel situado a la derecha del diseño y configúrelas según su diseño. El recorrido de personas siempre comienza con un nodo [_[!UICONTROL Audiencia de personas ]_](./person-audience-node.md), donde puede definir la entrada del recorrido.
+
+Después de crear un recorrido de persona y definir la audiencia de persona, genere el recorrido con nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos utilizando los siguientes tipos de nodos para construir el recorrido:
 
 * [Iniciar una acción](./action-nodes.md)
 * [Escuchar un evento](./listen-for-event-nodes.md)
@@ -93,62 +115,107 @@ Después de crear un recorrido de persona y agregar la audiencia de persona, gen
 * [Siguiente mejor ruta](./next-best-path.md)
 * [Combinar rutas](./split-merge-paths-nodes.md)
 
+## administración de recorrido {#journey-management}
 
-## administración de recorrido
+Abra la lista recorridos para revisar el estado del recorrido, realizar cambios y realizar acciones.
 
+### acciones de recorrido {#journey-actions}
 
+La página de lista recorridos incluye todos los recorridos de persona de la instancia de Journey Optimizer B2B Prime. Desde la página de lista, puede aplicar una serie de acciones a un recorrido.
 
-## Mapa del recorrido
+#### Publicación de un recorrido {#publish-a-journey}
 
-Haga clic en el nombre (mostrado como vínculo) en la lista recorridos para revisar los detalles, realizar cambios y realizar acciones.
+Puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique, el estado del recorrido cambiará a _Activo_. Si el recorrido tiene errores, el botón **[!UICONTROL Publicar]** aparece atenuado con el mensaje `Resolve errors before publishing`.
 
-El encabezado de cada mapa de recorrido incluye:
+1. Abra el recorrido de borrador desde la lista _[!UICONTROL recorridos de persona]_.
 
-Nombre del recorrido
-Herramienta de edición del nombre del recorrido (icono Editar )
-Estado del recorrido
-Desde el mapa de recorrido, puede Añadir los nodos y definir el flujo de recorrido.
+1. En la parte superior derecha del mapa de recorrido, haga clic en **[!UICONTROL Publicar]**.
 
-### acciones de recorrido
+1. En el cuadro de diálogo _[!UICONTROL Revisar configuración de recorrido]_, establezca las opciones de inicio de recorrido.
 
-La página de lista recorridos incluye todos los recorridos de cuenta o persona de la instancia de Journey Optimizer B2B edition. Desde la página de lista, puede aplicar una serie de acciones a un recorrido.
+   Si ya definió una programación en **[!UICONTROL configuración de Recorrido]**, revise la configuración.
 
+   Si necesita configurar la activación del recorrido, elija un tipo de programación:
 
+   * Para activar el recorrido en el momento de la publicación, elija **[!UICONTROL Inmediatamente]**.
+   * Para activar el recorrido en una fecha futura, elige **[!UICONTROL En una fecha específica]** y haz clic en el icono _Calendario_ para seleccionar la fecha.
 
-#### Duplicación de un recorrido
+1. Si es necesario, especifique la **[!UICONTROL fecha de finalización]** del recorrido.
+
+   ![Cuadro de diálogo Revisar configuración de recorrido](./assets/journey-settings.png){width="400" zoomable="no"}
+
+   Puede ser un máximo de tres años desde la fecha de inicio. Este campo es necesario para publicar.
+
+1. Haga clic en **[!UICONTROL Next]**.
+
+1. En el diálogo de confirmación, haga clic en **[!UICONTROL Publicar]**.
+
+#### Anular un recorrido {#abort-a-journey}
+
+Si anula (detiene) un recorrido activo o un recorrido programado para una fecha de inicio futura, las personas en el recorrido detienen inmediatamente su progreso y no se puede producir ninguna otra entrada al recorrido. No se puede reiniciar un recorrido anulado.
+
+1. Abra el recorrido de la lista _[!UICONTROL recorridos de personas]_.
+
+1. Haga clic en el menú **[!UICONTROL Más...]** en la parte superior derecha y seleccione **[!UICONTROL Anular]**.
+
+   ![Encabezado de recorrido de persona activo](./assets/person-journey-live-header.png){width="600" zoomable="yes"}
+
+1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Anular]**.
+
+#### Cerrar nuevas entradas {#close-to-new-entries}
+
+Si cierra un recorrido activo a nuevas entradas, las personas que se encuentran actualmente en el recorrido continúan su ruta en ese recorrido y no puede producirse ninguna otra entrada al recorrido. No se puede reiniciar un recorrido cerrado. Puede duplicar un recorrido cerrado.
+
+1. Abra el recorrido de la lista _[!UICONTROL recorridos de personas]_.
+
+1. Haga clic en el menú **[!UICONTROL Más...]** en la parte superior derecha y seleccione **[!UICONTROL Cerrar nuevas entradas]**.
+
+1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Cerrar nuevas entradas]**.
+
+#### Duplicación de un recorrido {#duplicate-a-journey}
 
 Una acción de duplicado es similar a una función de clonado, pero el recorrido duplicado no incluye ningún recurso de contenido de recorrido creado. Puede duplicar los detalles del recorrido o simplemente un esqueleto de la estructura de flujo y ruta.
 
-NOTA
+1. En la lista _[!UICONTROL recorridos de personas]_, haga clic en el icono _Más_ ( **...** ) junto al nombre del recorrido y elija **[!UICONTROL Duplicado]**.
 
-Haga clic en el icono Más (...) junto al nombre del recorrido y seleccione Duplicar.
+   ![Menú Más del recorrido de personas de borrador](./assets/person-journey-draft-more-menu.png){width="400"}
 
-Según el estado del recorrido, también puede acceder a la acción de duplicado desde los detalles del recorrido o el mapa del recorrido:
+   Según el estado del recorrido, también puede acceder a la acción de duplicado desde los detalles del recorrido o el mapa del recorrido:
 
-Para un recorrido de borrador, haga clic en el menú More... en la parte superior derecha y seleccione Duplicate.
-Para todos los demás estados de recorrido, haga clic en Duplicar en la parte superior derecha.
-En el cuadro de diálogo Duplicar Recorrido, establezca el Nombre y la Descripción para el nuevo recorrido.
-De forma predeterminada, el cuadro de diálogo utiliza el nombre del recorrido duplicado anexado con _copy. Introduzca otro nombre único para el recorrido, según sea necesario.
+   * Para un recorrido de borrador, haz clic en el menú **[!UICONTROL Más]** en la parte superior derecha y elige **[!UICONTROL Duplicar]**.
+   * Para todos los demás estados de recorrido, haga clic en **[!UICONTROL Duplicar]** en la parte superior derecha.
 
-Elija el tipo de duplicación:
-Duplicación parcial del contenido: utilice este tipo para copiar todo el contenido del recorrido, excluyendo los correos electrónicos o mensajes SMS creados. Los nodos que hacen referencia a un mensaje de correo electrónico o SMS de Marketo Engage están totalmente intactos.
-Duplicar sin detalles: utilice este tipo para copiar solo la estructura y las rutas del nodo. Todos los ajustes de nodo y las condiciones de ruta no están definidos (predeterminado), por lo que puede reutilizar el flujo básico con diferentes ajustes de segmentación de audiencia, acciones y rutas. Todos los nodos de espera utilizan el valor predeterminado de cinco días.
-Haga clic en Duplicate.
-El recorrido duplicado se abre en el mapa de recorrido, donde puede establecer los detalles y crear contenido de recorrido según sea necesario.
+1. En el cuadro de diálogo, seleccione el programa **[!UICONTROL Parent]** para el recorrido duplicado.
 
-Eliminación de un recorrido
+1. Escriba un **[!UICONTROL Nombre]** único (obligatorio) y una **[!UICONTROL Descripción]** (opcional).
 
-Utilice una acción de eliminación para eliminar un recorrido de forma permanente. No puede eliminar un recorrido activo o programado.
+   De manera predeterminada, el cuadro de diálogo utiliza el nombre del recorrido de origen anexado a `_copy`. Introduzca un nombre único diferente para el recorrido, según sea necesario.
 
-Haga clic en el icono Más (...) junto al nombre del recorrido y seleccione Eliminar.
-Según el estado del recorrido, también puede acceder a la acción de eliminación desde los detalles del recorrido o el mapa del recorrido:
+   ![Cuadro de diálogo Duplicar recorrido](./assets/journey-duplicate-dialog.png){width="370"}
 
-Para un recorrido de borrador, haga clic en el menú More... en la parte superior derecha y seleccione Delete.
-Para otros estados de recorrido, como Finalizado o Anulado, haga clic en Eliminar en la parte superior derecha.
-En el cuadro de diálogo de confirmación, haga clic en Eliminar.
+1. Elija el **[!UICONTROL Tipo]** de duplicación:
 
+   * **[!UICONTROL Duplicación parcial del contenido]**: use este tipo para copiar todo el contenido del recorrido, sin incluir los mensajes de correo electrónico o SMS creados. Los nodos que hacen referencia a un mensaje de correo electrónico o SMS de Marketo Engage están totalmente intactos.
 
+   * **[!UICONTROL Duplicado sin detalles]**: use este tipo para copiar solo la estructura y las rutas de acceso del nodo. Todos los ajustes de nodo y las condiciones de la ruta están sin definir (valor predeterminado), de modo que puede reutilizar el flujo básico con diferentes públicos, acciones y configuraciones de segmentación de la ruta. Todos los nodos de espera utilizan el valor predeterminado de cinco días.
 
+1. Haga clic en **[!UICONTROL Duplicar]**.
 
+   El recorrido duplicado se abre en el lienzo de recorrido, donde puede establecer los detalles y crear contenido de recorrido según sea necesario.
 
+#### Eliminación de un recorrido {#delete-a-journey}
 
+Utilice una acción de eliminación para eliminar un recorrido de forma permanente. No se puede eliminar un recorrido activo o un recorrido programado para una fecha de inicio futura.
+
+>[!WARNING]
+>
+>La eliminación de un recorrido es permanente y no se puede deshacer.
+
+1. En la lista _[!UICONTROL recorridos de personas]_, haga clic en el icono _Más_ ( **...** ) junto al nombre del recorrido y elija **[!UICONTROL Eliminar]**.
+
+   Según el estado del recorrido, también puede acceder a la acción de eliminación desde el encabezado del recorrido:
+
+   * Para un recorrido de borrador, haz clic en **[!UICONTROL Más...]** en la parte superior derecha y elige **[!UICONTROL Eliminar]**.
+   * Para otros estados de recorrido, como _Finalizado_ o _Anulado_, haga clic en **[!UICONTROL Eliminar]** en la parte superior derecha.
+
+1. En el cuadro de diálogo de confirmación, haga clic en **[!UICONTROL Eliminar]**.
