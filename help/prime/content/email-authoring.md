@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
+source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
 workflow-type: tm+mt
 source-wordcount: 2789
 ht-degree: 1%
@@ -30,7 +30,7 @@ En [!DNL Adobe Journey Optimizer B2B Prime], el espacio de diseño de correo ele
 >
 >Para obtener información sobre la configuración de administrador de subdominios, autenticación, grupos de IP y configuraciones de canal de correo electrónico, consulte [Capacidad de entrega de correo electrónico y configuración de canal](../admin/configuration-email-deliverability.md).
 
-En [!DNL Journey Optimizer B2B Prime], cada correo electrónico está asociado con una acción _[!UICONTROL Enviar correo electrónico]_ dentro de un recorrido. El flujo de trabajo completo, desde el diseño del recorrido hasta la definición de correo electrónico, se produce en una experiencia continua. Cuando [agregue un nodo _Enviar correo electrónico_](../marketing/person-journey-nodes.md#add-an-action-node) a un recorrido de persona, haga clic en **[!UICONTROL Crear correo electrónico]** para iniciar el proceso de diseño del contenido del correo electrónico.
+En [!DNL Journey Optimizer B2B Prime], cada correo electrónico está asociado con una acción _[!UICONTROL Enviar correo electrónico]_ dentro de un recorrido. El flujo de trabajo completo, desde el diseño del recorrido hasta la definición de correo electrónico, se produce en una experiencia continua. Cuando [agregue un nodo _Enviar correo electrónico_](../marketing/action-nodes.md#add-an-action-node) a un recorrido de persona, haga clic en **[!UICONTROL Crear correo electrónico]** para iniciar el proceso de diseño del contenido del correo electrónico.
 
 Esta acción inicia el espacio de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 

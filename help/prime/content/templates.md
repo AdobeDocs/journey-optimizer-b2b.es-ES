@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 1%
@@ -55,7 +55,7 @@ Cree carpetas para agrupar las plantillas por equipo, campaña, marca o cualquie
 
 **Para mover una plantilla a una carpeta:**
 
-1. Haga clic en el icono **[!UICONTROL Más]** (⋯) junto a la plantilla.
+1. Haga clic en el icono **[!UICONTROL Más]** ( ... ) junto a la plantilla.
 1. Seleccione **[!UICONTROL Mover a la carpeta]**.
 1. Seleccione la carpeta de destino y haga clic en **[!UICONTROL Mover]**.
 
@@ -67,15 +67,15 @@ Haga clic en el nombre de una plantilla para abrir su página de detalles. Desde
 
 ### Edición de una plantilla
 
-Haga clic en un nombre de plantilla para abrir la página de detalles y, a continuación, haga clic en **[!UICONTROL Editar plantilla de correo electrónico]**. También puede hacer clic en el icono **[!UICONTROL Más]** (⋯) de la lista de plantillas y seleccionar **[!UICONTROL Editar]**.
+Haga clic en un nombre de plantilla para abrir la página de detalles y, a continuación, haga clic en **[!UICONTROL Editar plantilla de correo electrónico]**. También puede hacer clic en el icono **[!UICONTROL Más]** ( ... ) en la lista de plantillas y seleccionar **[!UICONTROL Editar]**.
 
 ### Duplicación de una plantilla
 
-Haga clic en el icono **[!UICONTROL Más]** (⋯) junto a la plantilla y seleccione **[!UICONTROL Duplicar]**. La copia se abre para que pueda cambiarle el nombre y realizar ajustes.
+Haga clic en el icono **[!UICONTROL Más]** ( ... ) junto a la plantilla y seleccione **[!UICONTROL Duplicado]**. La copia se abre para que pueda cambiarle el nombre y realizar ajustes.
 
 ### Eliminación de una plantilla
 
-Haga clic en el icono **[!UICONTROL Más]** (⋯) junto a la plantilla y seleccione **[!UICONTROL Eliminar]**. Confirme la eliminación cuando se le solicite.
+Haga clic en el icono **[!UICONTROL Más]** ( ... ) junto a la plantilla y seleccione **[!UICONTROL Eliminar]**. Confirme la eliminación cuando se le solicite.
 
 >[!NOTE]
 >
