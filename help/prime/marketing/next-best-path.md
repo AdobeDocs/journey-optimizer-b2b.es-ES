@@ -4,19 +4,11 @@ description: Utilice el nodo Siguiente mejor ruta en Journey Optimizer B2B Prime
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 autotag-review: '2026-06-12T23:02:18.769Z'
 TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1528
 ht-degree: 1%
@@ -62,7 +54,7 @@ Si ninguna ruta es una coincidencia sólida o si el mensaje hace referencia a da
 
 ## Añadir un siguiente nodo de mejor ruta {#add-node}
 
-1. Abra el recorrido de persona y vaya al mapa del recorrido.
+1. Abra el recorrido de la persona y vaya al lienzo de recorrido.
 
 1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **Siguiente mejor ruta**.
 
@@ -169,7 +161,7 @@ Después de validar los resultados de la simulación:
 
 Una vez que el recorrido está activo, el siguiente nodo de mejor ruta se ejecuta en el momento de la ejecución. A medida que cada persona llega al nodo, la IA los evalúa en tiempo real utilizando las señales más recientes y los enruta hacia la ruta más relevante.
 
-Para un recorrido publicado, abra el mapa del recorrido y seleccione el siguiente nodo de mejor ruta para ver la sección **_[!UICONTROL Resultados en directo]_** en el panel derecho. Los resultados en directo muestran:
+Para un recorrido publicado, abra el lienzo de recorrido y seleccione el siguiente nodo de mejor ruta para ver la sección **_[!UICONTROL Resultados en directo]_** en el panel derecho. Los resultados en directo muestran:
 
 * La distribución porcentual de perfiles en cada ruta
 * La puntuación de confianza para cada asignación de ruta
