@@ -1,6 +1,6 @@
 ---
 title: Dividir y combinar nodos de rutas
-description: Marcador de posición
+description: Aprenda a utilizar nodos de rutas divididas y combinadas en recorridos de persona para segmentar a las personas en rutas distintas en función de condiciones definidas y, a continuación, reunirlas en un punto común aguas abajo.
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
 product_v2:
@@ -13,16 +13,16 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 658
 ht-degree: 0%
 
 ---
 
 # Dividir y combinar nodos de rutas
 
-
+Utilice los nodos de rutas divididas y combinadas en recorridos de persona para segmentar a las personas en rutas distintas en función de las condiciones definidas y, a continuación, vuelva a unir esas rutas para que el recorrido pueda continuar. Las rutas divididas le permiten adaptar las acciones y los eventos a segmentos de audiencia específicos, mientras que las rutas de combinación reúnen esos segmentos en un punto común descendente.
 
 ## Dividir nodos de rutas
 
@@ -31,7 +31,6 @@ Utilice los nodos divididos para segmentar a las personas según las condiciones
 Un nodo de Rutas divididas define una o más rutas segmentadas en función de los filtros de personas.
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
-
 
 _&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 
@@ -51,17 +50,11 @@ Para cada ruta definida para el nodo, utilice los siguientes tipos de filtros pa
 
 ### Adición de un nodo de rutas divididas
 
-<!--
->[!NOTE]
->
->When you split paths by people, a _Close split paths_ node is automatically inserted to end the split. A split-by-people path allows only _Take an action_ on people nodes.
--->
-
-1. Vaya al mapa del recorrido.
+1. Navegue hasta el lienzo de recorrido.
 
 1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **[!UICONTROL Dividir rutas]**.
 
-   <!-- ![Add journey node - split paths](./assets/add-node-split.png){width="300" zoomable="no"} -->
+   ![Haga clic en agregar icono en la ruta de recorrido](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Para definir una condición aplicable a _[!UICONTROL Ruta 1]_, haga clic en **[!UICONTROL Aplicar condición]**.
 
@@ -95,13 +88,11 @@ Cuando haya definido condiciones para cada ruta, puede añadir nodos de acción 
 
 ## Combinar nodos de rutas
 
-1. Vaya al mapa de recorrido y busque el nodo de rutas divididas con dos o más rutas.
+1. Vaya al lienzo de recorrido y busque el nodo de rutas divididas con dos o más rutas.
 
    Cada ruta debe tener una combinación de acciones y eventos en cada ruta.
 
 1. Haga clic en el icono de signo más ( **+** ) al final de cualquiera de estas rutas y elija **[!UICONTROL Combinar rutas]** entre las opciones que se muestran.
-
-   <!-- ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"} -->
 
 1. En las propiedades del nodo a la derecha, seleccione las rutas que desee combinar.
 

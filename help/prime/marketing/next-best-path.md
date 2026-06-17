@@ -16,7 +16,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1528
 ht-degree: 1%
@@ -62,7 +62,7 @@ Si ninguna ruta es una coincidencia sólida o si el mensaje hace referencia a da
 
 ## Añadir un siguiente nodo de mejor ruta {#add-node}
 
-1. Abra el recorrido de persona y vaya al mapa del recorrido.
+1. Abra el recorrido de la persona y vaya al lienzo de recorrido.
 
 1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **Siguiente mejor ruta**.
 
@@ -169,7 +169,7 @@ Después de validar los resultados de la simulación:
 
 Una vez que el recorrido está activo, el siguiente nodo de mejor ruta se ejecuta en el momento de la ejecución. A medida que cada persona llega al nodo, la IA los evalúa en tiempo real utilizando las señales más recientes y los enruta hacia la ruta más relevante.
 
-Para un recorrido publicado, abra el mapa del recorrido y seleccione el siguiente nodo de mejor ruta para ver la sección **_[!UICONTROL Resultados en directo]_** en el panel derecho. Los resultados en directo muestran:
+Para un recorrido publicado, abra el lienzo de recorrido y seleccione el siguiente nodo de mejor ruta para ver la sección **_[!UICONTROL Resultados en directo]_** en el panel derecho. Los resultados en directo muestran:
 
 * La distribución porcentual de perfiles en cada ruta
 * La puntuación de confianza para cada asignación de ruta

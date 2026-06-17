@@ -2,9 +2,9 @@
 user-guide-title: Documentación de Journey Optimizer B2B Prime
 user-guide-description: Obtenga información acerca de Adobe Journey Optimizer B2B edition Prime y cómo puede utilizarlo para ?.
 hide: true
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '119'
 ht-degree: 38%
 
 ---
@@ -29,13 +29,15 @@ ht-degree: 38%
       + [Dividir y combinar rutas](./marketing/split-merge-paths-nodes.md)
       + [Siguiente mejor ruta](./marketing/next-best-path.md)
 + Públicos {#audiences}
-   + [Gestión de público](./audiences/audience-management.md)
+   + [Listas de personas](./audiences/people-lists.md)
+   + [Destinos](./audiences/destinations.md)
    + [Calificación de audiencia dinámica](./audiences/dynamic-audience-qualification.md)
    + [Audiencias basadas en eventos](./audiences/event-based-audiences.md)
 + Contenido {#content}
    + Correos electrónicos {#emails}
       + [Creación del correo electrónico](./content/email-authoring.md)
       + [Diseño de modo oscuro](./content/email-dark-mode.md)
+   + [Mensajes de WhatsApp](./content/whatsapp-authoring.md)
    + Plantillas {#templates}
       + [Información general](./content/templates.md)
       + [Crear plantillas](./content/templates-create.md)

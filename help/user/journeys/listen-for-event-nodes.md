@@ -16,7 +16,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1880
 ht-degree: 12%
@@ -50,7 +50,7 @@ En un recorrido de cuenta, puede detectar un evento basado en la cuenta cuando d
 
 ### Agregar un evento de cuenta
 
-1. Vaya al mapa del recorrido.
+1. Navegue hasta el lienzo de recorrido.
 
 1. Haga clic en el icono de signo más (**+** ) en una ruta y elija **[!UICONTROL Escuchar un evento]**.
 
@@ -102,7 +102,7 @@ En un recorrido de cuentas, puede detectar un evento basado en personas cuando d
 
 ### Añadir un evento de personas
 
-1. Vaya al mapa del recorrido.
+1. Navegue hasta el lienzo de recorrido.
 
 1. Haga clic en el icono de signo más (**+** ) en una ruta y elija **[!UICONTROL Escuchar un evento]**.
 
@@ -118,7 +118,7 @@ En un recorrido de cuentas, puede detectar un evento basado en personas cuando d
 
 Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacenar en déclencheur un evento basado en una visita o no visita a estas páginas web, así como formularios de Marketo Engage que se rellenaron o no.
 
-1. Seleccione un nodo **[!UICONTROL Listen for an event]** del mapa de recorrido.
+1. Seleccione un nodo **[!UICONTROL Listen for an event]** en el lienzo de recorrido.
 
 1. En las propiedades del nodo a la derecha, elija **[!UICONTROL Personas]** para el tipo de evento.
 
@@ -147,7 +147,7 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 1. Si es necesario, establezca la opción **[!UICONTROL Tiempo de espera]** para limitar el período de tiempo para escuchar el evento (consulte [Agregar un tiempo de espera a un nodo de evento](#add-a-timeout-to-an-event-node)).
 
-1. En el mapa de recorrido, añada el siguiente nodo que se ejecutará cuando se produzca el evento.
+1. En el lienzo de recorrido, agregue el siguiente nodo que se ejecutará cuando se produzca el evento.
 
 ### Escuchar un evento de experiencia {#listen-for-an-experience-event}
 
@@ -163,7 +163,7 @@ Los administradores pueden seleccionar [Eventos de experiencia de Adobe Experien
 
 _Para incluir un evento de experiencia en el recorrido :_
 
-1. Seleccione un nodo **[!UICONTROL Listen for an event]** del mapa de recorrido.
+1. Seleccione un nodo **[!UICONTROL Listen for an event]** en el lienzo de recorrido.
 
 1. (Solo recorrido de cuenta) En las propiedades del nodo a la derecha, elija **[!UICONTROL Personas]** para el tipo de evento.
 
@@ -197,7 +197,7 @@ _Para incluir un evento de experiencia en el recorrido :_
 
 1. Si es necesario, establezca la opción **[!UICONTROL Tiempo de espera]** para limitar el período de tiempo para escuchar el evento (consulte [Agregar un tiempo de espera a un nodo de evento](#add-a-timeout-to-an-event-node)).
 
-1. En el mapa de recorrido, añada el siguiente nodo que se ejecutará cuando se produzca el evento.
+1. En el lienzo de recorrido, agregue el siguiente nodo que se ejecutará cuando se produzca el evento.
 
 1. Complete los nodos restantes del recorrido y [publíquelo](./journeys-overview.md).
 
