@@ -12,7 +12,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 19%
@@ -128,7 +128,7 @@ Abra la lista recorridos para revisar el estado del recorrido, realizar cambios 
 
 La página de lista recorridos incluye todos los recorridos de persona de la instancia de Journey Optimizer B2B Prime. Desde la página de lista, puede aplicar una serie de acciones a un recorrido.
 
-#### Publicación de un recorrido {#publish-a-journey}
+#### Publicación de un recorrido {#publish}
 
 Puede publicar un recorrido si no hay errores de bloqueador. Cuando se publique, el estado del recorrido cambiará a _Activo_. Si el recorrido tiene errores, el botón **[!UICONTROL Publicar]** aparece atenuado con el mensaje `Resolve errors before publishing`.
 
