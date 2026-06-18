@@ -16,7 +16,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 85f61c8fa8eda07dfe8ea1e83f3c261c9159976f
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 495
 ht-degree: 3%
@@ -93,3 +93,4 @@ Seleccione cualquier recurso de la vista de lista o de galería para abrir su vi
 Una vez finalizada la carga, el sistema genera automáticamente una descripción, asigna etiquetas y palabras clave y extrae atributos visuales como asunto y configuración. No se requiere etiquetado manual. La nueva imagen se mostrará con un estado _[!UICONTROL PROCESANDO]_ hasta que finalice este proceso.
 
 ![Nuevo recurso de imagen en estado de procesamiento](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+<!-- -->

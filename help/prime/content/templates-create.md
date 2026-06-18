@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 880
 ht-degree: 1%
@@ -171,3 +171,4 @@ Siga estas directrices para obtener los mejores resultados de la conversión de 
 * Pruebe el procesamiento en clientes de correo electrónico y dispositivos antes de utilizar la plantilla en un recorrido.
 * Compruebe la alineación con los colores de marca, las fuentes y las directrices de estilo.
 * Revise y mejore la accesibilidad, incluido el texto alternativo de la imagen.
+<!-- -->
