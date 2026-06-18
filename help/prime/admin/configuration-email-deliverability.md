@@ -3,57 +3,32 @@ title: Entrega de correo electrónico y configuración de canal
 description: Configure las configuraciones delegación de subdominios, DMARC, SPF, DKIM, grupos de IP y canal de correo electrónico para Journey Optimizer B2B Prime.
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
-source-wordcount: 3414
-ht-degree: 0%
+source-wordcount: 3095
+ht-degree: 1%
 
 ---
 
 # Entrega de correo electrónico y configuración de canal
 
-[!DNL Adobe Journey Optimizer B2B Edition] Prime ofrece a los especialistas en marketing B2B una experiencia moderna de creación y envío de correo electrónico de nivel empresarial. Esta versión introduce herramientas de diseño de correo electrónico rediseñadas y un conjunto completo de controles de envío de correo electrónico.
-
 La siguiente información está destinada a los administradores que configuran la infraestructura de envío para admitir especialistas en marketing y autores de correo electrónico. Describe las funciones, las funciones y los permisos de la capacidad de entrega, y cómo configurar subdominios, autenticación, grupos de IP y configuraciones de canal.
 
 Para obtener información detallada sobre la creación de correos electrónicos y contenido de correo electrónico en el espacio de diseño de correo electrónico, consulte [Creación de correos electrónicos](../content/email-authoring.md).
 
-## Resumen del canal de correo electrónico {#overview}
-
-* **Herramientas visuales de diseño de correo electrónico de arrastrar y soltar**: diseñe su contenido de correo electrónico con estructuras, componentes de contenido, temas, compatibilidad con modo oscuro y fragmentos visuales reutilizables.
-* **Configuraciones del canal de correo electrónico**: administre la identidad del remitente, el comportamiento de respuesta, el marketing frente a los tipos de mensajes transaccionales y el seguimiento.
-* **Controles de envío de correo electrónico**: configure su canal de envío de correo electrónico, incluida la delegación de subdominios (métodos completamente delegados y CNAME), DMARC, la configuración automática de SPF/DKIM y la compatibilidad con grupos de IP compartidas.
-* **Acción Enviar correo electrónico**: desde un recorrido, agregue una acción Enviar correo electrónico, incluida la personalización mediante atributos de perfil (sintaxis de Handlebars).
-* **Recursos de Marketo Design Studio**: elija imágenes y recursos de una copia única de la biblioteca de recursos de Marketo Engage directamente en el lienzo del correo electrónico.
-* **Plantillas y fragmentos reutilizables**: guarde encabezados, pies de página, CTA y diseños de correo electrónico completos comunes y reutilícelos en todos los recorridos.
-* **Control de acceso basado en roles (RBAC)**: aplique permisos granulares para crear, editar, aprobar y enviar correo electrónico.
-
 ## Conceptos clave {#key-concepts}
 
-Antes de configurar el correo electrónico, revise estos conceptos que se aplican a las funciones de canal de correo electrónico en todo el producto.
+Antes de configurar el correo electrónico, revise estos conceptos que se aplican a las funciones de envío del canal de correo electrónico:
 
 | Concepto | Qué significa en [!DNL Journey Optimizer B2B Edition] Prime |
 | ------- | ---------------------- |
 | **_Configuración de canal_** | Un conjunto reutilizable de configuraciones de envío de correo electrónico, incluida la identidad del remitente, la dirección de respuesta, el subdominio, el grupo de IP, el tipo de correo electrónico (de marketing o transaccional) y el seguimiento, que se adjunta a las acciones de correo electrónico en recorrido. Puede tener varias configuraciones de canal con nombre para diferentes marcas, unidades de negocio o tipos de envío. |
 | **_Subdominio_** | Una parte delegada del dominio de envío (por ejemplo, `mail.contoso.com`) que se usa para enviar correo electrónico a través de Prime. Los subdominios aíslan su reputación de marketing B2B del correo corporativo o transaccional. |
 | **_grupo de IP_** | Grupo de direcciones IP asociadas a uno o varios subdominios. Prime es compatible con un grupo de IP compartido que Adobe administra en esta versión; los grupos de IP dedicados están en la hoja de ruta de GA. |
-| **_Espacio de diseño de correo electrónico_** | El lienzo visual y las herramientas de diseño utilizadas para componer el contenido del correo electrónico. Incluye componentes de diseño de arrastrar y soltar, plantillas, fragmentos, temáticas y un editor de personalización. |
-| **_Plantilla_** | Diseño de correo electrónico reutilizable disponible para crear un nuevo correo electrónico. Puede ser una plantilla de ejemplo integrada proporcionada por Adobe o una plantilla personalizada creada por su equipo. |
-| **_Fragmento visual_** | Bloque de contenido reutilizable (como encabezado, pie de página, CTA, exención de responsabilidad legal) que se puede insertar en varios correos electrónicos. La actualización de un fragmento propaga el cambio a cada correo electrónico que lo utiliza. |
-| **_Tema_** | Un ajuste preestablecido de estilo reutilizable (colores, tipografía, espaciado, estilos de botón) aplicado en un correo electrónico. |
-| **_Token de Personalization_** | Una expresión Handlebars, por ejemplo, `{{profile.firstName}}`, se resuelve en el momento del envío con los datos de perfil de cada destinatario. |
-| **_Enviar acción por correo electrónico_** | Nodo de acción de recorrido que utiliza una configuración de canal y contenido de correo electrónico para enviar un correo electrónico. |
 
 ## Funciones y permisos {#roles-permissions}
 
@@ -84,7 +59,7 @@ La mayoría de las funciones de correo electrónico siguen un patrón `view-*` (
 | **Administración de recursos** | `manage-b2b-assets` | Todo el acceso de lectura más las futuras acciones de administración de recursos (ámbito de Beta). |
 | **Exportar datos de mensajes** | `manage-b2b-message-export` | Exportar datos e informes de mensajes de correo electrónico. |
 
-Dentro de un recorrido, la acción **Enviar correo electrónico** requiere `manage-b2b-person-journeys` (para agregar la acción y activar el recorrido). Un usuario con solo permisos de correo electrónico puede crear contenido, pero no puede agregar un correo electrónico a un recorrido.
+Dentro del recorrido de una persona, la acción **Enviar correo electrónico** requiere `manage-b2b-person-journeys` (para agregar la acción y activar el recorrido). Un usuario con solo permisos de correo electrónico puede crear contenido, pero no puede agregar un correo electrónico a un recorrido.
 
 ### Permisos de envío de correo electrónico {#email-deliverability-permissions}
 
