@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
+source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 880
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Puede crear una plantilla de correo electrónico en [!DNL Journey Optimizer B2B 
 
 ## Crear una plantilla nueva {#build-new}
 
-1. Vaya a **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**.
+1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de contenido]** y seleccione **[!UICONTROL Plantillas]**.
 1. Haga clic en **[!UICONTROL Crear plantilla]**.
 1. Escriba un **[!UICONTROL nombre de plantilla]** y una **[!UICONTROL descripción]** opcional.
 1. Establezca el **[!UICONTROL canal]** (tipo) para la plantilla.

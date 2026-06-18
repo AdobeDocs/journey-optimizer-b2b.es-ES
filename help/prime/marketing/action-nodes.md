@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1d0093ad5298593d291372d838794fe8cab5f646
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 2%
@@ -155,7 +155,7 @@ Utilice esta acción para enviar un correo electrónico a las personas incluidas
 
 ![Realizar una acción - Enviar correo electrónico](./assets/person-action-node-send-email.png){width="450"}
 
-Puede crear un correo electrónico, editar uno existente o utilizar un correo electrónico personalizado con IA. Para obtener información sobre cómo crear y editar correos electrónicos, consulte [Creación de correos electrónicos](../content/email-authoring.md).
+Puede crear un correo electrónico, editar uno existente o utilizar un correo electrónico personalizado con IA. Para obtener información sobre cómo crear y editar correos electrónicos, consulte [Canal de correo electrónico](../marketing/email-channel.md).
 
 Puede usar [Optimización del tiempo de envío](../marketing/email-send-time-optimization.md) para personalizar el tiempo de envío del correo electrónico mediante la predicción de cuándo es más probable que se involucre cada perfil.
 
