@@ -1,5 +1,5 @@
 ---
-title: Creación del correo electrónico
+title: Contenido de correo electrónico
 description: Utilice las herramientas de diseño de correo electrónico de Journey Optimizer B2B Prime, incluidas las plantillas de correo electrónico, los fragmentos, la personalización, el modo oscuro y la validación.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
@@ -15,22 +15,22 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
-source-wordcount: 2753
+source-wordcount: 2738
 ht-degree: 1%
 
 ---
 
-# Creación del correo electrónico
+# Creación de contenido de correo electrónico
 
 En [!DNL Adobe Journey Optimizer B2B Prime], el espacio de diseño de correo electrónico proporciona un lienzo visual en el que los especialistas en marketing componen el correo electrónico. Las herramientas de diseño de correo electrónico de los paneles izquierdo y superior (estructuras, componentes de contenido, plantillas, fragmentos y mucho más) admiten la creación desde cero con la función de arrastrar y soltar. También puede elegir comenzar desde una plantilla, pegar HTML sin procesar o ensamblar mensajes a partir de fragmentos visuales reutilizables.
 
 >[!IMPORTANT]
 >
->Para obtener información sobre la configuración de administrador de subdominios, autenticación, grupos de IP y configuraciones de canal de correo electrónico, consulte [Capacidad de entrega de correo electrónico y configuración de canal](../admin/configuration-email-deliverability.md).
+>Para obtener información sobre la configuración de administrador de subdominios, autenticación, grupos de IP y configuraciones de canales de correo electrónico, consulte [Capacidad de entrega de correos electrónicos](../start/email-deliverability.md) y [Configuración de canales de correo electrónico](../admin/email-channel-configuration.md).
 
-En [!DNL Journey Optimizer B2B Prime], cada correo electrónico está asociado con una acción _[!UICONTROL Enviar correo electrónico]_ dentro de un recorrido. El flujo de trabajo completo, desde el diseño del recorrido hasta la definición de correo electrónico, se produce en una experiencia continua. Cuando [agregue un nodo _Enviar correo electrónico_](../marketing/action-nodes.md#add-an-action-node) a un recorrido de persona, haga clic en **[!UICONTROL Crear correo electrónico]** para iniciar el proceso de diseño del contenido del correo electrónico.
+En [!DNL Adobe Journey Optimizer B2B Prime], cada correo electrónico está asociado con una acción _[!UICONTROL Enviar correo electrónico]_ dentro de un recorrido. El flujo de trabajo completo, desde el diseño del recorrido hasta la definición de correo electrónico, se produce en una experiencia continua. Cuando [agregue un nodo _Enviar correo electrónico_](../marketing/action-nodes.md#add-an-action-node) al recorrido de una persona, haga clic en **[!UICONTROL Crear correo electrónico]** para iniciar el proceso de diseño del contenido del correo electrónico.
 
 Esta acción inicia el espacio de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
@@ -65,16 +65,13 @@ Las siguientes prácticas recomendadas de HTML y CSS ayudan a garantizar un proc
 
 ## Creación de un correo electrónico a partir de un recorrido {#email-from-journey}
 
-1. Haga clic en el botón **[!UICONTROL Editar correo electrónico]** para continuar con el paso de configuración del correo electrónico.
-1. En la pantalla siguiente, selecciona una configuración de canal creada previamente en la lista desplegable **[!UICONTROL Configuración de correo electrónico]**. Solo se muestran las configuraciones activas.
-1. Introduzca una Label para la acción (visible en el lienzo del recorrido) y un Email name interno.
-1. Introduzca la línea Subject.
-1. Alternativamente, **[!UICONTROL Habilite el seguimiento de URL]** para este nodo de correo electrónico.
-1. Haga clic en **[!UICONTROL Editar contenido]** para abrir el espacio de diseño de correo electrónico.
+Para agregar una acción _[!UICONTROL Enviar correo electrónico]_ al recorrido de una persona, crear el correo electrónico y establecer la configuración de canal en la pestaña **[!UICONTROL Acciones]**, consulte [Agregar correos electrónicos a recorridos](../marketing/email-channel.md).
+
+Después de configurar el correo electrónico en las fichas **[!UICONTROL Propiedades]**, **[!UICONTROL Acciones]** y **[!UICONTROL Contenido]**, use las secciones de este tema para diseñar el cuerpo del correo electrónico en el espacio de diseño del correo electrónico.
 
 ### La pantalla Editar contenido {#edit-content-screen}
 
-Desde esta pantalla, puede confirmar los detalles del remitente (heredados de la configuración del canal), definir la línea de asunto y abrir el espacio de diseño de correo electrónico para crear el cuerpo. El preencabezado está configurado en el espacio de diseño del correo electrónico (consulte [Configuración del preencabezado](#preheader)).
+Desde la pestaña **[!UICONTROL Content]**, confirma los detalles del remitente (heredados de la [configuración del canal de correo electrónico](../admin/email-channel-configuration.md)), establece la línea de asunto y abre el espacio de diseño de correo electrónico para crear el cuerpo. El preencabezado está configurado en el espacio de diseño del correo electrónico (consulte [Configuración del preencabezado](#preheader)).
 
 * **Nombre del remitente, Correo electrónico del remitente, CCO:** Heredado de la configuración del canal. Sólo lectura en esta pantalla.
 * **Se requiere la línea de asunto:**. Personalization es compatible.
@@ -295,10 +292,10 @@ Antes de activar el recorrido, el contenido del correo electrónico debe ser vá
 
 | Alerta | Lo que significa | Cómo resolver |
 | ----- | ------------- | -------------- |
-| **Falta la línea de asunto** | El campo Subject line está vacío. | Abra el correo electrónico e introduzca una línea de asunto en la pantalla Editar contenido. Se permiten tokens de Personalization, pero el campo no puede estar vacío. |
+| **Falta la línea de asunto** | El campo Subject line está vacío. | Abra el correo electrónico e introduzca una línea de asunto en la ficha **[!UICONTROL Contenido]**. Se permiten tokens de Personalization, pero el campo no puede estar vacío. |
 | **El cuerpo del correo electrónico está vacío** | El lienzo del espacio de diseño del correo electrónico no tiene contenido. | Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para abrir el espacio de diseño del correo electrónico. Arrastre al menos un componente Estructura y un componente Contenido al lienzo y haga clic en Guardar. |
-| **Configuración de canal no seleccionada** | No se ha elegido ninguna configuración de correo electrónico para el nodo de correo electrónico. | En la pantalla de propiedades de correo electrónico, selecciona una configuración de Active channel en la lista desplegable **[!UICONTROL Configuración de correo electrónico]**. |
-| **Configuración de canal eliminada** | La configuración de canal seleccionada anteriormente se ha eliminado o ya no está activa. | Abra las propiedades de correo electrónico y seleccione otra configuración de Active channel. Si no hay ninguno disponible, un administrador debe crear o reactivar uno. |
+| **Configuración de canal no seleccionada** | No se ha elegido ninguna configuración de canal de correo electrónico para el nodo de correo electrónico. | En la ficha **[!UICONTROL Acciones]**, seleccione una **[!UICONTROL configuración de canal de correo electrónico]** activa. |
+| **Configuración de canal eliminada** | La configuración de canal seleccionada anteriormente se ha eliminado o ya no está activa. | En la ficha **[!UICONTROL Acciones]**, seleccione otra **[!UICONTROL configuración del canal de correo electrónico]** activa. Si no hay ninguno disponible, un administrador debe crear o reactivar uno en [Configuración del canal de correo electrónico](../admin/email-channel-configuration.md). |
 | **El tamaño del correo electrónico supera los 100 KB** | El tamaño total del correo electrónico (HTML, CSS en línea, contenido codificado) es mayor que el límite de las prácticas recomendadas del ISP de 100 KB. | Reduzca el tamaño del correo electrónico: reemplace las imágenes en línea grandes con imágenes alojadas externamente de Marketo Design Studio, elimine los CSS en línea no utilizados y simplifique las estructuras anidadas. |
 | **Token de personalización sin resolver** | Un token de Handlebars hace referencia a un atributo de perfil sin reserva y es posible que falte el atributo para algunos destinatarios. | Agregue una reserva utilizando el asistente de Handlebars `default` como se describe en [Personalization](#personalization). Como alternativa, restrinja la audiencia de recorrido a perfiles en los que el atributo esté garantizado. |
 | **Imagen no cargada** | Un componente de imagen hace referencia a un recurso que ya no está disponible. | Haga clic en la imagen, abra el selector de recursos y vuelva a seleccionar el recurso en Marketo Design Studio. |
