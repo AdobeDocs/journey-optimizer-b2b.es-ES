@@ -3,21 +3,13 @@ title: Creación del correo electrónico
 description: Utilice las herramientas de diseño de correo electrónico de Journey Optimizer B2B Prime, incluidas las plantillas de correo electrónico, los fragmentos, la personalización, el modo oscuro y la validación.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 2789
+source-wordcount: 2753
 ht-degree: 1%
 
 ---
@@ -260,7 +252,7 @@ Prime hace que los recursos existentes de Marketo Design Studio estén disponibl
 
 >[!IMPORTANT]
 >
->La disponibilidad de los recursos en Prime se basa en **una copia única** de los recursos de Marketo Design Studio. Volver a cargar o modificar recursos en Marketo después de la copia inicial **no** se reflejará en Prime. En esta versión tampoco se admiten las cargas de imágenes directamente a Prime. La administración nativa de recursos digitales en Prime, incluida la carga, la navegación, la búsqueda y la edición de imágenes, forma parte del ámbito de Beta.
+>La disponibilidad de los recursos en Prime se basa en **una copia única** de los recursos de Marketo Design Studio. La modificación de recursos en Marketo Engage después de la copia inicial es **no** reflejada en [!DNL Journey Optimizer B2B Prime].
 
 ### Tipos de archivos compatibles {#asset-file-types}
 
