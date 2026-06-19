@@ -1,9 +1,9 @@
 ---
 title: Acceso y permisos de usuario
 description: 'Administre el acceso de los usuarios en Adobe Admin Console: cree grupos de usuarios, asigne perfiles de producto y establezca permisos basados en funciones para Journey Optimizer B2B edition Prime.'
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: f1449f734b5d93dc9bd4d7b4c1292a50cbc338b7
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1719'
 ht-degree: 70%
 
 ---
@@ -14,14 +14,14 @@ Una vez completado el aprovisionamiento y enlazados los entornos limitados, comp
 
 1. [Cree un perfil de producto de Adobe Journey Optimizer B2B edition](#create-profile) en Admin Console (solo configuración inicial/única).
 1. [Agregar un grupo de usuarios](#add-user-group) en Admin Console.
-1. [Editar funciones integradas](#edit-roles-for-product-permissions) o [crear una función personalizada](#create-a-custom-role) con permisos de Journey Optimizer B2B edition en permisos de Adobe Experience Platform.
+1. [Editar funciones integradas](#edit-role-permissions) o [crear una función personalizada](#create-a-custom-role) con permisos de Journey Optimizer B2B edition en permisos de Adobe Experience Platform.
 1. [Agregar usuarios](#add-users-to-a-role) o [grupos](#add-user-groups-to-a-role) a los roles de Adobe Experience Platform.
 
 ## Configuración del perfil del producto {#config-profile}
 
 Como administrador, puede completar estas tareas en Adobe Admin Console, que es un lugar central para administrar las licencias y los usuarios de productos de Adobe. En Admin Console, puede crear y administrar usuarios en una sola ubicación en lugar de en las distintas soluciones individuales. Para obtener más información sobre sus funciones y capacidades, consulte la página [Información general de Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
 
-### Acceso a Admin Console
+### Acceso a Admin Console {#admin-console}
 
 Antes de poder usar Admin Console para administrar usuarios dentro de su equipo, debe asegurarse de que puede acceder a Admin Console y de que dispone de los permisos adecuados.
 
@@ -138,13 +138,13 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
 
    * Haga clic en **[!UICONTROL Guardar]** para ver los cambios del usuario.
 
-## Editar funciones para permisos de productos {#edit-roles-for-product-permissions}
+## Asignar permisos de producto {#assign-product-permissions}
 
-Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a un perfil de producto. Cada permiso se agrupa en una funcionalidad, como recorridos o grupos de compra, que representa las funcionalidades de Journey Optimizer B2B edition.
+Los permisos son derechos unitarios que le permiten definir las autorizaciones asignadas a un perfil de producto. Cada permiso se agrupa en una funcionalidad, como recorridos o grupos de compra, que representa las funcionalidades de [!DNL Journey Optimizer B2B Prime].
 
 El área _Permisos_ de Adobe Experience Platform es donde los administradores pueden definir roles de usuario y directivas de acceso para administrar permisos de acceso para características y objetos dentro de una aplicación de producto. En esta aplicación, puede crear y administrar funciones, así como asignar los permisos de recursos deseados para estas. Los permisos también le permiten administrar los entornos limitados y los usuarios asociados a una función específica.
 
-Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
+Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
 
 1. Vaya a [experience.adobe.com](https://experience.adobe.com/).
 
