@@ -1,22 +1,16 @@
 ---
 title: Configurar lista de comprobación
 description: Complete las tareas de configuración iniciales de la instancia de Prime B2B de Journey Optimizer, incluida la configuración de acceso de los usuarios y la infraestructura de envío de correo electrónico.
+badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
 autotag-review: '2026-06-12T23:06:52.179Z'
 TQID: 'https://experienceleague.adobe.com/D8qXM-F4anA8IVYmdlaclUoxgTwqQptN36xYFpsuvHY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: de83abd4ca48e2dfda8a1900f7c8074232bb9d8e
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ceid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
-source-wordcount: 218
+source-wordcount: 228
 ht-degree: 11%
 
 ---
@@ -83,21 +77,21 @@ Para que los especialistas en marketing puedan enviar correos electrónicos desd
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
 <td>Delegación de un subdominio en Adobe (completamente delegado o CNAME)</td>
-<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Delegado completamente</a> <br/> <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
+<td><a href="./email-deliverability.md#delegate-fully-delegated">Delegado completamente</a> <br/> <a href="./email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
 <td>Configuración de DMARC para el subdominio</td>
-<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Configuración de DMARC</a></td>
+<td><a href="./email-deliverability.md#configure-dmarc">Configuración de DMARC</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
 <td>Revisar y asignar un grupo de IP</td>
-<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Revisar grupo de IP</a></td>
+<td><a href="./email-deliverability.md#review-ip-pool">Revisar grupo de IP</a></td>
 </tr>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
 <td>Crear una configuración de canal de correo electrónico</td>
-<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Configuración de canal de correo electrónico</a></td>
+<td><a href="../admin/email-channel-configuration.md#create-email-channel-configuration">Configuración de canal de correo electrónico</a></td>
 </tr>
 </tbody>

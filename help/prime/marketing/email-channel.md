@@ -1,51 +1,53 @@
 ---
-title: Canal de correo electrónico
-description: 'Añadir nodos de acción de correo electrónico a los recorridos de la cuenta: cree nuevos correos electrónicos o utilice correos electrónicos de Marketo Engage existentes para comunicaciones de destino en Journey Optimizer B2B edition.'
-feature: Email Authoring, Account Journeys
+title: Adición de correos electrónicos a Recorrido
+description: Añada nodos de acción de correo electrónico a recorridos de persona y cree nuevos correos electrónicos para las comunicaciones segmentadas en Journey Optimizer B2B Prime.
+badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
+feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 2%
+source-wordcount: 1037
+ht-degree: 1%
 
 ---
 
-# Canal de correo electrónico
+# Adición de correos electrónicos a recorrido
 
-[!DNL Adobe Journey Optimizer B2B Prime] ofrece a los especialistas en marketing B2B una experiencia moderna de creación y envío de correo electrónico de nivel empresarial. Esta versión introduce herramientas de diseño de correo electrónico rediseñadas y un conjunto completo de controles de envío de correo electrónico.
+[!DNL Adobe Journey Optimizer B2B Prime] ofrece a los especialistas en marketing B2B una experiencia moderna de creación y envío de correo electrónico de nivel empresarial.
 
 >[!NOTE]
 >
->Si envía un correo electrónico por primera vez, asegúrese de que el [canal de correo electrónico y la capacidad de entrega](../admin/configuration-email-deliverability.md) estén configurados.
+>Si envía un correo electrónico por primera vez, asegúrese de que [capacidad de entrega de correo electrónico](../start/email-deliverability.md) y el [canal de correo electrónico](../admin/email-channel-configuration.md) necesario estén configurados.
 
-## Resumen del canal de correo electrónico {#overview}
+<!-- 
+* **Email channel configurations** - Manage the sender identity, reply behavior, marketing vs. transactional message types, and tracking.
+* **Email deliverability controls** - Set up your email deliverability channel, including subdomain delegation (Fully Delegated and CNAME methods), DMARC, SPF/DKIM auto-configuration, and shared IP pool support.
+* **Send Email action** - From a journey, add a _Send email_ action node, including personalization using profile attributes (Handlebars syntax).
+* **Visual drag-and-drop email design tools** -  Design your email content with structures, content components, themes, dark-mode support, and reusable visual fragments.
+* **Marketo Design Studio assets** — Choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas.
+* **Reusable templates and fragments** — Save common headers, footers, CTAs, and full email layouts and reuse them across journeys.
+* **Role-Based Access Control (RBAC)** — Apply granular permissions for creating, editing, approving, and sending email. 
+-->
 
-* **Configuraciones del canal de correo electrónico**: administre la identidad del remitente, el comportamiento de respuesta, el marketing frente a los tipos de mensajes transaccionales y el seguimiento.
-* **Controles de envío de correo electrónico**: configure su canal de envío de correo electrónico, incluida la delegación de subdominios (métodos completamente delegados y CNAME), DMARC, la configuración automática de SPF/DKIM y la compatibilidad con grupos de IP compartidas.
-* **Acción Enviar correo electrónico** - Desde un recorrido, agregue un nodo de acción _Enviar correo electrónico_, incluida la personalización mediante atributos de perfil (sintaxis de Handlebars).
-* **Herramientas visuales de diseño de correo electrónico de arrastrar y soltar**: diseñe su contenido de correo electrónico con estructuras, componentes de contenido, temas, compatibilidad con modo oscuro y fragmentos visuales reutilizables.
-* **Recursos de Marketo Design Studio**: elija imágenes y recursos de una copia única de la biblioteca de recursos de Marketo Engage directamente en el lienzo del correo electrónico.
-* **Plantillas y fragmentos reutilizables**: guarde encabezados, pies de página, CTA y diseños de correo electrónico completos comunes y reutilícelos en todos los recorridos.
-* **Control de acceso basado en roles (RBAC)**: aplique permisos granulares para crear, editar, aprobar y enviar correo electrónico.
+## Limitaciones actuales {#limitations}
+
+* **Los perfiles de prueba, Simular contenido y Enviar prueba** no están disponibles en esta versión. Los informes de spam basados en Litmus rendering y SpamAssassin están en la hoja de ruta de GA.
+* La personalización de nivel de cuenta y los datos de objeto personalizado **1 no están disponibles en esta versión.** Utilice atributos de perfil.
+* La **migración automatizada de Velocity-to-Handlebars** de las plantillas de Marketo Engage existentes se enviará en GA.
+* **Los comentarios y la colaboración en los correos electrónicos** (comentarios en línea, @mentions, flujo de trabajo de solicitud y revisión) se publicarán en una próxima versión.
+* Las integraciones de **AEM Assets, fragmentos de contenido de AEM y Adobe Express** se encuentran en la hoja de ruta de _Seguimiento rápido_.
 
 ## Conceptos clave {#key-concepts}
 
 Antes de crear correos electrónicos para recorridos de personas y contenido de correo electrónico, revise estos conceptos:
 
-| Concepto | En [!DNL Journey Optimizer B2B Prime] Prime |
+| Concepto | En [!DNL Adobe Journey Optimizer B2B Prime] |
 | ------- | ---------------------- |
 | **_Espacio de diseño de correo electrónico_** | El lienzo visual y las herramientas de diseño utilizadas para componer el contenido del correo electrónico. Incluye componentes de diseño de arrastrar y soltar, plantillas, fragmentos, temáticas y un editor de personalización. |
 | **_Plantilla_** | Diseño de correo electrónico reutilizable disponible para crear un nuevo correo electrónico. Puede ser una plantilla de ejemplo integrada proporcionada por Adobe o una plantilla personalizada creada por su equipo. |
@@ -56,68 +58,67 @@ Antes de crear correos electrónicos para recorridos de personas y contenido de 
 
 ## Adición de un correo electrónico desde un recorrido
 
-Para enviar correo electrónico desde un recorrido, agrega un nodo _Realizar una acción_ y configúrelo para enviar correo electrónico.
+Para enviar correo electrónico desde un recorrido, [agregue un nodo _Realice una acción_](action-nodes.md#add-an-action-node) y configúrelo para enviar correo electrónico.
 
 1. En el lienzo del recorrido, haga clic en el icono **+** y seleccione **[!UICONTROL Realizar una acción]**.
 
 1. En las propiedades del nodo a la derecha, establezca la acción en **[!UICONTROL Enviar correo electrónico]**.
 
-   ![Realizar una acción - Enviar correo electrónico](./assets/person-action-node-send-email.png){width="450"}
+   ![Realizar una acción - Enviar correo electrónico](./assets/person-action-node-send-email.png){width="500"}
 
 1. Elija la fuente de correo electrónico:
 
    * **Crear/editar correo electrónico**: elija esta opción para definir el contenido del correo electrónico, incluida la línea de asunto, la información del remitente y el cuerpo del correo electrónico en el espacio de diseño del correo electrónico.
 
-   * **[!UICONTROL Usar un correo electrónico personalizado con IA]**: elija esta opción para restringir un correo electrónico generado por IA en el espacio de diseño del correo electrónico. Estos correos electrónicos están optimizados para que los clientes de la bandeja de entrada asistida por IA fundamenten sus resúmenes y respuestas en sus ofertas y llamadas a la acción.
+   * **[!UICONTROL Usar un correo electrónico personalizado con IA]** - (_No disponible para Beta_) Elija esta opción para restringir un correo electrónico generado por IA en el espacio de diseño de correo electrónico. Estos correos electrónicos están optimizados para que los clientes de la bandeja de entrada asistida por IA fundamenten sus resúmenes y respuestas en sus ofertas y llamadas a la acción.
 
 1. Haga clic en **[!UICONTROL Crear correo electrónico]**.
 
 1. En el cuadro de diálogo _[!UICONTROL Crear correo electrónico]_, escriba un **[!UICONTROL Nombre]** único (obligatorio) y una **[!UICONTROL Descripción]** (opcional).
 
+   ![Crear diálogo de correo electrónico](./assets/email-channel-create-email-dialog.png){width="400"}
+
 1. Haga clic en **[!UICONTROL Crear]**.
 
-## Definir las propiedades y acciones del correo electrónico
+Para la [optimización del tiempo de envío](email-send-time-optimization.md) opcional, configure el nodo de acción de recorrido después de crear el correo electrónico.
 
-1. Con el nodo _[!UICONTROL Enviar correo electrónico]_ seleccionado en el lienzo del recorrido, haga clic en **[!UICONTROL Editar correo electrónico]** en las propiedades del nodo a la derecha.
+## Definir las propiedades y acciones del correo electrónico {#define-email-properties}
 
-<!-- Staging environment broken -->
+La página de correo electrónico se abre al crear un correo electrónico para un nodo _[!UICONTROL Enviar correo electrónico]_. También puede acceder a esta página una vez creado el correo electrónico haciendo clic en **[!UICONTROL Editar correo electrónico]** en las propiedades del nodo a la derecha.
 
-para el correo electrónico y **[!UICONTROL Línea de asunto]**.
+1. (Opcional) En la pestaña **[!UICONTROL Propiedades]**, escriba la información descriptiva que desee capturar para el correo electrónico.
 
-Se abrirá la ficha **[!UICONTROL Acciones]**, donde podrá seleccionar o crear la configuración de correo electrónico que quiera usar.
+1. Seleccione la ficha **[!UICONTROL Acciones]** y complete la configuración funcional del correo electrónico:
 
-1. (Opcional) Seleccione un conjunto de reglas en Reglas de negocio para aplicar reglas de límite a la acción de correo electrónico.
+   * **[!UICONTROL Correo electrónico]** - Seleccione o cree una **[!UICONTROL configuración de canal de correo electrónico]** para usar.
 
-Puede usar la [opción de optimización del tiempo de envío](./email-send-time-optimization.md) para predecir el mejor momento para enviar el mensaje y maximizar la participación en función de la apertura histórica y las tasas de clics. Descubrir cómo
+     Este es el conjunto reutilizable de configuraciones de envío de correo electrónico que define la identidad del remitente, la dirección de respuesta, el subdominio, el grupo de IP, el tipo de correo electrónico (de marketing o transaccional) y el seguimiento. Haga clic en el icono _Ver_ para revisar la configuración seleccionada.
 
-Seleccione el botón Editar contenido y cree el contenido que desee mediante el Designer de correo electrónico.
+     Los administradores crean configuraciones en [Configuración del canal de correo electrónico](../admin/email-channel-configuration.md).
 
-Volver al lienzo de recorrido. Si es necesario, complete el flujo de recorrido arrastrando y soltando acciones o eventos adicionales.
+   * **[!UICONTROL Reglas de negocio]**: (Opcional) aplique reglas de límite a su acción de correo electrónico seleccionando un conjunto de reglas.
 
-Para obtener más información sobre cómo crear, configurar y publicar un recorrido, consulte esta página.
+   * **[!UICONTROL Seguimiento de acciones]**: seleccione las casillas de verificación de las acciones que desee rastrear para el correo electrónico.
 
+   ![Canal de correo electrónico: ficha Acciones](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
-### Definir configuración de correo electrónico {#email-settings}
+1. Haga clic en **[!UICONTROL Editar contenido]** o seleccione la pestaña **[!UICONTROL Contenido]**.
 
-Configure las opciones en la ficha **[!UICONTROL Detalles]** del panel de resumen del nodo.
+1. Escriba el texto de **[!UICONTROL Línea de asunto]** que desee mostrar en el campo de asunto del correo electrónico.
 
-| Configuración | Descripción |
-| ------- | ----------- |
-| **[!UICONTROL De nombre]** | Nombre del remitente mostrado en el encabezado del correo electrónico. Admite tokens de personalización. |
-| **[!UICONTROL Del correo electrónico]** | Dirección de correo electrónico del remitente Valores predeterminados de configuración de canal. Admite personalización. |
-| **[!UICONTROL Dirección de respuesta]** | Dirección que recibe las respuestas de los destinatarios. Admite personalización. |
-| **[!UICONTROL Línea de asunto]** | Línea de asunto de correo electrónico. Editable a partir del valor introducido durante la creación. |
-| **[!UICONTROL Dominio de marca]** | Dominio utilizado para el envío específico de la marca. |
-| **[!UICONTROL IP dedicada]** | Dirección IP específica para el seguimiento de la capacidad de entrega. |
-| **[!UICONTROL Correo electrónico operativo]** | Cuando está habilitado, evita la exclusión y la supresión de la suscripción. Utilícelo únicamente para mensajes operativos legítimos. |
-| **[!UICONTROL Incluir vista como página web]** | Genera un vínculo a una página web para el contenido del correo electrónico. |
-| **[!UICONTROL Deshabilitar seguimiento de aperturas]** | Evita el seguimiento de la actividad de apertura de correo electrónico. |
-| **[!UICONTROL Encabezado previo]** | Texto de resumen corto que se muestra después de la línea de asunto en las vistas previas de la bandeja de entrada. |
-| **[!UICONTROL Direcciones CC]** | Añada hasta 25 campos de correo electrónico de posible cliente o compañía para recibir una copia. |
+   Haga clic en el icono _Personalizar_ ( ![Personalizar icono](../../user/assets/do-not-localize/icon-personalize.svg) ) para usar un token de personalización en el campo.
+
+1. (Opcional) Seleccione la casilla de verificación **[!UICONTROL Optimizar tamaño de HTML]** para reducir el tamaño de su HTML de correo electrónico durante el proceso de publicación.
+
+   Esto ayuda a evitar el recorte del correo electrónico en clientes como Gmail, que trunca los mensajes que exceden los 100 KB. Consulte [_Optimizar el tamaño de HTML del correo electrónico_](#optimize-html-size) para obtener más información.
+
+1. Haga clic en **[!UICONTROL Editar cuerpo del correo electrónico]** para acceder a las herramientas de diseño visual y comenzar a [crear su contenido](../content/email-authoring.md).
+
+   También puede hacer clic en **[!UICONTROL Editor de código]** para codificar su propio contenido en HTML sin formato. Si tiene HTML existente para reutilizarlo en su diseño de correo electrónico, puede copiarlo y pegarlo en el editor.
 
 ### Comprobación de alertas {#alerts}
 
-[!DNL Journey Optimizer B2B Prime] muestra los problemas en la esquina superior derecha del editor de correo electrónico. Resuelva todos los errores antes de activar el recorrido: las advertencias solo son recomendaciones.
+[!DNL Adobe Journey Optimizer B2B Prime] muestra los problemas en la esquina superior derecha de la página de correo electrónico. Resuelva todos los errores antes de activar el recorrido. Las advertencias solo son recomendaciones.
 
 **Errores** (evitar la activación del recorrido):
 
@@ -131,3 +132,62 @@ Configure las opciones en la ficha **[!UICONTROL Detalles]** del panel de resume
 * La versión de texto de HTML está vacía
 * Vínculos vacíos detectados
 * El correo electrónico supera los 100 K
+
+## Optimizar tamaño de HTML de correo electrónico {#optimize-html-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b-prime_email_minification"
+>title="Reducir el tamaño de HTML"
+>abstract="Active esta opción para comprimir el correo electrónico de HTML durante la publicación eliminando los espacios en blanco, la sangría y los comentarios no esenciales innecesarios. Esto ayuda a evitar el recorte del correo electrónico en clientes como Gmail, que trunca los mensajes que exceden los 100 KB."
+
+[!DNL Journey Optimizer B2B Prime] le permite comprimir su versión de HTML de correo electrónico durante el proceso de publicación al eliminar espacios en blanco, sangrías y comentarios no esenciales innecesarios. Mantener el tamaño pequeño de HTML le ayuda a lo siguiente:
+
+* Evite **recortes de correo electrónico**: algunos clientes, como Gmail, truncan mensajes de más de ~100 KB, lo que impide que los destinatarios vean todo el contenido.
+* Mejorar **tiempo de carga del correo electrónico** en la bandeja de entrada del destinatario.
+* Mejore la capacidad de **entrega** y reduzca el uso del ancho de banda.
+
+Esta optimización no se aplica automáticamente; debe habilitarla en la ficha _[!UICONTROL Contenido]_.
+
+<!-- ![](assets/email-optimize-html-size.png) -->
+
+>[!IMPORTANT]
+>
+> La reducción del tamaño de la HTML solo se aplica en el momento de la publicación.
+
+La optimización es segura para el cliente de correo electrónico:
+
+* Conserva los comentarios condicionales de MSO/Outlook.
+* No altera el contenido, las imágenes ni los vídeos reales.
+
+>[!NOTE]
+>
+>La reducción del tamaño del correo electrónico depende de la estructura original de HTML del correo electrónico. Si el contenido ya es compacto o la carga útil del correo electrónico es muy grande, la reducción puede ser mínima y puede que no impida completamente el recorte en todos los casos.
+
+<!-- 
+Proof and simulate workflows are not available in this release. See [Current limitations](#limitations).
+
+### Test HTML size optimization {#optimize-html-proof}
+
+If you have enabled the [HTML size optimization](#optimize-html-size) option, you can evaluate its impact before publishing when sending proofs. Follow the following steps.
+
+1. In the email design space, click the _Issues_ icon on the top right. If the rendered email size exceeds 100 KB, a message is displayed to warn you that this may cause truncation in some email clients.
+
+1. Click **[!UICONTROL Simulate content]**.
+
+1. To test the optimized version, click the **[!UICONTROL Send proof]** button and select the **[!UICONTROL Optimize HTML size]** option. This will send a proof with the reduced HTML size to your test recipients.
+
+    >[!NOTE]
+    >
+    >This setting is independent from the email editor — the proof reflects what you select in the proof, regardless of whether the option is enabled or disabled in the email itself.
+
+1. Select the test recipients and click **[!UICONTROL Send proof]**.
+
+1. Back in the **[!UICONTROL Simulate]** screen, click the **[!UICONTROL View Proof]** button.
+
+1. Click the _Information_ icon next to the status of the proof.
+
+   The optimization details are displayed in a pop-up window, including the original HTML size, the optimized HTML size, and the size reduction percentage.
+    
+    Use this information to validate the optimized output and confirm the email stays within the recommended 100 KB threshold before publishing.
+
+-->
