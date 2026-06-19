@@ -1,5 +1,5 @@
 ---
-title: Instalación
+title: Configurar lista de comprobación
 description: Complete las tareas de configuración iniciales de la instancia de Prime B2B de Journey Optimizer, incluida la configuración de acceso de los usuarios y la infraestructura de envío de correo electrónico.
 autotag-review: '2026-06-12T23:06:52.179Z'
 TQID: 'https://experienceleague.adobe.com/D8qXM-F4anA8IVYmdlaclUoxgTwqQptN36xYFpsuvHY'
@@ -14,20 +14,20 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: de83abd4ca48e2dfda8a1900f7c8074232bb9d8e
 workflow-type: tm+mt
-source-wordcount: 190
-ht-degree: 55%
+source-wordcount: 218
+ht-degree: 11%
 
 ---
 
-# Configuración
+# Configurar lista de comprobación
 
-Complete estas tareas para habilitar la funcionalidad en la instancia de Recorrido B2B Prime aprovisionada.
+Complete estas tareas para habilitar la funcionalidad en la instancia [!DNL Journey Optimizer B2B Prime] aprovisionada.
 
-## Habilitar acceso de usuario
+## Habilitar acceso de usuario {#enable-user-access}
 
-Cuando se complete el aprovisionamiento, los entornos limitados están enlazados y las tareas de configuración iniciales están completadas, configure el acceso de Journey Optimizer B2B edition y Marketo Engage para su equipo y para los usuarios.
+Cuando el aprovisionamiento se haya completado y las zonas protegidas estén enlazadas, configure el acceso de [!DNL Journey Optimizer B2B Edition] para su equipo y para los usuarios.
 
 <table>
 <thead>
@@ -42,29 +42,29 @@ Cuando se complete el aprovisionamiento, los entornos limitados están enlazados
 <td></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
-<td>Crear un perfil de producto de Marketo Engage en Adobe Admin Console (solo la nueva instancia de Marketo Engage)</td>
-<td><a href="./user-management.md#create-profile">Más información</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
+<td>Crear un perfil de producto de Journey Optimizer B2B edition en Admin Console (solo una vez/configuración inicial)</td>
+<td><a href="./user-management.md#create-profile">Crear perfil</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
-<td>Añadir un grupo de usuarios para el perfil</td>
-<td><a href="./user-management.md#add-user-group">Más información</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
+<td>Añadir un grupo de usuarios en Admin Console</td>
+<td><a href="./user-management.md#add-user-group">Agregar grupo de usuarios</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
-<td>Configuración de funciones de usuario B2B</td>
-<td><a href="./user-management.md#edit-roles-for-product-permissions">Más información</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
+<td>Editar funciones integradas o crear una función personalizada con permisos de producto</td>
+<td><a href="./user-management.md#edit-role-permissions">Editar roles</a> <br/> <a href="./user-management.md#create-a-custom-role">Crear un rol personalizado</a></td>
 </tr>
 <tr>
-<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
-<td>Agregar usuarios o grupos a las funciones</td>
-<td><a href="./user-management.md#add-users-to-a-role">Más información</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
+<td>Adición de usuarios o grupos a las funciones de Adobe Experience Platform</td>
+<td><a href="./user-management.md#add-users-to-a-role">Agregar usuarios</a> <br/><a href="./user-management.md#add-user-groups-to-a-role">Agregar grupos</a></td>
 </tr>
 </tbody>
 </table>
 
-## Entregabilidad del correo electrónico
+## Entregabilidad del correo electrónico {#email-deliverability}
 
 Para que los especialistas en marketing puedan enviar correos electrónicos desde las recorridos, configure la infraestructura de envío de su organización, incluida la delegación de subdominios, la autenticación de correo electrónico y la configuración de canal.
 
@@ -81,25 +81,23 @@ Para que los especialistas en marketing puedan enviar correos electrónicos desd
 <td></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
-<td>Delegación de un subdominio en Adobe</td>
-<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Totalmente delegado</a> o <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
+<td>Delegación de un subdominio en Adobe (completamente delegado o CNAME)</td>
+<td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Delegado completamente</a> <br/> <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
 <td>Configuración de DMARC para el subdominio</td>
-<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Más información</a></td>
+<td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Configuración de DMARC</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
 <td>Revisar y asignar un grupo de IP</td>
-<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Más información</a></td>
+<td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Revisar grupo de IP</a></td>
 </tr>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Casilla de verificación para tarea"/></td>
 <td>Crear una configuración de canal de correo electrónico</td>
-<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Obtenga más información</a></td>
+<td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Configuración de canal de correo electrónico</a></td>
 </tr>
 </tbody>
-</table>
-
