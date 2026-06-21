@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 880
+source-wordcount: 885
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 # Crear plantillas de correo electrónico
 
-Puede crear una plantilla de correo electrónico en [!DNL Journey Optimizer B2B Edition Prime] de tres maneras:
+Puede crear una plantilla de correo electrónico en [!DNL Adobe Journey Optimizer B2B Prime] de tres maneras:
 
 * **Crear una nueva plantilla**: cree una plantilla en la biblioteca de plantillas con el espacio de diseño de correo electrónico visual.
 * **Guardar desde un correo electrónico de recorrido**: guarde un correo electrónico que haya creado en un recorrido como una plantilla reutilizable.
@@ -65,13 +65,13 @@ Cuando abra el contenido del correo electrónico que desea reutilizar, guárdelo
 
 El correo electrónico de recorrido original no se ve afectado. La plantilla guardada está disponible en la biblioteca de plantillas para todos los usuarios de la zona protegida. Puede actualizar la plantilla creada para optimizar su reutilización:
 
-* Edite texto y agregue [tokens de personalización](email-authoring.md#personalization).
+* Edite texto y agregue [tokens de personalización](email-authoring.md#personalize-content).
 * Actualizar o reemplazar imágenes y agregar vínculos.
 * Configurar [bloqueo de contenido](template-content-governance.md).
 
 ## Convertir una imagen en una plantilla {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime] puede convertir una imagen estática, como una maqueta de Figma o Photoshop, en una plantilla de correo electrónico editable mediante IA generativa. Esto elimina la necesidad de reconstruir manualmente los diseños a partir de archivos de diseño y es ideal para migrar los diseños de correo electrónico existentes desde otras plataformas. Esta función solo está disponible para plantillas de contenido de correo electrónico.
+[!DNL Adobe Journey Optimizer B2B Prime] puede convertir una imagen estática, como una maqueta de Figma o Photoshop, en una plantilla de correo electrónico editable mediante IA generativa. Esto elimina la necesidad de reconstruir manualmente los diseños a partir de archivos de diseño y es ideal para migrar los diseños de correo electrónico existentes desde otras plataformas. Esta función solo está disponible para plantillas de contenido de correo electrónico.
 
 >[!BEGINSHADEBOX]
 
@@ -95,7 +95,7 @@ Antes de empezar:
 
 ### Creación de la plantilla
 
-1. Vaya a **[!UICONTROL Administración de contenido]** > **[!UICONTROL Plantillas]**.
+1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de contenido]** y seleccione **[!UICONTROL Plantillas]**.
 1. Haga clic en **[!UICONTROL Crear plantilla]**.
 1. Escriba un **[!UICONTROL nombre de plantilla]** y una **[!UICONTROL descripción]** opcional.
 1. Establece el **[!UICONTROL canal]** en correo electrónico.
@@ -138,7 +138,7 @@ Antes de empezar:
 
 El contenido de plantilla convertido se abre en el espacio de diseño como una plantilla de correo electrónico totalmente editable. Utilice las herramientas de diseño de contenido estándar para lo siguiente:
 
-* Edite texto y agregue [tokens de personalización](email-authoring.md#personalization).
+* Edite texto y agregue [tokens de personalización](email-authoring.md#personalize-content).
 * Actualizar o reemplazar imágenes y agregar vínculos.
 * Ajustar colores, fuentes y espaciado.
 * Agregar, quitar o reorganizar componentes de contenido.

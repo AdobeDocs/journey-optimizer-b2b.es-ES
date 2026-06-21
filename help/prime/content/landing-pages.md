@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2180
+source-wordcount: 2164
 ht-degree: 4%
 
 ---
@@ -30,12 +30,12 @@ Casos de uso comunes de las páginas de aterrizaje:
 * Recopile el consentimiento antes de enviar comunicaciones y envíe un correo electrónico de confirmación tras la inclusión o la exclusión.
 * Capture o actualice datos de perfil (perfil progresivo, preferencias, registros y escenarios similares) mediante formularios en páginas de aterrizaje.
 * Dirija a las personas a información específica de la campaña diseñada para su orquestación de recorrido.
-* Redirija a las personas a un formulario web específico sin crear una página externa fuera de Journey Optimizer B2B Prime.
+* Redirigir a las personas a un formulario web dedicado sin crear una página externa fuera de [!DNL Journey Optimizer B2B Prime].
 
 <!-- 
 ## Landing page workflow
 
-To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in Journey Optimizer B2B Edition: 
+To direct members of a journey audience to a defined web page when they click a specific link, create a landing page in [!DNL Journey Optimizer B2B Prime]: 
 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
@@ -51,7 +51,7 @@ You can create, personalize, and preview landing pages in the visual design spac
 
 ## Acceso y administración de páginas de aterrizaje {#access-manage-landing-pages}
 
-Para acceder a las páginas de aterrizaje de Journey Optimizer B2B Prime, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Páginas de aterrizaje]**. Esta acción muestra una lista de todas las páginas de aterrizaje creadas en la instancia.
+Para acceder a las páginas de aterrizaje de [!DNL Journey Optimizer B2B Prime], vaya a la barra de navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Páginas de aterrizaje]**. Esta acción muestra una lista de todas las páginas de aterrizaje creadas en la instancia.
 
 La lista se ordena según la columna _[!UICONTROL Modificado]_, con los elementos actualizados más recientemente en la parte superior. Haga clic en el título de la columna para cambiar entre ascendente y descendente.
 
@@ -78,7 +78,7 @@ El estado de la página de aterrizaje determina su disponibilidad para la vincul
 | Estado | Descripción |
 | -------------------- | ----------- |
 | Borrador | Cuando crea una página de aterrizaje, está en estado de borrador. Permanece en este estado a medida que define o edita el contenido visual y hasta que lo publica como una página alojada. Acciones disponibles:<br/><ul><li>Editar nombre o descripción</li><li>Editar URL del vínculo</li><li>Editar en el espacio de diseño visual</li><li>Publicación</li><li>Duplicado</li><li>Eliminar</li></ul> |
-| Publicadas | Al publicar una página de aterrizaje, esta se aloja en la instancia de Journey Optimizer B2B Prime y está disponible para vincularse en el contenido de un mensaje de correo electrónico o SMS. Acciones disponibles:<br/><ul><li>Editar nombre o descripción</li><li>Editar URL del vínculo</li><li>Añadir vínculo en el contenido del correo electrónico o del mensaje SMS</li><li>Crear versión de borrador</li><li>Duplicado</li><li>Eliminar</li></ul> |
+| Publicadas | Al publicar una página de aterrizaje, esta se aloja en la instancia [!DNL Journey Optimizer B2B Prime] y queda disponible para la vinculación en el contenido de un mensaje de correo electrónico o SMS. Acciones disponibles:<br/><ul><li>Editar nombre o descripción</li><li>Editar URL del vínculo</li><li>Añadir vínculo en el contenido del correo electrónico o del mensaje SMS</li><li>Crear versión de borrador</li><li>Duplicado</li><li>Eliminar</li></ul> |
 | Publicado con borrador | Cuando crea un borrador a partir de una página de aterrizaje publicada, la versión publicada se mantiene y el contenido del borrador se puede modificar en el espacio de diseño visual. Si publica la versión de borrador, reemplazará la versión publicada actual y el contenido se actualizará en la página alojada. Acciones disponibles:<br/><ul><li>Editar nombre o descripción</li><li>Editar URL del vínculo</li><li>Añadir vínculo en el contenido del correo electrónico o del mensaje SMS</li><li>Editar versión de borrador en el espacio de diseño visual</li><li>Publicar versión de borrador</li><li>Duplicado</li><li>Eliminar (elimina ambas versiones)</li><li>Descartar borrador (vuelve al estado publicado)</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
@@ -175,7 +175,7 @@ Para definir la configuración de la página principal, siga estos pasos:
 >title="Previsualizar y probar la página de destino"
 >abstract="Después de definir la configuración y el contenido de la página de aterrizaje, utilice perfiles de prueba para previsualizar la página."
 
-Cuando se definen la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizar la página. Si ha insertado [contenido personalizado](email-authoring.md#personalization), puede comprobar cómo se muestra este contenido en la página de aterrizaje mediante los datos del perfil de prueba.
+Cuando se definen la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizar la página. Si ha insertado [contenido personalizado](email-authoring.md#personalize-content), puede comprobar cómo se muestra este contenido en la página de aterrizaje mediante los datos del perfil de prueba.
 
 >[!PREREQUISITES]
 >
@@ -299,7 +299,7 @@ Esta acción abre un cuadro de diálogo de confirmación. Puede anular el proces
 
 ## Vínculo a una página de aterrizaje {#link-to-landing-page}
 
-Como experto en marketing o creativo que produce contenido de correo electrónico, fragmentos y páginas, puede incrustar vínculos a las páginas de aterrizaje publicadas (activas) que se crean en la instancia de Journey Optimizer B2B Prime.
+Como experto en marketing o creativo que produce contenido de correo electrónico, fragmentos y páginas, puede incrustar vínculos a las páginas de aterrizaje publicadas (activas) que se crean en su instancia de [!DNL Journey Optimizer B2B Prime].
 
 1. Cuando trabaje en el espacio de diseño visual para un fragmento, correo electrónico, página de aterrizaje o plantilla, seleccione un extracto de texto, un componente de botón o un componente de imagen para el vínculo.
 

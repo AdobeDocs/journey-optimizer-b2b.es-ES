@@ -1,6 +1,6 @@
 ---
 title: Recursos
-description: Administre recursos de imagen desde Journey Optimizer B2B edition para correos electrónicos, plantillas y fragmentos visuales.
+description: Administre recursos de imagen de Journey Optimizer B2B Prime para correos electrónicos, plantillas y fragmentos visuales.
 feature: Assets, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 524
-ht-degree: 5%
+source-wordcount: 786
+ht-degree: 18%
 
 ---
 
@@ -91,3 +91,29 @@ Seleccione cualquier recurso de la vista de lista o de galería para abrir su vi
 Una vez finalizada la carga, el sistema genera automáticamente una descripción, asigna etiquetas y palabras clave y extrae atributos visuales como asunto y configuración. No se requiere etiquetado manual. La nueva imagen se mostrará con un estado _[!UICONTROL PROCESANDO]_ hasta que finalice este proceso.
 
 ![Nuevo recurso de imagen en estado de procesamiento](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+
+## Uso de recursos para la creación de contenido {#assets-authoring}
+
+Utilice recursos a medida que crea sus correos electrónicos, plantillas de correo electrónico y fragmentos visuales. El editor de contenido visual proporciona acceso a las imágenes de la biblioteca _Assets_. También puede cargar un recurso de imagen, que lo coloca en el repositorio de recursos interno.
+
+Puede elegir el recurso de imagen al editar la configuración de un componente de imagen o directamente en el lienzo:
+
+* **_Componente vacío_**: cuando se agrega un componente de imagen al lienzo, está vacío y proporciona acceso fácil para elegir, seleccionar o importar un archivo de imagen.
+
+  ![Elija un origen para seleccionar un archivo de imagen para el componente de imagen vacío](./assets/dam-assets-image-component-empty.png){width="500"}
+
+* **_Barra de herramientas del componente de imagen_**: cuando tiene un componente de imagen seleccionado en el lienzo, la barra de herramientas proporciona fácil acceso para elegir un origen y seleccionar el archivo de imagen.
+
+  ![Use la barra de herramientas para elegir un origen y seleccionar un archivo de imagen para el componente de imagen](./assets/dam-assets-image-toolbar-settings.png){width="500"}
+
+* **_Configuración del componente de imagen_**: cuando tenga un componente de imagen seleccionado en el lienzo, puede ver y editar la configuración en el panel derecho. Para añadir o cambiar el archivo de imagen que se muestra en el componente, elija el tipo de origen y seleccione un archivo de imagen.
+
+  ![Edite la configuración del componente de imagen en el panel derecho](./assets/dam-assets-image-settings.png){width="350"}
+
+Haga clic en **[!UICONTROL Seleccionar recurso]** para abrir el selector de recursos, donde podrá elegir una imagen del repositorio de recursos [!DNL Journey Optimizer B2B Prime].
+
+![Seleccionar un recurso de imagen](./assets/dam-assets-internal-image-selected.png){width="700" zoomable="yes"}
+
+Puede utilizar la búsqueda y los filtros para localizar el recurso de imagen deseado. Seleccione el recurso y haga clic en **[!UICONTROL Seleccionar]** para utilizarlo en el componente de imagen.
+
+También puede elegir un recurso de imagen en la configuración de fondo para un componente de estructura.

@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 492
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 # Plantillas de correo electrónico
 
-Las plantillas de correo electrónico de [!DNL Journey Optimizer B2B Edition Prime] permiten a los especialistas en contenido crear diseños de correo electrónico reutilizables de forma independiente, de modo que los equipos de marketing puedan aplicarlos en todos los recorridos de la cuenta sin reconstruir los diseños una y otra vez.
+Las plantillas de correo electrónico de [!DNL Adobe Journey Optimizer B2B Prime] permiten a los especialistas en contenido crear diseños de correo electrónico reutilizables de forma independiente, de modo que los equipos de marketing puedan aplicarlos en todos los recorridos de la cuenta sin reconstruir los diseños una y otra vez.
 
 >[!NOTE]
 >
@@ -87,4 +87,4 @@ Seleccione la casilla de verificación situada junto a cada plantilla que desee 
 
 ## Uso de una plantilla en un correo electrónico {#use-in-journey}
 
-Al crear un correo electrónico en un recorrido, la sección **[!UICONTROL Seleccionar plantilla de diseño]** le permite elegir entre plantillas guardadas o de muestra. Haga clic en una miniatura de plantilla para previsualizarla y, a continuación, haga clic en **[!UICONTROL Usar esta plantilla]** para aplicarla. Consulte [Creación de correo electrónico](email-authoring.md#templates) para ver el flujo de trabajo completo.
+Al crear un correo electrónico en un recorrido, la sección **[!UICONTROL Seleccionar plantilla de diseño]** le permite elegir entre plantillas guardadas o de muestra. Haga clic en una miniatura de plantilla para previsualizarla y, a continuación, haga clic en **[!UICONTROL Usar esta plantilla]** para aplicarla. Para ver dónde encaja la selección de plantillas en el flujo de trabajo general de correo electrónico, consulte [Creación de contenido de correo electrónico](./email-authoring.md).

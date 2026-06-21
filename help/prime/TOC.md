@@ -2,10 +2,10 @@
 user-guide-title: Documentación de Journey Optimizer B2B Prime
 user-guide-description: Obtenga información acerca de Adobe Journey Optimizer B2B edition Prime y cómo puede utilizarlo para ?.
 hide: true
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 44%
+source-wordcount: '141'
+ht-degree: 48%
 
 ---
 
@@ -50,6 +50,11 @@ ht-degree: 44%
       + [Gobernanza de contenido](./content/template-content-governance.md)
    + [Páginas de aterrizaje](./content/landing-pages.md)
    + [Formularios](./content/forms.md)
+   + Herramientas de diseño de contenido {#content-design}
+      + [Componentes de estructura](./content/structure-components.md)
+      + [Componentes de contenido](./content/content-components.md)
+      + [CSS personalizado](./content/design-custom-css.md)
+   + [Personalización](./content/personalization-expressions.md)
 + {hide-from-toc}[Calificador de ventas](./sales-qualifier/sales-qualifier.md)
 + {hide-from-toc}[Brand Concierge](./brand-concierge/brand-concierge.md)
 + Administración {#admin}
