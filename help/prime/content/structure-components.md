@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 1656
+source-wordcount: 1633
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 5%
 >title="Acerca de los componentes de estructura"
 >abstract="Los componentes de estructura son elementos de diseño que se pueden utilizar para diseñar la estructura de una plantilla."
 
-Use los _componentes de estructura_ en el espacio de diseño visual para definir la estructura del contenido. Al agregar y mover elementos estructurales con sencillas acciones de arrastrar y soltar, puede definir rápidamente la forma del diseño de contenido. Cada componente de estructura ocupa el espacio horizontal y puede apilarlos para crear el diseño verticalmente. Divida cada componente en columnas para formar cada bloque de contenido que necesite y, a continuación, agregue [componentes de contenido](./content-components.md) dentro de ellos para rellenar el diseño.
+Use los _componentes de estructura_ en el espacio de diseño visual para definir la estructura del contenido. Al agregar y mover elementos estructurales con sencillas acciones de arrastrar y soltar, puede definir rápidamente la forma del diseño de contenido. Cada componente de estructura ocupa el espacio horizontal y puede apilarlos para crear el diseño verticalmente. <!-- Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout. -->
 
 ## Biblioteca de estructura {#structure-library}
 
