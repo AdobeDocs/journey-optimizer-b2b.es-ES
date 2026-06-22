@@ -6,10 +6,16 @@ role: User
 badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
 autotag-review: '2026-06-19T22:00:56.704Z'
 TQID: 'https://experienceleague.adobe.com/z0vACEVhY2WZcSgeO3Kbx7ceSNsf4Se3DZut36xnN4E'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: c9ba0bd460bf68ea46c2641b8044f23c9656334b
 workflow-type: tm+mt
 source-wordcount: 567
