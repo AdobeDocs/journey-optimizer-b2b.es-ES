@@ -4,19 +4,13 @@ description: Obtenga información sobre cómo acceder y administrar plantillas d
 badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
 autotag-review: '2026-06-12T22:56:19.345Z'
 TQID: 'https://experienceleague.adobe.com/TTr-0Pm7Jb0LLCHt6hZb8mkXdeC7PUqteYVDuyanfs0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 224d6a6f8ca33d2f0d675254bf010f76a5c30e99
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: 495
 ht-degree: 1%
 
 ---
@@ -87,4 +81,4 @@ Seleccione la casilla de verificación situada junto a cada plantilla que desee 
 
 ## Uso de una plantilla en un correo electrónico {#use-in-journey}
 
-Al crear un correo electrónico en un recorrido, la sección **[!UICONTROL Seleccionar plantilla de diseño]** le permite elegir entre plantillas guardadas o de muestra. Haga clic en una miniatura de plantilla para previsualizarla y, a continuación, haga clic en **[!UICONTROL Usar esta plantilla]** para aplicarla. Para ver dónde encaja la selección de plantillas en el flujo de trabajo general de correo electrónico, consulte [Creación de contenido de correo electrónico](./email-authoring.md).
+Al crear un correo electrónico en un recorrido, la sección **[!UICONTROL Seleccionar plantilla de diseño]** le permite elegir entre plantillas guardadas o de muestra. Haga clic en una miniatura de plantilla para previsualizarla y, a continuación, haga clic en **[!UICONTROL Usar esta plantilla]** para aplicarla. Para obtener información sobre cómo usar plantillas en el flujo de trabajo de creación de correo electrónico, consulte [Creación de contenido de correo electrónico](./email-authoring.md#templates).

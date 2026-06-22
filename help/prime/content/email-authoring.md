@@ -4,21 +4,13 @@ description: Aprenda a componer y diseñar contenido de correo electrónico en A
 badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2209
+source-wordcount: 2192
 ht-degree: 1%
 
 ---
@@ -136,7 +128,9 @@ Para obtener instrucciones detalladas sobre la vista previa, la configuración d
 
 ### Adición de componentes de estructura y contenido {#components}
 
-Cree su diseño de correo electrónico agregando [componentes de estructura](./structure-components.md) y [componentes de contenido](./content-components.md) al lienzo. Arrastre elementos de las secciones **[!UICONTROL Structures]** y **[!UICONTROL Contents]** del panel izquierdo y, a continuación, configure cada componente en las pestañas _[!UICONTROL Settings]_ y _[!UICONTROL Styles]_ de la derecha.
+<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+
+Arrastre elementos de las secciones **[!UICONTROL Structures]** y **[!UICONTROL Contents]** del panel izquierdo y, a continuación, configure cada componente en las pestañas _[!UICONTROL Settings]_ y _[!UICONTROL Styles]_ de la derecha.
 
 ### Añadir CSS personalizado {#custom-css}
 
@@ -219,7 +213,7 @@ Para obtener más información sobre el uso de recursos, consulte [_Uso de recur
 
 ### Desplazamiento por las capas, la configuración y los estilos {#navigation-layers}
 
-Utilice el árbol de navegación para seleccionar componentes y columnas y, a continuación, ajuste su configuración y estilos en el panel derecho. Ver [árbol de navegación](./structure-components.md#navigation-tree).
+Utilice el árbol de navegación para seleccionar componentes y columnas y, a continuación, ajuste su configuración y estilos en el panel derecho. <!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
 
 ### Personalización del contenido {#personalize-content}
 
@@ -281,7 +275,7 @@ Para obtener más información acerca de las herramientas y la sintaxis del edit
 
 Utilice los controles de escritorio y vista previa para móviles de la barra de herramientas del espacio de diseño de correo electrónico para revisar el diseño del correo electrónico antes de guardarlo. Cambie a la vista previa en modo oscuro para validar la legibilidad y el contraste (consulte [Modo oscuro para el contenido de correo electrónico](./email-dark-mode.md)).
 
-Los perfiles de prueba **[!UICONTROL Simular contenido]** y enviar flujos de trabajo de revisión no están disponibles en esta versión de Beta. Ver [Limitaciones actuales](../marketing/email-channel.md#limitations) en la descripción general del canal de correo electrónico.
+Los perfiles de prueba [!UICONTROL Simular contenido] y enviar flujos de trabajo de revisión no están disponibles en esta versión de Beta. Ver [Limitaciones actuales](../marketing/email-channel.md#limitations) en la descripción general del canal de correo electrónico.
 
 Revise [Validando contenido de correo electrónico](#validation) para las alertas de contenido que debe resolver antes de la activación del recorrido.
 
