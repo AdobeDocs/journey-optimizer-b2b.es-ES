@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
+source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
 workflow-type: tm+mt
-source-wordcount: 2192
+source-wordcount: 2209
 ht-degree: 1%
 
 ---
@@ -136,7 +136,7 @@ Para obtener instrucciones detalladas sobre la vista previa, la configuración d
 
 ### Adición de componentes de estructura y contenido {#components}
 
-<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+Cree su diseño de correo electrónico agregando [componentes de estructura](./structure-components.md) y [componentes de contenido](./content-components.md) al lienzo.
 
 Arrastre elementos de las secciones **[!UICONTROL Structures]** y **[!UICONTROL Contents]** del panel izquierdo y, a continuación, configure cada componente en las pestañas _[!UICONTROL Settings]_ y _[!UICONTROL Styles]_ de la derecha.
 
@@ -221,7 +221,7 @@ Para obtener más información sobre el uso de recursos, consulte [_Uso de recur
 
 ### Desplazamiento por las capas, la configuración y los estilos {#navigation-layers}
 
-Utilice el árbol de navegación para seleccionar componentes y columnas y, a continuación, ajuste su configuración y estilos en el panel derecho. <!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
+Utilice el árbol de navegación para seleccionar componentes y columnas y, a continuación, ajuste su configuración y estilos en el panel derecho. Ver [árbol de navegación](./structure-components.md#navigation-tree).
 
 ### Personalización del contenido {#personalize-content}
 
