@@ -4,11 +4,18 @@ description: Cree mensajes de WhatsApp para recorridos de personas mediante plan
 badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
 autotag-review: '2026-06-17T03:12:08.373Z'
 TQID: 'https://experienceleague.adobe.com/HijiC-uJ1rz5yl6bzsZRuFLJb7VWE38f-aqAGWLd2rQ'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
 source-wordcount: 813
