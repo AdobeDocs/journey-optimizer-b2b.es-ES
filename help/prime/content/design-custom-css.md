@@ -3,21 +3,16 @@ title: Añadir CSS personalizado al contenido
 description: Añada CSS personalizado a correos electrónicos y páginas de aterrizaje para lograr un estilo avanzado y un control de diseño preciso que vaya más allá de los componentes estándar en Journey Optimizer B2B Prime.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
+badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
 autotag-review: '2026-06-19T22:00:56.704Z'
 TQID: 'https://experienceleague.adobe.com/z0vACEVhY2WZcSgeO3Kbx7ceSNsf4Se3DZut36xnN4E'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c9ba0bd460bf68ea46c2641b8044f23c9656334b
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 567
 ht-degree: 0%
 
 ---
@@ -200,7 +195,7 @@ body {
 
 Si desea utilizar CSS personalizado con contenido importado en el espacio de diseño del correo electrónico o de la página de aterrizaje, tenga en cuenta lo siguiente:
 
-* Si importa contenido externo de HTML, incluido CSS, <!-- unless converting that content, -->se rellena en [!UICONTROL modo de compatibilidad] y la sección [!UICONTROL estilos CSS] no está disponible.
+* Si importa contenido de HTML externo, incluido CSS, se rellenará en [!UICONTROL modo de compatibilidad] y la sección [!UICONTROL estilos CSS] no estará disponible.
 
 * Si importa contenido que se creó originalmente en el espacio de diseño de la página de aterrizaje o el correo electrónico con la opción [!UICONTROL Agregar CSS personalizado], el CSS aplicado será visible y editable desde la misma opción.
 
