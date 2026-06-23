@@ -2,10 +2,10 @@
 user-guide-title: Documentación de Journey Optimizer B2B Prime
 user-guide-description: Obtenga información acerca de Adobe Journey Optimizer B2B Prime y cómo puede utilizarlo para ?.
 hide: true
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 53%
+source-wordcount: '138'
+ht-degree: 51%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 53%
 + [Calificador de ventas](./sales-qualifier/sales-qualifier.md)
 + Gestión de marketing {#marketing-management}
    + [Información general](./marketing/marketing-management.md)
-   + [Programas](./marketing/programs.md)
+   + Programas {#programs}
+      + [Información general](./marketing/programs.md)
+      + [Tokens personalizados para personalización](./marketing/personalization-my-tokens.md)
    + [Recorridos de persona](./marketing/person-journeys.md)
    + Nodos del recorrido {#journey-nodes}
       + [Información general de nodos](./marketing/person-journey-nodes.md)
@@ -36,7 +38,7 @@ ht-degree: 53%
       + [Información general](./marketing/email-channel.md)
       + [Optimización del tiempo de envío del correo electrónico](./marketing/email-send-time-optimization.md)
       + [Creación de contenido](./content/email-authoring.md)
-      + [Diseño en modo oscuro](./content/email-dark-mode.md)
+      + [Diseño de modo oscuro](./content/email-dark-mode.md)
    + [Canal de WhatsApp](./content/whatsapp-authoring.md)
 + Públicos {#audiences}
    + [Listas de personas](./audiences/people-lists.md)
@@ -62,10 +64,10 @@ ht-degree: 53%
       + [Configuración del canal de WhatsApp](./admin/configuration-channels-whatsapp.md)
       + [Configuración de página de aterrizaje](./admin/configuration-presets-landing-pages.md)
       + [Configuración de ajustes preestablecidos de formulario](./admin/configuration-presets-forms.md)
+   + [Tipos de programas](./admin/program-types.md)
 
 <!--
    + Business rules
-   + Program types
 
 + AI Assistant {#ai-assistant}
     + [Overview](./ai-assistant/ai-assistant-overview.md)
