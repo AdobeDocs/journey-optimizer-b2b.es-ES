@@ -3,22 +3,14 @@ title: Configuración de página de aterrizaje
 description: Marcador de posición
 autotag-review: '2026-06-12T22:45:35.906Z'
 TQID: 'https://experienceleague.adobe.com/wLeiKuegGFhAA73dOrwF9lmsZrDWhUiZXWSzwMpQwxk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: a96755d6-1f54-4f3f-a971-d31f83705ab7id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: fc507317f18b7672905292f01315418e1d431575
 workflow-type: tm+mt
 source-wordcount: 971
-ht-degree: 8%
+ht-degree: 21%
 
 ---
 
@@ -45,7 +37,7 @@ Los administradores deben asegurarse de que las configuraciones de la página de
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain"
 >title="Crear ajustes preestablecidos de la página de destino"
->abstract="Para crear un ajuste preestablecido de página de aterrizaje, asegúrese de que tiene al menos un subdominio de página de aterrizaje configurado para elegir de la lista Nombre de subdominio."
+>abstract="Para crear un ajuste preestablecido de página de destino, asegúrese de tener al menos un subdominio de página de destino configurado para elegir en la lista de nombres de subdominio."
 
 Para revisar los subdominios de página de aterrizaje configurados, ve a **[!UICONTROL Administración]** > **[!UICONTROL Canales]**. En _[!UICONTROL Páginas de aterrizaje]_ en el panel de navegación, seleccione **[!UICONTROL Subdominios de página de aterrizaje]**.
 
@@ -119,7 +111,7 @@ To use a subdomain that is already delegated to Adobe:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_lp_subdomain_dns"
 >title="Generar el registro DNS coincidente"
->abstract="Para configurar un nuevo subdominio de página de aterrizaje, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz B2B de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar el registro DNS correspondiente. Cuando las comprobaciones son correctas, el subdominio está listo para utilizarse para crear ajustes preestablecidos de página de aterrizaje."
+>abstract="Para configurar un nuevo subdominio de página de destino, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer B2B y pegarla en la solución de alojamiento de dominios para generar el registro DNS coincidente. Cuando las comprobaciones sean correctas, el subdominio está listo para utilizarse para crear ajustes preestablecidos de página de destino."
 
 1. Haga clic en **[!UICONTROL Configurar subdominio de página de aterrizaje]**.
 
@@ -219,7 +211,7 @@ _To add a landing page subdomain:_
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_config_lp_subdomain_header"
 >title="Crear ajustes preestablecidos de la página de destino"
->abstract="Para crear una página de aterrizaje y aprovecharla mediante Journey Optimizer B2B edition, debe crear un ajuste preestablecido de página de aterrizaje que incluya el subdominio que desea utilizar."
+>abstract="Para crear una página de destino y aprovecharla mediante Journey Optimizer B2B Edition, debe crear un ajuste preestablecido de página de destino que incluya el subdominio que se va a utilizar."
 
 Cuando los especialistas en marketing crean una página de aterrizaje, deben seleccionar un ajuste preestablecido de página de aterrizaje para poder crear la página de aterrizaje y aprovecharla a través de [!DNL Journey Optimizer B2B Edition]. El ajuste preestablecido incluye el subdominio que se utilizará para la página de aterrizaje.
 

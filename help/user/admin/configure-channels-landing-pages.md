@@ -7,21 +7,15 @@ badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función e
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 autotag-review: '2026-05-27T16:08:42.537Z'
 TQID: 'https://experienceleague.adobe.com/yYJUH3-uiNxk-lT4S6hpuMmntMg267ezc-gbsegu7vI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
 source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 1034
-ht-degree: 8%
+ht-degree: 21%
 
 ---
 
@@ -47,7 +41,7 @@ Los administradores deben asegurarse de que las configuraciones de la página de
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_config_lp_subdomain"
 >title="Crear ajustes preestablecidos de la página de destino"
->abstract="Para crear un ajuste preestablecido de página de aterrizaje, asegúrese de que tiene al menos un subdominio de página de aterrizaje configurado para elegir de la lista Nombre de subdominio."
+>abstract="Para crear un ajuste preestablecido de página de destino, asegúrese de tener al menos un subdominio de página de destino configurado para elegir en la lista de nombres de subdominio."
 
 Para revisar los subdominios de página de aterrizaje configurados, ve a **[!UICONTROL Administración]** > **[!UICONTROL Canales]**. En _[!UICONTROL Páginas de aterrizaje]_ en el panel de navegación, seleccione **[!UICONTROL Subdominios de página de aterrizaje]**.
 
@@ -121,7 +115,7 @@ To use a subdomain that is already delegated to Adobe:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_lp_subdomain_dns"
 >title="Generar el registro DNS coincidente"
->abstract="Para configurar un nuevo subdominio de página de aterrizaje, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz B2B de Journey Optimizer y pegarla en la solución de alojamiento de dominios para generar el registro DNS correspondiente. Cuando las comprobaciones son correctas, el subdominio está listo para utilizarse para crear ajustes preestablecidos de página de aterrizaje."
+>abstract="Para configurar un nuevo subdominio de página de destino, debe copiar la información del servidor de nombres de Adobe que se muestra en la interfaz de Journey Optimizer B2B y pegarla en la solución de alojamiento de dominios para generar el registro DNS coincidente. Cuando las comprobaciones sean correctas, el subdominio está listo para utilizarse para crear ajustes preestablecidos de página de destino."
 
 1. Haga clic en **[!UICONTROL Configurar subdominio de página de aterrizaje]**.
 
@@ -221,7 +215,7 @@ _To add a landing page subdomain:_
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_config_lp_subdomain_header"
 >title="Crear ajustes preestablecidos de la página de destino"
->abstract="Para crear una página de aterrizaje y aprovecharla mediante Journey Optimizer B2B edition, debe crear un ajuste preestablecido de página de aterrizaje que incluya el subdominio que desea utilizar."
+>abstract="Para crear una página de destino y aprovecharla mediante Journey Optimizer B2B Edition, debe crear un ajuste preestablecido de página de destino que incluya el subdominio que se va a utilizar."
 
 Cuando los especialistas en marketing [crean una página de aterrizaje](../content/landing-pages-create-publish.md#create-landing-page), deben seleccionar un ajuste preestablecido de página de aterrizaje para poder generar la página de aterrizaje y aprovecharla a través de [!DNL Journey Optimizer B2B Edition]. El ajuste preestablecido incluye el subdominio que se utilizará para la página de aterrizaje.
 

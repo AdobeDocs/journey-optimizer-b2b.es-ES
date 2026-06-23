@@ -5,23 +5,16 @@ feature: Landing Pages, Content
 role: User
 autotag-review: '2026-05-27T16:10:09.537Z'
 TQID: 'https://experienceleague.adobe.com/e-tguY-9v6CPOehYL7vI22fzQBk3L0h1EOpa-e54q7A'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -89,7 +82,7 @@ Para que los especialistas en marketing puedan crear páginas de aterrizaje que 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
 >title="Definir la dirección URL de la página de destino"
->abstract="En esta sección, defina una dirección URL de página de destino única. La primera parte de la URL requiere que haya configurado previamente un subdominio de página de aterrizaje como parte del ajuste preestablecido que ha seleccionado."
+>abstract="En esta sección, defina una dirección URL de página de destino única. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de destino como parte del ajuste preestablecido que ha seleccionado."
 
 1. Cambie **[!UICONTROL Page Name]** según sus necesidades, que es _Primary page_ de forma predeterminada.
 
@@ -246,7 +239,7 @@ Existen dos tipos de alertas:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_lp_profiles"
 >title="Previsualizar y probar la página de destino"
->abstract="Después de definir la configuración y el contenido de la página de aterrizaje, utilice perfiles de prueba para previsualizar la página."
+>abstract="Tras definir la configuración y el contenido de la página de destino, utilice perfiles de prueba para previsualizar la página."
 
 Cuando se definen la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizar la página. Si ha insertado [contenido personalizado](./personalization.md), puede comprobar cómo se muestra este contenido en la página de aterrizaje mediante los datos del perfil de prueba.
 
