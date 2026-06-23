@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -76,7 +76,7 @@ Al crear un ajuste preestablecido:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
 >title="Selección de un conjunto de datos"
->abstract="Defina un conjunto de datos donde las respuestas del formulario se almacenen y reflejen. Introduzca texto para buscar un conjunto de datos específico o selecciónelo en la lista."
+>abstract="Defina un conjunto de datos en el que se almacenan y reflejan las respuestas del formulario. Escriba texto si desea buscar un conjunto de datos específico o seleccionarlo en la lista."
 
 1. En el panel de navegación izquierdo, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Canales]**.
 

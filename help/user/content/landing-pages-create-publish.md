@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -89,7 +89,7 @@ Para que los especialistas en marketing puedan crear páginas de aterrizaje que 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
 >title="Definir la dirección URL de la página de destino"
->abstract="En esta sección, defina una dirección URL de página de destino única. La primera parte de la URL requiere que haya configurado previamente un subdominio de página de aterrizaje como parte del ajuste preestablecido que ha seleccionado."
+>abstract="En esta sección, defina una dirección URL de página de destino única. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de destino como parte del ajuste preestablecido que ha seleccionado."
 
 1. Cambie **[!UICONTROL Page Name]** según sus necesidades, que es _Primary page_ de forma predeterminada.
 
@@ -246,7 +246,7 @@ Existen dos tipos de alertas:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_lp_profiles"
 >title="Previsualizar y probar la página de destino"
->abstract="Después de definir la configuración y el contenido de la página de aterrizaje, utilice perfiles de prueba para previsualizar la página."
+>abstract="Tras definir la configuración y el contenido de la página de destino, utilice perfiles de prueba para previsualizar la página."
 
 Cuando se definen la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizar la página. Si ha insertado [contenido personalizado](./personalization.md), puede comprobar cómo se muestra este contenido en la página de aterrizaje mediante los datos del perfil de prueba.
 

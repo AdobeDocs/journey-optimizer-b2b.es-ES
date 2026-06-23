@@ -16,7 +16,7 @@ role_v2:
 source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -141,7 +141,7 @@ Una vez que configure y diseñe la página principal y las subpáginas, [pruebe 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_access_settings"
 >title="Definir la dirección URL de la página de destino"
->abstract="En esta sección, defina una dirección URL de página de destino única. La primera parte de la URL requiere que haya configurado previamente un subdominio de página de aterrizaje como parte del ajuste preestablecido que ha seleccionado."
+>abstract="En esta sección, defina una dirección URL de página de destino única. La primera parte de la dirección URL requiere que haya configurado previamente un subdominio de página de destino como parte del ajuste preestablecido que ha seleccionado."
 
 La página principal es la página que se muestra inmediatamente cuando un destinatario hace clic en el vínculo de la página de aterrizaje, como desde un correo electrónico o un sitio web.
 
@@ -173,7 +173,7 @@ Para definir la configuración de la página principal, siga estos pasos:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_preview_lp_profiles"
 >title="Previsualizar y probar la página de destino"
->abstract="Después de definir la configuración y el contenido de la página de aterrizaje, utilice perfiles de prueba para previsualizar la página."
+>abstract="Tras definir la configuración y el contenido de la página de destino, utilice perfiles de prueba para previsualizar la página."
 
 Cuando se definen la configuración y el contenido de la página de aterrizaje, puede utilizar perfiles de prueba para previsualizar la página. Si ha insertado [contenido personalizado](email-authoring.md#personalize-content), puede comprobar cómo se muestra este contenido en la página de aterrizaje mediante los datos del perfil de prueba.
 
