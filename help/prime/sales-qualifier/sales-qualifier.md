@@ -1,28 +1,16 @@
 ---
 title: Calificador de ventas
 description: Calificador de ventas para Journey Optimizer B2B Prime ofrece calificación de clientes potenciales de IA, flujos de trabajo salientes, integración CRM, tareas y configuración de perfil para BDR.
+badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 autotag-review: '2026-06-22T18:49:11.199Z'
 TQID: 'https://experienceleague.adobe.com/pfm5edN0IqvzhCaQIVC43i0Mwckmc6UVkUAC5eGrF4Y'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-feature_v2:
-  - id: abf46024-b86e-4240-96ee-3f23636dfc27
-  - id: ace0d1fc-8e69-4e6a-a442-37fc40985eea
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d7511d14-12fe-4594-9d3b-65310015f8cb
-  - id: da701e37-3227-4187-b68a-914277252a79
-  - id: da87d43a-78d4-4b1e-bb4a-743cbd343472
-  - id: e6e1112f-735e-4244-9aeb-08972bded7e7
-  - id: f8c781b4-253f-436e-b9f1-a71172814e41
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a3ed5ce067dab46abccd3dbe584e073449394393
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: d98caee2-fd67-486e-9513-36435358ebff
+feature_v2: id: abf46024-b86e-4240-96ee-3f23636dfc27id: ace0d1fc-8e69-4e6a-a442-37fc40985eeaid: aed878b8-11d0-487c-828b-d23b2051ec37id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d7511d14-12fe-4594-9d3b-65310015f8cbid: da701e37-3227-4187-b68a-914277252a79id: da87d43a-78d4-4b1e-bb4a-743cbd343472id: e6e1112f-735e-4244-9aeb-08972bded7e7id: f8c781b4-253f-436e-b9f1-a71172814e41
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
-source-wordcount: 4575
+source-wordcount: 4585
 ht-degree: 1%
 
 ---
@@ -33,7 +21,7 @@ Calificador de ventas es una aplicación controlada por IA que puede usar con [!
 
 Los BDR pueden utilizar los complementos de explorador y correo electrónico para acceder a inteligencia empresarial directamente desde CRM o Outlook. El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## Inicio de aplicación {#application-home}
 
