@@ -34,7 +34,7 @@ Calificador de ventas es una aplicación controlada por IA que puede usar con [!
 
 Los BDR pueden utilizar los complementos de explorador y correo electrónico para acceder a inteligencia empresarial directamente desde CRM o Outlook. El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
 
 ## Inicio de aplicación {#application-home}
 
