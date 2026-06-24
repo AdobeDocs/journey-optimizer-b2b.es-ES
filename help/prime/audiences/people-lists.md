@@ -1,6 +1,7 @@
 ---
 title: Listas de personas
-description: Obtenga información sobre cómo crear y administrar listas de personas en Journey Optimizer B2B Prime, incluidas listas dinámicas con cualificación basada en reglas y listas estáticas con pertenencia fija.
+description: Cree y administre listas de personas en Journey Optimizer B2B Prime para la segmentación de recorrido, la pertenencia dinámica basada en reglas y la activación de destinos de lista estática.
+badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
 product_v2:
@@ -12,10 +13,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
+source-git-commit: 1fa72c956678cddcecd1b50a13c42ef9eada05fc
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 2%
+source-wordcount: 862
+ht-degree: 3%
 
 ---
 
