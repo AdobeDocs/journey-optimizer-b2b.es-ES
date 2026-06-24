@@ -15,9 +15,9 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
+source-git-commit: 6ba70fe8d56bc35829649948c89356327042bf3f
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: 650
 ht-degree: 2%
 
 ---
@@ -53,15 +53,15 @@ Para la versión de Beta de Journey Optimizer B2B Prime, las siguientes personas
 
 ## Filtrar por persona derivada {#derived-persona-filter}
 
-Journey Optimizer B2B Prime deriva un registro de persona para cada persona mediante la evaluación de los atributos del registro frente a las personas definidas. Puede utilizar el resultado deducido (el _Persona derivada_) como filtro al definir la audiencia para una lista de personas o un recorrido de personas.
+Journey Optimizer B2B Prime deriva un registro de persona para cada persona mediante la evaluación de los atributos del registro frente a las personas definidas. Puede utilizar el resultado deducido (_Persona derivada_) como filtro al definir la audiencia para una lista de personas o para segmentar en un recorrido de personas.
 
 El filtro _[!UICONTROL Persona derivada]_ aparece en el panel de filtro bajo la categoría **[!UICONTROL Atributos de persona]**.
-
-![Acceder a los perfiles configurados](../../user/admin/assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
 ### Listas de personas {#people-lists}
 
 Cuando agrega o quita miembros de una [lista de personas estáticas](./people-lists.md#static-list), o cuando define las reglas de pertenencia para una [lista de personas dinámicas](./people-lists.md#dynamic-lists), puede filtrar por Persona derivada para dirigirse a todas las personas cuyos atributos coincidan con una persona configurada específica.
+
+![Filtro de persona derivado para una lista de personas](./assets/derived-persona-filter-people-list.png){width="700" zoomable="yes"}
 
 **Lista estática — Agregar miembros**
 
@@ -90,6 +90,8 @@ Cuando agrega o quita miembros de una [lista de personas estáticas](./people-li
 ### Recorridos de persona {#person-journeys}
 
 Al configurar la segmentación para un recorrido de persona en un nodo [_Split paths_](../marketing/split-merge-paths-nodes.md), puede usar un perfil derivado como un filtro de perfil de persona para controlar qué personas ingresan a la ruta de recorrido.
+
+![Filtro de persona derivada para una condición de ruta dividida](./assets/derived-persona-filter-split-path.png){width="700" zoomable="yes"}
 
 1. Haga clic en el nodo **[!UICONTROL Dividir rutas]** en el lienzo de recorrido.
 
