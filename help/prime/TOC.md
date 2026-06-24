@@ -2,9 +2,9 @@
 user-guide-title: Documentación de Journey Optimizer B2B Prime
 user-guide-description: Obtenga información acerca de Adobe Journey Optimizer B2B Prime y cómo puede utilizarlo para ?.
 hide: true
-source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
+source-git-commit: f96698d0d3931be9206245d44131d06c998304ca
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '151'
 ht-degree: 47%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 47%
    + [Administración de usuarios](./start/user-management.md)
    + [Entregabilidad del correo electrónico](./start/email-deliverability.md)
 + [Página de inicio](./home-insights/home-page.md)
-+ [Interfaz de chat](./agents/chat-interface.md)
++ Asistente de IA {#ai-assistant}
+   + [Interfaz de chat](./agents/chat-interface.md)
+   + [Crear programa a partir de información breve](./agents/program-from-brief.md)
 + [Calificador de ventas](./sales-qualifier/sales-qualifier.md)
 + Gestión de marketing {#marketing-management}
    + [Información general](./marketing/marketing-management.md)
@@ -78,9 +80,5 @@ ht-degree: 47%
     + [Question guidance](./ai-assistant/question-guidance.md)
     + [Use AI Assistant](./ai-assistant/use-ai-assistant.md)
     + [Generative AI for content](./ai-assistant/generative-ai-content.md)
-    + Agents {#agents}
-       + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-       + [Journey Agent B2B](./agents/journey-agent.md)
-       + [Account Qualification](./agents/sales-qualifier.md)
 
 -->
