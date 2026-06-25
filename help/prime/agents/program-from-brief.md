@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b92782904da5c01c3dc1b3fb44ef02729723015a
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: 1119
 ht-degree: 4%
 
 ---
@@ -158,7 +158,7 @@ Los programas están **enlazados permanentemente** a un tipo de programa definid
 | **Pertenencia a lista asíncrona** | Las listas estáticas (a partir de criterios) se rellenan en varios minutos, no de forma instantánea |
 | **Tratamiento de errores** | Los errores de las herramientas se notifican con el error exacto; el asistente le solicita que confirme la entrada y vuelva a intentarlo |
 | **Conflictos de nombres** | No resuelto automáticamente: se solicitará un nombre diferente |
-| **Ámbito** | Solo Journey Optimizer B2B Prime; los usuarios de Marketo deben utilizar las habilidades de creación/planificación de programas por separado |
+| **Ámbito** | Solo Journey Optimizer B2B Prime; los usuarios de [!DNL Marketo Engage] deben utilizar las habilidades de creación/planificación de programas por separado |
 
 
 ## Comprobación de control de calidad

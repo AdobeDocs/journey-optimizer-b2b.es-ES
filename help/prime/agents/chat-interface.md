@@ -14,9 +14,9 @@ subfeature_v2:
   - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: 878
 ht-degree: 1%
 
 ---
@@ -85,9 +85,11 @@ Los conectores abren un modal en lugar de insertar texto. Los métodos abreviado
 
 Una aptitud es un flujo de trabajo empaquetado que el agente sabe cómo ejecutar: los componentes básicos del menú `/` y de las solicitudes en lenguaje natural. Cada aptitud agrupa instrucciones paso a paso y las herramientas específicas necesarias para un trabajo (por ejemplo, &quot;publicar un recorrido&quot;, &quot;comparar dos listas de personas&quot;, &quot;crear un modelo de puntuación&quot;).
 
+Consulte _[Habilidades de asistente de IA](./skills.md)_ para obtener una lista completa de las habilidades que admite actualmente.
+
 Aspectos clave que hay que saber sobre las aptitudes:
 
-* **Las aptitudes tienen alcance de producto.** En AJO B2B Prime verá aptitudes de AJO B2B (recorridos, listas de personas, puntuación, canales, optimización del tiempo de envío, etc.). Algunas habilidades son solo para Marketo y un par de ellas trabajan en ambos productos (importación de posibles clientes, conocimiento del producto). Solo ve aptitudes relevantes para el lugar en el que se encuentra.
+* **Las aptitudes tienen alcance de producto.** En [!DNL Journey Optimizer B2B Prime] verá varias habilidades específicas del producto (recorridos, listas de personas, puntuación, canales, optimización del tiempo de envío, etc.). Algunas habilidades son solo [!DNL Marketo Engage] y un par de ellas trabajan en ambos productos (importación de posibles clientes, conocimiento del producto). Solo ve aptitudes relevantes para el lugar en el que se encuentra.
 * **No es necesario que memorice los nombres de aptitudes.** Describa su objetivo y el agente elegirá la aptitud coincidente. El menú `/` es un método abreviado más rápido y reconocible para los mismos flujos de trabajo.
 * **Algunas habilidades solo se leen; otras cambian las cosas.** Las aptitudes de investigación e informe (por ejemplo, investigación de posibles clientes, consulta por intención, informe de tiempo de envío) solo leen datos. Cree y configure aptitudes (por ejemplo, creación de recorridos, puntuación) para crear o cambiar datos.
 
