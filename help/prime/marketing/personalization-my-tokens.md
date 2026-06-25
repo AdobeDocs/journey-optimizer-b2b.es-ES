@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 641
 ht-degree: 5%
 
 ---
@@ -31,6 +31,10 @@ La personalización de contenido utiliza tokens como marcadores de posición o v
 Cuando agrega un token personalizado a un correo electrónico, se muestra como `{{my.TokenName}}`. Por ejemplo, podría tener `{{my.EventDate}}` o `{{my.WebinarSpeaker}}` tokens creados para administrar el contenido de los correos electrónicos relacionados con los próximos seminarios web.
 
 Además de _Mis tokens_, que son específicos del programa o la carpeta, puede usar cualquiera de los tokens estándar (integrados) para la personalización.
+
+>[!NOTE]
+>
+>_Mis tokens_ no están habilitados actualmente en el editor de Personalization para esta versión de Beta.
 
 ## Tokens de acceso
 

@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 1910
+source-wordcount: 1918
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ Utiliza los siguientes componentes básicos, configurados por un administrador, 
 1. [Configure registros de DMARC, SPF y DKIM](#dmarc-spf-dkim) en cada subdominio.
 1. [Confirme el grupo de IP](#ip-pools) que se utilizó para enviar correo electrónico para su subdominio.
 1. [Cree una o más configuraciones de canal de correo electrónico](../admin/email-channel-configuration.md#create-email-channel-configuration) que enlacen un subdominio, un grupo de IP y la identidad del remitente.
+
+![Configuración de envío de correo electrónico para Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
 
 >[!TIP]
 >

@@ -13,10 +13,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 2%
+source-wordcount: 320
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ El nodo _[!UICONTROL Audiencia de persona]_ es automáticamente el primer nodo d
 :::: landing-cards-container
 
 :::
-![Nodo de audiencia de persona](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=es)
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=es) -->
 
 Nodo de audiencia de persona
 
@@ -39,7 +39,7 @@ El recorrido siempre comienza con un nodo de audiencia de persona. Establezca la
 :::
 
 :::
-![Nodos de acción](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es) -->
 
 Nodos de acción
 
@@ -49,7 +49,7 @@ Aplique cambios a cada persona en una ruta, como enviar un correo electrónico o
 :::
 
 :::
-![Nodos de eventos](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es)
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=es) -->
 
 Nodos de eventos
 
@@ -59,7 +59,7 @@ Avanzar personas al siguiente paso del recorrido cuando se produzca una activida
 :::
 
 :::
-![Nodos de espera](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es)
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=es) -->
 
 Nodos de espera
 
@@ -69,7 +69,7 @@ Pausar la progresión del recorrido durante un tiempo establecido o hasta una fe
 :::
 
 :::
-![Dividir y combinar nodos de rutas](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es) -->
 
 Dividir y combinar nodos de rutas
 
@@ -79,7 +79,7 @@ Segmente a las personas en rutas independientes según las condiciones, aplique 
 :::
 
 :::
-![Siguiente nodo de mejor ruta](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=es)
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=es) -->
 
 Siguiente nodo de mejor ruta
 
