@@ -4,18 +4,13 @@ description: Utilice audiencias basadas en eventos en Journey Optimizer B2B Prim
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 autotag-review: '2026-06-25T17:59:01.953Z'
 TQID: 'https://experienceleague.adobe.com/04J58rjKw0hCoTOeYheZIPaX-YR8GwP-k6-Wn3XCetU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 332
 ht-degree: 3%
 
 ---
@@ -24,7 +19,7 @@ ht-degree: 3%
 
 En [!DNL Adobe Journey Optimizer B2B Prime], las _audiencias basadas en eventos_ le permiten agregar miembros de audiencia a un [recorrido de personas](../marketing/person-journeys.md) en tiempo casi real cuando se produce una actividad de [!DNL Marketo Engage]. Las audiencias basadas en eventos se configuran en el nodo Audiencia del lienzo de recorrido:
 
-* Seleccione una o más actividades de Marketo (estándar o personalizadas) como eventos calificados.
+* Seleccione una o más actividades [!DNL Marketo Engage] (estándar o personalizadas) como eventos calificadores.
 * Si lo desea, puede añadir filtros de perfil de persona (como sector, región o fase del ciclo vital) para reducir el número de personas que pueden acceder.
 * Si lo desea, puede definir restricciones de atributo de actividad (como un formulario, una URL o un programa específicos) para reducir los eventos de cada actividad que cumplen los requisitos.
 
