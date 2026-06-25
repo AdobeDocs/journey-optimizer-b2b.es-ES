@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 257
+source-wordcount: 259
 ht-degree: 20%
 
 ---
@@ -92,6 +92,7 @@ Cree correos electrónicos y mensajes de WhatsApp, administre plantillas y recur
 
 [Creación de correo electrónico](./content/email-authoring.md)
 [Plantillas](./content/templates.md)
+[Páginas de aterrizaje](./content/landing-pages.md)
 :::
 
 ::::

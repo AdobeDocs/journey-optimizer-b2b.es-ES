@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 1918
+source-wordcount: 1920
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Utiliza los siguientes componentes básicos, configurados por un administrador, 
 
 ## Limitaciones actuales {#limitations}
 
-* **El método de delegación personalizada** para la delegación de subdominios aún no está disponible — use Totalmente delegado o CNAME. La delegación personalizada es el destino de GA.
+* **El método de delegación personalizada** para la delegación de subdominios aún no está disponible — use Totalmente delegado o CNAME. La delegación personalizada es el objetivo de la versión de GA.
 * **Los grupos de IP dedicados** no están disponibles en Beta. El grupo de IP compartido es la única opción. Las direcciones IP dedicadas se envían en GA, incluida la planificación del calentamiento de la IP y la administración de registros PTR.
 
 ## Conceptos clave {#key-concepts}

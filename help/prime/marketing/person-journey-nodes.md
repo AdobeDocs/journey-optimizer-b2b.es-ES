@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Nodos del recorrido de personas
 
-Después de crear el recorrido de una persona, utilice las herramientas del lienzo para añadir la audiencia y crear el recorrido con los nodos. El lienzo de recorrido proporciona un espacio de diseño visual, donde puede crear sus casos de uso de marketing B2B de varios pasos.
+Después de crear un [recorrido de personas](./person-journeys.md), use las herramientas del lienzo para agregar la audiencia y crear el recorrido mediante nodos. El lienzo de recorrido proporciona un espacio de diseño visual, donde puede crear sus casos de uso de marketing B2B de varios pasos.
 
 El nodo _[!UICONTROL Audiencia de persona]_ es automáticamente el primer nodo del recorrido. Después de seleccionar la audiencia, genere el recorrido combinando los diferentes nodos de acción, evento y toma de decisiones como un escenario de varios pasos y canales cruzados. Cada nodo de un recorrido representa un paso a lo largo de una ruta lógica.
 
