@@ -4,18 +4,11 @@ description: Configure la delegación de subdominios, DMARC, SPF, DKIM y grupos 
 badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1920
 ht-degree: 1%
@@ -39,7 +32,7 @@ Utiliza los siguientes componentes básicos, configurados por un administrador, 
 1. [Confirme el grupo de IP](#ip-pools) que se utilizó para enviar correo electrónico para su subdominio.
 1. [Cree una o más configuraciones de canal de correo electrónico](../admin/email-channel-configuration.md#create-email-channel-configuration) que enlacen un subdominio, un grupo de IP y la identidad del remitente.
 
-![Configuración de envío de correo electrónico para Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
+![Configuración de envío de correo electrónico para Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
 
 >[!TIP]
 >
@@ -47,7 +40,7 @@ Utiliza los siguientes componentes básicos, configurados por un administrador, 
 
 ## Limitaciones actuales {#limitations}
 
-* **El método de delegación personalizada** para la delegación de subdominios aún no está disponible — use Totalmente delegado o CNAME. La delegación personalizada es el objetivo de la versión de GA.
+* **El método de delegación personalizada** para la delegación de subdominios aún no está disponible. Utilice Delegado completo o CNAME. La delegación personalizada es el objetivo de la versión de GA.
 * **Los grupos de IP dedicados** no están disponibles en Beta. El grupo de IP compartido es la única opción. Las direcciones IP dedicadas se envían en GA, incluida la planificación del calentamiento de la IP y la administración de registros PTR.
 
 ## Conceptos clave {#key-concepts}
