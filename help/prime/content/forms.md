@@ -110,7 +110,7 @@ Hay varias cosas que hay que tener en cuenta antes de empezar a crear formulario
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 Puede crear un formulario en [!DNL Journey Optimizer B2B Prime] haciendo clic en **[!UICONTROL Crear formulario]** en la parte superior derecha de la página de lista de _[!UICONTROL Forms]_.
