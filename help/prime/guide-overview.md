@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 1940cd62ab63243382637c1e60bb4df02ba2d56e
 workflow-type: tm+mt
-source-wordcount: 259
-ht-degree: 20%
+source-wordcount: 505
+ht-degree: 10%
 
 ---
 
@@ -36,7 +36,7 @@ Introducción
 
 Complete la configuración y configuración iniciales y, a continuación, aprenda a navegar por la aplicación y utilizar la página principal.
 
-[Configuración del administrador](./start/setup-prime.md)
+[Configuración del administrador](./start/setup-prime.md) <br/>
 [Página de inicio](./home-insights/home-page.md)
 :::
 
@@ -47,7 +47,7 @@ Asistente de IA
 
 Utilice el lenguaje natural para planificar programas, crear recorridos, administrar audiencias y crear contenido con habilidades de IA auténticas.
 
-[Interfaz de chat](./agents/chat-interface.md)
+[Interfaz de chat](./agents/chat-interface.md) <br/>
 [Aptitudes disponibles](./agents/skills.md)
 :::
 
@@ -68,7 +68,7 @@ Gestión de marketing
 
 Organice las campañas en programas, diseñe recorridos personales con contenido de varios canales y personalice con tokens personalizados.
 
-[Resumen de marketing](./marketing/marketing-management.md)
+[Resumen de marketing](./marketing/marketing-management.md) <br/>
 [recorridos de personas](./marketing/person-journeys.md)
 :::
 
@@ -79,7 +79,7 @@ Públicos
 
 Cree y mantenga listas de personas, defina audiencias basadas en eventos y realice un seguimiento de la participación con puntuación basada en personas.
 
-[Listas de personas](./audiences/people-lists.md)
+[Listas de personas](./audiences/people-lists.md) <br/>
 [Puntuaciones de participación](./audiences/engagement-scores.md)
 :::
 
@@ -90,8 +90,8 @@ Contenido
 
 Cree correos electrónicos y mensajes de WhatsApp, administre plantillas y recursos, cree páginas de aterrizaje y formularios y aplique la personalización.
 
-[Creación de correo electrónico](./content/email-authoring.md)
-[Plantillas](./content/templates.md)
+[Creación de correo electrónico](./content/email-authoring.md) <br/>
+[Plantillas](./content/templates.md) <br/>
 [Páginas de aterrizaje](./content/landing-pages.md)
 :::
 
@@ -107,7 +107,7 @@ Cree correos electrónicos y mensajes de WhatsApp, administre plantillas y recur
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="Asistente de IA"><br/>
-      <strong>Asistente de IA</strong><br/><a href="./agents/chat-interface.md">Interfaz de chat</a><br/><a href="./agents/skills.md">Habilidades</a><br/><a href="./agents/program-from-brief.md">Crear programa a partir de instrucciones</a>
+      <strong>Asistente de IA</strong><br/><a href="./agents/chat-interface.md">Interfaz de chat</a><br/><a href="./agents/skills.md">Habilidades</a><br/><a href="./agents/program-from-brief.md">Crear programa a partir de instrucciones</a><br/><a href="./agents/audience-creation.md">Crear audiencias para programas</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Gestión de marketing"><br/>

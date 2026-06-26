@@ -14,10 +14,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
+source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 8%
+source-wordcount: 357
+ht-degree: 5%
 
 ---
 
@@ -27,11 +27,17 @@ Agregue el nodo _Listen for an event_ para mover la audiencia hacia adelante al 
 
 ## Déclencheur de eventos {#event-triggers}
 
-Obtener lista del PM
+Puede generar déclencheur en torno a [!DNL Marketo Engage] actividades, como:
+
+* Rellena formulario: se activa cuando una persona envía un formulario [!DNL Marketo Engage] en su página de aterrizaje.
+* Página web de visitas: se activa cuando un posible cliente ve una página web rastreada (puede especificar direcciones URL exactas o utilizar caracteres comodín).
+* Vínculo de clics: Se activa cuando se hace clic en un vínculo rastreado en un correo electrónico de marketing.
+* Cambios en el valor de los datos: se activa cuando se actualiza un campo específico (como el estado del posible cliente, la puntuación o el sector) en el registro de una persona.
+* Campaña solicitada: a menudo se utiliza para integraciones de API o ganchos web, este déclencheur inicia una campaña cuando otro programa o servicio web la llama.
+* Se cambia la puntuación: se activa cuando la puntuación del posible cliente de un individuo aumenta o disminuye más allá de un determinado umbral.
+* Pulsación móvil: Se activa en campañas inteligentes de marketing móvil cuando se interactúa con una notificación push en un dispositivo.
 
 ## Filtros de eventos {#event-filters}
-
-Obtener lista actualizada del PM
 
 | Filtros | Descripción |
 | ------- | ----------- |

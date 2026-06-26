@@ -2,10 +2,10 @@
 user-guide-title: Documentación de Journey Optimizer B2B Prime
 user-guide-description: Obtenga información acerca de Adobe Journey Optimizer B2B Prime y cómo puede utilizarlo para ?.
 hide: true
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+source-git-commit: 7ad94f63f181d3e51c00c9629f3b2347c0eba04f
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 47%
+source-wordcount: '157'
+ht-degree: 45%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 47%
    + [Interfaz de chat](./agents/chat-interface.md)
    + [Aptitudes](./agents/skills.md)
    + [Crear programa a partir de información breve](./agents/program-from-brief.md)
+   + [Creación de audiencias para programas](./agents/audience-creation.md)
+   + [Crear modelos de puntuación personalizados](./agents/lead-scoring-model.md)
 + [Calificador de ventas](./sales-qualifier/sales-qualifier.md)
 + Gestión de marketing {#marketing-management}
    + [Información general](./marketing/marketing-management.md)
@@ -55,7 +57,7 @@ ht-degree: 47%
       + [Información general](./content/templates.md)
       + [Crear plantillas](./content/templates-create.md)
       + [Gobernanza de contenido](./content/template-content-governance.md)
-   + [Páginas de aterrizaje](./content/landing-pages.md)
+   + [Páginas de destino](./content/landing-pages.md)
    + [Formularios](./content/forms.md)
    + [Personalización](./content/personalization-expressions.md)
    + Herramientas de diseño de contenido {#content-design}
@@ -71,7 +73,7 @@ ht-degree: 47%
    + [Tipos de programas](./admin/program-types.md)
 
 <!--
-   + Business rules
+   + Business rules admin
    + [Persona mapping](./admin/persona-mapping.md)
 
 + AI Assistant {#ai-assistant}

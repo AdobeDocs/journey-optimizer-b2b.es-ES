@@ -14,10 +14,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 8%
+source-wordcount: 582
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ Una _aptitud_ es un flujo de trabajo empaquetado que el agente sabe cómo ejecut
 
 | Aptitud | Qué hace | Acceso | Superficie del producto | Impacto / Flujo de datos |
 |---|---|---|---|---|
-| `falco-program-creation` | Creación de programas de [!DNL Journey Optimizer B2B Prime] de extremo a extremo: programas, subcarpetas, tokens, listas y recorridos. | Escritura | [!DNL Journey Optimizer B2B Prime] | Lee y escribe [!DNL Journey Optimizer B2B Prime] |
+| `falco-program-creation` | Creación de programas de [!DNL Journey Optimizer B2B Prime] de extremo a extremo: programas, subcarpetas, tokens, listas y recorridos. | Escritura | [!DNL Journey Optimizer B2B Prime] | Lee y escribe [!DNL Journey Optimizer B2B Prime]. Ver _[Crear un programa a partir de una breve](./program-from-brief.md)_. |
 | `adapt-program` | Generar historias de migración de [!DNL Marketo Engage] programas para la adaptación [!DNL Journey Optimizer B2B Prime]. | Lectura | [!DNL Journey Optimizer B2B Prime] | Lee [!DNL Marketo Engage], escribe [!DNL Journey Optimizer B2B Prime] |
 | `folder-creation` | Cree carpetas organizativas en el árbol de recursos. | Escritura | [!DNL Journey Optimizer B2B Prime] | Lee y escribe [!DNL Journey Optimizer B2B Prime] |
 | `program-creation` *(Programas de compilación)* | Cree programas de Marketo a partir de una información de campaña. | Escritura | [!DNL Marketo Engage] | Lee y escribe [!DNL Marketo Engage] |
@@ -56,7 +56,7 @@ Una _aptitud_ es un flujo de trabajo empaquetado que el agente sabe cómo ejecut
 
 | Aptitud | Qué hace | Acceso | Producto | Back-end (flujo de datos) |
 |---|---|---|---|---|
-| `audience-creation` | Adaptar una lista inteligente [!DNL Marketo Engage], crear una lista de personas o agregar o actualizar reglas. | Escritura | [!DNL Journey Optimizer B2B Prime] | Lee [!DNL Marketo Engage] + lee/escribe [!DNL Journey Optimizer B2B Prime] |
+| `audience-creation` | Adaptar una lista inteligente [!DNL Marketo Engage], crear una lista de personas o agregar o actualizar reglas. | Escritura | [!DNL Journey Optimizer B2B Prime] | Lee [!DNL Marketo Engage] + lee/escribe [!DNL Journey Optimizer B2B Prime].  Ver _[Crear audiencias para programas](./audience-creation.md)_. |
 | `people-list-comparison` | Comparar listas de dos personas y mostrar miembros superpuestos. | Lectura | [!DNL Journey Optimizer B2B Prime] | Lee [!DNL Journey Optimizer B2B Prime] |
 | `import-leads` | Inspeccionar la calidad de los datos CSV y confirmar las importaciones en [!DNL Marketo Engage]. | Lectura y escritura | Ambos | Lee y escribe [!DNL Marketo Engage] |
 | `lead-investigation` *(investigar posibles clientes)* | Investigue la actividad, puntuación, calificación y ciclo de vida de un posible cliente. | Lectura | [!DNL Marketo Engage] | Lee [!DNL Marketo Engage] |
@@ -73,7 +73,7 @@ Una _aptitud_ es un flujo de trabajo empaquetado que el agente sabe cómo ejecut
 
 | Aptitud | Qué hace | Acceso | Producto | Back-end (flujo de datos) |
 |---|---|---|---|---|
-| `scoring-studio` | Enumere u obtenga modelos de puntuación y créelos o publíquelos. | Lectura y escritura | [!DNL Journey Optimizer B2B Prime] | Lee y escribe [!DNL Journey Optimizer B2B Prime] (servicio de puntuación); lee [!DNL Marketo Engage] campos de posible cliente/tipos de actividad |
+| `scoring-studio` | Enumere u obtenga modelos de puntuación y créelos o publíquelos. | Lectura y escritura | [!DNL Journey Optimizer B2B Prime] | Lee y escribe [!DNL Journey Optimizer B2B Prime] (servicio de puntuación); lee [!DNL Marketo Engage] campos de posible cliente/tipos de actividad. Ver _[Crear modelos de puntuación personalizados](./lead-scoring-model.md)_. |
 | `engagementconfiguration` | Mostrar configuración de participación y editar/actualizar ponderaciones. | Lectura y escritura | [!DNL Journey Optimizer B2B Prime] | Lee y escribe [!DNL Journey Optimizer B2B Prime] |
 | `intentconfiguration` | Mostrar configuración por intención y establecer/actualizar pesos. | Lectura y escritura | [!DNL Journey Optimizer B2B Prime] | Lee y escribe [!DNL Journey Optimizer B2B Prime] |
 | `intent-query` | Consultar y explicar las puntuaciones por intención por persona/segmento/lista. | Lectura | [!DNL Journey Optimizer B2B Prime] | Lee [!DNL Journey Optimizer B2B Prime] |
