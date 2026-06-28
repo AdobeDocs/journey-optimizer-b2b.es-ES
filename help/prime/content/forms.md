@@ -3,21 +3,12 @@ title: Formularios
 description: 'Cree y administre formularios reutilizables para la recopilación de datos empresariales: campos de diseño, establezca páginas de agradecimiento, publique y realice un seguimiento del uso en Journey Optimizer B2B Prime.'
 autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-subfeature_v2:
-  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dcid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -33,7 +24,6 @@ La cantidad de información que debe capturar el formulario depende del valor de
 >[!PREREQUISITES]
 >
 >Para que los equipos de marketing puedan crear y utilizar formularios para capturar información, un administrador debe definir uno o varios ajustes preestablecidos de formulario. Para obtener más información, consulte [_configuraciones de Forms_](../admin/configuration-presets-forms.md)
->
 
 <!-- 
 >Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
@@ -110,7 +100,7 @@ Hay varias cosas que hay que tener en cuenta antes de empezar a crear formulario
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 Puede crear un formulario en [!DNL Journey Optimizer B2B Prime] haciendo clic en **[!UICONTROL Crear formulario]** en la parte superior derecha de la página de lista de _[!UICONTROL Forms]_.
@@ -120,11 +110,8 @@ Puede crear un formulario en [!DNL Journey Optimizer B2B Prime] haciendo clic en
    Requisitos de formulario:
 
    * Nombre: máximo de 100 caracteres, debe ser único, sin distinción de mayúsculas y minúsculas
-
    * Descripción: máximo de 300 caracteres
-
    * Se permiten caracteres Alpha, numéricos y especiales
-
    * Los caracteres reservados **_no se permiten_**: `\ / : * ? " < > |`
 
    <!-- ![Create form dialog](./assets/forms-create-dialog.png){width="400"} -->
@@ -160,9 +147,7 @@ Haga clic en **[!UICONTROL Guardar y cerrar]** para guardar los cambios de dise�
 En el panel _[!UICONTROL Resumen]_ de la derecha, desplácese hasta la sección **[!UICONTROL Página de agradecimiento]** y use la configuración **[!UICONTROL Realizar seguimiento con]** para definir lo que sucede cuando un visitante envía el formulario:
 
 * **[!UICONTROL Permanecer en la página]**: elija esta opción para mantener al visitante en la misma página cuando se envíe el formulario.
-
 * **[!UICONTROL Página de aterrizaje]**: elija esta opción para seleccionar cualquier página de aterrizaje [!DNL Journey Optimizer B2B Prime] como seguimiento.
-
 * **[!UICONTROL Dirección URL externa]**: elija esta opción para especificar cualquier dirección URL como página de seguimiento. Una vez que el visitante envía el formulario, el explorador carga la dirección URL designada.
 
   >[!TIP]
@@ -259,7 +244,7 @@ Los cambios realizados en un formulario dependen de su estado actual:
 
 1. Para realizar cambios en el formulario en el espacio de diseño visual, haga clic en **[!UICONTROL Editar formulario]**.
 
-<!--
+   <!--
    Use the visual design tools as needed:
 
    * [Add fields](./form-design.md#add-field)
@@ -270,7 +255,7 @@ Los cambios realizados en un formulario dependen de su estado actual:
 
    -->
 
-Haga clic en **[!UICONTROL Guardar y cerrar]** para volver a los detalles del formulario.
+   Haga clic en **[!UICONTROL Guardar y cerrar]** para volver a los detalles del formulario.
 
 1. Cuando el formulario cumpla sus criterios y desee que esté disponible para usarlo en una página de aterrizaje o plantilla de página de aterrizaje, haga clic en **[!UICONTROL Publicar]**.
 
@@ -307,7 +292,6 @@ Haga clic en **[!UICONTROL Guardar y cerrar]** para volver a los detalles del fo
 >[!TAB Publicado con borrador]
 
 1. Haga clic en el nombre del formulario para abrirlo.
-
 1. Seleccione la ficha **[!UICONTROL Borrador]**.
 
    Se muestra una vista previa del contenido del formulario de la versión del borrador, con los detalles del formulario a la derecha.
@@ -354,4 +338,3 @@ Cuando se incluye un formulario en una página de aterrizaje o plantilla de pág
 Al seleccionar el formulario en el espacio de diseño de la página de aterrizaje, estas acciones están disponibles en la barra de herramientas de contexto y en el panel de propiedades de la derecha.
 
 <!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
-
