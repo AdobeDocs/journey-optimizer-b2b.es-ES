@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -33,7 +33,6 @@ La cantidad de información que debe capturar el formulario depende del valor de
 >[!PREREQUISITES]
 >
 >Para que los equipos de marketing puedan crear y utilizar formularios para capturar información, un administrador debe definir uno o varios ajustes preestablecidos de formulario. Para obtener más información, consulte [_configuraciones de Forms_](../admin/configuration-presets-forms.md)
->
 
 <!-- 
 >Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
@@ -120,11 +119,8 @@ Puede crear un formulario en [!DNL Journey Optimizer B2B Prime] haciendo clic en
    Requisitos de formulario:
 
    * Nombre: máximo de 100 caracteres, debe ser único, sin distinción de mayúsculas y minúsculas
-
    * Descripción: máximo de 300 caracteres
-
    * Se permiten caracteres Alpha, numéricos y especiales
-
    * Los caracteres reservados **_no se permiten_**: `\ / : * ? " < > |`
 
    <!-- ![Create form dialog](./assets/forms-create-dialog.png){width="400"} -->
@@ -160,9 +156,7 @@ Haga clic en **[!UICONTROL Guardar y cerrar]** para guardar los cambios de dise�
 En el panel _[!UICONTROL Resumen]_ de la derecha, desplácese hasta la sección **[!UICONTROL Página de agradecimiento]** y use la configuración **[!UICONTROL Realizar seguimiento con]** para definir lo que sucede cuando un visitante envía el formulario:
 
 * **[!UICONTROL Permanecer en la página]**: elija esta opción para mantener al visitante en la misma página cuando se envíe el formulario.
-
 * **[!UICONTROL Página de aterrizaje]**: elija esta opción para seleccionar cualquier página de aterrizaje [!DNL Journey Optimizer B2B Prime] como seguimiento.
-
 * **[!UICONTROL Dirección URL externa]**: elija esta opción para especificar cualquier dirección URL como página de seguimiento. Una vez que el visitante envía el formulario, el explorador carga la dirección URL designada.
 
   >[!TIP]
@@ -259,7 +253,7 @@ Los cambios realizados en un formulario dependen de su estado actual:
 
 1. Para realizar cambios en el formulario en el espacio de diseño visual, haga clic en **[!UICONTROL Editar formulario]**.
 
-<!--
+   <!--
    Use the visual design tools as needed:
 
    * [Add fields](./form-design.md#add-field)
@@ -270,7 +264,7 @@ Los cambios realizados en un formulario dependen de su estado actual:
 
    -->
 
-Haga clic en **[!UICONTROL Guardar y cerrar]** para volver a los detalles del formulario.
+   Haga clic en **[!UICONTROL Guardar y cerrar]** para volver a los detalles del formulario.
 
 1. Cuando el formulario cumpla sus criterios y desee que esté disponible para usarlo en una página de aterrizaje o plantilla de página de aterrizaje, haga clic en **[!UICONTROL Publicar]**.
 
@@ -307,7 +301,6 @@ Haga clic en **[!UICONTROL Guardar y cerrar]** para volver a los detalles del fo
 >[!TAB Publicado con borrador]
 
 1. Haga clic en el nombre del formulario para abrirlo.
-
 1. Seleccione la ficha **[!UICONTROL Borrador]**.
 
    Se muestra una vista previa del contenido del formulario de la versión del borrador, con los detalles del formulario a la derecha.
@@ -354,4 +347,3 @@ Cuando se incluye un formulario en una página de aterrizaje o plantilla de pág
 Al seleccionar el formulario en el espacio de diseño de la página de aterrizaje, estas acciones están disponibles en la barra de herramientas de contexto y en el panel de propiedades de la derecha.
 
 <!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
-

@@ -1,7 +1,7 @@
 ---
 title: 'Creación de contenido: añadir formularios'
 description: Sección reutilizada sobre cómo agregar formularios en páginas de aterrizaje y plantillas
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -40,7 +40,7 @@ En el siguiente ejemplo se describen los pasos para agregar un formulario al dis
      >
      >Si desea utilizar el formulario para descargar un archivo, puede especificar una dirección URL para el archivo alojado. Con esta configuración, el botón de envío funciona como un botón de descarga.
 
-   ![Cambiar la configuración de seguimiento](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+     ![Cambiar la configuración de seguimiento](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 1. Si desea limitar la visualización del formulario por tipo de dispositivo, cambie la configuración de **[!UICONTROL Opciones de visualización]**:
 
