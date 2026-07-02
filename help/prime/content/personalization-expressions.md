@@ -19,16 +19,16 @@ role_v2:
 source-git-commit: 205013add5060318d46a2b048bb347003c167470
 workflow-type: tm+mt
 source-wordcount: 1015
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
-# editor de Personalization
+# Editor de personalización
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_personalization_editor"
 >title="Acerca del editor de personalización"
->abstract="El editor de personalización permite seleccionar, organizar, personalizar y validar atributos de perfil para crear contenido personalizado."
+>abstract="El editor de personalización permite seleccionar, organizar, personalizar y validar los atributos de perfil para crear contenido personalizado."
 
 El editor de personalización es la pieza central de la personalización en [!DNL Journey Optimizer B2B Prime]. Utilícelo dondequiera que necesite contenido dinámico: en correos electrónicos, mensajes de WhatsApp, páginas de aterrizaje y campos de URL.
 
@@ -81,7 +81,7 @@ Al crear una [configuración de canal de correo electrónico](../admin/email-cha
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_perso_editor_autocomplete"
 >title="Autocompletar"
->abstract="Al activar esta opción el sistema sugiere y completa automáticamente el código mientras se escribe. Esta función solo está disponible para formatos HTML y Text y admite atributos de perfil. Si se desactiva mediante el conmutador, el editor proporcionará el autocompletado de código HTML nativo en su lugar."
+>abstract="Al activar esta opción el sistema sugiere y completa automáticamente el código mientras se escribe. Esta función solo está disponible en los formatos HTML y texto, y admite atributos de perfil. Si se desactiva mediante el conmutador, el editor proporcionará el autocompletado de código HTML nativo en su lugar."
 
 En el espacio de trabajo central se crea la sintaxis de personalización. Para utilizar un atributo para personalizar el mensaje, localícelo en el panel de navegación izquierdo y haga clic en el botón `+` para agregarlo a la expresión.
 
@@ -109,7 +109,7 @@ Entre las opciones disponibles se encuentran:
 
 1. **[!UICONTROL Buscar]** / **[!UICONTROL Buscar y reemplazar]**: Busca a través de tu expresión y reemplaza automáticamente partes de código.
 1. **[!UICONTROL Deshacer]** / **[!UICONTROL Rehacer]**: Deshacer / Rehacer la última operación.
-1. **[!UICONTROL Completar automáticamente]**: sugiere y completa automáticamente el código mientras escribe. Esta función solo está disponible para formatos HTML y Text y admite atributos de perfil. Si se desactiva mediante el conmutador, el editor proporcionará el autocompletado de código HTML nativo en su lugar.
+1. **[!UICONTROL Completar automáticamente]**: sugiere y completa automáticamente el código mientras escribe. Esta función solo está disponible en los formatos HTML y texto, y admite atributos de perfil. Si se desactiva mediante el conmutador, el editor proporcionará el autocompletado de código HTML nativo en su lugar.
 
    <!-- ![](assets/perso-complete.png){width="70%" align="center" zoomable="yes"} -->
 
