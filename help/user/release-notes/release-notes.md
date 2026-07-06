@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c556fb63675dfd1d6e03f6b0143b3d3bd619557e
+source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
 workflow-type: tm+mt
-source-wordcount: 5167
-ht-degree: 66%
+source-wordcount: 5271
+ht-degree: 65%
 
 ---
 
@@ -32,6 +32,22 @@ Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Ado
 
 Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
+## Notas de la versión 2026.6 {#rel-2026-6}
+
+**Fecha de implementación**: 10 de julio de 2026
+
+<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
+
+| Tipo | Elemento | Descripción |
+| ---- | ---- | ----------- |
+| Mejora | Nodos de recorrido de ruta dividida: variantes | Los especialistas en marketing ahora pueden probar variaciones dentro de un recorrido asignando cuentas o personas a diferentes rutas de recorrido en función de porcentajes definidos. |
+| Mejora | Nodos de recorrido de ruta dividida externa: recorridos de persona | La compatibilidad con nodos de recorrido de rutas divididas externas ya está disponible para los recorridos de persona. |
+| Mejora | Nodos del recorrido de acciones externas: recorridos de persona | La compatibilidad con nodos de recorrido de acciones externas ya está disponible para los recorridos de persona. |
+
+>[!NOTE]
+>
+>Estos cambios de versión comienzan la implementación el 10 de julio de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+
 ## Notas de la versión 2026.5 {#rel-2026-5}
 
 **Fecha de implementación**: 22 de mayo de 2026
@@ -42,7 +58,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | ---- | ---- | ----------- |
 | Función | Páginas de aterrizaje | Las páginas de aterrizaje están disponibles en Journey Optimizer B2B edition para admitir recorridos y programas _(anteriormente una característica del programa Beta)_. <ul><li>Los administradores pueden configurar subdominios y ajustes preestablecidos de página de aterrizaje para habilitar la publicación de páginas de aterrizaje. [Más información](../admin/configure-channels-landing-pages.md)</li><li>Los especialistas en marketing pueden crear, diseñar y publicar páginas de aterrizaje para admitir sus recorridos con contenido web personalizado. [Más información](../content/landing-pages.md)</li></ul> |
 | Función | Formularios | Journey Optimizer B2B edition ahora admite componentes de formulario reutilizables para habilitar el envío de datos desde las páginas de aterrizaje _(anteriormente una característica del programa Beta)_. <ul><li>Los administradores pueden configurar varios ajustes preestablecidos de formulario con diferentes combinaciones de conjuntos de datos y conexiones de flujo continuo. [Más información](../admin/configure-channels-forms.md)</li><li>Los especialistas en marketing ahora pueden definir componentes de formulario reutilizables para capturar información de los visitantes de la página web. [Más información](../content/forms.md)</li></ul> |
-| Función | Miembro del filtro Lista de cuentas | Utilice la pertenencia a Listas de cuentas como punto de orquestación en los recorridos de cuentas. Los especialistas en marketing pueden crear listas de bloqueados de cuentas, listas de prioridades o cualquier otro tipo de subconjunto de su audiencia y proporcionar a las cuentas experiencias únicas en recorridos según su pertenencia. |
+| Función | Filtro Lista de miembros de la lista de cuentas | Utilice la pertenencia a listas de cuentas como punto de orquestación en los recorridos de cuentas. Los especialistas en marketing pueden crear listas de bloqueados de cuentas, listas de prioridades o cualquier otro tipo de subconjunto de su audiencia y proporcionar a las cuentas experiencias únicas en recorridos según su pertenencia. |
 | Función | Filtrado del historial de eventos de experiencia | Esta función permite que la orquestación de recorrido B2B utilice la participación histórica para impulsar decisiones basadas en el comportamiento para los miembros de la audiencia. [Más información](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Función | Siguientes nodos de recorrido de mejor ruta | Puede optimizar la toma de decisiones de ruta dividida para los recorridos de persona, refinando la forma en que las audiencias se enrutan por las rutas antes de la activación del recorrido o durante la ejecución. [Más información](../journeys/next-best-path-node.md) |
 | Función | Panel de rendimiento de correo electrónico | El panel Rendimiento de correo electrónico proporciona a los especialistas en marketing una vista unificada de la actividad de correo electrónico en todos los recorridos de Adobe Journey Optimizer B2B edition. [Más información](../dashboards/email-performance-dashboard.md) |
