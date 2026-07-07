@@ -3,18 +3,11 @@ title: Escuchar un nodo de evento
 description: 'Configuración de la escucha de nodos de evento en Journey Optimizer B2B edition Prime: establezca déclencheur de evento, aplique filtros opcionales y haga avanzar a las personas cuando se produzcan actividades o cambios en los datos.'
 autotag-review: '2026-06-12T23:00:36.531Z'
 TQID: 'https://experienceleague.adobe.com/SBEfrrIKSCnO5x1tGXQTz1EZryH0IKhQx4tuqVn78FI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d0031543-532c-4a26-8f90-01af2b91e6d0
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d0031543-532c-4a26-8f90-01af2b91e6d0id: ba367494-9862-4596-bd6f-299c7e10a46bid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 357
 ht-degree: 5%
@@ -83,3 +76,4 @@ Puede generar déclencheur en torno a [!DNL Marketo Engage] actividades, como:
 >[!NOTE]
 >
 >La funcionalidad de tiempo de espera para Escuchar para un nodo de evento no funciona actualmente. Está planificado para una versión posterior.
+
