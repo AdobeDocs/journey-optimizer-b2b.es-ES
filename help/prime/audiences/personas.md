@@ -15,7 +15,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 650
 ht-degree: 2%
@@ -102,3 +102,4 @@ Al configurar la segmentación para un recorrido de persona en un nodo [_Split p
 1. En la condición de filtro, elija **[!UICONTROL is]** y seleccione una o más personalidades de la lista.
 
 1. Haga clic en **[!UICONTROL Listo]** para guardar el filtro de la ruta.
+

@@ -14,7 +14,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 357
 ht-degree: 5%
@@ -83,3 +83,4 @@ Puede generar déclencheur en torno a [!DNL Marketo Engage] actividades, como:
 >[!NOTE]
 >
 >La funcionalidad de tiempo de espera para Escuchar para un nodo de evento no funciona actualmente. Está planificado para una versión posterior.
+
