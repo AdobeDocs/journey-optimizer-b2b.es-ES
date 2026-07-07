@@ -18,7 +18,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: aee98a6556736490878bac00607952fa0f3b0480
+source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
 workflow-type: tm+mt
 source-wordcount: 2504
 ht-degree: 2%
@@ -329,3 +329,4 @@ Cuando se incluye un formulario en una página de aterrizaje o plantilla de pág
 Al seleccionar el formulario en el espacio de diseño de la página de aterrizaje, estas acciones están disponibles en la barra de herramientas de contexto y en el panel de propiedades de la derecha.
 
 ![Aplicar acciones al formulario seleccionado](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"}
+
