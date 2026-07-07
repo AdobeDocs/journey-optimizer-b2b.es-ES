@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1548
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_person_engagement_score"
->title="Puntuación de participación de persona"
->abstract="Las puntuaciones de participación de la persona reflejan el nivel de participación de los posibles clientes individuales en función de sus actividades recientes."
+>title="Puntuación de participación de personas"
+>abstract="Las puntuaciones de participación de personas reflejan el nivel de participación de posibles clientes individuales en función de sus actividades recientes."
 
 La puntuación de participación de una persona es un número que refleja el nivel de participación de un posible cliente individual. Las puntuaciones se basan en las actividades que realiza una persona, y cada tipo de actividad lleva un valor ponderado. Las puntuaciones se normalizan dentro de la instancia (inquilino) para permitir una comparación coherente y perspectivas procesables.
 
