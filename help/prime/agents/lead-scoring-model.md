@@ -14,7 +14,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
+source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
 ht-degree: 2%
@@ -61,11 +61,11 @@ El modelo creado está organizado en _dimensiones_ y _señales_. Puede configura
 * **Actividad o atributo**: El elemento específico que se va a puntuar
 * **Parámetros de señal** — Ajustes ajustables para la señal
 
-Puede crear y configurar modelos completamente a través del agente mediante lenguaje natural, o interactuar directamente con los controles de la interfaz de usuario.
+Puede crear y configurar modelos completamente mediante el Asistente de IA utilizando lenguaje natural, o interactuar directamente con los controles de la interfaz de usuario.
 
 ## Publicar un modelo de puntuación {#publish-model}
 
-Cuando finalice el modelo, indique al agente que lo publique. El proceso de publicación gestiona automáticamente lo siguiente:
+Cuando finalice el modelo, indique al asistente de IA que lo publique. El proceso de publicación gestiona automáticamente lo siguiente:
 
 | Paso | ¿Qué sucede? |
 |---|---|
