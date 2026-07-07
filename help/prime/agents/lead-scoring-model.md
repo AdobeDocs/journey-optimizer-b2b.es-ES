@@ -4,20 +4,14 @@ description: Cree, previsualice y publique modelos de puntuación de posibles cl
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 autotag-review: '2026-06-25T21:20:26.754Z'
 TQID: 'https://experienceleague.adobe.com/-D5EaJ-3GQ5iwaE6hChscZGEdflKmZ3tdp6VUNuPjWk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -25,8 +19,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
->title="Scoring Studio"
->abstract="Utilice la habilidad Scoring Studio para crear, configurar y publicar modelos de puntuación de posibles clientes personalizados a través de la interfaz de chat del Ayudante de IA."
+>title="Puntuación de Studio"
+>abstract="Utilice la habilidad de puntuación de Studio para crear, configurar y publicar modelos de puntuación de posibles clientes personalizados a través de la interfaz de chat del Asistente de IA."
 
 La aptitud [_Scoring Studio_](./skills.md#scoring-signals) en [!DNL Adobe Journey Optimizer B2B Prime] proporciona una solución de puntuación de posibles clientes nativa de IA que le permite crear, configurar y publicar modelos de puntuación de posibles clientes. El estudio combina un flujo de trabajo impulsado por el agente con una interfaz de usuario visual: puede crear modelos de puntuación mediante mensajes en lenguaje natural en la [interfaz de chat del Ayudante de IA](./chat-interface.md) o interactuando directamente con los controles de la interfaz de usuario.
 
