@@ -6,12 +6,18 @@ role: User
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
 autotag-review: '2026-05-27T16:11:44.937Z'
 TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
 workflow-type: tm+mt
 source-wordcount: 2504
