@@ -1,30 +1,23 @@
 ---
 title: Crear audiencias para programas
-description: Utilice la habilidad Creación de audiencias en Journey Optimizer B2B Prime para crear listas de personas, adaptar las listas inteligentes de Marketo y editar las reglas de listas en el chat.
+description: Utilice la habilidad Creación de audiencias en Journey Optimizer B2B Prime para crear listas de personas, adaptar las listas inteligentes de Marketo Engage y editar las reglas de listas en el chat.
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
-autotag-review: '2026-06-25T19:19:21.361Z'
+autotag-review: '2026-07-06T16:19:54.563Z'
 TQID: 'https://experienceleague.adobe.com/l3xd0u8LR0UDLfeGMXPEEJ9qwXPJX5DxkaH41W4Q7PE'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0f014bd931324eb41e841a788ee4cf2058522455
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: 1499
 ht-degree: 1%
 
 ---
 
 # Creación de audiencias para programas
 
-En [!DNL Adobe Journey Optimizer B2B Prime], [_listas de personas_](../audiences/people-lists.md) definen la audiencia para los recorridos de personas, ya sea como listas dinámicas basadas en filtros que se actualizan automáticamente o como listas estáticas con pertenencia fija. Desde la [interfaz de chat](./chat-interface.md), la aptitud de _Creación de audiencias_ crea, adapta y edita listas de personas a través de una conversación guiada.
+En [!DNL Adobe Journey Optimizer B2B Prime], [_listas de personas_](../audiences/people-lists.md) definen la audiencia para los recorridos de personas, ya sea como listas dinámicas basadas en filtros que se actualizan automáticamente o como listas estáticas con pertenencia fija. Desde la [interfaz de chat](./chat-interface.md), la _creación de audiencias_ [habilidad](./skills.md) crea, adapta y edita listas de personas a través de una conversación guiada.
 
 * **Habilidades** - `audience-creation` y `people-list-comparison`
 * **Invocación**: describe los criterios de audiencia directamente, carga una lista inteligente [!DNL Marketo Engage] o nombra una lista existente para editar
@@ -32,7 +25,7 @@ En [!DNL Adobe Journey Optimizer B2B Prime], [_listas de personas_](../audiences
 
 ## Flujos de trabajo admitidos {#workflows}
 
-El asistente admite tres flujos de trabajo y determina cuál se aplica a partir de la solicitud. Si su intención es ambigua, pregunta antes de continuar.
+El asistente de IA admite tres flujos de trabajo de creación de audiencias y determina cuál se aplica a partir de la solicitud. Si su intención es ambigua, pregunta antes de continuar.
 
 | Flujo de trabajo | Cuándo se debe utilizar | Mensaje de ejemplo |
 |---|---|---|
@@ -42,16 +35,16 @@ El asistente admite tres flujos de trabajo y determina cuál se aplica a partir 
 
 ## Crear una lista de personas desde cero {#create-from-scratch}
 
-Antes de generar nada, el asistente confirma las cuatro acciones siguientes. Solicita los que faltan, en un solo mensaje.
+Antes de generar nada, AI Assistant confirma las cuatro opciones siguientes. Solicita los que faltan, en un solo mensaje.
 
 1. **Reglas / criterios**: una descripción en lenguaje sencillo de quién pertenece a la lista.
 1. **Nombre** — Cómo llamar a la lista.
-1. **Ubicación**: en qué programa debe residir la lista. Proporcione un nombre de programa y el asistente lo encontrará; si hay varias coincidencias, le pedirá que elija.
-1. **Tipo**: dinámico (basado en filtros, actualización automática) o estático (pertenencia fija). Esto es obligatorio: el asistente no adivina; si no se especifica, pregunta.
+1. **Ubicación**: en qué programa debe residir la lista. Proporcione un nombre de programa y el Asistente de IA lo encontrará; si hay varias coincidencias, le pedirá que elija.
+1. **Tipo**: dinámico (basado en filtros, actualización automática) o estático (pertenencia fija). Esto es obligatorio: el asistente de IA no adivinará; si no especifica, preguntará.
 
-### Listas dinámicas
+### Listas dinámicas {#dynamic-lists}
 
-Para las listas dinámicas, el asistente sugiere de forma proactiva incluir atributos de personalización para enriquecer la segmentación. Estos atributos están **_incluidos de forma predeterminada; usted decide excluirse, no en_**:
+Para las listas dinámicas, el asistente de IA sugiere de forma proactiva incluir atributos de personalización para enriquecer la segmentación. Estos atributos están **_incluidos de forma predeterminada; usted decide excluirse, no en_**:
 
 | Atributo | Por qué ayuda |
 |---|---|
@@ -59,16 +52,16 @@ Para las listas dinámicas, el asistente sugiere de forma proactiva incluir atri
 | **Intención derivada** | Señales de intención de compra deducidas que aparecen en las cuentas del mercado. |
 | **Nivel de participación** | Nivel de participación calculado que prioriza los contactos comprometidos. |
 
-Informe al ayudante si desea eliminar alguno de estos elementos antes de continuar.
+Informe al Asistente de IA si desea eliminar alguno de estos elementos antes de continuar.
 
-### Listas estáticas
+### Listas estáticas {#static-lists}
 
 * **Estática, sin criterios**: la lista se crea vacía, lista para que pueda agregar miembros manualmente.
-* **Estático a partir de los criterios (una instantánea)**: el Asistente de IA crea el conjunto coincidente y copia a esas personas en. La población es asíncrona: el asistente confirma que la lista se ha creado, pero observa que las personas pueden tardar unos minutos en aparecer. No alegará que la lista está lista inmediatamente.
+* **Estático a partir de los criterios (una instantánea)**: el Asistente de IA crea el conjunto coincidente y copia a esas personas en. La población es asíncrona: el asistente de IA confirma que la lista se creó, pero señala que las personas pueden tardar unos minutos en aparecer. No alegará que la lista está lista inmediatamente.
 
 ## Revisar tarjeta {#review-card}
 
-No se crea nada hasta que lo apruebe. Después de describir los criterios, el asistente presenta una tarjeta _Revisión de creación de lista de personas_ interactiva (para las adaptaciones de las listas [!DNL Marketo Engage], la tarjeta se titula _Revisión de conversión de lista de personas_).
+No se crea nada hasta que lo apruebe. Después de describir los criterios, el Asistente de IA presenta una tarjeta _Revisión de creación de lista de personas_ interactiva (para las adaptaciones de las listas [!DNL Marketo Engage], la tarjeta se titula _Revisión de conversión de lista de personas_).
 
 Cada fila de la tarjeta representa una condición:
 
@@ -95,13 +88,13 @@ También puede escribir un seguimiento en cualquier momento (por ejemplo, _&quot
 
 ## Asignación de atributos {#attribute-mapping}
 
-Cuando describe criterios, el asistente traduce cada condición en un atributo real conocido de nivel de persona. En la tarjeta Revisar pueden aparecer tres resultados:
+Al describir los criterios, el asistente de IA traduce cada condición en un atributo real conocido de nivel de persona. En la tarjeta Revisar pueden aparecer tres resultados:
 
 1. **Coincidente (alta confianza)**: su condición se asigna directamente a un atributo (por ejemplo, _&quot;el correo electrónico es acme.com&quot;_ se asigna al atributo `email`). Activada de forma predeterminada.
 1. **Aproximado (poco fiable)**: el atributo disponible más cercano difiere en el nombre o el modelo de datos (por ejemplo, un filtro de Marketo _Cantidad_ aproximado como _Puntuación de posibles clientes_). Se muestra con una nota que explica la diferencia; desactivada de forma predeterminada.
 1. **No encontrado** — La condición no se pudo asignar a ningún atributo conocido. Se muestra como _&quot;No se encontró ningún equivalente&quot;_; no se genera ninguna regla.
 
-Por este motivo, es posible que una lista que describa vuelva con menos reglas que las condiciones especificadas: las condiciones no coincidentes aparecen explícitamente en lugar de perderse de forma silenciosa. Si los criterios importantes terminan como &quot;no encontrado&quot;, escríbalos utilizando el nombre real del atributo y el asistente volverá a intentarlo.
+Por este motivo, es posible que una lista que describa vuelva con menos reglas que las condiciones especificadas: las condiciones no coincidentes aparecen explícitamente en lugar de perderse de forma silenciosa. Si los criterios importantes se clasifican como &quot;no se encuentra&quot;, vuelva a expresarlos con el nombre real del atributo y los reintentos del asistente de IA.
 
 >[!NOTE]
 >
@@ -109,12 +102,12 @@ Por este motivo, es posible que una lista que describa vuelva con menos reglas q
 
 ## Editar reglas para una lista existente {#edit-rules}
 
-Cuando solicita cambiar reglas en una lista que ya tiene, el asistente establece qué lista y qué modo de edición:
+Cuando solicita cambiar las reglas de una lista que ya tiene, el Asistente de IA establece qué lista y qué modo de edición:
 
 * **Agregar / anexar** (predeterminado para _&quot;agregar reglas&quot;_, _&quot;agregar más reglas&quot;_): las nuevas reglas se combinan con las existentes.
 * **Reemplazar** (predeterminado para _&quot;reemplazar reglas&quot;_, _&quot;cambiar reglas a&quot;_): las nuevas reglas reemplazan todas las reglas existentes en la lista.
 
-El asistente resume lo que se aplicará y establece claramente si se añade o reemplaza. A continuación, le pide que confirme antes de comprometerse. Después de la aplicación, informa del recuento total de reglas y de cuántas se añadieron o reemplazaron.
+El asistente de IA resume lo que se aplicará y establece claramente si se añade o reemplaza, luego le pide que confirme antes de comprometerse. Después de la aplicación, informa del recuento total de reglas y de cuántas se añadieron o reemplazaron.
 
 >[!NOTE]
 >
@@ -136,8 +129,8 @@ Solicite al Asistente de IA que compare listas de dos personas (por ejemplo, _&q
 |---|---|
 | **Tamaño de tabla** | Muestra hasta 200 miembros; más allá de eso, anota _&quot;Mostrando 200 de N — pídeme que refine la consulta para reducir los resultados.&quot;_ |
 | **Cálculo de superposición** | Se calcula según la dirección de correo electrónico; las personas sin correo electrónico se excluyen de la intersección. |
-| **Tamaño de lista** | Lee hasta aproximadamente los primeros ~1,000 miembros de cada lista. Para listas más grandes, el asistente le informa de que los resultados son parciales. |
-| **Listas dinámicas de borrador** | No se puede comparar: una lista que no se ha publicado no tiene ningún segmento activo. El asistente le pedirá que lo publique primero o que utilice una lista estática en su lugar. |
+| **Tamaño de lista** | Lee hasta aproximadamente los primeros ~1,000 miembros de cada lista. Para listas más grandes, el Asistente de IA le dice que los resultados son parciales. |
+| **Listas dinámicas de borrador** | No se puede comparar: una lista que no se ha publicado no tiene ningún segmento activo. El Asistente de IA le pide que lo publique primero o que utilice una lista estática en su lugar. |
 
 ## Validación de QA {#qa-validation}
 
@@ -155,10 +148,10 @@ Después de crear o actualizar una lista, el Asistente de IA ofrece: _&quot;¿De
 
 | Limitación | Detalles |
 |---|---|
-| **Adaptación de lista estática de[!DNL Marketo Engage]** | No puede adaptar una lista estática [!DNL Marketo Engage] (o un correo electrónico u otro recurso sin filtro) a una lista de personas. Las listas estáticas son ID de miembro explícitos y no se pueden expresar como filtros; en su lugar, el asistente solicita una lista inteligente o una campaña inteligente. |
+| **Adaptación de lista estática de[!DNL Marketo Engage]** | No puede adaptar una lista estática [!DNL Marketo Engage] (o un correo electrónico u otro recurso sin filtro) a una lista de personas. Las listas estáticas son ID de miembro explícitos y no se pueden expresar como filtros; el asistente de IA solicita una lista inteligente o una campaña inteligente en su lugar. |
 | **Filtros basados en la actividad y la pertenencia** | Al adaptarse de [!DNL Marketo Engage], los filtros como _Se abrió el correo electrónico_, _Se completó la página web visitada_, _Se rellenó el formulario_, _Miembro de la lista_ y _Miembro de la campaña inteligente_ no tienen equivalente de lista de personas y regresan como &quot;No se encontró un equivalente&quot;. |
 | **Condiciones a nivel de compañía** | Se traduce al atributo de nivel de persona más cercano siempre que sea posible (las listas de personas funcionan con atributos de persona) y se marca como de baja confianza cuando el ajuste es holgado. |
-| **Lógica AND/OR profundamente anidada** | La lógica anidada compleja puede contraerse a un AND/OR de nivel superior; el asistente observa esto cuando se produce. |
-| **Conflictos de nombres** | No se resuelve automáticamente: si se usa el nombre, el asistente le pedirá uno distinto en lugar de anexar silenciosamente un sufijo. |
-| **Se requiere aprobación** | El asistente no creará ni modificará una lista hasta que haga clic en **[!UICONTROL Continuar]**, confirme o dé un visto bueno claro (_&quot;aprobado&quot;_, _&quot;se ve bien&quot;_, _&quot;compilarlo&quot;_). |
+| **Lógica AND/OR profundamente anidada** | La lógica anidada compleja puede contraerse a un AND/OR de nivel superior; el asistente de IA lo observa cuando sucede. |
+| **Conflictos de nombres** | No se resuelve automáticamente: si se usa el nombre, el Asistente de IA le pedirá uno diferente en lugar de anexar silenciosamente un sufijo. |
+| **Se requiere aprobación** | El Asistente de IA no creará ni modificará una lista hasta que haga clic en **[!UICONTROL Continuar]**, confirme o indique un avance claro (_&quot;aprobado&quot;_, _&quot;se ve bien&quot;_, _&quot;compilarlo&quot;_). |
 | **Población de instantáneas estáticas** | La pertenencia a listas estáticas creadas a partir de criterios se completa en unos minutos, no de forma inmediata. |
