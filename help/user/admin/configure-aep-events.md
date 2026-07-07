@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
+source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 11%
@@ -63,13 +63,13 @@ A medida que seleccione eventos para satisfacer sus objetivos organizativos, ten
 
 * Puede hacer referencia a un evento de experiencia en varios recorridos o utilizarlo más de una vez en el mismo recorrido.
 
+>[!NOTE]
+>
+>Al seleccionar campos XDM para _[!UICONTROL Standard]_, _[!UICONTROL Relational]_ o _[!UICONTROL Events]_, solo se admiten tipos de datos básicos (cadena, entero, doble y booleano). No se permiten matrices y objetos.
+
 >[!ENDSHADEBOX]
 
 ## Administrar eventos de experiencia {#manage-experience-events}
-
->[!NOTE]
->
->Al seleccionar campos XDM para _[!UICONTROL Standard]_, [!UICONTROL Relational] o [!UICONTROL Events], solo se admiten tipos de datos básicos (cadena, entero, doble y booleano). No se permiten matrices y objetos.
 
 1. En el panel de navegación izquierdo, elija **[!UICONTROL Administración]** > **[!UICONTROL Configuraciones]**.
 
