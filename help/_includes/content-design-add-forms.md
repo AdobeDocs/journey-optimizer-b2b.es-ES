@@ -1,18 +1,18 @@
 ---
 title: 'Creación de contenido: añadir formularios'
 description: Sección reutilizada sobre cómo agregar formularios en páginas de aterrizaje y plantillas
-source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # Creación de contenido: añadir formularios
 
-Un formulario es un componente reutilizable al que se puede hacer referencia en varias páginas de aterrizaje y plantillas de páginas de aterrizaje en Adobe Journey Optimizer B2B edition. Es un bloque de campos y un botón de envío que se pueden crear previamente e insertar rápidamente para que el diseño de la página sea más rápido y coherente.
+Un formulario es un componente reutilizable al que se puede hacer referencia en varias páginas de aterrizaje y plantillas de páginas de aterrizaje. Es un bloque de campos y un botón de envío que se pueden crear previamente e insertar rápidamente para que el diseño de la página sea más rápido y coherente.
 
-En el siguiente ejemplo se describen los pasos para agregar un formulario al diseñar la página.
+En el siguiente ejemplo se describen los pasos para agregar un formulario al diseñar la página de aterrizaje.
 
 1. En la sección **[!UICONTROL Contenido]**, arrastre el elemento **[!UICONTROL Formulario]** y suéltelo en un componente estructural en el espacio de diseño de la página.
 
@@ -32,7 +32,7 @@ En el siguiente ejemplo se describen los pasos para agregar un formulario al dis
 
    * **[!UICONTROL Permanecer en la página]**: elija esta opción para mantener al visitante en la misma página cuando se envíe el formulario.
 
-   * **[!UICONTROL Página de aterrizaje]**: elija esta opción para seleccionar cualquier página de aterrizaje de Journey Optimizer B2B edition o Marketo Engage como seguimiento.
+   * **[!UICONTROL Página de aterrizaje]**: elija esta opción para seleccionar cualquier otra página de aterrizaje como seguimiento.
 
    * **[!UICONTROL Dirección URL externa]**: elija esta opción para especificar cualquier dirección URL como página de seguimiento. Una vez que el visitante envía el formulario, el explorador carga la dirección URL designada.
 
