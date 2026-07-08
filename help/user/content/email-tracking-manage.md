@@ -7,32 +7,31 @@ role: User
 level: Beginner, Intermediate
 autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 712
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # Administrar seguimiento de aperturas de correo electrónico
 
-Su organización es responsable de determinar sus propias obligaciones de cumplimiento según las leyes y directrices jurisdiccionales aplicables, pero puede utilizar las siguientes capacidades de [!DNL Journey Optimizer B2B Edition] para apoyar sus esfuerzos de cumplimiento.
-
 Puede deshabilitar el seguimiento de aperturas para un correo electrónico individual o capturar las preferencias de seguimiento de cada persona en Adobe Experience Platform y utilizar una ruta dividida para dirigir a las personas a las variantes de correo electrónico de seguimiento y sin seguimiento.
+
+>[!BEGINSHADEBOX &quot;Guía CNIL sobre píxeles de seguimiento de correo electrónico&quot;]
+
+El 14 de abril de 2026, la *Comisión Nacional de Informática y Libertades* (CNIL) publicó una [recomendación sobre el uso de píxeles de seguimiento en correos electrónicos](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). La guía aclara cuándo se requiere el consentimiento y resalta la importancia de las prácticas de consentimiento adecuadas para el seguimiento de píxeles del correo electrónico. Esta política podría afectar a las prácticas de envío de cualquier entidad que envíe correos electrónicos a suscriptores con sede en Francia.
+
+Un píxel de seguimiento de correo electrónico es una imagen transparente 1x1 incrustada en el HTML de un correo electrónico. Cuando el cliente de correo electrónico del destinatario carga esa imagen, el píxel hace ping a un servidor que registra datos como una marca de tiempo, un tipo de dispositivo, un cliente de correo electrónico y, a veces, una dirección IP para obtener una ubicación aproximada. A continuación, ese registro se vincula al registro de un destinatario, lo que permite a los especialistas en marketing saber si se abre un correo electrónico.
+
+Las funcionalidades del producto [!UICONTROL Journey Optimizer B2B edition] que se describen aquí son componentes básicos que, configurados y operados correctamente, pueden admitir una implementación compatible. Cada cliente es responsable de determinar y cumplir con sus obligaciones según la ley aplicable.
+
+>[!ENDSHADEBOX]
 
 ## Deshabilitar el seguimiento de un solo correo electrónico {#disable-tracking-single-email}
 
@@ -98,7 +97,7 @@ Agregue [_Rutas divididas por personas_ nodo](../journeys/split-merge-paths-node
 
 ### Configurar variantes de correo electrónico de seguimiento y sin seguimiento {#configure-tracking-and-non-tracking-email-variants}
 
-Agregue un nodo de acción [_[!UICONTROL Enviar correo electrónico &#x200B;]_](./add-email.md) a cada ruta para que cada persona reciba la variante de correo electrónico que coincida con su preferencia de seguimiento.
+Agregue un nodo de acción [_[!UICONTROL Enviar correo electrónico ]_](./add-email.md) a cada ruta para que cada persona reciba la variante de correo electrónico que coincida con su preferencia de seguimiento.
 
 1. En la ruta habilitada para el seguimiento, agrega una acción **[!UICONTROL Enviar correo electrónico]** y selecciona o crea el correo electrónico de la forma habitual, dejando **[!UICONTROL Deshabilitar el seguimiento de aperturas]** borrado en las propiedades del correo electrónico.
 
