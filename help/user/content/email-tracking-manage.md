@@ -7,11 +7,20 @@ role: User
 level: Beginner, Intermediate
 autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
 source-wordcount: 860
@@ -97,7 +106,7 @@ Agregue [_Rutas divididas por personas_ nodo](../journeys/split-merge-paths-node
 
 ### Configurar variantes de correo electrónico de seguimiento y sin seguimiento {#configure-tracking-and-non-tracking-email-variants}
 
-Agregue un nodo de acción [_[!UICONTROL Enviar correo electrónico ]_](./add-email.md) a cada ruta para que cada persona reciba la variante de correo electrónico que coincida con su preferencia de seguimiento.
+Agregue un nodo de acción [_[!UICONTROL Enviar correo electrónico &#x200B;]_](./add-email.md) a cada ruta para que cada persona reciba la variante de correo electrónico que coincida con su preferencia de seguimiento.
 
 1. En la ruta habilitada para el seguimiento, agrega una acción **[!UICONTROL Enviar correo electrónico]** y selecciona o crea el correo electrónico de la forma habitual, dejando **[!UICONTROL Deshabilitar el seguimiento de aperturas]** borrado en las propiedades del correo electrónico.
 
