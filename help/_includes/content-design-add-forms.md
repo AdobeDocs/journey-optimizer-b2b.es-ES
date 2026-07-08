@@ -1,7 +1,7 @@
 ---
 title: 'Creación de contenido: añadir formularios'
 description: Sección reutilizada sobre cómo agregar formularios en páginas de aterrizaje y plantillas
-source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -20,7 +20,7 @@ En el siguiente ejemplo se describen los pasos para agregar un formulario al dis
 
    >[!TIP]
    >
-   >Para agregar el formulario de modo que ocupe todo el diseño horizontal del correo electrónico, agregue una estructura de columnas de 1:1 y, a continuación, arrastre y suelte el formulario en él.
+   >Para agregar el formulario de modo que ocupe todo el diseño horizontal de la página, agregue una estructura de columnas de 1:1 y, a continuación, arrastre y suelte el formulario en él.
 
 1. Haga clic en el icono _Formulario_ en la barra de herramientas de componentes o use las propiedades de **[!UICONTROL Incrustar formulario]** a la derecha para seleccionar el formulario publicado.
 
