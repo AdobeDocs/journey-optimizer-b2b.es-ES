@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
+source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
 workflow-type: tm+mt
-source-wordcount: 5271
+source-wordcount: 5232
 ht-degree: 65%
 
 ---
@@ -40,13 +40,17 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Mejora | Nodos de recorrido de ruta dividida: variantes | Los especialistas en marketing ahora pueden probar variaciones dentro de un recorrido asignando cuentas o personas a diferentes rutas de recorrido en función de porcentajes definidos. |
-| Mejora | Nodos de recorrido de ruta dividida externa: recorridos de persona | La compatibilidad con nodos de recorrido de rutas divididas externas ya está disponible para los recorridos de persona. |
-| Mejora | Nodos del recorrido de acciones externas: recorridos de persona | La compatibilidad con nodos de recorrido de acciones externas ya está disponible para los recorridos de persona. |
+| Función | Nodos de recorrido de ruta dividida: variantes | (Beta) Los especialistas en marketing ahora pueden probar las variaciones dentro de un recorrido asignando cuentas o personas a diferentes rutas de recorrido en función de porcentajes definidos. |
 
 >[!NOTE]
 >
 >Estos cambios de versión comienzan la implementación el 10 de julio de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+
+<!-- 
+Add for 2026.8 release
+| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
+| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
+-->
 
 ## Notas de la versión 2026.5 {#rel-2026-5}
 
