@@ -22,14 +22,14 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: 2690
 ht-degree: 0%
 
 ---
 
-# Asistente de IA para contenido de página de aterrizaje {#generative-full-content}
+# Asistente de IA para el contenido de páginas de aterrizaje {#generative-full-content}
 
 El Asistente de IA para el contenido de páginas de aterrizaje en [!DNL Adobe Journey Optimizer B2B Edition] utiliza las capacidades de generación de contenido de Adobe con tecnología de IA y revoluciona la forma en que los especialistas en marketing crean contenido de página de aterrizaje profesional y coherente con la marca. Con modelos de IA generativos avanzados y una comprensión profunda de las directrices de marca, el asistente de IA genera automáticamente contenido personalizado, atractivo y eficaz. Utiliza su objetivo de marketing y optimiza el contenido para los estilos, diseños, tonos y mucho más descritos de la marca. El asistente de IA hace que la creación y ejecución de campañas y programas sea más intuitiva, sencilla y sencilla. Añadir esta capacidad a los flujos de trabajo le permite ahorrar tiempo, mejorar la eficacia y obtener mejores resultados.
 
