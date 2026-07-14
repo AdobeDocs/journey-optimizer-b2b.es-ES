@@ -14,9 +14,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 415cfd2d9bdeee87364fa8935bc8a2a8259174ba
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1601
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ Por ejemplo, puede crear y diseñar páginas de aterrizaje para dirigir a los us
 
 ## Acceso y administración de páginas de aterrizaje {#access-manage-landing-pages}
 
-Para acceder a las páginas de aterrizaje de [!DNL Journey Optimizer B2B Prime], vaya a la barra de navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Páginas de aterrizaje]**. Esta acción muestra una lista de todas las páginas de aterrizaje creadas en la instancia.
+Para acceder a las páginas de aterrizaje de [!DNL Journey Optimizer B2B Prime], ve a la navegación izquierda y expande **[!UICONTROL Administración de contenido]**. A continuación, seleccione **[!UICONTROL Páginas de aterrizaje]**. Esta acción muestra una lista de todas las páginas de aterrizaje creadas en la instancia.
 
 ![Acceder a la biblioteca de páginas de aterrizaje](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
