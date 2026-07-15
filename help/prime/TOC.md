@@ -2,10 +2,10 @@
 user-guide-title: Documentación de Journey Optimizer B2B Prime
 user-guide-description: Obtenga información acerca de Adobe Journey Optimizer B2B Prime y cómo puede utilizarlo para ?.
 hide: true
-source-git-commit: edb7bf983c8eba432604cf9bffc65e0be1ddee99
+source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 54%
+source-wordcount: '177'
+ht-degree: 55%
 
 ---
 
@@ -79,10 +79,10 @@ ht-degree: 54%
       + [Configuración del canal de WhatsApp](./admin/configuration-channels-whatsapp.md)
       + [Configuración de página de aterrizaje](./admin/configuration-presets-landing-pages.md)
       + [Configuración de ajustes preestablecidos de formulario](./admin/configuration-presets-forms.md)
+   + [Reglas empresariales](./admin/business-rules.md)
    + [Tipos de programas](./admin/program-types.md)
 
 <!--
-   + Business rules admin
    + [Persona mapping](./admin/persona-mapping.md)
 
 + AI Assistant {#ai-assistant}
