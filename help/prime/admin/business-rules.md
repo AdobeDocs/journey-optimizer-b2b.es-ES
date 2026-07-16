@@ -4,21 +4,10 @@ description: Cree y administre conjuntos de reglas para aplicar reglas de límit
 badgeBeta: label="Beta" type="informative" tooltip="Esta función forma parte de una versión beta limitada."
 autotag-review: '2026-07-15T17:39:19.276Z'
 TQID: 'https://experienceleague.adobe.com/eYmcE-8rD5-KJe-hGlUo3I34JYJsK2Hj4x4alFTTqwQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-  - id: f09c7f30-c554-44cf-884c-7557ed69d0c6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: af7eab5e-3580-4254-9f56-3c20b4f6ef42id: f09c7f30-c554-44cf-884c-7557ed69d0c6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 945c02e4edb6f38dbc8a1ec6b6c97f7825ef4af9
 workflow-type: tm+mt
 source-wordcount: 2975
