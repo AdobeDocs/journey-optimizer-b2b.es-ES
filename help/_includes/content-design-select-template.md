@@ -3,7 +3,7 @@ title: 'Creación de contenido: seleccione la plantilla de correo electrónico'
 description: Sección reutilizada sobre la selección de una plantilla de correo electrónico para la creación de contenido
 source-git-commit: 985b0ac83f21e5ec0bf8d49d3d94deb5035789be
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Puede elegir entre:
 
 * **Plantillas guardadas**. Use una plantilla personalizada guardada que haya creado desde cero mediante el menú _[!UICONTROL Plantillas]_ o que se haya guardado desde un correo electrónico en un recorrido mediante la opción _[!UICONTROL Guardar como plantilla de contenido]_.
 
-Utilice la sección _[!UICONTROL Seleccionar plantilla de diseño]_ para empezar a crear contenido a partir de una plantilla. Puede utilizar una plantilla de ejemplo o una plantilla de correo electrónico personalizada guardada desde la instancia de Journey Optimizer B2B Edition.
+Utilice la sección _[!UICONTROL Seleccionar plantilla de diseño]_ para empezar a crear contenido a partir de una plantilla. Puede utilizar una plantilla de ejemplo o una plantilla de correo electrónico personalizada guardada desde la instancia de Journey Optimizer B2B edition.
 
 >[!BEGINTABS]
 
@@ -40,8 +40,8 @@ Esta acción copia el contenido en el diseñador de contenido visual, donde pued
 
 >[!TAB Plantillas de muestra]
 
-Adobe Journey Optimizer B2B Edition ofrece una selección de plantillas de correo electrónico _listas para usar_, que se pueden usar para crear correos electrónicos y plantillas de correo electrónico.
+Adobe Journey Optimizer B2B edition ofrece una selección de plantillas de correo electrónico _listas para usar_, que se pueden usar para crear correos electrónicos y plantillas de correo electrónico.
 
-![Elija una plantilla proporcionada por el Adobe](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
+![Elija una plantilla proporcionada por Adobe](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
