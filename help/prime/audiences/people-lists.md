@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 891
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 1. Elija y luego enumere **[!UICONTROL Type]**:
 
    * **[!UICONTROL Estático]**: la pertenencia se determina mediante filtros calificadores evaluados al crear la lista. La inscripción a la lista no se actualiza a menos que califique o descalifique manualmente registros.
-***[!UICONTROL Dinámico]**: la pertenencia se determina dinámicamente mediante filtros que cumplen los requisitos. La inscripción a la lista se actualiza automáticamente.
+***[!UICONTROL dinámico]**: la pertenencia se determina dinámicamente mediante filtros calificadores. La inscripción a la lista se actualiza automáticamente.
 
    ![Crear cuadro de diálogo de lista de personas](./assets/people-list-create-dialog.png){width="450"}
 
@@ -203,7 +203,7 @@ La pertenencia a listas dinámicas se define mediante filtros simples que hacen 
 
    Después de un breve tiempo, los miembros calificados aparecen en la lista.
 
-Para abrir la página de detalles del perfil del posible cliente, en la que puede ver el resumen y las actividades recientes, haga clic en el nombre de una persona en la lista.
+Para abrir la página [detalles de la persona](./person-details.md), donde podrá ver el resumen y las actividades recientes, haga clic en el nombre de una persona en la lista.
 
 ### Duplicación de una lista dinámica
 

@@ -2,10 +2,10 @@
 user-guide-title: Documentación de Journey Optimizer B2B Prime
 user-guide-description: Obtenga información acerca de Adobe Journey Optimizer B2B Prime y cómo puede utilizarlo para ?.
 hide: true
-source-git-commit: edb7bf983c8eba432604cf9bffc65e0be1ddee99
+source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 54%
+source-wordcount: '179'
+ht-degree: 55%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 54%
    + [Canal de WhatsApp](./content/whatsapp-authoring.md)
 + Públicos {#audiences}
    + [Listas de personas](./audiences/people-lists.md)
+   + [Detalles de la persona](./audiences/person-details.md)
    + [Audiencias basadas en eventos](./audiences/event-based-audiences.md)
    + [Puntuaciones de participación de personas](./audiences/engagement-scores.md)
    + [Personas derivadas](./audiences/personas.md)
@@ -79,10 +80,10 @@ ht-degree: 54%
       + [Configuración del canal de WhatsApp](./admin/configuration-channels-whatsapp.md)
       + [Configuración de página de aterrizaje](./admin/configuration-presets-landing-pages.md)
       + [Configuración de ajustes preestablecidos de formulario](./admin/configuration-presets-forms.md)
+   + [Reglas empresariales](./admin/business-rules.md)
    + [Tipos de programas](./admin/program-types.md)
 
 <!--
-   + Business rules admin
    + [Persona mapping](./admin/persona-mapping.md)
 
 + AI Assistant {#ai-assistant}
