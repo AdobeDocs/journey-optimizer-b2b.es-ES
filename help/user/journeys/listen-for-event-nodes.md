@@ -155,7 +155,7 @@ Si tiene páginas web en la instancia de Marketo Engage conectada, puede almacen
 
 >[!PREREQUISITES]
 >
->Los administradores configuran [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permite a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real.
+>Los administradores configuran [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permite a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real.
 >
 >Para que los eventos de experiencia estén disponibles para los recorridos, un administrador de productos debe [agregar primero los tipos de eventos y los campos de interés](../admin/configure-aep-events.md#add-an-event) en [!DNL Journey Optimizer B2B Edition].
 
