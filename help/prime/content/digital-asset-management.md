@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: fac47361b0a597e26ca31b0901634fc00f20ae61
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 18%
+source-wordcount: 746
+ht-degree: 19%
 
 ---
 
@@ -29,11 +29,15 @@ En [!DNL Adobe Journey Optimizer B2B Prime], los recursos suelen ser las imágen
 
 Formatos de archivo compatibles: JPG, JPEG, GIF, PNG, EPS, SVG y RGB
 
+<!--
+
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
+
+-->
+
 >[!NOTE]
 >
->En esta versión de Beta, puede elegir imágenes y recursos de una copia única de la biblioteca de recursos de Marketo Engage directamente dentro del lienzo del correo electrónico. La modificación de recursos en Marketo Engage después de la copia inicial es **no** reflejada en [!DNL Journey Optimizer B2B Prime].
->
->Puede cargar recursos de imagen adicionales desde la biblioteca _[!UICONTROL Assets]_ o desde el espacio de diseño de contenido. Estos recursos cargados solo se pueden usar en la instancia [!DNL Journey Optimizer B2B Prime].
+>Puede cargar recursos de imagen de la biblioteca _[!UICONTROL Assets]_ o del espacio de diseño de contenido. Estos recursos cargados solo se pueden usar en la instancia [!DNL Journey Optimizer B2B Prime].
 >
 >La importación de recursos desde sistemas externos y el acceso a una biblioteca de recursos previamente completada aún no están disponibles. Se espera que las futuras versiones incluyan la importación de recursos desde sistemas existentes, compatibilidad con carpetas y capacidades ampliadas de administración de recursos.
 
