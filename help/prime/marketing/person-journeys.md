@@ -13,9 +13,9 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1433
 ht-degree: 19%
 
 ---
@@ -105,7 +105,7 @@ El encabezado de cada lienzo de recorrido incluye el nombre, el estado y la prog
 
 * Haga clic en el icono _Editar_ (![Editar icono](../../assets/do-not-localize/icon-react-edit.svg) ) para cambiar el nombre del recorrido o la información de la descripción.
 * Haga clic en **[!UICONTROL Configuración del Recorrido]** para cambiar el inicio y la periodicidad del recorrido.
-* Haga clic en **[!UICONTROL ... Más]** para aplicar una acción de recorrido o para habilitar o deshabilitar el control de tráfico y la reentrada.
+* Haga clic en **[!UICONTROL ... Más]** para aplicar una acción de recorrido o para habilitar o deshabilitar el [control de tráfico de recorrido](./journey-traffic-control.md) y la reentrada.
 * Si se resuelven todos los errores y desea activar el recorrido, haga clic en **[!UICONTROL Publicar]**.
 
 ### Diseño de recorrido {#journey-design}
