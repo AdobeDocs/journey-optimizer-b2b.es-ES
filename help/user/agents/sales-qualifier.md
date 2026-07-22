@@ -6,25 +6,15 @@ role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
 autotag-review: '2026-06-05T16:42:16.451Z'
 TQID: 'https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-subfeature_v2:
-  - id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fdid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2: id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: a5145b53d6b5c9462392f7c540a81b7d85abdd7b
 workflow-type: tm+mt
-source-wordcount: 4580
+source-wordcount: 6084
 ht-degree: 1%
 
 ---
@@ -35,7 +25,7 @@ El cualificador de ventas es una aplicación controlada por IA que puede utiliza
 
 Los BDR pueden utilizar los complementos de explorador y correo electrónico para acceder a inteligencia empresarial directamente desde CRM o Outlook. El siguiente vídeo proporciona una breve demostración del Cualificador de ventas y Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476564?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## Inicio de aplicación
 
@@ -45,7 +35,7 @@ El Calificador de ventas se incluye con [!UICONTROL Journey Optimizer B2B editio
 
 ### Account Qualification Agent
 
-Account Qualification Agent (AQA) es el núcleo del Calificador de ventas. El AQA utiliza IA para leer sus cuentas y determinar cuáles están listas para el siguiente paso. Ayuda con la investigación, el borrador del correo electrónico y el contexto informado sobre CRM cuando su organización se ha conectado a CRM (solo lectura).
+Account Qualification Agent (AQA) es el núcleo del Calificador de ventas. El AQA utiliza IA para leer sus cuentas y determinar cuáles están listas para el siguiente paso. Ayuda con la investigación, el borrador del correo electrónico y el contexto informado sobre CRM cuando su organización se ha conectado a CRM.
 
 <!--
 ## Edit the left navigation bar
@@ -65,28 +55,30 @@ Con el lenguaje natural, puede pedir al agente que:
 
 Itere los flujos de trabajo salientes refinando los indicadores para obtener los resultados que necesita. Por ejemplo:
 
-* _Borrador de un dibujo de seguimiento de correo electrónico a partir de contexto, como llamadas de ganancias o informes._ Hasta 120 palabras. Línea de asunto: cautivador, que incorpora un tema clave. Introducción: enlace con una cita directa de fuentes de contexto. Cuerpo: conéctese a puntos problemáticos y propuestas de valor. CTA: Proponga una breve llamada para explorar más en profundidad._
+* _Borrador de un dibujo de seguimiento de correo electrónico a partir de contexto, como llamadas de ganancias o informes._ Hasta 120 palabras. Línea de asunto: cautivador, que incorpora un tema clave. Introducción: Comience con una cita directa de las fuentes de contexto. Cuerpo: conéctese a puntos problemáticos y propuestas de valor. CTA: Proponga una breve llamada para explorar más en profundidad._
 
 * _El objetivo de este correo electrónico es iniciar una conversación y generar credibilidad._ Redacte un correo electrónico con menos de 120 palabras que tenga un tono consultivo y empático. Evite un enfoque demasiado familiar o de ventas y no utilice las frases &quot;espero que esté bien&quot;, &quot;solo registrarse&quot; o &quot;por favor&quot;._
 
 ### Acceso a productos y grupos de usuarios
 
-El acceso a las funciones del cualificador de ventas se administra mediante grupos de usuarios en Adobe Admin Console. Los administradores de productos deben configurar los grupos de usuarios adecuados para que los usuarios puedan acceder a la aplicación.
+El acceso a las funciones del cualificador de ventas se administra mediante dos grupos de usuarios en Adobe Admin Console. Los administradores de productos deben configurar los grupos durante la incorporación para que los usuarios puedan acceder a la aplicación.
 
-#### Administradores de productos
+#### Usuarios del calificador de ventas
 
-Los administradores de productos que necesitan tener acceso a la funcionalidad [Integraciones](#integrations) deben ser miembros del grupo de usuarios `Sales Qualifier Admins`.
+Los usuarios deben ser miembros del grupo de usuarios `Sales Qualifier` para tener acceso a la aplicación Calificador de ventas.
+
+1. En Adobe Admin Console, cree un grupo de usuarios denominado `Sales Qualifier`.
+1. Asigne el perfil de AEP **Acceso predeterminado a todos los equipos de producción** al grupo.
+1. Añada usuarios que necesiten acceder al cualificador de ventas.
+
+#### Administradores de cualificador de ventas
+
+Los administradores que configuran [conexiones CRM](#integrations-and-crm), el [Centro de conocimiento](#knowledge-center) y la configuración global de exclusión de correo electrónico también deben ser miembros del grupo de usuarios `Sales Qualifier Admins`.
 
 1. En Adobe Admin Console, cree un grupo de usuarios denominado `Sales Qualifier Admins`.
-1. Agregue usuarios que necesiten configurar las conexiones de CRM y la configuración de la Base de conocimiento.
+1. Agregue los administradores a los grupos `Sales Qualifier` y `Sales Qualifier Admins`.
 
-#### Usuarios de BDR estándar
-
-Los usuarios de BDR estándar deben ser miembros del grupo de usuarios `Sales Qualifier users` para acceder al Calificador de ventas.
-
-1. En Adobe Admin Console, cree un grupo de usuarios denominado `Sales Qualifier users`.
-1. Asigne el perfil de AEP **Acceso predeterminado a todos los equipos de producción** al grupo.
-1. Agregar usuarios al grupo.
+La pertenencia a ambos grupos hace que **[!UICONTROL Configuración de administración]** sea visible en **[!UICONTROL Administración]** en el panel de navegación izquierdo. Los usuarios estándar pueden utilizar los campos, los filtros y el manual configurados, y el pie de página de exclusión configurado se aplica a sus correos electrónicos salientes. No pueden cambiar esta configuración.
 
 >[!NOTE]
 >
@@ -94,11 +86,61 @@ Los usuarios de BDR estándar deben ser miembros del grupo de usuarios `Sales Qu
 
 ## Clientes potenciales
 
-Seleccione **[!UICONTROL Clientes potenciales]** en el panel de navegación izquierdo para ver una lista de todos los posibles clientes a los que puede acceder. Proporciona una revisión rápida de la información, como el estado del posible cliente y la última actividad.
+Seleccione **[!UICONTROL Clientes potenciales]** en el panel de navegación izquierdo para ver una lista de los posibles clientes a los que puede acceder. La lista proporciona una revisión rápida de la información, como el estado del posible cliente y la última actividad.
 
 ![Tabla de clientes potenciales que muestra el estado del posible cliente y la última actividad para la administración de clientes potenciales](./assets/prospects.png){width="800" zoomable="yes"}
 
-Haga clic en el icono _Filtrar_ ![Icono de filtro](../../assets/do-not-localize/icon_filter-outline.svg) para filtrar la lista mostrada por estado de posible cliente.
+### Crear su lista de clientes potenciales
+
+La lista de clientes potenciales combina personas de más de una fuente:
+
+* **Clientes potenciales con origen en CRM**: cuando conecta un CRM, importa automáticamente los posibles clientes que sean propiedad del usuario conectado. Consulte [Integraciones y CRM](#integrations-and-crm).
+* **Perspectivas importadas**: importe una lista de posibles clientes desde un archivo CSV.
+* **Clientes potenciales agregados manualmente**: agregue una persona individual directamente en la aplicación.
+
+Para agregar clientes potenciales que no provienen de su CRM:
+
+1. En la página **[!UICONTROL Clientes potenciales]**, seleccione **[!UICONTROL Agregar clientes potenciales]**.
+1. Elija **[!UICONTROL Importar CSV]** o **[!UICONTROL Agregar manualmente]**.
+
+   * Para una importación CSV, cargue el archivo y asigne sus columnas a los campos del cliente potencial.
+   * Para añadir a una persona manualmente, introduzca sus detalles en el formulario.
+
+1. Seleccione **[!UICONTROL Guardar]**.
+
+### Filtrado y búsqueda de clientes potenciales
+
+Seleccione el icono _Filtrar_ ![Icono de filtro](../../assets/do-not-localize/icon_filter-outline.svg) para reducir la lista. Puede filtrar por:
+
+* Estado del posible cliente
+* Puntuación de participación
+* Momentos interesantes marcados por marketing
+* Puntuación de estrellas y puntuación de llamas
+* Ofertas asociadas
+
+Los administradores también pueden hacer que los campos CRM asignados estén disponibles como filtros. En **[!UICONTROL Configuración de administración]**, activan **[!UICONTROL Filtrable]** para los campos que los representantes usan para encontrar clientes potenciales. Ver [Asignar campos CRM](#map-crm-fields-inbound-mapping).
+
+### Revisar detalles del cliente potencial
+
+Seleccione un cliente potencial para abrir su perfil. Revise las señales que importan antes de ponerse en contacto con:
+
+* **Lista de actividades**: una lista cronológica de las actividades del posible cliente, con un **resumen de actividad de IA** en la parte superior que resalta el comportamiento reciente más relevante.
+* **Vista de cronología**: una cronología visual de la participación en todos los canales.
+* **Contenido visualizado**: abra el contenido real que vio un cliente potencial, como una página web o un recurso, directamente desde una actividad.
+
+## Cuentas
+
+Seleccione **[!UICONTROL Cuentas]** en la sección de navegación izquierda para trabajar con las cuentas que vende en. El Cualificador de ventas aúna detalles firmográficos, canalización y participación para que pueda priorizar el alcance a nivel de cuenta.
+
+La descripción general de la cuenta resume aspectos básicos como ingresos, sector, tamaño de la empresa y sede central. Junto a estos detalles, aparece cada cuenta:
+
+* **Oportunidades de apertura**: las oportunidades de apertura asociadas con la cuenta, que provienen de su CRM conectado, para que pueda alinear el alcance con la canalización activa.
+* **Miembros con mayor participación**: los contactos de la cuenta con la participación más reciente para que sepa a quién priorizar dentro del grupo comprador.
+* **Entradas de CRM**: campos de cuenta, oportunidades e información de propietario aparecidos en su CRM conectado. Consulte [Integraciones y CRM](#integrations-and-crm) para ver cómo se asignan estos datos.
+
+### Análisis profundo de la cuenta
+
+Para comenzar una inmersión profunda, abra una cuenta. Account Qualification Agent (AQA) da prioridad a las señales que son más relevantes para la estrategia de venta de su organización, de modo que pueda comprender rápidamente cuál es la situación de la cuenta y decidir qué hacer a continuación.
 
 ## Flujos de trabajo salientes
 
@@ -106,7 +148,7 @@ Haga clic en el icono _Filtrar_ ![Icono de filtro](../../assets/do-not-localize/
 >
 >Los flujos de trabajo salientes creados por los administradores de productos se comparten con todos los usuarios de su organización.
 
-Un _flujo de trabajo saliente_ es la estructura que usa el calificador de ventas para ejecutar una secuencia de correo electrónico dirigida por objetivos. Usted define un objetivo de alcance y criterios de segmentación, y la IA propone una cadencia multitáctil y escribe contenido de correo electrónico personalizado para cada cliente potencial. Revise y apruebe cada correo electrónico antes de que la inscripción active la secuencia, de modo que los mensajes se envíen únicamente durante la ventana configurada.
+Un _flujo de trabajo saliente_ es la estructura que usa el calificador de ventas para ejecutar una cadencia guiada por objetivos. Usted define un objetivo de alcance y criterios de segmentación, y la IA propone una cadencia multitáctil y escribe contenido de correo electrónico personalizado para cada cliente potencial. Revise y apruebe cada correo electrónico antes de que la inscripción active la cadencia, de modo que los mensajes se envíen únicamente durante la ventana configurada.
 
 Un flujo de trabajo saliente conecta cuatro elementos:
 
@@ -125,7 +167,7 @@ El objetivo impulsa todo hacia abajo: la IA lo utiliza para sugerir filtros de d
 | --- | --- |
 | **Flujo de trabajo** | Una actividad saliente reutilizable definida por un objetivo, filtros de objetivo, cadencia y configuración. |
 | **Meta** | Lo que debe lograr el alcance. |
-| **Punto de contacto** | Un paso en la secuencia (correo electrónico, llamada de teléfono o LinkedIn In InMail), programado en relación con la inscripción. |
+| **Punto de contacto** | Un paso en la cadencia (correo electrónico, llamada de teléfono o LinkedIn In InMail), programado en relación con la inscripción. |
 | **Mensaje de Touchpoint** | Instrucciones que sigue la IA al generar el cuerpo y el asunto del correo electrónico para un cliente potencial: tono, longitud, enfoque y call to action. |
 | **Cadencia** | La secuencia completa de puntos de contacto: cuántos, en qué orden y en qué días. |
 | **Filtro de segmentación** | Condición que limita el flujo de trabajo a un subconjunto de posibles clientes. |
@@ -155,7 +197,7 @@ El objetivo es la entrada más importante: indica a la IA el aspecto del éxito 
 
 1. Haga clic en **[!UICONTROL Siguiente: Segmentación]**.
 
-Los objetivos funcionan mejor cuando establecen un **resultado concreto**, no solo un tema. Por ejemplo, `Book a 15-minute discovery call with marketing leaders evaluating campaign automation` da a la IA más trabajo con que `Promote campaign automation`.
+Los objetivos funcionan mejor cuando establecen un **resultado concreto**, no solo un tema. Para que la IA funcione mejor, use una meta como `Book a 15-minute discovery call with marketing leaders evaluating campaign automation` en lugar de `Promote campaign automation`.
 
 #### Paso 2: Configuración de los filtros de segmentación
 
@@ -179,7 +221,7 @@ Una vez establecido el objetivo, la IA crea la **_cadencia_**: analiza el objeti
 
 ![Mensajes y cadencia de punto de contacto generados por flujo de trabajo saliente](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"}
 
-Expanda un punto de contacto de correo electrónico para leer su solicitud. Esta instrucción guía a la inteligencia artificial aplicada al escribir el correo electrónico de cada posible cliente, incluido el tono, la longitud, el enfoque y _call to action_.
+Para leer su mensaje, expanda un punto de contacto de correo electrónico. Esta instrucción guía a la inteligencia artificial aplicada al escribir el correo electrónico de cada posible cliente, incluido el tono, la longitud, el enfoque y _call to action_.
 
 **Volver a generar la cadencia**
 
@@ -192,6 +234,10 @@ Si la cadencia no es la deseada, haga clic en **[!UICONTROL Volver a generar]** 
 La IA reescribe la cadencia completa en función de sus instrucciones.
 
 Para ajustar un solo punto de contacto de correo electrónico sin regenerar toda la cadencia, edite el texto del mensaje directamente en su área de texto.
+
+**Use un manual de instrucciones**
+
+Si su organización ha creado un manual de implementación en el [Centro de conocimiento](#knowledge-center), puede indicar a la IA que saque de él al escribir correos electrónicos. En la solicitud, asigne un nombre al documento y al contexto que desea que utilice la API; por ejemplo, `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. A continuación, los correos electrónicos generados reflejan los mensajes de ese manual de implementación.
 
 Cuando la cadencia y las indicaciones tengan el aspecto correcto, haga clic en **[!UICONTROL Siguiente: configuración]**.
 
@@ -206,9 +252,12 @@ El paso **Configuración** controla cómo se ejecuta el flujo de trabajo.
 1. Revise **[!UICONTROL Workflow name]** y cámbielo si desea una etiqueta más clara.
 1. En **[!UICONTROL Máximo de clientes potenciales por flujo de trabajo]**, confirme el límite superior de cuántos clientes potenciales puede administrar el flujo de trabajo a la vez.
 1. Establece la ventana de **[!UICONTROL envío]** para las horas en las que se permite enviar correos electrónicos salientes.
-1. Confirmar **[!UICONTROL Incluir vínculo de exclusión]** para que cada correo electrónico pueda incluir un vínculo de exclusión.
+1. Active **[!UICONTROL Omitir fines de semana]** para mover cualquier punto de contacto que caiga en un fin de semana al siguiente día laborable.
+1. Para detener automáticamente los puntos de contacto de seguimiento una vez que el posible cliente reserve una reunión, active **[!UICONTROL Pausa para reserva de reuniones]**.
 1. Confirme que la **[!UICONTROL zona horaria]** coincida con su audiencia.
 1. Haga clic en **[!UICONTROL Guardar y agregar clientes potenciales]**.
+
+Un administrador configura globalmente el pie de página de exclusión y se aplica a los correos electrónicos salientes independientemente de la configuración del flujo de trabajo. Consulte [Sincronización global de exclusión](#global-opt-out-sync).
 
 #### Paso 5: Añadir clientes potenciales e iniciar la generación de correo electrónico
 
@@ -224,7 +273,7 @@ Guardar abre la vista de selección de clientes potenciales, ya filtrada por la 
 1. Seleccione los clientes potenciales mediante las casillas de verificación.
 1. Haga clic en **[!UICONTROL Siguiente: revise los puntos de contacto]** para iniciar la generación de correo electrónico de **por cliente potencial**.
 
-La IA genera correos electrónicos personalizados para cada posible cliente seleccionado para **cada punto de contacto de correo electrónico** en la cadencia. Los puntos de contacto de Phone y LinkedIn In InMail permanecen en la secuencia como pasos programados. La generación se puede ejecutar en segundo plano: use **[!UICONTROL Notificar cuando esté listo]** si desea continuar con otro trabajo mientras se completa.
+La IA genera correos electrónicos personalizados para cada posible cliente seleccionado para **cada punto de contacto de correo electrónico** en la cadencia. Los puntos de contacto de Phone y LinkedIn In InMail permanecen en la cadencia como pasos programados. La generación se puede ejecutar en segundo plano: use **[!UICONTROL Notificar cuando esté listo]** si desea continuar con otro trabajo mientras se completa.
 
 Para cada cliente potencial, la IA combina cada mensaje de punto de contacto con datos específicos del cliente potencial (persona, cuenta, historial de participación, noticias recientes) para producir la línea de asunto y el cuerpo.
 
@@ -272,7 +321,7 @@ Para cambios más grandes (reestructurar, cambiar el énfasis o reformular el me
 
 >[!TIP]
 >
->Las ediciones directas se adecúan a la redacción y al tono. _[!UICONTROL Generar con IA]_ es mejor cuando de lo contrario volvería a escribir el correo electrónico desde cero.
+>Las ediciones directas se adecúan a la redacción y al tono. Use _[!UICONTROL Generar con IA]_ para reescribir el correo electrónico desde cero.
 
 ### Aprobar e inscribir clientes potenciales
 
@@ -297,6 +346,10 @@ En la página _[!UICONTROL Flujo de trabajo saliente]_, la pestaña **[!UICONTRO
 * **Hacer coincidir la herramienta de edición con el cambio.** Ediciones directas de redacción y tono; **[!UICONTROL Generar con IA]** para reestructurar o reenmarcar.
 * **Aprobar solo lo que ha revisado.** Amplíe los puntos de contacto, lea el contenido y perfeccione lo que necesite antes de inscribirse.
 
+### Sincronización de exclusión global
+
+Los administradores pueden anexar un pie de página de cancelación de suscripción de toque ligero que use expresiones [!DNL Marketo] preaprobadas a cada correo electrónico saliente. Cuando un cliente potencial selecciona el vínculo de no participación, el calificador de ventas suprime permanentemente al cliente potencial de más correos electrónicos y sincroniza el estado de no participación con el CRM conectado. Consulte [Configurar la exclusión de correo electrónico global](#configure-global-email-opt-out).
+
 ## Bandeja de salida de correo
 
 El panel Bandeja de salida de correo electrónico enumera todos los correos electrónicos automatizados que ha enviado.
@@ -320,7 +373,7 @@ You can interact with clients, and see summaries for the contact and the thread 
 
 El área _Tareas_ del Calificador de ventas proporciona a los Representantes de desarrollo de negocios (BDR) un espacio dedicado para administrar y procesar sus acciones de flujo de trabajo salientes. El motor de flujo de trabajo saliente genera automáticamente tareas que representan las acciones específicas que un BDR necesita realizar con cada posible cliente: llamadas telefónicas, InMails de LinkedIn y revisiones de correo electrónico.
 
-La experiencia de administración de tareas está diseñada como una **cola de procesamiento**, no solamente como una lista de tareas pendientes. Puede abrir una tarea, realizar acciones, marcarla como completada y pasar al siguiente sin salir de la página.
+La experiencia de administración de tareas es una **cola de procesamiento**, no una lista de tareas pendientes. Puede abrir una tarea, realizar acciones, marcarla como completada y pasar al siguiente sin salir de la página.
 
 Seleccione **[!UICONTROL Tareas]** en la barra de navegación izquierda para abrir la página de tareas completa. Esta página es el espacio de trabajo principal para procesar las tareas una por una.
 
@@ -334,9 +387,9 @@ Seleccione **[!UICONTROL Tareas]** en la barra de navegación izquierda para abr
 
 Todas las tareas están vinculadas a pasos de flujo de trabajo salientes. Existen tres tipos:
 
-**Llamada telefónica**: se crea cuando una secuencia de flujo de trabajo alcanza un paso de llamada telefónica. El panel de tareas muestra los puntos de paso generados por el agente y un campo de notas en línea para capturar notas de llamada.
+**Llamada telefónica**: se crea cuando una cadencia alcanza un paso de llamada telefónica. El panel de tareas muestra los puntos de paso generados por el agente y un campo de notas en línea para capturar notas de llamada.
 
-**LinkedIn In InMail**: se crea cuando una secuencia alcanza un paso de LinkedIn In InMail. El panel de tareas muestra contenido de InMail sugerido que puede copiar y enviar fuera del producto.
+**LinkedIn In InMail**: se crea cuando una cadencia alcanza un paso de LinkedIn In InMail. El panel de tareas muestra una línea de asunto y un cuerpo de mensaje generados por IA que puede copiar y enviar fuera del producto.
 
 **Revisión de correo electrónico**: creada una vez que el sistema termina de generar correos electrónicos personalizados para un cliente potencial inscrito en un flujo de trabajo. Revise y apruebe los mensajes de correo electrónico antes de que comience la salida para ese cliente potencial. Cada cliente potencial recibe una tarea de revisión de correo electrónico independiente; si inscribe a 10 clientes potenciales en un flujo de trabajo, verá hasta 10 tareas de revisión de correo electrónico a medida que se complete la generación.
 
@@ -345,7 +398,7 @@ Todas las tareas están vinculadas a pasos de flujo de trabajo salientes. Existe
 La página Tareas se divide en dos paneles:
 
 * **Izquierda — Lista de tareas:** Su cola de tareas, ordenadas y filtradas según la configuración de orden y vista seleccionada.
-* **Derecha — Panel de trabajo de la tarea:** Detalles de la tarea seleccionada, incluida la información del cliente potencial, el contexto del flujo de trabajo, el contenido específico de la tarea (puntos de presentación, copia sugerida, borradores de correo electrónico) y los controles de acción.
+* **Derecha — Panel de trabajo de la tarea:** Detalles de la tarea seleccionada, incluida la información del cliente potencial, el contexto del flujo de trabajo, el contenido específico de la tarea y los controles de acción.
 
 Al seleccionar cualquier tarea en el panel izquierdo, se cargan sus detalles en el panel derecho sin salir de la página.
 
@@ -366,23 +419,27 @@ Utilice las siguientes acciones para administrar sus tareas:
 * **[!UICONTROL Marcar como completada]** - La acción principal. Utilice esta acción después de ejecutar la tarea: realizar la llamada, enviar el mensaje de InMail o revisar y aprobar los mensajes de correo electrónico. Al finalizar, la tarea se registra como **Completada** y la cola avanza automáticamente.
 
 * **[!UICONTROL Omitir punto de contacto]**: disponible en el menú de desbordamiento del panel de trabajo. Utilice esta opción cuando no pueda completar este paso, pero el cliente potencial siga siendo un destino válido en el flujo de trabajo.
-   * El cliente potencial avanza al siguiente paso de la secuencia. Las tareas futuras se siguen generando según lo programado.
-   * Seleccione un motivo: *Información de contacto incorrecta*, *mal tiempo*, *Contenido no relevante* o *Otro* (con un campo de texto libre).
-   * El estado de la tarea se ha establecido en **Omitido** y se ha registrado con el motivo y la marca de tiempo.
-   * Si este fue el último paso del flujo de trabajo, finaliza la ejecución del flujo de trabajo del cliente potencial. La tarea sigue registrándose como Omitido (no eliminado).
+  * El cliente potencial avanza al siguiente paso de la cadencia. Las tareas futuras se siguen generando según lo programado.
+  * Seleccione un motivo: *Información de contacto incorrecta*, *mal tiempo*, *Contenido no relevante* o *Otro* (con un campo de texto libre).
+  * El estado de la tarea se ha establecido en **Omitido** y se ha registrado con el motivo y la marca de tiempo.
+  * Si este fue el último paso del flujo de trabajo, finaliza la ejecución del flujo de trabajo del cliente potencial. La tarea sigue registrándose como Omitido (no eliminado).
 
 * **[!UICONTROL Quitar del flujo de trabajo]** - Disponible en el menú de desbordamiento del panel de trabajo. Utilícelo cuando el cliente potencial ya no pertenezca a este flujo de trabajo.
 
   Cuando elimina un cliente potencial de un flujo de trabajo:
-   * Todas las tareas pendientes y futuras de ese cliente potencial dentro de este flujo de trabajo se cancelan.
-   * El estado de inscripción del cliente potencial cambia a **Eliminado por BDR**.
-   * Seleccione un motivo: *Se fue de la compañía*, *Duplicado*, *Ajuste incorrecto*, *Ya se ha convertido* o *Otro* (con un campo de texto).
-   * Aparece un cuadro de diálogo de confirmación: *&quot;Esta acción cancelará todos los puntos de contacto restantes para [Cliente potencial] en [Nombre de flujo de trabajo]. ¿Continuar?&quot;*
-   * El estado de la tarea se ha establecido en **Eliminada**. Todas las tareas del mismo nivel canceladas también están marcadas como **Eliminadas**.
+  * Todas las tareas pendientes y futuras de ese cliente potencial dentro de este flujo de trabajo se cancelan.
+  * El estado de inscripción del cliente potencial cambia a **Eliminado por BDR**.
+  * Seleccione un motivo: *Se fue de la compañía*, *Duplicado*, *Ajuste incorrecto*, *Ya se ha convertido* o *Otro* (con un campo de texto).
+  * Aparece un cuadro de diálogo de confirmación: *&quot;Esta acción cancelará todos los puntos de contacto restantes para [Cliente potencial] en [Nombre de flujo de trabajo]. ¿Continuar?&quot;*
+  * El estado de la tarea se ha establecido en **Eliminada**. Todas las tareas del mismo nivel canceladas también están marcadas como **Eliminadas**.
 
 >[!NOTE]
 >
->Los datos de omisión y eliminación de motivos informan a los análisis, incluida la tasa de omisión por canal, la tasa de eliminación por flujo de trabajo y los motivos principales. Esto ayuda a mejorar la calidad del flujo de trabajo e informa al análisis del rendimiento a lo largo del tiempo.
+>Los datos de omisión y eliminación de motivos informan a los análisis, incluidas las tasas de omisión de canales, las tasas de eliminación de flujos de trabajo y los motivos principales. Esto ayuda a mejorar la calidad del flujo de trabajo e informa al análisis del rendimiento a lo largo del tiempo.
+
+**Omisión automática**
+
+Las tareas estancadas de LinkedIn In InMail y llamadas telefónicas se omiten automáticamente si permanecen incompletas durante dos días. La omisión automática mantiene a un posible cliente en movimiento a través de la cadencia sin detener la ejecución y no afecta a la cronología del correo electrónico. Los puntos de contacto de correo electrónico programados siguen enviándose según lo planificado.
 
 ### Estado de tarea
 
@@ -462,17 +519,99 @@ La finalización de tareas no se limita a la página Tareas.
 * **Hoy sin tareas:** Verá un mensaje de _Se ha puesto al día con respecto al mensaje de hoy_. Si existen tareas próximas, aparece un mensaje como _Tiene [N] tareas próximas — ver_ próximas.
 * **Tareas vencidas presentes:** Un mensaje le recomienda que primero aborde las tareas vencidas.
 
-## Integraciones
+## Reserva de reuniones
 
-Con las integraciones, el cualificador de ventas puede utilizar su CRM para que el Account Qualification Agent (AQA) y los flujos de trabajo salientes compartan una vista coherente de los posibles clientes, las cuentas, los contactos, las actividades y los propietarios en Salesforce o Microsoft Dynamics 365. Las integraciones de CRM se conectan con acceso de **solo lectura** para que AQA pueda recuperar datos y actividades de ventas de CRM (por ejemplo, correos electrónicos, llamadas, tareas y citas) para enriquecer las perspectivas. Los datos CRM se utilizan para obtener perspectivas y eficacia operativa en la aplicación. No se utiliza para modificar los registros CRM a través de esta conexión.
+El Calificador de ventas convierte las conversaciones comprometidas en reuniones reservadas sin abandonar el flujo de salida. Al conectar el calendario, el Cualificador de ventas genera un vínculo de reserva personal que los posibles clientes utilizan para programar el tiempo con usted.
+
+* **Vínculos de reserva**: configura la conexión y disponibilidad del calendario en [Configuración del perfil](#profile-settings). El vínculo de reserva se puede añadir a la firma de correo electrónico para que aparezca en los correos electrónicos salientes.
+* **Inserción automática en una cadencia**: el Cualificador de ventas inserta el vínculo de reserva en puntos apropiados de una cadencia, de modo que la invitación a reunirse aparezca cuando sea más relevante. Puede anular la ubicación manualmente.
+* **Pausa para la reserva** - Cuando un cliente potencial reserva una reunión, **[!UICONTROL Pausa para la reserva de la reunión]** detiene automáticamente más seguimientos. Consulte [Configurar la configuración del flujo de trabajo](#step-4-configure-workflow-settings).
+
+Rastree los resultados de las reservas en la sección [Rendimiento](#performance).
+
+## Centro de información
+
+El _[!UICONTROL Centro de conocimientos]_ proporciona a Account Qualification Agent (AQA) acceso a sus propios materiales de ventas, para que el Calificador de ventas pueda generar investigaciones, perspectivas de calificación y alcance que reflejen las ventas de su organización. Crear y administrar el manual es una tarea de administrador.
+
+![Centro de conocimientos](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
+
+### Cargar material promocional de ventas
+
+1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración]** y seleccione **[!UICONTROL Configuración de administración]**.
+1. Seleccione **[!UICONTROL Centro de conocimiento]** en **[!UICONTROL Integraciones]**.
+1. Establezca **[!UICONTROL Nombre de la compañía]** y **[!UICONTROL URL de la compañía]** que el calificador de ventas usa para investigar su compañía y redactar correos electrónicos.
+1. Cargar reproducciones de ventas, perfiles de cliente (ICP) ideales, guías de posicionamiento y otros materiales de promoción de ventas en formato PDF, PPTX o DOCX.
+
+Cada documento cargado muestra su estado de procesamiento, como **[!UICONTROL Listo]**, y la última vez que se actualizó.
+
+### Creación de un manual
+
+Después de cargar los documentos, selecciona **[!UICONTROL Crear libro de estrategias]** para convertirlos en un libro de estrategias.
+
+>[!NOTE]
+>
+>Un libro de estrategias tarda unas 24 horas en procesarse antes de estar listo para usarse.
+
+Cuando el manual está listo, alimenta tanto el alcance como la asistencia:
+
+* **Mensajes de correo electrónico salientes**: consulte el manual de implementación al generar mensajes de correo electrónico nombrando el documento y el contexto en el mensaje. Consulte [Generar y revisar puntos de contacto](#step-3-generate-and-review-touchpoints).
+* **Asistente de ventas para la conversación** - Para extraer del manual, diríjase al asistente al Centro de conocimientos. Consulte [Asistente de ventas para conversaciones](#conversational-sales-assistant).
+
+## Asistente de ventas conversacional
+
+El Asistente de ventas conversacional es una experiencia de chat en la que realiza preguntas en lenguaje natural y obtiene respuestas basadas en su contexto de ventas. El asistente se basa en:
+
+* Su base de conocimientos interna, incluido cualquier manual del [Centro de conocimientos](#knowledge-center)
+* Señales CRM de su CRM conectado
+* [!DNL Marketo] datos de actividad y participación
+* Investigación web
+
+Utilice el asistente para prepararse antes de la divulgación; por ejemplo, para crear una posición de la cuenta antes de una reunión. Para extraer de un manual creado, diríjase al asistente al Centro de conocimientos en su pregunta. Por ejemplo: `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
+
+## Desempeño
+
+La sección **[!UICONTROL Rendimiento]** muestra el rendimiento de tu salida, para que puedas ver qué está funcionando y dónde ajustarlo.
+
+### Rendimiento del correo electrónico
+
+Revise el volumen y la eficacia del correo electrónico saliente:
+
+* Correos electrónicos enviados
+* Tasa de apertura
+* Tasa de pulsaciones
+* Tasa de respuesta
+
+El cualificador de ventas identifica las respuestas y devoluciones fuera de la oficina con sus estados correspondientes, para que pueda distinguirlas de las participaciones potenciales.
+
+### Rendimiento de reservas de reuniones
+
+Las tarjetas de estado de reserva de reuniones resumen el lugar de las reuniones reservadas. Filtre las tarjetas para centrarse en las reuniones y los estados que desee revisar.
+
+## Integraciones y CRM
+
+Con las integraciones, el cualificador de ventas se conecta a su CRM para que el Account Qualification Agent (AQA) y los flujos de trabajo salientes compartan una vista coherente de los posibles clientes, las cuentas, los contactos, las actividades y los propietarios en Salesforce o Microsoft Dynamics 365. El calificador de ventas lee los datos y las actividades de ventas de CRM para enriquecer las perspectivas y puede escribir las actividades de alcance registradas y el estado de exclusión. De lo contrario, no modifica los registros CRM a través de esta conexión.
+
+Las conexiones CRM, la asignación de campos entrantes y la sincronización de actividades las configura un administrador en **[!UICONTROL Administración]** > **[!UICONTROL Configuración de administración]** > **[!UICONTROL Conexiones CRM]**. Los usuarios estándar consumen los datos y filtros de CRM configurados, pero no pueden cambiar esta configuración.
+
+### CRM MCP y el complemento incrustado
+
+El Cualificador de ventas trabaja con su CRM de más de una manera:
+
+* **Consulta de datos de CRM a través del MCP de CRM**: Account Qualification Agent consulta datos de CRM activos a través del MCP de CRM, de modo que las respuestas y perspectivas reflejen el estado actual de sus registros.
+* **Complemento incrustado**: el complemento de CRM incrustado muestra información básica de [!DNL Marketo Sales Insights] (MSI) junto con los nuevos datos reales, directamente en su CRM. Desde el complemento, agregue un cliente potencial al Calificador de ventas con un solo clic.
+* **Sincronización de actividades**: cuando un administrador habilita **[!UICONTROL Sincronización de actividades]**, las actividades de alcance se sincronizan con el CRM, de modo que los representantes vean la actividad del Calificador de ventas en las herramientas que ya usan.
 
 >[!IMPORTANT]
 >
->El acceso a las integraciones en el Calificador de ventas requiere la pertenencia de `Sales Qualifier Admins` al grupo de usuarios.
+>El acceso a **[!UICONTROL Configuración de administración]** requiere la pertenencia a los grupos de usuarios `Sales Qualifier` y `Sales Qualifier Admins`.
 
 ### Ámbito de acceso CRM
 
-La conexión de CRM es **_de solo lectura_**. Las entidades habituales utilizadas incluyen usuarios, contactos, asignaciones de propietarios, posibles clientes, cuentas, oportunidades y actividades. El administrador de CRM prepara el acceso a la API en Salesforce o Dynamics. A continuación, conecte el cualificador de ventas y asigne los campos de entrada en la aplicación.
+El cualificador de ventas lee las entidades CRM que necesita y solo puede escribir un conjunto definido de datos. Las entidades habituales que se leen incluyen usuarios, contactos, asignaciones de propietarios, posibles clientes, cuentas, oportunidades y actividades. La reescritura se limita a las actividades de divulgación registradas y al estado de exclusión. El administrador de CRM prepara el acceso a la API en Salesforce o Dynamics. A continuación, conecte el cualificador de ventas, asigne los campos de entrada y elija si desea sincronizar las actividades en la aplicación.
+
+>[!NOTE]
+>
+>Los pasos de credenciales que siguen describen el acceso de lectura a los objetos CRM. Si habilita la sincronización de actividades o la reescritura de exclusión, trabaje con su administrador de CRM para conceder el acceso de escritura correspondiente requerido por su configuración de CRM.
 
 ### Preparar credenciales en su CRM
 
@@ -488,7 +627,7 @@ Póngase en contacto con el administrador de CRM antes de conectar el cualificad
 
 1. Cree un usuario de aplicación vinculado a esa aplicación de Azure AD.
 
-1. Asigne una función de seguridad que conceda a **read** acceso a las necesidades del calificador de ventas de las entidades (por ejemplo, posibles clientes, contactos, cuentas, oportunidades y actividades).
+1. Asigne una función de seguridad que conceda a **read** acceso a las necesidades del calificador de ventas de las entidades, como posibles clientes, contactos, cuentas, oportunidades y actividades.
 
    La aplicación requiere una función de seguridad con acceso de lectura para leer datos.
 
@@ -501,7 +640,7 @@ Póngase en contacto con el administrador de CRM antes de conectar el cualificad
 
 #### Salesforce
 
-En Salesforce, [cree una aplicación cliente externa](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm&type=5) (o una _aplicación conectada_) con OAuth habilitado y ámbitos que permitan el acceso de API a la identidad y los datos, siguiendo los estándares de seguridad de su organización. El usuario que realiza la integración (por ejemplo, al utilizar una configuración de estilo de credenciales de cliente) debe tener acceso de lectura a objetos como posibles clientes, cuentas, contactos, tareas, eventos, oportunidades y objetos de oportunidad relacionados. Las tareas administrativas a menudo requieren que un usuario con **[!UICONTROL Administrar aplicaciones conectadas]** (entre otros permisos) vea una clave de consumidor y un secreto después de la creación.
+En Salesforce, [cree una aplicación cliente externa](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm&type=5) (o una _aplicación conectada_) con OAuth habilitado y ámbitos que permitan el acceso de API a la identidad y los datos, siguiendo los estándares de seguridad de su organización. El usuario que realiza la integración debe tener acceso de lectura a objetos como posibles clientes, cuentas, contactos, tareas, eventos y oportunidades. Las tareas administrativas a menudo requieren que un usuario con **[!UICONTROL Administrar aplicaciones conectadas]** (entre otros permisos) vea una clave de consumidor y un secreto después de la creación.
 
 >[!PREREQUISITES]
 >
@@ -512,7 +651,7 @@ En Salesforce, [cree una aplicación cliente externa](https://help.salesforce.co
 >* Modificar todos los datos
 >* Administrar aplicaciones conectadas (importante)
 >
->   Si _Administrar aplicaciones conectadas_ no está habilitada, es posible que no pueda ver el ID de cliente y el secreto de cliente después de crear la aplicación cliente externa.
+>   Si _Administrar aplicaciones conectadas_ no está habilitada, no podrá ver el ID de cliente y el secreto de cliente después de crear la aplicación cliente externa.
 
 Cuando cree la aplicación cliente externa, habilite OAuth y conceda permisos. Habilite también las siguientes credenciales de cliente:
 
@@ -548,17 +687,19 @@ Asegúrese de que el usuario configurado tenga acceso de lectura a los siguiente
 
 1. Inicie sesión en el cualificador de ventas y confirme que la zona protegida o el entorno correctos están seleccionados.
 
-1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración]** y seleccione **[!UICONTROL Integraciones]**.
+1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración]** y seleccione **[!UICONTROL Configuración de administración]**.
 
-   La página muestra tarjetas para Salesforce y Microsoft Dynamics.
+1. Seleccione **[!UICONTROL conexiones CRM]** en **[!UICONTROL Integraciones]**.
 
-   ![Página de integraciones con tarjetas de conexión de Salesforce y Dynamics](./assets/integrations-crm-connections.png){width="800" zoomable="yes"}
+   La página muestra tarjetas para Salesforce y Microsoft Dynamics. Una conexión inactiva muestra **[!UICONTROL Connect]**. Una conexión configurada muestra **[!UICONTROL Conectado]** y una acción **[!UICONTROL Administrar]**.
+
+   ![Configuración de administración y conexiones CRM con tarjetas de conexión de Salesforce y Dynamics](./assets/integrations-crm-connections.png){width="800" zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Conectar]** para el CRM que utilice.
 
 1. Introduzca el ID de cliente, los secretos, los valores de inquilino o devolución de llamada y la **URL de instancia** de su administrador de CRM.
 
-1. Después de una conexión correcta, la tarjeta muestra **[!UICONTROL Conectado]**.
+1. Después de una conexión correcta, confirma que la tarjeta muestra **[!UICONTROL Conectado]**.
 
 ### Directrices de URL de instancia
 
@@ -580,17 +721,40 @@ La **URL de instancia** debe ser la URL base de entorno que su CRM use para la c
 
 ### Asignar campos CRM (asignación de entrada)
 
-Una vez conectado el CRM, abra **[!UICONTROL Administrar]** en la integración para que funcione con **[!UICONTROL asignación de entrada de CRM]**.
+Una vez conectado el CRM, seleccione **[!UICONTROL Administrar]** para la conexión y abra **[!UICONTROL Asignación entrante]**. La asignación de entrada controla qué campos CRM extrae el cualificador de ventas en la aplicación.
 
-1. Haga clic en **[!UICONTROL Agregar sección]** e introduzca un nombre, una descripción opcional y un tipo de entidad (por ejemplo, cliente prospecto).
+1. Seleccione un grupo de objetos: **[!UICONTROL Contacto]**, **[!UICONTROL Cliente potencial]** o **[!UICONTROL Cuenta]**.
+1. Seleccione **[!UICONTROL Agregar sección]** e introduzca un nombre de sección y una descripción opcional.
+1. Agregue los campos CRM a la sección.
 
-1. Seleccione los campos CRM que desea importar, previsualice la asignación y guarde.
+   Cada fila de campo muestra su **[!UICONTROL nombre para mostrar]**, **[!UICONTROL nombre de campo]** y **[!UICONTROL tipo de datos]**.
 
-   La sección aparece en la pestaña de asignación de entrada.
+1. Active **[!UICONTROL Filtrable]** para cada campo que deba estar disponible como filtro en la lista **[!UICONTROL Posibles clientes]**.
+1. Obtenga una vista previa de la asignación y guárdela.
 
-1. Los campos de clientes potenciales asignados aparecen en la ficha **[!UICONTROL Persona]** para los clientes potenciales:
-   * Campos de cuenta en la vista de cuentas.
-   * Campos relacionados con la oportunidad en las áreas de oportunidad de la experiencia de la cuenta.
+Los campos asignados aparecen en las áreas correspondientes del cualificador de ventas:
+
+* Los campos Cliente potencial y Contacto aparecen en la ficha **[!UICONTROL Persona]** para los clientes potenciales.
+* Los campos de cuenta aparecen en la vista de cuentas.
+* Los campos relacionados con la oportunidad aparecen en las áreas de oportunidad de la experiencia de la cuenta.
+
+### Configuración de la sincronización de actividades (asignación saliente)
+
+1. De **[!UICONTROL conexiones CRM]**, seleccione **[!UICONTROL Administrar]** para el CRM conectado.
+1. Abrir **[!UICONTROL asignación saliente]**.
+1. Active **[!UICONTROL Sincronización de actividades]** para sincronizar las actividades de alcance del Calificador de ventas con el CRM.
+
+Cuando la sincronización de actividades está desactivada, el cualificador de ventas puede seguir utilizando datos CRM entrantes, pero no vuelve a escribir las actividades de divulgación en el CRM.
+
+### Configuración de la exclusión de correo electrónico global
+
+1. En el panel de navegación izquierdo, expanda **[!UICONTROL Administración]** y seleccione **[!UICONTROL Configuración de administración]**.
+1. Seleccione **[!UICONTROL Configuración de correo electrónico]** en **[!UICONTROL Cumplimiento]**.
+1. Active **[!UICONTROL Incluir vínculo de no participación en cada correo electrónico]** para anexar un pie de página de cancelación de suscripción a los correos electrónicos salientes.
+1. En **[!UICONTROL Plantilla de mensaje de exclusión]**, escriba el texto del pie de página. Incluya el token `{{opt_out_link}}` donde debería aparecer el vínculo de cancelación de suscripción al que se puede hacer clic.
+1. Guarde la configuración.
+
+Cuando un cliente potencial selecciona el enlace, el Cualificador de ventas suprime permanentemente al cliente potencial de más correos electrónicos. El estado de exclusión también se sincroniza con el CRM conectado.
 
 ### Referencia: Parámetros de API de muestra
 
@@ -617,15 +781,9 @@ WHERE OwnerId = '<crmUserId>' AND IsDeleted = false
 ORDER BY LastModifiedDate DESC
 ```
 
-### Centro de información
-
-El _[!UICONTROL Centro de conocimientos]_ proporciona acceso de control de calidad a los documentos de los clientes y a los conocimientos vinculados para que el calificador de ventas pueda generar mejores perspectivas de investigación y calificación utilizando sus propios materiales. Cargue el contenido y los recursos informativos que desee utilizar para generar correos electrónicos.
-
-![Integraciones - Centro de conocimientos](./assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
-
 ## Configuración de perfil
 
-La configuración de perfil especifica información sobre usted, incluidos sus detalles personales, la configuración de correo electrónico y calendario y la disponibilidad del chat.
+La configuración del perfil especifica información sobre usted, incluidos sus datos personales, el correo electrónico, el calendario y la disponibilidad del chat.
 
 ### Configuración de correo electrónico
 
@@ -635,7 +793,7 @@ En la pestaña **[!UICONTROL Configuración de correo electrónico]**, configure
 
 * **[!UICONTROL Conexiones de correo electrónico]** - Haga clic en **[!UICONTROL Conectar]** y siga el procedimiento de inicio de sesión de Microsoft.
 
-* **[!UICONTROL Firma de correo electrónico]**: configure la firma de correo electrónico que se usa en los correos electrónicos generados automáticamente.
+* **[!UICONTROL Firma de correo electrónico]**: configure la firma de correo electrónico que se usa en los correos electrónicos generados automáticamente. Agregue su vínculo [reserva de reuniones](#meeting-booking) a la firma para que los posibles clientes puedan programar su hora con usted.
 
 ### Configuración del calendario
 
@@ -669,7 +827,7 @@ El calificador de ventas lee el estado de disponibilidad del calendario conectad
 Puede configurar lo siguiente:
 
 * Horas laborables por día de la semana
-* Varios bloques al día (por ejemplo: 9:00-12:00 y 1:00-5:00)
+* Varios bloques al día (por ejemplo, de 9:00 a 12:00 y de 1:00 a 5:00)
 * Su huso horario
 * Duración de la reunión
 * Búfer antes/después de las reuniones
