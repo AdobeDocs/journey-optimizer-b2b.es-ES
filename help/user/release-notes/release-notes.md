@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
+source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
 workflow-type: tm+mt
-source-wordcount: 5349
+source-wordcount: 5351
 ht-degree: 64%
 
 ---
@@ -41,7 +41,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Función | _Dividir ruta_ nodos de recorrido: variantes | (Beta) Los especialistas en marketing ahora pueden probar las variaciones dentro de un recorrido asignando cuentas o personas a diferentes rutas de recorrido en función de porcentajes definidos. [Más información](../journeys/variant-split-paths-nodes.md) |
 | Mejora | _Escuchar un evento_ nodos de recorrido | En los recorridos personales, los nodos del oyente de eventos ahora se pueden configurar con varios eventos en déclencheur. El primer evento clasificatorio avanza el récord en el recorrido. (Compatibilidad planificada en los recorridos de cuenta para la próxima versión). [Más información](../journeys/listen-for-event-nodes.md#person-journeys) |
 | Mejora | _Escuchar un evento_ nodos de recorrido | La ficha _[!UICONTROL Filtros]_ para eventos de personas/personas ha cambiado de un solo selector de acciones a una interfaz de generador de reglas. Esto proporciona compatibilidad con varias configuraciones de actividad mediante Eventos de experiencia configurados. [Más información](../journeys/listen-for-event-nodes.md#filters-people-event) |
-| Mejora | _Realizar una acción_ nodos de recorrido | Ya hay disponibles acciones adicionales para el contexto de personas del recorrido de cuenta y desde un recorrido de persona: _Agregar al recorrido de persona_ y _Quitar del recorrido de persona_. |
+| Mejora | _Realizar una acción_ nodos de recorrido | Ya hay disponibles acciones adicionales para el contexto de personas del recorrido de cuenta y desde un recorrido de persona: _Agregar al recorrido de persona_ y _Quitar del recorrido de persona_. [Más información](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >

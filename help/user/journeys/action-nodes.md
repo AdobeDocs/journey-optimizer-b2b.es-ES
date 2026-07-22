@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
 workflow-type: tm+mt
-source-wordcount: 2031
+source-wordcount: 2190
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Para ejecutar una acción, como enviar un correo electrónico, cambiar una puntu
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
-## Acciones de cuenta
+## Acciones de cuenta {#account-actions}
 
 En un recorrido de cuentas, utilice una acción en las cuentas cuando desee aplicar un cambio a todas las personas que formen parte de cuentas en la ruta del nodo.
 
@@ -53,7 +53,7 @@ En un recorrido de cuentas, utilice una acción en las cuentas cuando desee apli
 >
 >La acción _[!UICONTROL Valor de datos de cambio de cuenta]_ está obsoleta para la versión 2025.10. _[!UICONTROL Actualizar perfil de cuenta]_ reemplaza esta acción en Journey Optimizer B2B edition.<br/>
 >
->Un administrador puede configurar los atributos disponibles para la cuenta empresarial de XDM actualizando los campos en las _[!UICONTROL configuraciones de XDM]_ > _[!UICONTROL clases estándar]_. Para obtener más información, vea [Clases estándar](../admin/xdm-field-management.md#standard-classes).
+>Un administrador puede configurar los atributos disponibles para la cuenta empresarial de XDM actualizando los campos en las _[!UICONTROL configuraciones de XDM]_ > _[!UICONTROL clases estándar]_. Para obtener más información, vea [Esquemas estándar](../admin/xdm-field-management.md#standard-schemas).
 
 ### Añadir una acción basada en cuentas
 
@@ -73,13 +73,11 @@ En un recorrido de cuentas, utilice una acción en las cuentas cuando desee apli
 
 ### Activar en un destino de LinkedIn
 
-Use la acción _Activar en destino_ para que las cuentas activen cuentas en destinos de Experience Platform directamente desde su recorrido. Esta acción le permite insertar cuentas cualificadas (según los filtros de grupo de compra, las puntuaciones de participación y otros criterios) en audiencias coincidentes en destinos admitidos. It
+Use la acción _Activar en destino_ para activar cuentas en destinos de Experience Platform directamente desde su recorrido. Esta acción le permite insertar cuentas cualificadas (según los filtros de grupo de compra, las puntuaciones de participación y otros criterios) en audiencias coincidentes en destinos admitidos.
 
 A partir de la versión 2025.10, **_LinkedIn_** es el primer tipo de destino admitido. Utilice la acción para un destino de LinkedIn para optimizar la ejecución de la campaña eliminando los traslados de varios sistemas y reduciendo la latencia. Por ejemplo, como experto en marketing, puede activar automáticamente cuentas de alta intención en LinkedIn para volver a segmentar cuando falten funciones de compra clave o volver a activar cuentas inactivas basadas en filtros de inactividad.
 
 Para obtener más información sobre el uso de audiencias coincidentes con la cuenta para un destino de LinkedIn, consulte [Audiencias coincidentes con la cuenta de LinkedIn](../data/linkedin-account-matched-audiences.md).
-
-+++ Establecer la activación de cuentas en un destino de LinkedIn
 
 1. Con el nodo _Realizar una acción_ seleccionado en el lienzo de recorrido, establezca **[!UICONTROL Acción en las cuentas]** en **[!UICONTROL Activar en destino]**.
 
@@ -89,17 +87,15 @@ Para obtener más información sobre el uso de audiencias coincidentes con la cu
 
 1. En el cuadro de diálogo, seleccione el destino configurado de LinkedIn y haga clic en **[!UICONTROL Guardar]**.
 
-![nodo de Recorrido - realizar una acción en las cuentas - activar en destino - seleccionar cuadro de diálogo de destino](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+   ![nodo de Recorrido - realizar una acción en las cuentas - activar en destino - seleccionar cuadro de diálogo de destino](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
 1. Escriba el **[!UICONTROL nombre de audiencia]** que se usa para identificar la audiencia activada en el destino.
 
    ![nodo de Recorrido - realizar una acción en las cuentas - activar en destino - configuración completada](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
-+++
-
 >[!ENDSHADEBOX]
 
-## Acciones de personas
+## Acciones de personas {#people-actions}
 
 En un recorrido de cuenta o persona, utilice una acción para las personas cuando desee aplicar un cambio a todas las personas de la ruta del nodo. Para un recorrido de cuenta, puede usar este tipo de nodo dentro de la _ruta dividida por personas_ o _ruta dividida por cuentas_.
 
@@ -107,7 +103,8 @@ En un recorrido de cuenta o persona, utilice una acción para las personas cuand
 
 | Contexto | Acción | tipo de recorrido | Restricciones |
 | ------- | ------ | ------------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Agregar a la audiencia de cliente externa] | <li>Recorrido de cuenta <li>Recorrido de la persona | <li>Seleccionar el público externo del cliente |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Agregar persona a (otro) recorrido] | <li>Recorrido de cuenta (acción en personas) <li>Recorrido de la persona | <li>Seleccionar recorrido de persona en directo |
+| | [!UICONTROL Agregar a la audiencia de cliente externa] | <li>Recorrido de cuenta <li>Recorrido de la persona | <li>Seleccionar el público externo del cliente |
 | | [!UICONTROL Asignar a grupo de compra] | <li>Recorrido de cuenta | <li>Seleccionar interés de la solución <li>Seleccionar función |
 | | [!UICONTROL Cambiar puntuación] | <li>Recorrido de cuenta | <li>Nombre del puntaje <li>Cambio en la puntuación |
 | | [!UICONTROL Momento interesante para la persona] | <li>Recorrido de cuenta <li>Recorrido de la persona | <li>Tipo <li>Descripción |
@@ -133,15 +130,25 @@ En un recorrido de cuenta o persona, utilice una acción para las personas cuand
 
 1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **[!UICONTROL Realizar una acción]**.
 
-1. En las propiedades del nodo a la derecha, elija **[!UICONTROL Personas]** para la acción.
+1. (_Solo recorridos de cuenta_) En las propiedades del nodo a la derecha, elija **[!UICONTROL Personas]** para el contexto de acción.
 
 1. Seleccione una acción de la lista y defina los valores que desee para la acción.
 
-![nodo de Recorrido: realice una acción con personas](./assets/node-take-action-people.png){width="700" zoomable="yes"}
+   ![nodo de Recorrido: realice una acción con personas](./assets/node-take-action-people.png){width="700" zoomable="yes"}
 
 ### Acciones B2B de Journey Optimizer
 
 Las acciones basadas en personas de Journey Optimizer B2B están diseñadas para administrar las comunicaciones a través de los canales configurados y administrar la categorización de personas dentro de los grupos y cuentas de compra. El recorrido aplica la acción cuando una cuenta correspondiente con perfiles de persona llega al nodo.
+
++++[!UICONTROL Agregar persona a (otro) Recorrido]
+
+Utilice esta acción para añadir un perfil de persona a un recorrido de persona activa. Cuando una persona entra en el nodo de acción, el sistema la añade como miembro de audiencia para el recorrido de persona especificado.
+
+Utilice el selector **[!UICONTROL Seleccionar Recorrido de persona activo]** para especificar el recorrido de persona donde desea agregar el perfil de persona. Puede introducir texto en el campo para filtrar la lista.
+
+![Realizar una acción - Agregar persona a (otro) Recorrido](./assets/node-action-add-to-person-journey.png){width="300"}
+
++++
 
 +++[!UICONTROL Agregar a la audiencia de cliente externa]
 
@@ -232,9 +239,19 @@ Utilice esta acción para quitar perfiles de personas de un [grupo de compra](..
 
 +++
 
++++[!UICONTROL Quitar persona del Recorrido]
+
+Utilice esta acción para eliminar un perfil de persona de un recorrido de personas. Cuando una persona entra en el nodo de acción, el sistema la elimina como miembro de la audiencia para el recorrido de persona especificado.
+
+Utilice el selector **[!UICONTROL Seleccionar Recorrido de persona]** para especificar el recorrido de persona donde desea quitar el perfil de persona. Puede introducir texto en el campo para filtrar la lista.
+
+![Realizar una acción - Quitar persona del Recorrido](./assets/node-action-remove-from-person-journey.png){width="300"}
+
++++
+
 +++[!UICONTROL Enviar correo electrónico]
 
-Utilice esta acción para enviar un correo electrónico. Después de [crear el correo electrónico](../content/add-email.md#add-an-email-to-your-journey) para el nodo, puede diseñar, personalizar y previsualizar mensajes de correo electrónico en el espacio de diseño de correo electrónico (consulte [Creación de correo electrónico](../content/email-authoring.md)). También puedes enviar un [correo electrónico desde Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleccione el espacio de trabajo de Marketo Engage y, a continuación, el correo electrónico que desea enviar.
+Utilice esta acción para enviar un correo electrónico. Después de [crear el correo electrónico](../content/add-email.md#add-an-email-action-node-in-a-journey) para el nodo, puede diseñar, personalizar y previsualizar mensajes de correo electrónico en el espacio de diseño de correo electrónico (consulte [Creación de correo electrónico](../content/email-authoring.md)). También puedes enviar un [correo electrónico desde Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleccione el espacio de trabajo de Marketo Engage y, a continuación, el correo electrónico que desea enviar.
 
 ![Realizar una acción - Enviar correo electrónico](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -256,7 +273,7 @@ Utilice esta acción para enviar un mensaje SMS. Puede crear, personalizar y pre
 
 +++[!UICONTROL Enviar WhatsApp]
 
-Utiliza esta acción para enviar un mensaje de WhatsApp. Puedes crear, personalizar y previsualizar mensajes de WhatsApp en el espacio de diseño visual (ver [Creación de WhatsApp](../content/whatsapp-authoring.md).
+Utiliza esta acción para enviar un mensaje de WhatsApp. Puede crear, personalizar y previsualizar mensajes de WhatsApp en el espacio de diseño visual (consulte [Creación de WhatsApp](../content/whatsapp-authoring.md)).
 
 ![Realizar una acción - Enviar WhatsApp](./assets/node-action-send-whatsapp.png){width="300"}
 
@@ -272,7 +289,7 @@ Utilice esta acción para cambiar el valor de un atributo de perfil de [personas
 >
 >El _[!UICONTROL perfil de persona de actualización]_ reemplaza la acción _[!UICONTROL Cambiar valor de datos]_ de la versión actual de Journey Optimizer B2B edition.<br/>
 >
->Un administrador puede configurar los atributos disponibles para el perfil individual de XDM actualizando los campos en las _[!UICONTROL configuraciones de XDM]_ > [!UICONTROL clases estándar]. Para obtener más información, vea [Clases estándar](../admin/xdm-field-management.md#standard-classes).
+>Un administrador puede configurar los atributos disponibles para el perfil individual de XDM actualizando los campos en las _[!UICONTROL configuraciones de XDM]_ > [!UICONTROL clases estándar]. Para obtener más información, vea [Esquemas estándar](../admin/xdm-field-management.md#standard-schemas).
 
 +++
 
