@@ -1,22 +1,16 @@
 ---
 title: Realizar un nodo de acción
-description: Marcador de posición
+description: Configure un nodo Realizar una acción en Journey Optimizer B2B edition Prime para agregar, quitar o actualizar personas, listas, programas y destinos, o para enviar mensajes, cuando lleguen al nodo en un recorrido de persona.
 autotag-review: '2026-06-12T22:58:21.806Z'
 TQID: 'https://experienceleague.adobe.com/uR-WvNz3gA6V7yyN3RRXH-MggrmGb1qvu1CBhMZRuAc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 2%
+source-wordcount: 1125
+ht-degree: 1%
 
 ---
 
@@ -28,7 +22,7 @@ En el recorrido de una persona, utilice una acción para las personas cuando des
 
 | Acción | Restricciones |
 | ------ | ----------- |
-| **[!UICONTROL Activar en destino]** | <li>Seleccionar o crear una lista estática <li>Si la lista no tiene un destino activado, active la lista |
+| **[!UICONTROL Activar en destino]** | <li>Seleccionar o crear una lista estática <li>Si la lista no tiene un destino activado, active la lista a uno o más destinos |
 | **[!UICONTROL Agregar persona al Recorrido]** | <li>Seleccionar un recorrido programado o activo <li>No se aplican los criterios de audiencia del recorrido de destinatario |
 | **[!UICONTROL Agregar A La Lista]** | <li>Cree una nueva lista estática o seleccione una existente |
 | **[!UICONTROL Agregar a la lista de Marketo]** | <li>Seleccione una lista estática en Marketo Engage |
@@ -54,15 +48,44 @@ En el recorrido de una persona, utilice una acción para las personas cuando des
 
 +++Activar en destino
 
-Utilice esta acción para activar personas en destinos de Experience Platform directamente desde el recorrido. Seleccione el destino e introduzca un nombre de audiencia para identificar la audiencia activada en el destino.
+Utilice esta acción para agregar personas a una lista estática y activar esa lista en un destino directamente desde el recorrido. Puede utilizar una lista estática existente o crear una específica para el recorrido.
+
+>[!PREREQUISITES]
+>
+>Debe tener uno o más [destinos configurados](../audiences/destinations.md) para la zona protegida [!DNL Journey Optimizer B2B Prime] antes de configurar un nodo de recorrido _Activar en destino_.
 
 ![Realizar una acción - Activar en destino](./assets/person-action-node-activate-to-destination.png){width="450"}
+
+En **[!UICONTROL Agregar a la lista]**, elija una de las siguientes opciones:
+
+* **[!UICONTROL Crear]**: cree una nueva lista estática y agréguele personas. La lista está disponible inmediatamente en **[!UICONTROL Listas de personas]**.
+
+  Seleccione un programa principal de la lista y escriba un **[!UICONTROL Nombre]** (obligatorio) y una **[!UICONTROL Descripción]** (opcional). Haga clic en **[!UICONTROL Crear]** para agregar la nueva lista para el nodo.
+
+  ![Crear una lista estática para usar en el nodo de recorrido](./assets/person-action-node-destination-create-list.png){width="375"}
+
+* **[!UICONTROL Seleccionar]**: seleccione una lista estática existente en la que desee agregar personas que lleguen al nodo.
+
+  Seleccione la casilla de verificación de la lista estática existente y haga clic en **[!UICONTROL Guardar]**.
+
+  ![Seleccione una lista estática para usar en el nodo de recorrido](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
+
+Cualquier persona que llegue al nodo se agregará a la lista estática seleccionada, pero la acción no se completará hasta que se active la lista en un destino:
+
+* Si la lista seleccionada ya está activada, sus destinos aparecerán en **[!UICONTROL Destinos]** y la acción estará lista.
+* De lo contrario, aparecerá un mensaje _Se requiere al menos un destino_. Haga clic en **[!UICONTROL Activar lista en destino]**, seleccione el destino y haga clic en **[!UICONTROL Guardar]**. Haga clic en **[!UICONTROL Activar]** en el cuadro de diálogo de confirmación.
+
+![Destinos configurados disponibles para la activación](../audiences/assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+
+Cuando finaliza la activación, el destino aparece en **[!UICONTROL Destinos]** y la acción está lista. Puede activar la lista a destinos adicionales si es necesario.
+
+Cualquier persona que llegue al nodo se añade a la lista estática seleccionada, que se activa en el destino elegido, por lo que se añade a esa audiencia de destino y, a su vez, a cualquier campaña que alimente la audiencia.
 
 +++
 
 +++[!UICONTROL Agregar persona al Recorrido]
 
-Utilice esta acción para agregar personas a otros recorridos programados o en directo. Las personas añadidas a través de esta acción se añaden inmediatamente a la audiencia del recorrido objetivo; no se aplican los criterios de audiencia del recorrido.
+Utilice esta acción para agregar personas a otros recorridos programados o en directo. Las personas añadidas a través de esta acción se añaden inmediatamente a la audiencia del recorrido objetivo; no se aplican los criterios de audiencia del recorrido objetivo.
 
 ![Realizar una acción - Agregar persona al recorrido](./assets/person-action-node-add-to-journey.png){width="450"}
 
@@ -77,7 +100,7 @@ Utilice esta acción para añadir personas a una lista estática en Journey Opti
 Elija una de las siguientes opciones:
 
 * **[!UICONTROL Crear]**: cree un nuevo recurso de lista estática y agréguele personas. La lista está disponible inmediatamente para que otros recursos la utilicen en Journey Optimizer B2B Prime.
-* **[!UICONTROL Seleccionar]**: selecciona un recurso de lista estática existente en el que desea agregar personas que lleguen al nodo.
+* **[!UICONTROL Seleccionar]**: seleccione un recurso de lista estática existente en el que desee agregar personas que lleguen al nodo.
 
 +++
 
@@ -155,9 +178,9 @@ Utilice esta acción para enviar un correo electrónico a las personas incluidas
 
 ![Realizar una acción - Enviar correo electrónico](./assets/person-action-node-send-email.png){width="450"}
 
-Puede crear un correo electrónico, editar uno existente o utilizar un correo electrónico personalizado con IA. Para obtener información sobre cómo crear y editar correos electrónicos, consulte [Canal de correo electrónico](../marketing/email-channel.md).
+Puede crear un correo electrónico, editar uno existente o utilizar un correo electrónico personalizado con IA. Para obtener información sobre cómo crear y editar correos electrónicos, consulte [Canal de correo electrónico](./email-channel.md).
 
-Puede usar [Optimización del tiempo de envío](../marketing/email-send-time-optimization.md) para personalizar el tiempo de envío del correo electrónico mediante la predicción de cuándo es más probable que se involucre cada perfil.
+Puede usar [Optimización del tiempo de envío](./email-send-time-optimization.md) para personalizar el tiempo de envío del correo electrónico mediante la predicción de cuándo es más probable que se involucre cada perfil.
 
 +++
 
