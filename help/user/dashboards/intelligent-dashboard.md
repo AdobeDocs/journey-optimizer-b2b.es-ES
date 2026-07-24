@@ -4,21 +4,14 @@ description: Acceda a perspectivas con tecnología de IA para comprar grupos y c
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:43:58.948Z
 TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
 source-wordcount: 1682
 ht-degree: 16%
@@ -27,7 +20,7 @@ ht-degree: 16%
 
 # Panel de control inteligente
 
-El panel inteligente proporciona una vista completa de las métricas de grupos de compras y cuentas, lo que le ayuda a monitorizar y estratégicamente sus esfuerzos de marketing de forma más eficaz.
+El panel inteligente proporciona una vista completa de [el grupo de compras](../buying-groups/buying-groups-overview.md) y las métricas de la cuenta, lo que le ayuda a supervisar y diseñar estrategias para los esfuerzos de marketing de forma más eficaz.
 
 Para acceder al _Tablero inteligente_, seleccione el elemento **[!UICONTROL Tablero]** en el panel de navegación izquierdo.
 
@@ -132,9 +125,9 @@ Cada tarjeta incluye los siguientes datos:
 
   ![Datos de intención del grupo de compra](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
-   * La ventana emergente de detalles muestra el nombre de la categoría con el nivel de intención en la parte superior.
-   * Los datos de cada fila se organizan en columnas: el nombre del producto, la intensidad de la intención del producto y las palabras clave principales por la intensidad de la intención.
-   * El orden de clasificación es de mayor a menor para la categoría, el producto y las palabras clave. Si uno o varios de los tipos tienen la misma seguridad de intención, la ordenación utiliza el orden alfabético.
+  * La ventana emergente de detalles muestra el nombre de la categoría con el nivel de intención en la parte superior.
+  * Los datos de cada fila se organizan en columnas: el nombre del producto, la intensidad de la intención del producto y las palabras clave principales por la intensidad de la intención.
+  * El orden de clasificación es de mayor a menor para la categoría, el producto y las palabras clave. Si uno o varios de los tipos tienen la misma seguridad de intención, la ordenación utiliza el orden alfabético.
 
   {{intent-data-note}}
 
@@ -226,9 +219,9 @@ Cada tarjeta incluye los siguientes datos:
 
   ![Datos de intención de cuenta](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
-   * La ventana emergente de detalles muestra el nombre de la categoría con el nivel de intención en la parte superior.
-   * Los datos de cada fila se organizan en columnas: el nombre del producto, la intensidad de la intención del producto y las palabras clave principales por la intensidad de la intención.
-   * El orden de clasificación es de mayor a menor para la categoría, el producto y las palabras clave. Si uno o varios de los tipos tienen la misma seguridad de intención, la ordenación utiliza el orden alfabético.
+  * La ventana emergente de detalles muestra el nombre de la categoría con el nivel de intención en la parte superior.
+  * Los datos de cada fila se organizan en columnas: el nombre del producto, la intensidad de la intención del producto y las palabras clave principales por la intensidad de la intención.
+  * El orden de clasificación es de mayor a menor para la categoría, el producto y las palabras clave. Si uno o varios de los tipos tienen la misma seguridad de intención, la ordenación utiliza el orden alfabético.
 
   {{intent-data-note}}
 <!--

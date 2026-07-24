@@ -1,9 +1,9 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2355'
 ht-degree: 3%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Los datos de intención se incluyen cuando se configuran para la instancia de Journey Optimizer B2B edition. También requiere que se publiquen uno o más recorridos **o** que hayan creado grupos compradores. Para obtener más información acerca del modelo de detección de intención y cómo enviar palabras clave, productos y categorías, vea [Datos por intención](../user/admin/intent-data.md).
+>Los datos de intención se incluyen cuando se configuran para la instancia de Journey Optimizer B2B edition. También requiere que se publiquen uno o más recorridos **o** que hayan creado grupos compradores. Para obtener más información acerca del modelo de detección de intención y cómo enviar palabras clave, productos y categorías, vea [Datos por intención](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
 
 ## nota de licencia de AEM Assets {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->Las licencias para AEM Assets y las licencias de as a Cloud Service y Dynamic Media son requisitos previos para la integración. Asegúrese de que [Dynamic Media con API abierta](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esté habilitado. La integración se limita a repositorios del _nivel de entrega_. Si usa el _nivel de creación_ y desea convertirlo, póngase en contacto con el Soporte técnico de Adobe Experience Manager.<br/>
+>Las licencias para AEM Assets y las licencias de as a Cloud Service y Dynamic Media son requisitos previos para la integración. Asegúrese de que [Dynamic Media con API abierta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esté habilitado. La integración se limita a repositorios del _nivel de entrega_. Si usa el _nivel de creación_ y desea convertirlo, póngase en contacto con el Soporte técnico de Adobe Experience Manager.<br/>
 >Según el contrato y la configuración, se puede acceder directamente a Adobe Experience Manager Assets as a Cloud Service desde Adobe Journey Optimizer B2B edition cuando se diseña contenido visual.
 
 ## Creación de contenido: componentes, paso de estructuras {#structures-step}
@@ -185,13 +185,13 @@ En el panel derecho con la ficha _[!UICONTROL Estilos]_ seleccionada, expanda la
 
 * **[!UICONTROL Anchura]**: utilice la opción para establecer la anchura en píxeles o porcentaje.
 
-   * Para una anchura porcentual, utilice el control deslizante para definir el valor porcentual. El porcentaje determina el tamaño del elemento en función del cuadro de contenido del bloque contenedor, que excluye el relleno y los bordes. Por ejemplo, un valor de 50 establece el ancho del elemento en el 50 % del ancho del contenido del bloque que lo contiene.
+  * Para una anchura porcentual, utilice el control deslizante para definir el valor porcentual. El porcentaje determina el tamaño del elemento en función del cuadro de contenido del bloque contenedor, que excluye el relleno y los bordes. Por ejemplo, un valor de 50 establece el ancho del elemento en el 50 % del ancho del contenido del bloque que lo contiene.
 
-     ![Estilo de anchura con porcentaje](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
+    ![Estilo de anchura con porcentaje](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
 
-   * Para un ancho basado en píxeles, haga clic en los iconos de flecha arriba y abajo para aumentar o reducir el número de píxeles. Un valor vacío (Automático) es el valor predeterminado y ajusta el ancho del elemento según su contenido.
+  * Para un ancho basado en píxeles, haga clic en los iconos de flecha arriba y abajo para aumentar o reducir el número de píxeles. Un valor vacío (Automático) es el valor predeterminado y ajusta el ancho del elemento según su contenido.
 
-     ![Estilo de anchura con píxeles](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
+    ![Estilo de anchura con píxeles](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
 
 ## Componentes de contenido: estilos de texto {#styles-text}
 
