@@ -1,6 +1,6 @@
 ---
 title: Detalles de la cuenta
-description: Vea información de la cuenta con resúmenes de IA, detección de intención, análisis de cobertura de contactos y comunicaciones por correo electrónico en Journey Optimizer B2B edition.
+description: Vea la información de la cuenta con resúmenes generados por IA, detección de intención, análisis de cobertura de contactos y comunicaciones por correo electrónico en Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
@@ -15,9 +15,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: 642
 ht-degree: 6%
 
 ---
@@ -71,7 +71,7 @@ La sección _[!UICONTROL Cobertura de contactos]_ muestra el número de contacto
 * Cuenta
 * Cargo
 * Grupo de compras
-* Puntuación de participación de persona
+* Puntuación de participación de personas
 * Última actividad
 * Detalles
 
