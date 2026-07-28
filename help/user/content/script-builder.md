@@ -6,12 +6,19 @@ role: User, Developer
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 autotag-review: '2026-07-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0004f8fba0c3d4ae89063418e4d3ef8fea22b0c3
 workflow-type: tm+mt
 source-wordcount: 1074
@@ -57,7 +64,7 @@ El generador de scripts está disponible en el [editor de personalización](./pe
 
    >[!BEGINSHADEBOX]
 
-   La primera vez que acceda al Generador de scripts, revise las [_[!UICONTROL Condiciones de uso de la inteligencia artificial aplicada generativa ]_](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} y confirme el acuerdo.
+   La primera vez que acceda al Generador de scripts, revise las [_[!UICONTROL Condiciones de uso de la inteligencia artificial aplicada generativa &#x200B;]_](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} y confirme el acuerdo.
 
    ![Cuadro de diálogo del acuerdo de condiciones de uso de inteligencia artificial generativa en el Generador de scripts](./assets/personalization-script-builder-gen-ai-terms.png){width="400"}
 
