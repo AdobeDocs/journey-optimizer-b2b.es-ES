@@ -4,20 +4,16 @@ description: Cree plantillas de funciones con asignación automática condiciona
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1571
-ht-degree: 4%
+source-wordcount: 1577
+ht-degree: 5%
 
 ---
 
@@ -49,7 +45,7 @@ En un mercado B2B, varias personas suelen tomar decisiones de compra. Esas perso
 >
 >* [Asignación de campos de perfil de persona](../admin/field-mapping.md#xdm-business-person-attributes) para filtros de atributos de persona
 >* [Datos por intención](../admin/intent-data.md) si usa filtros por intención en condiciones de rol
->* [Funciones de grupo de compra personalizadas](./default-custom-roles.md#custom-roles) (opcional) si necesita funciones que superen los seis valores predeterminados
+>* [Funciones de grupo de compra personalizadas](./default-custom-roles.md#create-a-custom-role) (opcional) si necesita funciones que superen los seis valores predeterminados
 
 ## Acceso y exploración de plantillas de función {#access-and-browse-role-templates}
 
@@ -70,7 +66,7 @@ En un mercado B2B, varias personas suelen tomar decisiones de compra. Esas perso
    * [!UICONTROL Publicado el]
    * [!UICONTROL Publicado por]
 
-   La lista está ordenada por _[!UICONTROL Última actualización]_ de manera predeterminada. Todas las plantillas de roles tienen un estado de `Draft` o `Live`.
+   El sistema ordena la lista por _[!UICONTROL Última actualización]_ de forma predeterminada. Todas las plantillas de roles tienen un estado de `Draft` o `Live`.
 
 1. Para filtrar la lista por nombre, utilice el campo de búsqueda situado en la parte superior de la lista.
 
@@ -98,7 +94,7 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 
 | Tipo | Condiciones |
 | ---- | --------- |
-| [!UICONTROL Atributos de persona] | Atributos del [perfil de persona](../admin/field-mapping.md#xdm-business-person-attributes), entre ellos: <li>Ciudad <li>País <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de persona <li>Número de teléfono <li>Código postal <li>Estado |
+| [!UICONTROL Atributos de persona] | Atributos del [perfil de persona](../admin/field-mapping.md#xdm-business-person-attributes), entre ellos: <li>Ciudad <li>País <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de personas <li>Número de teléfono <li>Código postal <li>Estado |
 | [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"}: la cuenta o la persona tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según se han configurado en los [esquemas relacionales XDM](../admin/xdm-field-management.md#relational-schemas). |
 | Filtros especiales | <li>Miembro de la lista (obsoleto) <li>Miembro del programa (obsoleto) |
 | Datos de intención | <li>Intento de categoría <li>Intención del producto <li>Intento de palabra clave <br/> (consulte [_Datos de intención_](../admin/intent-data.md)) |
@@ -109,7 +105,7 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 
    * Elija **[!UICONTROL Comprar rol de grupo]** de la lista.
 
-     Hay seis funciones predeterminadas: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` y `Other`. La lista también incluye [roles personalizados definidos en la lista _Roles_](./default-custom-roles.md#custom-roles).
+     Hay seis funciones predeterminadas: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` y `Other`. La lista también incluye [roles personalizados definidos en la lista _Roles_](./default-custom-roles.md#create-a-custom-role).
 
      ![Lista de funciones de grupo de compra](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -161,7 +157,7 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 
 En Marketo Engage, _Campañas inteligentes_ comprueba la pertenencia de los programas para asegurarte de que los posibles clientes no reciban correos electrónicos duplicados y no sean miembros de varios flujos de correos electrónicos al mismo tiempo. En Journey Optimizer B2B, puede comprobar la pertenencia a listas de Marketo Engage como condición para la plantilla de funciones a fin de eliminar la duplicación en la compra de actividades de recorrido y pertenencia a grupos.
 
-Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** al espacio de filtro. A continuación, complete la definición del filtro para evaluar la pertenencia a una o varias listas de Marketo Engage.
+Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** al espacio de filtro. Para evaluar la pertenencia a una o varias listas de Marketo Engage, complete la definición del filtro.
 
 ![Condición de plantilla de roles para la pertenencia a la lista Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 <br/>
@@ -178,7 +174,7 @@ Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTR
 
 De forma predeterminada, la integridad de un rol se define como un miembro asignado al rol. Cuando utilice la integridad del grupo de compra para indicar la preparación de las ventas, utilice estos ajustes para alinear la puntuación con el número de miembros necesarios para cerrar una oportunidad.
 
-Por ejemplo, para cerrar un acuerdo para la solución _X_, es necesario que se identifiquen y se involucren varios encargados de tomar decisiones de marketing, ya que varios equipos de marketing de una organización usarían la solución. En este caso, desea aumentar el umbral para calcular un grupo de compra _completo_ requiriendo al menos dos encargados de la toma de decisiones de marketing.
+Por ejemplo, para cerrar un acuerdo para la solución _X_ es necesario identificar y atraer a varios encargados de tomar decisiones de marketing, ya que varios equipos de marketing de una organización utilizan la solución. En este caso, desea aumentar el umbral para calcular un grupo de compra _completo_ requiriendo al menos dos encargados de la toma de decisiones de marketing.
 
 Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener información detallada acerca de los cálculos y la puntuación de integridad.
 
@@ -188,7 +184,7 @@ Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener
 
 1. En el cuadro de diálogo, cambie el valor **[!UICONTROL Miembros necesarios]** para cada rol definido según sea necesario.
 
-   Puede escribir el valor o hacer clic en **&plus;** o **−** para aumentarlo o reducirlo.
+   Puede escribir el valor o hacer clic en **&amp;plus;** o **−** para aumentarlo o reducirlo.
 
    ![Cuadro de diálogo de configuración de puntuación de integridad de plantilla de roles](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -198,7 +194,7 @@ Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener
 
 Si la plantilla está lista para usarse, haga clic en **[!UICONTROL Publicar]** en la parte superior derecha.
 
-Al publicar la plantilla, se establece el estado en _Activo_ y está disponible para asociarla con un interés de solución. Debe haber al menos una función definida para publicar la plantilla de funciones.
+Para que la plantilla esté disponible para asociarla con un interés de solución, publíquela para establecer el estado en _Activo_. Debe haber al menos una función definida para publicar la plantilla de funciones.
 
 Después de publicar, el estado de la plantilla es _Activo_ en la ficha **[!UICONTROL Plantillas de roles]** y puede seleccionarla cuando [cree un interés de solución](./solution-interests.md).
 
@@ -206,13 +202,13 @@ Después de publicar, el estado de la plantilla es _Activo_ en la ficha **[!UICO
 
 Cuando una plantilla de roles se encuentra en estado _Borrador_, puede seguir editando los roles definidos. Los cambios que realice se guardarán automáticamente.
 
-Cambie la configuración del encabezado de la tarjeta de funciones, como la función del grupo de compra, la ponderación, la asignación automática o el requisito de puntuación de integridad.
+Cambie la configuración del encabezado de la tarjeta de funciones, como la función, la ponderación, la asignación automática o los requisitos de integridad.
 
 ![Cambiar propiedades de rol de grupo de compra](./assets/roles-template-role-properties.png){width="600"}
 
 ### Modificación de las condiciones de un rol
 
-Para cambiar la lógica de condición/filtrado de cualquiera de los roles, haga clic en el icono _Editar_ ( ![Editar icono](../assets/do-not-localize/icon-edit.svg) ) en la parte superior derecha de la tarjeta de roles. Esta acción abre el área de trabajo _[!UICONTROL Conditions]_, donde puede modificar un filtro existente, agregar o quitar un filtro, o cambiar la lógica del filtro.
+Para cambiar la lógica de condición/filtrado de cualquiera de los roles, haga clic en el icono _Editar_ ( ![Editar icono](../assets/do-not-localize/icon-edit.svg) ) en la parte superior derecha de la tarjeta de rol. Esta acción abre el área de trabajo _[!UICONTROL Conditions]_, donde puede modificar un filtro existente, agregar o quitar un filtro, o cambiar la lógica del filtro.
 
 ### Eliminar una tarjeta de función
 
@@ -240,4 +236,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo resumen {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

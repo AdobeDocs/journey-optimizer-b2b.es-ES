@@ -3,21 +3,14 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 5351
 ht-degree: 64%
@@ -30,7 +23,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2026.6 {#rel-2026-6}
 
@@ -165,7 +158,7 @@ Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimi
 
 ### Arquitectura actualizada
 
-Con la arquitectura actualizada, Journey Optimizer B2B edition y Marketo Engage no están en el mismo sistema y en el mismo almacén de datos. Journey Optimizer B2B edition recibe datos de Adobe Experience Platform. Sin embargo, sigue dependiendo de los derechos de Marketo Engage y algunas funciones de configuración para aprovisionar y configurar el sistema.
+Con la arquitectura actualizada, Journey Optimizer B2B edition y Marketo Engage no están en el mismo sistema y almacén de datos. Journey Optimizer B2B edition recibe datos de Adobe Experience Platform. Sin embargo, sigue dependiendo de los derechos de Marketo Engage y algunas funciones de configuración para aprovisionar y configurar el sistema.
 
 >[!NOTE]
 >
@@ -176,7 +169,7 @@ Esta implementación ofrece varias ventajas:
 * **Unifique y escale fácilmente sus datos**: la plataforma actualizada admite modelos de datos complejos, incluidos objetos personalizados, grupos de compra y eventos de cuenta.
 * **Conecte varias instancias de Adobe Marketo Engage**: administre y unifique datos de varios entornos de Adobe Marketo Engage en un solo lugar.
 * **Mantenga sus datos seguros**: las características avanzadas de privacidad y seguridad ayudan a proteger la información de sus clientes.
-* **Creada para el futuro**: esta actualización prepara a su organización para recibir mejoras e innovaciones continuas.
+* **Diseñado para la escalabilidad a largo plazo**: esta actualización prepara a su organización para recibir mejoras e innovaciones continuas.
 
 >[!NOTE]
 >
@@ -203,7 +196,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Función | Colaboración en el contenido de un correo electrónico | Los equipos de marketing ahora pueden realizar comentarios y colaborar con otros usuarios de Journey Optimizer B2B edition en el contexto de un recurso de correo electrónico. Pueden etiquetar a los miembros del equipo para recibir una notificación por correo electrónico con los detalles del comentario. La notificación también está disponible como notificación por pulsos. [Más información](../content/email-collaboration-tools.md) |
 | Función | Modo oscuro para el diseño del correo electrónico | El espacio de diseño del correo electrónico ahora incluye la posibilidad de cambiar al _modo oscuro_. En el modo oscuro, puede obtener una vista previa del contenido del correo electrónico y definir la configuración personalizada que se mostrará específicamente para los destinatarios que visualicen sus correos electrónicos en el modo oscuro. [Más información](../content/email-dark-mode.md) |
 | Mejora | Recorridos: dividir la ruta por el número de personas de la función | Utilice una ruta dividida por el nodo de cuenta para dirigirse a una cuenta con el número de personas en una o más funciones del grupo de compras. En la ruta, puede evaluar la preparación del grupo de compras en cuanto a las alertas de ventas y otras participaciones en función de la profundidad de la función. [Más información](../journeys/split-merge-paths-nodes.md#buying-group-filtering-accounts) |
-| Mejora | Recorridos: filtros de personas para eventos | Utilice los filtros de personas para escuchar eventos relacionados con personas. Estos filtros incluyen la posibilidad de dirigirse a una función específica de un grupo de compras coincidente. [Más información](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+| Mejora | Recorridos: filtros de personas para eventos | Utilice los filtros de personas para escuchar eventos relacionados con personas. Estos filtros incluyen la posibilidad de dirigirse a una función específica de un grupo de compras coincidente. [Más información](../journeys/listen-for-event-nodes.md#filters-people-event) |
 
 >[!NOTE]
 >
@@ -252,7 +245,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | ---- | ---- | ----------- |
 | Función | Pruebas de correo electrónico con Litmus | Con una [cuenta Litmus Enterprise](https://www.litmus.com/email-testing){target="_blank"}, ahora puede obtener una vista previa de la representación de su correo electrónico en clientes de correo electrónico populares desde Journey Optimizer B2B Edition. Esta integración le ayuda a garantizar que el contenido del correo electrónico tenga un aspecto impecable y funcione según lo diseñado en cada bandeja de entrada de correo electrónico. [Más información](../content/email-test-rendering.md) |
 | Mejora | Duplicar correo electrónico | Al añadir un correo electrónico para un nodo de recorrido, ahora puede duplicar un correo electrónico existente. Modifique la configuración o el contenido del correo electrónico duplicado o déjelo intacto.  [Más información](../content/add-email.md#add-an-email-to-your-journey) |
-| Mejora | Formato del token de Handlebar para correo electrónico | Los tokens de personalización para el contenido del correo electrónico ahora utilizan un formato actualizado que es totalmente compatible con los scripts de Handlebar. Este formato usa _palabras compuestas de mayúsculas y minúsculas_ o guiones bajos, lo que elimina espacios. [Más información](../content/email-authoring.md#content-authoring---personalization) |
+| Mejora | Formato del token de Handlebar para correo electrónico | Los tokens de personalización para el contenido del correo electrónico ahora utilizan un formato actualizado que es totalmente compatible con los scripts de Handlebar. Este formato usa _palabras compuestas de mayúsculas y minúsculas_ o guiones bajos, lo que elimina espacios. [Más información](../content/email-authoring.md#personalize-content) |
 | Mejora | Visualización del recuento total de listas | Las páginas de la lista _[!UICONTROL Intereses de la solución]_ y _[!UICONTROL Recorridos de cuenta]_ se han mejorado con la visualización del recuento total junto a la barra de búsqueda. |
 
 ## Notas de la versión 2025.4 {#rel-2025-4}

@@ -4,27 +4,22 @@ description: Vea la información de la cuenta con resúmenes generados por IA, d
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 640
 ht-degree: 6%
 
 ---
 
 # Detalles de la cuenta
 
-Al hacer clic en un nombre de cuenta desde cualquier lugar de Journey Optimizer B2B edition, se muestra la página _Detalles de la cuenta_. Esta página proporciona información útil sobre la cuenta de, incluidos resúmenes generativos de IA. También hay [acciones](#account-actions) que puedes ejecutar para los contactos asociados con la cuenta.
+Al hacer clic en un nombre de cuenta desde cualquier lugar de Journey Optimizer B2B edition, se muestra la página _Detalles de la cuenta_. Esta página proporciona información sobre la cuenta de, incluidos resúmenes de IA generativos. También hay [acciones](#send-email) que puedes ejecutar para los contactos asociados con la cuenta.
 
 ![Acceder a los detalles de la cuenta](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -63,7 +58,7 @@ En Journey Optimizer B2B edition, el modelo de detección de intención predice 
 
 ![Cobertura de contacto de la cuenta](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-La sección _[!UICONTROL Cobertura de contactos]_ muestra el número de contactos de la cuenta con un rol específico asociado con un interés de solución. La asignación de la función y el interés de la solución se basan en la plantilla de funciones de grupo de compra. Haga clic en una celda para mostrar los siguientes detalles:
+La sección _[!UICONTROL Cobertura de contacto]_ muestra el número de contactos de cuenta con una función específica asociada con un interés de solución. La asignación de la función y el interés de la solución se basan en la plantilla de funciones de grupo de compra. Haga clic en una celda para mostrar los siguientes detalles:
 
 * Descripción, en el siguiente formato: _x personas tienen mi rol para z interés de solución_
 * Columnas
@@ -91,7 +86,7 @@ La sección _[!UICONTROL Superposición de contactos]_ muestra los contactos de 
 * Cuenta
 * Interés de la solución
 
-Haga clic en _Información_ ( ![icono de información](../assets/do-not-localize/icon-info.svg) ) junto al nombre del contacto para mostrar una tabla con los siguientes detalles:
+Haga clic en el icono _Información_ ( ![Icono de información](../assets/do-not-localize/icon-info.svg) ) situado junto al nombre del contacto para mostrar una tabla con los siguientes detalles:
 
 * Grupo comprador (haz clic en el nombre para abrir los [detalles del grupo comprador](../buying-groups/buying-group-details.md))
 * Función

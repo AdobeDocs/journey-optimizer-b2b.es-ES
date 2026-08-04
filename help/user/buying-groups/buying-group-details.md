@@ -4,20 +4,14 @@ description: Vea los detalles del grupo de compra con perspectivas impulsadas po
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:46:01.279Z
 TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 789
 ht-degree: 4%
@@ -26,7 +20,7 @@ ht-degree: 4%
 
 # Detalles del grupo de compras
 
-Al hacer clic en el nombre de un grupo de compra desde cualquier lugar de Journey Optimizer B2B edition, se muestran los detalles del grupo de compra. Esta descripción general proporciona información útil sobre el grupo comprador, incluidos resúmenes de IA generativos. También hay [acciones](#buying-group-actions) que puedes ejecutar para los contactos asociados con la cuenta.
+Al hacer clic en el nombre de un grupo de compra desde cualquier lugar de Journey Optimizer B2B edition, se muestran los detalles del grupo de compra. Esta descripción general proporciona información útil sobre el grupo comprador, incluidos resúmenes de IA generativos. También hay [acciones](#members-tab) que puedes ejecutar para los contactos asociados con la cuenta.
 
 ![Acceder a los detalles del grupo de compra](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
@@ -67,7 +61,7 @@ La sección de descripción general de la cuenta incluye la siguiente informaci�
 
 ### Datos de intención
 
-En Journey Optimizer B2B edition, el modelo de detección de intención predice una solución o producto de interés con una confianza lo suficientemente alta según la actividad de los miembros del grupo de compra. La intención de comprar miembros del grupo puede interpretarse como la probabilidad de tener interés en un producto.
+En Journey Optimizer B2B edition, el modelo de detección de intención predice una solución o producto de interés con suficiente confianza en función de la actividad de los miembros del grupo de compra. La intención de comprar miembros del grupo puede interpretarse como la probabilidad de tener interés en un producto.
 
 {{intent-data-note}}
 

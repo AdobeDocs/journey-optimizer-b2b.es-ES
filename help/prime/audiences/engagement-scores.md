@@ -4,21 +4,13 @@ description: Calcule las puntuaciones de participación de la persona para los p
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f979fe0e-02fe-4599-b492-7b3df1d4e7dcid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: 1533
 ht-degree: 8%
 
 ---
@@ -30,7 +22,7 @@ ht-degree: 8%
 >title="Puntuación de participación de personas"
 >abstract="Las puntuaciones de participación de personas reflejan el nivel de participación de posibles clientes individuales en función de sus actividades recientes."
 
-La puntuación de participación de una persona es un número que refleja el nivel de participación de un posible cliente individual. Las puntuaciones se basan en las actividades que realiza una persona, y cada tipo de actividad lleva un valor ponderado. Las puntuaciones se normalizan dentro de la instancia (inquilino) para permitir una comparación coherente y perspectivas procesables.
+La puntuación de participación de una persona es un número que refleja el nivel de participación de un posible cliente individual. Las puntuaciones se basan en las actividades que realiza una persona, donde cada tipo de actividad lleva un valor ponderado. Las puntuaciones se normalizan dentro de la instancia (inquilino) para permitir una comparación coherente y perspectivas procesables.
 
 El cálculo de puntuación se ejecuta diariamente. Cualquier actividad ponderada por la participación realizada por la persona en los últimos 30 días contribuye a la puntuación. Con este periodo móvil de 30 días, las ocurrencias de actividad más antiguas caducan y las puntuaciones pueden disminuir con el tiempo (la puntuación disminuye). Las puntuaciones mostradas se redondean (por ejemplo, una puntuación de 75,89999 se muestra como 76).
 
@@ -38,7 +30,7 @@ Los datos de puntuación de participación están disponibles en **[!UICONTROL I
 
 ![Datos del informe de puntuación de participación de persona](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-La puntuación de participación de personas es un atributo que se puede usar como [condición de filtro](#engagement-score-filter) en las listas de personas y en los nodos de ruta dividida dentro de los recorridos de persona.
+La puntuación de participación de personas es un atributo que puede usar como [condición de filtro](#engagement-score-filter) en las listas de personas y los nodos de ruta dividida en los recorridos de personas.
 
 ## Actividades utilizadas para la puntuación de participación {#activities}
 
@@ -89,11 +81,11 @@ El sistema aplica un proceso de normalización de varios pasos para producir una
 
 1. Calcule la puntuación de participación sin procesar sumando la actividad diaria por tipo de actividad, multiplicándola por el peso asociado y sumando los resultados de todos los días en la ventana retrospectiva.
 
-1. Aplique una _Transformación de energía_ (Raíz cuadrada) para estabilizar la variación al reducir el impacto de periféricos.
+1. Para estabilizar la varianza mediante la reducción del impacto de periféricos, aplique una _Transformación de energía_ (Raíz cuadrada).
 
    Esta transformación reduce la asimetría y hace que los patrones de los datos sean más lineales.
 
-1. Aplique una transformación de _normalización escalada_ para asegurarse de que las puntuaciones utilicen el intervalo completo de 0 a 100.
+1. Para asegurarse de que las puntuaciones utilizan el intervalo completo de 0 a 100, aplique una transformación de _normalización escalada_.
 
 ## Filtrar por puntuación de participación {#engagement-score-filter}
 
@@ -103,7 +95,7 @@ El filtro _[!UICONTROL Puntuación de participación de persona]_ aparece en el 
 
 ### Listas de personas {#people-lists}
 
-Cuando agrega o quita miembros de una [lista de personas estáticas](./people-lists.md#static-list), o cuando define las reglas de pertenencia para una [lista de personas dinámicas](./people-lists.md#dynamic-lists), puede filtrar por puntuación de participación de persona para dirigirse a todas las personas cuyos atributos coincidan con sus criterios de puntuación.
+Al administrar miembros en una [lista de personas estáticas](./people-lists.md#static-lists) o definir reglas para una [lista de personas dinámicas](./people-lists.md#dynamic-lists), puede filtrar por puntuación de participación de persona para dirigirse a las personas que coincidan con sus criterios.
 
 ![Filtrado de puntuación de participación de persona para una lista de personas](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
@@ -151,7 +143,7 @@ Al configurar la segmentación para un recorrido de persona en un nodo [_Split p
 
 En [!DNL Journey Optimizer B2B Prime], puede configurar la ponderación de la puntuación de participación directamente desde la [interfaz de chat del Asistente de IA](../agents/chat-interface.md).
 
-Para obtener información general sobre modelos de puntuación de participación, bandas de ponderación y pesos de actividad, consulte [Configurar la ponderación de puntuación de participación personalizada](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Para obtener información general sobre modelos de puntuación de participación, bandas de ponderación y pesos de actividad, consulte [Configurar la ponderación de puntuación de participación personalizada](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Abra el panel de chat **[!UICONTROL AI Assistant]** desde la parte izquierda de la pantalla (icono de chat).
 
@@ -211,7 +203,7 @@ Los modelos de borrador tienen _[!UICONTROL opciones de ponderación]_ editables
 
 >[!NOTE]
 >
->Para editar un modelo activo o archivado, puede duplicarlo para crear un nuevo modelo de borrador y, a continuación, editar y activar el duplicado. No se puede editar un modelo activo local.
+>Para editar un modelo activo o archivado, haga un duplicado para crear un nuevo modelo de borrador y, a continuación, edite y active el duplicado. No se puede editar un modelo activo local.
 
 ### Activación de un modelo de borrador {#activate-weighting-model}
 

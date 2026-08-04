@@ -4,20 +4,13 @@ description: Utilice personalidades derivadas en Journey Optimizer B2B Prime par
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 autotag-review: '2026-06-23T22:01:21.605Z'
 TQID: 'https://experienceleague.adobe.com/OZ4GDkaqg9a5Aikic-m-f0MtHSpc3BO0h41fTAL1Rww'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 650
+source-wordcount: 639
 ht-degree: 2%
 
 ---
@@ -27,9 +20,9 @@ ht-degree: 2%
 La clasificación personal transforma los datos sin procesar de los clientes en una comprensión semántica del comprador que la IA puede utilizar para generar contexto y dirigir decisiones personalizadas en todos los canales y recorridos. Este perfil unificado proporciona lo siguiente:
 
 * _ramificación de Recorridos_: las rutas divididas dirigen a los posibles clientes por persona, profundidad de participación y rol
-* _Arbitraje de Recorrido_: determina a qué elemento nutritivo pertenece un posible cliente en este momento, evitando conflictos de mensajes entre programas simultáneos
-* _Personalización de contenido_: contenido que es narrativas específicas de roles (&quot;para un ejecutivo&quot; vs. &quot;para un profesional&quot;)
-* _Contexto del calificador de ventas_ - Los BDR obtienen un informe de una pantalla que muestra &quot;quién es esta persona, qué les importa, dónde se encuentran en el recorrido del comprador&quot;
+* _Arbitraje de Recorrido_: determina a qué recorrido nutritivo pertenece un posible cliente en este momento, evitando conflictos de mensajes entre programas simultáneos
+* _Personalización de contenido_: contenido que es narrativas específicas de funciones (&quot;para un ejecutivo&quot; o &quot;para un profesional&quot;)
+* _Contexto del calificador de ventas_ - Los representantes de desarrollo de negocios (BDR) reciben un resumen de una pantalla que muestra la identidad del individuo, sus intereses y su etapa actual en el recorrido del comprador
 
 ## Personalidades predeterminadas {#default-ersonas}
 
@@ -49,17 +42,17 @@ Para la versión de Beta de Journey Optimizer B2B Prime, las siguientes personas
 
 >[!NOTE]
 >
->En la versión de General Availability, podrá editar cualquiera de estas personalidades predeterminadas según las necesidades de su organización. También admite la asignación y las definiciones de personas personalizadas.
+>En la próxima versión de General Availability, puede editar cualquiera de estas personalidades predeterminadas según las necesidades de su organización. También admite la asignación y las definiciones de personas personalizadas.
 
 ## Filtrar por persona derivada {#derived-persona-filter}
 
-Journey Optimizer B2B Prime deriva un registro de persona para cada persona mediante la evaluación de los atributos del registro frente a las personas definidas. Puede utilizar el resultado deducido (_Persona derivada_) como filtro al definir la audiencia para una lista de personas o para segmentar en un recorrido de personas.
+[!DNL Journey Optimizer B2B Prime] deriva un perfil para cada registro de persona mediante la evaluación de los atributos de registro frente a los perfiles definidos. Puede utilizar el resultado deducido (_Persona derivada_) como filtro al definir la audiencia para una lista de personas o para segmentar en un recorrido de personas.
 
 El filtro _[!UICONTROL Persona derivada]_ aparece en el panel de filtro bajo la categoría **[!UICONTROL Atributos de persona]**.
 
 ### Listas de personas {#people-lists}
 
-Cuando agrega o quita miembros de una [lista de personas estáticas](./people-lists.md#static-list), o cuando define las reglas de pertenencia para una [lista de personas dinámicas](./people-lists.md#dynamic-lists), puede filtrar por Persona derivada para dirigirse a todas las personas cuyos atributos coincidan con una persona configurada específica.
+Al administrar miembros en una [lista de personas estáticas](./people-lists.md#static-lists) o definir reglas para una [lista de personas dinámicas](./people-lists.md#dynamic-lists), puede filtrar por _Persona derivada_ para dirigirse a todas las personas cuyos atributos coincidan con una persona configurada específica.
 
 ![Filtro de persona derivado para una lista de personas](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 

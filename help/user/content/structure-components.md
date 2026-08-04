@@ -6,21 +6,15 @@ role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
 autotag-review: '2026-05-27T16:19:08.483Z'
 TQID: 'https://experienceleague.adobe.com/Y3QgxZVcu76zBWJp9Ky7dUWjSOGg5JoPcPzPFrNsDXo'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: 1625
 ht-degree: 7%
 
 ---
@@ -47,7 +41,7 @@ ht-degree: 7%
 >title="Acerca de los componentes de estructura"
 >abstract="Los componentes de estructura son elementos de diseño que se pueden utilizar para diseñar la estructura de una plantilla."
 
-Use los _componentes de estructura_ en el espacio de diseño visual para definir la estructura del contenido. Al agregar y mover elementos estructurales con sencillas acciones de arrastrar y soltar, puede definir rápidamente la forma del diseño de contenido. Cada componente de estructura ocupa el espacio horizontal y puede apilarlos para crear el diseño verticalmente. Divida cada componente en columnas para formar cada bloque de contenido que necesite.
+Use los _componentes de estructura_ en el espacio de diseño visual para definir la estructura del contenido. Al agregar y mover elementos estructurales con sencillas acciones de arrastrar y soltar, puede definir rápidamente la estructura del diseño de contenido. Cada componente de estructura ocupa el espacio horizontal y puede apilarlos para crear el diseño verticalmente. Para formar cada bloque de contenido que necesite, divida cada componente en columnas.
 
 ## Biblioteca de estructura
 
@@ -55,14 +49,14 @@ En la parte superior de la biblioteca _[!UICONTROL Components]_, la sección **[
 
 | Ícono | Componente. | Descripción |
 | ----- | ----------- | ----------- |
-| ![1:1 icono de columna](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 columna] | Un contenedor de columna único que rellena el ancho del espacio. |
-| ![1:2 icono de columna](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 columna restante] | Contenedor de dos columnas que utiliza una relación 1:2 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa un tercio de la anchura y la segunda (derecha) ocupa los dos tercios restantes. |
-| ![1:3 icono de columna](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 columna restante] | Contenedor de dos columnas que utiliza una relación 1:3 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa una cuarta parte de la anchura y la segunda (derecha) ocupa las tres cuartas partes restantes. |
-| ![2:1 icono de columna](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 columna Derecha] | Contenedor de dos columnas que utiliza una relación 2:1 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa dos tercios de la anchura y la segunda columna (derecha) ocupa el tercio restante. |
-| ![2:2 icono de columna](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 columna] | Contenedor de dos columnas que utiliza una relación 2:2 para rellenar el ancho del espacio. Las columnas izquierda y derecha tienen el mismo ancho. |
-| ![3:1 icono de columna](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 columna Derecha] | Contenedor de dos columnas que utiliza una relación 3:1 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa las tres cuartas partes (75 %) de la anchura y la segunda (derecha) ocupa la cuarta parte restante (25 %). |
-| ![3:3 icono de columna](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 columna] | Contenedor de tres columnas que utiliza una relación 3:3 para rellenar el ancho del espacio. Las tres columnas tienen el mismo ancho. |
-| ![4:4 icono de columna](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 columna] | Contenedor de cuatro columnas que utiliza una relación 4:4 para rellenar el ancho del espacio. Las cuatro columnas tienen el mismo ancho. |
+| ![Icono de columna 1:1](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL Columna 1:1] | Un contenedor de columna único que rellena el ancho del espacio. |
+| ![Icono de columna 1:2](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL Columna 1:2 izquierda] | Contenedor de dos columnas que utiliza una relación 1:2 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa un tercio de la anchura y la segunda (derecha) ocupa los dos tercios restantes. |
+| ![Icono de columna 1:3](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL Columna 1:3 izquierda] | Contenedor de dos columnas que utiliza una relación 1:3 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa una cuarta parte de la anchura y la segunda (derecha) ocupa las tres cuartas partes restantes. |
+| ![Icono de columna 2:1](../assets/do-not-localize/icon-design-structure-2-1.png) | Columna [!UICONTROL 2:1 derecha] | Contenedor de dos columnas que utiliza una relación 2:1 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa dos tercios de la anchura y la segunda columna (derecha) ocupa el tercio restante. |
+| ![Icono de columna 2:2](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL Columna 2:2] | Contenedor de dos columnas que utiliza una relación 2:2 para rellenar el ancho del espacio. Las columnas izquierda y derecha tienen el mismo ancho. |
+| ![Icono de columna 3:1](../assets/do-not-localize/icon-design-structure-3-1.png) | Columna [!UICONTROL 3:1 derecha] | Contenedor de dos columnas que utiliza una relación 3:1 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa las tres cuartas partes (75 %) de la anchura y la segunda (derecha) ocupa la cuarta parte restante (25 %). |
+| ![Icono de columna 3:3](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL Columna 3:3] | Contenedor de tres columnas que utiliza una relación 3:3 para rellenar el ancho del espacio. Las tres columnas tienen el mismo ancho. |
+| ![Icono de columna 4:4](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL Columna 4:4] | Contenedor de cuatro columnas que utiliza una relación 4:4 para rellenar el ancho del espacio. Las cuatro columnas tienen el mismo ancho. |
 | ![n:n icono de columna](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n columna] | Estructura de columnas personalizable que rellena el espacio según las columnas definidas. El número de columnas (entre dos y diez) se establece y el ancho de cada columna se establece de forma individual. [Más información](#change-nn-columns) |
 
 ## Añadir componentes de estructura
@@ -86,7 +80,7 @@ La barra de herramientas se muestra en el lienzo cuando se selecciona en el lien
 
 ### Configuración de componentes
 
-Después de agregar un componente, se selecciona en el espacio de diseño visual y sus propiedades se muestran en el panel derecho. La ficha _[!UICONTROL Configuración]_ se muestra de manera predeterminada. También puede seleccionar un componente de estructura en cualquier momento para cambiar la configuración.
+Después de agregar un componente, se selecciona en el espacio de diseño visual y sus propiedades se muestran en el panel derecho. El sistema muestra la ficha _[!UICONTROL Configuración]_ de forma predeterminada. También puede seleccionar un componente de estructura en cualquier momento para cambiar la configuración.
 
 #### Opciones de visualización
 
@@ -111,7 +105,7 @@ Para quitar la designación del encabezado o pie de página, seleccione el compo
 
 En el caso de pantallas o ventanas de visualización más pequeñas, las columnas del componente de estructura se muestran como apiladas a menos que cambie la configuración predeterminada. Con el componente de estructura de varias columnas seleccionado, cambie la configuración **[!UICONTROL No apilar columnas en dispositivos móviles]** moviendo el control deslizante de alternancia a la derecha.
 
-![No apilar columnas en el móvil &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
+![No apilar columnas en el móvil ](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Estilos de componente
 
@@ -127,9 +121,9 @@ Seleccione la casilla de verificación y haga clic en el cuadrado de color para 
 
 ![Selector de color de fondo](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL Imagen de fondo]
+#### [!UICONTROL Imagen de fondo] {#background-image}
 
-Mueva el selector de alternancia para habilitar la configuración de imagen de fondo.
+Para habilitar la configuración de la imagen de fondo, mueva el selector de alternancia.
 
 ![Configuración de imagen de fondo](./assets/structure-components-background-image-settings.png){width="250"}
 
@@ -159,7 +153,7 @@ Utilice la opción **[!UICONTROL Colocación de la imagen]** para elegir cómo l
 
 ### Otros estilos
 
-Puede aplicar otros estilos de componente de estructura para ajustar su visualización en el mensaje de correo electrónico o en la página de aterrizaje.
+Para ajustar su visualización en el mensaje de correo electrónico o en la página de aterrizaje, puede aplicar otros estilos de componente de estructura.
 
 +++Borde
 
@@ -209,7 +203,7 @@ En el lienzo, mueva el icono de tamaño de columna para ajustar el ancho de la c
 
 ### Estilos de columna
 
-Con la columna seleccionada en el lienzo, puede definir estilos para aplicarlos a esa columna.
+Para definir los estilos que se aplicarán a esa columna, seleccione la columna en el lienzo.
 
 +++Contexto
 
@@ -217,7 +211,7 @@ Con la columna seleccionada en el lienzo, puede definir estilos para aplicarlos 
 
   ![Selector de color de fondo](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-* **[!UICONTROL Imagen de fondo]** - Mueva el selector de alternancia para habilitar la configuración de la imagen de fondo.
+* **[!UICONTROL Imagen de fondo]**: para habilitar la configuración de la imagen de fondo, mueva el selector de alternancia.
 
   ![Configuración de imagen de fondo](./assets/structure-components-background-image-settings.png){width="250"}
 

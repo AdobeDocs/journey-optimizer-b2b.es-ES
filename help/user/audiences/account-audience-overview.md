@@ -4,24 +4,17 @@ description: Cree públicos de cuenta con segmentación para dirigirse a cuentas
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-03-30T19:50:18.033Z
 TQID: https://experienceleague.adobe.com/JvPzSX83WY7Edws8IMHseCSwqFR4Ro-jy-UO-WvRgDc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 92%
+source-wordcount: 600
+ht-degree: 74%
 
 ---
 
@@ -33,7 +26,7 @@ Obtenga más información acerca de los públicos de cuenta y cómo definirlos e
 
 ## Flujo de trabajo de público de cuenta
 
-Puede considerar Journey Optimizer B2B Edition como un destino de Experience Platform (AEP) que no aparece en el catálogo de destinos. Active los públicos de cuenta en Journey Optimizer B2B Edition siguiendo estos pasos:
+Journey Optimizer B2B edition funciona como un destino de Experience Platform (AEP) que no aparece en el catálogo de destinos. Active los públicos de cuenta en Journey Optimizer B2B Edition siguiendo estos pasos:
 
 1. Cree esquemas para los datos en AEP.
 1. Introduzca sus datos en AEP.
@@ -48,7 +41,7 @@ Journey Optimizer B2B Edition le permite crear públicos de cuenta de Adobe Expe
 
 ## Crear un público de cuenta
 
-Defina el público de cuenta creando una segmentación de cuentas. Tiene la opción de crear la segmentación de cuentas directamente en la aplicación de Journey Optimizer B2B Edition o puede usar la [IU del generador de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. A continuación, se indican los pasos que puede seguir para crear una segmentación de cuentas en Journey Optimizer B2B Edition.
+Defina la audiencia de la cuenta creando un segmento de cuenta. Tiene la opción de crear el segmento de cuenta directamente en la aplicación Journey Optimizer B2B edition o puede usar la [interfaz de usuario del generador de segmentos](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. A continuación se indican los pasos que puede seguir para crear un segmento de cuenta en Journey Optimizer B2B edition.
 
 1. En el panel de navegación izquierdo, elija **[!UICONTROL Cuentas]** > **[!UICONTROL Públicos]**.
 
@@ -56,7 +49,7 @@ Defina el público de cuenta creando una segmentación de cuentas. Tiene la opci
 
 1. Genere la definición del segmento.
 
-   Los atributos y públicos de la cuenta se muestran en la barra de navegación izquierda. En la pestaña _[!UICONTROL Atributos]_, puede añadir atributos creados y personalizados por Platform. Arrastre cada atributo para crear la lógica del segmento.
+   Los atributos y públicos de la cuenta se muestran en la barra de navegación izquierda. En la pestaña _[!UICONTROL Atributos]_, puede añadir atributos creados y personalizados por Platform. Para generar la lógica del segmento, arrastre cada atributo.
 
    >[!TIP]
    >
@@ -64,7 +57,7 @@ Defina el público de cuenta creando una segmentación de cuentas. Tiene la opci
    >
    >En la pestaña _[!UICONTROL Públicos]_, puede añadir públicos basados en personas creados anteriormente sobre los que basarse al crear su propio público de cuenta.
 
-   En el siguiente ejemplo se define el público creado con `Country Code`, `Revenue Amount` y `Market segment`. La consulta en inglés sería: “Quiero todas las cuentas en los Estados Unidos que estén en el segmento Finanzas cuyos ingresos superen 1 millón de dólares”.
+   En el siguiente ejemplo se define una audiencia creada con `Country Code`, `Revenue Amount` y `Market segment`. La consulta en inglés es: &quot;Quiero todas las cuentas de EE. UU. en el segmento Finanzas cuyos ingresos superen 1 millón de dólares&quot;.
 
    ejemplo del generador de segmentos de audiencia de cuenta ![](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
    <br/>
@@ -78,4 +71,4 @@ Defina el público de cuenta creando una segmentación de cuentas. Tiene la opci
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]** en la parte superior derecha.
 
-Para activar el público de cuenta para Journey Optimizer B2B Edition, debe [añadirlo a un recorrido de cuenta](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey) y [publicar el recorrido](../journeys/journeys-overview.md).
+Para activar el público de cuenta para Journey Optimizer B2B Edition, debe [añadirlo a un recorrido de cuenta](../journeys/account-audience-nodes.md) y [publicar el recorrido](../journeys/journeys-overview.md).

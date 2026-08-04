@@ -6,23 +6,15 @@ role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
 autotag-review: '2026-05-27T16:13:22.974Z'
 TQID: 'https://experienceleague.adobe.com/WqMj4DVOmUd3s-r-n9bSyRjXSGS8sDWMFNh5wfOiE2Y'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e1663313-7961-4100-bea9-fa9f4edf8493
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: 393
 ht-degree: 6%
 
 ---
@@ -55,15 +47,15 @@ Para obtener más información, consulte [_Contenido condicional_](./conditional
 
 ## Habilitar la personalización de fragmentos
 
-Cuando un autor agrega un fragmento a un [correo electrónico](./email-authoring.md#content-authoring---use-visual-fragments) o [plantilla de correo electrónico](./email-template-authoring.md#content-authoring---use-visual-fragments), el contenido del fragmento está bloqueado de forma predeterminada. Cualquier cambio en el fragmento publicado se propaga automáticamente a todos los recursos de contenido donde se utiliza el fragmento. Al designar un parámetro para un componente del fragmento como editable, el autor del correo electrónico o la plantilla puede especificar un valor de campo personalizado que sea específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones.
+Cuando un autor agrega un fragmento a un [correo electrónico](./email-authoring.md#add-fragments) o [plantilla de correo electrónico](./email-template-authoring.md#add-fragments), el sistema bloquea el contenido del fragmento de forma predeterminada. Cualquier cambio en el fragmento publicado se propaga automáticamente a todos los recursos de contenido donde se utiliza el fragmento. Al designar un parámetro para un componente del fragmento como editable, el autor del correo electrónico o la plantilla puede especificar un valor de campo personalizado que sea específico para sus necesidades. Este indicador de personalización se limita a los componentes visuales de imagen, texto y botones.
 
-Por ejemplo, si diseña un banner reutilizable que incluya un botón en el que se puede hacer clic, puede designar el parámetro de URL del botón como editable. Los autores de correo electrónico pueden utilizar una dirección URL más específica para su campaña de correo electrónico. Con estos campos personalizables, los especialistas en marketing pueden administrar y personalizar el contenido reutilizable sin necesidad de crear bloques de contenido completamente nuevos o interrumpir las actualizaciones heredadas del fragmento original.
+Por ejemplo, si diseña un banner reutilizable que incluya un botón en el que se puede hacer clic, puede designar el parámetro de URL del botón como editable. Los autores de correo electrónico pueden utilizar una dirección URL más específica para su campaña de correo electrónico. Con estos campos personalizables, los equipos de marketing pueden administrar y personalizar el contenido reutilizable sin necesidad de crear bloques de contenido completamente nuevos o interrumpir las actualizaciones heredadas del fragmento original.
 
 1. En el editor de contenido visual, seleccione la imagen, el texto o el elemento de botón donde desee habilitar la personalización.
 
 1. En los detalles del componente a la derecha, seleccione la pestaña **[!UICONTROL Campos editables]**.
 
-1. Haga clic en la opción **[!UICONTROL Habilitar edición]** y establezca los campos editables.
+1. Haga clic en la opción **[!UICONTROL Habilitar la edición]** y establezca los campos editables.
 
    ![Habilitar campos editables para un componente de imagen de fragmento](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 

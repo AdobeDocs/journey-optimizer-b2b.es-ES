@@ -4,22 +4,16 @@ description: Cree modelos de fase de grupo de compra personalizados con etapas d
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2326
 ht-degree: 2%
 
 ---
@@ -28,7 +22,7 @@ ht-degree: 2%
 
 Las etapas de compra de grupos están diseñadas para seguir la progresión de los grupos de compra en la conversión de oportunidades en clientes. Utilice esta función para realizar un seguimiento de la progresión del grupo de compra e identificar las siguientes mejores acciones para comprar miembros del grupo.
 
-Defina las fases dentro de un solo modelo de ensayo y defina varias fases y el flujo de transición entre ellas. Se designan una o más fases para la entrada en el ciclo vital. El modelo también permite la progresión no lineal, donde puede especificar transiciones de una etapa a otra, como de la etapa A a las etapas B, C o D. Se requiere que se designe una etapa como la etapa de éxito, como una compra o un contrato firmado. Es opcional que se designe otra etapa como de fracaso, como un contrato rechazado o la compra de una solución de la competencia a otro proveedor. Monitorice estas etapas a través de [paneles inteligentes](../dashboards/intelligent-dashboard.md) que muestran el progreso de los grupos de compras en términos de completar una oportunidad de venta o convertirla en un cliente.
+Defina las fases dentro de un solo modelo de ensayo y defina varias fases y el flujo de transición entre ellas. Se designan una o más fases para la entrada en el ciclo vital. El modelo permite la progresión no lineal, como de la etapa A a las etapas B, C o D. Se debe designar una etapa como la etapa de éxito, como una compra o un contrato firmado. Es opcional que se designe otra etapa como de fracaso, como un contrato rechazado o la compra de una solución de la competencia a otro proveedor. Monitorice estas etapas a través de [paneles inteligentes](../dashboards/intelligent-dashboard.md) que muestran el progreso de los grupos de compras en términos de completar una oportunidad de venta o convertirla en un cliente.
 
 ![Ejemplo de las fases del grupo de compra](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -42,7 +36,7 @@ Para crear y configurar un modelo de fases de un grupo de compra:
 * Definición de los flujos de transición
 * Designación de las fases de entrada y destino
 
-Solo se admite un modelo, por lo que es importante trabajar en todos los equipos de marketing y ventas para planificar el modelo óptimo para su organización antes de crearlo y publicarlo en Journey Optimizer B2B edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+Solo se admite un modelo; para planear el modelo óptimo, trabaje con los equipos de marketing y ventas antes de crearlo y publicarlo en Journey Optimizer B2B edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 Cuando crea el modelo de fase de grupo de compra, se encuentra automáticamente en el estado _Borrador_ y no se puede eliminar ni cambiar el nombre. Permanece en este estado a medida que define las fases y configura el flujo de transición entre las fases. Cuando el modelo se encuentra en estado publicado (_Activo_), no se puede cambiar.
 
@@ -94,7 +88,7 @@ Una vez creado el modelo, se abrirá en el espacio de trabajo y se le solicitar�
 
 ### Configuración del flujo de trabajo y las reglas de transición
 
-Después de guardar las fases, vuelve al espacio de trabajo del modelo. La columna _[!UICONTROL Tránsito permitido a]_ está vacía, lo que indica que las reglas de transición para las fases del modelo aún no están definidas.
+Después de guardar las fases, se volverá al espacio de trabajo del modelo. La columna _[!UICONTROL Tránsito permitido a]_ está vacía, lo que indica que las reglas de transición para las fases del modelo aún no están definidas.
 
 ![Aún no se han definido las reglas de transición](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
 
@@ -118,11 +112,11 @@ Las reglas de transición determinan cómo un grupo comprador puede pasar de una
 
 1. Para cada fase que no sea de destino, defina una o más etapas que vengan después en el flujo (transición).
 
-   Todas las etapas que no sean de destino deben tener seleccionado al menos un **[!UICONTROL Tránsito permitido a]** etapa. De lo contrario, la lógica del modelo no es válida y las cuentas pueden quedar _atascadas_ en ese momento sin que haya forma de progresar hacia el éxito o el fracaso.
+   Todas las etapas que no sean de destino deben tener seleccionado al menos un **[!UICONTROL Tránsito permitido a]** etapa. De lo contrario, la lógica del modelo no es válida y las cuentas pueden permanecer en ese momento sin ninguna forma de avanzar hacia el éxito o el fracaso.
 
    ![Configurar transiciones entre etapas que no son de destino](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
-   Si lo desea, puede especificar una transición desde una fase de error. Por ejemplo, podría designar una etapa denominada _Sin respuesta_ como una etapa de error. Pero también designe una etapa llamada _Resurgence_ como una posible transición para identificar casos en los que se reactiva una cuenta inactiva.
+   Si lo desea, puede especificar una transición desde una fase de error. Por ejemplo, designe una etapa denominada _Sin respuesta_ como etapa de error. Pero también designe una etapa llamada _Resurgence_ como una posible transición para identificar casos en los que se reactiva una cuenta inactiva.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -227,7 +221,7 @@ Para cada interés de solución existente donde desee asociar el modelo de fases
 
 1. Seleccione la ficha _[!UICONTROL Interés de la solución]_.
 
-1. Abra el interés de la solución mediante uno de los siguientes métodos para abrir las propiedades del interés de la solución que desee editar:
+1. Utilice uno de los siguientes métodos para abrir las propiedades de la solución que desee editar:
 
    * Haga clic en el nombre de interés de la solución.
    * Haga clic en los puntos suspensivos (**...**) al lado y elige **[!UICONTROL Editar]**.
@@ -246,7 +240,7 @@ Para cada interés de solución existente donde desee asociar el modelo de fases
 
 ### Dividir rutas
 
-Con un [nodo de ruta dividida](../journeys/journey-nodes.md#split-paths), puede filtrar a nivel de cuenta o de personas según las fases del grupo de compra. Por ejemplo, añada una fase de grupo de compra como condición de ruta al dividir rutas comprando un miembro del grupo.
+Con un [nodo de ruta dividida](../journeys/split-merge-paths-nodes.md#split-paths), puede filtrar a nivel de cuenta o de personas según las fases del grupo de compra. Por ejemplo, añada una fase de grupo de compra como condición de ruta al dividir rutas comprando un miembro del grupo.
 
 >[!BEGINTABS]
 
@@ -264,7 +258,7 @@ Con un [nodo de ruta dividida](../journeys/journey-nodes.md#split-paths), puede 
 
    ![Nodo de ruta dividida - agregar condición](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. En el editor de condiciones, añada el filtro de grupo de compra para definir la ruta dividida.
+1. Para definir la ruta dividida, añada el filtro de grupo de compra en el editor de condiciones.
 
    * A la izquierda, expanda los **[!UICONTROL filtros especiales]** de la parte inferior y arrastre el atributo **[!UICONTROL Tiene grupo de compra]** al área de trabajo de filtros.
 
@@ -298,7 +292,7 @@ Con un [nodo de ruta dividida](../journeys/journey-nodes.md#split-paths), puede 
 
    ![Nodo de ruta dividida - agregar condición](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. En el editor de condiciones, añada el filtro de grupo de compra para definir la ruta dividida.
+1. Para definir la ruta dividida, añada el filtro de grupo de compra en el editor de condiciones.
 
    * A la izquierda, expanda los **[!UICONTROL filtros especiales]** de la parte inferior y arrastre el atributo **[!UICONTROL Miembro del grupo de compra]** al área de trabajo de filtros.
 
@@ -320,7 +314,7 @@ Con un [nodo de ruta dividida](../journeys/journey-nodes.md#split-paths), puede 
 
 ### Actualizar acción de cuenta de fase de grupo de compra
 
-Con un [nodo de acción de cuenta](../journeys/journey-nodes.md#add-an-account-action), puede actualizar la fase de grupo de compra. Definir este nodo implica seleccionar el interés de la solución y definir la nueva etapa para el grupo comprador.
+Con un [nodo de acción de cuenta](../journeys/action-nodes.md#add-an-account-based-action), puede actualizar la fase de grupo de compra. Definir este nodo implica seleccionar el interés de la solución y definir la nueva etapa para el grupo comprador.
 
 >[!NOTE]
 >
@@ -334,7 +328,7 @@ Con un [nodo de acción de cuenta](../journeys/journey-nodes.md#add-an-account-a
 
 1. En las propiedades del nodo a la derecha, elija **[!UICONTROL Cuentas]** para la acción.
 
-1. Defina la acción para actualizar la fase de grupo de compra.
+1. Para actualizar la fase de grupo de compra, defina la acción.
 
    * Para **[!UICONTROL Acción en las cuentas]**, selecciona **[!UICONTROL Actualizar fase de grupo de compra]**.
 
@@ -380,4 +374,4 @@ Utilice la ocurrencia de un cambio de fase de grupo de compra para mover la cuen
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3448697/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

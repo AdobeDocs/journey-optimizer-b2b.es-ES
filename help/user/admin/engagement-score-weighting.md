@@ -4,21 +4,15 @@ description: Cree modelos de puntuación de participación personalizados con ac
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1298
 ht-degree: 0%
 
 ---
@@ -35,13 +29,13 @@ Como administrador, puede definir varios modelos de puntuación de participació
 
 ## Acceso a los modelos de ponderación de puntuación de participación
 
-Abra la lista _[!UICONTROL Ponderación de puntuación de participación]_ para ver los modelos activos, en borrador y archivados:
+Para ver los modelos activos, en borrador y archivados, abra la lista _[!UICONTROL Ponderación de puntuación de participación]_:
 
 1. En el panel de navegación izquierdo, elija **[!UICONTROL Administración]** > **[!UICONTROL Configuraciones]**.
 
 1. Haga clic en **[!UICONTROL Ponderación de puntuación de participación]** en el panel intermedio para mostrar la lista de modelos de puntuación.
 
-   Desde esta página, puedes [crear (duplicar)](#create-an-engagement-score-model), [activar](#activate-a-score-model) y [editar](#change-the-engagement-weighting-settings) modelos de puntuación de participación.
+   Desde esta página, puedes [crear (duplicar)](#create-a-custom-engagement-scoring-model), [activar](#activate-a-score-model) y [editar](#change-the-engagement-weighting-settings) modelos de puntuación de participación.
 
    ![Acceder a los modelos de puntuación de participación definidos](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
@@ -93,7 +87,7 @@ Para crear un modelo de puntuación de participación personalizado, duplique el
 
 ### Cambio de la configuración de ponderación de participación
 
-La configuración de peso define las bandas que puede asignar a cada actividad del modelo. Puede cambiar las bandas para reflejar las estrategias de su organización para evaluar la participación. Por ejemplo, podría ajustar la banda de ponderación _Normal_ a un valor de 65 si desea asignar un valor más alto a las actividades normales. O bien, puede agregar una banda de ponderación diseñada para capturar actividades que se encuentren entre _Normal_ y _Importante_. En este caso, podría agregar una banda y etiquetarla como _Significant_ y asignar un valor de banda de peso de 75.
+La configuración de peso define las bandas que puede asignar a cada actividad del modelo. Para reflejar las estrategias de su organización para evaluar la participación, cambie las bandas. Por ejemplo, ajuste la banda de ponderación _Normal_ a un valor de 65 si desea asignar un valor más alto a las actividades normales. O bien, puede agregar una banda de ponderación diseñada para capturar actividades que se encuentren entre _Normal_ y _Importante_. En este caso, agregue una banda, etiquete como _Significativo_ y asigne un valor de banda de peso de 75.
 
 1. En la página de detalles del modelo de puntuación, haga clic en **[!UICONTROL Configuración del peso de la participación]** en la parte superior.
 
@@ -102,7 +96,7 @@ La configuración de peso define las bandas que puede asignar a cada actividad d
 1. Para cada banda de peso, ajuste el nombre o los valores según sus necesidades:
 
    * Cambie el nombre en el campo _[!UICONTROL Banda de ponderación]_.
-   * Introduzca un nuevo valor. También puede hacer clic en **&plus;** o **−** para aumentar o disminuir el valor.
+   * Introduzca un nuevo valor. También puede hacer clic en **&amp;plus;** o **−** para aumentar o disminuir el valor.
 
    ![Configuración de peso de la participación](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -161,7 +155,7 @@ Los cambios se guardarán automáticamente.
 
 Cuando se activa un modelo de puntuación de borrador, este reemplaza al modelo activo actualmente. El modelo activo actualmente se archiva automáticamente.
 
-1. Abra un modelo de puntuación de borrador para ver la página de detalles.
+1. Para ver la página de detalles, abra un modelo de puntuación de borrador.
 
 1. Haga clic en **[!UICONTROL Activar]**.
 

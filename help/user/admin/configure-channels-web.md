@@ -5,21 +5,15 @@ feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: 1077
 ht-degree: 2%
 
 ---
@@ -32,7 +26,7 @@ Una configuración web es una propiedad web identificada por una dirección URL 
 
 **Requisitos previos**
 
-Para usar canales web, tu sitio web debe tener [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
+Para usar canales web, tu sitio web debe tener [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
 
 La configuración del canal web en Journey Optimizer B2B edition requiere los siguientes [permisos](../admin/user-management.md#b2b-product-permissions):
 
@@ -63,7 +57,7 @@ La configuración del canal web en Journey Optimizer B2B edition requiere los si
 
      ![Selección de una dirección URL de página para una configuración de canal web de una sola página](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL Regla de coincidencia de páginas]**: para segmentar varias direcciones URL que coincidan con la misma regla, genere una [regla de coincidencia de páginas](#build-a-pages-matching-rule) e introduzca una **[!UICONTROL URL de creación y vista previa predeterminada]**.
+   * **[!UICONTROL Regla de coincidencia de páginas]**: para segmentar varias direcciones URL que coincidan con la misma regla, genere una [regla de coincidencia de páginas](#build-a-rule) e introduzca una **[!UICONTROL URL de creación y vista previa predeterminada]**.
 
 1. Haga clic en **[!UICONTROL Enviar]** para guardar los cambios.
 
@@ -75,7 +69,7 @@ Tan pronto como el canal web se usa en un recorrido, pasa a un estado _Activo_. 
 
 Al crear una configuración web, puede generar _[!UICONTROL reglas que coincidan con las páginas]_ para que se dirijan a varias direcciones URL que coincidan con la misma regla. Estas reglas permiten aplicar los mismos cambios de contenido en varias páginas.
 
-Por ejemplo, es posible que desee aplicar cambios a un banner a pantalla completa en todo un sitio web o agregar una imagen superior que se muestre en todas las páginas de productos.
+Por ejemplo, aplique cambios a un banner a pantalla completa en todo un sitio web o agregue una imagen superior que se muestre en todas las páginas de productos.
 
 ### Creación de reglas
 
@@ -122,9 +116,9 @@ Por ejemplo, es posible que desee aplicar cambios a un banner a pantalla complet
 
    * Use los operadores **[!UICONTROL Or]** o **[!UICONTROL Exclude]** entre las diferentes reglas.
 
-     _[!UICONTROL Or]_ es el operador predeterminado para definir varias reglas y resulta útil para agregar varias definiciones de criterios que puedan coincidir.
+     _[!UICONTROL Or]_ El operador [!UICONTROL Or] es el operador predeterminado para definir varias reglas y resulta útil para agregar varias definiciones de criterios que puedan coincidir.
 
-     _[!UICONTROL Excluir]_ resulta útil cuando una de las páginas que coinciden con la regla definida no debe ser un destino. Por ejemplo, puede dirigirse a todas las `bodea.com` páginas que contienen `lumasecure`, pero excluyendo las páginas de blog (como `bodea.com/blogs/lumasecure/latest-release`).
+     _[!UICONTROL Excluir]_ El operador [!UICONTROL Excluir] es útil cuando una de las páginas que coincide con la regla definida no debe ser un destino. Por ejemplo, puede dirigirse a todas las `bodea.com` páginas que contienen `lumasecure`, pero excluir páginas de blog (como `bodea.com/blogs/lumasecure/latest-release`).
 
    ![Las páginas coinciden con las reglas con exclusión](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
@@ -144,7 +138,7 @@ Puede duplicar una configuración de canal web existente y cambiarla para crear 
 
 1. Haga clic en el nombre del canal web duplicado para editar los parámetros.
 
-   * Cambie el nombre y la descripción para que coincidan con el propósito o los elementos de la regla.
+   * Para que coincidan con el propósito o los elementos de la regla, cambie el nombre y la descripción.
    * Si es necesario, cambie la dirección URL de una sola página.
    * Si es necesario, cambie la regla de coincidencia de páginas según sus necesidades.
 
