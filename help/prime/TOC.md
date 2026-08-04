@@ -2,9 +2,9 @@
 user-guide-title: Documentación de Journey Optimizer B2B Prime
 user-guide-description: Obtenga información acerca de Adobe Journey Optimizer B2B Prime y cómo puede utilizarlo para ?.
 hide: true
-source-git-commit: 120afb1109e550fc65c2fc5a01680f2d7d2e2345
+source-git-commit: e009878c46054b6df033ced369423b32cdaa89cf
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '187'
 ht-degree: 54%
 
 ---
@@ -13,14 +13,14 @@ ht-degree: 54%
 # Guía del usuario de Journey Optimizer B2B Prime {#prime}
 
 + [Documentación de Adobe Journey Optimizer B2B Prime](guide-overview.md)
-+ Empezar {#start}
++ Introducción {#start}
   + [Configurar lista de comprobación](./start/setup-prime.md)
   + [Administración de usuarios](./start/user-management.md)
   + [Entregabilidad del correo electrónico](./start/email-deliverability.md)
 + [Página de inicio](./home-insights/home-page.md)
 + Asistente de IA {#ai-assistant}
   + [Interfaz de chat](./agents/chat-interface.md)
-  + [Aptitudes](./agents/skills.md)
+  + [Habilidades](./agents/skills.md)
   + [Crear programa a partir de información breve](./agents/program-from-brief.md)
   + [Creación de audiencias para programas](./agents/audience-creation.md)
   + [Crear modelos de puntuación personalizados](./agents/lead-scoring-model.md)
@@ -54,7 +54,9 @@ ht-degree: 54%
   + [Personas derivadas](./audiences/personas.md)
   + [Destinos](./audiences/destinations.md)
 + Contenido {#content}
-  + [Recursos](./content/digital-asset-management.md)
+  + Recursos {#assets}
+    + [Información general](./content/digital-asset-management.md)
+    + [Content Credentials](./content/content-credentials.md)
   + Plantillas {#templates}
     + [Información general](./content/templates.md)
     + [Crear plantillas](./content/templates-create.md)
