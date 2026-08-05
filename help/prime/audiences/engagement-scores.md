@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: 1533
 ht-degree: 8%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 8%
 >title="Puntuación de participación de personas"
 >abstract="Las puntuaciones de participación de personas reflejan el nivel de participación de posibles clientes individuales en función de sus actividades recientes."
 
-La puntuación de participación de una persona es un número que refleja el nivel de participación de un posible cliente individual. Las puntuaciones se basan en las actividades que realiza una persona, y cada tipo de actividad lleva un valor ponderado. Las puntuaciones se normalizan dentro de la instancia (inquilino) para permitir una comparación coherente y perspectivas procesables.
+La puntuación de participación de una persona es un número que refleja el nivel de participación de un posible cliente individual. Las puntuaciones se basan en las actividades que realiza una persona, donde cada tipo de actividad lleva un valor ponderado. Las puntuaciones se normalizan dentro de la instancia (inquilino) para permitir una comparación coherente y perspectivas procesables.
 
 El cálculo de puntuación se ejecuta diariamente. Cualquier actividad ponderada por la participación realizada por la persona en los últimos 30 días contribuye a la puntuación. Con este periodo móvil de 30 días, las ocurrencias de actividad más antiguas caducan y las puntuaciones pueden disminuir con el tiempo (la puntuación disminuye). Las puntuaciones mostradas se redondean (por ejemplo, una puntuación de 75,89999 se muestra como 76).
 
@@ -38,7 +38,7 @@ Los datos de puntuación de participación están disponibles en **[!UICONTROL I
 
 ![Datos del informe de puntuación de participación de persona](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-La puntuación de participación de personas es un atributo que se puede usar como [condición de filtro](#engagement-score-filter) en las listas de personas y en los nodos de ruta dividida dentro de los recorridos de persona.
+La puntuación de participación de personas es un atributo que puede usar como [condición de filtro](#engagement-score-filter) en las listas de personas y los nodos de ruta dividida en los recorridos de personas.
 
 ## Actividades utilizadas para la puntuación de participación {#activities}
 
@@ -89,11 +89,11 @@ El sistema aplica un proceso de normalización de varios pasos para producir una
 
 1. Calcule la puntuación de participación sin procesar sumando la actividad diaria por tipo de actividad, multiplicándola por el peso asociado y sumando los resultados de todos los días en la ventana retrospectiva.
 
-1. Aplique una _Transformación de energía_ (Raíz cuadrada) para estabilizar la variación al reducir el impacto de periféricos.
+1. Para estabilizar la varianza mediante la reducción del impacto de periféricos, aplique una _Transformación de energía_ (Raíz cuadrada).
 
    Esta transformación reduce la asimetría y hace que los patrones de los datos sean más lineales.
 
-1. Aplique una transformación de _normalización escalada_ para asegurarse de que las puntuaciones utilicen el intervalo completo de 0 a 100.
+1. Para asegurarse de que las puntuaciones utilizan el intervalo completo de 0 a 100, aplique una transformación de _normalización escalada_.
 
 ## Filtrar por puntuación de participación {#engagement-score-filter}
 
@@ -103,7 +103,7 @@ El filtro _[!UICONTROL Puntuación de participación de persona]_ aparece en el 
 
 ### Listas de personas {#people-lists}
 
-Cuando agrega o quita miembros de una [lista de personas estáticas](./people-lists.md#static-list), o cuando define las reglas de pertenencia para una [lista de personas dinámicas](./people-lists.md#dynamic-lists), puede filtrar por puntuación de participación de persona para dirigirse a todas las personas cuyos atributos coincidan con sus criterios de puntuación.
+Al administrar miembros en una [lista de personas estáticas](./people-lists.md#static-lists) o definir reglas para una [lista de personas dinámicas](./people-lists.md#dynamic-lists), puede filtrar por puntuación de participación de persona para dirigirse a las personas que coincidan con sus criterios.
 
 ![Filtrado de puntuación de participación de persona para una lista de personas](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
@@ -211,7 +211,7 @@ Los modelos de borrador tienen _[!UICONTROL opciones de ponderación]_ editables
 
 >[!NOTE]
 >
->Para editar un modelo activo o archivado, puede duplicarlo para crear un nuevo modelo de borrador y, a continuación, editar y activar el duplicado. No se puede editar un modelo activo local.
+>Para editar un modelo activo o archivado, haga un duplicado para crear un nuevo modelo de borrador y, a continuación, edite y active el duplicado. No se puede editar un modelo activo local.
 
 ### Activación de un modelo de borrador {#activate-weighting-model}
 

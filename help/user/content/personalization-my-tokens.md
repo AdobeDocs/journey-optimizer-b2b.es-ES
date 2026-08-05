@@ -18,16 +18,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: 606
 ht-degree: 2%
 
 ---
 
 # Tokens personalizados para la personalización de correo electrónico
 
-La personalización de contenido utiliza tokens como marcadores de posición o variables que se rellenan cuando se genera el artefacto de contenido. Los tokens de personalización estándar están disponibles para correos electrónicos, páginas de aterrizaje, fragmentos y plantillas. También puede definir un conjunto de tokens personalizados con valores específicos del recorrido de la cuenta. Este conjunto de tokens personalizados se denomina _Mis tokens_ y cualquiera de ellos se usa para personalizar al [crear correos electrónicos de recorrido](./email-authoring.md#content-authoring---personalization).
+La personalización de contenido utiliza tokens como marcadores de posición o variables que se rellenan cuando se genera el artefacto de contenido. Los tokens de personalización estándar están disponibles para correos electrónicos, páginas de aterrizaje, fragmentos y plantillas. También puede definir un conjunto de tokens personalizados con valores específicos del recorrido de la cuenta. Este conjunto de tokens personalizados se denomina _Mis tokens_ y cualquiera de ellos se puede usar para personalizar al [crear correos electrónicos de recorrido](./email-authoring.md#personalize-content).
 
 Además de _Mis tokens_, que son específicos del recorrido de la cuenta, puede usar cualquiera de los tokens estándar (integrados) para la personalización de correo electrónico.
 
@@ -35,7 +35,7 @@ Además de _Mis tokens_, que son específicos del recorrido de la cuenta, puede 
 
 Los _Mis tokens_ son variables personalizadas que se crean o modifican para un recorrido de cuenta en estado de Borrador. Actualmente, este conjunto de tokens personalizados admite definiciones de tokens de texto y números.
 
-Cuando agrega un token personalizado a un correo electrónico, se muestra como `{{my.TokenName}}`. Por ejemplo, podría tener `{{my.EventDate}}` o `{{my.WebinarSpeaker}}` tokens creados para administrar el contenido de los correos electrónicos relacionados con los próximos seminarios web.
+Cuando agrega un token personalizado a un correo electrónico, se muestra como `{{my.TokenName}}`. Por ejemplo, tiene `{{my.EventDate}}` o `{{my.WebinarSpeaker}}` tokens creados para administrar el contenido de los correos electrónicos relacionados con los seminarios web que se avecinan.
 
 _Para tener acceso a los tokens personalizados de un recorrido de cuenta :_
 
@@ -61,7 +61,7 @@ _Para tener acceso a los tokens personalizados de un recorrido de cuenta :_
 
    ![Escriba un nombre y un valor para el token de texto](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   No se pueden utilizar espacios ni caracteres especiales en el nombre del token. Puede usar _minúscula_, como `EventType`, para usar un nombre de varias palabras que se identifique fácilmente.
+   No se pueden utilizar espacios ni caracteres especiales en el nombre del token. Puede usar mayúsculas y minúsculas, como `EventType`, para usar un nombre de varias palabras que se identifique fácilmente.
 
    Si está definiendo un token _Number_, el valor solo puede contener caracteres numéricos. Puede utilizar un valor decimal.
 

@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1339
 ht-degree: 2%
 
 ---
@@ -85,27 +85,27 @@ Cuando crea una lista de cuentas, define un conjunto de filtros para generar la 
 
 ## Agregar cuentas a la lista de cuentas
 
-Para una lista estática, puede publicar la lista de cuentas vacía y agregar cuentas mediante un recorrido de cuentas. También puede agregar cuentas manualmente aplicando un conjunto de filtros antes de publicarlas.
+Para una lista estática, puede continuar publicando la lista de cuentas vacía y agregar cuentas a través de un recorrido de cuentas. También puede agregar cuentas manualmente aplicando un conjunto de filtros antes de publicarlas.
 
-Para una lista de cuentas dinámicas, debe agregar el conjunto de filtros que desee utilizar para administrar la lista automáticamente antes de publicarla.
+Para administrar la lista automáticamente en una lista de cuentas dinámicas, agregue el conjunto de filtros antes de publicarlo.
 
 >[!BEGINTABS]
 
 >[!TAB Lista de cuentas estáticas]
 
-Después de crear la lista de cuentas estáticas, puede rellenar la lista aplicando un conjunto de filtros. También puede aplicar un conjunto de filtros para agregar cuentas a una lista de cuentas estáticas después de publicarla (_Live_).
+Después de crear la lista de cuentas estáticas, puede rellenar la lista aplicando un conjunto de filtros. Para agregar cuentas a una lista de cuentas estáticas después de su publicación (_Live_), aplique un conjunto de filtros.
 
 >[!NOTE]
 >
->Si desea que la lista de cuentas comience como vacía, no seleccione ningún filtro y simplemente publique la lista de cuentas. Es útil comenzar con una lista vacía cuando planea agregar miembros mediante una acción de recorrido de cuentas (vea [Realizar una acción en el nodo - Agregar a la cuenta](#take-an-action-node---add-to-account)).
+>Si desea que la lista de cuentas comience como vacía, no seleccione ningún filtro y publique la lista de cuentas. Es útil comenzar con una lista vacía cuando planea agregar miembros mediante una acción de recorrido de cuentas (vea [Realizar una acción en el nodo - Agregar a la cuenta](../journeys/action-nodes.md#account-action-constraints)).
 
-1. Seleccionar **[!UICONTROL Agregar cuentas]**.
+1. Haga clic en **[!UICONTROL Agregar cuentas]**.
 
    ![Agregar un filtro de cuenta para rellenar la lista &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
 
    Puede acceder a esta función en la página de lista vacía o en la parte superior derecha.
 
-1. En el cuadro de diálogo _[!UICONTROL Agregar cuentas por filtro]_, use el menú **[!UICONTROL Filtros de cuenta]** para agregar los atributos y las actividades que desee usar para construir el conjunto de filtros:
+1. En el cuadro de diálogo _[!UICONTROL Agregar cuentas por filtro]_, use el menú **[!UICONTROL Filtros de cuenta]** para agregar los atributos y actividades necesarios para construir el conjunto de filtros:
 
    Los filtros están anidados en carpetas de categoría. Puede expandir cada carpeta y desplazarse por las listas de filtros disponibles. O bien, use la herramienta _Buscar_ de la parte superior para encontrar el filtro que necesita.
 
@@ -121,13 +121,13 @@ Después de crear la lista de cuentas estáticas, puede rellenar la lista aplica
 
 1. Una vez completados el conjunto de filtros y la lógica, haga clic en **[!UICONTROL Rellenar cuentas]**.
 
-   El proceso de población puede tardar algún tiempo, según la cantidad de cuentas que se evalúen y rellenen (el tamaño de la base de datos y los criterios de filtro seleccionados). Las cuentas pueden tardar hasta dos horas en rellenarse en la lista.
+   El proceso de rellenado lleva tiempo, en función del número de cuentas que se evalúen y rellenen (el tamaño de la base de datos y los criterios de filtro que haya seleccionado). Las cuentas pueden tardar hasta dos horas en rellenarse en la lista.
 
 Puede continuar publicando la lista para que esté disponible para las acciones de agregar y quitar en un recorrido de cuentas.
 
 >[!TAB Lista dinámica de cuentas]
 
-Después de crear una lista de cuentas dinámicas, define el conjunto de filtros que se usa para administrar la lista (agregar o quitar cuentas) cuando está _activa_ (publicada). No puede agregar ni quitar cuentas a través de recorridos de cuenta, pero si hay una lista de cuentas dinámicas publicada disponible para el nodo de audiencia de cuenta de inicio.
+Después de crear una lista de cuentas dinámicas, define el conjunto de filtros que se usa para administrar la lista (agregar o quitar cuentas) cuando está _activa_ (publicada). No puede agregar ni quitar cuentas a través de recorridos de cuenta, pero hay disponible una lista de cuentas dinámicas publicada para el nodo de audiencia de cuenta de inicio.
 
 1. Haga clic en **[!UICONTROL Seleccionar filtros]**.
 
@@ -149,7 +149,7 @@ Después de crear una lista de cuentas dinámicas, define el conjunto de filtros
 
 1. Una vez completados el conjunto de filtros y la lógica, haga clic en **[!UICONTROL Listo]**.
 
-   Si está satisfecho con el conjunto de filtros, puede continuar con [publicar la lista](#publish-an-account-list) para que esté disponible para el [nodo de audiencia de cuenta](#account-audience-node) inicial en un recorrido de cuentas.
+   Si está satisfecho con el conjunto de filtros, puede continuar con [publicar la lista](#publish-an-account-list) para que esté disponible para el [nodo de audiencia de cuenta](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node) inicial en un recorrido de cuentas.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Puede continuar publicando una lista de cuentas tan pronto como se complete el c
 
    ![Confirmar publicación para una lista de cuentas estáticas](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-El estado de la lista de cuentas estáticas cambia a _[!UICONTROL Live]_ y está disponible para [usar en un recorrido de cuentas](#account-list-usage-in-account-journeys).
+El estado de la lista de cuentas estáticas cambia a _[!UICONTROL Live]_ y está disponible para [usar en un recorrido de cuentas](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!TAB Lista dinámica de cuentas]
 
@@ -189,7 +189,7 @@ Puede continuar publicando una lista de cuentas dinámicas tan pronto como se co
 
    ![Confirmar publicación para una lista de cuentas dinámicas](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-El estado de la lista de cuentas dinámicas cambia a _[!UICONTROL Live]_ y está disponible para [usar en un recorrido de cuentas](#account-list-usage-in-account-journeys).
+El estado de la lista de cuentas dinámicas cambia a _[!UICONTROL Live]_ y está disponible para [usar en un recorrido de cuentas](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!ENDTABS]
 

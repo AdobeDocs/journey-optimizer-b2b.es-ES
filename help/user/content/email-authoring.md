@@ -17,9 +17,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1381
+source-wordcount: 1380
 ht-degree: 2%
 
 ---
@@ -44,11 +44,11 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 
 >[!TIP]
 >
->Utilice el asistente de IA en Adobe Journey Optimizer B2B edition, con tecnología de IA generativa, para mejorar el contenido. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos, contenido de texto de destino y obteniendo recomendaciones del asistente de IA para imágenes que resuenen con su audiencia. [Más información](./ai-assistant-emails.md)
+>Utilice el asistente de IA en Adobe Journey Optimizer B2B edition, con tecnología de IA generativa, para mejorar el contenido. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos y contenido de texto de destino, así como recomendaciones para imágenes que interesen a su audiencia. [Más información](./ai-assistant-emails.md)
 
 ## Diseñe el correo electrónico desde cero {#design-from-scratch}
 
-Utilice el espacio de diseño de contenido visual para definir la estructura y el contenido del correo electrónico. Al añadir y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar el diseño y la organización del contenido del correo electrónico en cuestión de segundos.
+Utilice el espacio de diseño de contenido visual para definir la estructura y el contenido del correo electrónico. Al añadir y mover componentes estructurales con sencillas acciones de arrastrar y soltar, puede diseñar el diseño y la organización del contenido del correo electrónico rápidamente.
 
 1. En la página de inicio de _[!UICONTROL Diseña tu plantilla]_, selecciona la opción **[!UICONTROL Diseñar desde cero]**.
 
@@ -60,7 +60,7 @@ Utilice el espacio de diseño de contenido visual para definir la estructura y e
 
 1. [Agregar estructura y contenido](./email-authoring.md#structure-content) a la plantilla.
 
-1. [Revisar y actualizar vínculos](#preview-and-edit-linked-urls).
+1. [Revisar y actualizar vínculos](#edit-linked-url-tracking).
 
 1. [Probar el correo electrónico](#check-and-test-the-email).
 
@@ -146,11 +146,11 @@ Una vez guardado el correo electrónico, aparecerá en la página de detalles de
 
 El sistema de entrega de correo electrónico (a través de Marketo Engage) ajusta automáticamente todas las direcciones URL de los correos electrónicos de HTML con una redirección de seguimiento única cuando se envían. Use **[!UICONTROL Tipo de seguimiento]** para controlar el seguimiento del vínculo:
 
-* **[!UICONTROL Seguimiento sin token]**: el sistema registra el clic, pero no realiza un seguimiento de lo que hace el usuario a continuación en la página web. Esto puede ser importante en ciertos casos técnicos, como cuando se trata de sistemas de terceros que podrían no gestionar mkt_tok correctamente. Sin embargo, el seguimiento web posterior es limitado.
+* **[!UICONTROL Seguimiento sin token]**: el sistema registra el clic, pero no realiza un seguimiento de lo que hace el usuario a continuación en la página web. Este comportamiento es importante en ciertos casos técnicos, como cuando se trata de sistemas de terceros que no manejan mkt_tok correctamente. Sin embargo, el seguimiento web posterior es limitado.
 
 * **[!UICONTROL Seguimiento con mkt-tok]**: use el token de seguimiento (mkt_tok) para realizar un seguimiento de las actividades web subsiguientes a través de Munchkin. Cuando un destinatario hace clic en el vínculo, registra un evento _Click Email_ en el registro de actividad, rastrea de forma segura su actividad y aplica una cookie para monitorizar las interacciones futuras con el sitio.
 
-* **[!UICONTROL No rastrear]**: el sistema no realiza el seguimiento de la actividad asociada con el vínculo. Esto resulta útil cuando la página de destino no admite parámetros de URL y puede provocar que se rompa un vínculo.
+* **[!UICONTROL No rastrear]**: el sistema no realiza el seguimiento de la actividad asociada con el vínculo. Esta opción es útil cuando la página de destino no admite parámetros de URL y el resultado es un vínculo roto.
 
   >[!NOTE]
   >
@@ -171,8 +171,8 @@ Aproveche las opciones de vista y validación de contenido disponibles en el edi
 * Acercar/alejar el contenido en las opciones de zoom preestablecidas.
 
 * Cambie entre ver el contenido en equipos de escritorio, dispositivos móviles o solo texto/texto sin formato.
-   * Haz clic en el icono _Ver_ para obtener una vista previa del contenido entre dispositivos.
-   * Seleccione uno de los dispositivos predefinidos o introduzca dimensiones personalizadas para obtener una vista previa del contenido.
+  * Haz clic en el icono _Ver_ para obtener una vista previa del contenido entre dispositivos.
+  * Seleccione uno de los dispositivos predefinidos o introduzca dimensiones personalizadas para obtener una vista previa del contenido.
 
 ## Más opciones
 

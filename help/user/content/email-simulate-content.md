@@ -18,9 +18,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: 574
 ht-degree: 7%
 
 ---
@@ -36,11 +36,11 @@ Utilice la función _Simular contenido_ para obtener una vista previa del conten
 
 >[!IMPORTANT]
 >
->No puede obtener una vista previa del correo electrónico si hay errores. Compruebe _Alertas_ para asegurarse de que no hay errores que bloqueen las funciones de vista previa. Las advertencias no bloquean la vista previa, pero debe dirigirse a ellas antes de publicar el recorrido que déclencheur la entrega de correo electrónico.
+>No puede obtener una vista previa del correo electrónico si hay errores. Para asegurarse de que no haya errores que bloqueen las funciones de vista previa, compruebe las _Alertas_. Las advertencias no bloquean la vista previa, sino que se dirigen a ellas antes de publicar el recorrido que déclencheur la entrega de correo electrónico.
 
 ## Mostrar vista previa del correo electrónico
 
-Puede acceder a la vista previa de procesamiento desde el [espacio de diseño de correo electrónico](./email-authoring.md) o desde el _[!UICONTROL Resumen]_ cuando [abra un correo electrónico desde la lista Correos electrónicos](./emails-list.md#edit-emails).
+Puede acceder a la vista previa de procesamiento desde el [espacio de diseño de correo electrónico](./email-authoring.md) o desde el _[!UICONTROL Resumen]_ cuando [abra un correo electrónico desde la lista Correos electrónicos](./emails-list.md#open-and-edit-emails).
 
 1. Haga clic en **[!UICONTROL Simular contenido]** en la parte superior.
 
@@ -100,7 +100,7 @@ Una prueba es un mensaje de prueba enviado que permite al usuario y a los integr
 
 1. En el cuadro de diálogo _[!UICONTROL Agregar personas para probar]_, escriba la dirección de correo electrónico completa del contacto.
 
-   Para agregar varios contactos, escriba varias direcciones separadas por una coma.
+   Para agregar varios contactos, escriba varias direcciones separadas por comas.
 
 1. Seleccione la casilla de verificación de cada contacto coincidente que desee agregar a la lista de perfiles de prueba.
 

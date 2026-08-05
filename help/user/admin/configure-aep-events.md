@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
+source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 11%
@@ -42,7 +42,7 @@ El uso de eventos de experiencia de AEP en recorrido es un proceso de dos pasos:
 
 1. En un recorrido, un experto en marketing utiliza los eventos configurados de una de las dos maneras siguientes:
 
-   * Agrega un nodo _Listen for an event_ y [selecciona un evento de experiencia](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) para almacenar en déclencheur la progresión de recorrido basada en la actividad de evento en tiempo real durante el recorrido.
+   * Agrega un nodo _Listen for an event_ y [selecciona un evento de experiencia](../journeys/listen-for-event-nodes.md#experience-events-account-people) para almacenar en déclencheur la progresión de recorrido basada en la actividad de evento en tiempo real durante el recorrido.
    * Agrega un nodo _Split paths by people_ y configura una ruta para [filtrar en un evento](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) desde la carpeta **[!UICONTROL Event history]**.
 
 >[!BEGINSHADEBOX]

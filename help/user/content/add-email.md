@@ -17,7 +17,7 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1399
 ht-degree: 0%
@@ -54,17 +54,17 @@ Puede configurar los envíos de correo electrónico en un recorrido cuando [agre
 
      Si desea crear un mensaje de correo electrónico utilizando un lienzo vacío o una plantilla de correo electrónico, use la opción _[!UICONTROL Nuevo correo electrónico]_.
 
-      1. En el cuadro de diálogo, elija **[!UICONTROL Nuevo correo electrónico]**.
+     1. En el cuadro de diálogo, elija **[!UICONTROL Nuevo correo electrónico]**.
 
-      1. Escriba un **[!UICONTROL Nombre]** único para el correo electrónico y una **[!UICONTROL Línea de asunto]**.
+     1. Escriba un **[!UICONTROL Nombre]** único para el correo electrónico y una **[!UICONTROL Línea de asunto]**.
 
-         ![Crear nuevo cuadro de diálogo de correo electrónico - nuevo correo electrónico](assets/create-new-email.png){width="400"}
+        ![Crear nuevo cuadro de diálogo de correo electrónico - nuevo correo electrónico](assets/create-new-email.png){width="400"}
 
-      1. Haga clic en **[!UICONTROL Crear]**.
+     1. Haga clic en **[!UICONTROL Crear]**.
 
-         En la sección _[!UICONTROL Propiedades de correo electrónico]_ de la página de contenido de correo electrónico, los campos _[!UICONTROL De correo electrónico]_ y _[!UICONTROL Responder a dirección]_ ya están configurados. Puede escribir valores para los campos _[!UICONTROL Nombre del formulario]_ y _[!UICONTROL Descripción]_ (opcional).
+        En la sección _[!UICONTROL Propiedades de correo electrónico]_ de la página de contenido de correo electrónico, los campos _[!UICONTROL De correo electrónico]_ y _[!UICONTROL Responder a dirección]_ ya están configurados. Puede escribir valores para los campos _[!UICONTROL Nombre del formulario]_ y _[!UICONTROL Descripción]_ (opcional).
 
-      1. Haga clic en **[!UICONTROL Editar correo electrónico]** para definir la [configuración](#define-the-email-settings) del correo electrónico y diseñar el [contenido](./email-authoring.md).
+     1. Haga clic en **[!UICONTROL Editar correo electrónico]** para definir la [configuración](#define-the-email-settings) del correo electrónico y diseñar el [contenido](./email-authoring.md).
 
      +++
 
@@ -72,25 +72,25 @@ Puede configurar los envíos de correo electrónico en un recorrido cuando [agre
 
      Si desea crear un mensaje de correo electrónico utilizando un mensaje existente del recorrido actual o de otro recorrido, use la opción _[!UICONTROL Duplicar correo electrónico existente]_. Puede realizar cambios en el correo electrónico duplicado según el objetivo para el nodo de recorrido.
 
-      1. En el diálogo _[!UICONTROL Crear nuevo correo electrónico]_, elija **[!UICONTROL Duplicar correo electrónico existente]**.
+     1. En el diálogo _[!UICONTROL Crear nuevo correo electrónico]_, elija **[!UICONTROL Duplicar correo electrónico existente]**.
 
-      1. Para que **[!UICONTROL el correo electrónico existente duplique]**, haga clic en el icono _Selección_ ( ![Icono de Selección](../assets/do-not-localize/icon-email-select.svg) ) y seleccione el correo electrónico que desea duplicar y usar para el nodo de recorrido.
+     1. Para que **[!UICONTROL el correo electrónico existente duplique]**, haga clic en el icono _Selección_ ( ![Icono de Selección](../assets/do-not-localize/icon-email-select.svg) ) y seleccione el correo electrónico que desea duplicar y usar para el nodo de recorrido.
 
-         Puede filtrar la lista de correos electrónicos introduciendo una cadena de texto en el campo de búsqueda para que coincida con el nombre del correo electrónico.
+        Puede filtrar la lista de correos electrónicos introduciendo una cadena de texto en el campo de búsqueda para que coincida con el nombre del correo electrónico.
 
-         ![Seleccionar correo electrónico](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+        ![Seleccionar correo electrónico](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-         Seleccione la casilla de verificación del correo electrónico que desea duplicar y haga clic en **[!UICONTROL Seleccionar]**.
+        Seleccione la casilla de verificación del correo electrónico que desea duplicar y haga clic en **[!UICONTROL Seleccionar]**.
 
-      1. Escriba un **[!UICONTROL Nombre]** único para el correo electrónico y una **[!UICONTROL Línea de asunto]**.
+     1. Escriba un **[!UICONTROL Nombre]** único para el correo electrónico y una **[!UICONTROL Línea de asunto]**.
 
-         ![Crear nuevo cuadro de diálogo de correo electrónico: duplicar correo electrónico existente](assets/create-new-email-duplicate.png){width="400"}
+        ![Crear nuevo cuadro de diálogo de correo electrónico: duplicar correo electrónico existente](assets/create-new-email-duplicate.png){width="400"}
 
-      1. Haga clic en **[!UICONTROL Crear]**.
+     1. Haga clic en **[!UICONTROL Crear]**.
 
-         En la sección _[!UICONTROL Propiedades de correo electrónico]_ de la página de contenido de correo electrónico, los campos _[!UICONTROL De correo electrónico]_ y _[!UICONTROL Responder a dirección]_ ya están configurados. Puede escribir valores para los campos _[!UICONTROL Nombre del formulario]_ y _[!UICONTROL Descripción]_ (opcional).
+        En la sección _[!UICONTROL Propiedades de correo electrónico]_ de la página de contenido de correo electrónico, los campos _[!UICONTROL De correo electrónico]_ y _[!UICONTROL Responder a dirección]_ ya están configurados. Puede escribir valores para los campos _[!UICONTROL Nombre del formulario]_ y _[!UICONTROL Descripción]_ (opcional).
 
-      1. Si es necesario, haz clic en **[!UICONTROL Editar correo electrónico]** para modificar el correo electrónico [configuración](#define-the-email-settings) y el [contenido](./email-authoring.md).
+     1. Si es necesario, haz clic en **[!UICONTROL Editar correo electrónico]** para modificar el correo electrónico [configuración](#define-the-email-settings) y el [contenido](./email-authoring.md).
 
      +++
 
@@ -118,7 +118,7 @@ Con la pestaña **[!UICONTROL Detalles]** seleccionada en el panel _Resumen_ de 
 | [!UICONTROL IP dedicada] | Si tiene más de una dirección IP dedicada definida, seleccione una dirección IP dedicada para utilizar para enviar el correo electrónico. Al utilizar una IP específica para sus programas, puede realizar un seguimiento y una monitorización de la capacidad de entrega de forma más estrecha y responder rápidamente a cualquier cambio en las métricas de entrega. Para obtener más información sobre cómo agregar una IP dedicada para la instancia de Marketo Engage conectada, consulte la [documentación de Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
 | [!UICONTROL Correo electrónico operativo] | Seleccione la casilla de verificación si desea designar el correo electrónico como operativo. Los correos electrónicos operativos se excluyen de las listas de exclusión/cancelación de suscripción y de los límites de comunicación. Seleccione esta opción únicamente cuando el destinatario no pueda considerar que el mensaje de correo electrónico es un mensaje comercial no solicitado (SPAM). |
 | [!UICONTROL Incluir vista como página web] | Seleccione la casilla de verificación para incluir un vínculo a una página web que se genera a partir del contenido del mensaje de correo electrónico. Los mensajes de correo electrónico tienen capacidades más limitadas que las páginas web, por lo que son útiles para JavaScript, CSS extendido y formularios. El texto usado para generar el vínculo está configurado en la [configuración de envío del canal de correo electrónico](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL Ver como página web HTML] y [!UICONTROL Ver como texto de página web]). |
-| [!UICONTROL Deshabilitar seguimiento de aperturas] | Seleccione la casilla de verificación cuando no desee rastrear la actividad de apertura de correo electrónico. Con la función desactivada, los recuentos de actividades abiertas de correo electrónico solo se incrementan cuando una persona única abre el correo electrónico. Puede [administrar el seguimiento de vínculos de contenido de correo electrónico](./email-authoring.md#content-authoring---link-tracking) al diseñar el contenido del cuerpo del correo electrónico. |
+| [!UICONTROL Deshabilitar seguimiento de aperturas] | Seleccione la casilla de verificación cuando no desee rastrear la actividad de apertura de correo electrónico. Con la función desactivada, los recuentos de actividades abiertas de correo electrónico solo se incrementan cuando una persona única abre el correo electrónico. Puede [administrar el seguimiento de vínculos de contenido de correo electrónico](./email-authoring.md#edit-linked-url-tracking) al diseñar el contenido del cuerpo del correo electrónico. |
 | [!UICONTROL Encabezado previo] | Seleccione la casilla de verificación para incluir un encabezado previo. Un preencabezado es el texto de resumen corto que se muestra después de la línea de asunto en algunos clientes de correo electrónico. Generalmente proporciona un breve resumen del correo electrónico y, por lo general, es una sola frase. Escriba el texto de resumen en el campo <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
 | [!UICONTROL Campos usados como direcciones CC] | Si está disponible, seleccione hasta 25 campos de posible cliente o compañía que se hayan configurado en Marketo Engage con el tipo `Email`. |
 
@@ -132,22 +132,22 @@ Se pueden detectar dos tipos de alertas:
 
 * **_Advertencias_** que hacen referencia a recomendaciones y prácticas recomendadas, como:
 
-   * `The opt-out link is not present in the email body`: se recomienda agregar un vínculo para darse de baja al cuerpo del correo electrónico.
+  * `The opt-out link is not present in the email body`: se recomienda agregar un vínculo para cancelar la suscripción al cuerpo del correo electrónico.
 
-     >[!NOTE]
-     >
-     >Los mensajes de correo electrónico de estilo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales.
+    >[!NOTE]
+    >
+    >Los mensajes de correo electrónico de estilo marketing deben incluir un vínculo de no participación, que no es necesario para los mensajes transaccionales.
 
-   * `Text version of HTML is empty`: defina una versión de texto de su cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido de HTML.
+  * `Text version of HTML is empty`: defina una versión de texto de su cuerpo del correo electrónico, que se utiliza cuando no se puede mostrar el contenido de HTML.
 
-   * `Empty link is present in email body`: compruebe que todos los vínculos del correo electrónico sean correctos.
+  * `Empty link is present in email body`: compruebe que todos los vínculos del correo electrónico sean correctos.
 
-   * `Email size has exceeded the limit of 100KB`: para una entrega óptima, asegúrese de que el tamaño del correo electrónico no supere los 100 KB.
+  * `Email size has exceeded the limit of 100KB`: para una entrega óptima, asegúrese de que el tamaño del correo electrónico no supere los 100 KB.
 
 * **_Errores_** que impiden probar o activar el recorrido o la campaña siempre y cuando no se resuelvan, como:
 
-   * `From name is empty`: el campo _De_ del correo electrónico (obligatorio) no está definido.
+  * `From name is empty`: el campo _De_ del correo electrónico (obligatorio) no está definido.
 
-   * `The subject line is missing`: la línea de asunto del correo electrónico (obligatorio) no está definida.
+  * `The subject line is missing`: la línea de asunto del correo electrónico (obligatorio) no está definida.
 
-   * `The email version of the message is empty`: el contenido del correo electrónico no está definido.
+  * `The email version of the message is empty`: el contenido del correo electrónico no está definido.

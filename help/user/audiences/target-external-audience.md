@@ -21,10 +21,10 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T19:48:50.374Z
 TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 3%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 2%
 
 Puede activar y personalizar experiencias para audiencias externas en [!DNL Adobe Target] mediante recorridos de cuenta. Utilice esta integración para lograr una personalización avanzada y adaptada que aumente la participación y para mantener la coherencia entre plataformas en [!DNL Target] y [!DNL Journey Optimizer B2B Edition]. Esta coherencia garantiza que los equipos alineen y personalicen los canales web para los grupos de compra en todo el recorrido de comprador B2B.
 
-Se trata de un flujo de trabajo de dos pasos para activar una audiencia externa a través de Adobe Target:
+Hay un flujo de trabajo de dos pasos para activar una audiencia externa a través de Adobe Target:
 
 1. [Agregar a la audiencia de cliente externa](#add-to-customer-external-audience-from-a-journey) desde un recorrido.
 2. [Activar la audiencia externa](#activate-the-external-audience-to-target-as-a-destination) a [!DNL Target] como destino en Experience Platform.
 
 ## Añadir a la audiencia externa del cliente desde un recorrido
 
-En su recorrido, [agregue un _Realice una acción_ nodo](../journeys/action-nodes.md) para ejecutar la acción _[!UICONTROL Agregar a la audiencia de cliente externa]_. Las acciones suelen ser lo que desea que ocurra como resultado de algún tipo de déclencheur, como un evento o una acción anterior. El recorrido ejecuta la acción cuando una cuenta correspondiente con perfiles de persona llega al nodo.
+En su recorrido, [agregue un _Realice una acción_ nodo](../journeys/action-nodes.md) para ejecutar la acción _[!UICONTROL Agregar a la audiencia de cliente externa]_. Las acciones suelen ser el resultado de un déclencheur, como un evento o una acción anterior. El recorrido ejecuta la acción cuando una cuenta correspondiente con perfiles de persona llega al nodo.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ En su recorrido, [agregue un _Realice una acción_ nodo](../journeys/action-node
 
 1. En las propiedades del nodo a la derecha, establezca la audiencia externa.
 
-   * Si ya se han creado una o más audiencias externas, puede elegir **[!UICONTROL Seleccionar audiencias existentes]** y [seleccionar la audiencia que desee usar](#choose-an-external-audience).
+   * Si ya se han creado una o más audiencias externas, puede elegir **[!UICONTROL Seleccionar audiencias existentes]** y [seleccionar la audiencia que desee usar](#select-an-external-audience).
 
    * Si desea [crear una audiencia](#create-an-external-audience) para el nodo, elija **[!UICONTROL Crear nuevo]**.
 
@@ -124,4 +124,4 @@ El proceso de activación requiere que agregue [!DNL Adobe Target] como audienci
 
    ![Experience Platform - destinos - activar destino - revisar](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-Tras la activación, podrá ver la audiencia en [audiencias de Adobe Target](https://experienceleague.adobe.com/es/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} y usarlas en actividades de Adobe Target.
+Tras la activación, podrá ver la audiencia en [Audiencias de Adobe Target](https://experienceleague.adobe.com/es/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} y usarla en actividades de Adobe Target.

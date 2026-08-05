@@ -20,10 +20,10 @@ topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 autotag-review: 2026-03-30T21:49:24.359Z
 TQID: https://experienceleague.adobe.com/d3dPmwhMxG9ARxbIzw-lHl1vHbPB1xHazCLEVZbTJAY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3107
-ht-degree: 2%
+source-wordcount: 3111
+ht-degree: 3%
 
 ---
 
@@ -40,11 +40,11 @@ Con las temáticas, los diseñadores no técnicos tienen la capacidad de crear d
 
 Cuando trabaje con temáticas, tenga en cuenta las siguientes directrices y limitaciones:
 
-* Cuando crea un correo electrónico o una plantilla de correo electrónico a partir de un lienzo en blanco (_diseño desde cero_), puede elegir _modo de tema_ para empezar a crear el contenido mediante un tema y aplicar un estilo específico que se ajuste a su marca y diseño. Si elige _Modo manual_, no podrá aplicar un tema a menos que restablezca el diseño del correo electrónico o de la plantilla de correo electrónico.
+* Cuando crea un correo electrónico o una plantilla de correo electrónico a partir de un lienzo en blanco (_diseño desde cero_), puede elegir _modo de tema_ para crear contenido con un tema que se ajuste a su marca. Para aplicar un tema si elige _Modo manual_, debe restablecer el diseño del correo electrónico o la plantilla de correo electrónico.
 
 * [Los fragmentos](./fragments.md) no son compatibles entre el _modo de tema_ y el _modo manual_ en el contenido del correo electrónico. Para utilizar un fragmento en el contenido del correo electrónico donde se aplique un tema, el fragmento también debe crearse en _Modo de tema_.
 
-* Los cambios en una temática personalizada no se aplican en cascada automáticamente a todos los correos electrónicos o plantillas de correo electrónico que ya la utilizan. Edite el contenido de cada uno para actualizar la temática.
+* Los cambios en una temática personalizada no se aplican en cascada automáticamente a todos los correos electrónicos o plantillas de correo electrónico que ya la utilizan. Para actualizar la temática, edite el contenido de cada una.
 
 * Si elimina una temática, no afecta a ningún correo electrónico ni a ninguna plantilla de correo electrónico en los que ya se haya aplicado.
 <!--
@@ -53,7 +53,7 @@ Cuando trabaje con temáticas, tenga en cuenta las siguientes directrices y limi
 
 ## Crear un tema de marca {#create-theme}
 
-Defina el tema de su propia marca que puede aplicar al contenido de su correo electrónico y plantilla de correo electrónico en el contenido futuro del correo electrónico.
+Defina el tema de su propia marca que puede aplicar al contenido del correo electrónico y de la plantilla de correo electrónico.
 
 1. Acceda a las herramientas de temáticas mediante uno de los siguientes métodos:
 
@@ -87,7 +87,7 @@ Defina el tema de su propia marca que puede aplicar al contenido de su correo el
    * [Colores](#colors)
    * [Configuración de texto](#text-settings)
    * [Espaciado y borde](#spacing-and-border)
-   * [Botón](#button)
+   * [Botón](#buttons)
    * [Divisor](#divider)
    * [Cuadrícula](#grid)
 
@@ -126,7 +126,7 @@ Seleccione la ficha **[!UICONTROL Colores]** y use la configuración para defini
 
   Haga clic en la flecha _Atrás_ para cerrar las herramientas de la paleta de colores.
 
-* Haga clic en **[!UICONTROL Agregar variante]** para crear varias variantes de color, como un modo _claro_ y _oscuro_, en el que cada variante tiene su propia paleta de colores y controles de matices.
+* Haga clic en **[!UICONTROL Agregar variante]** para crear varias variantes de color, como los modos _claro_ y _oscuro_, cada uno con su propia paleta y controles.
 
   >[!NOTE]
   >
@@ -253,7 +253,7 @@ Utilice el carril de la derecha para navegar por las diferentes pestañas y camb
 * [Colores](#colors)
 * [Configuración de texto](#text-settings)
 * [Espaciado y borde](#spacing-and-border)
-* [Botón](#button)
+* [Botón](#buttons)
 * [Divisor](#divider)
 * [Cuadrícula](#grid)
 
@@ -265,7 +265,7 @@ Una vez completados los cambios del tema, haz clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
->Los cambios guardados no se aplican en cascada automáticamente a todos los correos electrónicos o plantillas de correo electrónico que actualmente utilizan la temática. Edite el contenido de cada uno para actualizar la temática y hacer coincidir los estilos actualizados.
+>Los cambios guardados no se aplican en cascada automáticamente a todos los correos electrónicos o plantillas de correo electrónico que actualmente utilizan la temática. Para actualizar la temática y hacer coincidir los estilos actualizados, edite el contenido de cada uno.
 
 ## Administrar temáticas personalizadas
 
@@ -287,7 +287,7 @@ Si tiene una lista grande de temáticas personalizadas, use el campo _Buscar_ y 
    * [Colores](#colors)
    * [Configuración de texto](#text-settings)
    * [Espaciado y borde](#spacing-and-border)
-   * [Botón](#button)
+   * [Botón](#buttons)
    * [Divisor](#divider)
    * [Cuadrícula](#grid)
 
@@ -299,7 +299,7 @@ Si tiene una lista grande de temáticas personalizadas, use el campo _Buscar_ y 
 
 >[!NOTE]
 >
->Los cambios de temática guardados no se aplican en cascada automáticamente a todos los correos electrónicos o plantillas de correo electrónico que actualmente utilizan la temática. Edite el contenido de cada uno para actualizar la temática y hacer coincidir los estilos actualizados.
+>Los cambios de temática guardados no se aplican en cascada automáticamente a todos los correos electrónicos o plantillas de correo electrónico que actualmente utilizan la temática. Para actualizar la temática y hacer coincidir los estilos actualizados, edite el contenido de cada uno.
 
 ### Eliminar o duplicar una temática
 

@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1512
+source-wordcount: 1504
 ht-degree: 42%
 
 ---
@@ -33,7 +33,7 @@ Journey Optimizer B2B edition admite dos tipos de recorrido:
 
   ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general sobre el recorrido de la cuenta](#overview-video)
 
-* **recorridos de personas**: (Beta) organice marketing basado en posibles clientes mediante audiencias y datos de Experience Platform. Con los recorridos de persona, las operaciones de marketing no dependen de Marketo Engage ni de soluciones alternativas para las cadenas de herramientas de Adobe Campaign/B2C, de modo que puedan trabajar con casos de uso B2B.
+* **recorridos de personas**: (Beta) organice marketing basado en posibles clientes mediante audiencias y datos de Experience Platform. Con los recorridos de persona, las operaciones de marketing no dependen de Marketo Engage ni de soluciones alternativas para las cadenas de herramientas de Adobe Campaign/B2C, de modo que puedan admitir casos de uso B2B.
 
   Cuando se utiliza de forma conjunta con los recorridos de la cuenta y los grupos de compra, un recorrido de persona puede proporcionar a los especialistas en marketing el poder de aplicar una orquestación completa al recorrido de compra.
 
@@ -41,17 +41,17 @@ Journey Optimizer B2B edition admite dos tipos de recorrido:
 
   Existen limitaciones que podrían bloquear ciertos casos de uso o dificultar la creación de recorridos de persona. Muchos problemas son el resultado de la implementación inicial del programa beta, que se abordarán en el futuro.
 
-   * Los eventos no se pueden combinar con atributos de perfil para reducir las definiciones de audiencia.
-   * El contexto del evento que califica a un perfil para un recorrido no se puede utilizar para la personalización ni la orquestación.
-   * Actualmente, los recorridos no pueden tener un evento y criterios de entrada de segmentos de perfil.
-   * Los oyentes de eventos no pueden escuchar varios eventos.
-   * Actualmente, los nodos de espera no tienen un conjunto completo de opciones para los criterios de salida del día de la semana u hora del día.
-   * El editor de correo electrónico hace referencia de forma incorrecta a funciones y atributos que solo están disponibles para Recorridos de cuenta
-   * La compatibilidad con tokens de recorrido personalizados (_Mis tokens_) aún no está disponible.
-   * Los nodos de recorrido Agregar y Quitar de la persona no están disponibles actualmente en ninguno de los tipos de recorrido.
-   * El historial de eventos no puede utilizarse para orquestación o personalización.
-   * Los objetos relacionados (como cuenta, grupo de compra, oportunidad y objetos personalizados) no se pueden utilizar para orquestación o personalización.
-   * Actualmente no se admiten canales web, SMS ni de plataforma de publicidad.
+  * Los eventos no se pueden combinar con atributos de perfil para reducir las definiciones de audiencia.
+  * El contexto del evento que califica a un perfil para un recorrido no se puede utilizar para la personalización ni la orquestación.
+  * Actualmente, los recorridos no pueden tener un evento y criterios de entrada de segmentos de perfil.
+  * Los oyentes de eventos no pueden escuchar varios eventos.
+  * Actualmente, los nodos de espera no tienen un conjunto completo de opciones para los criterios de salida del día de la semana u hora del día.
+  * El editor de correo electrónico hace referencia de forma incorrecta a funciones y atributos que solo están disponibles para Recorridos de cuenta
+  * La compatibilidad con tokens de recorrido personalizados (_Mis tokens_) aún no está disponible.
+  * Los nodos de recorrido Agregar y Quitar de la persona no están disponibles actualmente en ninguno de los tipos de recorrido.
+  * El historial de eventos no puede utilizarse para orquestación o personalización.
+  * Los objetos relacionados (cuenta, grupo de compra, oportunidad y objetos personalizados) no se pueden utilizar para orquestación o personalización.
+  * Actualmente no se admiten canales web, SMS ni de plataforma de publicidad.
 
   +++
 
@@ -200,7 +200,7 @@ Una acción de duplicado es similar a una función de clonado, pero el recorrido
 
    El recorrido duplicado se abre en el mapa de recorrido, donde puede establecer los detalles y crear contenido de recorrido según sea necesario.
 
-### Eliminación de un recorrido
+### Eliminación de un recorrido {#delete-journey}
 
 Utilice una acción de eliminación para eliminar un recorrido de forma permanente. No puede eliminar un recorrido activo o programado.
 
@@ -216,7 +216,7 @@ Utilice una acción de eliminación para eliminar un recorrido de forma permanen
 
 ## Revisar progresión de cuenta
 
-Para un recorrido de cuenta publicado que se encuentra en estado _Activo_, _Cerrado a nuevas entradas_, _Anulado_ o _Finalizado_, puede abrir el mapa de recorrido para revisar la progresión de la cuenta para los nodos de recorrido. Cada nodo del mapa muestra el número de cuentas que se van a alcanzar y, para los recorridos activos, el número de cuentas que hay actualmente en ese nodo.
+Para un recorrido de cuenta publicado en un estado de _Live_, _Cerrado a nuevas entradas_, _Anulado_ o _Finalizado_, abra el mapa de recorrido para revisar la progresión de la cuenta para los nodos de recorrido. Cada nodo del mapa muestra el número de cuentas que se van a alcanzar y, para los recorridos activos, el número de cuentas que hay actualmente en ese nodo.
 
 ![Información de progresión de cuenta de nodo de Recorrido](./assets/node-account-progression-observability.png){width="400"}
 

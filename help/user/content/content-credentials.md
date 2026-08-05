@@ -15,16 +15,16 @@ subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad794b50f6c6f3b59e853e99f7983136ee098e18
+source-git-commit: edb796d131c2b058215b73519b845125432d84f8
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: 916
 ht-degree: 0%
 
 ---
 
 # Content Credentials
 
-Las organizaciones de marketing están más preocupadas que nunca por la transparencia del contenido, la divulgación de la IA y la prevención de la manipulación de activos. Content Authenticity Initiative (CAI) en Adobe crea herramientas compatibles con el estándar técnico de [Coalición para la procedencia y autenticidad del contenido](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA). _Content Credentials_, metadatos cifrados y a prueba de manipulaciones, puede ayudar a los espectadores a comprender el linaje del contenido y garantizar la integridad de los recursos de la marca. Esta información incluye:
+Las organizaciones de marketing están más preocupadas que nunca por la transparencia del contenido, la divulgación de la IA y la prevención de la manipulación de activos. Content Authenticity Initiative (CAI) en Adobe crea herramientas compatibles con el estándar técnico de [Coalición para la procedencia y autenticidad del contenido](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA). _Content Credentials_ es el conjunto de metadatos cifrados y a prueba de manipulaciones que ayudan a los espectadores a comprender el linaje del contenido y garantizar la integridad de los recursos de la marca. Esta información incluye:
 
 * Emisor o signatario: información sobre la entidad o compañía que emitió la firma digital para certificar o firmar el activo.
 * Fecha de emisión: la fecha en la que se aplicó Content Credential al recurso.
@@ -46,10 +46,10 @@ Content Credentials persiste con el archivo de imagen. Cuando se carga o exporta
 
 ## Persistencia de Content Credentials mediante canales {#channels}
 
-Cuando se incluyen imágenes en los mensajes de correo electrónico o WhatsApp, las Content Credentials de las imágenes enviadas también se mantienen:
+Cuando se incluyen imágenes en los mensajes de correo electrónico o WhatsApp, también se mantiene el Content Credentials de las imágenes entregadas:
 
 * **Correo electrónico**: cuando uses una acción de recorrido _Enviar correo electrónico_, agrega la imagen al contenido del correo electrónico desde la biblioteca de _Assets_. Cuando se envía el correo electrónico, el destinatario puede descargar la imagen del mensaje y el Content Credentials está intacto.
-* **WhatsApp**: agrega la imagen a la plantilla de mensaje de WhatsApp de tu cuenta comercial de Meta. Puede agregarlo directamente desde su propio sistema o descargar un archivo de imagen desde la biblioteca _Assets_. Usa la plantilla para una acción de recorrido _Enviar aplicación WhatsApp_. Cuando se envía el mensaje de WhatsApp, el destinatario puede descargar la imagen del mensaje y el Content Credentials está intacto.
+* **WhatsApp**: agrega la imagen a la plantilla de mensaje de WhatsApp en tu cuenta comercial de Meta. Puede agregarlo directamente desde su propio sistema o descargar un archivo de imagen desde la biblioteca _Assets_. Usa la plantilla para una acción de recorrido _Enviar aplicación WhatsApp_. Cuando se envía el mensaje de WhatsApp, el destinatario puede descargar la imagen del mensaje y el Content Credentials está intacto.
 
 >[!ENDSHADEBOX]
 

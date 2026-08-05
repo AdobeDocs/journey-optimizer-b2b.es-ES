@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:45:21.856Z
 TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 594
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ El traspaso de ventas incluye:
 * **Entrega de datos**: el marketing identifica los datos de destino _listos_ y los hace accesibles para las ventas en formato CSV. 
 * **Aceptación de ventas**: Las ventas revisan manualmente e incorporan los objetivos _listos_ en su canalización.
 
-Para acceder a este panel, expande **[!UICONTROL Cuentas]** en el panel de navegación izquierdo y, a continuación, selecciona **[!UICONTROL Grupos compradores]**. Seleccione la ficha **[!UICONTROL Información general]** si no se muestra de manera predeterminada.
+Para acceder a este panel, expande **[!UICONTROL Cuentas]** en el panel de navegación izquierdo y, a continuación, selecciona **[!UICONTROL Grupos compradores]**. Seleccione la ficha **[!UICONTROL Información general]** si el sistema no la muestra de forma predeterminada.
 
 ![Resumen de grupos de compra](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
@@ -51,7 +51,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ## Distribución de la puntuación de finalización del grupo de compras
 
-Esta visualización ilustra la distribución de los grupos de compra en función de las puntuaciones de finalización y se clasifica en cuatro bandas de puntuación distintas. La cifra central representa el número total de grupos de compra y proporciona una visión rápida del progreso general. Los colores segmentados indican la proporción de grupos de compra dentro de cada rango de puntuación, lo que le permite evaluar las tendencias de finalización de un vistazo.
+Esta visualización ilustra la distribución de los grupos de compra en función de las puntuaciones de finalización y se clasifica en cuatro bandas de puntuación distintas. La cifra central representa el número total de grupos compradores y proporciona un resumen del progreso general. Los colores segmentados indican la proporción de grupos de compra dentro de cada rango de puntuación, lo que le permite evaluar las tendencias de finalización de un vistazo.
 
 Para ver información más detallada, haga clic en el icono de menú **...** en la parte superior derecha.
 
@@ -84,7 +84,7 @@ Haga clic en el icono _Filtro_ ( ![Icono de filtro](../assets/do-not-localize/ic
 
 ![Filtrar los datos mostrados por atributos](./assets/buying-group-overview-filters.png){width="500"}
 
-Seleccione tantos valores para cada atributo que desee usar para filtrar los datos y haga clic en **[!UICONTROL Aplicar]**.
+Seleccione tantos valores para cada atributo como desee usar para filtrar los datos y haga clic en **[!UICONTROL Aplicar]**.
 
 ## Interactúe con los datos
 
@@ -100,7 +100,7 @@ Los filtros globales aplicados al panel se transfieren. Haga clic en el icono _F
 
 Puede hacer clic en _Más_ (**...**) en la parte superior derecha y elige **[!UICONTROL Ver más]** para [ver datos extendidos](#view-more).
 
-### [!UICONTROL Ver más]
+### [!UICONTROL Ver más] {#view-more}
 
 Elija **[!UICONTROL Ver más]** para ver datos y perspectivas ampliados.
 
