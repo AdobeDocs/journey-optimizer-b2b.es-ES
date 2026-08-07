@@ -4,22 +4,17 @@ description: 'Optimice la generación de demanda con recorridos: cree, publique 
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 1504
-ht-degree: 42%
+source-wordcount: 1312
+ht-degree: 46%
 
 ---
 
@@ -33,27 +28,9 @@ Journey Optimizer B2B edition admite dos tipos de recorrido:
 
   ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general sobre el recorrido de la cuenta](#overview-video)
 
-* **recorridos de personas**: (Beta) organice marketing basado en posibles clientes mediante audiencias y datos de Experience Platform. Con los recorridos de persona, las operaciones de marketing no dependen de Marketo Engage ni de soluciones alternativas para las cadenas de herramientas de Adobe Campaign/B2C, de modo que puedan admitir casos de uso B2B.
+* **recorridos de personas**: organice marketing basado en posibles clientes mediante audiencias y datos de Experience Platform. Con los recorridos de persona, las operaciones de marketing no dependen de Marketo Engage ni de soluciones alternativas para las cadenas de herramientas de Adobe Campaign/B2C, de modo que puedan admitir casos de uso B2B.
 
   Cuando se utiliza de forma conjunta con los recorridos de la cuenta y los grupos de compra, un recorrido de persona puede proporcionar a los especialistas en marketing el poder de aplicar una orquestación completa al recorrido de compra.
-
-  +++Limitaciones actuales de los recorridos de personas
-
-  Existen limitaciones que podrían bloquear ciertos casos de uso o dificultar la creación de recorridos de persona. Muchos problemas son el resultado de la implementación inicial del programa beta, que se abordarán en el futuro.
-
-  * Los eventos no se pueden combinar con atributos de perfil para reducir las definiciones de audiencia.
-  * El contexto del evento que califica a un perfil para un recorrido no se puede utilizar para la personalización ni la orquestación.
-  * Actualmente, los recorridos no pueden tener un evento y criterios de entrada de segmentos de perfil.
-  * Los oyentes de eventos no pueden escuchar varios eventos.
-  * Actualmente, los nodos de espera no tienen un conjunto completo de opciones para los criterios de salida del día de la semana u hora del día.
-  * El editor de correo electrónico hace referencia de forma incorrecta a funciones y atributos que solo están disponibles para Recorridos de cuenta
-  * La compatibilidad con tokens de recorrido personalizados (_Mis tokens_) aún no está disponible.
-  * Los nodos de recorrido Agregar y Quitar de la persona no están disponibles actualmente en ninguno de los tipos de recorrido.
-  * El historial de eventos no puede utilizarse para orquestación o personalización.
-  * Los objetos relacionados (cuenta, grupo de compra, oportunidad y objetos personalizados) no se pueden utilizar para orquestación o personalización.
-  * Actualmente no se admiten canales web, SMS ni de plataforma de publicidad.
-
-  +++
 
 ## Introducción a un recorrido
 
@@ -75,9 +52,7 @@ Escriba el texto en la herramienta _Búsqueda_ situada en la parte superior de l
 
 ![Filtrar la lista de recorridos de la cuenta](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
->[!TAB recorridos de personas (Beta)]
-
-[!BADGE Beta]{type=Informative tooltip="Disponible como función beta"}
+>[!TAB recorridos de personas]
 
 En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de Recorrido]** y haga clic en **[!UICONTROL recorridos de persona]**.
 
@@ -114,11 +89,11 @@ El estado de un recorrido puede cambiar según las acciones que se apliquen. En 
 
 | Estado | Descripción | Acciones disponibles |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Borrador**&#x200B;_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Activo**&#x200B;_ | El estado del recorrido cambia de _Draft_ a _Live_ cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
-| _&#x200B;**Cerrado a nuevas entradas**&#x200B;_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
-| _&#x200B;**Anulado**&#x200B;_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
-| _&#x200B;**Finalizado**&#x200B;_ | Cuando todos los miembros de audiencia de persona o cuenta de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Borrador**_ | Un recorrido sin publicar que se puede editar. | <li>[Publicar](./create-publish-journey.md#publish-a-journey)<li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Activo**_ | El estado del recorrido cambia de _Draft_ a _Live_ cuando se publica un recorrido. En este estado, ya no se puede editar. | <li>[Duplicar](#duplicate-journey)<li>[Cerrar a nuevas entradas](#close-to-new-entries) <li>[Anular](#abort-journey) |
+| _**Cerrado a nuevas entradas**_ | El estado del recorrido cambia de _Activo_ a _Cerrado a nuevas entradas_ al hacer clic en [!UICONTROL Cerrar a nuevas entradas] en la barra de navegación superior. | <li>[Duplicar](#duplicate-journey) <li>[Anular](#abort-journey) |
+| _**Anulado**_ | El estado del recorrido cambia de _Activo_ o _Cerrado a nuevas entradas_ cuando se anula un recorrido. No se puede reiniciar un recorrido anulado. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
+| _**Finalizado**_ | Cuando todos los miembros de audiencia de persona o cuenta de un recorrido completan el recorrido, el estado cambia de _Activo_ o _Cerrado a nuevas entradas_ a _Finalizado_. | <li>[Duplicar](#duplicate-journey) <li>[Eliminar](#delete-journey) |
 
 ## mapas de recorrido
 
@@ -194,7 +169,7 @@ Una acción de duplicado es similar a una función de clonado, pero el recorrido
 
    * **[!UICONTROL Duplicación parcial del contenido]**: use este tipo para copiar todo el contenido del recorrido, sin incluir los mensajes de correo electrónico o SMS creados. Los nodos que hacen referencia a un mensaje de correo electrónico o SMS de Marketo Engage están totalmente intactos.
 
-   * **[!UICONTROL Duplicado sin detalles]**: use este tipo para copiar solo la estructura y las rutas de acceso del nodo. Todos los ajustes de nodo y las condiciones de la ruta están sin definir (valor predeterminado), de modo que puede reutilizar el flujo básico con diferentes públicos, acciones y configuraciones de segmentación de la ruta. Todos los nodos de _espera_ utilizan el valor predeterminado de cinco días.
+   * **[!UICONTROL Duplicado sin detalles]**: use este tipo para copiar solo la estructura y las rutas de acceso del nodo. Todos los ajustes de nodo y las condiciones de ruta no están definidos (predeterminado), por lo que puede volver a utilizar el flujo básico con diferentes ajustes de segmentación de ruta, acciones y audiencias. Todos los nodos de _espera_ utilizan el valor predeterminado de cinco días.
 
 1. Haga clic en **[!UICONTROL Duplicar]**.
 
@@ -226,4 +201,4 @@ Cuando seleccione el nodo, haga clic en el número para ver una lista de cuentas
 
 ## Vídeo de información general sobre el recorrido de cuentas {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443210/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
