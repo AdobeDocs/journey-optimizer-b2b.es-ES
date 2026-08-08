@@ -19,9 +19,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: 448
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ En el panel de navegación izquierdo, expanda **[!UICONTROL Administración de R
 
 ![Resumen de recorridos de cuenta](./assets/journey-overview-account.png){width="800" zoomable="yes"}
 
->[!TAB recorridos de personas (Beta)]
+>[!TAB recorridos de personas]
 
 [!BADGE Beta]{type=Informative tooltip="Disponible como función beta"}
 

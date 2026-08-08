@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ Para empezar con un recorrido, cree el recorrido y, a continuación, construya l
 En **[!UICONTROL Administración de Recorrido]** en el panel de navegación izquierdo, seleccione el tipo de recorrido que desea crear:
 
 * **[!UICONTROL recorridos de cuenta]**
-* **[!UICONTROL recorridos de personas]** (Beta)
+* **[!UICONTROL recorridos de personas]**
 
 _Para agregar un nuevo recorrido :_
 
@@ -50,7 +50,7 @@ _Para agregar un nuevo recorrido :_
 
 +++
 
-+++Recorrido de personas (Beta)
++++Recorrido de la persona
 
 1. Haga clic en **[!UICONTROL Crear Recorrido]** en la parte superior derecha de la página.
 
