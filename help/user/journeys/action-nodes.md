@@ -4,29 +4,23 @@ description: 'Configure nodos de acción para acciones de cuenta y personas: env
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2319
 ht-degree: 3%
 
 ---
 
 # Iniciar una acción
 
-Para ejecutar una acción, como enviar un correo electrónico, cambiar una puntuación, asignar a un grupo comprador, etc., puede agregar un nodo _[!UICONTROL Realizar una acción]_ en el recorrido. Las acciones suelen ser lo que desea que ocurra como resultado de algún tipo de déclencheur, como un evento o una acción anterior.
+Para ejecutar una acción, como enviar un correo electrónico, cambiar una puntuación o asignar a un grupo comprador, puedes agregar un nodo _[!UICONTROL Realizar una acción]_ en tu recorrido. Las acciones suelen ser lo que desea que ocurra como resultado de algún tipo de déclencheur, como un evento o una acción anterior.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
@@ -42,6 +36,7 @@ En un recorrido de cuentas, utilice una acción en las cuentas cuando desee apli
 | [!UICONTROL Activar en destino] | Seleccione un destino |
 | [!UICONTROL Agregar cuenta a (otro) Recorrido] | Seleccionar recorrido de cuenta activa |
 | [!UICONTROL Agregar a la lista de cuentas] | Seleccionar lista de cuentas estáticas activas |
+| [!UICONTROL Desactivar del destino] | Seleccionar la audiencia virtual existente<br/>Seleccionar destino |
 | [!UICONTROL Quitar cuenta del Recorrido] | Seleccionar recorrido de cuenta activa |
 | [!UICONTROL Quitar de la lista de cuentas] | Seleccione una lista de cuentas estáticas activas |
 | [!UICONTROL Enviar alerta de ventas] | Seleccionar interés de solución<br/>Enviar correo electrónico a |
@@ -71,13 +66,19 @@ En un recorrido de cuentas, utilice una acción en las cuentas cuando desee apli
 
 >[!BEGINSHADEBOX]
 
-### Activar en un destino de LinkedIn
+### Activar o desactivar en un destino {#activate-deactivate-destination}
 
 Use la acción _Activar en destino_ para activar cuentas en destinos de Experience Platform directamente desde su recorrido. Esta acción le permite insertar cuentas cualificadas (según los filtros de grupo de compra, las puntuaciones de participación y otros criterios) en audiencias coincidentes en destinos admitidos.
 
-A partir de la versión 2025.10, **_LinkedIn_** es el primer tipo de destino admitido. Utilice la acción para un destino de LinkedIn para optimizar la ejecución de la campaña eliminando los traslados de varios sistemas y reduciendo la latencia. Por ejemplo, como experto en marketing, puede activar automáticamente cuentas de alta intención en LinkedIn para volver a segmentar cuando falten funciones de compra clave o volver a activar cuentas inactivas basadas en filtros de inactividad.
+Puede emparejar esta acción con la acción _Desactivar del destino_ más adelante en el mismo recorrido para detener las cuentas de segmentación después de que se conviertan o dejen de cumplir los requisitos.
 
-Para obtener más información sobre el uso de audiencias coincidentes con la cuenta para un destino de LinkedIn, consulte [Audiencias coincidentes con la cuenta de LinkedIn](../data/linkedin-account-matched-audiences.md).
+>[!NOTE]
+>
+>A partir de la versión 2025.10, **_LinkedIn_** es el primer tipo de destino admitido. Utilice la acción para un destino de LinkedIn para optimizar la ejecución de la campaña eliminando los traslados de varios sistemas y reduciendo la latencia. Por ejemplo, como experto en marketing, puede activar automáticamente cuentas de alta intención en LinkedIn para volver a segmentar cuando falten funciones de compra clave o volver a activar cuentas inactivas basadas en filtros de inactividad.
+>
+>Para obtener más información sobre el uso de audiencias coincidentes con la cuenta para un destino de LinkedIn, consulte [Audiencias coincidentes con la cuenta de LinkedIn](../data/linkedin-account-matched-audiences.md).
+
+_Para agregar un nodo Activar al nodo de destino :_
 
 1. Con el nodo _Realizar una acción_ seleccionado en el lienzo de recorrido, establezca **[!UICONTROL Acción en las cuentas]** en **[!UICONTROL Activar en destino]**.
 
@@ -93,11 +94,23 @@ Para obtener más información sobre el uso de audiencias coincidentes con la cu
 
    ![nodo de Recorrido - realizar una acción en las cuentas - activar en destino - configuración completada](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
+_Para agregar un nodo Desactivar desde destino :_
+
+1. Con el nodo _Realizar una acción_ seleccionado en el lienzo de recorrido, establece **[!UICONTROL Acción en las cuentas]** en **[!UICONTROL Desactivar del destino]**.
+
+   ![nodo de Recorrido - realizar una acción en las cuentas - desactivar del menú de destino](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
+
+1. En **[!UICONTROL Audiencia virtual]**, haga clic en **[!UICONTROL Seleccionar audiencia virtual existente]** y elija la audiencia virtual cuyas cuentas desee eliminar del destino.
+
+1. En **[!UICONTROL Desactivar del destino]**, haga clic en **[!UICONTROL Seleccionar destino]** y elija el destino desde el que desea quitar las cuentas.
+
+   Después de configurar el nodo _Desactivar del destino_, se muestra la audiencia virtual y el destino seleccionados.
+
 >[!ENDSHADEBOX]
 
 ## Acciones de personas {#people-actions}
 
-En un recorrido de cuenta o persona, utilice una acción para las personas cuando desee aplicar un cambio a todas las personas de la ruta del nodo. Para un recorrido de cuenta, puede usar este tipo de nodo dentro de la _ruta dividida por personas_ o _ruta dividida por cuentas_.
+En un recorrido de cuenta o persona, utilice una acción para las personas cuando desee aplicar un cambio a todas las personas de la ruta del nodo. Para un recorrido de cuenta, puede usar este tipo de nodo dentro de los nodos _dividir ruta por personas_ o _dividir ruta por cuentas_.
 
 ### Acciones y restricciones {#people-action-constraints}
 
@@ -163,7 +176,7 @@ Utilice esta acción para dirigir a las personas a una audiencia externa que se 
 Al seleccionar esta acción basada en personas, puede crear una audiencia externa nueva o seleccionar en la lista de audiencias externas existentes.
 
 * Para las audiencias existentes, puede elegir entre audiencias de clientes externos que se crearon solamente en [!DNL Journey Optimizer B2B Edition].
-* Cuando cree una audiencia y la utilice para esta acción de recorrido, asegúrese de conectar el destino. Para obtener más información, consulte [Crear una nueva conexión de destino](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} y [Descripción general de la activación](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} en la documentación de [!DNL Experience Platform].
+* Cuando cree una audiencia y la utilice para esta acción de recorrido, asegúrese de conectar el destino. Para obtener más información, consulte [Crear una nueva conexión de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} y [Descripción general de la activación](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} en la documentación de [!DNL Experience Platform].
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea un vídeo de información general sobre la orquestación de medios de pago](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -209,7 +222,7 @@ Utilice esta acción para agregar perfiles de personas a un [grupo de compra](..
 
 +++[!UICONTROL Cambiar puntuación]
 
-Utilice esta acción para cambiar la puntuación de la persona en Marketo Engage. [Más información](https://experienceleague.adobe.com/es/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Utilice esta acción para cambiar la puntuación de la persona en Marketo Engage. [Más información](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Realizar una acción - Cambiar puntuación](./assets/node-action-change-score.png){width="300"}
 
@@ -251,7 +264,7 @@ Utilice el selector **[!UICONTROL Seleccionar Recorrido de persona]** para espec
 
 +++[!UICONTROL Enviar correo electrónico]
 
-Utilice esta acción para enviar un correo electrónico. Después de [crear el correo electrónico](../content/add-email.md#add-an-email-action-node-in-a-journey) para el nodo, puede diseñar, personalizar y previsualizar mensajes de correo electrónico en el espacio de diseño de correo electrónico (consulte [Creación de correo electrónico](../content/email-authoring.md)). También puedes enviar un [correo electrónico desde Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleccione el espacio de trabajo de Marketo Engage y, a continuación, el correo electrónico que desea enviar.
+Utilice esta acción para enviar un correo electrónico. Después de [crear el correo electrónico](../content/add-email.md#add-an-email-action-node-in-a-journey) para el nodo, puede diseñar, personalizar y previsualizar mensajes de correo electrónico en el espacio de diseño de correo electrónico (consulte [Creación de correo electrónico](../content/email-authoring.md)). También puedes enviar un [correo electrónico desde Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Seleccione el espacio de trabajo de Marketo Engage y, a continuación, el correo electrónico que desea enviar.
 
 ![Realizar una acción - Enviar correo electrónico](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -287,7 +300,7 @@ Utilice esta acción para cambiar el valor de un atributo de perfil de [personas
 
 >[!NOTE]
 >
->El _[!UICONTROL perfil de persona de actualización]_ reemplaza la acción _[!UICONTROL Cambiar valor de datos]_ de la versión actual de Journey Optimizer B2B edition.<br/>
+>La acción _[!UICONTROL Actualizar perfil de persona]_ reemplaza la acción _[!UICONTROL Cambiar valor de datos]_ de la versión actual de Journey Optimizer B2B edition.<br/>
 >
 >Un administrador puede configurar los atributos disponibles para el perfil individual de XDM actualizando los campos en las _[!UICONTROL configuraciones de XDM]_ > [!UICONTROL clases estándar]. Para obtener más información, vea [Esquemas estándar](../admin/xdm-field-management.md#standard-schemas).
 
@@ -295,7 +308,7 @@ Utilice esta acción para cambiar el valor de un atributo de perfil de [personas
 
 ### Acciones de Marketo Engage
 
-Las acciones basadas en personas de Marketo Engage están diseñadas para coordinar la orquestación de marketing basada en cuentas en Journey Optimizer B2B edition con los esfuerzos de marketing basados en posibles clientes en Marketo Engage. Utilice estas acciones para organizar la pertenencia a listas y solicitar campañas.
+Las acciones basadas en personas de [!DNL Marketo Engage] están diseñadas para coordinar la orquestación de Account-Based Marketing en [!DNL Journey Optimizer B2B Edition] con los esfuerzos de marketing basados en posibles clientes en Marketo Engage. Utilice estas acciones para organizar la pertenencia a listas y solicitar campañas.
 
 >[!NOTE]
 >
@@ -305,7 +318,7 @@ Por ejemplo, suprima las campañas de Marketo Engage para las personas que forma
 
 +++[!UICONTROL Agregar a la campaña de solicitudes de Marketo]
 
-Utilice esta acción para agregar perfiles de personas a una [campaña de solicitudes](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} en una instancia de Marketo Engage conectada.
+Utilice esta acción para agregar perfiles de personas a una [campaña de solicitudes](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} en una instancia de Marketo Engage conectada.
 
 En primer lugar, seleccione una instancia de Marketo Engage conectada. A continuación, seleccione el nombre de la campaña de solicitud.
 
@@ -315,7 +328,7 @@ En primer lugar, seleccione una instancia de Marketo Engage conectada. A continu
 
 +++[!UICONTROL Agregar a la lista de Marketo]
 
-Utilice esta acción para agregar personas a una [lista estática](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en una instancia de Marketo Engage conectada.
+Utilice esta acción para agregar personas a una [lista estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en una instancia de Marketo Engage conectada.
 
 En primer lugar, seleccione una instancia de Marketo Engage conectada. A continuación, seleccione el nombre de la lista.
 
@@ -325,7 +338,7 @@ En primer lugar, seleccione una instancia de Marketo Engage conectada. A continu
 
 +++[!UICONTROL Quitar de la lista de Marketo]
 
-Use esta acción para quitar personas de una [lista estática](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en Marketo Engage.
+Use esta acción para quitar personas de una [lista estática](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} en Marketo Engage.
 
 En primer lugar, seleccione una instancia de Marketo Engage conectada. A continuación, seleccione el nombre de la lista.
 
@@ -335,4 +348,4 @@ En primer lugar, seleccione una instancia de Marketo Engage conectada. A continu
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3443248/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
