@@ -21,7 +21,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: eb57eab88e264ec8ebd0975cced6c4241fcce23b
 workflow-type: tm+mt
 source-wordcount: 3582
 ht-degree: 0%
@@ -34,7 +34,7 @@ A medida que el sector de marketing se vuelve más competitivo, las marcas busca
 
 Esta nueva capacidad proporciona una generación de contenido basada en mensajes para la generación completa de correo electrónico o dirigida dentro de los componentes estructurales del correo electrónico. En el caso de las imágenes, puede generar nuevos recursos de imagen o generar recomendaciones desde el catálogo de imágenes en el recurso de marca de entrada. También puede utilizar esta capacidad para generar líneas de asunto y encabezados óptimos para afectar a la tasa de apertura de los correos electrónicos.
 
->[!IMPORTANT]
+>[!PREREQUISITES]
 >
 >Para acceder a estas funciones en Adobe Journey Optimizer B2B edition, debe tener el permiso _[!UICONTROL Asistente de IA]_ > _[!UICONTROL Generar contenido]_. Para obtener más información sobre cómo un administrador de productos puede conceder permisos de características, consulte [Editar roles para permisos de productos](../admin/user-management.md#edit-roles-for-product-permissions).
 

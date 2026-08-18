@@ -16,10 +16,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 171518509dc161d236663cde399b3fcc02408f18
 workflow-type: tm+mt
-source-wordcount: 2267
-ht-degree: 81%
+source-wordcount: 2348
+ht-degree: 77%
 
 ---
 
@@ -177,11 +177,11 @@ Los siguientes permisos rigen el acceso a las funciones de Journey Optimizer B2B
 | -------- | ----------- | ---------- |
 | Listas de cuentas B2B | Configure, administre, visualice y publique permisos para listas de cuentas B2B. Estos permisos incluyen acciones como agregar, quitar, importar y eliminar cuentas de listas de cuentas. | <li>Administrar listas de cuentas B2B |
 | Configuraciones de administración B2B | Configure, administre y visualice permisos para configuraciones administrativas B2B. Estos permisos incluyen conexiones de administración de recursos digitales, repositorios de recursos y eventos. | <li>Administrar configuraciones de administración B2B |
-| Assets B2B | Configure, administre y visualice permisos para recursos B2B. Estos permisos incluyen correos electrónicos, SMS, páginas de aterrizaje, fragmentos, plantillas e imágenes. | <li>Administración de Assets B2B <li>Administrar plantillas B2B <li>Administrar fragmentos B2B <li>Administración de correos electrónicos B2B |
+| Assets B2B | Configure, administre y visualice permisos para recursos B2B. Estos permisos incluyen correos electrónicos, páginas de aterrizaje, formularios, fragmentos, plantillas e imágenes. | <li>Administración de Assets B2B <li>Administrar plantillas B2B <li>Administrar fragmentos B2B <li>Administración de correos electrónicos B2B <li>Ver plantillas B2B <li>Ver fragmentos B2B <li>Publicar fragmentos B2B <li>Ver Assets B2B <li>Ver correos electrónicos B2B <li>Administrar exportación de mensajes B2B <li>Ver página de aterrizaje de B2B <li>Administrar página de aterrizaje B2B <li>Publicar página de aterrizaje B2B <li>Ver Forms B2B <li>Administración de Forms B2B <li>Publicar Forms B2B |
 | Grupos de compra B2B | Configure, administre y visualice permisos para grupos de compra B2B. Estos permisos incluyen intereses de la solución, funciones, plantillas y el estado del grupo de compra. | <li>Administrar grupos de compra B2B <li>Administrar intereses de soluciones B2B <li>Administrar plantillas de rol B2B <li>Administrar etapas B2B <li>Ver grupos de compra B2B |
-| Configuraciones de canal B2B | Configure, administre y visualice permisos para configuraciones de canal B2B. Estos permisos incluyen configuración para límites de comunicación, credenciales de API y configuración de seguridad. | <li>Administrar configuraciones de canales B2B |
+| Configuraciones de canal B2B | Configure, administre y visualice permisos para configuraciones de canal B2B. Estos permisos incluyen configuración para límites de comunicación, credenciales de API y configuración de seguridad. | <li>Administrar configuraciones de canales B2B <li>Ver configuración de correo electrónico B2B <li>Administrar configuración de correo electrónico B2B <li>Administrar ajustes preestablecidos de WhatsApp B2B <li>Administrar configuración de página de aterrizaje B2B <li>Ver ajustes preestablecidos de Forms B2B <li>Administrar ajustes preestablecidos de Forms B2B <li>Publicar ajuste preestablecido de Forms B2B <li>Crear experiencias web B2B <li>Administrar configuración de WhatsApp B2B |
 | Paneles B2B | Configure y vea permisos para paneles B2B. Estos permisos incluyen la participación en la cuenta, la compra de etapas de grupo, las cuentas emergentes y la cobertura de contactos. | <li>Ver tablero de participación B2B |
-| Recorridos B2B | Configuración, administración, visualización y publicación de permisos para recorridos B2B. Estos permisos incluyen acciones de cuenta y persona, detectores de eventos y rutas divididas. | <li>Administrar Recorridos de cuenta B2B |
+| Recorridos B2B | Configuración, administración, visualización y publicación de permisos para recorridos B2B. Estos permisos incluyen acciones de cuenta y persona, detectores de eventos y rutas divididas. | <li>Administrar Recorridos de cuenta B2B <li>Administrar Recorridos de persona B2B |
 | Reglas de Journey Optimizer | Acceder y configurar reglas de frecuencia (límites de comunicación). Estos permisos deben limitarse a los administradores de productos. | <li>Ver reglas de frecuencia <li>Administrar reglas de frecuencia |
 
 ### Funciones integradas B2B {#b2b-built-in-roles}
@@ -306,12 +306,12 @@ Para obtener información acerca de la administración de usuarios, consulte [_U
    * En la lista _[!UICONTROL Recursos]_ de la izquierda, busque el elemento **[!UICONTROL Administración de perfiles]** y haga clic en el icono _Agregar_ (**+**) para agregar el atributo.
 
    * Para el atributo, agregue los siguientes permisos:
-      * [!UICONTROL Ver segmentos]
-      * [!UICONTROL Administrar segmentos]
-      * [!UICONTROL Ver perfiles]
-      * [!UICONTROL Administrar perfiles]
-      * [!UICONTROL Ver perfil B2B]
-      * [!UICONTROL Administrar perfil B2B]
+     * [!UICONTROL Ver segmentos]
+     * [!UICONTROL Administrar segmentos]
+     * [!UICONTROL Ver perfiles]
+     * [!UICONTROL Administrar perfiles]
+     * [!UICONTROL Ver perfil B2B]
+     * [!UICONTROL Administrar perfil B2B]
 
    ![Experience Platform - agregar perfiles para el nuevo rol](./assets/aep-permissions-role-profiles.png){width="700" zoomable="yes"}
 

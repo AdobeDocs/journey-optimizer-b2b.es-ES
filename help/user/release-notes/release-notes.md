@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: aa687e409812e70b80c366b7c9bb0274a7a179f7
+source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
 workflow-type: tm+mt
-source-wordcount: 5580
+source-wordcount: 5599
 ht-degree: 62%
 
 ---
@@ -40,12 +40,13 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | ---- | ---- | ----------- |
 | Función | Recorridos de persona | (Anteriormente Beta, implementación anticipada para disponibilidad general) Ahora puede crear recorridos para orquestar el marketing basado en posibles clientes mediante audiencias y datos de Experience Platform. [Más información](../journeys/journeys-overview.md) |
 | Función | Listas de personas | Las listas de personas estáticas y dinámicas ya están disponibles para que pueda segmentar perfiles según los criterios definidos, como atributos demográficos e historial de eventos de experiencia. |
-| Función | _Nodos de recorrido de rutas divididas de variante_ | (Anteriormente, Beta para recorridos de cuenta) Los especialistas en marketing ahora pueden probar las variaciones dentro de un recorrido de cuenta o persona asignando cuentas o personas a diferentes rutas de recorrido en función de porcentajes definidos. |
+| Función | _Nodos de recorrido de rutas divididas de variante_ | (Anteriormente, Beta para recorridos de cuenta) Los especialistas en marketing ahora pueden probar las variaciones dentro de un recorrido de cuenta o persona asignando cuentas o personas a diferentes rutas de recorrido en función de porcentajes definidos. [Más información](../journeys/variant-split-paths-nodes.md) |
 | Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. |
 | Mejora | Escuchar déclencheur y filtros de eventos: recorridos de cuenta | Ya está disponible la compatibilidad con varios déclencheur y filtros en un nodo _Escuchar evento_ para los recorridos de cuenta. |
 | Mejora | Nodos de rutas divididas externas: recorridos de persona | Ya está disponible la compatibilidad con _nodos de rutas divididas externas_ para los recorridos de personas. |
 | Mejora | Nodos de acción externa: recorridos de persona | Ya está disponible la compatibilidad con _nodos de acción externa_ para los recorridos de personas. |
-| Mejora | Conjuntos de datos de relación de AEP | Los nuevos conjuntos de datos relacionales ahora aparecen en el entorno limitado de AEP, junto con los conjuntos de datos existentes. |
+| Mejora | Conjuntos de datos relacionales de AEP | Los nuevos conjuntos de datos relacionales ahora aparecen en el entorno limitado de AEP, junto con los conjuntos de datos existentes. |
+| Mejora | Permisos de productos - Canal WhatsApp | Los administradores de productos ahora pueden establecer los permisos de `Manage B2B WhatsApp Settings` y `Manage B2B WhatsApp Presets` para _[!UICONTROL Configuraciones de canal B2B]_. |
 
 >[!NOTE]
 >
@@ -152,7 +153,7 @@ Las siguientes funciones de IA agéntica ya están disponibles en Journey Optimi
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nuevo y actualizado | Journey Build Agent analiza, idea y crea recorridos de forma conjunta en tiempo real, lo que permite a los especialistas en marketing iniciar sesión más rápido, mejorar la participación y generar tasas de conversión más altas. [Más información](../agents/journey-agent.md) |
 | Audience Agent | Nuevo | Audience Agent identifica y crea automáticamente grupos de compra con datos estructurados y no estructurados. Ayuda a los especialistas en marketing a dirigirse a las personas adecuadas de forma más rápida y precisa. [Más información](../agents/audience-agent-b2b.md) |
-| Calificador de ventas | Nuevo | El cualificador de ventas es una aplicación complementaria de Adobe Journey Optimizer B2B edition basada en IA que contiene Account Qualification Agent y que está diseñada para optimizar los flujos de trabajo de los representantes de desarrollo empresarial (BDR). Automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. [Más información](../agents/sales-qualifier.md) |
+| Calificador de ventas | Nuevo | Sales Qualifier es una aplicación complementaria de Adobe Journey Optimizer B2B edition impulsada por IA que contiene Account Qualification Agent y que está diseñada para optimizar los flujos de trabajo de los representantes de desarrollo empresarial (BDR). Automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. [Más información](../agents/sales-qualifier.md) |
 
 ## Notas de la versión 2025.10 {#rel-2025-10}
 
