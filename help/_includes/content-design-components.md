@@ -22,19 +22,19 @@ ht-degree: 1%
 
    Cada tamaño de columna no puede ser inferior al 10 % de la anchura total del componente de estructura. Solo se pueden eliminar columnas vacías.
 
-   Para obtener más información acerca de cómo usar y dar formato a estos componentes, vea _[Componentes de estructura](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/structure-components)_.
+   Para obtener más información acerca de cómo usar y dar formato a estos componentes, vea _[Componentes de estructura](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/content-management/content-design/structure-components)_.
 
 1. Expanda la sección **[!UICONTROL Contenido]** y agregue tantos componentes de contenido como necesite a uno o más componentes de estructura.
 
    ![Arrastre un elemento de contenido al lienzo y ajuste la configuración](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
-   * [Contenedor](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#container)
-   * [Botón](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#button)
-   * [Texto](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#text)
-   * [Divisor](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#divider)
-   * [Imagen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#image)
-   * [Social](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#social)
-   * [Formulario](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#form) (solo páginas de aterrizaje)
+   * [Contenedor](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#container)
+   * [Botón](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#button)
+   * [Texto](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#text)
+   * [Divisor](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#divider)
+   * [Imagen](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#image)
+   * [Social](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#social)
+   * [Formulario](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#form) (solo páginas de aterrizaje)
 
 1. Si es necesario, puede realizar personalizaciones adicionales para cada componente en las fichas _[!UICONTROL Configuración]_ o _[!UICONTROL Estilo]_.
 
@@ -42,4 +42,4 @@ ht-degree: 1%
 
 1. Para agregar contenido condicional y adaptar el contenido a los perfiles de destino según las reglas condicionales, seleccione un componente de contenido y haga clic en el icono **[!UICONTROL Habilitar contenido condicional]** de la barra de herramientas de componentes.
 
-   Para obtener más información, consulte [_Contenido condicional_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components).
+   Para obtener más información, consulte [_Contenido condicional_](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/content-management/content-design/content-components).

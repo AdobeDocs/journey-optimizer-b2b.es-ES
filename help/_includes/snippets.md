@@ -16,13 +16,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Los datos de intención se incluyen cuando se configuran para la instancia de Journey Optimizer B2B edition. También requiere que se publiquen uno o más recorridos **o** que hayan creado grupos compradores. Para obtener más información acerca del modelo de detección de intención y cómo enviar palabras clave, productos y categorías, vea [Datos por intención](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
+>Los datos de intención se incluyen cuando se configuran para la instancia de Journey Optimizer B2B edition. También requiere que se publiquen uno o más recorridos **o** que hayan creado grupos compradores. Para obtener más información acerca del modelo de detección de intención y cómo enviar palabras clave, productos y categorías, vea [Datos por intención](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
 
 ## nota de licencia de AEM Assets {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->Las licencias para AEM Assets y las licencias de as a Cloud Service y Dynamic Media son requisitos previos para la integración. Asegúrese de que [Dynamic Media con API abierta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esté habilitado. La integración se limita a repositorios del _nivel de entrega_. Si usa el _nivel de Author_ y desea convertirlo, póngase en contacto con el Soporte técnico de Adobe Experience Manager.<br/>
+>Las licencias para AEM Assets y las licencias de as a Cloud Service y Dynamic Media son requisitos previos para la integración. Asegúrese de que [Dynamic Media con API abierta](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esté habilitado. La integración se limita a repositorios del _nivel de entrega_. Si usa el _nivel de Author_ y desea convertirlo, póngase en contacto con el Soporte técnico de Adobe Experience Manager.<br/>
 >Según el contrato y la configuración, se puede acceder directamente a Adobe Experience Manager Assets as a Cloud Service desde Adobe Journey Optimizer B2B edition al diseñar contenido visual.
 
 ## Creación de contenido: componentes, paso de estructuras {#structures-step}
@@ -231,7 +231,7 @@ Hay herramientas disponibles para ayudarle a localizar el recurso que necesita:
 
 ## Contenido: selección de imágenes, AEM Assets {#aem-assets-dam}
 
-Elija este tipo para examinar y seleccionar un recurso de imagen de un [repositorio configurado de Experience Manager Assets](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories).
+Elija este tipo para examinar y seleccionar un recurso de imagen de un [repositorio configurado de Experience Manager Assets](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories).
 
 En el cuadro de diálogo _[!UICONTROL Seleccionar Assets]_, elija una imagen con las herramientas disponibles para localizar el recurso que necesita y haga clic en **[!UICONTROL Seleccionar]**.:
 
