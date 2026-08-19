@@ -1,9 +1,9 @@
 ---
 title: 'Creación de contenido: recursos'
 description: Sección reutilizada sobre el uso de recursos para la creación de contenido
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '197'
 ht-degree: 4%
 
 ---
@@ -24,4 +24,4 @@ En el editor de contenido visual, seleccione el icono _Assets_ (![Assets icon](.
 
   ![Seleccione un recurso de la biblioteca de origen](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-Para obtener más información sobre el uso de recursos del tipo de origen, consulte [Uso de recursos para la creación de contenido](../user/content/assets-overview.md#use-assets-for-content-authoring).
+Para obtener más información sobre el uso de recursos del tipo de origen, consulte [Uso de recursos para la creación de contenido](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring).
