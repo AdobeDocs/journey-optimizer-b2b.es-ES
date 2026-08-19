@@ -17,16 +17,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
+source-git-commit: a37c860da398e8e3d00c0bc515f5d4b38a626518
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: 2319
 ht-degree: 3%
 
 ---
 
 # Iniciar una acción
 
-Para ejecutar una acción, como enviar un correo electrónico, cambiar una puntuación, asignar a un grupo comprador, etc., puede agregar un nodo _[!UICONTROL Realizar una acción]_ en el recorrido. Las acciones suelen ser lo que desea que ocurra como resultado de algún tipo de déclencheur, como un evento o una acción anterior.
+Para ejecutar una acción, como enviar un correo electrónico, cambiar una puntuación o asignar a un grupo comprador, puedes agregar un nodo _[!UICONTROL Realizar una acción]_ en tu recorrido. Las acciones suelen ser lo que desea que ocurra como resultado de algún tipo de déclencheur, como un evento o una acción anterior.
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea el vídeo de información general](#overview-video)
 
@@ -42,6 +42,7 @@ En un recorrido de cuentas, utilice una acción en las cuentas cuando desee apli
 | [!UICONTROL Activar en destino] | Seleccione un destino |
 | [!UICONTROL Agregar cuenta a (otro) Recorrido] | Seleccionar recorrido de cuenta activa |
 | [!UICONTROL Agregar a la lista de cuentas] | Seleccionar lista de cuentas estáticas activas |
+| [!UICONTROL Desactivar del destino] | Seleccionar la audiencia virtual existente<br/>Seleccionar destino |
 | [!UICONTROL Quitar cuenta del Recorrido] | Seleccionar recorrido de cuenta activa |
 | [!UICONTROL Quitar de la lista de cuentas] | Seleccione una lista de cuentas estáticas activas |
 | [!UICONTROL Enviar alerta de ventas] | Seleccionar interés de solución<br/>Enviar correo electrónico a |
@@ -71,13 +72,19 @@ En un recorrido de cuentas, utilice una acción en las cuentas cuando desee apli
 
 >[!BEGINSHADEBOX]
 
-### Activar en un destino de LinkedIn
+### Activar o desactivar en un destino {#activate-deactivate-destination}
 
 Use la acción _Activar en destino_ para activar cuentas en destinos de Experience Platform directamente desde su recorrido. Esta acción le permite insertar cuentas cualificadas (según los filtros de grupo de compra, las puntuaciones de participación y otros criterios) en audiencias coincidentes en destinos admitidos.
 
-A partir de la versión 2025.10, **_LinkedIn_** es el primer tipo de destino admitido. Utilice la acción para un destino de LinkedIn para optimizar la ejecución de la campaña eliminando los traslados de varios sistemas y reduciendo la latencia. Por ejemplo, como experto en marketing, puede activar automáticamente cuentas de alta intención en LinkedIn para volver a segmentar cuando falten funciones de compra clave o volver a activar cuentas inactivas basadas en filtros de inactividad.
+Puede emparejar esta acción con la acción _Desactivar del destino_ más adelante en el mismo recorrido para detener las cuentas de segmentación después de que se conviertan o dejen de cumplir los requisitos.
 
-Para obtener más información sobre el uso de audiencias coincidentes con la cuenta para un destino de LinkedIn, consulte [Audiencias coincidentes con la cuenta de LinkedIn](../data/linkedin-account-matched-audiences.md).
+>[!NOTE]
+>
+>A partir de la versión 2025.10, **_LinkedIn_** es el primer tipo de destino admitido. Utilice la acción para un destino de LinkedIn para optimizar la ejecución de la campaña eliminando los traslados de varios sistemas y reduciendo la latencia. Por ejemplo, como experto en marketing, puede activar automáticamente cuentas de alta intención en LinkedIn para volver a segmentar cuando falten funciones de compra clave o volver a activar cuentas inactivas basadas en filtros de inactividad.
+>
+>Para obtener más información sobre el uso de audiencias coincidentes con la cuenta para un destino de LinkedIn, consulte [Audiencias coincidentes con la cuenta de LinkedIn](../data/linkedin-account-matched-audiences.md).
+
+_Para agregar un nodo Activar al nodo de destino :_
 
 1. Con el nodo _Realizar una acción_ seleccionado en el lienzo de recorrido, establezca **[!UICONTROL Acción en las cuentas]** en **[!UICONTROL Activar en destino]**.
 
@@ -93,11 +100,23 @@ Para obtener más información sobre el uso de audiencias coincidentes con la cu
 
    ![nodo de Recorrido - realizar una acción en las cuentas - activar en destino - configuración completada](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
+_Para agregar un nodo Desactivar desde destino :_
+
+1. Con el nodo _Realizar una acción_ seleccionado en el lienzo de recorrido, establece **[!UICONTROL Acción en las cuentas]** en **[!UICONTROL Desactivar del destino]**.
+
+   ![nodo de Recorrido - realizar una acción en las cuentas - desactivar del menú de destino](./assets/node-deactivate-destination-menu.png){width="500" zoomable="yes"}
+
+1. En **[!UICONTROL Audiencia virtual]**, haga clic en **[!UICONTROL Seleccionar audiencia virtual existente]** y elija la audiencia virtual cuyas cuentas desee eliminar del destino.
+
+1. En **[!UICONTROL Desactivar del destino]**, haga clic en **[!UICONTROL Seleccionar destino]** y elija el destino desde el que desea quitar las cuentas.
+
+   Después de configurar el nodo _Desactivar del destino_, se muestra la audiencia virtual y el destino seleccionados.
+
 >[!ENDSHADEBOX]
 
 ## Acciones de personas {#people-actions}
 
-En un recorrido de cuenta o persona, utilice una acción para las personas cuando desee aplicar un cambio a todas las personas de la ruta del nodo. Para un recorrido de cuenta, puede usar este tipo de nodo dentro de la _ruta dividida por personas_ o _ruta dividida por cuentas_.
+En un recorrido de cuenta o persona, utilice una acción para las personas cuando desee aplicar un cambio a todas las personas de la ruta del nodo. Para un recorrido de cuenta, puede usar este tipo de nodo dentro de los nodos _dividir ruta por personas_ o _dividir ruta por cuentas_.
 
 ### Acciones y restricciones {#people-action-constraints}
 
@@ -287,7 +306,7 @@ Utilice esta acción para cambiar el valor de un atributo de perfil de [personas
 
 >[!NOTE]
 >
->El _[!UICONTROL perfil de persona de actualización]_ reemplaza la acción _[!UICONTROL Cambiar valor de datos]_ de la versión actual de Journey Optimizer B2B edition.<br/>
+>La acción _[!UICONTROL Actualizar perfil de persona]_ reemplaza la acción _[!UICONTROL Cambiar valor de datos]_ de la versión actual de Journey Optimizer B2B edition.<br/>
 >
 >Un administrador puede configurar los atributos disponibles para el perfil individual de XDM actualizando los campos en las _[!UICONTROL configuraciones de XDM]_ > [!UICONTROL clases estándar]. Para obtener más información, vea [Esquemas estándar](../admin/xdm-field-management.md#standard-schemas).
 
@@ -295,7 +314,7 @@ Utilice esta acción para cambiar el valor de un atributo de perfil de [personas
 
 ### Acciones de Marketo Engage
 
-Las acciones basadas en personas de Marketo Engage están diseñadas para coordinar la orquestación de marketing basada en cuentas en Journey Optimizer B2B edition con los esfuerzos de marketing basados en posibles clientes en Marketo Engage. Utilice estas acciones para organizar la pertenencia a listas y solicitar campañas.
+Las acciones basadas en personas de [!DNL Marketo Engage] están diseñadas para coordinar la orquestación de Account-Based Marketing en [!DNL Journey Optimizer B2B Edition] con los esfuerzos de marketing basados en posibles clientes en Marketo Engage. Utilice estas acciones para organizar la pertenencia a listas y solicitar campañas.
 
 >[!NOTE]
 >
