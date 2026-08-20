@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
 source-wordcount: 1380
 ht-degree: 2%
@@ -34,7 +34,7 @@ Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la fic
 
 Esta acción inicia las herramientas de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
-* [Diseñe su correo electrónico desde cero](#design-your-email-from-scratch) con la interfaz de diseño visual.
+* [Diseñe su correo electrónico desde cero](#design-from-scratch) con la interfaz de diseño visual.
 
 * [Importe contenido de HTML existente](#import-existing-html-content) desde un archivo o una carpeta .zip.
 
@@ -62,7 +62,7 @@ Utilice el espacio de diseño de contenido visual para definir la estructura y e
 
 1. [Revisar y actualizar vínculos](#edit-linked-url-tracking).
 
-1. [Probar el correo electrónico](#check-and-test-the-email).
+1. [Probar el correo electrónico](#email-testing).
 
 <!--
  If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
