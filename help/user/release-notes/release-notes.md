@@ -3,24 +3,17 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
+source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
 workflow-type: tm+mt
-source-wordcount: 5599
-ht-degree: 62%
+source-wordcount: 5628
+ht-degree: 61%
 
 ---
 
@@ -30,7 +23,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2026.8 {#rel-2026-8}
 
@@ -41,6 +34,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Función | Recorridos de persona | (Anteriormente Beta, implementación anticipada para disponibilidad general) Ahora puede crear recorridos para orquestar el marketing basado en posibles clientes mediante audiencias y datos de Experience Platform. [Más información](../journeys/journeys-overview.md) |
 | Función | Listas de personas | Las listas de personas estáticas y dinámicas ya están disponibles para que pueda segmentar perfiles según los criterios definidos, como atributos demográficos e historial de eventos de experiencia. |
 | Función | _Nodos de recorrido de rutas divididas de variante_ | (Anteriormente, Beta para recorridos de cuenta) Los especialistas en marketing ahora pueden probar las variaciones dentro de un recorrido de cuenta o persona asignando cuentas o personas a diferentes rutas de recorrido en función de porcentajes definidos. [Más información](../journeys/variant-split-paths-nodes.md) |
+| Función | Metadatos de C2PA | Las imágenes generadas o editadas con herramientas de IA generativa ahora se firman automáticamente con metadatos de C2PA, lo que le ayuda a cumplir con los requisitos de transparencia de contenido y divulgación de IA. [Más información](../content/c2pa-metadata.md) |
 | Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. |
 | Mejora | Escuchar déclencheur y filtros de eventos: recorridos de cuenta | Ya está disponible la compatibilidad con varios déclencheur y filtros en un nodo _Escuchar evento_ para los recorridos de cuenta. |
 | Mejora | Nodos de rutas divididas externas: recorridos de persona | Ya está disponible la compatibilidad con _nodos de rutas divididas externas_ para los recorridos de personas. |
