@@ -50,7 +50,7 @@ La interfaz de chat de Adobe Journey Optimizer B2B edition se basa en la misma t
 
 Sales Qualifier es una aplicación controlada por IA que puede utilizar con Journey Optimizer B2B edition. Implementa Account Qualification Agent y está diseñado para optimizar los flujos de trabajo para los representantes de desarrollo empresarial (BDR). Sales Qualifier automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. Reduce la carga manual de BDR y acelera la velocidad de la canalización para las empresas B2B empresariales.
 
-Para obtener más información, consulte la [documentación de Sales Qualifier](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+Para obtener más información, consulte la [documentación de Sales Qualifier](https://experienceleague.adobe.com/es/docs/sales-qualifier/using/home){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -118,7 +118,7 @@ Asistente de IA en Journey Optimizer B2B edition da prioridad a la privacidad, l
 
 * Debe tener permiso explícito para interactuar con el Ayudante de IA.
 
-  * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} y [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+  * Un administrador puede establecer permisos mediante [la interfaz de usuario de permisos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} y [Admin Console](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
   * Los permisos son granulares y el administrador de la zona protegida puede configurar qué usuarios pueden hacer diferentes categorías de preguntas (preguntas basadas en el conocimiento del producto con el asistente de IA o preguntas sobre perspectivas operativas).
 
