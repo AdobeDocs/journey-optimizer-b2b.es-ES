@@ -17,9 +17,9 @@ subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: dd969d66eab5649ccb19fe6582dafe0b7304772c
+source-git-commit: d0e408a3684289460bae729577870fc698c70a60
 workflow-type: tm+mt
-source-wordcount: 559
+source-wordcount: 598
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ Las organizaciones de marketing están más preocupadas que nunca por la transpa
 Para obtener información completa sobre el historial de recursos, puede usar la [herramienta de inspección](https://contentauthenticity.adobe.com/inspect) de Adobe Content Authenticity.
 
 Los metadatos de C2PA persisten con el archivo de imagen. Cuando se carga o exporta una imagen generada o editada con IA generativa desde [!DNL Adobe Journey Optimizer B2B Prime], se conservan sus metadatos de C2PA.
+
+Para obtener más información sobre cómo adjuntar automáticamente metadatos de C2PA en las aplicaciones empresariales de Adobe CX, consulte [_Transparencia del contenido de inteligencia artificial aplicada generativa_](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} en la guía de IA en CX Enterprise.
 
 >[!NOTE]
 >

@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
+source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
 workflow-type: tm+mt
-source-wordcount: 5599
-ht-degree: 62%
+source-wordcount: 5628
+ht-degree: 61%
 
 ---
 
@@ -41,6 +41,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Función | Recorridos de persona | (Anteriormente Beta, implementación anticipada para disponibilidad general) Ahora puede crear recorridos para orquestar el marketing basado en posibles clientes mediante audiencias y datos de Experience Platform. [Más información](../journeys/journeys-overview.md) |
 | Función | Listas de personas | Las listas de personas estáticas y dinámicas ya están disponibles para que pueda segmentar perfiles según los criterios definidos, como atributos demográficos e historial de eventos de experiencia. |
 | Función | _Nodos de recorrido de rutas divididas de variante_ | (Anteriormente, Beta para recorridos de cuenta) Los especialistas en marketing ahora pueden probar las variaciones dentro de un recorrido de cuenta o persona asignando cuentas o personas a diferentes rutas de recorrido en función de porcentajes definidos. [Más información](../journeys/variant-split-paths-nodes.md) |
+| Función | Metadatos de C2PA | Las imágenes generadas o editadas con herramientas de IA generativa ahora se firman automáticamente con metadatos de C2PA, lo que le ayuda a cumplir con los requisitos de transparencia de contenido y divulgación de IA. [Más información](../content/c2pa-metadata.md) |
 | Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. |
 | Mejora | Escuchar déclencheur y filtros de eventos: recorridos de cuenta | Ya está disponible la compatibilidad con varios déclencheur y filtros en un nodo _Escuchar evento_ para los recorridos de cuenta. |
 | Mejora | Nodos de rutas divididas externas: recorridos de persona | Ya está disponible la compatibilidad con _nodos de rutas divididas externas_ para los recorridos de personas. |
