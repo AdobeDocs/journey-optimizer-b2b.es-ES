@@ -14,9 +14,9 @@ subfeature_v2:
   - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: 878
+source-wordcount: 955
 ht-degree: 1%
 
 ---
@@ -38,6 +38,16 @@ En la parte inferior del panel se encuentra el cuadro de mensaje, donde puede:
 
 * Agrega un mensaje y presiona **Intro** para enviar (**Mayús+Intro** inserta una nueva línea).
 * Adjuntar un archivo mediante el icono _Adjuntar_ (formatos admitidos: `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Utilice CSV y cargas de hoja de cálculo para iniciar una importación de posibles clientes.
+
+>[!BEGINSHADEBOX]
+
+## Calificador de ventas
+
+Sales Qualifier es una aplicación controlada por IA que puede utilizar con Journey Optimizer B2B Prime. Implementa Account Qualification Agent y está diseñado para optimizar los flujos de trabajo para los representantes de desarrollo empresarial (BDR). Sales Qualifier automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. Reduce la carga manual de BDR y acelera la velocidad de la canalización para las empresas B2B empresariales.
+
+Para obtener más información, consulte la [documentación de Sales Qualifier](https://experienceleague.adobe.com/es/docs/sales-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 ## Preguntar al asistente de IA
 
@@ -81,7 +91,7 @@ Los conectores abren un modal en lugar de insertar texto. Los métodos abreviado
 >
 >Algunos comandos aparecen atenuados y marcados _Próximamente_. Estas están cerradas por indicadores de funcionalidades y aún no están activas para su cuenta: seleccionar una no hace nada. El conjunto disponible depende de las funciones que estén habilitadas para usted.
 
-## Aptitudes
+## Habilidades
 
 Una aptitud es un flujo de trabajo empaquetado que el agente sabe cómo ejecutar: los componentes básicos del menú `/` y de las solicitudes en lenguaje natural. Cada aptitud agrupa instrucciones paso a paso y las herramientas específicas necesarias para un trabajo (por ejemplo, &quot;publicar un recorrido&quot;, &quot;comparar dos listas de personas&quot;, &quot;crear un modelo de puntuación&quot;).
 
