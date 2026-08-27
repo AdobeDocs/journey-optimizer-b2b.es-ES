@@ -7,35 +7,28 @@ level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 autotag-review: '2026-06-05T16:09:10.773Z'
 TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 970
+source-wordcount: 954
 ht-degree: 1%
 
 ---
 
-# Uso del asistente de IA en Journey Optimizer B2B edition
+# Uso de la interfaz de chat
 
-En Journey Optimizer B2B edition, el asistente de IA es una función de la interfaz de usuario que puede utilizar para comprender los conceptos del producto, navegar rápidamente por las funciones del producto y obtener información operativa para su entorno. También está disponible en varios productos de Adobe Experience Cloud.
+En Journey Optimizer B2B edition, el asistente de IA proporciona una interfaz de chat que puede utilizar para comprender los conceptos del producto, navegar rápidamente por las funciones del producto y obtener información operativa para su entorno. También está disponible en varios productos de Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
->Se requiere un acuerdo para las Directrices generativas del usuario de IA de Adobe Experience Cloud antes de poder utilizar el asistente de IA. Para obtener más información sobre este contrato y las directrices de uso, consulte las [Directrices del usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Se requiere un acuerdo para las Directrices generativas del usuario de IA de Adobe Experience Cloud antes de poder utilizar el asistente de IA. Para obtener más información sobre este contrato y las directrices de uso, consulte las [Directrices del usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
-Para acceder al asistente de IA, haga clic en el icono del encabezado. El asistente de IA se abre en un panel a la derecha.
+Para acceder a la interfaz de chat, haga clic en el icono del encabezado.
 
 ![Haga clic en el icono para acceder al asistente de IA](./assets/ai-assistant-icon-displayed.png){width="420"}
 
@@ -55,7 +48,7 @@ Las preguntas sobre conocimientos del producto se refieren a conceptos e informa
 * ¿Cómo se envía un correo electrónico en un recorrido?
 * ¿Cómo puedo personalizar el contenido de mi correo electrónico?
 
-Para hacer una pregunta sobre un producto, indíquela en el campo situado en la parte inferior del panel y pulse Intro. Por ejemplo, cuando necesita aprender a utilizar un grupo de compra en un recorrido. En este caso, escribe _¿Cómo uso un grupo de compra en un recorrido?_ Después de enviar la pregunta, AI Assistant consulta su base de conocimientos y genera una respuesta en unos segundos.
+Para hacer una pregunta sobre un producto, indíquela en el campo situado en la parte inferior del panel y pulse Intro. Por ejemplo, cuando necesita aprender a utilizar un grupo de compra en un recorrido. En este caso, escribe _¿Cómo uso un grupo de compra en un recorrido?_ Después de enviar la pregunta, AI Assistant consulta su base de conocimientos y genera una respuesta en cuestión de segundos.
 
 ![Escriba una pregunta en el cuadro de texto](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -67,7 +60,7 @@ Para hacer una pregunta sobre un producto, indíquela en el campo situado en la 
 
 ## Formular preguntas sobre perspectivas operativas
 
-Las preguntas de Operational Insights se refieren a los objetos de recorrido de la zona protegida de su organización. Puede hacer preguntas sobre artefactos operativos, como audiencias de cuenta, recorridos, intereses de soluciones y plantillas de grupos de compra. Algunos ejemplos de preguntas o mensajes de información operativa son los siguientes:
+Las preguntas de Operational Insights se refieren a los objetos de recorrido de la zona protegida de su organización. Puede hacer preguntas sobre artefactos operativos, como audiencias, recorridos, intereses de soluciones y plantillas de grupos de compra. Algunos ejemplos de preguntas o mensajes de información operativa son los siguientes:
 
 * ¿Cuántos recorridos en directo tengo en Adobe Journey Optimizer B2B edition?
 * Dame una lista de todos los recorridos programados
@@ -93,7 +86,7 @@ Para ver toda la tabla en el Asistente de IA, haga clic en el icono _Maximizar_ 
 
 ## Verificar respuestas
 
-El Asistente de IA incluye herramientas que puede utilizar para verificar y validar respuestas.
+La interfaz de chat incluye herramientas que puede utilizar para verificar y validar las respuestas.
 
 ### Fuentes de conocimiento del producto
 
