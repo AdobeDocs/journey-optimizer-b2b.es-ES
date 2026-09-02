@@ -4,22 +4,17 @@ description: Administre recursos de imagen desde Journey Optimizer B2B edition y
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:17:01.501Z
 TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 61%
+source-wordcount: 848
+ht-degree: 62%
 
 ---
 
@@ -35,7 +30,7 @@ Si se le ha proporcionado [!DNL Adobe Experience Manager as a Cloud Services] y 
 
 ### Activos internos
 
-El repositorio de recursos interno se proporciona de manera predeterminada con cada suscripción de [!DNL Journey Optimizer B2B Edition]. Esto significa que tiene acceso a cualquiera de los recursos de imagen almacenados en el sistema de archivos de recursos de [!DNL Adobe Marketo Engage] conectado. Puede utilizar este repositorio como su biblioteca de recursos local, incluidas las funciones de carga y descarga de recursos. También puede utilizar estos recursos dentro del contenido del recorrido.
+El repositorio de recursos interno se proporciona de manera predeterminada con cada suscripción de [!DNL Journey Optimizer B2B Edition]. Puede utilizar este repositorio como su biblioteca de recursos local, incluidas las funciones de carga y descarga de recursos. También puede utilizar estos recursos dentro del contenido del recorrido.
 
 Puede [editar estos recursos mediante Adobe Express](./image-edit-adobe-express.md) y moverlos a carpetas para organizarlos y usarlos en sus correos electrónicos, plantillas y fragmentos.
 

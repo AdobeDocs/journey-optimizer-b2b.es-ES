@@ -6,22 +6,16 @@ role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
 autotag-review: '2026-05-27T16:19:08.483Z'
 TQID: 'https://experienceleague.adobe.com/Y3QgxZVcu76zBWJp9Ky7dUWjSOGg5JoPcPzPFrNsDXo'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 1625
-ht-degree: 7%
+source-wordcount: 1624
+ht-degree: 6%
 
 ---
 
@@ -111,7 +105,7 @@ Para quitar la designación del encabezado o pie de página, seleccione el compo
 
 En el caso de pantallas o ventanas de visualización más pequeñas, las columnas del componente de estructura se muestran como apiladas a menos que cambie la configuración predeterminada. Con el componente de estructura de varias columnas seleccionado, cambie la configuración **[!UICONTROL No apilar columnas en dispositivos móviles]** moviendo el control deslizante de alternancia a la derecha.
 
-![No apilar columnas en el móvil &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
+![No apilar columnas en el móvil ](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Estilos de componente
 
@@ -135,21 +129,21 @@ Para habilitar la configuración de la imagen de fondo, mueva el selector de alt
 
 Elija [tipo de origen de recurso](./assets-overview.md) y seleccione el archivo de imagen:
 
-+++[!UICONTROL Marketo Engage Assets]
++++[!UICONTROL Seleccionar recurso]
 
-{{me-dam}}
-
-+++
-
-+++[!UICONTROL Experience Manager Assets]
-
-{{aem-assets-dam}}
+{{internal-dam}}
 
 +++
 
 +++[!UICONTROL Importar medios]
 
 {{image-upload}}
+
++++
+
++++[!UICONTROL Experience Manager Assets]
+
+{{aem-assets-dam}}
 
 +++
 
