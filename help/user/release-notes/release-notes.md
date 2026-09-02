@@ -3,21 +3,14 @@ title: Notas de la versión de Journey Optimizer B2B Edition
 description: Descubra las últimas funciones, mejoras y correcciones de errores de Adobe Journey Optimizer B2B edition. Manténgase actualizado de las nuevas funciones y mejoras del producto.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
 source-wordcount: 5635
 ht-degree: 61%
@@ -30,7 +23,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2026.8 {#rel-2026-8}
 
@@ -154,7 +147,7 @@ Las siguientes funciones de IA agéntica ya están disponibles para Journey Opti
 | ----- | ------ | ----------- |
 | Journey Build Agent | Nuevo y actualizado | Journey Build Agent analiza, idea y crea recorridos de forma conjunta en tiempo real, lo que permite a los especialistas en marketing iniciar sesión más rápido, mejorar la participación y generar tasas de conversión más altas. [Más información](../agents/journey-agent.md) |
 | Audience Agent | Nuevo | Audience Agent identifica y crea automáticamente grupos de compra con datos estructurados y no estructurados. Ayuda a los especialistas en marketing a dirigirse a las personas adecuadas de forma más rápida y precisa. [Más información](../agents/audience-agent-b2b.md) |
-| Calificador de ventas | Nuevo | Sales Qualifier es una aplicación complementaria de Adobe Journey Optimizer B2B edition impulsada por IA que contiene Account Qualification Agent y que está diseñada para optimizar los flujos de trabajo de los representantes de desarrollo empresarial (BDR). Automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. [Más información](https://experienceleague.adobe.com/es/docs/sales-qualifier/using/home){target="_blank"} |
+| Calificador de ventas | Nuevo | Sales Qualifier es una aplicación complementaria de Adobe Journey Optimizer B2B edition impulsada por IA que contiene Account Qualification Agent y que está diseñada para optimizar los flujos de trabajo de los representantes de desarrollo empresarial (BDR). Automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. [Más información](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Notas de la versión 2025.10 {#rel-2025-10}
 
@@ -254,7 +247,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Función | Acceso en CRM a las páginas de detalles | Ahora puede configurar vínculos directos a las páginas de detalles de Journey Optimizer B2B Edition para cuentas, contactos y posibles clientes en su herramienta CRM (Customer Relationship Management) como Salesforce o Microsoft Dynamics. [Más información](../accounts/crm-linking.md) |
 | Función | Compatibilidad con CSS personalizado para el diseño de contenido | Ahora puede añadir su propio CSS personalizado cuando cree contenido para correos electrónicos y páginas de destino en el espacio de diseño. [Más información](../content/design-custom-css.md) |
 | Función | Más información sobre la configuración de asignación de palabras clave de intenciones | Para activar y gestionar el modelo de detección de intención, los administradores ahora pueden cargar una hoja de cálculo para definir una categoría de asignación de datos por intención. [Más información](../admin/intent-data.md) |
-| Mejora | Simular contenido desde el resumen del correo electrónico | Ahora puede acceder a las herramientas _Simular contenido_ desde el resumen del correo electrónico (detalles y propiedades) al abrir un mensaje de correo electrónico desde la lista de correos electrónicos. Este acceso se suma al espacio de diseño del correo electrónico. [Más información](../content/email-simulate-content.md#display-the-email-preview) |
+| Mejora | Simular contenido desde el resumen del correo electrónico | Ahora puede acceder a las herramientas _Simular contenido_ desde el resumen del correo electrónico (detalles y propiedades) al abrir un mensaje de correo electrónico desde la lista de correos electrónicos. Este acceso se suma al espacio de diseño del correo electrónico. [Más información](../content/email-simulate-content.md#display-preview) |
 | Mejora | Visualización del recuento total para la lista de plantillas de funciones | La página de la lista _[!UICONTROL Plantillas de las funciones]_ se ha mejorado con la visualización del recuento total junto a la barra de búsqueda. |
 
 ## Notas de la versión 2025.5 {#rel-2025-5}
