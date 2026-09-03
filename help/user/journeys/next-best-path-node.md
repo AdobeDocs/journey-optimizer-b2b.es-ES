@@ -5,21 +5,15 @@ feature: Account Journeys, AI Assistant
 role: User
 autotag-review: '2026-05-20T18:52:08.227Z'
 TQID: 'https://experienceleague.adobe.com/idPaG-ZNnNwJjN8yVC3Ay1FZ2XPgtQgrSMNIus4fReI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1912
+source-wordcount: 1913
 ht-degree: 0%
 
 ---
@@ -77,9 +71,9 @@ Para cada ruta, defina un nombre y una petición de datos en lenguaje natural qu
 
      **El ejemplo solicita una división de tres rutas:**
 
-      * _Ruta 1 - Líderes de RRHH :_Identifique a las personas en roles de liderazgo de RRHH que tienen más probabilidades de involucrarse con la administración de talentos y el contenido de experiencia del empleado.
-      * _Ruta 2 - Evaluadores técnicos :_: identifique las partes interesadas técnicas que tienen más probabilidades de interactuar con la arquitectura del producto, las integraciones y el contenido de implementación.
-      * _Ruta 3 - Tomadores de decisiones empresariales :_Identifique a las partes interesadas empresariales que tienen más probabilidades de interactuar con el retorno de la inversión, los resultados empresariales y el contenido de los estudios de casos.
+     * _Ruta 1 - Líderes de RRHH :_Identifique a las personas en roles de liderazgo de RRHH que tienen más probabilidades de involucrarse con la administración de talentos y el contenido de experiencia del empleado.
+     * _Ruta 2 - Evaluadores técnicos :_: identifique las partes interesadas técnicas que tienen más probabilidades de interactuar con la arquitectura del producto, las integraciones y el contenido de implementación.
+     * _Ruta 3 - Tomadores de decisiones empresariales :_Identifique a las partes interesadas empresariales que tienen más probabilidades de interactuar con el retorno de la inversión, los resultados empresariales y el contenido de los estudios de casos.
 
 1. Si es necesario, reordene las rutas para establecer el orden de prioridad de las coincidencias.
 
@@ -274,7 +268,7 @@ Utilice la simulación para probar cómo la IA evalúa los indicadores con respe
 1. En el cuadro de diálogo, elija la audiencia que desea utilizar para la simulación:
 
    * **[!UICONTROL Listas de personas originales]**: use la audiencia del nodo de audiencia. Especifique un tamaño de muestra cuando la audiencia completa supere el umbral de simulación.
-   * **[!UICONTROL Listas dinámicas y estáticas]** - Usar una lista estática o dinámica [!DNL Marketo Engage].
+   * **[!UICONTROL Listas dinámicas y estáticas]**: use una lista de personas estática o dinámica.
    * **[!UICONTROL Registros de pruebas]** - Usar perfiles de prueba sugeridos por IA.
 
    ![Siguiente mejor ruta: simular; elija audiencia](./assets/node-next-best-path-simulate-dialog.png){width="300"}
