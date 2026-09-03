@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: 1432
 ht-degree: 5%
 
 ---
@@ -156,23 +156,6 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
    ![Plantilla de roles con varios roles definidos](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
    Los cambios se guardarán automáticamente en el estado _Borrador_. Si no está listo para publicar la plantilla de roles, haga clic en la flecha izquierda (atrás) en la parte superior de la página y vuelva a la lista _[!UICONTROL Plantillas de roles]_.
-
->[!BEGINSHADEBOX &quot;inscripción a la lista Marketo Engage&quot;]
-
-En Marketo Engage, _Campañas inteligentes_ comprueba la pertenencia de los programas para asegurarte de que los posibles clientes no reciban correos electrónicos duplicados y no sean miembros de varios flujos de correos electrónicos al mismo tiempo. En Journey Optimizer B2B, puede comprobar la pertenencia a listas de Marketo Engage como condición para la plantilla de funciones a fin de eliminar la duplicación en la compra de actividades de recorrido y pertenencia a grupos.
-
-Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** al espacio de filtro. Para evaluar la pertenencia a una o varias listas de Marketo Engage, complete la definición del filtro.
-
-![Condición de plantilla de roles para la pertenencia a la lista Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**Desaprobación de características**
->
->En la versión actual de Journey Optimizer B2B edition, ya no se admite el filtrado basado en la pertenencia a listas o programas en una instancia de Marketo Engage.
-
->[!ENDSHADEBOX]
 
 ### Cambio de la configuración de puntuación de integridad {#change-the-completeness-score-settings}
 

@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1339
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
@@ -33,13 +33,9 @@ En Journey Optimizer B2B edition, una lista de cuentas es una colección de cuen
 * **Estática**: con una lista de cuentas estáticas, la lista solo cambia cuando agrega las cuentas. Puede agregar cuentas manualmente aplicando un conjunto de filtros para rellenar la lista basada en los datos de la cuenta actual, o agregar y quitar cuentas mediante un recorrido de cuentas.
 * **Dinámico**: con una lista de cuentas dinámicas, define un conjunto de filtros para depurar automáticamente la lista. El sistema utiliza este conjunto de filtros para agregar y quitar cuentas según los cambios en la información de las cuentas. Esta administración de listas es similar a la [segmentación de audiencias en Real-time Customer Data Platform](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
-Cuando una lista de cuentas está en estado _Activo_ (publicado), está disponible para [usarla en recorridos de cuentas y programas de Marketo Engage](./account-lists-journeys.md).
+Cuando una lista de cuentas está en estado _Activo_ (publicado), está disponible para [usar en recorridos de cuentas](./account-lists-journeys.md).
 
 ![Vídeo](../../assets/do-not-localize/icon-video.svg){width="30"} [Vea la descripción general del vídeo](#overview-video)
-
->[!NOTE]
->
->Las listas de cuentas aprovechan los datos de cuentas de Marketo Engage para crear segmentos y listas de cuentas. Esto significa que si un segmento de cuenta de Adobe Experience Platform no se sincroniza activamente con Marketo Engage, es posible que las cuentas de ese segmento de Experience Platform no estén disponibles en las listas de cuentas de B2B edition de Journey Optimizer. Posteriormente, solo las personas de cuentas en segmentos de Experience Platform sincronizados con Marketo Engage se incluyen en los recuentos de miembros de personas y en los eventos de déclencheur.
 
 ## Acceso y exploración de listas de cuentas
 

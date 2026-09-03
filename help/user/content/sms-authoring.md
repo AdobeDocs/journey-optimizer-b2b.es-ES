@@ -22,9 +22,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 1207
+source-wordcount: 1251
 ht-degree: 3%
 
 ---
@@ -95,33 +95,29 @@ Puede crear un mensaje de hasta 1600 caracteres, y considerar cada 160 caractere
 
 1. Después de escribir el texto del mensaje, haga clic en el icono _Vínculo_ ( ![Icono de vínculo](../assets/do-not-localize/icon-link.svg) ) a la derecha del cuadro de mensaje de texto.
 
-1. Escriba la **[!UICONTROL URL]** para el vínculo.
-
-
 1. En el cuadro de diálogo, elija el tipo de URL que desea vincular:
 
    * **[!UICONTROL Página de aterrizaje]**: elija esta opción para seleccionar cualquiera de las páginas de aterrizaje publicadas.
 
-   * **[!UICONTROL Dirección URL externa]**: este tipo es cualquier dirección URL externa que escriba en el cuadro de texto.
+   * **[!UICONTROL Dirección URL externa]**: elija esta opción para vincular cualquier dirección URL externa. Escriba la **[!UICONTROL URL]** para el vínculo.
+
+     ![Cuadro de diálogo Agregar vínculo para mensaje SMS](./assets/sms-add-link-dialog.png){width="470"}
+
+1. (Opcional) Configure las opciones de seguimiento.
+
+   * **[!UICONTROL Habilitar el seguimiento de vínculos]** - Seleccione esta casilla de verificación para habilitar el seguimiento, lo que requiere _acortar_ la dirección URL. Se muestra un ejemplo del formato de URL abreviado. La dirección URL real se crea cuando se envía el SMS al destinatario.
+
+   * **[!UICONTROL Habilitar el seguimiento de posibles clientes]** - Seleccione esta casilla de verificación para realizar el seguimiento de la actividad en un usuario.</br>
 
 <!--
-
-1. If you choose to use a Marketo Engage landing page, set the tracking options.
-
-   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
-
-   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
-
       >[!NOTE] 
       >
-      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >When you allow tracking but disable _[!UICONTROL Enable Lead Tracking]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
       >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
 -->
 
-![Cuadro de diálogo Agregar vínculo para mensaje SMS](./assets/sms-add-link-dialog.png){width="470"}
-
-1. Cuando se hayan completado las opciones del vínculo, haga clic en **[!UICONTROL Agregar]** para guardar los cambios y agregar el vínculo de la dirección URL al mensaje SMS.
+1. Cuando se hayan completado las opciones del vínculo, haga clic en **[!UICONTROL Agregar]** para agregar el vínculo de la dirección URL al mensaje SMS.
 
 ### Configuración de las propiedades del SMS {#sms-properties}
 
@@ -183,7 +179,7 @@ Cuando se define el contenido del mensaje, puede utilizar perfiles de prueba par
 
 ## Administración de consentimiento de SMS {#consent-management}
 
-Proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones de una marca y cumplir con esta opción es un requisito legal. El incumplimiento de estas regulaciones conlleva riesgos legales para su marca. Esta función le ayuda a evitar enviar comunicaciones no solicitadas a sus destinatarios. Esto evita que marquen sus mensajes como correo no deseado y perjudiquen su reputación.
+Proporcionar a los destinatarios la capacidad de cancelar la suscripción a la recepción de comunicaciones de una marca y cumplir con esta opción es un requisito legal. El incumplimiento de estas regulaciones conlleva riesgos legales para su marca. Esta función le ayuda a evitar enviar comunicaciones no solicitadas a sus destinatarios. Esto evita que marquen sus mensajes como correo no deseado y dañen su reputación.
 
 Cuando proporciona esta opción, los destinatarios de SMS pueden responder con las palabras clave de inclusión y exclusión. Todas las palabras clave de inclusión y exclusión estándar son compatibles y se respetan, al igual que cualquier palabra clave personalizada que se haya configurado con el proveedor de servicios SMS. Al cancelar la suscripción, los perfiles se eliminan automáticamente de la audiencia de futuros mensajes de marketing.
 
