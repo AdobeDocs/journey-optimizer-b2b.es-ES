@@ -1,9 +1,9 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2423'
 ht-degree: 2%
 
 ---
@@ -213,9 +213,9 @@ En el panel derecho con la ficha _[!UICONTROL Estilos]_ seleccionada, expanda la
 
   ![Selector de color de fuente](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## Contenido: selección de imágenes: Marketo DAM {#me-dam}
+## Contenido: selección de imágenes, DAM interno {#internal-dam}
 
-Elija este tipo para examinar y seleccionar un recurso de imagen de la biblioteca B2B edition de Journey Optimizer o de la instancia conectada de Market Engage.
+Elija este tipo para examinar y seleccionar un recurso de imagen de la biblioteca B2B edition de Journey Optimizer.
 
 ![Examinar los recursos de imagen disponibles](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

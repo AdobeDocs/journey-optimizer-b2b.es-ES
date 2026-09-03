@@ -22,7 +22,7 @@ role_v2:
 source-git-commit: 945c02e4edb6f38dbc8a1ec6b6c97f7825ef4af9
 workflow-type: tm+mt
 source-wordcount: 2975
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -39,8 +39,8 @@ Puede crear dos tipos de conjuntos de reglas:
 
 * Los conjuntos de reglas del **canal** aplican reglas a los canales de comunicación. Permiten establecer lo siguiente:
 
-   * **Reglas de límite de frecuencia** - Ejemplo: *No envíe más de una comunicación por correo electrónico, SMS, push, correo directo o WhatsApp al día.*
-   * **Reglas de horas tranquilas** - Ejemplo: *No envíe mensajes de correo electrónico fuera de la franja horaria de 8 a. m. a 9 p. m.*.
+  * **Reglas de límite de frecuencia** - Ejemplo: *No envíe más de una comunicación por correo electrónico, SMS, push, correo directo o WhatsApp al día.*
+  * **Reglas de horas tranquilas** - Ejemplo: *No envíe mensajes de correo electrónico fuera de la franja horaria de 8 a. m. a 9 p. m.*.
 
 * Los conjuntos de reglas **Recorrido** aplican reglas de límite de entrada y concurrencia a un recorrido. (Aún no es compatible con la versión de Beta).
 
@@ -83,7 +83,7 @@ Para desactivar una regla, haz clic en el icono _Desactivar_ ( ![Desactivar icon
 >
 >La desactivación de una regla o un conjunto de reglas no afecta ni restablece ningún recuento de perfiles individuales.
 
-## Creación y activación de conjuntos de reglas personalizadas {#create}
+## Creación y activación de conjuntos de reglas personalizados {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_domain"
@@ -98,12 +98,12 @@ Para desactivar una regla, haz clic en el icono _Desactivar_ ( ![Desactivar icon
 >[!CONTEXTUALHELP]
 >id="ajob2b-prime_rule_type"
 >title="Tipo de regla"
->abstract="Seleccione el tipo de regla deseado para el conjunto de reglas de canal: use el tipo **Límite de frecuencia** para aplicar reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de una comunicación por correo electrónico o SMS al día. Seleccione **Horas tranquilas** para definir las exclusiones basadas en el tiempo a fin de asegurarse de que no se envíen mensajes durante períodos de tiempo específicos."
+>abstract="Seleccione el tipo de regla deseado para el conjunto de reglas de canal: use el tipo **Límite de frecuencia** para aplicar reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de un correo electrónico o una comunicación SMS al día. Seleccione **Horas tranquilas** para definir las exclusiones basadas en el tiempo a fin de asegurarse de que no se envíen mensajes durante períodos de tiempo específicos."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_duration"
->title="Restablecer frecuencia de límite"
->abstract="Seleccione el periodo del calendario utilizado para restablecer el contador de límite: cada hora, cada día, semanalmente o mensualmente. El contador se restablece automáticamente a 0 al comienzo de cada nuevo período."
+>title="Restablecer la frecuencia de límite"
+>abstract="Seleccione el periodo del calendario utilizado para restablecer el contador de límite: cada hora, cada día, semanalmente o mensualmente. El contador se restablece de forma automática a 0 al comienzo de cada nuevo período."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_rule_capping"
@@ -192,7 +192,7 @@ Puede aplicar el conjunto de reglas activo a un mensaje o a un recorrido, según
 
 ## Límite de frecuencia por canal {#frequency-capping}
 
-Establezca límites de frecuencia por canal y tipo de comunicación para limitar la cantidad de mensajes que recibe un perfil y evitar saturar a los clientes con comunicaciones similares. Los conjuntos de reglas de canal aplican reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de una comunicación por correo electrónico o SMS al día.
+Establezca límites de frecuencia por canal y tipo de comunicación para limitar la cantidad de mensajes que recibe un perfil y evitar saturar a los clientes con comunicaciones similares. Los conjuntos de reglas de canal aplican reglas de límite a los canales de comunicación. Por ejemplo, no envíe más de un correo electrónico o una comunicación SMS al día.
 
 El uso de conjuntos de reglas de canal le permite establecer límites de frecuencia por tipo de comunicación para evitar sobrecargar a los clientes con mensajes similares. Por ejemplo, puede crear un conjunto de reglas para limitar el número de _comunicaciones promocionales_ enviadas a sus clientes y otro conjunto de reglas para limitar el número de _boletines_ enviados a ellos. Puede optar por aplicar la comunicación promocional o el conjunto de reglas de los boletines informativos.
 
@@ -200,11 +200,11 @@ El uso de conjuntos de reglas de canal le permite establecer límites de frecuen
 >
 >Para garantizar que el límite de nivel de canal funciona correctamente, asegúrese de elegir el área de nombres de mayor prioridad al crear un recorrido. Obtenga más información sobre la prioridad del espacio de nombres en la [Guía del servicio de identidad de Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
-### Crear una regla de límite de recorrido {#create-capping-rule}
+### Crear una regla de límite de canal {#create-capping-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_channel"
->title="Defina los canales a los que se aplica la regla"
+>title="Definir los canales a los que se aplica la regla"
 >abstract="Seleccione al menos un canal. El límite se aplica a todos los canales como un recuento total."
 
 1. Seleccione el conjunto de reglas de canal en el que desea agregar la regla de límite o cree un nuevo conjunto de reglas de canal.
@@ -352,9 +352,9 @@ Puede aplicar horas tranquilas a través de conjuntos de reglas y asignarlas a a
 
    * Haga clic en el icono _Calendario_ y especifique el período de tiempo en el que se deben aplicar las horas tranquilas.
 
-      * **[!UICONTROL Semanal]**: elige días específicos de la semana y una franja de tiempo. También puede aplicar la regla **[!UICONTROL Todo el día]**.
+     * **[!UICONTROL Semanal]**: elige días específicos de la semana y una franja de tiempo. También puede aplicar la regla **[!UICONTROL Todo el día]**.
 
-      * **[!UICONTROL Fecha personalizada]**: elige fechas específicas en el calendario y una franja de tiempo. También puede aplicar la regla **[!UICONTROL Todo el día]**.
+     * **[!UICONTROL Fecha personalizada]**: elige fechas específicas en el calendario y una franja de tiempo. También puede aplicar la regla **[!UICONTROL Todo el día]**.
 
      ![Cuadro de diálogo de calendario para definir horas, fechas y horas de silencio](./assets/business-rules-quiet-hours-dates-times-calendar.png){width="450"}
 

@@ -1,6 +1,6 @@
 ---
-title: Usar listas de cuentas en Recorridos y programas
-description: Utilice listas de cuentas en la orquestación de recorrido, agregue o elimine cuentas dinámicamente y filtre Listas inteligentes de Marketo Engage en Journey Optimizer B2B edition.
+title: Uso de listas de cuentas en Recorrido
+description: Utilice listas de cuentas en la orquestación de recorrido y añada o elimine cuentas dinámicamente en Journey Optimizer B2B edition.
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
@@ -14,14 +14,14 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-27T22:29:03.719Z
 TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 731
+source-wordcount: 417
 ht-degree: 0%
 
 ---
 
-# Usar listas de cuentas en recorridos y programas
+# Uso de listas de cuentas en recorrido
 
 Existen varias formas de incorporar listas de cuentas activas (publicadas) en los recorridos de cuenta.
 
@@ -45,7 +45,7 @@ Todos los recorridos de la cuenta comienzan con un [_nodo de audiencia de la cue
 
 Dentro de un recorrido de cuentas, agregue cuentas a una lista de cuentas estáticas usando [un nodo _Realizar una acción_](../journeys/action-nodes.md).
 
-Por ejemplo, puede tener una ruta de recorrido por la que enviar un correo electrónico y alguna cuenta realizar varias acciones como respuesta. Considera esta actividad como un punto de cualificación en el recorrido. Con la calificación, desea agregarlos a una lista de cuentas que se utiliza como audiencia para otro recorrido con un flujo diferente para cuentas calificadas.
+Por ejemplo, tiene una ruta de recorrido por la que envía un correo electrónico y algunas cuentas realizan varias acciones como respuesta. Considera esta actividad como un punto de cualificación en el recorrido. Con la calificación, desea agregarlos a una lista de cuentas que se utiliza como audiencia para otro recorrido con un flujo diferente para cuentas calificadas.
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Por ejemplo, puede tener una ruta de recorrido por la que enviar un correo elect
 
 Dentro de un recorrido de cuentas, quita cuentas de una lista de cuentas estáticas usando [un nodo _Realizar una acción_](../journeys/action-nodes.md).
 
-Por ejemplo, puede tener una ruta de recorrido por la que enviar un correo electrónico y alguna cuenta realizar varias acciones como respuesta. Considera esta actividad como un punto de cualificación en el recorrido. Con esta calificación, desea eliminarlos de una lista de cuentas que se utiliza como audiencia para otro recorrido que envía correos electrónicos adicionales para que no duplique sus comunicaciones de calificación.
+Por ejemplo, tiene una ruta de recorrido por la que envía un correo electrónico y algunas cuentas realizan varias acciones como respuesta. Considera esta actividad como un punto de cualificación en el recorrido. Con esta calificación, desea eliminarlos de una lista de cuentas. Esta lista se utiliza como audiencia de otro recorrido que envía correos electrónicos adicionales para que no duplique las comunicaciones de calificación.
 
 >[!NOTE]
 >
@@ -77,38 +77,8 @@ Por ejemplo, puede tener una ruta de recorrido por la que enviar un correo elect
 
 1. Para _[!UICONTROL Acción en cuentas]_, elija **[!UICONTROL Quitar de la lista de cuentas]**.
 
-   ![Seleccionar Agregar a la lista de cuentas](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
+   ![Seleccionar Eliminar de la lista de cuentas](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
 1. Para **[!UICONTROL Seleccionar lista de cuentas estáticas activas]**, elija la lista de cuentas a la que desea quitar cuentas.
 
-   ![Seleccionar Agregar a la lista de cuentas](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
-## Programa Marketo Engage: miembro de la lista de cuentas
-
-Como especialista en marketing, es posible que desee suprimir programas en Marketo Engage para personas que forman parte de listas de cuentas en Journey Optimizer B2B edition.
-
-En la instancia de Marketo Engage que está conectada a Journey Optimizer B2B edition, puede usar el filtro _[!UICONTROL Lista de miembros de la cuenta]_ de sus listas inteligentes para identificar estos posibles clientes según su estrategia de campaña. Para obtener más información sobre listas inteligentes, consulte la [documentación de Marketo Engage](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
-
-### Agregar el filtro a una lista inteligente
-
-1. En Marketo Engage, seleccione una campaña y haga clic en la ficha **[!UICONTROL Lista inteligente]**.
-
-1. En la lista de filtros que aparece a la derecha, escriba `Member` y busque el filtro **[!UICONTROL Miembro de la lista de cuentas]**.
-
-1. Arrastre el filtro al lienzo de la lista inteligente.
-
-1. En el lienzo de la lista inteligente, establezca el valor de lista **[!UICONTROL Miembro de cuenta]**.
-
-   Haga clic en la flecha hacia abajo para mostrar todas las listas de cuentas o escriba parte del nombre de la lista de cuentas para ayudar a encontrar la lista de cuentas que necesita.
-
-   ![Filtro de lista inteligente de Marketo Engage para pertenencia a lista de cuentas](./assets/account-lists-marketo-engage-smart-list.png){width="800" zoomable="yes"}
-
-1. En el flujo de campaña, agregue el paso **[!UICONTROL Agregar a la lista]** y elija la lista en la que desea rellenar las personas de la lista de cuentas de Journey Optimizer B2B edition.
-
-   Consulte _[Agregar un paso de flujo a una campaña inteligente](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ en la documentación de Marketo Engage para obtener información detallada sobre cómo agregar pasos a un flujo.
-
-### Revisar los miembros
-
-Una vez ejecutado el flujo, puede ver la lista de personas rellenadas en la lista. Abra la lista y seleccione la pestaña Personas.
-
-![La lista de campañas de Marketo Engage se completó desde una lista de cuentas](./assets/account-lists-marketo-engage-smart-list-people.png){width="800" zoomable="yes"}
+   ![Seleccionar Eliminar de la lista de cuentas](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

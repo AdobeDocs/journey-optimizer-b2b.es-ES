@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1312
-ht-degree: 46%
+source-wordcount: 1308
+ht-degree: 45%
 
 ---
 
@@ -172,7 +172,7 @@ Una acción de duplicado es similar a una función de clonado, pero el recorrido
 
 1. Elija el **[!UICONTROL Tipo]** de duplicación:
 
-   * **[!UICONTROL Duplicación parcial del contenido]**: use este tipo para copiar todo el contenido del recorrido, sin incluir los mensajes de correo electrónico o SMS creados. Los nodos que hacen referencia a un mensaje de correo electrónico o SMS de Marketo Engage están totalmente intactos.
+   * **[!UICONTROL Duplicación parcial del contenido]**: use este tipo para copiar todo el contenido del recorrido, sin incluir los mensajes de correo electrónico o SMS creados. Los nodos que hacen referencia a un mensaje SMS están totalmente intactos.
 
    * **[!UICONTROL Duplicado sin detalles]**: use este tipo para copiar solo la estructura y las rutas de acceso del nodo. Todos los ajustes de nodo y las condiciones de ruta no están definidos (predeterminado), por lo que puede volver a utilizar el flujo básico con diferentes ajustes de segmentación de ruta, acciones y audiencias. Todos los nodos de _espera_ utilizan el valor predeterminado de cinco días.
 

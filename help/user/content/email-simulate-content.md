@@ -18,9 +18,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 574
+source-wordcount: 568
 ht-degree: 7%
 
 ---
@@ -38,7 +38,7 @@ Utilice la función _Simular contenido_ para obtener una vista previa del conten
 >
 >No puede obtener una vista previa del correo electrónico si hay errores. Para asegurarse de que no haya errores que bloqueen las funciones de vista previa, compruebe las _Alertas_. Las advertencias no bloquean la vista previa, sino que se dirigen a ellas antes de publicar el recorrido que déclencheur la entrega de correo electrónico.
 
-## Mostrar vista previa del correo electrónico
+## Mostrar vista previa del correo electrónico {#display-preview}
 
 Puede acceder a la vista previa de procesamiento desde el [espacio de diseño de correo electrónico](./email-authoring.md) o desde el _[!UICONTROL Resumen]_ cuando [abra un correo electrónico desde la lista Correos electrónicos](./emails-list.md#open-and-edit-emails).
 
@@ -56,13 +56,13 @@ Puede acceder a la vista previa de procesamiento desde el [espacio de diseño de
 
    ![Seleccione un perfil de persona para procesar la simulación](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   Si la lista _[!UICONTROL Personas]_ de la izquierda está vacía, [agregue personas](#add-people-to-the-profiles-list) mediante contactos de la instancia de Marketo Engage conectada.
+   Si la lista _[!UICONTROL Personas]_ de la izquierda está vacía, [agregue personas](#add-people) mediante contactos.
 
    >[!TIP]
    >
    >También puede usar la integración de procesamiento de prueba [Litmus](./email-test-rendering.md) para comprobar el procesamiento de mensajes de correo electrónico en clientes populares basados en escritorio, móviles y web.
 
-## Ajuste de las opciones de visualización
+## Ajuste de las opciones de visualización {#display-options}
 
 Utilice las herramientas de visualización para cambiar la previsualización según el tipo de dispositivo o el nivel de zoom:
 
@@ -72,7 +72,7 @@ Utilice las herramientas de visualización para cambiar la previsualización seg
 
 ![Ajustar la vista previa](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
 
-## Envío de pruebas
+## Envío de pruebas {#send-proofs}
 
 Una prueba es un mensaje de prueba enviado que permite al usuario y a los integrantes del equipo revisar un mensaje de correo electrónico antes de enviarlo a los miembros de una audiencia. Los destinatarios de la prueba pueden comprobar la renderización del mensaje, el contenido, la configuración de personalización y la configuración. Puede enviar pruebas utilizando un perfil de prueba seleccionado.
 
@@ -92,7 +92,7 @@ Una prueba es un mensaje de prueba enviado que permite al usuario y a los integr
 
 1. Haga clic en **[!UICONTROL Enviar revisión]**.
 
-## Añadir personas a la lista de perfiles
+## Añadir personas a la lista de perfiles {#add-people}
 
 1. En la parte superior de la lista _[!UICONTROL Personas]_, haga clic en **[!UICONTROL Agregar personas]**.
 
@@ -100,7 +100,7 @@ Una prueba es un mensaje de prueba enviado que permite al usuario y a los integr
 
 1. En el cuadro de diálogo _[!UICONTROL Agregar personas para probar]_, escriba la dirección de correo electrónico completa del contacto.
 
-   Para agregar varios contactos, escriba varias direcciones separadas por comas.
+   Para agregar varios contactos, escriba las direcciones separadas por comas.
 
 1. Seleccione la casilla de verificación de cada contacto coincidente que desee agregar a la lista de perfiles de prueba.
 

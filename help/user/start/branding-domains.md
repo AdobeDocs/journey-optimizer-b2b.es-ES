@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 80%
+source-wordcount: 913
+ht-degree: 75%
 
 ---
 
@@ -28,16 +28,14 @@ ht-degree: 80%
 Un dominio de promoción de la marca en Marketo Engage es un subdominio personalizado (como `links.yourcompany.com`) que se utiliza para reescribir vínculos y realizar un seguimiento de los clics en los correos electrónicos, así como para asegurarse de que reflejan su marca en lugar de un dominio genérico. Cada dominio de marca actúa como un dominio de seguimiento de clics para mejorar la capacidad de entrega y la confianza al hacer coincidir los vínculos de su correo electrónico y página de aterrizaje con su dominio.
 
 * Reemplaza los vínculos genéricos con su propia marca en los hipervínculos de correo electrónico.
-* Cuando un posible cliente de la cuenta hace clic en un vínculo, redirige a través de este dominio personalizado para permitir el seguimiento del rendimiento mientras parece legítimo a los filtros de correo electrónico.
+* Cuando un posible cliente hace clic en un vínculo, redirige a través de este dominio personalizado para permitir el seguimiento del rendimiento mientras parece legítimo a los filtros de correo electrónico.
 * Para admitir diferentes unidades de negocio o marcas, puede configurar dominios de promoción de otras marcas si tiene varias marcas.
 
 >[!BEGINSHADEBOX]
 
 **CNAME únicos para vínculos de seguimiento**
 
-Los vínculos de seguimiento de correo electrónico deben ser nuevos y únicos para la instancia de Marketo Engage adjunta. Si tiene CNAME existentes para el seguimiento de vínculos que apuntan a una instancia de Marketo Engage preexistente (producción), deben modificarse antes de poder reutilizarse.
-
-Puede compartir la marca del dominio de la ruta de retorno entre la instancia de producción de Marketo Engage y la instancia adjunta, pero este cambio es un cambio en el servidor. Abra un ticket de asistencia y proporcione su prefijo Marketo Engage (Munchkin ID) y su nuevo prefijo Journey Optimizer B2B edition (Munchkin ID) para solicitar la promoción de marca de dominio de ruta de retorno compartida.
+Los vínculos de seguimiento de correo electrónico deben ser nuevos y únicos para la instancia de Marketo Engage adjunta. Puede compartir la marca del dominio de ruta de retorno entre la instancia de producción de Marketo Engage y la instancia adjunta, pero este cambio es un cambio interno del sistema. Abra un ticket de asistencia y proporcione su prefijo Marketo Engage (Munchkin ID) y su nuevo prefijo Journey Optimizer B2B edition (Munchkin ID) para solicitar la promoción de marca de dominio de ruta de retorno compartida.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +43,7 @@ Puede compartir la marca del dominio de la ruta de retorno entre la instancia de
 >
 >Antes de editar o agregar un dominio en la interfaz de usuario, debe tener un CNAME [asignado a un dominio de Marketo Engage proporcionado por Adobe](https://experienceleague.adobe.com/es/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
->Al añadir un dominio, el sistema comprueba los SSL preexistentes, que se creaban manualmente antes. Si se produce esta validación, cree el dominio sin seleccionar la creación de SSL y, a continuación, conéctelo como un procedimiento independiente.
+>Al añadir un dominio, el sistema comprueba los SSL preexistentes, que se creaban manualmente anteriormente. Si se produce esta validación, cree el dominio sin seleccionar la creación de SSL y, a continuación, conéctelo como un procedimiento independiente.
 
 ## Acceso a dominios de marca en Marketo Engage
 
@@ -73,17 +71,20 @@ El primer paso para trabajar con los dominios de promoción de la marca es edita
 
    ![Cuadro de diálogo Editar dominio de marca](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
-1. Si tiene varios espacios de trabajo definidos para la instancia de Marketo Engage, haga clic en **[!UICONTROL Siguiente]**.
+<!--
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   Seleccione cada uno de los espacios de trabajo en los que desea aplicar el dominio principal actualizado.
+   Select each of the workspaces where you want to apply the updated primary domain.
 
-   ![Cuadro de diálogo Editar dominio de promoción de marca con selección de área de trabajo para dominio principal](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
+   ![Edit Branding Domain dialog with workspace selection for primary domain](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+-->
+
+1. Haz clic en **[!UICONTROL Siguiente]** y luego en **[!UICONTROL Guardar]**.
 
 ## Definir un dominio adicional
 
-Después de editar el dominio predeterminado, puede agregar otro dominio de promoción de la marca para admitir varias marcas dentro del entorno de Journey Optimizer B2B edition, donde cada una tiene sus propios vínculos de seguimiento de marca. Al agregar un dominio, tiene las siguientes opciones:
+Para admitir varias marcas dentro del entorno de B2B edition de Journey Optimizer, donde cada una tiene sus propios vínculos de seguimiento de marca, puede agregar otro dominio de marca después de editar el dominio predeterminado. Al agregar un dominio, tiene las siguientes opciones:
 
 >* _Convertir en dominio principal_: Convierta este dominio en el dominio principal del área de trabajo. Al seleccionar esta opción, todos los correos electrónicos no enviados existentes se establecen en el dominio principal predeterminado y todos los correos electrónicos recién creados se establecen de forma predeterminada en este dominio principal. Los especialistas en marketing pueden elegir un dominio de marca alternativo donde sea necesario.
 >
@@ -107,17 +108,19 @@ _Para agregar el dominio :_
    >
    >**_SSL personalizados_**: Si necesita un SSL personalizado, puede enviar un [ticket de asistencia](https://experienceleague.adobe.com/es/support){target="_blank"}. No utilice la casilla de verificación para la creación SSL.
 
-1. Si tiene varios espacios de trabajo definidos para la instancia de Marketo Engage, haga clic en **[!UICONTROL Siguiente]**.
+<!-- 
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   Si es necesario, seleccione cada uno de los espacios de trabajo donde desee aplicar el nuevo dominio como dominio principal.
+   If needed, select each of the workspaces where you want to apply the new domain as the primary domain.
 
-   ![Cuadro de diálogo Nuevo dominio de promoción de marca con selección de área de trabajo para aplicar el dominio principal](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+    ![New Branding Domain dialog with workspace selection for applying the primary domain](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+-->
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haz clic en **[!UICONTROL Siguiente]** y luego en **[!UICONTROL Guardar]**.
 
 ## Editar SSL para dominios de promoción de la marca existentes
 
-Siga estos pasos para habilitar SSL para los dominios existentes.
+Para habilitar SSL para los dominios existentes, siga estos pasos:
 
 1. En el área _[!UICONTROL Administrador]_, seleccione **[!UICONTROL Correo electrónico]**.
 

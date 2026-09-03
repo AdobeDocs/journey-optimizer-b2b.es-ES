@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -162,7 +162,7 @@ Las siguientes funciones de IA agéntica ya están disponibles para Journey Opti
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Activar en destino para recorridos | Use la nueva acción _Activar en la cuenta de compañía de destino_ para activarla directamente en empresas, en lugar de en personas. (Se limita a las empresas de LinkedIn para esta versión). [Más información](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Función | Activar en destino para recorridos | Use la nueva acción _Activar en la cuenta de compañía de destino_ para activarla directamente en empresas, en lugar de en personas. (Se limita a las empresas de LinkedIn para esta versión). [Más información](../journeys/action-nodes.md#activate-deactivate-destination) |
 | Función | Temáticas de marca | Con los temáticas de marca, los usuarios no técnicos ahora pueden crear contenido reutilizable que se ajuste a una marca y un lenguaje de diseño específicos añadiendo un estilo personalizado sobre las plantillas estándar. [Más información](../content/brand-themes.md) |
 | Función | Plantillas de correo electrónico: convertir imagen a HTML | Ahora puede utilizar los archivos de diseño almacenados como archivos de imagen JPG o PNG y generar automáticamente plantillas de correo electrónico. [Más información](../content/email-template-image-convert.md) |
 | Función | Asignación de persona | Asocie miembros de cuenta con personas establecidas con asignación de atributos. [Más información](../admin/persona-mapping.md) |
@@ -254,7 +254,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | Función | Acceso en CRM a las páginas de detalles | Ahora puede configurar vínculos directos a las páginas de detalles de Journey Optimizer B2B Edition para cuentas, contactos y posibles clientes en su herramienta CRM (Customer Relationship Management) como Salesforce o Microsoft Dynamics. [Más información](../accounts/crm-linking.md) |
 | Función | Compatibilidad con CSS personalizado para el diseño de contenido | Ahora puede añadir su propio CSS personalizado cuando cree contenido para correos electrónicos y páginas de destino en el espacio de diseño. [Más información](../content/design-custom-css.md) |
 | Función | Más información sobre la configuración de asignación de palabras clave de intenciones | Para activar y gestionar el modelo de detección de intención, los administradores ahora pueden cargar una hoja de cálculo para definir una categoría de asignación de datos por intención. [Más información](../admin/intent-data.md) |
-| Mejora | Simular contenido desde el resumen del correo electrónico | Ahora puede acceder a las herramientas _Simular contenido_ desde el resumen del correo electrónico (detalles y propiedades) al abrir un mensaje de correo electrónico desde la lista de correos electrónicos. Este acceso se suma al espacio de diseño del correo electrónico. [Más información](../content/email-simulate-content.md#display-the-email-preview) |
+| Mejora | Simular contenido desde el resumen del correo electrónico | Ahora puede acceder a las herramientas _Simular contenido_ desde el resumen del correo electrónico (detalles y propiedades) al abrir un mensaje de correo electrónico desde la lista de correos electrónicos. Este acceso se suma al espacio de diseño del correo electrónico. [Más información](../content/email-simulate-content.md#display-preview) |
 | Mejora | Visualización del recuento total para la lista de plantillas de funciones | La página de la lista _[!UICONTROL Plantillas de las funciones]_ se ha mejorado con la visualización del recuento total junto a la barra de búsqueda. |
 
 ## Notas de la versión 2025.5 {#rel-2025-5}
@@ -280,7 +280,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 | ---- | ---- | ----------- |
 | Función | Listas de cuentas | Ahora puede crear un lista de cuentas estáticas o dinámicas para identificar cuentas con nombre según sus criterios definidos, como el sector, la ubicación o el tamaño del compañía. <a href="../accounts/account-lists.md">Más información</a> |
 | Función | Orquestación de recorrido de la lista de cuentas | Utilice los nodos de acción del recorrido para añadir y quitar cuentas para listas de cuentas estáticas. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Más información</a> |
-| Mejora | Filtrar abono de recorrido en Marketo Engage | Use las listas de cuentas de Adobe Journey Optimizer B2B Edition para el público del recorrido y luego use el filtro _Abonado de una lista de cuentas_ en las listas inteligentes de Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Más información</a> |
+| Mejora | Filtrar abono de recorrido en Marketo Engage | Use las listas de cuentas de Adobe Journey Optimizer B2B Edition para el público del recorrido y luego use el filtro _Abonado de una lista de cuentas_ en las listas inteligentes de Marketo Engage. |
 | Función | Filtros de inactividad | Organice los recorridos en función de la inactividad dentro de las campañas y programas de Marketo Engage, incluida la inactividad del correo electrónico, los momentos interesantes, los cambios en el valor de los datos y las páginas web visitadas. |
 | Mejora | Filtro de páginas web visitadas | Organice los recorridos en función de la actividad de las páginas web visitadas asociadas con las campañas y programas de Marketo Engage. |
 | Mejora | Lista de correos electrónicos | Vea una lista global de correos electrónicos activos y borrador para buscar, revisar y actualizar los correos en los recorridos de cuenta asociados. <a href="../content/emails-list.md">Más información</a> |
