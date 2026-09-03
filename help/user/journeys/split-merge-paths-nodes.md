@@ -288,4 +288,4 @@ Para combinar diferentes _rutas divididas por cuenta_ en el recorrido, agregue u
 
 ## Vídeo resumen {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443259/?captions=spa&learn=on)
