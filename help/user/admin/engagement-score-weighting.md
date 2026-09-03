@@ -4,21 +4,15 @@ description: Cree modelos de puntuación de participación personalizados con ac
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1257
 ht-degree: 0%
 
 ---
@@ -59,10 +53,6 @@ El sistema crea un modelo de puntuación de participación inicial denominado _M
 
 ![Modelo de ponderación de puntuación de participación predeterminado para eventos de Experience Platform](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
-<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
-
-<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
-
 Cuando activa un modelo personalizado, el modelo activo cambia a un estado _Archivado_. Si decide volver al modelo de puntuación de participación predeterminado, puede duplicar el modelo predeterminado original y, a continuación, activarlo o utilizarlo como punto de partida para otro modelo personalizado.
 
 ### Eliminar un modelo de borrador
@@ -102,7 +92,7 @@ La configuración de peso define las bandas que puede asignar a cada actividad d
 1. Para cada banda de peso, ajuste el nombre o los valores según sus necesidades:
 
    * Cambie el nombre en el campo _[!UICONTROL Banda de ponderación]_.
-   * Introduzca un nuevo valor. También puede hacer clic en **&plus;** o **−** para aumentar o disminuir el valor.
+   * Introduzca un nuevo valor. También puede hacer clic en **&amp;plus;** o **−** para aumentar o disminuir el valor.
 
    ![Configuración de peso de la participación](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -138,14 +128,6 @@ El modelo predeterminado para eventos de Experience Platform incluye las activid
 </td>
 </tbody>
 </table>
-
-+++
-
-+++Actividades para la arquitectura estándar
-
-El modelo predeterminado para la arquitectura estándar incluye las actividades rastreadas [!DNL Marketo Engage] con un peso predeterminado asociado. Al duplicar este modelo, puede cambiar la ponderación según sus necesidades. No puede cambiar la frecuencia diaria máxima.
-
-{{engagement-activities-me}}
 
 +++
 

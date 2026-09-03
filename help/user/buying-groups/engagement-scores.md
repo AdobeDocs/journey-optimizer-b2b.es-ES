@@ -4,22 +4,16 @@ description: Calcule las puntuaciones de participación de grupos y personas com
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T21:43:47.624Z
 TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1229
 ht-degree: 29%
 
 ---
@@ -43,7 +37,7 @@ Existen dos tipos de puntuaciones de participación:
 
 * **Puntuación de participación de persona** - La puntuación de participación de persona se basa en las actividades de un miembro individual del grupo de compra.
 
-  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros &#x200B;]_&#x200B;tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
+  La puntuación de participación de la persona para cada miembro del grupo comprador se muestra en la página de detalles del grupo comprador [_[!UICONTROL Miembros ]_tab](./buying-group-details.md#buying-group-members). Estas puntuaciones también se muestran en páginas y paneles que incluyen miembros de mayor participación e información de contactos superpuestos.
 
   ![Miembros del grupo de compras más comprometidos](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -115,10 +109,6 @@ Hay un límite de frecuencia diario de 20 para cada actividad. Si un miembro de 
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
 -->
-
->[!NOTE]
->
->Las actividades de puntuación de participación se registran en el registro de actividades de Marketo Engage de una persona. Puede acceder a este registro en la instancia de Marketo Engage conectada. Para obtener más información, consulte [Buscar el registro de actividad de una persona](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} en la documentación de Marketo Engage.
 
 ## Ponderación de la plantilla de función {#engagement-score-weighting}
 

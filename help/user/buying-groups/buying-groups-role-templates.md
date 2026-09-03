@@ -4,19 +4,15 @@ description: Cree plantillas de funciones con asignación automática condiciona
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: 1432
 ht-degree: 5%
 
 ---
@@ -157,23 +153,6 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 
    Los cambios se guardarán automáticamente en el estado _Borrador_. Si no está listo para publicar la plantilla de roles, haga clic en la flecha izquierda (atrás) en la parte superior de la página y vuelva a la lista _[!UICONTROL Plantillas de roles]_.
 
->[!BEGINSHADEBOX &quot;inscripción a la lista Marketo Engage&quot;]
-
-En Marketo Engage, _Campañas inteligentes_ comprueba la pertenencia de los programas para asegurarte de que los posibles clientes no reciban correos electrónicos duplicados y no sean miembros de varios flujos de correos electrónicos al mismo tiempo. En Journey Optimizer B2B, puede comprobar la pertenencia a listas de Marketo Engage como condición para la plantilla de funciones a fin de eliminar la duplicación en la compra de actividades de recorrido y pertenencia a grupos.
-
-Para usar la pertenencia a una lista como condición de rol, expanda **[!UICONTROL Filtros especiales]** y arrastre la condición **[!UICONTROL Miembro de la lista]** al espacio de filtro. Para evaluar la pertenencia a una o varias listas de Marketo Engage, complete la definición del filtro.
-
-![Condición de plantilla de roles para la pertenencia a la lista Marketo Engage](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**Desaprobación de características**
->
->En la versión actual de Journey Optimizer B2B edition, ya no se admite el filtrado basado en la pertenencia a listas o programas en una instancia de Marketo Engage.
-
->[!ENDSHADEBOX]
-
 ### Cambio de la configuración de puntuación de integridad {#change-the-completeness-score-settings}
 
 De forma predeterminada, la integridad de un rol se define como un miembro asignado al rol. Cuando utilice la integridad del grupo de compra para indicar la preparación de las ventas, utilice estos ajustes para alinear la puntuación con el número de miembros necesarios para cerrar una oportunidad.
@@ -188,7 +167,7 @@ Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener
 
 1. En el cuadro de diálogo, cambie el valor **[!UICONTROL Miembros necesarios]** para cada rol definido según sea necesario.
 
-   Puede escribir el valor o hacer clic en **&plus;** o **−** para aumentarlo o reducirlo.
+   Puede escribir el valor o hacer clic en **&amp;plus;** o **−** para aumentarlo o reducirlo.
 
    ![Cuadro de diálogo de configuración de puntuación de integridad de plantilla de roles](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -240,4 +219,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo resumen {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

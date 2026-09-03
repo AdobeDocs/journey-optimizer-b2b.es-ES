@@ -1,10 +1,10 @@
 ---
 title: Fragmentos
 description: Se han reutilizado notas y elementos visuales para anotar una función o página que se aplica a una edición específica
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 2%
+source-wordcount: '2318'
+ht-degree: 0%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Los datos de intención se incluyen cuando se configuran para la instancia de Journey Optimizer B2B edition. También requiere que se publiquen uno o más recorridos **o** que hayan creado grupos compradores. Para obtener más información acerca del modelo de detección de intención y cómo enviar palabras clave, productos y categorías, vea [Datos por intención](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
+>Los datos de intención se incluyen cuando se configuran para la instancia de Journey Optimizer B2B edition. También requiere que se publiquen uno o más recorridos **o** que hayan creado grupos compradores. Para obtener más información acerca del modelo de detección de intención y cómo enviar palabras clave, productos y categorías, vea [Datos por intención](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
 
 ## nota de licencia de AEM Assets {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->Las licencias para AEM Assets y las licencias de as a Cloud Service y Dynamic Media son requisitos previos para la integración. Asegúrese de que [Dynamic Media con API abierta](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esté habilitado. La integración se limita a repositorios del _nivel de entrega_. Si usa el _nivel de Author_ y desea convertirlo, póngase en contacto con el Soporte técnico de Adobe Experience Manager.<br/>
+>Las licencias para AEM Assets y las licencias de as a Cloud Service y Dynamic Media son requisitos previos para la integración. Asegúrese de que [Dynamic Media con API abierta](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} esté habilitado. La integración se limita a repositorios del _nivel de entrega_. Si usa el _nivel de Author_ y desea convertirlo, póngase en contacto con el Soporte técnico de Adobe Experience Manager.<br/>
 >Según el contrato y la configuración, se puede acceder directamente a Adobe Experience Manager Assets as a Cloud Service desde Adobe Journey Optimizer B2B edition al diseñar contenido visual.
 
 ## Creación de contenido: componentes, paso de estructuras {#structures-step}
@@ -231,7 +231,7 @@ Hay herramientas disponibles para ayudarle a localizar el recurso que necesita:
 
 ## Contenido: selección de imágenes, AEM Assets {#aem-assets-dam}
 
-Elija este tipo para examinar y seleccionar un recurso de imagen de un [repositorio configurado de Experience Manager Assets](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories).
+Elija este tipo para examinar y seleccionar un recurso de imagen de un [repositorio configurado de Experience Manager Assets](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories).
 
 En el cuadro de diálogo _[!UICONTROL Seleccionar Assets]_, elija una imagen con las herramientas disponibles para localizar el recurso que necesita y haga clic en **[!UICONTROL Seleccionar]**.:
 
@@ -264,16 +264,3 @@ En el cuadro de diálogo _[!UICONTROL Cargar imagen]_, arrastre y suelte un arch
 Los nombres de archivo de las imágenes seleccionadas se muestran en el cuadro de diálogo. Los nombres de los archivos de recursos deben ser únicos (en todas las carpetas) y, si ya existe un archivo con el nombre, se muestra un mensaje. Los nombres pueden tener un máximo de 100 caracteres y no pueden contener caracteres especiales (como `;`, `:`, `\` y `|`).
 
 Haga clic en **[!UICONTROL Importar]**.
-
-## Actividades de puntuación de participación: Marketo {#engagement-activities-me}
-
-| Nombre de la actividad | Descripción | Recuento máximo de frecuencia diaria | Peso de actividad del modelo predeterminado |
-| --- | --- | --- | --- |
-| [!UICONTROL Asistir al evento] | Un miembro asistió a un evento | 20 | 60 |
-| [!UICONTROL Correo electrónico en el que se hizo clic] | Un miembro hace clic en un vínculo de un correo electrónico | 20 | 30 |
-| [!UICONTROL Correo electrónico abierto] | Un miembro abre un correo electrónico | 20 | 30 |
-| [!UICONTROL Formulario Rellenado] | Un miembro rellena y envía un formulario en una página web | 20 | 40 |
-| [!UICONTROL Momento interesante] | Un miembro experimenta un momento interesante | 20 | 60 |
-| [!UICONTROL Clics en vínculos] | Un miembro hace clic en un vínculo de una página web | 20 | 40 |
-| [!UICONTROL Vistas de página] | Un miembro ve una página web | 20 | 40 |
-| [!UICONTROL Registrarse en el evento] | Un miembro registrado para un evento | 20 | 60 |
