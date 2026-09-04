@@ -41,7 +41,7 @@ Para admitir acciones de recorrido, también puede conectar una o más instancia
 
 >[!NOTE]
 >
->Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente para comprobar las protecciones de rendimiento y las limitaciones estáticas.
+>Compruebe sus derechos de licencia y la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} correspondiente para comprobar las protecciones de rendimiento y las limitaciones estáticas.
 
 ### Modelo de suscripción
 
