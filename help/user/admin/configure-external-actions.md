@@ -1,38 +1,29 @@
 ---
 title: Configuración de acciones externas
-description: Descubra cómo los desarrolladores, administradores y especialistas en marketing trabajan juntos para implementar, configurar y utilizar acciones externas que conectan Journey Optimizer B2B edition con servicios externos en recorridos de cuenta.
+description: Descubra cómo los desarrolladores, administradores y especialistas en marketing trabajan juntos para implementar, configurar y utilizar acciones externas que conectan Journey Optimizer B2B edition con servicios externos en recorrido.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
+source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1278
 ht-degree: 1%
 
 ---
 
 # Configuración de acciones externas
 
-Las acciones externas permiten que los recorridos de cuenta de Journey Optimizer B2B edition se conecten con sistemas externos directamente desde el lienzo de recorrido. Cuando una audiencia de cuenta llega a un nodo de acción externa, el sistema realiza una llamada saliente asincrónica a un servicio externo configurado y pasa los datos de atributos de audiencia para cuentas, personas o ambos. El servicio externo procesa los datos y responde con una llamada de retorno, devolviendo datos de audiencia y metadatos que se pueden utilizar como guía para la ejecución del recorrido.
+Las acciones externas permiten que los recorridos de cuenta y persona de [!DNL Journey Optimizer B2B Edition] se conecten con sistemas externos directamente desde el lienzo de recorrido. Cuando una audiencia llega a un nodo de acción externa, el sistema realiza una llamada saliente asincrónica a un servicio externo configurado y pasa los datos de atributos de audiencia. El servicio externo procesa los datos y responde con una llamada de retorno, devolviendo datos de audiencia y metadatos que se pueden utilizar como guía para la ejecución del recorrido.
 
 Esta función admite dos tipos de nodos de recorrido:
 
-* **Acción externa**: llama a un servicio externo y continúa en una sola ruta de salida. Ideal para _activar y olvidar_ integraciones, como actualizar un registro CRM o activar una notificación descendente.
-* **Rutas divididas externas**: llama a un servicio externo y evalúa la respuesta para enrutar cuentas a lo largo de una de varias rutas definidas.
-
->[!NOTE]
->
->Los servicios de acción externa solo se admiten para recorridos de cuenta. Estos tipos de nodo no están disponibles para los recorridos de persona.
+* **Acción externa**: llama a un servicio externo y continúa en una sola ruta de salida. Ideal para integraciones asincrónicas, como actualizar un registro CRM o activar una notificación descendente.
+* **Rutas divididas externas**: llama a un servicio externo y evalúa la respuesta para enrutar cuentas o personas a lo largo de una de varias rutas definidas.
 
 ## Resumen de implementación
 
@@ -42,7 +33,7 @@ La configuración de acciones externas requiere una coordinación entre tres fun
 | ---- | ---- | ---- |
 | 1 | Desarrollador | [Implementar y publicar el servicio externo](#implement-service) |
 | 2 | Administrador | [Configurar la acción en Journey Optimizer B2B edition](#configure-action) |
-| 3 | Experto en marketing | [Agregar un nodo externo a un recorrido de cuentas](#add-journey-node) |
+| 3 | Experto en marketing | [Agregar un nodo externo a un recorrido](#add-journey-node) |
 
 ## Implementación del servicio externo {#implement-service}
 
@@ -100,7 +91,7 @@ Se debe configurar y activar una acción antes de que los especialistas en marke
 
 1. Haga clic en **[!UICONTROL Next]**.
 
-1. Establezca las propiedades **[!UICONTROL Configurations]** para definir cómo la acción intercambia datos con el servicio externo.
+1. Para definir cómo la acción intercambia datos con el servicio externo, establezca las propiedades **[!UICONTROL Configurations]**.
 
    >[!NOTE]
    >
@@ -108,20 +99,20 @@ Se debe configurar y activar una acción antes de que los especialistas en marke
 
    * **[!UICONTROL Tipo de acción]** (_Estática_): el tipo de nodo de recorrido admitido:
 
-      * [!UICONTROL Acción externa] (`enableSplitPath` = false)
-      * [!UICONTROL Ruta dividida de acción externa] (`enableSplitPath` = true)
+     * [!UICONTROL Acción externa] (`enableSplitPath` = false)
+     * [!UICONTROL Ruta dividida de acción externa] (`enableSplitPath` = true)
 
      No se puede cambiar el tipo de acción después de crear la configuración de acción.
 
-   * **[!UICONTROL Descriptores de acceso]** (_Estáticos_) - (Solo ruta de acceso dividida de acción externa) Las variables devueltas por el servicio externo para que estén disponibles como condiciones de ruta de acceso en un nodo de ruta de acceso dividida externa. (`invocationPayloadDef.accessorsMetadata`)
+   * **[!UICONTROL Descriptores de acceso]** (_Estáticos_) - (Solo ruta de acceso dividida de acción externa) Las variables que devuelve el servicio externo para que estén disponibles como condiciones de ruta de acceso en un nodo de ruta de acceso dividida externa. (`invocationPayloadDef.accessorsMetadata`)
 
    * **[!UICONTROL Contexto de Recorrido]** (_Estático_): el ámbito de los datos de audiencia enviados en la solicitud (`supportedEntityType`):
 
-      * [!UICONTROL Cuenta] - Envía solamente cuentas
+     * [!UICONTROL Cuenta] - Envía solamente cuentas
 
-      * [!UICONTROL Personas]: envía solamente personas
+     * [!UICONTROL Personas]: envía solamente personas
 
-      * [!UICONTROL Personas en la cuenta]: envía cuentas y personas relacionadas con la cuenta
+     * [!UICONTROL Personas en la cuenta]: envía cuentas y personas relacionadas con la cuenta
 
    * **[!UICONTROL Campos de salida]**: asigne cada campo de la tabla a un [campo XDM](../admin/xdm-field-management.md). Estos campos se envían en el cuerpo de la solicitud al servicio externo. Propiedades de definición de servicio: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
@@ -139,7 +130,7 @@ Se debe configurar y activar una acción antes de que los especialistas en marke
 
 1. Haga clic en la _flecha hacia atrás_ para regresar a la lista y mantener la acción en estado _Borrador_.
 
-   O haga clic en **[!UICONTROL Activar]** para cambiar la configuración de la acción al estado _Activo_. La acción externa configurada debe estar activa para que esté disponible para su uso en recorridos de cuenta.
+   O haga clic en **[!UICONTROL Activar]** para cambiar la configuración de la acción al estado _Activo_. La acción externa configurada debe estar activa para que esté disponible para su uso en recorridos.
 
 ### Resolución de problemas {#troubleshooting}
 
@@ -182,4 +173,4 @@ This error appears below the URL field (not in the alert banner) and means there
 
 ## Añadir un nodo externo a un recorrido {#add-journey-node}
 
-Una vez activada una acción, los especialistas en marketing pueden agregar un nodo _[!UICONTROL External action]_ o _[!UICONTROL External split path]_ a cualquier recorrido de cuenta. Para obtener información sobre cómo agregar y utilizar estos nodos en el lienzo de recorrido de la cuenta, consulte [Nodos externos](../journeys/external-nodes.md).
+Una vez activada una acción, los especialistas en marketing pueden agregar un nodo _[!UICONTROL Acción externa]_ o _[!UICONTROL Ruta de acceso dividida externa]_ a cualquier recorrido de cuenta o persona. Para obtener información sobre cómo agregar y utilizar estos nodos en el lienzo de recorrido, consulte [Nodos externos](../journeys/external-nodes.md).
