@@ -4,21 +4,15 @@ description: Obtenga información acerca de las funciones de gobernanza que est�
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
+source-git-commit: 6af5c69aac417f557472bdb80df9de7460e65f16
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: 692
 ht-degree: 0%
 
 ---
@@ -29,13 +23,13 @@ ht-degree: 0%
 
 ## Privacidad
 
-Existen varias regulaciones que se aplican a [!DNL Journey Optimizer B2B Edition] clientes que tienen datos de sujetos de datos que residen en las regiones o países respectivos antes mencionados (UE, California, Tailandia, Brasil, Nueva Zelanda). Esta información en esta página no es asesoramiento legal y no garantiza el cumplimiento de la ley aplicable.
+Se aplican varias regulaciones a [!DNL Journey Optimizer B2B Edition] usuarios que tienen datos de sujetos de datos en regiones como la UE, California, Tailandia, Brasil y Nueva Zelanda. La información proporcionada en esta página no es asesoramiento legal y no garantiza el cumplimiento de la ley aplicable.
 
 ### GDPR (Reglamento general de protección de datos)
 
 El Reglamento General de Protección de Datos (RGPD) es la ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los [requisitos de protección de datos](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} de los países de la UE.
 
-[!DNL Journey Optimizer B2B Edition] utiliza las funciones de control del RGPD de Marketo Engage existentes proporcionadas por Privacy Service y el Servicio de Marketo Privacy Broker.
+[!DNL Journey Optimizer B2B Edition] utiliza la función de control de RGPD de Experience Platform proporcionada por Privacy Service. Para obtener información sobre cómo enviar y administrar solicitudes de acceso y eliminación, consulte [_Administración de privacidad_](./privacy-management.md).
 
 ### CNIL
 
@@ -43,9 +37,9 @@ El 14 de abril de 2026, la Commission nationale de l&#39;informatique et des lib
 
 CNIL proporcionó a las empresas un periodo de tres meses a partir de la fecha de la recomendación para informar a sus destinatarios de correo electrónico de la presencia de los píxeles de seguimiento, su propósito y el derecho de los destinatarios a la exclusión. Durante este periodo de transición, se espera que los usuarios de Marketo Engage notifiquen a sus destinatarios el seguimiento de píxeles y proporcionen una exclusión si es necesario. Se espera que CNIL inicie sus actividades de aplicación después del 14 de julio de 2026.
 
-A medida que la CNIL y otros reguladores aclaren las directrices sobre el seguimiento de píxeles y problemas relacionados, Adobe seguirá supervisando las actualizaciones e informándole de los cambios en las capacidades técnicas.
+A medida que la CNIL y otros reguladores aclaran las directrices sobre el seguimiento de píxeles y problemas relacionados, Adobe supervisa las actualizaciones y le informa de los cambios en las capacidades técnicas.
 
-[!DNL Journey Optimizer B2B Edition] ofrece controles que le ayudan a administrar el seguimiento abierto en el nivel de correo electrónico. Los usuarios son responsables de determinar sus propias obligaciones de cumplimiento según las directrices aplicables de la CNIL y otras leyes. Para obtener información sobre el uso de estas funcionalidades para administrar el seguimiento de aperturas de correo electrónico, consulte [_Administrar el seguimiento de correo electrónico_](../content/email-tracking-manage.md).
+[!DNL Journey Optimizer B2B Edition] ofrece controles que le ayudan a administrar el seguimiento abierto en el nivel de correo electrónico. Los usuarios son responsables de determinar sus propias obligaciones de cumplimiento según las directrices aplicables de la CNIL y otras leyes. Para obtener información sobre cómo usar estas funcionalidades para administrar el seguimiento de aperturas de correo electrónico, consulte [_Administrar el seguimiento de correos electrónicos_](../content/email-tracking-manage.md).
 
 ## Control de acceso basado en roles (RBAC)
 
@@ -67,7 +61,7 @@ Para obtener más información sobre los atributos XDM evaluados para cada canal
 
 ## Restablecer zona protegida
 
-El restablecimiento de la zona protegida **no es compatible** actualmente con Adobe Journey Optimizer B2B edition. Restablecer o eliminar una zona protegida asignada a Journey Optimizer B2B edition puede causar una pérdida de datos permanente y requerir el aprovisionamiento de una nueva instancia.
+El restablecimiento de la zona protegida **no es compatible** actualmente con Adobe Journey Optimizer B2B edition. Restablecer o eliminar una zona protegida asignada a [!DNL Journey Optimizer B2B Edition] podría causar una pérdida de datos permanente y requerir el aprovisionamiento de una nueva instancia.
 
 ## Aún no está disponible
 
