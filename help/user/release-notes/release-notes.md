@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: d8425054daea287d21419911158908035c1314f6
 workflow-type: tm+mt
-source-wordcount: 5633
+source-wordcount: 5637
 ht-degree: 61%
 
 ---
@@ -44,8 +44,8 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Función | Metadatos de C2PA | Las imágenes generadas o editadas con herramientas de IA generativa ahora se firman automáticamente con metadatos de C2PA, lo que le ayuda a cumplir con los requisitos de transparencia de contenido y divulgación de IA. [Más información](../content/c2pa-metadata.md) |
 | Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. |
 | Mejora | Escuchar déclencheur y filtros de eventos: recorridos de cuenta | Ya está disponible la compatibilidad con varios déclencheur y filtros en un nodo _Escuchar evento_ para los recorridos de cuenta. |
-| Mejora | Nodos de rutas divididas externas: recorridos de persona | Ya está disponible la compatibilidad con _nodos de rutas divididas externas_ para los recorridos de personas. |
-| Mejora | Nodos de acción externa: recorridos de persona | Ya está disponible la compatibilidad con _nodos de acción externa_ para los recorridos de personas. |
+| Mejora | Nodos de rutas divididas externas: recorridos de persona | Ya está disponible la compatibilidad con _nodos de rutas divididas externas_ para los recorridos de personas. [Más información](../journeys/external-nodes.md#external-action) |
+| Mejora | Nodos de acción externa: recorridos de persona | Ya está disponible la compatibilidad con _nodos de acción externa_ para los recorridos de personas. [Más información](../journeys/external-nodes.md#external-split-paths) |
 | Mejora | Conjuntos de datos relacionales de AEP | Los nuevos conjuntos de datos relacionales ahora aparecen en el entorno limitado de AEP, junto con los conjuntos de datos existentes. |
 | Mejora | Permisos de productos - Canal WhatsApp | Los administradores de productos ahora pueden establecer los permisos de `Manage B2B WhatsApp Settings` y `Manage B2B WhatsApp Presets` para _[!UICONTROL Configuraciones de canal B2B]_. |
 
