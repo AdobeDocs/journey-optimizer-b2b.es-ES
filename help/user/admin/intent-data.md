@@ -1,38 +1,29 @@
 ---
-title: Datos por intención
+title: Configuración de datos por intención
 description: Configure los datos de intención con asignación de palabras clave para predecir el interés de los clientes y las señales de compra para el marketing basado en cuentas en Journey Optimizer B2B edition.
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 578
 ht-degree: 1%
 
 ---
 
-# Datos de intención
+# Configuración de datos por intención
 
-En Journey Optimizer B2B edition, el modelo de detección de intención predice una solución o producto de interés con una confianza lo suficientemente alta según la actividad de un posible cliente. También aprovecha las actividades de otros miembros de la cuenta, junto con el contenido etiquetado. La intención de una persona puede interpretarse como la probabilidad de tener interés en un producto.
+En [!DNL Adobe Journey Optimizer B2B Edition], el modelo de detección de intención predice una solución o un producto de interés con una confianza lo suficientemente alta en función de la actividad de un posible cliente. También aprovecha las actividades de otros miembros de la cuenta, junto con el contenido etiquetado. La intención de una persona puede interpretarse como la probabilidad de tener interés en un producto.
 
-* Niveles de intención: disponible en el nivel de cliente potencial, cuenta y grupo de compra conocido.
-* Tipos de señal de intención: palabras clave, producto y solución
+Para obtener más información acerca del cálculo de puntuación por intención, vea [_Puntuaciones por intención_](../ai-coworker/intent-scores.md).
 
 Los datos de intención se usan en [_Panel inteligente_](../dashboards/intelligent-dashboard.md), [_Detalles de la cuenta_ página](../accounts/account-details.md), [_Detalles del grupo de compra_ página](../buying-groups/buying-group-details.md) y [_Detalles de la persona_ página](../accounts/person-details.md).
-
-![Visualización de datos por intención](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## Preparación de los datos de asignación por intención
 

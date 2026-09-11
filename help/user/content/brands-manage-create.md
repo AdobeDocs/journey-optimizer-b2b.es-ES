@@ -6,20 +6,14 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 2070
 ht-degree: 7%
@@ -169,7 +163,7 @@ Para crear y definir las directrices de marca, puede introducir los detalles o c
 
 Cuando su marca incluya un conjunto completo de definiciones y cumpla sus requisitos, haga clic en **[!UICONTROL Publicar]** para que las directrices de marca estén disponibles para la alineación y generación de contenido.
 
-Se puede acceder a las marcas publicadas desde la opción **[!UICONTROL Brand]** en la [puntuación de alineación de marca](./content-evaluation.md#brand-alignment-score) de IA y las [herramientas de generación de contenido](../ai-assistant/generative-ai-content.md).
+Se puede acceder a las marcas publicadas desde la opción **[!UICONTROL Brand]** en la [puntuación de alineación de marca](./content-evaluation.md#brand-alignment-score) de IA y las [herramientas de generación de contenido](../ai-coworker/generative-ai-content.md).
 
 ![Opciones de marca para el contenido](./assets/brand-menu-content-ai-tools.png){width="300"}
 
@@ -211,13 +205,13 @@ Use la ficha **[!UICONTROL Acerca de la marca]** para establecer la identidad pr
 
      ![Acerca de la marca - Principios rectores - agregar valor principal](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
-      * **[!UICONTROL Valor]** - Escriba el nombre para el valor de marca principal.
+     * **[!UICONTROL Valor]** - Escriba el nombre para el valor de marca principal.
 
-      * **[!UICONTROL Descripción]** - Explica qué significa este valor para tu marca.
+     * **[!UICONTROL Descripción]** - Explica qué significa este valor para tu marca.
 
-      * **[!UICONTROL Comportamientos]**: describa las acciones o actitudes que reflejan este valor en la práctica.
+     * **[!UICONTROL Comportamientos]**: describa las acciones o actitudes que reflejan este valor en la práctica.
 
-      * **[!UICONTROL Manifestaciones]**: proporcione ejemplos de cómo se expresa este valor en la promoción de marca en el mundo real.
+     * **[!UICONTROL Manifestaciones]**: proporcione ejemplos de cómo se expresa este valor en la promoción de marca en el mundo real.
 
    * Para cambiar o eliminar un valor principal, haz clic en el icono _Editar_ ( ![Editar icono](../assets/do-not-localize/icon-edit.svg) ) para actualizar o eliminar un valor de marca principal.
 
