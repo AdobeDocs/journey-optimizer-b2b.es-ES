@@ -21,7 +21,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: 2026-03-30T21:53:30.297Z
 TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: eb57eab88e264ec8ebd0975cced6c4241fcce23b
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 3582
 ht-degree: 0%
@@ -40,7 +40,7 @@ Esta nueva capacidad proporciona una generación de contenido basada en mensajes
 
 ## Directrices y limitaciones
 
-Antes de empezar a usar esta capacidad, revise las [directrices y limitaciones](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). También se requiere la aceptación de [Acuerdo de usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para poder usar las capacidades de IA en [!DNL Journey Optimizer B2B Edition]. Para obtener más información, contacte con su representante de Adobe.
+Antes de empezar a usar esta capacidad, revise las [directrices y limitaciones](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations). También se requiere la aceptación de [Acuerdo de usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para poder usar las capacidades de IA en [!DNL Journey Optimizer B2B Edition]. Para obtener más información, contacte con su representante de Adobe.
 
 Adobe aplica [credenciales de contenido](https://helpx.adobe.com/es/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} a los recursos generados por Firefly al descargarlos o exportarlos para aumentar la transparencia.
 
@@ -62,7 +62,7 @@ Utilice peticiones de datos bien definidas para que el modelo de IA generativa i
 
 ![Campo de solicitud](./assets/gen-ai-prompt.png){width="320"}
 
-Para obtener más información acerca de cómo crear mensajes efectivos, vea _[Prácticas recomendadas de mensajes](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
+Para obtener más información acerca de cómo crear mensajes efectivos, vea _[Prácticas recomendadas de mensajes](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 >[!BEGINSHADEBOX]
 
@@ -119,7 +119,7 @@ Haga clic en la flecha izquierda para volver a la _[!UICONTROL configuración]_ 
 
 ### Contenido de referencia
 
-Cargue recursos de contenido de referencia para generar contenido preciso y de marca. De lo contrario, el contenido generado se basa en información disponible públicamente. El contenido de referencia sirve como fuente para la generación de contenido y las recomendaciones de imágenes. Para obtener instrucciones y prácticas recomendadas, vea _[Contenido de referencia optimizado](../ai-assistant/generative-ai-content.md#reference-content)_.
+Cargue recursos de contenido de referencia para generar contenido preciso y de marca. De lo contrario, el contenido generado se basa en información disponible públicamente. El contenido de referencia sirve como fuente para la generación de contenido y las recomendaciones de imágenes. Para obtener instrucciones y prácticas recomendadas, vea _[Contenido de referencia optimizado](../ai-coworker/generative-ai-content.md#reference-content)_.
 
 En la configuración de **[!UICONTROL Contenido de referencia]**, haga clic en **[!UICONTROL Cargar archivo]** para agregar cualquier recurso que contenga contenido que desee usar para contexto adicional.
 
@@ -273,7 +273,7 @@ Para utilizar el asistente de IA para la generación completa de correo electró
 
    >[!TIP]
    >
-   >Si no tiene experiencia previa para solicitar contenido generado, consulte _[Prácticas recomendadas sobre solicitudes](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_.
+   >Si no tiene experiencia previa para solicitar contenido generado, consulte _[Prácticas recomendadas sobre solicitudes](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
 
 1. Para adaptar el contenido generado, complete la configuración de la guía de contenido:
 

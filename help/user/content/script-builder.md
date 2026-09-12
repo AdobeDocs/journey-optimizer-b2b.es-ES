@@ -19,10 +19,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0004f8fba0c3d4ae89063418e4d3ef8fea22b0c3
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: 1074
-ht-degree: 2%
+source-wordcount: 1077
+ht-degree: 3%
 
 ---
 
@@ -44,9 +44,9 @@ Para crear una personalización de correo electrónico condicional, como cambiar
 
 >[!IMPORTANT]
 >
->El acceso del usuario al Generador de scripts se controla mediante los mismos permisos utilizados para otras capacidades de IA generativa en [!DNL Journey Optimizer B2B Edition]. Para obtener información sobre cómo conceder permisos de características, consulte [Habilitar el acceso al Asistente de IA](../ai-assistant/enable-ai-assistant-access.md).
+>El acceso del usuario al Generador de scripts se controla mediante los mismos permisos utilizados para otras capacidades de IA generativa en [!DNL Journey Optimizer B2B Edition]. Para obtener información sobre cómo conceder permisos de características, consulte [Habilitar el acceso al Asistente de IA](../ai-coworker/enable-ai-assistant-access.md).
 
-Antes de usar el Generador de scripts, revisa las [directrices y limitaciones](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations) que se aplican a las características de IA generativa de [!DNL Journey Optimizer B2B Edition]. También se requiere la aceptación de [acuerdo del usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para poder usar las capacidades de IA.
+Antes de usar el Generador de scripts, revisa las [directrices y limitaciones](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations) que se aplican a las características de IA generativa de [!DNL Journey Optimizer B2B Edition]. También se requiere la aceptación de [acuerdo del usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para poder usar las capacidades de IA.
 
 Familiarícese con el [lenguaje de plantilla Handlebars](https://handlebarsjs.com/guide/){target="_blank"}, la [sintaxis de personalización](./personalization-syntax.md) y las [funciones de ayuda](./personalization-helper-functions.md) admitidas en [!DNL Journey Optimizer B2B Edition]. El Generador de scripts genera Handlebars válidos para usted, pero comprender la sintaxis le ayuda a revisar y editar el resultado con confianza.
 

@@ -5,6 +5,7 @@ feature: AI Assistant, Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
+nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 autotag-review: '2026-06-05T16:07:36.688Z'
 TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
@@ -25,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
 workflow-type: tm+mt
 source-wordcount: 2476
 ht-degree: 7%
