@@ -5,16 +5,16 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 autotag-review: 2026-03-27T22:18:45.397Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1163
-ht-degree: 37%
-
+source-wordcount: '1162'
+ht-degree: 32%
 ---
-
 # Documentación de Adobe Journey Optimizer B2B Edition
 
 [!DNL Adobe Journey Optimizer B2B Edition] es una aplicación única que permite a los equipos de marketing y ventas organizar experiencias basadas en cuentas y calificar grupos de compra para productos específicos en todo el ciclo de vida del cliente. Utiliza IA para atraer y calificar a los grupos de compra dentro de las cuentas de destino, lo que ayuda a sus equipos a generar una canalización de mayor calidad, diseñar mejores estrategias de adquisición, expansión y retención. También permite compartir perspectivas entre los equipos de ventas y marketing.
@@ -29,7 +29,7 @@ Revise este ejemplo de las últimas adiciones y mejoras en la aplicación y docu
 
 >[!TAB agentes de IA]
 
-Con [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, la interfaz del Asistente de IA puede llamar automáticamente a agentes especializados para obtener las respuestas y perspectivas correctas. Agent Orchestrator recuerda el historial de sus conversaciones, lo que le permite basarse en preguntas anteriores de forma natural sin repetir el contexto, y combina la información de varios agentes para presentarle respuestas claras y unificadas. En el contexto [!DNL Journey Optimizer B2B Edition], hay tres agentes creados específicamente para tareas y dominios B2B específicos:
+Con [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"}, la interfaz del Asistente de IA puede llamar automáticamente a agentes especializados para obtener las respuestas y perspectivas correctas. Agent Orchestrator recuerda el historial de sus conversaciones, lo que le permite basarse en preguntas anteriores de forma natural sin repetir el contexto, y combina la información de varios agentes para presentarle respuestas claras y unificadas. En el contexto [!DNL Journey Optimizer B2B Edition], hay tres agentes creados específicamente para tareas y dominios B2B específicos:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
@@ -77,7 +77,7 @@ Los especialistas en marketing pueden definir perfiles detallados, incluidos ant
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Últimas notas de la versión
 
@@ -87,7 +87,7 @@ Manténgase al día con las últimas notas de la versión, las nuevas funciones 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción
 
@@ -98,7 +98,7 @@ Consulte las directrices de incorporación de Journey Optimizer B2B edition para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuración de los campos XDM
 
@@ -108,7 +108,7 @@ Implemente las configuraciones del sistema para activar los esquemas y campos XD
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canales de comunicación
 
@@ -120,7 +120,7 @@ Configure y administre correo electrónico, SMS, WhatsApp y otros canales para i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creación de un recorrido
 
@@ -130,7 +130,7 @@ Diseñe, organice, administre y optimice recorridos personalizados.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Comprender la compra de grupos
 
@@ -143,7 +143,7 @@ Directrices detalladas sobre la creación, gestión y optimización de grupos de
 
 <!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -185,7 +185,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Contenido del recorrido"><br/>
-      <strong>Contenido del recorrido</strong><br/><a href="./content/add-email.md">Canal de correo electrónico</a><br/><a href="./content/ai-assistant-emails.md">Asistente de IA para correo electrónico</a><br/><a href="./content/genstudio-email-workflow.md">Experiencias de correo electrónico de GenStudio</a><br/><a href="./content/sales-alert-email.md">Correo electrónico de alerta de ventas</a><br/><a href="./content/sms-authoring.md">Canal de SMS</a>
+      <strong>Contenido de Recorrido</strong><br/><a href="./content/add-email.md">Canal de correo electrónico</a><br/><a href="./content/generate-content-emails.md">Generar contenido de correo electrónico</a><br/><a href="./content/genstudio-email-workflow.md">Experiencias de correo electrónico de GenStudio</a><br/><a href="./content/sales-alert-email.md">Correo electrónico de alerta de ventas</a><br/><a href="./content/sms-authoring.md">Canal de SMS</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Administración de contenido"><br/>
@@ -203,10 +203,10 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
-<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/home" target="_blank">Documentación</a> - <a href="https://business.adobe.com/es/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
+<a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/home" target="_blank">Documentación</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home" target="_blank">Documentación</a> - <a href="https://experienceleague.adobe.com/es/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriales para desarrolladores</a>

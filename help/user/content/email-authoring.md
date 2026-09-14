@@ -1,36 +1,41 @@
 ---
 title: Creación de mensajes de correo electrónico
-description: Cree correos electrónicos con herramientas de diseño visual, importación de HTML o plantillas; utilice la generación de contenido del asistente de IA, CSS personalizado y personalización en Journey Optimizer B2B edition.
+description: Cree correos electrónicos con herramientas de diseño visual, importación de HTML o plantillas; utilice la generación de contenido, CSS personalizada y personalización en Journey Optimizer B2B edition.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1380
+source-wordcount: '1371'
 ht-degree: 2%
-
 ---
-
 # Creación de mensajes de correo electrónico
 
 Después de [agregar un recurso de correo electrónico a un nodo de acción de recorrido](./add-email.md), puede definir el contenido del mensaje de correo electrónico.
 
 Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la ficha _[!UICONTROL Detalles]_ del panel derecho.
 
-![Haga clic en Editar contenido de correo electrónico &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Haga clic en Editar contenido de correo electrónico ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Esta acción inicia las herramientas de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
@@ -44,7 +49,7 @@ Después de crear y personalizar el contenido del correo electrónico, puede exp
 
 >[!TIP]
 >
->Utilice el asistente de IA en Adobe Journey Optimizer B2B edition, con tecnología de IA generativa, para mejorar el contenido. El asistente de IA puede ayudarle a optimizar el impacto de sus envíos generando correos electrónicos completos y contenido de texto de destino, así como recomendaciones para imágenes que interesen a su audiencia. [Más información](./ai-assistant-emails.md)
+>Utilice las herramientas de generación de contenido para mejorar su contenido. Estas herramientas pueden ayudarle a optimizar el impacto de sus envíos mediante la generación de correos electrónicos completos y contenido de texto de destino, así como proporcionando recomendaciones para imágenes relevantes para su audiencia. [Más información](./generate-content-emails.md)
 
 ## Diseñe el correo electrónico desde cero {#design-from-scratch}
 
