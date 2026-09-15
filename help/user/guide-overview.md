@@ -5,16 +5,16 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 autotag-review: 2026-03-27T22:18:45.397Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1163
-ht-degree: 37%
-
+source-wordcount: '1162'
+ht-degree: 32%
 ---
-
 # Documentación de Adobe Journey Optimizer B2B Edition
 
 [!DNL Adobe Journey Optimizer B2B Edition] es una aplicación única que permite a los equipos de marketing y ventas organizar experiencias basadas en cuentas y calificar grupos de compra para productos específicos en todo el ciclo de vida del cliente. Utiliza IA para atraer y calificar a los grupos de compra dentro de las cuentas de destino, lo que ayuda a sus equipos a generar una canalización de mayor calidad, diseñar mejores estrategias de adquisición, expansión y retención. También permite compartir perspectivas entre los equipos de ventas y marketing.
@@ -185,7 +185,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Contenido del recorrido"><br/>
-      <strong>Contenido del recorrido</strong><br/><a href="./content/add-email.md">Canal de correo electrónico</a><br/><a href="./content/ai-assistant-emails.md">Asistente de IA para correo electrónico</a><br/><a href="./content/genstudio-email-workflow.md">Experiencias de correo electrónico de GenStudio</a><br/><a href="./content/sales-alert-email.md">Correo electrónico de alerta de ventas</a><br/><a href="./content/sms-authoring.md">Canal de SMS</a>
+      <strong>Contenido de Recorrido</strong><br/><a href="./content/add-email.md">Canal de correo electrónico</a><br/><a href="./content/generate-content-emails.md">Generar contenido de correo electrónico</a><br/><a href="./content/genstudio-email-workflow.md">Experiencias de correo electrónico de GenStudio</a><br/><a href="./content/sales-alert-email.md">Correo electrónico de alerta de ventas</a><br/><a href="./content/sms-authoring.md">Canal de SMS</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Administración de contenido"><br/>

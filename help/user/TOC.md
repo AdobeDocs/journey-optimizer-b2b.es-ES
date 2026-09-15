@@ -1,13 +1,11 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 86%
-
+source-wordcount: '448'
+ht-degree: 84%
 ---
-
 
 # Guía del usuario de Journey Optimizer B2B Edition {#user}
 
@@ -32,7 +30,6 @@ ht-degree: 86%
   + [Habilitar el acceso al Asistente de IA](./ai-coworker/enable-ai-assistant-access.md)
   + [Guía de preguntas](./ai-coworker/question-guidance.md)
   + [Interfaz de chat](./ai-coworker/use-ai-assistant.md)
-  + [IA generativa para contenido](./ai-coworker/generative-ai-content.md)
   + [Puntuaciones por intención](./ai-coworker/intent-scores.md)
   + Agentes {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
@@ -67,7 +64,7 @@ ht-degree: 86%
     + [Añadir un correo electrónico](./content/add-email.md)
     + [Optimización del tiempo de envío](./content/email-send-time-optimization.md)
     + [Creación del correo electrónico](./content/email-authoring.md)
-    + [Asistente de IA para la creación de correo electrónico](./content/ai-assistant-emails.md)
+    + [Generar contenido de correo electrónico](./content/generate-content-emails.md)
     + [Flujos de trabajo de GenStudio](./content/genstudio-email-workflow.md)
     + [Modo oscuro para el diseño del correo electrónico](./content/email-dark-mode.md)
     + [Plantillas gobernadas](./content/email-authoring-governance.md)
@@ -143,7 +140,7 @@ ht-degree: 86%
     + [Información general](./content/landing-pages.md)
     + [Crear y publicar](./content/landing-pages-create-publish.md)
     + [Diseño de la página de destino](./content/landing-page-design.md)
-    + [Asistente de IA para el contenido de páginas de aterrizaje](./content/ai-assistant-landing-pages.md)
+    + [Generar contenido de página de aterrizaje](./content/generate-content-landing-pages.md)
   + Herramientas de diseño de contenido {#content-design}
     + [Componentes de estructura](./content/structure-components.md)
     + [Componentes de contenido](./content/content-components.md)
@@ -153,6 +150,7 @@ ht-degree: 86%
     + [Administrar y crear](./content/brands-manage-create.md)
     + [Modelos de IA generativa](./content/generative-ai-models.md)
   + [Temáticas de marca](./content/brand-themes.md)
+  + [IA generativa para contenido](./content/generative-ai-content.md)
   + [Evaluación de contenido](./content/content-evaluation.md)
   + [Contenido condicional](./content/conditional-content.md)
   + [Accesibilidad de contenido](./content/accessible-content.md)

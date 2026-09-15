@@ -8,24 +8,28 @@ level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2070
-ht-degree: 7%
-
+source-wordcount: '2039'
+ht-degree: 4%
 ---
-
 # Crear y administrar sus marcas {#brand-library}
 
 Defina una marca para proporcionar un conjunto detallado de reglas y estándares que establezcan una identidad visual y verbal. Estas directrices proporcionan una referencia para mantener una representación de marca coherente en todas las plataformas de marketing y comunicación. Al aprovechar las directrices de marca bien definidas, las organizaciones pueden asegurarse de que todos los esfuerzos de creación de contenido estén alineados con los objetivos estratégicos y la identidad de marca general. Esta coherencia no solo mejora el reconocimiento y la confianza de la marca, sino que también contribuye a una experiencia del cliente más coherente e impactante en todos los puntos de contacto.
@@ -38,7 +42,7 @@ En Journey Optimizer B2B edition, puede definir y organizar manualmente sus defi
 >
 ><br>
 >
->Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B edition. Para obtener más información, contacte con su representante de Adobe.
+>Se requiere un [acuerdo de usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B edition. Para obtener más información, contacte con su representante de Adobe.
 >
 ><br>
 >
@@ -68,7 +72,7 @@ Para cada tarjeta, puede hacer clic en el icono de _menú Más_ (![icono de men�
 
 ### Marca predeterminada
 
-Puede designar una marca predeterminada para que se aplique automáticamente al generar contenido y calcular las puntuaciones de alineación durante la creación del contenido. Solamente una marca publicada (_Live_) puede ser la predeterminada.
+Para aplicar una marca automáticamente al generar contenido y calcular las puntuaciones de alineación durante la creación del contenido, designe una marca predeterminada. Solamente una marca publicada (_Live_) puede ser la predeterminada.
 
 En la biblioteca de marcas, la tarjeta de marca predeterminada se muestra con un indicador.
 
@@ -111,7 +115,7 @@ Para crear y definir las directrices de marca, puede introducir los detalles o c
 
 ### Refinamiento y actualización de las directrices de marca
 
-1. Examine las diferentes pestañas para adaptar y definir información más detallada según sea necesario.
+1. Para adaptar y definir información más detallada según sea necesario, navegue por las diferentes pestañas.
 
    * [!UICONTROL Información general]
 
@@ -163,7 +167,7 @@ Para crear y definir las directrices de marca, puede introducir los detalles o c
 
 1. Cuando haya definido todo, haga clic en **[!UICONTROL Guardar]**.
 
-   Puede seguir realizando cambios en la marca del borrador hasta que decida que está lista para publicarse.
+   Puede seguir realizando cambios en la marca del borrador. Continúe hasta que decida que está listo para publicarse.
 
 ### Publicar la marca
 
@@ -241,7 +245,7 @@ Puede continuar perfeccionando las directrices, exclusiones y ejemplos de [estil
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Puntuación del estilo de escritura"
->abstract="La sección Estilo de escritura define los estándares de lenguaje, formato y estructura para garantizar un contenido claro y coherente. La puntuación de alineación, clasificada de alta a baja, muestra en qué medida el contenido sigue estas directrices y resalta las áreas de mejora."
+>abstract="La sección Estilo de escritura define los estándares de idioma, formato y estructura. La puntuación de alineación muestra la eficacia con la que el contenido sigue estas directrices y resalta las áreas de mejora."
 
 Las definiciones de _[!UICONTROL estilo de escritura]_ describen los estándares para escribir contenido y detallan cómo se debe utilizar el lenguaje, el formato y la estructura para mantener la claridad, la coherencia y la coherencia en todos los materiales.
 
@@ -285,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="Puntuación de alineación del contenido visual"
->abstract="La puntuación de alineación de contenido visual indica la adecuación del contenido a las directrices de marca configuradas. Puntuado de alto a bajo, le ayuda a evaluar la alineación de un vistazo. Explore las diferentes categorías para identificar las áreas de mejora y localizar elementos que puedan estar fuera de la marca."
+>abstract="La puntuación de alineación de contenido visual indica la adecuación del contenido a las directrices de marca configuradas. Le ayuda a evaluar la alineación e identificar áreas para mejorar."
 
 Las definiciones de _[!UICONTROL contenido visual]_ describen los estándares para imágenes y diseño, y detallan las especificaciones necesarias para mantener un aspecto de marca unificado y coherente.
 
@@ -326,7 +330,7 @@ No puede realizar modificaciones en una marca publicada (activa), pero puede cre
 
    Esta acción crea una copia de borrador de la marca.
 
-1. Examine las diferentes pestañas para actualizar la información de marca según sea necesario.
+1. Examine las diferentes pestañas y actualice la información de marca según sea necesario.
 
    * Información general
 

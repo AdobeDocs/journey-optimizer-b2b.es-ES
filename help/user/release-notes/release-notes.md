@@ -5,25 +5,30 @@ role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d8425054daea287d21419911158908035c1314f6
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 5637
+source-wordcount: '5637'
 ht-degree: 61%
-
 ---
-
 # Notas de la versión de Journey Optimizer B2B Edition
 
 Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores, nuevas funciones, mejoras en las existentes.
@@ -137,7 +142,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
 | Función | Kits de marca | (Beta) Defina una marca en Journey Optimizer B2B edition para proporcionar la fuente fiable que su equipo creativo pueda utilizar cuando cree contenido visual o escrito. Cuando se compilan estas directrices y se comparten los recursos de marca, cualquier miembro del equipo o colaborador puede crear contenido sin marca para el producto. [Más información](../content/brands-overview.md) |
-| Función | Marcas para la generación de contenido de correo electrónico | Puede definir las directrices de marca y utilizar esta información para generar contenido de correo electrónico. Con esta función, el contenido del correo electrónico se alinea con las directrices de redacción, los estilos y el tono específicos de la marca. [Más información](../content/ai-assistant-emails.md) |
+| Función | Marcas para la generación de contenido de correo electrónico | Puede definir las directrices de marca y utilizar esta información para generar contenido de correo electrónico. Con esta función, el contenido del correo electrónico se alinea con las directrices de redacción, los estilos y el tono específicos de la marca. [Más información](../content/generate-content-emails.md) |
 | Mejora | Recorrido _Esperar_ nodo - configuración avanzada | Para un nodo _Wait_ en un recorrido, los especialistas en marketing ahora pueden especificar días y horas de salida y seleccionar zonas horarias. Esta mejora permite un mejor control de la orquestación de recorrido y el tiempo de campaña. [Más información](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Mejora | Se ha eliminado el filtro Miembro del grupo de compra | Para un nodo _split path by people_, el filtro _[!UICONTROL Miembro del grupo comprador]_ ahora incluye la restricción _Se ha eliminado_. Al seleccionarlo, el filtro puede incluir al miembro del grupo comprador eliminado o excluirlo. También se admite en las listas inteligentes de Marketo Engage, donde puede utilizar esta nueva restricción en el filtro _[!UICONTROL Miembro del grupo de compra]_. |
 | Mejora | Diseño de correo electrónico: viñetas de varios niveles | Las herramientas del espacio de diseño de contenido de correo electrónico ahora admiten subviñetas (niveles de viñeta). |
