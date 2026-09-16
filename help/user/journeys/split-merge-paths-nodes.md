@@ -47,7 +47,7 @@ Un nodo _Split paths_ define una o más rutas segmentadas en función de la cuen
 
 Dividir por rutas de cuentas puede incluir acciones y eventos de cuenta y personas. Estas rutas se pueden dividir más.
 
-_**Funcionamiento de un nodo de ruta dividida por cuentas**_
+_&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
 
 * Cada ruta que agregue incluirá un nodo final con la capacidad de agregar nodos a cada borde.
 * Dividir por nodos de cuenta se puede anidar (puede dividir la ruta por cuentas repetidamente).
@@ -139,7 +139,7 @@ _(recorridos de cuenta y persona)_
 
 Dividir por rutas de personas solo puede incluir acciones de personas. Estas rutas no se pueden volver a dividir y se vuelven a unir automáticamente.
 
-_**Funcionamiento de un nodo de ruta dividida por personas**_
+_&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 
 * Dividido por nodos de personas funciona dentro de una combinación de _nodo agrupado_ de combinación dividida. Las rutas divididas se combinan automáticamente para que todas las personas puedan pasar al siguiente paso sin perder el contexto de su cuenta.
 * No se pueden anidar nodos divididos por personas (no se puede agregar una ruta dividida para personas en una ruta que se encuentre en este nodo agrupado).
@@ -235,7 +235,7 @@ Puede restringir aún más el filtro mediante restricciones específicas de los 
 
 >[!BEGINSHADEBOX &quot;Filtro de inactividad&quot;]
 
-Para cada uno de los filtros _[!UICONTROL Historial de eventos]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Para crear una ruta para las personas que _**no**_ abrieron un correo electrónico, agregue el filtro _[!UICONTROL Correo electrónico de marketing directo abierto]_. Active la opción de inactividad y especifique el correo electrónico.
+Para cada uno de los filtros _[!UICONTROL Historial de eventos]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Para crear una ruta para las personas que _&#x200B;**no**&#x200B;_ abrieron un correo electrónico, agregue el filtro _[!UICONTROL Correo electrónico de marketing directo abierto]_. Active la opción de inactividad y especifique el correo electrónico.
 
 ![Dividir ruta por condición de inactividad de personas](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
