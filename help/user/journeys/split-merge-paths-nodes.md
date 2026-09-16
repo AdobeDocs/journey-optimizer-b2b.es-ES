@@ -7,24 +7,28 @@ role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: '2349'
 ht-degree: 4%
-
 ---
-
 # Dividir y combinar rutas {#split-paths}
 
 Utilice los nodos de ruta divididos y combinados para segmentar personas o cuentas según las condiciones que defina. Cree rutas para la audiencia o la lista de cuentas según las condiciones, defina cada ruta con nodos de acción y evento para el segmento y, a continuación, combine las rutas y continúe con el recorrido.
@@ -43,7 +47,7 @@ Un nodo _Split paths_ define una o más rutas segmentadas en función de la cuen
 
 Dividir por rutas de cuentas puede incluir acciones y eventos de cuenta y personas. Estas rutas se pueden dividir más.
 
-_&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
+_**Funcionamiento de un nodo de ruta dividida por cuentas**_
 
 * Cada ruta que agregue incluirá un nodo final con la capacidad de agregar nodos a cada borde.
 * Dividir por nodos de cuenta se puede anidar (puede dividir la ruta por cuentas repetidamente).
@@ -127,7 +131,7 @@ Por ejemplo, evalúe la preparación del grupo de compra en función de la profu
 
 1. Haga clic en **[!UICONTROL Listo]** cuando haya definido todas las condiciones para la ruta.
 
-Para actualizar el estado del grupo o la fase de compra, o para enviar un correo electrónico de alerta de ventas para las cuentas identificadas, añada un nodo de acción en la ruta.
+Para actualizar el estado del grupo o fase de compra de las cuentas identificadas, añada un nodo de acción en la ruta.
 
 ## Dividir rutas por personas
 
@@ -135,7 +139,7 @@ _(recorridos de cuenta y persona)_
 
 Dividir por rutas de personas solo puede incluir acciones de personas. Estas rutas no se pueden volver a dividir y se vuelven a unir automáticamente.
 
-_&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
+_**Funcionamiento de un nodo de ruta dividida por personas**_
 
 * Dividido por nodos de personas funciona dentro de una combinación de _nodo agrupado_ de combinación dividida. Las rutas divididas se combinan automáticamente para que todas las personas puedan pasar al siguiente paso sin perder el contexto de su cuenta.
 * No se pueden anidar nodos divididos por personas (no se puede agregar una ruta dividida para personas en una ruta que se encuentre en este nodo agrupado).
@@ -231,7 +235,7 @@ Puede restringir aún más el filtro mediante restricciones específicas de los 
 
 >[!BEGINSHADEBOX &quot;Filtro de inactividad&quot;]
 
-Para cada uno de los filtros _[!UICONTROL Historial de eventos]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Para crear una ruta para las personas que _&#x200B;**no**&#x200B;_ abrieron un correo electrónico, agregue el filtro _[!UICONTROL Correo electrónico de marketing directo abierto]_. Active la opción de inactividad y especifique el correo electrónico.
+Para cada uno de los filtros _[!UICONTROL Historial de eventos]_, puede habilitar la opción **[!UICONTROL Cambiar al filtro de inactividad]**. Esta opción cambia el filtro a una evaluación para una ausencia de ese tipo de actividad. Para crear una ruta para las personas que _**no**_ abrieron un correo electrónico, agregue el filtro _[!UICONTROL Correo electrónico de marketing directo abierto]_. Active la opción de inactividad y especifique el correo electrónico.
 
 ![Dividir ruta por condición de inactividad de personas](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -288,4 +292,4 @@ Para combinar diferentes _rutas divididas por cuenta_ en el recorrido, agregue u
 
 ## Vídeo resumen {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443259/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 4%
@@ -173,7 +173,7 @@ Para crear y definir las directrices de marca, puede introducir los detalles o c
 
 Cuando su marca incluya un conjunto completo de definiciones y cumpla sus requisitos, haga clic en **[!UICONTROL Publicar]** para que las directrices de marca estén disponibles para la alineación y generación de contenido.
 
-Se puede acceder a las marcas publicadas desde la opción **[!UICONTROL Brand]** en la [puntuación de alineación de marca](./content-evaluation.md#brand-alignment-score) de IA y las [herramientas de generación de contenido](../ai-coworker/generative-ai-content.md).
+Se puede acceder a las marcas publicadas desde la opción **[!UICONTROL Brand]** en la [puntuación de alineación de marca](./content-evaluation.md#brand-alignment-score) de IA y las [herramientas de generación de contenido](./generative-ai-content.md).
 
 ![Opciones de marca para el contenido](./assets/brand-menu-content-ai-tools.png){width="300"}
 
