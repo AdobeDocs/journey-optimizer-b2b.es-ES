@@ -1,34 +1,42 @@
 ---
 title: Diseño de experiencia web
-description: 'Diseñe experiencias web con editores visuales y no visuales: añada modificaciones, administre actualizaciones de contenido, habilite el rastreo de clics y personalice contenido en Journey Optimizer B2B edition.'
+description: 'Diseñe experiencias web con editores visuales y no visuales: añada modificaciones, administre actualizaciones de contenido, habilite el rastreo de clics y personalice contenido en Journey Optimizer B2B Edition.'
 feature: Content Design Tools, Channels
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
+badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
 autotag-review: '2026-05-27T16:20:57.090Z'
 TQID: 'https://experienceleague.adobe.com/VduQltglsVryZl5TEFtWVASl-C8IQX9B7CNNQdIkXnA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Web experience
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 2339
+source-wordcount: '2317'
 ht-degree: 4%
-
 ---
-
 # Diseño de experiencia web
 
 Después de [crear una experiencia web](./web-experiences.md#create-a-web-experience), usa el espacio de diseño de contenido para definir las modificaciones que deseas aplicar a tus páginas web.
@@ -41,23 +49,24 @@ Antes de diseñar experiencias web, asegúrese de que se cumplen los siguientes 
 
 * Un administrador de productos ha configurado uno o más canales web para definir las direcciones URL (páginas) que se incluirán en una experiencia web. Para obtener más información, vea [Configuraciones del canal Web](../admin/configure-channels-web.md).
 
-* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Se requiere Adobe Experience Platform Web SDK versión 2.16 o superior.
+* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Se requiere Adobe Experience Platform Web SDK versión 2.16 o superior.
 
 * Tiene los [permisos](../admin/user-management.md#b2b-product-permissions) necesarios para crear y administrar experiencias web en un recorrido:
-   * _[!UICONTROL Campañas]_ > _[!UICONTROL Administrar campañas]_: necesario para agregar o actualizar un nodo de acción de personalización web.
-   * _[!UICONTROL Campañas]_ > _[!UICONTROL Ver campañas]_: necesario para ver los detalles de un nodo de acción de personalización web.
+  * _[!UICONTROL Experiencias web B2B de autor]_
+  * _[!UICONTROL Administrar Recorridos de persona B2B]_
+  * _[!UICONTROL Administrar Recorridos de cuenta B2B]_
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->Antes de diseñar una experiencia web, asegúrese de tener instalada la extensión del explorador Ayuda de edición visual de Adobe Experience Cloud para su explorador web. Esta extensión es necesaria para abrir, crear y obtener una vista previa de las páginas web de forma fiable en el espacio de diseño de la experiencia web de Journey Optimizer B2B edition.<br/>
+>Antes de diseñar una experiencia web, asegúrese de tener instalada la extensión del explorador Ayuda de edición visual de Adobe Experience Cloud para su explorador web. Esta extensión es necesaria para abrir, crear y obtener una vista previa de las páginas web de forma fiable en el espacio de diseño de la experiencia web de Journey Optimizer B2B Edition.<br/>
 >
->Google Chrome y Microsoft Edge son actualmente los únicos exploradores que admiten la extensión y la creación de experiencias web en Journey Optimizer B2B edition. Para obtener más información, consulte [Instalar la extensión Ayuda de edición visual](./web-experiences.md#install-the-visual-editing-helper-extension).
+>Google Chrome y Microsoft Edge son actualmente los únicos exploradores que admiten la extensión y la creación de experiencias web en Journey Optimizer B2B Edition. Para obtener más información, consulte [Instalar la extensión Ayuda de edición visual](./web-experiences.md#install-the-visual-editing-helper-extension).
 
 ## Editores de experiencia web
 
-Journey Optimizer B2B edition proporciona dos tipos de editores para diseñar modificaciones web:
+Journey Optimizer B2B Edition proporciona dos tipos de editores para diseñar modificaciones web:
 
 | Editor | Descripción | Mejor para |
 | ------ | ----------- | -------- |
@@ -103,7 +112,7 @@ El editor visual carga las páginas web dentro de un iframe, donde puede selecci
 
    * Seleccione cualquier elemento existente de la página y [modifíquelo para la experiencia web](#modify-elements).
 
-   * [Agregar rastreo de clics](#click-tracking-for-web-experiences) para que los elementos midan la participación y recopilen información.
+   * [Agregar rastreo de clics](#web-click-tracking) para que los elementos midan la participación y recopilen información.
 
 1. Repita el paso 2 para cargar otras páginas que desee incluir en la experiencia web. Repita el paso 3 para definir las modificaciones de la página.
 
@@ -131,7 +140,7 @@ Las opciones de la barra de herramientas dependen del tipo de componente selecci
 
 Para un elemento seleccionado, las propiedades del panel derecho cambian para reflejar el estilo y las acciones disponibles. Haga clic en un icono de acción en la parte superior del panel para duplicar, rastrear clics, eliminar u ocultar el elemento seleccionado.
 
-![haga clic en un icono de acción para el elemento seleccionado](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
+![Haga clic en un icono de acción para el elemento seleccionado](./assets/web-experience-design-visual-editor-element-properties-icons.png){width="300"}
 
 +++Elementos de texto
 
@@ -171,7 +180,7 @@ Para obtener más información acerca de las opciones de estilo de texto para lo
 
 +++
 
-+++ Elementos de contenedor
++++Elementos de contenedor
 
 1. Seleccione un elemento contenedor en la página.
 
@@ -196,8 +205,8 @@ Seleccione un tipo de componente a la izquierda y, a continuación, pase el rat�
 
 Haga clic en uno de los botones mostrados para colocar el componente:
 
-* ***[!UICONTROL Insertar antes]**: inserte el componente antes del elemento seleccionado.
-* ***[!UICONTROL Insertar después]**: inserte el componente después del elemento seleccionado.
+* **[!UICONTROL Insertar antes]**: inserte el componente antes del elemento seleccionado.
+* **[!UICONTROL Insertar después]**: inserte el componente después del elemento seleccionado.
 
 Para anular la selección de un tipo de componente para su inserción, haga clic en **[!UICONTROL ESC]** en el titular azul contextual que se muestra en la parte superior de la página.
 
@@ -224,9 +233,9 @@ Utilice el editor no visual cuando necesite realizar modificaciones que no se pu
 
    * Configure los parámetros de modificación según el tipo:
 
-      * **[!UICONTROL Selector de CSS]**: escriba un selector de CSS válido para dirigirse a elementos específicos.
-      * **[!UICONTROL Tipo de acción]**: elija la acción que desea realizar (editar, ocultar, eliminar, insertar, reemplazar).
-      * **[!UICONTROL Contenido]**: proporcione el contenido o el estilo que se aplicará.
+     * **[!UICONTROL Selector de CSS]**: escriba un selector de CSS válido para dirigirse a elementos específicos.
+     * **[!UICONTROL Tipo de acción]**: elija la acción que desea realizar (editar, ocultar, eliminar, insertar, reemplazar).
+     * **[!UICONTROL Contenido]**: proporcione el contenido o el estilo que se aplicará.
 
 1. Haga clic en **[!UICONTROL Guardar]** para aplicar la modificación.
 

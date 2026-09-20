@@ -1,10 +1,10 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 84%
+source-wordcount: '443'
+ht-degree: 83%
 ---
 
 # Guía del usuario de Journey Optimizer B2B Edition {#user}
@@ -70,7 +70,7 @@ ht-degree: 84%
     + [Plantillas gobernadas](./content/email-authoring-governance.md)
     + [Deduplicación de correo electrónico](./content/email-deduplication.md)
     + [Seguimiento de correo electrónico](./content/email-tracking-manage.md)
-  + Canal web (Beta) {#web-channel}
+  + Canal web {#web-channel}
     + [Información general](./content/web-experiences.md)
     + [Diseño de experiencia web](./content/web-experience-design.md)
     + [Aplicaciones de una sola página](./content/web-single-page-applications.md)
@@ -172,6 +172,6 @@ ht-degree: 84%
     + [Configuraciones de correo electrónico](./admin/configure-channels-emails.md)
     + [Configuración de SMS](./admin/configure-channels-sms.md)
     + [Configuraciones de WhatsApp](./admin/configure-channels-whatsapp.md)
-    + [Configuraciones del canal web (Beta)](./admin/configure-channels-web.md)
+    + [Configuraciones del canal web](./admin/configure-channels-web.md)
     + [Configuraciones de página de aterrizaje](./admin/configure-channels-landing-pages.md)
     + [Configuraciones de Forms](./admin/configure-channels-forms.md)
