@@ -196,7 +196,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 Para los recorridos de persona, puede usar un cambio en los atributos de perfil de persona B2B para almacenar en déclencheur el nodo _Listen for an event_.
 
-1. Arrastre y suelte **[!UICONTROL cambio de perfil de persona]**s de la lista de _[!UICONTROL Déclencheur]_ en el espacio del generador de coincidencia de eventos.
+1. Arrastre y suelte **[!UICONTROL cambio de perfil de persona]**&#x200B;s de la lista de _[!UICONTROL Déclencheur]_ en el espacio del generador de coincidencia de eventos.
 
 1. Haga clic en **[!UICONTROL Agregar restricción]** y seleccione el cambio de atributo que desee usar para el déclencheur de evento.
 
