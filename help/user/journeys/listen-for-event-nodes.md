@@ -1,28 +1,31 @@
 ---
 title: Escuchar un evento
-description: 'Configuración de nodos de evento para déclencheur de cuentas y personas: escucha cambios de grupos de compra, clics en correos electrónicos, rellenos de formularios y eventos de Experience Platform en Journey Optimizer B2B edition.'
+description: 'Configuración de nodos de evento para déclencheur de cuentas y personas: escucha cambios de grupos de compra, clics en correos electrónicos, rellenos de formularios y eventos de Experience Platform en Journey Optimizer B2B Edition.'
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
+source-git-commit: 8295db0f508acc0b28feabdf95f1ccb71f2afc12
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: '1783'
 ht-degree: 5%
-
 ---
-
 # Escuchar un evento
 
 Para mover la audiencia al siguiente paso del [recorrido](./journeys-overview.md) cuando se produzca un evento, agrega el nodo _Escuchar un evento_. Según el tipo de recorrido, puede utilizar este nodo para almacenar en déclencheur el siguiente nodo de la recorrido según los eventos de personas o cuentas.
@@ -45,80 +48,49 @@ Para mover la audiencia al siguiente paso del [recorrido](./journeys-overview.md
 
 1. En las propiedades del nodo de la derecha, use el selector _Tipo de evento_ para elegir entre **[!UICONTROL Cuentas]** y **[!UICONTROL Personas]**.
 
-1. Seleccione un evento de la lista.
-
-   * Para el tipo de evento _Personas_, elija el evento [Personas](#people-events) que desee usar para el déclencheur.
-
-     ![nodo de Recorrido: detectar eventos en personas](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
+1. Defina el déclencheur del evento para el tipo de evento seleccionado:
 
    * Para el tipo de evento _Cuentas_, elija el [evento de cuenta](#account-events) que desee usar para el déclencheur.
 
      ![nodo de Recorrido: escucha eventos en la cuenta](./assets/node-listen-events-account.png){width="500" zoomable="yes"}
 
-1. Haga clic en **[!UICONTROL Editar evento]** y defina los detalles del evento.
+     Haga clic en **[!UICONTROL Editar evento]** y defina los criterios coincidentes para el [evento de cuenta](#account-events).
 
-   Según el tipo de evento y el evento seleccionados, defina los criterios coincidentes del evento.
+   * Para el tipo de evento _Personas_, haga clic en **[!UICONTROL Agregar criterios de evento]**.
 
-   * [Eventos de personas](#people-events)
-   * [Eventos de cuenta](#account-events)
+     ![nodo de Recorrido: detectar eventos en personas](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
 
-   También puede incluir [filtros](#filters-people-event) para el evento.
+     En el cuadro de diálogo _Editar evento_, arrastre y suelte uno o más [eventos de personas](#people-events) en el espacio del generador y establezca la definición de cada uno. Haga clic en **[!UICONTROL Agregar restricción]** para cada restricción que desee usar para restringir la coincidencia de eventos.
+
+     Puede agregar varias personas y eventos para que coincidan. El primer evento clasificatorio hace avanzar la cuenta en el recorrido.
+
+     ![Nodo de recorrido de cuenta - Escuchar eventos - Tipo de evento de personas - editar evento](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
+
+     (Opcional) Seleccione la ficha **[!UICONTROL Filtros]** para [agregar filtros para el evento](#filters-people-event).
 
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
-   Las definiciones de evento y filtro se muestran en el nodo y en las propiedades del nodo.
+   Las definiciones de evento y filtro se muestran en las propiedades del nodo.
 
-   ![Nodo de recorrido de cuenta - Escuchar eventos - Evento y filtros](./assets/node-listen-events-account-complete.png){width="500"}
+   ![Nodo de recorrido de cuenta - Escuchar eventos - Eventos definidos](./assets/node-listen-events-account-complete.png){width="500"}
 
 ### Eventos de personas para recorridos de cuenta {#people-events}
 
-En un recorrido de cuentas, puede detectar un evento basado en personas cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por la actividad de personas. También puede filtrar eventos según el historial de eventos y los atributos de las personas.
+En un recorrido de cuentas, puede detectar un evento basado en personas cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por las actividades de persona (posible cliente). También puede filtrar eventos según el historial de eventos y los atributos de la persona.
 
 >[!TIP]
 >
 >Los eventos de experiencia pueden ocurrir _antes de que_ personas ingresen al recorrido (como un clic previo en un correo electrónico o una interacción web). Para enrutar a las personas según estos eventos, usa el filtro [!UICONTROL Historial de eventos] en un nodo [Dividir rutas entre personas](./split-merge-paths-nodes.md#experience-event-history-filtering).
 
+Para obtener información detallada sobre el uso de los eventos de experiencia, consulte [déclencheur de eventos de experiencia](#experience-event-triggers).
+
 #### Eventos B2B de Journey Optimizer {#events-account-people}
 
 | Evento | Restricciones |
 | ----- | ----------- |
-| [!UICONTROL Asignado a grupo comprador] | Interés en la solución (obligatorio)<br/><br/>Restricciones adicionales (opcional): <li>Función</li><li>Fecha de la actividad</li><br/>Tiempo de espera (opcional) |
+| Se agregó [!UICONTROL posible cliente al grupo de compra] | Interés en la solución (obligatorio)<br/><br/>Restricciones adicionales (opcional): <li>Función</li><li>Fecha de la actividad</li> |
+| Se ha eliminado [!UICONTROL posible cliente del grupo de compra] | Interés de la solución (obligatorio)<br/>Fecha de la actividad (opcional) |
 | [!UICONTROL Cambios de perfil de persona] | Atributo (obligatorio)<br/>Fecha de actividad (opcional)<br/>Nuevo valor (opcional)<br/>Valor anterior (opcional)<br/>Motivo (opcional)<br/>Source (opcional) |
-| [!UICONTROL Eliminado del grupo de compra] | Interés de la solución (obligatorio)<br/>Fecha de la actividad (opcional)<br/>Tiempo de espera (opcional) |
-
-1. Configure el valor necesario para que coincida con el evento.
-
-   Si es necesario, establezca el operador para la evaluación.
-
-1. Para cada restricción opcional que desee incluir para la coincidencia de eventos, haga clic en **[!UICONTROL Agregar restricción]** y seleccione una restricción en la lista.
-
-   ![Editar cuadro de diálogo de evento para un evento de personas B2B de Journey Optimizer en un recorrido de cuentas](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
-
-1. (Opcional) Seleccione la ficha **[!UICONTROL Filtros]** para [agregar filtros para el evento](#filters-people-event).
-
-1. Haga clic en **[!UICONTROL Finalizado]**.
-
-#### Eventos de experiencia {#experience-events-account-people}
-
->[!PREREQUISITES]
->
->Los administradores configuran [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permite a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real.
->
->Para que los eventos de experiencia estén disponibles para los recorridos, un administrador de productos debe [agregar primero los tipos de eventos y los campos de interés](../admin/configure-aep-events.md#add-an-event) en [!DNL Journey Optimizer B2B Edition].
-
-1. Haga clic en **[!UICONTROL Agregar restricción]** y elija el campo que desee utilizar para la restricción.
-
-   Las restricciones disponibles se definen como campos administrados para la configuración del evento.
-
-1. Complete la condición de la restricción.
-
-   Puede usar el operador predeterminado **[!UICONTROL is]** para que coincida con uno o más valores de campo. O puede usar el operador **[!UICONTROL is not]** para que coincida en todos los valores con la exclusión de uno o más valores especificados.
-
-   ![Editar cuadro de diálogo de evento para un evento de experiencia en un recorrido de cuenta](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
-
-1. (Opcional) Seleccione la ficha **[!UICONTROL Filtros]** para [agregar filtros para el evento](#filters-people-event).
-
-1. Haga clic en **[!UICONTROL Finalizado]**.
 
 ### Eventos de cuenta {#account-events}
 
@@ -133,7 +105,7 @@ En un recorrido de cuenta, puede detectar un evento basado en la cuenta cuando d
 | [!UICONTROL Cambio en la puntuación de integridad] | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo puntaje</li><li>Puntuación anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
 | [!UICONTROL Cambio en la puntuación de participación] | Interés en la solución<br/>Restricciones adicionales (opcional): <li>Nuevo puntaje</li><li>Puntuación anterior</li><li>Fecha de la actividad</li>Tiempo de espera de <br/> (opcional) |
 
-1. Establezca la restricción necesaria para que coincida con el evento.
+1. Para hacer coincidir el evento, defina la restricción requerida.
 
 1. Para cada restricción opcional que desee incluir para la coincidencia de eventos, haga clic en **[!UICONTROL Agregar restricción]** y seleccione el campo.
 
@@ -206,7 +178,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Añada un evento y defina las restricciones que desee que coincidan con el déclencheur.
 
-   Puede usar [Eventos de experiencia](#experience-events-person) y [cambios de perfil de persona](#person-profile-changes) para definir el déclencheur del evento.
+   Puede usar [Eventos de experiencia](#experience-event-triggers) y [cambios de perfil de persona](#person-profile-changes) para definir el déclencheur del evento.
 
    Arrastre y suelte el déclencheur de evento en el espacio del generador y establezca la definición. Haga clic en **[!UICONTROL Agregar restricción]** para cada restricción que desee usar para restringir la coincidencia de eventos.
 
@@ -216,19 +188,39 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
-   Las definiciones de evento y filtro se muestran en el nodo y en las propiedades del nodo.
+   Las definiciones de evento y filtro se muestran en las propiedades del nodo.
 
    ![Nodo de Recorrido - Escuchar eventos - Evento y filtros](./assets/node-listen-events-person-complete.png){width="450"}
 
-### Eventos de experiencia para recorridos de personas {#experience-events-person}
+### Cambios en el perfil de la persona {#person-profile-changes}
+
+Para los recorridos de persona, puede usar un cambio en los atributos de perfil de persona B2B para almacenar en déclencheur el nodo _Listen for an event_.
+
+1. Arrastre y suelte **[!UICONTROL cambio de perfil de persona]**s de la lista de _[!UICONTROL Déclencheur]_ en el espacio del generador de coincidencia de eventos.
+
+1. Haga clic en **[!UICONTROL Agregar restricción]** y seleccione el cambio de atributo que desee usar para el déclencheur de evento.
+
+   Establezca el valor del campo según el cambio que desee hacer coincidir.
+
+   ![recorrido de persona - Escuchar un evento de cambio de perfil de persona](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
+
+1. (Opcional) Agregue otro atributo _Cambio de perfil de persona_ que desee usar como déclencheur de eventos o un [Evento de experiencia](#experience-event-triggers).
+
+   Cuando se añaden varios eventos para que coincidan, el primer evento correspondiente hace avanzar el perfil de la persona en el recorrido.
+
+1. (Opcional) Seleccione la ficha **[!UICONTROL Filtros]** para [agregar filtros para el evento](#filters-people-event).
+
+1. Haga clic en **[!UICONTROL Finalizado]**.
+
+## Déclencheur de evento de experiencia {#experience-event-triggers}
+
+Los Eventos de experiencia están disponibles para recorridos de persona o cuando se usa el tipo de evento _Personas_ en recorridos de cuenta. Utilice el cuadro de diálogo _[!UICONTROL Editar evento]_ para agregar uno o más eventos de experiencia para activar el nodo _Escuchar un evento_.
 
 >[!PREREQUISITES]
 >
->Los administradores configuran [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permite a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real.
+>Los administradores configuran [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permite a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real.
 >
 >Para que los eventos de experiencia estén disponibles para los recorridos, un administrador de productos debe [agregar primero los tipos de eventos y los campos de interés](../admin/configure-aep-events.md#add-an-event) en [!DNL Journey Optimizer B2B Edition].
-
-Puede usar Eventos de experiencia para almacenar en déclencheur el nodo en los recorridos de persona en el cuadro de diálogo _[!UICONTROL Editar evento]_.
 
 1. Expanda **[!UICONTROL Eventos de Sapphire AEP]** en la lista de _[!UICONTROL Déclencheur]_ de la izquierda.
 
@@ -242,31 +234,15 @@ Puede usar Eventos de experiencia para almacenar en déclencheur el nodo en los 
 
    ![Cuadro de diálogo Editar evento para un evento de experiencia en un recorrido de persona](./assets/node-listen-events-person-journey-edit-event-aep-event.png){width="700" zoomable="yes"}
 
-1. Configure el operador y los valores para que coincidan con el campo de evento.
+1. Para que coincida con el campo de evento, establezca el operador y los valores.
 
-1. (Opcional) Agregue otro evento de experiencia o un [cambio de perfil de persona](#person-profile-changes).
+1. (Opcional) Añada otro evento.
 
-   Cuando se añaden varios eventos para que coincidan. El primer evento de calificación hace avanzar el perfil de la persona en el recorrido.
+   Puede utilizar varios eventos de experiencia para activar el nodo.
 
-1. (Opcional) Seleccione la ficha **[!UICONTROL Filtros]** para [agregar filtros para el evento](#filters-people-event).
+   Para un recorrido de persona también puede agregar [cambios de perfil de persona](#person-profile-changes). Para un recorrido de cuenta (tipo de evento de personas), también puede agregar [eventos B2B de Journey Optimizer](#events-account-people).
 
-1. Haga clic en **[!UICONTROL Finalizado]**.
-
-### Cambios en el perfil de la persona {#person-profile-changes}
-
-Puede usar un cambio en los atributos del perfil de persona B2B para almacenar en déclencheur el nodo en los recorridos de persona en el cuadro de diálogo _[!UICONTROL Editar evento]_.
-
-1. Arrastre y suelte **[!UICONTROL cambio de perfil de persona]**&#x200B;s de la lista de _[!UICONTROL Déclencheur]_ en el espacio del generador de coincidencia de eventos.
-
-1. Haga clic en **[!UICONTROL Agregar restricción]** y seleccione el cambio de atributo que desee usar para el déclencheur de evento.
-
-   Establezca el valor del campo según el cambio que desee hacer coincidir.
-
-   ![recorrido de persona - Escuchar un evento de cambio de perfil de persona](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
-
-1. (Opcional) Agregue otro atributo _Cambio de perfil de persona_ que desee usar como déclencheur de eventos o un [Evento de experiencia](#experience-events-person).
-
-   Cuando se añaden varios eventos para que coincidan. El primer evento de calificación hace avanzar el perfil de la persona en el recorrido.
+   Cuando se añaden varios eventos para que coincidan, el primer evento correspondiente hace avanzar el perfil de la persona en el recorrido.
 
 1. (Opcional) Seleccione la ficha **[!UICONTROL Filtros]** para [agregar filtros para el evento](#filters-people-event).
 
@@ -306,12 +282,11 @@ Cuando define un evento de [personas en un recorrido de cuenta](#people-events) 
 
 1. Una vez completadas las definiciones de eventos y filtros, haga clic en **[!UICONTROL Listo]**.
 
-
 ## Añadir un tiempo de espera a un nodo de evento {#timeouts}
 
 Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento. El recorrido finaliza después de un tiempo de espera a menos que defina una ruta de tiempo de espera, donde puede agregar otros nodos.
 
-Habilite la opción **[!UICONTROL Timeout]** en las propiedades del nodo para especificar un tiempo de espera para el nodo _Escuchar evento_.
+Habilite la opción **[!UICONTROL Timeout]** en las propiedades del nodo para especificar un tiempo de espera para el nodo _Escuchar un evento_.
 
 1. Con las opciones habilitadas, elija _Type_ y especifique los parámetros para el tiempo de espera:
 
@@ -333,7 +308,7 @@ Habilite la opción **[!UICONTROL Timeout]** en las propiedades del nodo para es
 
 1. Defina la ruta de tiempo de espera.
 
-   La opción **[!UICONTROL Establecer ruta de tiempo de espera]** está seleccionada de manera predeterminada. Puede utilizar esta ruta para definir qué sucede si se agota el tiempo de espera del nodo Escuchar evento. Puede añadir acciones y eventos alternativos que se apliquen a los perfiles de persona cuando el evento no se produzca.
+   El sistema selecciona la opción **[!UICONTROL Establecer ruta de tiempo de espera]** de forma predeterminada. Puede usar esta ruta para definir qué sucede si se agota el tiempo de espera del nodo _Escuchar un evento_. Puede añadir acciones y eventos alternativos que se apliquen a los perfiles de persona cuando el evento no se produzca.
 
    ![nodo de evento de Recorrido - establecer ruta de tiempo de espera](./assets/node-event-timeout-set-path.png){width="600" zoomable="yes"}
 
@@ -342,5 +317,5 @@ Habilite la opción **[!UICONTROL Timeout]** en las propiedades del nodo para es
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443237/?captions=spa&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->
