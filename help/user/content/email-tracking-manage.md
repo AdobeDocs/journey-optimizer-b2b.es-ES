@@ -9,36 +9,43 @@ autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
+    internal-label: Intermediate
+source-git-commit: ec55e33d1db9aa7ecf488e2898564f89df702789
 workflow-type: tm+mt
-source-wordcount: 860
+source-wordcount: '896'
 ht-degree: 0%
-
 ---
-
 # Administrar seguimiento de aperturas de correo electrónico
 
 Puede deshabilitar el seguimiento de aperturas para un correo electrónico individual o capturar las preferencias de seguimiento de cada persona en Adobe Experience Platform y utilizar una ruta dividida para dirigir a las personas a las variantes de correo electrónico de seguimiento y sin seguimiento.
 
->[!BEGINSHADEBOX &quot;Guía CNIL sobre píxeles de seguimiento de correo electrónico&quot;]
+>[!BEGINSHADEBOX &quot;Directrices sobre píxeles de seguimiento de correo electrónico&quot;]
 
-El 14 de abril de 2026, la *Comisión Nacional de Informática y Libertades* (CNIL) publicó una [recomendación sobre el uso de píxeles de seguimiento en correos electrónicos](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). La guía aclara cuándo se requiere el consentimiento y resalta la importancia de las prácticas de consentimiento adecuadas para el seguimiento de píxeles del correo electrónico. Esta política podría afectar a las prácticas de envío de cualquier entidad que envíe correos electrónicos a suscriptores con sede en Francia.
+El 14 de abril de 2026, la *Comisión Nacional de Informática y Libertades* (CNIL), la autoridad de protección de datos de Francia, publicó una [recomendación sobre el uso de píxeles de seguimiento en correos electrónicos](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). Poco después, la autoridad independiente de protección de datos de Italia (&quot;Garante&quot;) publicó [Disposición No. 284](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10241943) (la &quot;Disposición Garante&quot;) el 17 de abril de 2026. Cada guía, aunque no es jurídicamente vinculante, aclara cuándo se requiere el consentimiento y destaca la importancia de las prácticas de consentimiento adecuadas para el seguimiento de píxeles de correo electrónico. Esta política podría afectar a las prácticas de envío de cualquier entidad que envíe correos electrónicos a los suscriptores según la legislación de privacidad de la UE aplicable.
 
 Un píxel de seguimiento de correo electrónico es una imagen transparente 1x1 incrustada en el HTML de un correo electrónico. Cuando el cliente de correo electrónico del destinatario carga esa imagen, el píxel hace ping a un servidor que registra datos como una marca de tiempo, un tipo de dispositivo, un cliente de correo electrónico y, a veces, una dirección IP para obtener una ubicación aproximada. A continuación, ese registro se vincula al registro de un destinatario, lo que permite a los especialistas en marketing saber si se abre un correo electrónico.
 
-Las funcionalidades del producto [!UICONTROL Journey Optimizer B2B edition] que se describen aquí son componentes básicos que, configurados y operados correctamente, pueden admitir una implementación compatible. Cada cliente es responsable de determinar y cumplir con sus obligaciones según la ley aplicable.
+Las capacidades del producto [!DNL Journey Optimizer B2B Edition] que se describen aquí son componentes básicos que, configurados y operados correctamente, pueden ayudar a respaldar los esfuerzos de cumplimiento de los clientes. Los clientes son los únicos responsables de determinar y cumplir con sus obligaciones según las directrices aplicables y otras leyes.
 
 >[!ENDSHADEBOX]
 
