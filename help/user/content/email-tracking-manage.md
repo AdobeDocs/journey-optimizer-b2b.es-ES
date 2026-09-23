@@ -113,7 +113,7 @@ Agregue [_Rutas divididas por personas_ nodo](../journeys/split-merge-paths-node
 
 ### Configurar variantes de correo electrónico de seguimiento y sin seguimiento {#configure-tracking-and-non-tracking-email-variants}
 
-Agregue un nodo de acción [_[!UICONTROL Enviar correo electrónico ]_](./add-email.md) a cada ruta para que cada persona reciba la variante de correo electrónico que coincida con su preferencia de seguimiento.
+Agregue un nodo de acción [_[!UICONTROL Enviar correo electrónico &#x200B;]_](./add-email.md) a cada ruta para que cada persona reciba la variante de correo electrónico que coincida con su preferencia de seguimiento.
 
 1. En la ruta habilitada para el seguimiento, agrega una acción **[!UICONTROL Enviar correo electrónico]** y selecciona o crea el correo electrónico de la forma habitual, dejando **[!UICONTROL Deshabilitar el seguimiento de aperturas]** borrado en las propiedades del correo electrónico.
 
