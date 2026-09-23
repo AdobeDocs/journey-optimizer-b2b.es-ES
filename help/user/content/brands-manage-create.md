@@ -1,6 +1,6 @@
 ---
 title: Creación de marcas para la generación y coherencia de contenido
-description: 'Cree y gestione directrices de marca con extracción automática de documentos o entrada manual: establezca marcas predeterminadas para un contenido coherente en Journey Optimizer B2B edition.'
+description: 'Cree y gestione directrices de marca con extracción automática de documentos o entrada manual: establezca marcas predeterminadas para un contenido coherente en Journey Optimizer B2B Edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
@@ -28,13 +28,13 @@ TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G
 source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
-ht-degree: 4%
+ht-degree: 6%
 ---
 # Crear y administrar sus marcas {#brand-library}
 
 Defina una marca para proporcionar un conjunto detallado de reglas y estándares que establezcan una identidad visual y verbal. Estas directrices proporcionan una referencia para mantener una representación de marca coherente en todas las plataformas de marketing y comunicación. Al aprovechar las directrices de marca bien definidas, las organizaciones pueden asegurarse de que todos los esfuerzos de creación de contenido estén alineados con los objetivos estratégicos y la identidad de marca general. Esta coherencia no solo mejora el reconocimiento y la confianza de la marca, sino que también contribuye a una experiencia del cliente más coherente e impactante en todos los puntos de contacto.
 
-En Journey Optimizer B2B edition, puede definir y organizar manualmente sus definiciones y recursos de marca o cargar documentos de directrices de marca para obtener información automática y extracción de recursos visuales.
+En Journey Optimizer B2B Edition, puede definir y organizar manualmente sus definiciones y recursos de marca o cargar documentos de directrices de marca para obtener información automática y extracción de recursos visuales.
 
 >[!AVAILABILITY]
 >
@@ -42,7 +42,7 @@ En Journey Optimizer B2B edition, puede definir y organizar manualmente sus defi
 >
 ><br>
 >
->Se requiere un [acuerdo de usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B edition. Para obtener más información, contacte con su representante de Adobe.
+>Se requiere un [acuerdo de usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B Edition. Para obtener más información, contacte con su representante de Adobe.
 >
 ><br>
 >
@@ -50,7 +50,7 @@ En Journey Optimizer B2B edition, puede definir y organizar manualmente sus defi
 
 ## Acceda a su biblioteca de marcas
 
-Para acceder a los kits de marcas en Adobe Journey Optimizer B2B edition, vaya al panel de navegación izquierdo y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Marcas]**. Esta acción abre una página en la que las marcas creadas se muestran como tarjetas.
+Para acceder a los kits de marcas en Adobe Journey Optimizer B2B Edition, vaya al panel de navegación izquierdo y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Marcas]**. Esta acción abre una página en la que las marcas creadas se muestran como tarjetas.
 
 ![Acceder a la biblioteca de marcas](./assets/brands-library.png){width="800" zoomable="yes"}
 
@@ -245,7 +245,7 @@ Puede continuar perfeccionando las directrices, exclusiones y ejemplos de [estil
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Puntuación del estilo de escritura"
->abstract="La sección Estilo de escritura define los estándares de idioma, formato y estructura. La puntuación de alineación muestra la eficacia con la que el contenido sigue estas directrices y resalta las áreas de mejora."
+>abstract="La sección Estilo de escritura define los estándares de lenguaje, formato y estructura. La puntuación de alineación muestra en qué medida el contenido sigue estas directrices y resalta las áreas de mejora."
 
 Las definiciones de _[!UICONTROL estilo de escritura]_ describen los estándares para escribir contenido y detallan cómo se debe utilizar el lenguaje, el formato y la estructura para mantener la claridad, la coherencia y la coherencia en todos los materiales.
 
@@ -289,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="Puntuación de alineación del contenido visual"
->abstract="La puntuación de alineación de contenido visual indica la adecuación del contenido a las directrices de marca configuradas. Le ayuda a evaluar la alineación e identificar áreas para mejorar."
+>abstract="La puntuación de alineación de contenido visual indica la adecuación del contenido a las directrices de marca configuradas. Le ayuda a evaluar la alineación e identificar áreas que mejorar."
 
 Las definiciones de _[!UICONTROL contenido visual]_ describen los estándares para imágenes y diseño, y detallan las especificaciones necesarias para mantener un aspecto de marca unificado y coherente.
 
