@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
+source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
 workflow-type: tm+mt
-source-wordcount: '5645'
+source-wordcount: '5708'
 ht-degree: 61%
 ---
 # Notas de la versión de Journey Optimizer B2B Edition
@@ -35,7 +35,22 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+
+## Notas de la versión 2026.9 {#rel-2026-9}
+
+**Fecha de implementación**: 25 de septiembre de 2026
+
+| Tipo | Elemento | Descripción |
+| ---- | ---- | ----------- |
+| Función | Listas de personas | Las listas de personas estáticas y dinámicas ya están disponibles para que pueda segmentar perfiles según los criterios definidos, como atributos demográficos e historial de eventos de experiencia. |
+| Función | Paneles de mantenimiento de servicio | Realizar un seguimiento del estado operativo de las acciones externas mediante la recopilación de métricas de éxito/error y el suministro de paneles para que los administradores supervisen el rendimiento del servicio. |
+| Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. |
+
+>[!NOTE]
+>
+>Estos cambios de versión comienzan la implementación el 25 de septiembre de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+
 
 ## Notas de la versión 2026.8 {#rel-2026-8}
 
@@ -44,10 +59,8 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
 | Función | Recorridos de persona | (Anteriormente Beta, implementación anticipada para disponibilidad general) Ahora puede crear recorridos para orquestar el marketing basado en posibles clientes mediante audiencias y datos de Experience Platform. [Más información](../journeys/journeys-overview.md) |
-| Función | Listas de personas | Las listas de personas estáticas y dinámicas ya están disponibles para que pueda segmentar perfiles según los criterios definidos, como atributos demográficos e historial de eventos de experiencia. |
 | Función | _Nodos de recorrido de rutas divididas de variante_ | (Anteriormente, Beta para recorridos de cuenta) Los especialistas en marketing ahora pueden probar las variaciones dentro de un recorrido de cuenta o persona asignando cuentas o personas a diferentes rutas de recorrido en función de porcentajes definidos. [Más información](../journeys/variant-split-paths-nodes.md) |
 | Función | Metadatos de C2PA | Las imágenes generadas o editadas con herramientas de IA generativa ahora se firman automáticamente con metadatos de C2PA, lo que le ayuda a cumplir con los requisitos de transparencia de contenido y divulgación de IA. [Más información](../content/c2pa-metadata.md) |
-| Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. |
 | Mejora | Escuchar déclencheur y filtros de eventos: recorridos de cuenta | Para los recorridos de cuenta, ya está disponible la compatibilidad con varios déclencheur y filtros en un nodo _Listen for an event_ con el tipo de evento _People_. [Más información](../journeys/listen-for-event-nodes.md) |
 | Mejora | Nodos de rutas divididas externas: recorridos de persona | Ya está disponible la compatibilidad con _nodos de rutas divididas externas_ para los recorridos de personas. [Más información](../journeys/external-nodes.md#external-action) |
 | Mejora | Nodos de acción externa: recorridos de persona | Ya está disponible la compatibilidad con _nodos de acción externa_ para los recorridos de personas. [Más información](../journeys/external-nodes.md#external-split-paths) |
