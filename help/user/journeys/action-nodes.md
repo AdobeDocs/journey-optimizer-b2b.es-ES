@@ -1,6 +1,6 @@
 ---
 title: Realizar una acción
-description: 'Configure nodos de acción para acciones de cuenta y personas: envíe correos electrónicos, actualice grupos de compra, cambie puntuaciones e integre con Marketo Engage en Journey Optimizer B2B edition.'
+description: 'Configure nodos de acción para acciones de cuenta y personas: envíe correos electrónicos, actualice grupos de compra, cambie puntuaciones e integre Marketo Engage en Journey Optimizer B2B Edition.'
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
@@ -55,7 +55,7 @@ En un recorrido de cuentas, utilice una acción en las cuentas cuando desee apli
 
 >[!NOTE]
 >
->La acción _[!UICONTROL Valor de datos de cambio de cuenta]_ está obsoleta para la versión 2025.10. _[!UICONTROL Actualizar perfil de cuenta]_ reemplaza esta acción en Journey Optimizer B2B edition.<br/>
+>La acción _[!UICONTROL Valor de datos de cambio de cuenta]_ está obsoleta para la versión 2025.10. _[!UICONTROL Actualizar perfil de cuenta]_ reemplaza esta acción en Journey Optimizer B2B Edition.<br/>
 >
 >Un administrador puede configurar los atributos disponibles para la cuenta empresarial de XDM actualizando los campos en las _[!UICONTROL configuraciones de XDM]_ > _[!UICONTROL clases estándar]_. Para obtener más información, vea [Esquemas estándar](../admin/xdm-field-management.md#standard-schemas).
 
@@ -200,7 +200,7 @@ _Para crear una audiencia externa :_
 
    >[!NOTE]
    >
-   >Cuando se crea una nueva audiencia de cliente externa desde Journey Optimizer B2B edition, se predefine con un registro ficticio (`test@email.com`). Este registro se sobrescribe en cuanto se añade el primer perfil real a la audiencia externa desde el recorrido.
+   >Cuando se crea una nueva audiencia de cliente externa desde Journey Optimizer B2B Edition, se predefine con un registro ficticio (`test@email.com`). Este registro se sobrescribe en cuanto se añade el primer perfil real a la audiencia externa desde el recorrido.
 
 _Para usar una audiencia existente :_
 
@@ -294,7 +294,7 @@ Utilice esta acción para cambiar el valor de un atributo de perfil de [personas
 
 >[!NOTE]
 >
->La acción _[!UICONTROL Actualizar perfil de persona]_ reemplaza la acción _[!UICONTROL Cambiar valor de datos]_ de la versión actual de Journey Optimizer B2B edition.<br/>
+>La acción _[!UICONTROL Actualizar perfil de persona]_ reemplaza la acción _[!UICONTROL Cambiar valor de datos]_ de la versión actual de Journey Optimizer B2B Edition.<br/>
 >
 >Un administrador puede configurar los atributos disponibles para el perfil individual de XDM actualizando los campos en las _[!UICONTROL configuraciones de XDM]_ > _[!UICONTROL clases estándar]_. Para obtener más información, vea [Esquemas estándar](../admin/xdm-field-management.md#standard-schemas).
 
@@ -308,7 +308,7 @@ Las acciones basadas en personas de [!DNL Marketo Engage] están diseñadas para
 >
 >Las acciones de Marketo Engage requieren la integración configurada con una o más instancias de Marketo Engage externas. Para obtener información detallada sobre esta configuración, consulte [_Activar conexiones de Marketo Engage para admitir acciones_](../admin/marketo-actions-connect.md).
 
-Por ejemplo, suprima las campañas de Marketo Engage para las personas que forman parte de grupos compradores en Journey Optimizer B2B edition. En este caso, puede crear una lista estática en Marketo Engage específicamente para la solución que le interese. A continuación, en una ruta dividida al comprar un grupo, use la acción _Agregar a la lista de Marketo_ desde un nodo de recorrido. Esta acción añade miembros del grupo de compra a una lista estática concreta de una instancia de Marketo Engage conectada. A continuación, utilice la lista estática centrada en el interés de la solución para un filtro de lista inteligente en Marketo Engage.
+Por ejemplo, suprima las campañas de Marketo Engage para las personas que forman parte de grupos compradores en Journey Optimizer B2B Edition. En este caso, puede crear una lista estática en Marketo Engage específicamente para la solución que le interese. A continuación, en una ruta dividida al comprar un grupo, use la acción _Agregar a la lista de Marketo_ desde un nodo de recorrido. Esta acción añade miembros del grupo de compra a una lista estática concreta de una instancia de Marketo Engage conectada. A continuación, utilice la lista estática centrada en el interés de la solución para un filtro de lista inteligente en Marketo Engage.
 
 +++[!UICONTROL Agregar a la campaña de solicitudes de Marketo]
 
