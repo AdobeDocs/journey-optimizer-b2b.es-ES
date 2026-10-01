@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
+source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
 workflow-type: tm+mt
-source-wordcount: '5708'
-ht-degree: 61%
+source-wordcount: '5744'
+ht-degree: 60%
 ---
 # Notas de la versión de Journey Optimizer B2B Edition
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2026.9 {#rel-2026-9}
 
@@ -45,6 +45,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | ---- | ---- | ----------- |
 | Función | Listas de personas | Las listas de personas estáticas y dinámicas ya están disponibles para que pueda segmentar perfiles según los criterios definidos, como atributos demográficos e historial de eventos de experiencia. |
 | Función | Paneles de mantenimiento de servicio | Realizar un seguimiento del estado operativo de las acciones externas mediante la recopilación de métricas de éxito/error y el suministro de paneles para que los administradores supervisen el rendimiento del servicio. |
+| Mejora | Miembro del filtro Audiencia de perfil | Este filtro ahora está disponible para condiciones de ruta dividida de recorrido de persona, condiciones de ruta dividida de persona de recorrido de cuenta y listas de personas para incluir o excluir perfiles en función de su pertenencia a audiencias. |
 | Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. |
 
 >[!NOTE]
@@ -188,7 +189,7 @@ Las siguientes funciones de IA agéntica ya están disponibles para Journey Opti
 | Función | Activar audiencia en [!DNL Adobe Target] | Ahora puede activar una audiencia de un recorrido de cuenta a una audiencia de cliente externa y enviarla a [!DNL Adobe Target]. Con esta integración, puede ofrecer una audiencia cualificada mediante una secuencia de recorrido para una experiencia web diseñada en [!DNL Target]. [Más información](../audiences/target-external-audience.md) |
 | Función | Panel de participación web | Un nuevo tablero que proporciona perspectivas sobre cómo los visitantes web interactúan con el contenido clave. Segmenta los datos en los sectores y regiones de las cuentas para ayudarle a comprender las tendencias de participación. [Más información](../dashboards/web-engagement-dashboard.md) |
 | Función | Panel de perspectivas de rol | El nuevo panel _[!UICONTROL Perspectivas de funciones]_ proporciona información sobre cómo las campañas y los recorridos influyen en la adquisición de roles de grupo y en la participación. [Más información](../buying-groups/buying-group-role-insights.md) |
-| Mejora | Puntuación de integridad del grupo de compra mejorada | Ahora puede asegurarse de que los grupos de compra reflejen la toma de decisiones real con umbrales de miembros de roles personalizables para la puntuación de integridad.  [Más información](../buying-groups/completeness-scores.md) |
+| Mejora | Puntuación de integridad del grupo de compra mejorada | Ahora puede asegurarse de que los grupos de compra reflejen la toma de decisiones real con umbrales de miembros de funciones personalizables para la puntuación de integridad.  [Más información](../buying-groups/completeness-scores.md) |
 | Mejora | Trabajos de mantenimiento de grupos de compras | La frecuencia del trabajo de mantenimiento del grupo de compras se actualiza semana a semana o día a día. |
 | Mejora | Progreso del recorrido de cuenta | Para un recorrido publicado con el estado _Activo_, _Cerrado a nuevas entradas_, _Anulado_ o _Finalizado_, puede abrir el mapa del recorrido para revisar una lista de cuentas de cada nodo de recorrido. |
 
