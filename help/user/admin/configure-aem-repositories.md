@@ -46,7 +46,7 @@ Adobe Experience Manager Cloud Manager está organizado en programas y cada prog
 
 ## Requisitos previos
 
-* Genere las credenciales de servicio para el entorno deseado en AEM Headless Developer Console ([Más información](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Genere las credenciales de servicio para el entorno deseado en AEM Headless Developer Console ([Más información](https://experienceleague.adobe.com/es/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Adquiera los certificados necesarios para la conexión. Como práctica recomendada, asegúrese de que restan al menos seis meses para la caducidad de los certificados. Los certificados caducan cada 365 días.
 * Adobe Journey Optimizer B2B Edition admite el acceso a una fuente de administración de recursos digitales a la vez. Asegúrese de que los recursos necesarios estén disponibles en Adobe Experience Manager antes de cambiar.
 
