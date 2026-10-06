@@ -64,7 +64,7 @@ Para obtener más información, consulte la [documentación de Sales Qualifier](
 
 ## Funciones del asistente de IA en Journey Optimizer B2B Edition
 
-Para formular una respuesta a las preguntas enviadas, AI Assistant consulta una base de datos y traduce los datos de la base de datos a una respuesta legible en lenguaje natural. Esta respuesta es una representación interna de los datos subyacentes, _**Knowledge Graph**_, y proporciona una colección completa de conceptos, datos y metadatos para una respuesta determinada. El gráfico de conocimiento consta de subgráficos a los que se hace referencia cada vez que se envían consultas:
+Para formular una respuesta a las preguntas enviadas, AI Assistant consulta una base de datos y traduce los datos de la base de datos a una respuesta legible en lenguaje natural. Esta respuesta es una representación interna de los datos subyacentes, _&#x200B;**Knowledge Graph**&#x200B;_, y proporciona una colección completa de conceptos, datos y metadatos para una respuesta determinada. El gráfico de conocimiento consta de subgráficos a los que se hace referencia cada vez que se envían consultas:
 
 * Documentación de Adobe Experience League.
 * Artefactos operativos, como esquemas, campos, audiencias y recorridos.

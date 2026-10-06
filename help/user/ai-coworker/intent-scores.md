@@ -43,7 +43,7 @@ ht-degree: 0%
 
 La puntuación por intención mide el interés que tiene una persona o cuenta por una palabra clave, un producto o una categoría de producto. Adobe Journey Optimizer B2B Edition calcula la puntuación mediante aprendizaje automático que mide la similitud de significado, en lugar de utilizar reglas manuales o un sistema de puntos fijos. Cada puntuación se normaliza de 0 a 1, con números más altos que indican una intención más fuerte.
 
-La relevancia del contenido se actualiza aproximadamente cada 12 horas y las puntuaciones por intención se vuelven a calcular diariamente. Las puntuaciones se acumulan de palabra clave a producto y de persona a cuenta. Las puntuaciones de intención aparecen en [Tablero inteligente](../dashboards/intelligent-dashboard.md) y en las páginas [detalles de la cuenta](../accounts/account-details.md), [_detalles del grupo de compra_, ](../buying-groups/buying-group-details.md) y [detalles de la persona](../accounts/person-details.md).
+La relevancia del contenido se actualiza aproximadamente cada 12 horas y las puntuaciones por intención se vuelven a calcular diariamente. Las puntuaciones se acumulan de palabra clave a producto y de persona a cuenta. Las puntuaciones de intención aparecen en [Tablero inteligente](../dashboards/intelligent-dashboard.md) y en las páginas [detalles de la cuenta](../accounts/account-details.md), [_detalles del grupo de compra_, &#x200B;](../buying-groups/buying-group-details.md) y [detalles de la persona](../accounts/person-details.md).
 
 ![Visualización de datos por intención](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
