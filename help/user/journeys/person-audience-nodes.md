@@ -1,31 +1,35 @@
 ---
 title: Nodos de audiencia de persona
-description: Configure los nodos de audiencia de persona con audiencias basadas en segmentos o eventos para definir los puntos de entrada del recorrido de persona para la orquestación de destino en Journey Optimizer B2B edition.
+description: Configure los nodos de audiencia de persona con audiencias basadas en segmentos o eventos para definir los puntos de entrada del recorrido de persona para la orquestación de destino en Journey Optimizer B2B Edition.
 feature: Audiences
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 5e05bba998a9c322487bd68b41e0539074a7000d
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 1%
-
+source-wordcount: '641'
+ht-degree: 0%
 ---
-
 # Nodos del recorrido de audiencia de persona
 
 El nodo _audiencia de persona_ especifica qué perfiles de persona entran en el recorrido. Cuando [crea un recorrido de persona](./create-publish-journey.md#create-a-journey), el recorrido siempre comienza con un nodo de audiencia de persona que define su entrada. El nodo de audiencia de persona puede tener uno de estos dos tipos de entrada de audiencia: segmentos CDP o suscripción basada en eventos. Las definiciones de audiencia basadas en segmentos y eventos no se pueden combinar.
@@ -36,13 +40,9 @@ Utilice una de las siguientes opciones de entrada para el nodo del recorrido de 
 
 * **Audiencia de eventos** - Use eventos calificadores para definir la audiencia. Estos eventos se definen en la configuración del nodo y deben usar [eventos XDM configurados en la configuración de administración](../admin/configure-aep-events.md). Se admiten hasta 10 eventos para la pertenencia a audiencias basadas en eventos. Un perfil se califica inmediatamente para el recorrido después del primer evento coincidente que toma su perfil.
 
-  >[!NOTE]
-  >
-  >Los eventos no se pueden combinar con atributos de perfil para reducir las definiciones de audiencia. Se han planificado mejoras para resolver esta limitación en futuras versiones.
-
 ## Ingesta de perfil
 
-En Journey Optimizer B2B edition, una tarea de ingesta de audiencia nocturna sincroniza perfiles con Experience Platform. Los recorridos de persona basados en eventos pueden calificar perfiles que no están en una audiencia utilizada por Journey Optimizer B2B edition, pero estos perfiles permanecen obsoletos a menos que se unan a una audiencia utilizada por un recorrido de persona, un recorrido de cuenta o un grupo de compra. Si se incorpora un perfil y se añade posteriormente a una audiencia, se realiza la unión de perfiles y el perfil permanece sincronizado con Experience Platform. Se han planificado mejoras en esta sincronización de datos de perfil para futuras versiones.
+En Journey Optimizer B2B Edition, una tarea de ingesta de audiencia nocturna sincroniza perfiles con Experience Platform. Los recorridos de persona basados en eventos pueden calificar perfiles que no están en una audiencia utilizada por Journey Optimizer B2B Edition, pero estos perfiles permanecen obsoletos a menos que se unan a una audiencia utilizada por un recorrido de persona, un recorrido de cuenta o un grupo de compra. Si se incorpora un perfil y se añade posteriormente a una audiencia, se realiza la unión de perfiles y el perfil permanece sincronizado con Experience Platform. Se han planificado mejoras en esta sincronización de datos de perfil para futuras versiones.
 
 Un perfil recién creado e introducido por un recorrido de persona basado en eventos podría carecer de la información de perfil actualizada en el momento de la ingesta. Por ejemplo, si se crea un perfil a través de un evento de rellenado de formulario, es posible que los datos enviados no se sincronicen con el perfil cuando el recorrido los ingrese. El resultado podría ser datos incompletos para la personalización (como en el contenido del correo electrónico). Se han planificado mejoras en esta sincronización de datos de evento de perfil para futuras versiones.
 
@@ -50,7 +50,7 @@ Los recorridos de persona basados en eventos pueden calificar perfiles que sigue
 
 >[!IMPORTANT]
 >
->Durante el programa beta actual, el uso ideal de los recorridos de persona es clasificar solo los perfiles a los que también está dirigiendo en los recorridos de cuenta y en las definiciones de grupos de compra. Este uso garantiza un perfil completo que permanece sincronizado con Experience Platform.
+>El uso ideal de los recorridos de persona es clasificar solo los perfiles a los que también está dirigiendo en los recorridos de cuenta y en las definiciones de grupo de compra. Este uso garantiza un perfil completo que permanece sincronizado con Experience Platform.
 
 ## Definición de la audiencia para el nodo de audiencia de la persona
 
