@@ -1,28 +1,37 @@
 ---
 title: Configurar la ponderación de puntuación de participación
-description: Cree modelos de puntuación de participación personalizados con actividades ponderadas para medir la participación y la intención del grupo de compra con precisión en  [!DNL Journey Optimizer B2B Edition].
+description: Cree modelos de puntuación de participación personalizados con actividades ponderadas para medir la participación y la intención del grupo de compra con precisión en [!DNL Journey Optimizer B2B Edition].
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
+autotag-review: 2026-03-27T23:14:34.224Z
+TQID: 'https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-27T23:14:34.224Z
-TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1257
+source-wordcount: '1257'
 ht-degree: 0%
-
 ---
-
 # Configurar la ponderación de puntuación de participación personalizada
 
 Una [puntuación de participación del grupo comprador](../buying-groups/engagement-scores.md) refleja el nivel de participación mediante la evaluación de diversas actividades registradas para los miembros del grupo comprador. Con la ponderación de puntuación personalizada, los equipos de operaciones de marketing tienen la flexibilidad de definir sus propios modelos para ponderar las actividades. Un modelo de puntuación personalizado produce un reflejo más preciso de su canalización al priorizar los comportamientos que indican con mayor precisión la intención de compra en su proceso de ventas.
@@ -98,7 +107,7 @@ La configuración de peso define las bandas que puede asignar a cada actividad d
 1. Para cada banda de peso, ajuste el nombre o los valores según sus necesidades:
 
    * Cambie el nombre en el campo _[!UICONTROL Banda de ponderación]_.
-   * Introduzca un nuevo valor. También puede hacer clic en **&plus;** o **−** para aumentar o disminuir el valor.
+   * Introduzca un nuevo valor. También puede hacer clic en **&amp;plus;** o **−** para aumentar o disminuir el valor.
 
    ![Configuración de peso de la participación](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 

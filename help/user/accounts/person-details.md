@@ -1,30 +1,38 @@
 ---
 title: Detalles de la persona
-description: Vea la información de la persona con resúmenes generados por IA, puntuaciones de participación, seguimiento de actividad y detección de intención para comprar miembros del grupo en Journey Optimizer B2B edition.
+description: Vea la información de la persona con resúmenes generados por IA, puntuaciones de participación, seguimiento de actividad y detección de intención para comprar miembros de grupo en Journey Optimizer B2B Edition.
 feature: Account Insights
 role: User
 exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+autotag-review: 2026-03-27T22:21:27.328Z
+TQID: 'https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:21:27.328Z
-TQID: https://experienceleague.adobe.com/EVVkq83oIwQy2BWI-0z0YA8uBCnvw6Wz2GI7O2c-jE0
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 7%
-
 ---
-
 # Detalles de la persona
 
-Al hacer clic en el nombre de una persona desde cualquier lugar de Journey Optimizer B2B edition, se muestra la página de detalles de la persona. Esta página incluye información útil sobre la persona asociada con una cuenta o un grupo de compra, incluido un resumen generativo de IA de datos destacados e intencionados (si están configurados). <!-- There are also [actions](#person-actions) that you can execute for the person. -->
+Al hacer clic en el nombre de una persona desde cualquier lugar de Journey Optimizer B2B Edition, se muestra la página de detalles de la persona. Esta página incluye información útil sobre la persona asociada con una cuenta o un grupo de compra, incluido un resumen generativo de IA de datos destacados e intencionados (si están configurados). <!-- There are also [actions](#person-actions) that you can execute for the person. -->
 
 ![Página de detalles de la persona](./assets/person-details-page.png){width="800" zoomable="yes"}
 
@@ -65,7 +73,7 @@ Esta sección incluye la compra de grupos en los que la persona es miembro y se 
 
 ## Datos de intención
 
-En Journey Optimizer B2B edition, el modelo de detección de intención predice una solución o producto de interés con una confianza lo suficientemente alta según la actividad de una persona. También aprovecha las actividades de otros miembros de la cuenta, junto con el contenido etiquetado. La intención de una persona puede interpretarse como la probabilidad de tener interés en un producto.
+En Journey Optimizer B2B Edition, el modelo de detección de intención predice una solución o producto de interés con una confianza lo suficientemente alta según la actividad de una persona. También aprovecha las actividades de otros miembros de la cuenta, junto con el contenido etiquetado. La intención de una persona puede interpretarse como la probabilidad de tener interés en un producto.
 
 {{intent-data-note}}
 

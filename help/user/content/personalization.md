@@ -1,33 +1,45 @@
 ---
 title: Personalización de contenido
-description: Personalice los correos electrónicos B2B con tokens de cuenta, persona y sistema en Journey Optimizer B2B edition. Aprenda a utilizar el editor de personalización y la sintaxis.
+description: Personalice los correos electrónicos B2B con tokens de cuenta, persona y sistema en Journey Optimizer B2B Edition. Aprenda a utilizar el editor de personalización y la sintaxis.
 feature: Personalization, Content Design Tools, Email Authoring
 topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: expresión, editor, inicio, personalización
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
+autotag-review: 2026-03-30T21:59:25.221Z
+TQID: 'https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjXb7YE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-autotag-review: 2026-03-30T21:59:25.221Z
-TQID: https://experienceleague.adobe.com/GGBrB5jUvsOa4pHMutAX9usoDzithfIgx3RQUjXb7YE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 6%
-
+source-wordcount: '751'
+ht-degree: 7%
 ---
-
 # Personalización de contenido {#add-personalization}
 
 >[!CONTEXTUALHELP]
@@ -39,7 +51,7 @@ Las funcionalidades de personalización de [!DNL Adobe Journey Optimizer B2B Edi
 
 Con el _editor de personalización_, puede seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada para su contenido. Utilice varias herramientas, como funciones de ayuda, para adaptar los mensajes. El editor usa una sintaxis de personalización en línea basada en _Handlebars_, donde las expresiones se construyen con contenido entre llaves dobles `{{}}`.
 
-Al procesar el mensaje, Journey Optimizer B2B edition reemplaza la expresión por los datos contenidos en el conjunto de datos de Adobe Experience Platform y los valores del sistema local. Por ejemplo, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` se convierte dinámicamente en `Hello John Doe`.
+Al procesar el mensaje, Journey Optimizer B2B Edition reemplaza la expresión con los datos contenidos en el conjunto de datos de Adobe Experience Platform y los valores del sistema local. Por ejemplo, `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` se convierte dinámicamente en `Hello John Doe`.
 
 Con esta sintaxis, puede personalizar los mensajes en varios campos, incluidas las líneas de asunto de los correos electrónicos, los cuerpos de los mensajes y la información del remitente.
 
@@ -57,9 +69,9 @@ En [!DNL Journey Optimizer B2B Edition], puede generar su contenido de correo el
 
 >[!NOTE]
 >
->Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}.
+>Obtenga más información acerca de los esquemas XDM en la [documentación del Modelo de datos de Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
-## editor de Personalization
+## Editor de personalización
 
 El editor de personalización está disponible en todos los contextos en los que necesita definir la personalización en el contenido del correo electrónico. En el editor, puede seleccionar, organizar, personalizar y validar todos los datos para crear una personalización personalizada para el contenido.
 

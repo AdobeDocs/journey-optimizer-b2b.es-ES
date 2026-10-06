@@ -1,6 +1,6 @@
 ---
 title: Diseño del formulario
-description: Diseñar formularios con tipos de campo, validación, estilo y atributos de esquema XDM para la recopilación de datos empresariales en Journey Optimizer B2B edition.
+description: Diseñar formularios con tipos de campo, validación, estilo y atributos de esquema XDM para la recopilación de datos empresariales en Journey Optimizer B2B Edition.
 feature: Forms, Content Design Tools
 role: User
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
@@ -8,32 +8,42 @@ autotag-review: '2026-05-27T16:10:55.800Z'
 TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Web experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2190'
 ht-degree: 1%
-
 ---
-
 # Diseño de formulario
 
 Después de [crear un formulario](./forms.md#create-forms), el espacio de diseño visual abre un borrador con una definición de formulario básica predeterminada. En el panel _[!UICONTROL Resumen]_ de la derecha, haga clic en **[!UICONTROL Editar formulario]** y use el espacio de diseño visual para definir el estilo del formulario y los componentes de campo.
 
 ![Espacio de diseño de formulario](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-El botón _&#x200B;**Enviar**&#x200B;_ (campo de pie de página) forma parte del formulario de forma predeterminada y no se puede quitar. Puede seleccionar el componente botón/pie de página en el formulario para [cambiar el texto y el estilo del botón](#submit-button).
+El botón _**Enviar**_ (campo de pie de página) forma parte del formulario de forma predeterminada y no se puede quitar. Puede seleccionar el componente botón/pie de página en el formulario para [cambiar el texto y el estilo del botón](#submit-button).
 
 ## Campos
 
@@ -75,7 +85,7 @@ Los campos de formulario se utilizan para recopilar datos de perfil de la person
    | ---------- | ----- |
    | **[!UICONTROL Casilla de verificación]** | Use este tipo para que los visitantes puedan seleccionar un valor _true_ (marcado) o _false_ (desmarcado). |
    | **[!UICONTROL Grupo de casillas de verificación]** | Use este tipo para que los visitantes puedan seleccionar un valor _true_ (marcado) o _false_ (desmarcado) para varios elementos. |
-   | **[!UICONTROL Moneda]** | Utilice este tipo para permitir un campo flotante que represente el tipo de moneda predeterminado seleccionado para la instancia de Journey Optimizer B2B edition. |
+   | **[!UICONTROL Moneda]** | Utilice este tipo para permitir un campo flotante que represente el tipo de moneda predeterminado seleccionado para la instancia de Journey Optimizer B2B Edition. |
    | **[!UICONTROL Fecha]** | Utilice este tipo para restringir la entrada a un formato de fecha y proporcionar un selector de calendario en el campo. |
    | **[!UICONTROL Doble]** | Variable doble (punto flotante de precisión doble) almacenada como números de punto flotante IEEE de 64 bits (8 bytes). |
    | **[!UICONTROL Correo electrónico]** | Utilice este tipo para restringir la entrada a un formato de dirección de correo electrónico. |

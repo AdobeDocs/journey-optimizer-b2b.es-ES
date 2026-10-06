@@ -1,27 +1,32 @@
 ---
 title: Conversión de una imagen en una plantilla de correo electrónico
-description: Transforme archivos de imagen en plantillas de correo electrónico de HTML con Journey Optimizer B2B edition. Cargar archivos PNG/JPEG y generar automáticamente contenido de correo electrónico reutilizable.
+description: Transforme archivos de imagen en plantillas de correo electrónico de HTML con Journey Optimizer B2B Edition. Cargar archivos PNG/JPEG y generar automáticamente contenido de correo electrónico reutilizable.
 feature: Email Authoring, Content
 exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
+autotag-review: 2026-03-30T22:06:11.745Z
+TQID: 'https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:06:11.745Z
-TQID: https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # Convertir una imagen en una plantilla de correo electrónico
 
 La creación y actualización de plantillas de correo electrónico es un componente fundamental de la supply chain de contenido de marketing, pero estas tareas suelen requerir un tiempo y recursos significativos debido a la codificación manual de HTML. Los equipos de marketing tradicionalmente han dependido de las agencias o los equipos de TI para desarrollar estas plantillas. La nueva herramienta de imagen a HTML para plantillas de correo electrónico simplifica este proceso al permitir a los especialistas en marketing convertir archivos de diseño en plantillas de código HTML. El HTML convertido está listo para seguir editando en el espacio de diseño de correo electrónico. Esta herramienta es compatible con los tipos de archivo JPEG y PNG y cuenta con una interfaz de arrastrar y soltar.
@@ -32,7 +37,7 @@ Puede convertir fácilmente archivos de diseño guardados como imágenes (PNG o 
 
 **Usando un tema de marca**
 
-Si su organización tiene [temas de marca](./brand-themes.md) definidos en Journey Optimizer B2B edition, puede seleccionar un tema de marca como entrada para que el HTML de salida generado tenga un estilo acorde con los parámetros del tema de marca. Con esta entrada, se aplican estilos como el color de fondo, el color del botón, las fuentes, el interlineado, los márgenes y el relleno a la plantilla generada.  El uso de un tema de marca ayuda a eliminar el trabajo de diseño adicional para el estilo y el formato, y produce una plantilla lista para utilizarse con ediciones mínimas.
+Si su organización tiene [temas de marca](./brand-themes.md) definidos en Journey Optimizer B2B Edition, puede seleccionar un tema de marca como entrada para que el HTML de salida generado se diseñe según los parámetros del tema de marca. Con esta entrada, se aplican estilos como el color de fondo, el color del botón, las fuentes, el interlineado, los márgenes y el relleno a la plantilla generada.  El uso de un tema de marca ayuda a eliminar el trabajo de diseño adicional para el estilo y el formato, y produce una plantilla lista para utilizarse con ediciones mínimas.
 
 >[!ENDSHADEBOX]
 

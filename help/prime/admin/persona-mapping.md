@@ -2,13 +2,14 @@
 title: Asignación de personas
 description: Obtenga información sobre cómo configurar la asignación de personalidades en Journey Optimizer B2B Prime. Asigne atributos de persona para definir personas y utilice el filtrado Persona derivada en listas de personas y recorridos de personas.
 badge: label="GA" type="informative" tooltip="Esta función no está disponible hasta GA"
-source-git-commit: d88ebb07186f488541138da23a276429b1f1994b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 1%
-
 ---
-
 # Asignación de persona
 
 <!-- not available until GA -->

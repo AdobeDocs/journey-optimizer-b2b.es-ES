@@ -1,31 +1,40 @@
 ---
 title: Edición de imágenes con Adobe Express
-description: 'Edite imágenes de forma nativa con Adobe Express en Journey Optimizer B2B edition: cambie el tamaño, recorte, elimine fondos, convierta formatos y guarde en el repositorio de recursos.'
+description: 'Edite imágenes de forma nativa con Adobe Express en Journey Optimizer B2B Edition: cambie el tamaño, recorte, elimine fondos, convierta formatos y guarde en el repositorio de recursos.'
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
+autotag-review: 2026-03-30T21:58:42.309Z
+TQID: 'https://experienceleague.adobe.com/-U1lp9chaRnq7nEKin-YnJUMYJbHQ8Q3KtF-PvaGwhA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: e66c61b1-1ca4-4c42-8df9-e5cb44b0555c
+    internal-label: Creative Cloud
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-autotag-review: 2026-03-30T21:58:42.309Z
-TQID: https://experienceleague.adobe.com/-U1lp9chaRnq7nEKin-YnJUMYJbHQ8Q3KtF-PvaGwhA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content and assets
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 860
+source-wordcount: '860'
 ht-degree: 4%
-
 ---
-
 # Edición de imágenes con Adobe Express {#edit-images-adobe-express}
 
 >[!CONTEXTUALHELP]
@@ -35,13 +44,13 @@ ht-degree: 4%
 
 [!DNL Adobe Journey Optimizer B2B Edition] se integra de forma nativa con Adobe Express y le permite acceder a un conjunto de [!DNL Adobe Express] herramientas de edición de imágenes. Puede utilizar estas herramientas para modificar las imágenes almacenadas en el repositorio de recursos [!DNL Journey Optimizer B2B Edition]. La integración ofrece las siguientes ventajas clave:
 
-* Se ha aumentado la reutilización del contenido mediante la edición y el guardado de nuevos recursos de imagen en Journey Optimizer B2B edition.
+* Se ha aumentado la reutilización del contenido mediante la edición y el guardado de nuevos recursos de imagen en Journey Optimizer B2B Edition.
 
 * Se ha reducido el tiempo y el esfuerzo para actualizar los recursos de imagen o crear nuevas versiones de los recursos de imagen existentes.
 
 >[!NOTE]
 >
->Las autorizaciones para las funciones de edición de Adobe Express se incluyen en todas las suscripciones a Journey Optimizer B2B edition.
+>Las autorizaciones para las funciones de edición de Adobe Express se incluyen en todas las suscripciones a Journey Optimizer B2B Edition.
 
 Las funciones [!DNL Adobe Express] admiten los formatos de archivo de imagen PNG y JPEG.
 
@@ -59,7 +68,7 @@ Esta acción abre una página de lista con todos los recursos enumerados.
 
    * Para buscar un recurso de imagen dentro de la carpeta seleccionada, introduzca una cadena de texto en la barra de búsqueda.
 
-   ![Examinar recursos en el repositorio de Journey Optimizer B2B edition](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
+   ![Examinar recursos en el repositorio de Journey Optimizer B2B Edition](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
 
 1. Haga clic en el nombre del recurso de imagen para abrirlo y ver sus detalles.
 
@@ -81,11 +90,11 @@ Si tiene una licencia Enterprise para Adobe Express, puede acceder y utilizar el
 
 >[!NOTE]
 >
->La licencia empresarial de Adobe Express debe adquirirse en la misma organización de IMS para acceder a estas funciones completas de editor para Journey Optimizer B2B edition. Como miembro individual de la organización IMS, necesita una licencia asignada en la instancia de Adobe Express. De lo contrario, su acceso a Adobe Express estará restringido a [acciones rápidas en Adobe Express](#quick-actions-in-adobe-express) desde Journey Optimizer B2B edition.
+>La licencia empresarial de Adobe Express debe adquirirse en la misma organización de IMS para acceder a estas funciones completas de editor para Journey Optimizer B2B Edition. Como miembro individual de la organización IMS, necesita una licencia asignada en la instancia de Adobe Express. De lo contrario, su acceso a Adobe Express estará restringido a [acciones rápidas en Adobe Express](#quick-actions-in-adobe-express) desde Journey Optimizer B2B Edition.
 
 ![Abrir la imagen en el editor de Adobe Express Enterprise](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-La [Guía del usuario de Adobe Express](https://helpx.adobe.com/es/express/web.html){target="_blank"} proporciona información detallada sobre las funciones de edición disponibles.
+La [Guía del usuario de Adobe Express](https://helpx.adobe.com/express/web.html){target="_blank"} proporciona información detallada sobre las funciones de edición disponibles.
 
 ## Acciones rápidas en Adobe Express
 
@@ -101,7 +110,7 @@ Si no dispone de una licencia de Adobe Express Enterprise, puede acceder al edit
 
    ![Seleccione un tipo de edición para modificar la imagen](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. Cuando vuelva al editor principal de acciones rápidas de Adobe Express, haga clic en **[!UICONTROL Guardar]** para guardar el archivo de imagen modificado en el repositorio de recursos de Journey Optimizer B2B edition con el mismo nombre de archivo.
+1. Cuando vuelva al editor principal de acciones rápidas de Adobe Express, haga clic en **[!UICONTROL Guardar]** para guardar el archivo de imagen modificado en el repositorio de recursos de Journey Optimizer B2B Edition con el mismo nombre de archivo.
 
 ### Redimensionar imagen
 

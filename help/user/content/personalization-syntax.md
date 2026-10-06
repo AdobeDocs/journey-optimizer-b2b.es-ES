@@ -1,6 +1,6 @@
 ---
 title: Sintaxis de personalización
-description: Obtenga información sobre la sintaxis de personalización basada en Handlebars en Journey Optimizer B2B edition, incluidas expresiones, ayudantes, tipos literales y reglas de formato.
+description: Obtenga información sobre la sintaxis de personalización basada en Handlebars en Journey Optimizer B2B Edition, incluidas expresiones, ayudantes, tipos literales y reglas de formato.
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -11,24 +11,31 @@ autotag-review: '2026-05-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 3%
-
 ---
-
 # Sintaxis de personalización {#personalization-syntax}
 
 Las expresiones del [!DNL Journey Optimizer B2B Edition] [editor de personalización](./personalization.md#personalization-editor) se basan en la sintaxis de creación de plantillas _Handlebars_. Utiliza una plantilla y un objeto de entrada para generar HTML u otros formatos de texto. Las plantillas Handlebars se parecen al texto normal con expresiones Handlebars incrustadas.
@@ -50,7 +57,7 @@ Donde:
 
   >[!NOTE]
   >
-  >La estructura de atributos se define en un [esquema XDM de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home){target="_blank"}.
+  >La estructura de atributos se define en un [esquema XDM de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Los identificadores pueden ser cualquier carácter Unicode excepto los siguientes:
 

@@ -8,21 +8,27 @@ autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1562
+source-wordcount: '1562'
 ht-degree: 11%
-
 ---
-
 # Creación y publicación de páginas de destino
 
 Como especialista en marketing, puede definir y publicar páginas que desee incorporar en los recorridos. Cuando se agrega una nueva página de aterrizaje, se configura la página principal y las subpáginas, se diseña el contenido, se prueba y se publica.
@@ -199,15 +205,15 @@ Existen dos tipos de alertas:
 
 * **_Advertencias_** que hacen referencia a recomendaciones y prácticas recomendadas, como:
 
-   * `Placeholder links are present in the landing page body`: no olvide reemplazar los marcadores de posición con vínculos válidos.
+  * `Placeholder links are present in the landing page body`: no olvide reemplazar los marcadores de posición con vínculos válidos.
 
-   * `Text version of HTML is empty`: no se olvide de definir una versión de texto del cuerpo de la página, que se utilizará cuando no se pueda mostrar el contenido de HTML.
+  * `Text version of HTML is empty`: no se olvide de definir una versión de texto del cuerpo de la página, que se utilizará cuando no se pueda mostrar el contenido de HTML.
 
-   * `Empty link is present in page body`: compruebe que todos los vínculos de la página sean correctos.
+  * `Empty link is present in page body`: compruebe que todos los vínculos de la página sean correctos.
 
 * **_Errores_** que impiden probar o activar la recorrido mientras no se resuelvan, como:
 
-   * `The landing page content is empty`: el contenido de la página es obligatorio.
+  * `The landing page content is empty`: el contenido de la página es obligatorio.
 
 ## Prueba de la página de destino {#test-landing-page}
 

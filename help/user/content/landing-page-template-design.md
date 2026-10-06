@@ -1,6 +1,6 @@
 ---
 title: Diseño de plantilla de página de aterrizaje
-description: 'Diseño de plantillas de página de aterrizaje para su reutilización: añada componentes de contenido, formularios, CSS personalizado, personalización y previsualización de dispositivo en Journey Optimizer B2B edition.'
+description: 'Diseño de plantillas de página de aterrizaje para su reutilización: añada componentes de contenido, formularios, CSS personalizado, personalización y previsualización de dispositivo en Journey Optimizer B2B Edition.'
 feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
@@ -9,24 +9,33 @@ autotag-review: '2026-05-27T16:15:29.609Z'
 TQID: 'https://experienceleague.adobe.com/vWu6NGGG-pyhypi4RR76gMO8Jx3YnumXuJlDdbS9qTc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 353
-ht-degree: 6%
-
+source-wordcount: '353'
+ht-degree: 7%
 ---
-
 # Diseño de plantilla de la página de destino
 
 Después de [crear una plantilla de página de aterrizaje](./landing-page-templates.md#create-a-landing-page-template), use el espacio de diseño visual para crear los componentes estructurales y de contenido en la plantilla de página.
@@ -79,8 +88,8 @@ Aproveche las opciones de vista y validación de contenido disponibles en el esp
 * Acercar/alejar el contenido en las opciones de zoom preestablecidas.
 
 * Cambie la visualización del contenido en Escritorio, Móvil o Solo texto/Texto sin formato.
-   * Haz clic en el icono _Ver_ para obtener una vista previa del contenido entre dispositivos.
-   * Seleccione uno de los dispositivos predeterminados o introduzca dimensiones personalizadas para obtener una vista previa del contenido.
+  * Haz clic en el icono _Ver_ para obtener una vista previa del contenido entre dispositivos.
+  * Seleccione uno de los dispositivos predeterminados o introduzca dimensiones personalizadas para obtener una vista previa del contenido.
 
 ### Más opciones
 

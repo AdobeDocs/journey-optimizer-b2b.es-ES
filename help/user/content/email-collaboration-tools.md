@@ -1,28 +1,34 @@
 ---
 title: Herramientas de Collaboration de correo electrónico
-description: Colabore en correos electrónicos en Journey Optimizer B2B edition. Agregue comentarios, invite a revisores, resuelva comentarios y optimice los flujos de trabajo de revisión para los equipos.
+description: Colaboración en correos electrónicos en Journey Optimizer B2B Edition. Agregue comentarios, invite a revisores, resuelva comentarios y optimice los flujos de trabajo de revisión para los equipos.
 feature: Email Authoring, Content
 role: User
 exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+autotag-review: 2026-03-30T22:09:19.178Z
+TQID: 'https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: 2026-03-30T22:09:19.178Z
-TQID: https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 4%
-
 ---
-
 # Herramientas de colaboración por correo electrónico
 
 El [espacio de diseño de correo electrónico](./email-authoring.md) incluye herramientas de colaboración para realizar comentarios y resolver problemas de manera que los equipos de marketing puedan revisar, discutir y finalizar recursos de correo electrónico sin problemas directamente en [!DNL Journey Optimizer B2B Edition]. En lugar de compartir borradores con herramientas externas (como el chat, hilos de correo electrónico u hojas de cálculo), los usuarios pueden realizar comentarios, sugerir ediciones y resolver comentarios dentro del espacio de diseño del correo electrónico. Utilice estas herramientas para optimizar el flujo de trabajo, reducir los errores y garantizar que las partes interesadas estén alineadas antes de iniciar la campaña de correo electrónico dentro de un recorrido de cuenta:
@@ -51,7 +57,7 @@ Los administradores de productos pueden habilitar el acceso a las herramientas d
 
 +++ Habilitar permisos de correo electrónico
 
-1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
+1. En la aplicación Permisos, vaya a la pestaña **[!UICONTROL Roles]** y seleccione el [rol](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles?lang=es){target="_blank"} que desee.
 
 1. Haga clic en **[!UICONTROL Editar]** para modificar los permisos.
 

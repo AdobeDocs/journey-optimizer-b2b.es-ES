@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1634
-ht-degree: 5%
-
+source-wordcount: '1657'
+ht-degree: 6%
 ---
-
 # Componentes de estructura {#structure-components}
 
 >[!CONTEXTUALHELP]
@@ -53,14 +59,14 @@ En la parte superior de la biblioteca _[!UICONTROL Components]_, la sección **[
 
 | Ícono | Componente | Descripción |
 | ----- | ----------- | ----------- |
-| ![1:1 icono de columna](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 columna] | Un contenedor de columna único que rellena el ancho del espacio. |
-| ![1:2 icono de columna](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 columna restante] | Contenedor de dos columnas que utiliza una relación 1:2 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa un tercio de la anchura y la segunda (derecha) ocupa los dos tercios restantes. |
-| ![1:3 icono de columna](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 columna restante] | Contenedor de dos columnas que utiliza una relación 1:3 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa una cuarta parte de la anchura y la segunda (derecha) ocupa las tres cuartas partes restantes. |
-| ![2:1 icono de columna](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 columna Derecha] | Contenedor de dos columnas que utiliza una relación 2:1 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa dos tercios de la anchura y la segunda (derecha) ocupa el tercio restante. |
-| ![2:2 icono de columna](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 columna] | Contenedor de dos columnas que utiliza una relación 2:2 para rellenar el ancho del espacio. Las columnas izquierda y derecha tienen el mismo ancho. |
-| ![3:1 icono de columna](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 columna Derecha] | Contenedor de dos columnas que utiliza una relación 3:1 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa las tres cuartas partes (75 %) de la anchura y la segunda (derecha) ocupa la cuarta parte restante (25 %). |
-| ![3:3 icono de columna](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 columna] | Contenedor de tres columnas que utiliza una relación 3:3 para rellenar el ancho del espacio. Las tres columnas tienen el mismo ancho. |
-| ![4:4 icono de columna](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 columna] | Contenedor de cuatro columnas que utiliza una relación 4:4 para rellenar el ancho del espacio. Las cuatro columnas tienen el mismo ancho. |
+| ![Icono de columna 1:1](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL Columna 1:1] | Un contenedor de columna único que rellena el ancho del espacio. |
+| ![Icono de columna 1:2](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL Columna 1:2 izquierda] | Contenedor de dos columnas que utiliza una relación 1:2 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa un tercio de la anchura y la segunda (derecha) ocupa los dos tercios restantes. |
+| ![Icono de columna 1:3](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL Columna 1:3 izquierda] | Contenedor de dos columnas que utiliza una relación 1:3 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa una cuarta parte de la anchura y la segunda (derecha) ocupa las tres cuartas partes restantes. |
+| ![Icono de columna 2:1](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | Columna [!UICONTROL 2:1 derecha] | Contenedor de dos columnas que utiliza una relación 2:1 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa dos tercios de la anchura y la segunda (derecha) ocupa el tercio restante. |
+| ![Icono de columna 2:2](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL Columna 2:2] | Contenedor de dos columnas que utiliza una relación 2:2 para rellenar el ancho del espacio. Las columnas izquierda y derecha tienen el mismo ancho. |
+| ![Icono de columna 3:1](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | Columna [!UICONTROL 3:1 derecha] | Contenedor de dos columnas que utiliza una relación 3:1 para rellenar el ancho del espacio. La primera columna (izquierda) ocupa las tres cuartas partes (75 %) de la anchura y la segunda (derecha) ocupa la cuarta parte restante (25 %). |
+| ![Icono de columna 3:3](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL Columna 3:3] | Contenedor de tres columnas que utiliza una relación 3:3 para rellenar el ancho del espacio. Las tres columnas tienen el mismo ancho. |
+| ![Icono de columna 4:4](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL Columna 4:4] | Contenedor de cuatro columnas que utiliza una relación 4:4 para rellenar el ancho del espacio. Las cuatro columnas tienen el mismo ancho. |
 | ![n:n icono de columna](../../user/assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n columna] | Estructura de columnas personalizable que rellena el espacio según las columnas definidas. El número de columnas (entre dos y diez) se establece y el ancho de cada columna se establece de forma individual. [Más información](#change-nn-columns) |
 
 ## Añadir componentes de estructura {#add-structure-components}

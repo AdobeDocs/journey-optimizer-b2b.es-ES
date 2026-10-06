@@ -1,29 +1,36 @@
 ---
 title: Fases del grupo de compra
-description: Cree modelos de fase de grupo de compra personalizados con etapas de entrada, éxito y fracaso para rastrear la progresión y las acciones de recorrido de cuenta de déclencheur en Journey Optimizer B2B edition.
+description: Cree modelos de fase de grupo de compra personalizados con etapas de entrada, éxito y fracaso para rastrear la progresión y las acciones de recorrido de cuenta de déclencheur en Journey Optimizer B2B Edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+autotag-review: 2026-03-30T21:47:43.205Z
+TQID: 'https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
-autotag-review: 2026-03-30T21:47:43.205Z
-TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Automated decisioning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2326
+source-wordcount: '2326'
 ht-degree: 2%
-
 ---
-
 # Fases del grupo de compras
 
 Las etapas de compra de grupos están diseñadas para seguir la progresión de los grupos de compra en la conversión de oportunidades en clientes. Utilice esta función para realizar un seguimiento de la progresión del grupo de compra e identificar las siguientes mejores acciones para comprar miembros del grupo.
@@ -42,7 +49,7 @@ Para crear y configurar un modelo de fases de un grupo de compra:
 * Definición de los flujos de transición
 * Designación de las fases de entrada y destino
 
-Solo se admite un modelo; para planear el modelo óptimo, trabaje con los equipos de marketing y ventas antes de crearlo y publicarlo en Journey Optimizer B2B edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+Solo se admite un modelo; para planear el modelo óptimo, trabaje con los equipos de marketing y ventas antes de crearlo y publicarlo en Journey Optimizer B2B Edition.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 Cuando crea el modelo de fase de grupo de compra, se encuentra automáticamente en el estado _Borrador_ y no se puede eliminar ni cambiar el nombre. Permanece en este estado a medida que define las fases y configura el flujo de transición entre las fases. Cuando el modelo se encuentra en estado publicado (_Activo_), no se puede cambiar.
 
@@ -380,4 +387,4 @@ Utilice la ocurrencia de un cambio de fase de grupo de compra para mover la cuen
 
 ## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3448697/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

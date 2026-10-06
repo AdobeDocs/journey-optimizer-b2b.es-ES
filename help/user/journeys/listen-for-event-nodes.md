@@ -4,12 +4,17 @@ description: 'Configuración de nodos de evento para déclencheur de cuentas y p
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+autotag-review: 2026-03-30T23:08:46.228Z
+TQID: 'https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
     internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,9 +24,7 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-autotag-review: 2026-03-30T23:08:46.228Z
-TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 8295db0f508acc0b28feabdf95f1ccb71f2afc12
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 5%
@@ -196,7 +199,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 Para los recorridos de persona, puede usar un cambio en los atributos de perfil de persona B2B para almacenar en déclencheur el nodo _Listen for an event_.
 
-1. Arrastre y suelte **[!UICONTROL cambio de perfil de persona]**&#x200B;s de la lista de _[!UICONTROL Déclencheur]_ en el espacio del generador de coincidencia de eventos.
+1. Arrastre y suelte **[!UICONTROL cambio de perfil de persona]**s de la lista de _[!UICONTROL Déclencheur]_ en el espacio del generador de coincidencia de eventos.
 
 1. Haga clic en **[!UICONTROL Agregar restricción]** y seleccione el cambio de atributo que desee usar para el déclencheur de evento.
 
@@ -218,7 +221,7 @@ Los Eventos de experiencia están disponibles para recorridos de persona o cuand
 
 >[!PREREQUISITES]
 >
->Los administradores configuran [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permite a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real.
+>Los administradores configuran [Eventos de experiencia de Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, que permite a los especialistas en marketing crear recorridos de persona y cuenta que reaccionan a los eventos en tiempo casi real.
 >
 >Para que los eventos de experiencia estén disponibles para los recorridos, un administrador de productos debe [agregar primero los tipos de eventos y los campos de interés](../admin/configure-aep-events.md#add-an-event) en [!DNL Journey Optimizer B2B Edition].
 
@@ -317,5 +320,5 @@ Habilite la opción **[!UICONTROL Timeout]** en las propiedades del nodo para es
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443237/?captions=spa&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

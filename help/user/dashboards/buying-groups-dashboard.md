@@ -1,29 +1,35 @@
 ---
 title: Panel de información general de grupos de compra
-description: Realice un seguimiento del progreso del grupo de compras con puntuaciones de finalización, métricas de participación y análisis de interés de la solución para habilitar el traspaso de ventas en Journey Optimizer B2B edition.
+description: Realice un seguimiento del progreso del grupo de compras con puntuaciones de finalización, métricas de participación y análisis de interés de las soluciones para habilitar el traspaso de ventas en Journey Optimizer B2B Edition.
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
+autotag-review: 2026-03-30T22:45:21.856Z
+TQID: 'https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-30T22:45:21.856Z
-TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 594
+source-wordcount: '594'
 ht-degree: 3%
-
 ---
-
 # Panel de información general de grupos de compra
 
 El tablero Información general para grupos de compra está diseñado para el proceso de transferencia de ventas B2B. Permite que el equipo de mercadotecnia comparta _listos_ para la compra de grupos y sus miembros, así como datos esenciales, con el equipo de ventas para su ejecución. Este proceso garantiza una transición optimizada del marketing a las ventas.

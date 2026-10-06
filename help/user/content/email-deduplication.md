@@ -7,24 +7,34 @@ role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, deduplicación, recorrido, duplicado
 exl-id: 93107acd-1cb2-4316-acfc-e32ab1e065ae
+autotag-review: 2026-03-30T22:08:16.582Z
+TQID: 'https://experienceleague.adobe.com/aWKXaC6x4Izeh81A6Fpy-Nrf18fHgnq6jUc-82ohErs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: 2026-03-30T22:08:16.582Z
-TQID: https://experienceleague.adobe.com/aWKXaC6x4Izeh81A6Fpy-Nrf18fHgnq6jUc-82ohErs
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '327'
 ht-degree: 1%
-
 ---
-
 # Deduplicación de correo electrónico
 
 Para asegurarse de que el mismo correo electrónico no se envíe varias veces a la misma dirección de correo electrónico dentro de un recorrido, utilice la anulación de duplicación de correo electrónico en los recorridos de cuenta. Al habilitar esta función, se bloquean las direcciones de correo electrónico duplicadas hasta que el primer registro con esa dirección de correo electrónico complete el recorrido. Una vez que una cuenta termina un recorrido, una persona puede cumplir los requisitos para recibir correos electrónicos de nuevo como parte de una nueva cuenta que entra en el recorrido.

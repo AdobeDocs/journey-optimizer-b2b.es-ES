@@ -1,6 +1,6 @@
 ---
 title: Creación de WhatsApp
-description: Cree mensajes de WhatsApp para recorridos de cuenta con plantillas de Meta aprobadas, tokens de personalización y configuraciones de entrega en Journey Optimizer B2B edition.
+description: Cree mensajes de WhatsApp para recorridos de cuenta con plantillas de Meta, tokens de personalización y configuraciones de entrega aprobados en Journey Optimizer B2B Edition.
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
@@ -8,33 +8,47 @@ autotag-review: '2026-05-27T16:19:44.490Z'
 TQID: 'https://experienceleague.adobe.com/B368ny2Y9BSzsE7CClVIbVr-5Kha5d2pTiNiDGCwML4'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: '828'
 ht-degree: 1%
-
 ---
-
 # Creación de WhatsApp
 
-Utiliza Adobe Journey Optimizer B2B edition para enviar mensajes de WhatsApp a los miembros de la cuenta en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes utilizando plantillas de mensaje de Meta aprobadas desde el editor de WhatsApp. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
+Utiliza Adobe Journey Optimizer B2B Edition para enviar mensajes de WhatsApp a los miembros de la cuenta en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes utilizando plantillas de mensaje de Meta aprobadas desde el editor de WhatsApp. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
 Antes de crear mensajes de WhatsApp para recorridos de cuenta, asegúrate de que tienes el [canal de WhatsApp configurado](../admin/configure-channels-whatsapp.md) necesario en la configuración de _[!UICONTROL Administrator]_.
 
 
 >[!NOTE]
 >
->Solo se admiten _elementos de mensaje de WhatsApp de salida_ en Journey Optimizer B2B edition.
+>Solo se admiten _elementos de mensaje de WhatsApp de salida_ en Journey Optimizer B2B Edition.
 
 +++ Elementos de mensaje compatibles y opciones de llamadas a la acción
 
@@ -99,7 +113,7 @@ Puede configurar los envíos de mensajes de WhatsApp en un recorrido de cuenta a
 
 ### Seleccione una plantilla de mensaje
 
-Los mensajes de WhatsApp se envían utilizando plantillas de mensaje aprobadas previamente desde su cuenta de Meta WhatsApp Business. **Meta debe revisar y aprobar las plantillas** para poder usarlas en Journey Optimizer B2B edition. Para administrar y enviar plantillas para su aprobación, comuníquese con el administrador de cuentas de [!DNL Meta Business Manager].
+Los mensajes de WhatsApp se envían utilizando plantillas de mensaje aprobadas previamente desde su cuenta de Meta WhatsApp Business. **Meta debe revisar y aprobar las plantillas** para poder usarlas en Journey Optimizer B2B Edition. Para administrar y enviar plantillas para su aprobación, comuníquese con el administrador de cuentas de [!DNL Meta Business Manager].
 
 1. Para **[!UICONTROL Seleccionar categoría de plantilla]**, elija una de las siguientes opciones:
 

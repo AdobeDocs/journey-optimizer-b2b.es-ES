@@ -1,30 +1,42 @@
 ---
 title: Diseño de página de aterrizaje
-description: 'Diseñe páginas de aterrizaje con herramientas visuales: añada componentes de contenido, formularios, CSS personalizado, personalización y previsualización de dispositivo para recorridos de cuenta en Journey Optimizer B2B edition.'
+description: 'Diseñe páginas de aterrizaje con herramientas visuales: añada componentes de contenido, formularios, CSS personalizado, personalización y previsualización de dispositivos para recorridos de cuenta en Journey Optimizer B2B Edition.'
 feature: Landing Pages, Content Design Tools
 role: User
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
+autotag-review: 2026-03-30T23:18:56.836Z
+TQID: 'https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-autotag-review: 2026-03-30T23:18:56.836Z
-TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 2%
-
+source-wordcount: '411'
+ht-degree: 3%
 ---
-
 # Diseño de la página de destino
 
 Después de [crear una página de aterrizaje](./landing-pages-create-publish.md#create-landing-page), use el espacio de diseño visual para crear los componentes estructurales y de contenido en su página.
@@ -88,8 +100,8 @@ Aproveche las opciones de vista y validación de contenido disponibles en el esp
 * Acercar/alejar el contenido en las opciones de zoom preestablecidas.
 
 * Cambie la visualización del contenido en Escritorio, Móvil o Solo texto/Texto sin formato.
-   * Haz clic en el icono _Ver_ para obtener una vista previa del contenido entre dispositivos.
-   * Seleccione uno de los dispositivos predeterminados o introduzca dimensiones personalizadas para obtener una vista previa del contenido.
+  * Haz clic en el icono _Ver_ para obtener una vista previa del contenido entre dispositivos.
+  * Seleccione uno de los dispositivos predeterminados o introduzca dimensiones personalizadas para obtener una vista previa del contenido.
 
 ### Más opciones
 
