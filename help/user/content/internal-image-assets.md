@@ -1,33 +1,39 @@
 ---
 title: Trabajo con Assets de imagen interno
-description: 'Examine, administre y utilice recursos de B2B edition de Journey Optimizer: organice carpetas, edite imágenes y cree contenido para recorridos de cuenta.'
+description: 'Examine, administre y utilice recursos de Journey Optimizer B2B Edition: organice carpetas, edite imágenes y cree contenido para recorridos de cuenta.'
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+autotag-review: 2026-03-30T22:14:12.746Z
+TQID: 'https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:14:12.746Z
-TQID: https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1765
+source-wordcount: '1765'
 ht-degree: 1%
-
 ---
-
 # Trabajo con recursos de imagen internos
 
 El repositorio de recursos de imagen interno es la fuente de recursos de imagen predeterminada y puede administrar y utilizar fácilmente los recursos disponibles para diseñar contenido compatible con los recorridos de su cuenta.
 
-Tiene la gama completa de funciones de administración de recursos en Journey Optimizer B2B edition. Estas funciones incluyen:
+Tiene la gama completa de funciones de administración de recursos en Journey Optimizer B2B Edition. Estas funciones incluyen:
 
 * [Reemplazar](#replace-assets)
 * [Eliminar](#delete-assets)
@@ -36,7 +42,7 @@ Tiene la gama completa de funciones de administración de recursos en Journey Op
 
 ## Examen y acceso a recursos
 
-Para acceder a los recursos internos en Journey Optimizer B2B edition, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Assets]**. Esta acción abre una página de lista con todos los recursos enumerados.
+Para acceder a los recursos internos en Journey Optimizer B2B Edition, vaya a la navegación izquierda y haga clic en **[!UICONTROL Administración de contenido]** > **[!UICONTROL Assets]**. Esta acción abre una página de lista con todos los recursos enumerados.
 
 ![Examinar recursos de imagen](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -58,13 +64,13 @@ Haga clic en el nombre de cualquier recurso para abrir la página de detalles de
 
 ## Ver recursos utilizados por referencias
 
-En la página de detalles del recurso, haga clic en la ficha **[!UICONTROL Utilizado por]** para ver los detalles de dónde se utiliza actualmente el recurso en Journey Optimizer B2B edition, en correos electrónicos, plantillas de correo electrónico y fragmentos.
+En la página de detalles del recurso, haga clic en la ficha **[!UICONTROL Utilizado por]** para ver los detalles de dónde se utiliza actualmente el recurso en Journey Optimizer B2B Edition, en correos electrónicos, plantillas de correo electrónico y fragmentos.
 
 >[!IMPORTANT]
 >
 >Cualquier recurso que esté _EN USO_ en cualquiera de los correos electrónicos, plantillas de correo electrónico o fragmentos **no se puede** eliminar.
 
-El panel muestra las referencias por categoría: _Correo electrónico_, _Plantilla de correo electrónico_ o _Fragmento_. Los correos electrónicos de Journey Optimizer B2B edition están incrustados y creados en recorrido, por lo que el recorrido principal del correo electrónico que utiliza el recurso se muestra en las referencias.
+El panel muestra las referencias por categoría: _Correo electrónico_, _Plantilla de correo electrónico_ o _Fragmento_. Los correos electrónicos de Journey Optimizer B2B Edition están incrustados y creados en recorrido, por lo que el recorrido principal del correo electrónico que utiliza el recurso se muestra en las referencias.
 
 Al hacer clic en el vínculo, se le redirige al correo electrónico, la plantilla de correo electrónico o el fragmento correspondiente donde se utiliza el recurso.
 
@@ -72,7 +78,7 @@ Al hacer clic en el vínculo, se le redirige al correo electrónico, la plantill
 
 ## Añadir recursos
 
-Desde la página de lista _Assets_, puede agregar recursos de imagen al repositorio de recursos de Journey Optimizer B2B edition.
+Desde la página de lista _Assets_, puede agregar recursos de imagen al repositorio de recursos de Journey Optimizer B2B Edition.
 
 1. Haga clic en **[!UICONTROL Agregar Assets]** en la parte superior derecha.
 
@@ -112,7 +118,7 @@ Si el recurso está en uso, la acción abre un cuadro de diálogo informativo qu
 
 ## Reemplazar recursos
 
-Utilice cualquiera de los siguientes métodos para reemplazar un recurso que reside en el repositorio de recursos _[!UICONTROL Journey Optimizer B2B edition]_:
+Utilice cualquiera de los siguientes métodos para reemplazar un recurso que reside en el repositorio de recursos _[!UICONTROL Journey Optimizer B2B Edition]_:
 
 * Vaya a los detalles del recurso, haga clic en **[!UICONTROL ... Más]** en la parte superior derecha y elige **[!UICONTROL Reemplazar]** de las opciones.
 
@@ -142,7 +148,7 @@ En la página del listado (_[!UICONTROL Administración de contenido]_ > _[!UICO
 
 ![Recursos seleccionados](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-Puede realizar las siguientes acciones masivas con los recursos seleccionados que residen en el repositorio de recursos de _[!UICONTROL Journey Optimizer B2B edition]_:
+Puede realizar las siguientes acciones masivas para los recursos seleccionados que residen en el repositorio de recursos _[!UICONTROL Journey Optimizer B2B Edition]_:
 
 +++Mover recursos
 
@@ -280,8 +286,8 @@ Esta acción cambia el panel Herramientas que muestra una lista de los recursos 
 
   Hay herramientas disponibles para ayudarle a localizar el recurso que necesita:
 
-   * Haga clic en el icono _Filtrar_ en la parte superior izquierda para filtrar los elementos mostrados según sus criterios.
+  * Haga clic en el icono _Filtrar_ en la parte superior izquierda para filtrar los elementos mostrados según sus criterios.
 
-   * Escriba texto en el campo _Buscar_ para filtrar los elementos mostrados y buscar una coincidencia del nombre del recurso.
+  * Escriba texto en el campo _Buscar_ para filtrar los elementos mostrados y buscar una coincidencia del nombre del recurso.
 
   ![Use los filtros y el campo de búsqueda para encontrar el recurso que necesita](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}

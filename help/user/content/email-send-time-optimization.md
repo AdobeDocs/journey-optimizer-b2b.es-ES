@@ -4,26 +4,35 @@ description: La optimización del tiempo de envío (STO) en Adobe Journey Optimi
 feature: Person Journeys, Channels
 role: User
 exl-id: a0423bdc-f2ad-450b-9dc6-b9f2f7a1ef8c
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+    internal-label: Journey Actions
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '483'
 ht-degree: 0%
-
 ---
-
 # Optimización del tiempo de envío del correo electrónico
 
 Utilice la función de optimización del tiempo de envío (STO) para personalizar el tiempo de envío del correo electrónico para [recorridos de personas](../journeys/journeys-overview.md) mediante la predicción de cuándo es más probable que se involucre cada perfil. En lugar de un tiempo de envío fijo, STO utiliza señales de participación de correo electrónico históricas para programar la entrega en el momento óptimo para cada destinatario, lo que mejora la participación general.

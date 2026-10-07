@@ -7,22 +7,31 @@ autotag-review: '2026-05-27T16:06:59.553Z'
 TQID: 'https://experienceleague.adobe.com/GFW5SZ5Z-phoEIE6jTVD7EgwcT1Vx647mjoLXJejbFg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 542
-ht-degree: 3%
-
+source-wordcount: '542'
+ht-degree: 4%
 ---
-
 # Configuraciones de Forms
 
 Para que los especialistas en marketing puedan [crear y publicar formularios](../content/forms.md) para usarlos en sus páginas de aterrizaje, un administrador de productos debe crear uno o más ajustes preestablecidos dedicados. Cada ajuste preestablecido define el extremo de conexión utilizado para enviar los datos de envío del formulario y el conjunto de datos utilizado para almacenar los datos capturados.
@@ -40,7 +49,7 @@ Para usar formularios web, debes tener una o más _&#x200B;**conexiones de strea
 
 Para obtener información detallada sobre cómo crear conexiones de origen de flujo continuo, consulte la [_documentación de Experience Platform_](https://experienceleague.adobe.com/es/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
-La configuración del canal de Forms en Journey Optimizer B2B edition requiere los siguientes [permisos](../admin/user-management.md#b2b-product-permissions):
+La configuración del canal de Forms en Journey Optimizer B2B Edition requiere los siguientes [permisos](../admin/user-management.md#b2b-product-permissions):
 
 * _[!UICONTROL Configuraciones de canal B2B]_ > _[!UICONTROL Ver ajustes preestablecidos de Forms]_: necesario para ver las configuraciones preestablecidas de formularios.
 * _[!UICONTROL Configuraciones de canal B2B]_ > _[!UICONTROL Administrar ajustes preestablecidos de Forms]_: necesario para crear, actualizar y eliminar configuraciones preestablecidas de formularios.
@@ -58,9 +67,9 @@ Al crear un ajuste preestablecido:
 
 * Cada conexión de flujo continuo genera automáticamente recursos como, por ejemplo:
 
-   * _Conexión de Source_ - donde se originan los datos.
-   * _Conexión de destino_ - donde se almacenan o consumen los datos.
-   * _Flujo de Source_: la canalización que mueve datos de la conexión de origen a Experience Platform. Gestiona la asignación, la transformación y la validación.
+  * _Conexión de Source_ - donde se originan los datos.
+  * _Conexión de destino_ - donde se almacenan o consumen los datos.
+  * _Flujo de Source_: la canalización que mueve datos de la conexión de origen a Experience Platform. Gestiona la asignación, la transformación y la validación.
 
 ## Crear un ajuste preestablecido de un formulario
 

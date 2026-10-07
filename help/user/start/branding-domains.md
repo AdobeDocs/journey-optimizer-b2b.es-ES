@@ -4,25 +4,31 @@ description: Configure los dominios de promoción de la marca para que cada una 
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: '913'
 ht-degree: 75%
-
 ---
-
 # Configurar dominios de personalización de marca
 
 Un dominio de promoción de la marca en Marketo Engage es un subdominio personalizado (como `links.yourcompany.com`) que se utiliza para reescribir vínculos y realizar un seguimiento de los clics en los correos electrónicos, así como para asegurarse de que reflejan su marca en lugar de un dominio genérico. Cada dominio de marca actúa como un dominio de seguimiento de clics para mejorar la capacidad de entrega y la confianza al hacer coincidir los vínculos de su correo electrónico y página de aterrizaje con su dominio.
@@ -84,7 +90,7 @@ El primer paso para trabajar con los dominios de promoción de la marca es edita
 
 ## Definir un dominio adicional
 
-Para admitir varias marcas dentro del entorno de B2B edition de Journey Optimizer, donde cada una tiene sus propios vínculos de seguimiento de marca, puede agregar otro dominio de marca después de editar el dominio predeterminado. Al agregar un dominio, tiene las siguientes opciones:
+Para admitir varias marcas dentro del entorno de Journey Optimizer B2B Edition, donde cada una tiene sus propios vínculos de seguimiento de marca, puede agregar otro dominio de marca después de editar el dominio predeterminado. Al agregar un dominio, tiene las siguientes opciones:
 
 >* _Convertir en dominio principal_: Convierta este dominio en el dominio principal del área de trabajo. Al seleccionar esta opción, todos los correos electrónicos no enviados existentes se establecen en el dominio principal predeterminado y todos los correos electrónicos recién creados se establecen de forma predeterminada en este dominio principal. Los especialistas en marketing pueden elegir un dominio de marca alternativo donde sea necesario.
 >

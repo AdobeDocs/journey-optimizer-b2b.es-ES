@@ -1,33 +1,39 @@
 ---
 title: administración de recorrido
-description: 'Optimice la generación de demanda con recorridos: cree, publique y administre la participación del grupo comprador mediante correo electrónico, SMS y eventos en Journey Optimizer B2B edition.'
+description: 'Optimice la generación de demanda con recorridos: cree, publique y administre la participación del grupo comprador mediante correo electrónico, SMS y eventos en Journey Optimizer B2B Edition.'
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
+autotag-review: 2026-03-30T23:09:32.398Z
+TQID: 'https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:09:32.398Z
-TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1308
+source-wordcount: '1308'
 ht-degree: 45%
-
 ---
-
 # administración de recorrido
 
-En Journey Optimizer B2B edition, los recorridos son planes de marketing automatizados y basados en cuentas de varios pasos que organizan experiencias personalizadas en varios canales en respuesta a la participación, los eventos comerciales o las campañas programadas. Defina un acuerdo basado en las ventas que incluya correo electrónico, SMS y mucho más para coordinar el marketing entrante con las actividades de ventas salientes de cada miembro del grupo comprador.
+En Journey Optimizer B2B Edition, los recorridos son planes de marketing automatizados y basados en cuentas de varios pasos y posibles clientes que organizan experiencias personalizadas en varios canales en respuesta a la participación, los eventos comerciales o las campañas programadas. Defina un acuerdo basado en las ventas que incluya correo electrónico, SMS y mucho más para coordinar el marketing entrante con las actividades de ventas salientes de cada miembro del grupo comprador.
 
-Journey Optimizer B2B edition admite dos tipos de recorrido:
+Journey Optimizer B2B Edition admite dos tipos de recorrido:
 
 * **recorridos de cuenta**: optimice la generación de demanda y la calificación de grupos de compra y genere una demanda más calificada para sus programas de adquisición, ampliación de ventas/ventas cruzadas y retención. Personalice sus recorridos para cada grupo de compras y miembro del grupo de compras mediante la participación automatizada a través de correos electrónicos, SMS, eventos y mucho más.
 
@@ -116,7 +122,7 @@ Desde el mapa de recorrido, puede [agregar los nodos](./create-publish-journey.m
 
 ## acciones de recorrido
 
-La página de lista recorridos incluye todos los recorridos de cuenta o persona de la instancia de Journey Optimizer B2B edition. Desde la página de lista, puede aplicar una serie de acciones a un recorrido.
+La página de lista recorridos incluye todos los recorridos de cuenta o persona de la instancia de Journey Optimizer B2B Edition. Desde la página de lista, puede aplicar una serie de acciones a un recorrido.
 
 ### Anular recorrido
 

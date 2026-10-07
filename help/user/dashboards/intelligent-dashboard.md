@@ -1,30 +1,37 @@
 ---
 title: Panel de control inteligente
-description: Acceda a perspectivas con tecnología de IA para comprar grupos y cuentas con métricas de participación, detección de intención y análisis predictivo en Journey Optimizer B2B edition.
+description: Acceda a perspectivas con tecnología de IA para comprar grupos y cuentas con métricas de participación, detección de intención y análisis predictivo en Journey Optimizer B2B Edition.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
+autotag-review: 2026-03-30T22:43:58.948Z
+TQID: 'https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T22:43:58.948Z
-TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1682
+source-wordcount: '1682'
 ht-degree: 16%
-
 ---
-
 # Panel de control inteligente
 
 El panel inteligente proporciona una vista completa de [el grupo de compras](../buying-groups/buying-groups-overview.md) y las métricas de la cuenta, lo que le ayuda a supervisar y diseñar estrategias para los esfuerzos de marketing de forma más eficaz.
@@ -40,7 +47,7 @@ El Intelligent Dashboard también proporciona acceso a las páginas de detalles 
 
 {{intent-data-note}}
 
-Para utilizar la información y las perspectivas proporcionadas por el Intelligent Dashboard, la instancia de Journey Optimizer B2B edition debe disponer de los elementos necesarios:
+Para utilizar la información y las perspectivas proporcionadas por el Intelligent Dashboard, la instancia de Journey Optimizer B2B Edition debe disponer de los elementos necesarios:
 
 | Tipo | Requisito |
 | ---- | ----------- |
@@ -167,7 +174,7 @@ La sección _[!UICONTROL Cuentas emergentes]_ muestra una visualización de las 
 
 >[!NOTE]
 >
->Los datos de aumento de cuentas solo incluyen cuentas que Journey Optimizer B2B edition ingiere a través de recorridos de cuenta o grupos de compra.
+>Los datos de aumento de cuentas solo incluyen cuentas que Journey Optimizer B2B Edition ingiere a través de recorridos de cuentas o grupos de compras.
 
 ![Visualización de datos de aumento de cuenta](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -211,7 +218,7 @@ La sección _[!UICONTROL Aspectos destacados de la cuenta]_ está organizada en 
 
 >[!NOTE]
 >
->Los datos de resaltados de cuenta solo incluyen cuentas que Journey Optimizer B2B edition ingiere a través de recorridos de cuentas o grupos de compras.
+>Los datos de resaltados de cuenta solo incluyen cuentas que Journey Optimizer B2B Edition ingiere a través de recorridos de cuentas o grupos de compras.
 
 ![Aspectos destacados de la cuenta](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -261,7 +268,7 @@ La sección _[!UICONTROL Cobertura de contactos]_ muestra una visualización del
 
 >[!NOTE]
 >
->Los datos de cobertura de contactos se basan en los grupos de compra creados en la instancia de Journey Optimizer B2B edition.
+>Los datos de cobertura de contactos se basan en los grupos de compra creados en la instancia de Journey Optimizer B2B Edition.
 
 ![Visualización de datos de aumento de cuenta](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -293,7 +300,7 @@ La sección _[!UICONTROL Superposición de contactos]_ muestra una lista de cont
 
 >[!NOTE]
 >
->Los datos de superposición de contactos se basan en los grupos de compras creados en la instancia de Journey Optimizer B2B edition.
+>Los datos de superposición de contactos se basan en los grupos de compras creados en la instancia de Journey Optimizer B2B Edition.
 
 ![Tabla de superposición de contactos](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 

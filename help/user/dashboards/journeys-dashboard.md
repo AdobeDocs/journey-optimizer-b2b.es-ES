@@ -1,6 +1,6 @@
 ---
 title: Panel de información general de Recorrido
-description: Rastree el rendimiento del recorrido de personas y cuentas con tasas de finalización, métricas de participación y análisis de eficacia de canal en Journey Optimizer B2B edition.
+description: Rastree el rendimiento del recorrido de personas y cuentas con tasas de finalización, métricas de participación y análisis de efectividad de canal en Journey Optimizer B2B Edition.
 feature: Dashboards, Account Journeys, Person Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
@@ -8,24 +8,31 @@ autotag-review: '2026-05-21T21:07:43.367Z'
 TQID: 'https://experienceleague.adobe.com/u-zKjTHRErQFQCHxuft-gJiiiE5a1oJUIZfziasvcHs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Reporting
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: '448'
 ht-degree: 2%
-
 ---
-
 # Panel de información general de Recorrido
 
 El panel Información general de [recorridos de cuenta o persona](../journeys/journeys-overview.md) proporciona una instantánea completa de tus recorridos activos. Los gráficos de círculos y barras categorizan y cuantifican las finalizaciones y las actividades de participación para que pueda evaluar la eficacia de los canales de correo electrónico y SMS a través de las métricas clave de entrega y participación. Para obtener una vista de recorrido cruzado de los datos de participación y envío específicos del correo electrónico, consulte el [informe de rendimiento del correo electrónico](email-performance-dashboard.md).

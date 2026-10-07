@@ -1,28 +1,34 @@
 ---
 title: Nodos de recorrido
-description: Cree recorridos con nodos de acción, evento y orquestación (audiencia, espera, división y combinación) para el marketing multicanal en Journey Optimizer B2B edition.
+description: Cree recorridos con nodos de acción, evento y orquestación (audiencia, espera, división y combinación) para el marketing multicanal en Journey Optimizer B2B Edition.
 feature: Account Journeys
 hide: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
+autotag-review: 2026-03-30T23:13:57.315Z
+TQID: 'https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:13:57.315Z
-TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: '135'
 ht-degree: 18%
-
 ---
-
 # Nodos del recorrido
 
 Después de crear un recorrido (recorrido de cuenta o recorrido de persona), añada la audiencia y construya el recorrido mediante nodos. El mapa de recorrido proporciona un lienzo en el que puede crear sus casos de uso de marketing B2B de varios pasos.

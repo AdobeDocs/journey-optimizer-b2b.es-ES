@@ -1,6 +1,6 @@
 ---
 title: Funciones de ayuda
-description: Guía de referencia para funciones de ayuda de personalización en Journey Optimizer B2B edition. Incluye sintaxis y ejemplos de cadenas, fechas, matemáticas, etc.
+description: Guía de referencia para funciones de ayuda de personalización en Journey Optimizer B2B Edition. Incluye sintaxis y ejemplos de cadenas, fechas, matemáticas, etc.
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -11,26 +11,35 @@ autotag-review: '2026-05-27T16:17:26.324Z'
 TQID: 'https://experienceleague.adobe.com/T4rBlUSxIJylMD4PGmAFG3qXJRVBBLEtzPE5WCWx8NA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 4937
+source-wordcount: '4937'
 ht-degree: 6%
-
 ---
-
 # Funciones de ayuda
 
 Utilice las funciones de ayuda del editor de personalización para definir experiencias de contenido personalizado con precisión y eficacia, manipulando datos, realizando cálculos y dando formato al contenido. Explore y experimente con estas funciones, operadores y ayudantes para descubrir cómo trabajan juntos para ayudarle a crear recorridos personalizados y basados en datos.

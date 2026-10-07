@@ -1,26 +1,34 @@
 ---
 title: Configuración de acciones externas
-description: Descubra cómo los desarrolladores, administradores y especialistas en marketing trabajan juntos para implementar, configurar y utilizar acciones externas que conectan Journey Optimizer B2B edition con servicios externos en recorrido.
+description: Descubra cómo los desarrolladores, administradores y especialistas en marketing trabajan juntos para implementar, configurar y utilizar acciones externas que conectan Journey Optimizer B2B Edition con servicios externos en recorrido.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1278
+source-wordcount: '1278'
 ht-degree: 1%
-
 ---
-
 # Configuración de acciones externas
 
 Las acciones externas permiten que los recorridos de cuenta y persona de [!DNL Journey Optimizer B2B Edition] se conecten con sistemas externos directamente desde el lienzo de recorrido. Cuando una audiencia llega a un nodo de acción externa, el sistema realiza una llamada saliente asincrónica a un servicio externo configurado y pasa los datos de atributos de audiencia. El servicio externo procesa los datos y responde con una llamada de retorno, devolviendo datos de audiencia y metadatos que se pueden utilizar como guía para la ejecución del recorrido.
@@ -37,12 +45,12 @@ La configuración de acciones externas requiere una coordinación entre tres fun
 | | Función | Tarea |
 | ---- | ---- | ---- |
 | 1 | Desarrollador | [Implementar y publicar el servicio externo](#implement-service) |
-| 2 | Administrador | [Configurar la acción en Journey Optimizer B2B edition](#configure-action) |
+| 2 | Administrador | [Configurar la acción en Journey Optimizer B2B Edition](#configure-action) |
 | 3 | Experto en marketing | [Agregar un nodo externo a un recorrido](#add-journey-node) |
 
 ## Implementación del servicio externo {#implement-service}
 
-El desarrollador debe crear y publicar un servicio web público que cumpla con la [Interfaz de proveedor de servicios de acciones externas de Adobe Journey Optimizer B2B edition](https://developer.adobe.com/journey-optimizer-b2b-apis/).
+El desarrollador debe crear y publicar un servicio web público que cumpla con la [Interfaz de proveedor de servicios de acciones externas de Adobe Journey Optimizer B2B Edition](https://developer.adobe.com/journey-optimizer-b2b-apis/).
 
 >[!NOTE]
 >
@@ -158,7 +166,7 @@ Cuando introduce la URL de la especificación OpenAPI para el servicio externo y
 | `The entity type value is invalid` | Una extensión `x-` específica de Adobe para el tipo de entidad tiene un valor no reconocido | Corrija el tipo de entidad con un valor admitido. Consulte la [documentación para desarrolladores](https://developer.adobe.com/journey-optimizer-b2b-apis/) para ver las opciones válidas. |
 | `The provided document is not a valid OpenAPI specification` | La especificación no se puede analizar estructuralmente. | Valide su especificación con el esquema OpenAPI 3.0 y corrija cualquier problema. |
 | `Required OpenAPI field is missing` | Falta un campo obligatorio estándar de OpenAPI (como `info` o `paths`). | Añada el campo que falta. |
-| `Required endpoint is missing from the specification` | Un extremo que Adobe Journey Optimizer B2B edition requiere no está definido en sus especificaciones. | Agregue el punto final requerido. Consulte la [documentación para desarrolladores](https://developer.adobe.com/journey-optimizer-b2b-apis/) para la cual se necesitan puntos de conexión. |
+| `Required endpoint is missing from the specification` | Un extremo que requiere Adobe Journey Optimizer B2B Edition no está definido en su especificación. | Agregue el punto final requerido. Consulte la [documentación para desarrolladores](https://developer.adobe.com/journey-optimizer-b2b-apis/) para la cual se necesitan puntos de conexión. |
 | `Required extension field is missing` | No hay ningún campo de extensión de Adobe `x-` requerido en su especificación. | Añada el campo de extensión que falta como se describe en la documentación. |
 | `Security schemes are missing from the specification` | Su especificación no tiene `securitySchemes` definido en `components`. | Defina al menos un esquema de seguridad. |
 | `Multiple authentication types are not supported` | Su especificación define más de un esquema de autenticación. | Actualice la especificación para utilizar un solo tipo de autenticación. |

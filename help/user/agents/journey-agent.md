@@ -8,30 +8,42 @@ autotag-review: '2026-06-05T16:42:46.785Z'
 TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1165
+source-wordcount: '1165'
 ht-degree: 0%
-
 ---
-
 # Journey Agent B2B
 
-Journey Agent B2B es un asistente con tecnología de IA en Adobe Journey Optimizer B2B edition que le ayuda a diseñar, ejecutar, optimizar y supervisar los recorridos B2B a través del lenguaje natural. Reduce el tiempo y la complejidad implicados en la creación y administración de recorridos de clientes combinando automatización, recomendaciones basadas en datos y observabilidad en tiempo real.
+Journey Agent B2B es un asistente con tecnología de IA en Adobe Journey Optimizer B2B Edition que le ayuda a diseñar, ejecutar, optimizar y monitorizar los recorridos B2B a través del lenguaje natural. Reduce el tiempo y la complejidad implicados en la creación y administración de recorridos de clientes combinando automatización, recomendaciones basadas en datos y observabilidad en tiempo real.
 
 ![Mensaje B2B De Journey Agent](./assets/journey-agent-prompt.png)
 
@@ -99,7 +111,7 @@ Puede actuar como diseñador de recorridos B2B para crear un recorrido de cuenta
 
 La habilidad Observabilidad del Recorrido le permite hacer preguntas en lenguaje natural sobre cómo se mueven las cuentas y las personas a través de sus recorridos B2B, sin necesidad de explorar los mapas de recorrido, los registros o los paneles. Cubre dos áreas principales: progresión del recorrido y observabilidad de la sincronización de datos.
 
-Puede acceder a él en dos lugares dentro de Journey Optimizer B2B edition:
+Puede acceder a él en dos lugares dentro de Journey Optimizer B2B Edition:
 
 * **Asistente de carril derecho en el mapa del recorrido**: haga preguntas específicas del recorrido directamente desde el mapa del recorrido. El nombre del recorrido se inserta automáticamente en el contexto.
 

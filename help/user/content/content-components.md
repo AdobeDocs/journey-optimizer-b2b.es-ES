@@ -1,29 +1,35 @@
 ---
 title: Componentes de contenido
-description: 'Diseñe correos electrónicos, páginas de aterrizaje y fragmentos con componentes de contenido: añada botones, texto, imágenes, formularios y contenedores en Journey Optimizer B2B edition.'
+description: 'Diseñe correos electrónicos, páginas de aterrizaje y fragmentos con componentes de contenido: añada botones, texto, imágenes, formularios y contenedores en Journey Optimizer B2B Edition.'
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+autotag-review: 2026-03-30T22:16:05.946Z
+TQID: 'https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-autotag-review: 2026-03-30T22:16:05.946Z
-TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+    internal-label: Experience design
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2658
+source-wordcount: '2658'
 ht-degree: 8%
-
 ---
-
 # Componentes de contenido {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -742,7 +748,7 @@ Utilice el componente _Formulario_ para agregar un formulario publicado a una p�
 
    * **[!UICONTROL Permanecer en la página]**: elija esta opción para mantener al visitante en la misma página cuando se envíe el formulario.
 
-   * **[!UICONTROL Página de aterrizaje]**: elija esta opción para seleccionar cualquier página de aterrizaje de Journey Optimizer B2B edition como seguimiento.
+   * **[!UICONTROL Página de aterrizaje]**: elija esta opción para seleccionar cualquier página de aterrizaje de Journey Optimizer B2B Edition como seguimiento.
 
    * **[!UICONTROL Dirección URL externa]**: elija esta opción para especificar cualquier dirección URL como página de seguimiento. Una vez que el visitante envía el formulario, el explorador carga la dirección URL designada.
 

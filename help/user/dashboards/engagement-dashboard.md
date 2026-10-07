@@ -1,30 +1,40 @@
 ---
 title: Panel de información general de participación
-description: Monitorice las métricas de participación en tiempo real de cuentas, grupos de compra y personas con gráficos interactivos y análisis de tendencias en Journey Optimizer B2B edition.
+description: Monitorice las métricas de participación en tiempo real de cuentas, grupos de compra y personas con gráficos interactivos y análisis de tendencias en Journey Optimizer B2B Edition.
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
+autotag-review: 2026-03-30T22:44:41.871Z
+TQID: 'https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+subfeature_v2:
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+    internal-label: Engagement
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T22:44:41.871Z
-TQID: https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0
-source-git-commit: 7b884e313f584252aecc25ee813dfb6c7f5d8f15
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '561'
 ht-degree: 6%
-
 ---
-
 # Panel de información general de participación
 
 Este panel proporciona una vista completa de la participación y muestra métricas en tiempo real de interacciones de cuenta e individuales a través de gráficos circulares de instantáneas y gráficos de líneas que revelan tendencias a lo largo del tiempo. Le ayuda a monitorizar y a diseñar estrategias para sus esfuerzos de participación de forma eficaz.

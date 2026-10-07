@@ -1,27 +1,34 @@
 ---
 title: Administración de la privacidad
-description: Obtenga información sobre cómo cumplir con el RGPD, la CCPA y otras normas de privacidad en Journey Optimizer B2B edition, y enviar solicitudes mediante Adobe Privacy Service.
+description: Obtenga información sobre cómo cumplir con el RGPD, la CCPA y otras normas de privacidad en Journey Optimizer B2B Edition, y enviar solicitudes mediante Adobe Privacy Service.
 feature: Setup, Permissions
 role: Admin
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
+  - id: bd42eee1-e206-4826-91ea-88dc726d858e
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: '634'
 ht-degree: 5%
-
 ---
-
 
 # Administración de la privacidad {#privacy-management}
 
-[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/home){target="_blank"} proporciona una API RESTful y una interfaz de usuario para ayudarle a administrar las solicitudes de datos de los clientes. Con [!DNL Adobe Privacy Service], puede enviar solicitudes para acceder a datos personales de clientes y eliminarlos de aplicaciones empresariales de Adobe CX, lo que facilita el cumplimiento automatizado de las regulaciones de privacidad legales y organizativas.
+[Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/home){target="_blank"} proporciona una API RESTful y una interfaz de usuario para ayudarle a administrar las solicitudes de datos de los clientes. Con [!DNL Adobe Privacy Service], puede enviar solicitudes para acceder a datos personales de clientes y eliminarlos de aplicaciones de Adobe CX Enterprise, lo que facilita el cumplimiento automatizado de las regulaciones de privacidad legales y organizativas.
 
 [!DNL Adobe Journey Optimizer B2B Edition] proporciona estas herramientas de privacidad para que pueda cumplir con los requisitos globales de protección de datos. Use [!DNL Privacy Service] para enviar y administrar solicitudes de acceso y eliminación de datos que [!DNL Journey Optimizer B2B Edition] recopila y almacena.
 
@@ -85,7 +92,7 @@ Utilice la opción **[!UICONTROL Tipo de regulación]** de la parte superior der
 
 1. Para **[!UICONTROL Productos]**, seleccione **[!UICONTROL Marketo]**.
 
-   ![Crear una solicitud de privacidad de acceso de RGPD para Marketo Engage y Journey Optimizer B2B edition](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
+   ![Crear una solicitud de privacidad de acceso de RGPD para Marketo Engage y Journey Optimizer B2B Edition](./assets/privacy-request-create-gdpr.png){width="450" zoomable="yes"}
 
    Esta selección incluye datos de [!DNL Journey Optimizer B2B Edition] y de su instancia [!DNL Marketo Engage].
 

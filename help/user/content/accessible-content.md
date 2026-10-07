@@ -1,35 +1,46 @@
 ---
 title: Diseñar contenido accesible
-description: Aprenda a diseñar contenido accesible para sus correos electrónicos y páginas de aterrizaje en Journey Optimizer B2B edition
+description: Aprenda a diseñar contenido accesible para sus correos electrónicos y páginas de aterrizaje en Journey Optimizer B2B Edition
 feature: Email Authoring, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: correo electrónico, diseño, accesibilidad
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
+autotag-review: '2026-03-30T22:11:25.228Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-autotag-review: '2026-03-30T22:11:25.228Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+    internal-label: Accessibility
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1751'
 ht-degree: 1%
-
 ---
-
 # Diseñar contenido accesible {#accessible-content}
 
 La [Ley Europea de Accesibilidad](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} es una directiva diseñada para mejorar el mercado interno de productos y servicios accesibles al eliminar las barreras causadas por las diferentes reglas nacionales en los Estados Miembros.
@@ -304,27 +315,27 @@ Los lectores de pantalla dicen:
 En el caso de las páginas de aterrizaje, la navegación mediante el teclado y la compatibilidad con el enfoque permiten a las personas que no pueden utilizar un ratón acceder al contenido e interactuar con él. También mejora la capacidad de uso general al proporcionar a todos los usuarios una forma clara y coherente de desplazarse por la información.
 
 * Navegación por teclado y enfoque
-   * Asegúrese de que todos los elementos interactivos (como botones, casillas de verificación y vínculos) tengan `tabindex="0"` para que se incluyan en el orden de tabulación natural.
-   * Permita la navegación con las teclas de tabulación y flecha (↑ ↓ ← →), que deben resaltar visiblemente el elemento centrado.
+  * Asegúrese de que todos los elementos interactivos (como botones, casillas de verificación y vínculos) tengan `tabindex="0"` para que se incluyan en el orden de tabulación natural.
+  * Permita la navegación con las teclas de tabulación y flecha (↑ ↓ ← →), que deben resaltar visiblemente el elemento centrado.
 * Estilo de enfoque personalizado
-   * Aplique estilos claros y distinguibles para centrarse en elementos procesables:
-     +++Ejemplo (CSS)
+  * Aplique estilos claros y distinguibles para centrarse en elementos procesables:
+    +++Ejemplo (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     background-color: #20CEFF;   /* Optional background */ 
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    background-color: #20CEFF;   /* Optional background */ 
+    }
+    ```
 
-     +++
+    +++
 
-   * Asegúrese de que los indicadores de enfoque cumplen los estándares de apariencia de enfoque WCAG 2.2, que incluyen:
-      * Área mínima: contorno de grosor de 2 píxeles CSS.
-      * Proporción de contraste: ≥ 3:1 entre el estado centrado y no centrado.
+  * Asegúrese de que los indicadores de enfoque cumplen los estándares de apariencia de enfoque WCAG 2.2, que incluyen:
+    * Área mínima: contorno de grosor de 2 píxeles CSS.
+    * Relación de contraste: ≥ 3:1 entre el estado centrado y el no centrado.
 
 * Compatibilidad con activación de teclado
-   * Asegúrese de que las casillas de verificación y los botones responden a las teclas Intro y Espacio.
-   * Valide la interacción utilizando solo el teclado:
-      * Intro o Espacio deben alternar las casillas de verificación.
-      * Intro o Espacio deben almacenar en déclencheur los botones.
+  * Asegúrese de que las casillas de verificación y los botones responden a las teclas Intro y Espacio.
+  * Valide la interacción utilizando solo el teclado:
+    * Intro o Espacio deben alternar las casillas de verificación.
+    * Intro o Espacio deben almacenar en déclencheur los botones.

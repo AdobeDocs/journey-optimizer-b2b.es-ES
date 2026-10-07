@@ -1,35 +1,44 @@
 ---
 title: Creación de contenido de correo electrónico con GenStudio for Performance Marketing
-description: 'Integre GenStudio for Performance Marketing con Journey Optimizer B2B edition: exporte HTML, cree experiencias de correo electrónico con tecnología de IA e importe contenido de marca.'
+description: 'Integre GenStudio for Performance Marketing con Journey Optimizer B2B Edition: exporte HTML, cree experiencias de correo electrónico con tecnología de IA e importe contenido de marca.'
 feature: Email Authoring, Content, Integrations
 topic: Content Supply Chain
 level: Intermediate
 role: User
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
+autotag-review: 2026-03-30T22:24:40.416Z
+TQID: 'https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: c4f2e613-b6a1-4be6-b2fc-6021190d498d
+    internal-label: GenStudio for Performance Marketing
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
-autotag-review: 2026-03-30T22:24:40.416Z
-TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJyjtQ
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+    internal-label: Content production
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 10%
-
 ---
-
 # Creación de contenido de correo electrónico con GenStudio for Performance Marketing {#genstudio-workflow}
 
 >[!CONTEXTUALHELP]
@@ -43,9 +52,9 @@ ht-degree: 10%
 >
 >Esta integración solo está disponible para el canal de correo electrónico.
 
-Para mejorar la eficacia del flujo de trabajo y mantener la coherencia de la marca, puede combinar experiencias de GenStudio for Performance Marketing con la orquestación por correo electrónico de Adobe Journey Optimizer B2B edition. Este flujo de trabajo ampliado le permite aprovechar las herramientas de creación de contenido con tecnología de IA de GenStudio para expandir y maximizar las comunicaciones por correo electrónico mediante los recorridos de cuenta.
+Para mejorar la eficacia del flujo de trabajo y mantener la coherencia de la marca, puede combinar experiencias de GenStudio for Performance Marketing con la orquestación por correo electrónico de Adobe Journey Optimizer B2B Edition. Este flujo de trabajo ampliado le permite aprovechar las herramientas de creación de contenido con tecnología de IA de GenStudio para expandir y maximizar las comunicaciones por correo electrónico mediante los recorridos de cuenta.
 
-Por ejemplo, un experto en marketing técnico que utilice Journey Optimizer B2B edition para desarrollar y automatizar las comunicaciones por correo electrónico a cuentas clave puede colaborar con un experto en marketing que cree contenido mediante GenStudio. Con este flujo de trabajo, ambos pueden trabajar juntos para combinar contenido de marca de GenStudio en la automatización de marketing basada en cuentas de Journey Optimizer B2B edition, lo que proporciona correos electrónicos atractivos dirigidos a grupos de compra específicos e impulsan las ventas.
+Por ejemplo, un experto en marketing técnico que utilice Journey Optimizer B2B Edition para desarrollar y automatizar las comunicaciones por correo electrónico a cuentas clave puede colaborar con un experto en marketing que cree contenido mediante GenStudio. Con este flujo de trabajo, ambos pueden trabajar juntos para combinar contenido de marca de GenStudio en la automatización de marketing basada en cuentas de Journey Optimizer B2B Edition, lo que proporciona correos electrónicos atractivos dirigidos a grupos de compra específicos e impulsan las ventas.
 
 >[!BEGINSHADEBOX]
 
@@ -59,11 +68,11 @@ Obtenga más información acerca de las funcionalidades de GenStudio for Perform
 
 >[!ENDSHADEBOX]
 
-## Exportar HTML desde Journey Optimizer B2B edition
+## Exportar HTML desde Journey Optimizer B2B Edition
 
-En primer lugar, en Journey Optimizer B2B edition, exporte HTML desde un correo electrónico que incluya las directrices de su marca.
+En primer lugar, en Journey Optimizer B2B Edition, exporte HTML desde un correo electrónico que incluya las directrices de su marca.
 
-1. En Journey Optimizer B2B edition, acceda al contenido del correo electrónico en el espacio de diseño visual.
+1. En Journey Optimizer B2B Edition, acceda al contenido del correo electrónico en el espacio de diseño visual.
 
 1. En el menú _[!UICONTROL Más...]_ de la parte superior del espacio de diseño del correo electrónico, elija **[!UICONTROL Exportar HTML]**.
 
@@ -99,15 +108,15 @@ En GenStudio for Performance Marketing, utilice la plantilla para crear varias v
 
 Para obtener información detallada sobre cómo generar experiencias de correo electrónico de marca, consulte [Crear una experiencia de correo electrónico](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) en la documentación de GenStudio for Performance Marketing.
 
-## Añadir experiencias de correo electrónico generadas a Journey Optimizer B2B edition
+## Añadir experiencias de correo electrónico generadas a Journey Optimizer B2B Edition
 
 >[!NOTE]
 >
 >La integración de GenStudio for Performance Marketing solo está disponible para crear correos electrónicos y no para crear plantillas.
 
-Para utilizar las variaciones de correo electrónico de GenStudio creadas a partir del archivo de HTML de correo electrónico de Journey Optimizer B2B edition exportado, siga estos pasos:
+Para utilizar las variaciones de correo electrónico de GenStudio creadas a partir del archivo HTML de correo electrónico de Journey Optimizer B2B Edition exportado, siga estos pasos:
 
-1. En Journey Optimizer B2B edition, [agregue un correo electrónico](./add-email.md) al recorrido de una cuenta mediante un nodo _[!UICONTROL Realizar una acción]_.
+1. En Journey Optimizer B2B Edition, [agregue un correo electrónico](./add-email.md) al recorrido de una cuenta mediante un nodo _[!UICONTROL Realizar una acción]_.
 
    * Para la _[!UICONTROL acción en]_ destino, elige **[!UICONTROL Personas]**.
 
@@ -115,7 +124,7 @@ Para utilizar las variaciones de correo electrónico de GenStudio creadas a part
 
      ![Realizar una acción: enviar un correo electrónico](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
-   * Para el _[!UICONTROL origen del correo electrónico]_, elija **[!UICONTROL Crear nuevo correo electrónico]** para crear el correo electrónico de forma nativa en Journey Optimizer B2B edition.
+   * Para el _[!UICONTROL origen del correo electrónico]_, elija **[!UICONTROL Crear nuevo correo electrónico]** para crear el correo electrónico de forma nativa en Journey Optimizer B2B Edition.
 
 1. En la página _Crear tu correo electrónico_, selecciona **[!UICONTROL Importar HTML]**.
 
@@ -133,7 +142,7 @@ Para utilizar las variaciones de correo electrónico de GenStudio creadas a part
 
    >[!NOTE]
    >
-   >Las experiencias de GenStudio creadas a partir de una plantilla de Journey Optimizer B2B edition o Marketo Engage se importan directamente en el espacio de diseño de correo electrónico. Las experiencias creadas sin una plantilla de Journey Optimizer B2B edition se importan en modo de compatibilidad.
+   >Las experiencias de GenStudio creadas a partir de una plantilla de Journey Optimizer B2B Edition o Marketo Engage se importan directamente en el espacio de diseño de correo electrónico. Las experiencias creadas sin una plantilla de Journey Optimizer B2B Edition se importan al modo de compatibilidad.
 
 1. Use [el contenido del correo electrónico y las herramientas de personalización](./email-authoring.md) para editar su correo electrónico según sea necesario y guardarlo.
 

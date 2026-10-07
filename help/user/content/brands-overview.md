@@ -1,31 +1,39 @@
 ---
 title: Uso de marcas para la generación y coherencia de contenido
-description: 'Defina las directrices de marca para la creación de contenido coherente: mantenga la identidad visual, la alineación de la mensajería y la voz auténtica en Journey Optimizer B2B edition.'
+description: 'Defina las directrices de marca para la creación coherente de contenido: mantenga la identidad visual, la alineación de la mensajería y la voz auténtica en Journey Optimizer B2B Edition.'
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+autotag-review: 2026-03-30T21:50:39.165Z
+TQID: 'https://experienceleague.adobe.com/NdhUbWDeiDqGc7jq8gFG6GAueMnkYnGAJdbizdgKb1g'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-autotag-review: 2026-03-30T21:50:39.165Z
-TQID: https://experienceleague.adobe.com/NdhUbWDeiDqGc7jq8gFG6GAueMnkYnGAJdbizdgKb1g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content strategy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '868'
 ht-degree: 12%
-
 ---
-
 # Uso de marcas para la generación y coherencia de contenido {#brands}
 
 >[!CONTEXTUALHELP]
@@ -60,9 +68,9 @@ Su organización puede obtener un valor significativo utilizando una marca en la
 >
 >Actualmente, esta funcionalidad está disponible como una versión beta pública.
 >
->Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B edition. Para obtener más información, contacte con su representante de Adobe.
+>Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B Edition. Para obtener más información, contacte con su representante de Adobe.
 
-Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe usar cuando cree contenido visual o escrito. Cuando se compilan estas directrices y se comparten los recursos de marca, cualquier miembro del equipo o colaborador puede crear contenido sin marca para el producto. Para habilitar la creación de contenido de marca en Journey Optimizer B2B edition, complete estas tareas:
+Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe usar cuando cree contenido visual o escrito. Cuando se compilan estas directrices y se comparten los recursos de marca, cualquier miembro del equipo o colaborador puede crear contenido sin marca para el producto. Para habilitar la creación de contenido en la marca en Journey Optimizer B2B Edition, complete estas tareas:
 
 1. Prepare su definición de marca.
 
@@ -72,7 +80,7 @@ Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe us
 
 1. Organice esta información en uno o varios archivos PDF.
 
-1. Use el archivo PDF para [crear la marca](./brands-manage-create.md#create-and-define-a-brand) en Journey Optimizer B2B edition.
+1. Use el archivo PDF para [crear la marca](./brands-manage-create.md#create-and-define-a-brand) en Journey Optimizer B2B Edition.
 
 1. Cuando esté listo para usarse, [publique la marca](./brands-manage-create.md#publish-the-brand).
 
