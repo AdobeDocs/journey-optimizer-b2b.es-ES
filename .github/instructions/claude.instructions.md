@@ -745,7 +745,7 @@ NO utilice el color solo para transmitir información. Siempre combine el color 
 - Las imágenes que no se deben localizar se ubican en una subcarpeta `do-not-localize/`.
 - Los archivos de índice (`TOC.md`) definen la estructura de navegación izquierda. Actualícelas cuando añada o elimine páginas.
 - Use vínculos relativos a la raíz (`/help/...`) para referencias cruzadas entre documentos en este repositorio.
-- Para vínculos a documentos fuera de este repositorio, use `https://experienceleague.adobe.com/...` URL absolutas.
+- Para vínculos a documentos fuera de este repositorio, use `https://experienceleague.adobe.com/es...` URL absolutas.
 - Nomenclatura de rama: sin prefijo de nombre de usuario. Utilice el número de ticket de Jira y un slug con título (por ejemplo, `PLAT-12345-Update-Guardrail-Limits`). Asigne un nombre a la sucursal y al título de PR con el mismo formato.
 - Los componentes discretos (encabezados, bloques de código delimitado, listas) deben estar rodeados de líneas en blanco.
 - Solamente un H1 (`#`) por documento. La primera línea después de frontmatter debe ser la H1.
@@ -832,7 +832,7 @@ Utilice la herramienta MCP correcta según el tipo de recurso:
 - **Referencia de etiquetas de localización**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Sintaxis de Experience League Markdown**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Hoja de trucos de Markdown**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **Referencia de estilo de notas de la versión**: https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
+- **Referencia de estilo de notas de la versión**: https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest
 
 **Clon local:**
 - **Repositorio de guías de creación:** Use un cierre de compra disponible de la guía de creación de Adobe Experience League o de su documentación pública.
