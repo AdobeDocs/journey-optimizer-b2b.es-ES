@@ -6,30 +6,37 @@ role: Admin
 exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
+    internal-label: Real-Time Customer Data Platform B2B Edition
 feature_v2:
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 801025ee02617d56fc8ab933b59385bca38f5097
 workflow-type: tm+mt
-source-wordcount: 1003
-ht-degree: 87%
-
+source-wordcount: '1029'
+ht-degree: 84%
 ---
-
 # Espacios de nombres y esquemas B2B
 
-La configuración de Journey Optimizer B2B edition incluye la configuración de los espacios de nombres y esquemas de Experience Platform que se utilizan con fuentes B2B. La utilidad de automatización de Postman es necesaria para generar espacios de nombres y esquemas B2B.
+La configuración de Journey Optimizer B2B Edition incluye la configuración de los espacios de nombres y esquemas de Experience Platform que se utilizan con orígenes B2B. La utilidad de automatización de Postman es necesaria para generar espacios de nombres y esquemas B2B.
 
 >[!AVAILABILITY]
 >
@@ -38,6 +45,8 @@ La configuración de Journey Optimizer B2B edition incluye la configuración de 
 >- Las entidades de Experience Platform B2B deben utilizar las relaciones estándar descritas en la [guía de esquemas y áreas de nombres B2B](https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
 Revise la siguiente información sobre la configuración subyacente de los espacios de nombres y esquemas que se utilizarán con orígenes B2B. También proporciona detalles para configurar la utilidad de automatización de Postman, que es necesaria para generar espacios de nombres y esquemas B2B.
+
+Para obtener un resumen de todos los conjuntos de datos exportados y detalles de nivel de campo de los conjuntos de datos clave, consulte [Exportación de conjuntos de datos de Adobe Journey Optimizer B2B Edition Adobe Experience Platform](./aep-exported-datasets.md).
 
 ## Configurar la utilidad de generación automática
 
