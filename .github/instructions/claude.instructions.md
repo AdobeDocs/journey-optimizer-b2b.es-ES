@@ -10,7 +10,7 @@ ht-degree: 1%
 
 Está ayudando a un redactor técnico en el repositorio de documentación pública de Adobe Experience League (`journey-optimizer-b2b.en`). Cada parte del contenido que elabore, edite o revise DEBE seguir todas las reglas que se indican a continuación. Si tiene dudas acerca de la terminología, consulte las wikis a las que se hace referencia mediante la herramienta MCP de confluencia (`mcp__adobe-wiki-confluence`).
 
-&#x200B;---
+---
 
 ## &#x200B;1. Voz, tono y estilo
 
@@ -71,7 +71,7 @@ Los asistentes de IA y las herramientas de búsqueda muestran cada vez más el c
 - Incluya sinónimos o términos alternativos en el primer uso (por ejemplo, &quot;ECID (Experience Cloud ID)&quot;) para mejorar la recuperación de frases de consulta variadas.
 - Asegúrese de que los campos de metadatos (título, descripción, etiquetas de función) sean completos y precisos.
 
-&#x200B;---
+---
 
 ## &#x200B;2. Sintaxis de Adobe Markdown (Experience League)
 
@@ -106,7 +106,7 @@ Campos opcionales adicionales utilizados en este repositorio: `solution`, `type`
 - Comience las descripciones de las tareas con &quot;Aprenda a...&quot; o un verbo imperativo.
 - NO comience por el nombre del producto. Comience con un verbo para SEO.
 - NO copie el primer párrafo literalmente (propósito diferente).
-- Si un campo de metadatos comienza con una etiqueta `[!DNL]` o &grave;&grave;, escriba todo el valor del campo entre comillas o se producirá un error de validación.
+- Si un campo de metadatos comienza con una etiqueta `[!DNL]` o ``, escriba todo el valor del campo entre comillas o se producirá un error de validación.
 
 ### Encabezados
 
@@ -364,7 +364,7 @@ Ponga en negrita cada tecla individual de un método abreviado de teclado: **cmd
 - Evite nombres de archivo que entren en conflicto con JavaScript/CSS: `metadata.md`, `search.md`.
 - Nombres de archivo del recurso: se prefieren las minúsculas; se permiten mayúsculas y guiones bajos, pero no se recomiendan.
 
-&#x200B;---
+---
 
 ## &#x200B;3. Etiquetas de localización (CRÍTICO)
 
@@ -400,7 +400,7 @@ Se utiliza para elementos de interfaz: opciones, campos, pestañas, páginas, me
 **Formato:**
 - Negrita en pasos y navegación: `Select **[!UICONTROL Destinations]** from the left navigation.`
 - Cursiva aceptable en el texto conceptual (no paso) para una mayor claridad.
-- En tablas de HTML: use `<span class="uicontrol">term</span>` en lugar de &grave;&grave;.
+- En tablas de HTML: use `<span class="uicontrol">term</span>` en lugar de ``.
 - En el texto del vínculo: elimine los corchetes de etiqueta.
 
 **Mayúsculas:** Coincide exactamente con la interfaz.
@@ -429,9 +429,9 @@ No se necesita dentro de bloques de código. Estos no están localizados de form
 
 **No se puede usar en:** bloques de código, acrónimos.
 
-**Regla de metadatos:** Si un campo de metadatos (título o descripción) comienza con una etiqueta `[!DNL]` o &grave;&grave;, escriba todo el valor del campo entre comillas o se producirá un error de validación.
+**Regla de metadatos:** Si un campo de metadatos (título o descripción) comienza con una etiqueta `[!DNL]` o ``, escriba todo el valor del campo entre comillas o se producirá un error de validación.
 
-&#x200B;---
+---
 
 ## &#x200B;4. Estructura de la información y tipos de contenido
 
@@ -505,7 +505,7 @@ hide: yes
 
 Esto excluye la página de la búsqueda externa e interna. La configuración `hide: yes` establece `index: no` automáticamente. Utilice esto además de `{hide-from-toc}` cuando desee ocultar una página tanto para la navegación como para la búsqueda.
 
-&#x200B;---
+---
 
 ## &#x200B;5. Terminología y marca
 
@@ -603,7 +603,7 @@ Estos términos aparecen en Jira, wikis y discusiones internas, pero nunca deben
 | Ritmo | término de publicidad no orientada al usuario |
 | En preparación | término de infraestructura interna de Adobe |
 
-&#x200B;---
+---
 
 ## &#x200B;6. Idioma inclusivo y accesibilidad
 
@@ -694,7 +694,7 @@ NO utilice el color solo para transmitir información. Siempre combine el color 
 - Incluya subtítulos significativos en todos los vídeos.
 - Cuando sea posible, vincule a instrucciones escritas: &quot;Para instrucciones escritas, consulte [vínculo]&quot;.
 
-&#x200B;---
+---
 
 ## &#x200B;7. Ortografía y puntuación
 
@@ -724,7 +724,7 @@ NO utilice el color solo para transmitir información. Siempre combine el color 
 - Dos puntos: se utiliza para presentar una lista. Ponga en mayúscula la primera palabra después de dos puntos cuando siga una frase completa (o la palabra es un sustantivo propio).
 - Sin punto y coma. Utilice un punto y una nueva oración en su lugar.
 
-&#x200B;---
+---
 
 ## &#x200B;8. SEO y buscabilidad
 
@@ -736,7 +736,7 @@ NO utilice el color solo para transmitir información. Siempre combine el color 
 - Metadatos de descripción: utilice un lenguaje natural con palabras clave. NO incluya palabras clave aleatorias. Google puede degradar el contenido para el relleno de palabras clave.
 - Mantenga los campos de metadatos (título, descripción, etiquetas de características) completos y precisos: las superficies de detección utilizan metadatos para filtrar y clasificar los resultados antes de leer el contenido de la página.
 
-&#x200B;---
+---
 
 ## &#x200B;9. Convenciones de archivos y repositorios
 
@@ -745,12 +745,12 @@ NO utilice el color solo para transmitir información. Siempre combine el color 
 - Las imágenes que no se deben localizar se ubican en una subcarpeta `do-not-localize/`.
 - Los archivos de índice (`TOC.md`) definen la estructura de navegación izquierda. Actualícelas cuando añada o elimine páginas.
 - Use vínculos relativos a la raíz (`/help/...`) para referencias cruzadas entre documentos en este repositorio.
-- Para vínculos a documentos fuera de este repositorio, use `https://experienceleague.adobe.com/es...` URL absolutas.
+- Para vínculos a documentos fuera de este repositorio, use `https://experienceleague.adobe.com/...` URL absolutas.
 - Nomenclatura de rama: sin prefijo de nombre de usuario. Utilice el número de ticket de Jira y un slug con título (por ejemplo, `PLAT-12345-Update-Guardrail-Limits`). Asigne un nombre a la sucursal y al título de PR con el mismo formato.
 - Los componentes discretos (encabezados, bloques de código delimitado, listas) deben estar rodeados de líneas en blanco.
 - Solamente un H1 (`#`) por documento. La primera línea después de frontmatter debe ser la H1.
 
-&#x200B;---
+---
 
 ## &#x200B;10. Revisar lista de comprobación
 
@@ -781,7 +781,7 @@ Al revisar o editar la documentación, compruebe todos los elementos siguientes.
 - [ ] Sin &quot;el&quot; antes de los nombres de producto (por ejemplo, no &quot;el Adobe Experience Platform&quot;)
 
 **Etiquetas de localización**
-- [ ] &grave;&grave; en todos los nombres de elementos de la interfaz de usuario; negrita en pasos
+- [ ] `` en todos los nombres de elementos de la interfaz de usuario; negrita en pasos
 - [ ] `[!DNL]` en todos los nombres de productos y de terceros
 - [ Operadores booleanos ] etiquetados: `[!DNL AND]`, `[!DNL OR]`
 - [ ] Sin etiquetas dentro de bloques de código
@@ -811,7 +811,7 @@ Al revisar o editar la documentación, compruebe todos los elementos siguientes.
 - [ ] Los nombres de archivo están en minúsculas con guiones; slugs descriptivos (no incluye `overview.md`)
 - [ ] imágenes en `assets/`; imágenes no localizadas en `do-not-localize/`
 
-&#x200B;---
+---
 
 ## &#x200B;11. Referencias externas
 
@@ -832,7 +832,7 @@ Utilice la herramienta MCP correcta según el tipo de recurso:
 - **Referencia de etiquetas de localización**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Sintaxis de Experience League Markdown**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Hoja de trucos de Markdown**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **Referencia de estilo de notas de la versión**: https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest
+- **Referencia de estilo de notas de la versión**: https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
 
 **Clon local:**
 - **Repositorio de guías de creación:** Use un cierre de compra disponible de la guía de creación de Adobe Experience League o de su documentación pública.
