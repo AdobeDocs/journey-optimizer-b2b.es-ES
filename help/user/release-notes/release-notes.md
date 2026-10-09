@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
+source-git-commit: 61cb7f99bf1f1649bf1a8569a506c248146a522e
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5717'
 ht-degree: 60%
 ---
 # Notas de la versión de Journey Optimizer B2B Edition
@@ -35,7 +35,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2026.9 {#rel-2026-9}
 
@@ -43,15 +43,18 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Listas de personas | Las listas de personas estáticas y dinámicas ya están disponibles para que pueda segmentar perfiles según los criterios definidos, como atributos demográficos e historial de eventos de experiencia. |
 | Función | Paneles de mantenimiento de servicio | Realizar un seguimiento del estado operativo de las acciones externas mediante la recopilación de métricas de éxito/error y el suministro de paneles para que los administradores supervisen el rendimiento del servicio. |
+| Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. [Más información](../journeys/journey-re-entry.md) |
 | Mejora | Miembro del filtro Audiencia de perfil | Este filtro ahora está disponible para condiciones de ruta dividida de recorrido de persona, condiciones de ruta dividida de persona de recorrido de cuenta y listas de personas para incluir o excluir perfiles en función de su pertenencia a audiencias. |
-| Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. |
 
 >[!NOTE]
 >
 >Estos cambios de versión comienzan la implementación el 25 de septiembre de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
+<!--
+Delayed to Oct
+| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
+-->
 
 ## Notas de la versión 2026.8 {#rel-2026-8}
 
