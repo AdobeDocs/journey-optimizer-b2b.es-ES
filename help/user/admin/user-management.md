@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2381'
+ht-degree: 76%
 ---
 # Acceso y permisos de usuario
 
@@ -85,7 +85,7 @@ Para obtener más información sobre el uso de perfiles de producto para las aut
 
 Cuando agrega un usuario al perfil de producto de Marketo Engage, posteriormente se agrega a la función _Usuario estándar_ dentro del área de trabajo predeterminada de la suscripción de Marketo Engage. Esta función les concede todos los permisos estándar para Marketo Engage en ese espacio de trabajo. Actualmente, todos los usuarios de Journey Optimizer B2B edition deben ser usuarios de Marketo Engage. Un administrador de Marketo Engage puede restringir el acceso actualizando los permisos de la función _Usuario estándar_ o moviendo al usuario a una función de usuario de Marketo Engage diferente con permisos más restrictivos.
 
-Para obtener más información sobre la administración de estos permisos en Marketo Engage, consulte [Administración de roles y permisos de usuarios](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} en la documentación de Marketo Engage.
+Para obtener más información sobre la administración de estos permisos en Marketo Engage, consulte [Administración de roles y permisos de usuarios](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} en la documentación de Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -178,7 +178,7 @@ Los permisos son derechos unitarios que le permiten definir las autorizaciones a
 
 El área _Permisos_ de Adobe Experience Platform es donde los administradores pueden definir roles de usuario y directivas de acceso para administrar permisos de acceso para características y objetos dentro de una aplicación de producto. En esta aplicación, puede crear y administrar funciones, así como asignar los permisos de recursos deseados para estas. Los permisos también le permiten administrar los entornos limitados y los usuarios asociados a una función específica.
 
-Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
+Para obtener más información sobre los permisos de funciones en Experience Platform, consulte [Administrar permisos para una función](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} en la documentación de Experience Platform.
 
 ### Permisos de productos B2B {#b2b-product-permissions}
 
@@ -192,8 +192,12 @@ Los siguientes permisos rigen el acceso a las funciones de Journey Optimizer B2B
 | Grupos de compra B2B | Configure, administre y visualice permisos para grupos de compra B2B. Estos permisos incluyen intereses de la solución, funciones, plantillas y el estado del grupo de compra. | <li>Administrar grupos de compra B2B <li>Administrar intereses de soluciones B2B <li>Administrar plantillas de rol B2B <li>Administrar etapas B2B <li>Ver grupos de compra B2B |
 | Configuraciones de canal B2B | Configure, administre y visualice permisos para configuraciones de canal B2B. Estos permisos incluyen configuración para límites de comunicación, credenciales de API y configuración de seguridad. | <li>Administrar configuraciones de canales B2B <li>Ver configuración de correo electrónico B2B <li>Administrar configuración de correo electrónico B2B <li>Administrar ajustes preestablecidos de WhatsApp B2B <li>Administrar configuración de página de aterrizaje B2B <li>Ver ajustes preestablecidos de Forms B2B <li>Administrar ajustes preestablecidos de Forms B2B <li>Publicar ajuste preestablecido de Forms B2B <li>Crear experiencias web B2B <li>Administrar configuración de WhatsApp B2B |
 | Paneles B2B | Configure y vea permisos para paneles B2B. Estos permisos incluyen la participación en la cuenta, la compra de etapas de grupo, las cuentas emergentes y la cobertura de contactos. | <li>Ver tablero de participación B2B |
-| Recorridos B2B | Configuración, administración, visualización y publicación de permisos para recorridos B2B. Estos permisos incluyen acciones de cuenta y persona, detectores de eventos y rutas divididas. | <li>Administrar Recorridos de cuenta B2B <li>Administrar Recorridos de persona B2B |
+| Recorridos B2B | Configuración, administración, visualización y publicación de permisos para recorridos B2B. Estos permisos incluyen acciones de cuenta y persona, detectores de eventos y rutas divididas. | <li>Administrar Recorridos de cuenta B2B <li>Administrar Recorridos de persona B2B <li>Ver Recorridos de persona B2B <li>Publicar Recorridos de persona B2B |
 | Reglas de Journey Optimizer | Acceder y configurar reglas de frecuencia (límites de comunicación). Estos permisos deben limitarse a los administradores de productos. | <li>Ver reglas de frecuencia <li>Administrar reglas de frecuencia |
+
+>[!NOTE]
+>
+>Todos los permisos de Recorridos de persona B2B actualmente conceden acceso de lectura, escritura y publicación a las recorridos de persona. Esta laguna conocida se resolverá en una versión futura.
 
 ### Funciones integradas B2B {#b2b-built-in-roles}
 
