@@ -1,9 +1,9 @@
 ---
 user-guide-title: Documentación de la edición B2B de Journey Optimizer
 user-guide-description: Obtenga información acerca de la edición B2B de Adobe Journey Optimizer y cómo puede utilizarla para organizar los recorridos de la cuenta y de los grupos de compra mediante la IA generativa integrada y automatización líder del sector.
-source-git-commit: b5c0608e413594e8669006d2aed901f772a605fa
+source-git-commit: fd7fb29f361005d38b01070700082a1dfc3c86d9
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 83%
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 83%
 + Datos {#data}
   + [Disponibilidad de datos y tiempo de sincronización](./data/data-availability-timing.md)
   + [Conjuntos de datos exportados](./data/aep-exported-datasets.md)
+  + [Consultas de conjuntos de datos](./data/aep-query-examples.md)
 + Funciones de IA {#ai-assistant}
   + [Información general](./ai-coworker/ai-assistant-overview.md)
   + [Habilitar el acceso al Asistente de IA](./ai-coworker/enable-ai-assistant-access.md)

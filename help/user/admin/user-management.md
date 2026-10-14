@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2381'
+ht-degree: 76%
 ---
 # Acceso y permisos de usuario
 
@@ -192,8 +192,12 @@ Los siguientes permisos rigen el acceso a las funciones de Journey Optimizer B2B
 | Grupos de compra B2B | Configure, administre y visualice permisos para grupos de compra B2B. Estos permisos incluyen intereses de la solución, funciones, plantillas y el estado del grupo de compra. | <li>Administrar grupos de compra B2B <li>Administrar intereses de soluciones B2B <li>Administrar plantillas de rol B2B <li>Administrar etapas B2B <li>Ver grupos de compra B2B |
 | Configuraciones de canal B2B | Configure, administre y visualice permisos para configuraciones de canal B2B. Estos permisos incluyen configuración para límites de comunicación, credenciales de API y configuración de seguridad. | <li>Administrar configuraciones de canales B2B <li>Ver configuración de correo electrónico B2B <li>Administrar configuración de correo electrónico B2B <li>Administrar ajustes preestablecidos de WhatsApp B2B <li>Administrar configuración de página de aterrizaje B2B <li>Ver ajustes preestablecidos de Forms B2B <li>Administrar ajustes preestablecidos de Forms B2B <li>Publicar ajuste preestablecido de Forms B2B <li>Crear experiencias web B2B <li>Administrar configuración de WhatsApp B2B |
 | Paneles B2B | Configure y vea permisos para paneles B2B. Estos permisos incluyen la participación en la cuenta, la compra de etapas de grupo, las cuentas emergentes y la cobertura de contactos. | <li>Ver tablero de participación B2B |
-| Recorridos B2B | Configuración, administración, visualización y publicación de permisos para recorridos B2B. Estos permisos incluyen acciones de cuenta y persona, detectores de eventos y rutas divididas. | <li>Administrar Recorridos de cuenta B2B <li>Administrar Recorridos de persona B2B |
+| Recorridos B2B | Configuración, administración, visualización y publicación de permisos para recorridos B2B. Estos permisos incluyen acciones de cuenta y persona, detectores de eventos y rutas divididas. | <li>Administrar Recorridos de cuenta B2B <li>Administrar Recorridos de persona B2B <li>Ver Recorridos de persona B2B <li>Publicar Recorridos de persona B2B |
 | Reglas de Journey Optimizer | Acceder y configurar reglas de frecuencia (límites de comunicación). Estos permisos deben limitarse a los administradores de productos. | <li>Ver reglas de frecuencia <li>Administrar reglas de frecuencia |
+
+>[!NOTE]
+>
+>Todos los permisos de Recorridos de persona B2B actualmente conceden acceso de lectura, escritura y publicación a las recorridos de persona. Esta laguna conocida se resolverá en una versión futura.
 
 ### Funciones integradas B2B {#b2b-built-in-roles}
 
