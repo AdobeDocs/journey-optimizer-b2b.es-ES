@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 61cb7f99bf1f1649bf1a8569a506c248146a522e
+source-git-commit: 783fa2ddf72a910b191b2eb93c6dcd71d2cddc8c
 workflow-type: tm+mt
-source-wordcount: '5717'
+source-wordcount: '5781'
 ht-degree: 60%
 ---
 # Notas de la versión de Journey Optimizer B2B Edition
@@ -44,8 +44,9 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
 | Función | Paneles de mantenimiento de servicio | Realizar un seguimiento del estado operativo de las acciones externas mediante la recopilación de métricas de éxito/error y el suministro de paneles para que los administradores supervisen el rendimiento del servicio. |
-| Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. [Más información](../journeys/journey-re-entry.md) |
-| Mejora | Miembro del filtro Audiencia de perfil | Este filtro ahora está disponible para condiciones de ruta dividida de recorrido de persona, condiciones de ruta dividida de persona de recorrido de cuenta y listas de personas para incluir o excluir perfiles en función de su pertenencia a audiencias. |
+| Mejora | Miembro del filtro Audiencia de perfil | Este filtro ya está disponible para las condiciones de ruta de acceso dividida de recorrido de persona, las condiciones de ruta dividida de persona de recorrido de cuenta y _Escuchar un evento_ para incluir o excluir perfiles según su pertenencia a audiencias. [Más información](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Mejora | Filtro Miembro del grupo de compras: se ha eliminado por defecto | En las condiciones de _dividir ruta por personas_ y _Escuchar un evento_ filtros de nodo, la restricción _[!UICONTROL Se ha eliminado]_ ahora está seleccionada de forma predeterminada y se establece en `false` cuando se agrega el filtro _[!UICONTROL Miembro del grupo comprador]_. El filtro devuelve sólo los miembros actuales del grupo de compra, a menos que cambie o quite la restricción. [Más información](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. |
 
 >[!NOTE]
 >

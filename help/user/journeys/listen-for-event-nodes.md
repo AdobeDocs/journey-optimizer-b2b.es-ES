@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 5%
+source-wordcount: '2144'
+ht-degree: 4%
 ---
 # Escuchar un evento
 
-Para mover la audiencia al siguiente paso del [recorrido](./journeys-overview.md) cuando se produzca un evento, agrega el nodo _Escuchar un evento_. Según el tipo de recorrido, puede utilizar este nodo para almacenar en déclencheur el siguiente nodo de la recorrido según los eventos de personas o cuentas.
+Para llevar a la audiencia al siguiente paso del [recorrido](./journeys-overview.md) cuando se produzca un evento, agrega el nodo _Escuchar un evento_. Según el tipo de recorrido, puede utilizar este nodo para almacenar en déclencheur el siguiente nodo de la recorrido según los eventos de personas o cuentas.
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -79,7 +79,7 @@ Para mover la audiencia al siguiente paso del [recorrido](./journeys-overview.md
 
 ### Eventos de personas para recorridos de cuenta {#people-events}
 
-En un recorrido de cuentas, puede detectar un evento basado en personas cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por las actividades de persona (posible cliente). También puede filtrar eventos según el historial de eventos y los atributos de la persona.
+En un recorrido de cuentas, puede detectar un evento basado en personas cuando desee avanzar la cuenta en el recorrido según los eventos activados por la actividad de la persona (posible cliente). También puede filtrar eventos según el historial de eventos y los atributos de la persona.
 
 >[!TIP]
 >
@@ -97,7 +97,7 @@ Para obtener información detallada sobre el uso de los eventos de experiencia, 
 
 ### Eventos de cuenta {#account-events}
 
-En un recorrido de cuenta, puede detectar un evento basado en la cuenta cuando desee mover la cuenta hacia adelante en el recorrido según los eventos activados por la actividad de la cuenta.
+En un recorrido de cuentas, puede detectar un evento basado en la cuenta cuando desee avanzar la cuenta en el recorrido según los eventos activados por la actividad de la cuenta.
 
 | Evento | Restricciones |
 | ----- | ----------- |
@@ -185,7 +185,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    Arrastre y suelte el déclencheur de evento en el espacio del generador y establezca la definición. Haga clic en **[!UICONTROL Agregar restricción]** para cada restricción que desee usar para restringir la coincidencia de eventos.
 
-   Puede añadir varios eventos para que coincidan. El primer evento de calificación hace avanzar el perfil de la persona en el recorrido.
+   Puede añadir varios eventos para que coincidan. El primer evento correspondiente avanza el perfil de la persona en el recorrido.
 
 1. (Opcional) Seleccione la ficha **[!UICONTROL Filtros]** para [agregar filtros para el evento](#filters-people-event).
 
@@ -260,7 +260,8 @@ Cuando define un evento de [personas en un recorrido de cuenta](#people-events) 
 | [!UICONTROL Historial de eventos] | Eventos de experiencia configurados por un administrador. Consulte _[Seleccionar eventos de experiencia y campos](../admin/configure-aep-events.md)_. |
 | [!UICONTROL Atributos de persona] | Atributos del perfil de persona B2B, incluidos: <li>Ciudad <li>País <li>Fecha de nacimiento <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida<li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de personas <li>Número de teléfono <li>Código postal <li>Estado <li>Suscripción cancelada <li>Razón de la cancelación de la suscripción |
 | [!UICONTROL Atributos de persona] | (Solo recorridos de persona) Valor de atributo |
-| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Se ha eliminado</li><li>Función</li> |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Se ha eliminado (predeterminado: `false`)</li><li>Función</li> (Consulte [Filtrado de suscripciones](#membership-filtering)) |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro de audiencia de perfil] | La persona es o no miembro de una o más [!DNL Adobe Experience Platform] audiencias de perfil. (Consulte [Filtrado de suscripciones](#membership-filtering)) |
 
 <!--
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
@@ -285,13 +286,58 @@ Cuando define un evento de [personas en un recorrido de cuenta](#people-events) 
 
 1. Una vez completadas las definiciones de eventos y filtros, haga clic en **[!UICONTROL Listo]**.
 
+### Filtrado de pertenencia {#membership-filtering}
+
+En la sección _[!UICONTROL Filtros especiales]_, use los siguientes filtros para hacer coincidir un evento según la pertenencia de una persona:
+
+* _[!UICONTROL Miembro del grupo comprador]_: evalúa si la persona es miembro de un grupo comprador.
+* _[!UICONTROL Miembro de audiencia de perfil]_: evalúa si la persona es miembro de una audiencia de perfil [!DNL Adobe Experience Platform].
+
+Para agregar un filtro de pertenencia, arrástrelo desde la carpeta _[!UICONTROL Filtros especiales]_ al área de trabajo de filtros y establezca la pertenencia en _true_ para incluir miembros o _false_ para excluirlos. Puede combinar ambos filtros en la misma definición de evento y usar la **[!UICONTROL lógica de filtro]** para que coincidan con alguno o todos ellos.
+
+Estos filtros también están disponibles en [ruta dividida por condiciones de personas](./split-merge-paths-nodes.md#membership-filtering).
+
+![Escuchar el nodo de eventos - filtros de pertenencia](./assets/node-listen-event-people-membership-filters.png){width="700" zoomable="yes"}
+
+**Miembro del grupo de compra**
+
+Para hacer coincidir un evento para comprar miembros de grupo con una función específica, establece la pertenencia en _true_ y selecciona un _[!UICONTROL interés de solución]_ asociado con uno o más grupos compradores.
+
+Cuando agrega el filtro, el sistema incluye la restricción _[!UICONTROL Is Removed]_ de forma predeterminada y la establece en `false`, de modo que el filtro solo coincide con los miembros actuales del grupo comprador.
+
+Haga clic en **[!UICONTROL Agregar restricción]** para incluir restricciones adicionales de pertenencia a grupos de compra:
+
+* _[!UICONTROL Fase de grupo de compra]_
+* _[!UICONTROL Estado del grupo de compra]_
+* _[!UICONTROL Puntuación de integridad]_
+* _[!UICONTROL Puntuación de participación]_
+* _[!UICONTROL Rol]_
+
+>[!IMPORTANT]
+>
+>La restricción _[!UICONTROL Se ha eliminado]_ determina si se evalúan los miembros del grupo de compra eliminados:
+>
+>* `false` (predeterminado): devuelve solo los miembros actuales del grupo de compra. No se incluyen los miembros eliminados.
+>* `true` - Devuelve solo los miembros del grupo comprador eliminados. No se incluyen los miembros actuales.
+>* Restricción eliminada: devuelve los miembros del grupo de compra actuales y eliminados.
+>
+>Si elimina la restricción, el filtro puede coincidir con las personas que ya no están en el grupo comprador.
+
+**Miembro de audiencia de perfil**
+
+Utilice la restricción _[!UICONTROL Audiencia de perfil]_ para seleccionar una o varias audiencias. Por ejemplo, si selecciona la audiencia `integroPerson`, el evento solo coincidirá con las personas que eran miembros de dicha audiencia cuando se produjo la última ingesta por lotes.
+
+>[!NOTE]
+>
+>El filtro no calcula la pertenencia de la audiencia a tiempo real. Califica a las personas en función de su pertenencia a la audiencia seleccionada a partir de la última ingesta de audiencia por lotes. Solo se pueden evaluar las audiencias que se han introducido en [!DNL Journey Optimizer B2B Edition].
+
 ## Añadir un tiempo de espera a un nodo de evento {#timeouts}
 
 Si es necesario, defina la cantidad de tiempo que el recorrido espera el evento. El recorrido finaliza después de un tiempo de espera a menos que defina una ruta de tiempo de espera, donde puede agregar otros nodos.
 
 Habilite la opción **[!UICONTROL Timeout]** en las propiedades del nodo para especificar un tiempo de espera para el nodo _Escuchar un evento_.
 
-1. Con las opciones habilitadas, elija _Type_ y especifique los parámetros para el tiempo de espera:
+1. Con la opción habilitada, elija _Type_ y especifique los parámetros para el tiempo de espera:
 
    * **[!UICONTROL Duración]**: utilice este tipo para especificar un período de tiempo para el déclencheur de eventos. Si el evento no entra en déclencheur dentro de ese período, la persona o cuenta no continúa en el recorrido.
 

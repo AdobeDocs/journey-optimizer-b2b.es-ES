@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2569'
 ht-degree: 4%
 ---
 # Dividir y combinar rutas {#split-paths}
@@ -159,7 +159,8 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 | [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"}: la persona tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según la configuración del [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtrado de datos personalizados](#custom-data-filtering)) |
 | [!UICONTROL Historial de eventos] | Divide a las personas en función de los eventos de experiencia que se produjeron antes de la entrada en el recorrido. Amplíe la carpeta para ver todos los tipos de eventos configurados en [Administración > Configuración de eventos XDM](../admin/configure-aep-events.md) y seleccione uno para agregarlo como filtro. Las restricciones incluyen campos del evento seleccionado, una ventana de tiempo retrospectiva medida desde el momento en que la persona entra en el recorrido y un número mínimo de veces opcional. |
 | [!UICONTROL Atributos de persona] | Atributos del [perfil de persona](../admin/field-mapping.md#xdm-business-person-attributes), entre ellos: <li>Ciudad <li>País <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de personas <li>Número de teléfono <li>Código postal <li>Estado |
-| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Se ha eliminado</li><li>Función</li> |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Se ha eliminado (predeterminado: `false`)</li><li>Función</li> (Consulte [Filtrado de suscripciones](#membership-filtering)) |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro de audiencia de perfil] | La persona es o no miembro de una o más [!DNL Adobe Experience Platform] audiencias de perfil. (Consulte [Filtrado de suscripciones](#membership-filtering)) |
 
 ### Condiciones de ruta de persona-cuenta
 
@@ -224,15 +225,15 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 
 Para una ruta dividida por personas, puede definir una ruta basada en los eventos de experiencia que se produjeron antes de que la persona ingresara al recorrido. Para ver una lista de todos los tipos de eventos configurados por el administrador, expanda la carpeta **[!UICONTROL Historial de eventos]** en el editor de condiciones. Seleccione un tipo de evento para añadirlo como condición de filtro.
 
-La ventana de tiempo retrospectiva para el historial de eventos se mide hacia atrás desde el momento en que la persona entra en el recorrido. Por ejemplo, una ventana de 30 días evalúa si el evento correspondiente se produjo dentro de los 30 días anteriores al registro de recorrido.
+La ventana de tiempo para el historial de eventos se mide hacia atrás desde el momento en que la persona entra en el recorrido. Por ejemplo, una ventana de 30 días evalúa si el evento correspondiente se produjo dentro de los 30 días anteriores al registro de recorrido.
 
-Puede restringir aún más el filtro mediante restricciones específicas de los campos del evento seleccionado. Las restricciones **[!UICONTROL Minimum number of times]** y **[!UICONTROL Date of activity]** opcionales se evalúan dentro de la ventana retrospectiva definida. Debido a que los datos del historial de eventos se sincronizan desde Adobe Experience Platform, puede haber un breve retraso antes de que un evento reciente esté disponible para este filtro.
+Puede restringir aún más el filtro mediante restricciones específicas de los campos del evento seleccionado. Las restricciones **[!UICONTROL Minimum number of times]** y **[!UICONTROL Date of activity]** opcionales se evalúan dentro de la ventana retrospectiva definida. Debido a que los datos del historial de eventos se sincronizan desde [!DNL Adobe Experience Platform], puede haber un breve retraso antes de que un evento reciente esté disponible para este filtro.
 
 >[!NOTE]
 >
 >Las [configuraciones de campos y eventos de experiencia](../admin/configure-aep-events.md) determinan los eventos disponibles en la carpeta [!UICONTROL Historial de eventos].
 
-**Ejemplo:** Para enrutar a las personas que hicieron clic en un vínculo en un mensaje de correo electrónico de marketing antes de entrar en el recorrido, seleccione el evento de clic de correo electrónico de la carpeta [!UICONTROL Historial de eventos], establezca la ventana retrospectiva para cubrir el período de tiempo relevante y aplique las restricciones de nivel de campo (como una dirección URL de vínculo específica) según sea necesario.
+**Ejemplo:** Para enrutar a las personas que hicieron clic en un vínculo en un correo electrónico de marketing antes de entrar en el recorrido, seleccione el evento de clic en el correo electrónico de la carpeta [!UICONTROL Historial de eventos], establezca la ventana retrospectiva y aplique las restricciones de nivel de campo según sea necesario.
 
 ![Dividir ruta por condición de persona para el historial de eventos](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
@@ -244,13 +245,24 @@ Para cada uno de los filtros _[!UICONTROL Historial de eventos]_, puede habilita
 
 >[!ENDSHADEBOX]
 
-### Filtrado de pertenencia
+### Filtrado de pertenencia {#membership-filtering}
 
-Dentro de la sección _[!UICONTROL Filtros especiales]_, hay varios filtros que puedes usar para evaluar la membresía de una persona en un grupo de compras.
+En la sección _[!UICONTROL Filtros especiales]_, use los siguientes filtros para crear rutas basadas en la pertenencia de una persona:
 
-Por ejemplo, si desea crear una ruta para las personas que son miembros de un grupo comprador y se les asigna una función en particular, agregue el filtro _[!UICONTROL Filtros especiales]_ > _[!UICONTROL Miembro del grupo comprador]_. Para el filtro, establezca la pertenencia como _true_ y seleccione un _[!UICONTROL interés de solución]_ que esté asociado con uno o más grupos compradores.
+* _[!UICONTROL Miembro del grupo comprador]_: evalúa si la persona es miembro de un grupo comprador.
+* _[!UICONTROL Miembro de audiencia de perfil]_: evalúa si la persona es miembro de una audiencia de perfil [!DNL Adobe Experience Platform].
 
-![Condición de división de ruta por personas para comprar la membresía del grupo](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
+Para agregar un filtro de pertenencia, arrástrelo desde la carpeta _[!UICONTROL Filtros especiales]_ al área de trabajo de condiciones y establezca la pertenencia en _true_ para incluir miembros o _false_ para excluirlos. Puede combinar ambos filtros en la misma condición de ruta y usar la **[!UICONTROL lógica de filtro]** para que coincidan con alguno o todos ellos.
+
+Estos filtros también están disponibles cuando [agrega filtros para un evento](./listen-for-event-nodes.md#membership-filtering) en un nodo _Escuchar un evento_.
+
+![Condición de división de ruta por personas para comprar miembros de grupos y perfiles](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
+
+**Miembro del grupo de compra**
+
+Por ejemplo, para crear una ruta para comprar miembros de un grupo con una función específica, establezca la pertenencia en _true_ y seleccione un _[!UICONTROL interés de solución]_ asociado con la compra de grupos.
+
+Cuando agrega el filtro, el sistema incluye la restricción _[!UICONTROL Is Removed]_ de forma predeterminada y la establece en `false`, de modo que la ruta incluye solamente los miembros actuales del grupo comprador.
 
 Haga clic en **[!UICONTROL Agregar restricción]** para incluir restricciones adicionales de pertenencia a grupos de compra:
 
@@ -258,12 +270,25 @@ Haga clic en **[!UICONTROL Agregar restricción]** para incluir restricciones ad
 * _[!UICONTROL Estado del grupo de compra]_
 * _[!UICONTROL Puntuación de integridad]_
 * _[!UICONTROL Puntuación de participación]_
-* _[!UICONTROL Se Ha Eliminado]_
 * _[!UICONTROL Rol]_
 
->[!TIP]
+>[!IMPORTANT]
 >
->Para excluir a los miembros que se eliminaron de un grupo de compras, use la restricción _[!UICONTROL Se ha eliminado]_ establecida en `false`. También puede incluir explícitamente miembros eliminados estableciendo esta restricción en `true`.
+>La restricción _[!UICONTROL Se ha eliminado]_ determina si se evalúan los miembros del grupo de compra eliminados:
+>
+>* `false` (predeterminado): devuelve solo los miembros actuales del grupo de compra. No se incluyen los miembros eliminados.
+>* `true` - Devuelve solo los miembros del grupo comprador eliminados. No se incluyen los miembros actuales.
+>* Restricción eliminada: devuelve los miembros del grupo de compra actuales y eliminados.
+>
+>Si elimina la restricción, la ruta puede incluir a personas que ya no están en el grupo comprador.
+
+**Miembro de audiencia de perfil**
+
+Utilice la restricción _[!UICONTROL Audiencia de perfil]_ para seleccionar una o varias audiencias. Por ejemplo, si selecciona la audiencia `integroPerson`, la ruta califica a todas las personas que eran miembros de esa audiencia cuando se produjo la última ingesta por lotes.
+
+>[!NOTE]
+>
+>El filtro no calcula la pertenencia de la audiencia a tiempo real. Califica a las personas en función de su pertenencia a la audiencia seleccionada a partir de la última ingesta de audiencia por lotes. Solo se pueden evaluar las audiencias que se han introducido en [!DNL Journey Optimizer B2B Edition].
 
 ## Filtrado de datos personalizado {#custom-data-filtering}
 
@@ -287,9 +312,9 @@ Para combinar diferentes _rutas divididas por cuenta_ en el recorrido, agregue u
 
 1. En las propiedades del nodo de rutas de combinación, seleccione las rutas que desee combinar.
 
-   ![nodo de Recorrido - rutas de combinación](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
+   ![nodo de Recorrido - seleccionar rutas para combinar](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
-   En este punto, las rutas se combinan para que las cuentas de las rutas seleccionadas se combinen en una sola ruta que pueda continuar avanzando a través del recorrido.
+   Las rutas se combinan de modo que las cuentas de las rutas seleccionadas se combinen en una única ruta que pueda seguir avanzando a través del recorrido.
 
 1. Si es necesario, puede anular la combinación de rutas volviendo a las propiedades del nodo de rutas de combinación y desactivando la casilla de verificación de las rutas que desee eliminar.
 
