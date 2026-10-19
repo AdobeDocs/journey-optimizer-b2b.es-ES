@@ -3,6 +3,7 @@ cloud: Experience Cloud
 solution: Journey Optimizer B2B Edition
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: "Journey Optimizer B2B Edition"
 usetq: true
 type: Documentation
 mini-toc-levels: 2
@@ -13,11 +14,9 @@ landing-page-breadcrumb-title: Journey Optimizer B2B
 index: true
 source-git-commit: c54bd201edc979d8359936f5372ce47fadae8279
 workflow-type: tm+mt
-source-wordcount: 70
-ht-degree: 91%
-
+source-wordcount: '64'
+ht-degree: 100%
 ---
-
 
 # Metadatos para uso interno
 
