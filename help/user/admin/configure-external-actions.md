@@ -1,6 +1,6 @@
 ---
 title: Configuración de acciones externas
-description: Descubra cómo los desarrolladores, administradores y especialistas en marketing trabajan juntos para implementar, configurar y utilizar acciones externas que conectan Journey Optimizer B2B Edition con servicios externos en recorrido.
+description: Descubra cómo los desarrolladores, administradores y especialistas en marketing trabajan juntos para implementar, configurar y utilizar acciones externas que conectan Journey Optimizer B2B Edition con servicios externos en recorrido, y cómo los administradores monitorizan el estado de las acciones.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: dd796abfc909ef2c60877ccf977f4b6e5755693c
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1615'
 ht-degree: 1%
 ---
 # Configuración de acciones externas
@@ -45,7 +45,7 @@ La configuración de acciones externas requiere una coordinación entre tres fun
 | | Función | Tarea |
 | ---- | ---- | ---- |
 | 1 | Desarrollador | [Implementar y publicar el servicio externo](#implement-service) |
-| 2 | Administrador | [Configurar la acción en Journey Optimizer B2B Edition](#configure-action) |
+| 2 | Administrador | [Configurar la acción en Journey Optimizer B2B Edition](#configure-action) y [supervisar el estado de la acción externa](#monitor-external-action-health) |
 | 3 | Experto en marketing | [Agregar un nodo externo a un recorrido](#add-journey-node) |
 
 ## Implementación del servicio externo {#implement-service}
@@ -71,6 +71,8 @@ Se debe configurar y activar una acción antes de que los especialistas en marke
 1. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Configuraciones]**.
 
 1. Haga clic en **[!UICONTROL Acciones externas]** en el panel intermedio.
+
+1. Seleccione la pestaña **[!UICONTROL Examinar]**.
 
    ![Acceder al espacio de configuración de acciones externas](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
@@ -184,6 +186,50 @@ This error appears below the URL field (not in the alert banner) and means there
 | `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
 -->
 
+## Monitorización del estado de acción externa {#monitor-health}
+
+Una vez que los especialistas en marketing empiecen a utilizar acciones externas en los recorridos, puede realizar un seguimiento de cómo funciona cada acción desde la pestaña _Información general_ de la página de acciones externas. Utilícelo para ver cuántas solicitudes recibe cada acción, cuántas de ellas fallan y qué acciones tienen las tasas de error más altas.
+
+Para ver el tablero:
+
+1. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Configuraciones]**.
+
+1. Haga clic en **[!UICONTROL Acciones externas]** en el panel intermedio.
+
+   El sistema muestra la ficha **[!UICONTROL Información general]** de forma predeterminada con datos de acciones externas de los últimos siete días.
+
+1. Seleccione el periodo que desea revisar en el menú de intervalo de fechas o introduzca una fecha de inicio y de finalización en el campo de fecha. El intervalo predeterminado es los últimos 30 días.
+
+   ![El panel de mantenimiento de acciones externas muestra los filtros de intervalo de fechas, el total de solicitudes, los errores, la tasa de errores y el rendimiento de la acción.](./assets/config-external-action-health.png){width="700" zoomable="yes"}
+
+   Las métricas y la tabla se actualizan para mostrar solo la actividad del periodo seleccionado.
+
+### Métricas {#metrics}
+
+La sección _Información general_ resume el rendimiento de todas las acciones externas para el período seleccionado.
+
+| Métrica | Descripción |
+| ---- | ---- |
+| [!UICONTROL Acciones totales] | Número de acciones externas incluidas en el informe. |
+| [!UICONTROL Solicitudes totales] | Número total de solicitudes realizadas a servicios externos en todas las acciones. |
+| [!UICONTROL Errores totales] | Número total de solicitudes que dieron lugar a un error. |
+| [!UICONTROL Tasa de error] | El porcentaje de solicitudes que generaron un error. |
+
+### Rendimiento de acciones {#actions}
+
+La tabla _Rendimiento de acciones_ enumera cada acción externa y su actividad para el período seleccionado.
+
+| Columna | Descripción |
+| ---- | ---- |
+| [!UICONTROL Nombre] | Nombre de la acción externa. |
+| [!UICONTROL Recuento de solicitudes] | Número de solicitudes realizadas al servicio externo de la acción. |
+| [!UICONTROL Recuento de errores] | El número de solicitudes que dieron como resultado un error. |
+| [!UICONTROL Tasa de error] | El porcentaje de solicitudes que generaron un error. |
+
+Utilice la tabla para comparar acciones y encontrar las que requieren atención. Por ejemplo, una acción con una tasa de error alta indica un problema con el servicio externo, sus credenciales de autenticación o su configuración. Trabaje con el desarrollador que implementó el servicio para investigar la causa.
+
 ## Añadir un nodo externo a un recorrido {#add-journey-node}
 
 Una vez activada una acción, los especialistas en marketing pueden agregar un nodo _[!UICONTROL Acción externa]_ o _[!UICONTROL Ruta de acceso dividida externa]_ a cualquier recorrido de cuenta o persona. Para obtener información sobre cómo agregar y utilizar estos nodos en el lienzo de recorrido, consulte [Nodos externos](../journeys/external-nodes.md).
+
+![Nodo de acción externa: seleccione el servicio externo](../journeys/assets/node-external-action-service-name.png){width="600" zoomable="yes"}

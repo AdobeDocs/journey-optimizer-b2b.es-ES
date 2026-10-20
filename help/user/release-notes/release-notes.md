@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 783fa2ddf72a910b191b2eb93c6dcd71d2cddc8c
+source-git-commit: 585e34d466ff17723a4049a0050a79d23783f2ce
 workflow-type: tm+mt
-source-wordcount: '5781'
+source-wordcount: '5784'
 ht-degree: 60%
 ---
 # Notas de la versión de Journey Optimizer B2B Edition
@@ -43,7 +43,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Paneles de mantenimiento de servicio | Realizar un seguimiento del estado operativo de las acciones externas mediante la recopilación de métricas de éxito/error y el suministro de paneles para que los administradores supervisen el rendimiento del servicio. |
+| Mejora | Estado de acción externa | Los administradores ahora pueden monitorizar el rendimiento de las acciones externas en un panel que muestra los recuentos de solicitudes, los recuentos de errores y las tasas de error. [Más información](../admin/configure-external-actions.md#monitor-health) |
 | Mejora | Miembro del filtro Audiencia de perfil | Este filtro ya está disponible para las condiciones de ruta de acceso dividida de recorrido de persona, las condiciones de ruta dividida de persona de recorrido de cuenta y _Escuchar un evento_ para incluir o excluir perfiles según su pertenencia a audiencias. [Más información](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Mejora | Filtro Miembro del grupo de compras: se ha eliminado por defecto | En las condiciones de _dividir ruta por personas_ y _Escuchar un evento_ filtros de nodo, la restricción _[!UICONTROL Se ha eliminado]_ ahora está seleccionada de forma predeterminada y se establece en `false` cuando se agrega el filtro _[!UICONTROL Miembro del grupo comprador]_. El filtro devuelve sólo los miembros actuales del grupo de compra, a menos que cambie o quite la restricción. [Más información](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Mejora | Reentrada de recorrido: recorridos de persona | Ya está disponible la compatibilidad con la reentrada del recorrido para los recorridos de personas. |
