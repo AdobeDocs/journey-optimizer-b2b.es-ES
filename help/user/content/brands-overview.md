@@ -68,7 +68,7 @@ Su organización puede obtener un valor significativo utilizando una marca en la
 >
 >Actualmente, esta funcionalidad está disponible como una versión beta pública.
 >
->Se requiere un [acuerdo de usuario](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B Edition. Para obtener más información, contacte con su representante de Adobe.
+>Se requiere un [acuerdo de usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} para poder usar las funciones con tecnología de IA en Adobe Journey Optimizer B2B Edition. Para obtener más información, contacte con su representante de Adobe.
 
 Una marca definida proporciona la _fuente fiable_ que su equipo creativo debe usar cuando cree contenido visual o escrito. Cuando se compilan estas directrices y se comparten los recursos de marca, cualquier miembro del equipo o colaborador puede crear contenido sin marca para el producto. Para habilitar la creación de contenido en la marca en Journey Optimizer B2B Edition, complete estas tareas:
 
