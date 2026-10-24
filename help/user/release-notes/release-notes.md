@@ -301,7 +301,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Listas de cuentas | Ahora puede crear un lista de cuentas estáticas o dinámicas para identificar cuentas con nombre según sus criterios definidos, como el sector, la ubicación o el tamaño del compañía. <a href="../accounts/account-lists.md">Más información</a> |
+| Función | Listas de cuentas | Ahora puede crear un lista de cuentas estáticas o dinámicas para identificar cuentas nombradas según sus criterios definidos, como el sector, la ubicación o el tamaño del compañía. <a href="../accounts/account-lists.md">Más información</a> |
 | Función | Orquestación de recorrido de la lista de cuentas | Utilice los nodos de acción del recorrido para añadir y quitar cuentas para listas de cuentas estáticas. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Más información</a> |
 | Mejora | Filtrar abono de recorrido en Marketo Engage | Use las listas de cuentas de Adobe Journey Optimizer B2B Edition para el público del recorrido y luego use el filtro _Abonado de una lista de cuentas_ en las listas inteligentes de Marketo Engage. |
 | Función | Filtros de inactividad | Organice los recorridos en función de la inactividad dentro de las campañas y programas de Marketo Engage, incluida la inactividad del correo electrónico, los momentos interesantes, los cambios en el valor de los datos y las páginas web visitadas. |
