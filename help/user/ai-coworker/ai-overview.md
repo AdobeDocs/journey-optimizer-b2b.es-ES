@@ -56,7 +56,7 @@ Use las capacidades de IA en [!DNL Adobe Journey Optimizer B2B Edition] para gen
 
 Usar la interfaz de aplicación [!DNL CX Enterprise Coworker] para todos los flujos de trabajo de chat que no sean la generación de contenido. Haga preguntas sobre el producto, explore las perspectivas operativas y utilice [aptitudes de recorrido](../agents/journey-agent.md) y [aptitudes de audiencia para cuentas B2B y personas](../agents/audience-agent-b2b.md). La generación de contenido permanece disponible en [!DNL Journey Optimizer B2B Edition].
 
-Para obtener instrucciones sobre cómo abrir la aplicación, iniciar conversaciones y utilizar características de chat, consulta la [guía de la interfaz de CX Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
+Para obtener instrucciones sobre cómo abrir la aplicación, iniciar conversaciones y utilizar características de chat, consulta la [guía de la interfaz de CX Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/chat/ui-guide){target="_blank"}.
 
 Considere qué tipo de consulta necesita antes de enviar una consulta de chat de [!DNL Coworker].
 
@@ -115,4 +115,4 @@ Con una comprensión general del chat de [!DNL Coworker], proceda a habilitarlo 
 
 * [Habilitar acceso a las capacidades de IA](./enable-ai-access.md)
 * [Guía de preguntas](./question-guidance.md)
-* [Guía de la interfaz de CX Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [Guía de la interfaz de CX Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/chat/ui-guide){target="_blank"}
