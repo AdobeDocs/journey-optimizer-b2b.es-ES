@@ -1,6 +1,6 @@
 ---
-title: Journey Agent B2B
-description: Aprenda a utilizar Journey Agent con tecnología de IA y sus habilidades para crear, administrar y observar recorridos B2B sólidos.
+title: Aptitudes de recorrido para B2B
+description: Aprenda a utilizar las habilidades de Recorrido impulsadas por IA que puede utilizar para crear, administrar y observar recorridos B2B sólidos.
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
@@ -36,31 +36,31 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1115'
 ht-degree: 0%
 ---
-# Journey Agent B2B
+# Aptitudes de recorrido para B2B
 
-Journey Agent B2B es un asistente con tecnología de IA en Adobe Journey Optimizer B2B Edition que le ayuda a diseñar, ejecutar, optimizar y monitorizar los recorridos B2B a través del lenguaje natural. Reduce el tiempo y la complejidad implicados en la creación y administración de recorridos de clientes combinando automatización, recomendaciones basadas en datos y observabilidad en tiempo real.
+En el chat de [!DNL CX Enterprise Coworker], las habilidades de recorrido le ayudan a diseñar, ejecutar, optimizar y supervisar los recorridos de [!DNL Adobe Journey Optimizer B2B Edition] mediante el lenguaje natural. El uso de estas habilidades reduce el tiempo y la complejidad implicados en la creación y administración de recorridos de cuenta y persona mediante la combinación de automatización, recomendaciones basadas en datos y observabilidad en tiempo real.
 
-![Mensaje B2B De Journey Agent](./assets/journey-agent-prompt.png)
+[!DNL CX Coworker] proporciona un conjunto de aptitudes de IA que incluye un subconjunto para el ciclo de vida del recorrido B2B. Estas aptitudes disponibles actualmente son:
 
-Journey Agent B2B ofrece un conjunto de habilidades de IA, cada una centrada en una característica diferente del ciclo de vida del recorrido B2B. Las aptitudes disponibles actualmente son:
+* **[Habilidades de creación de Recorridos](#journey-creation-skills)**: cree, actualice y optimice recorridos a partir de mensajes en lenguaje natural
+* **[Habilidades de observación de Recorrido](#journey-observability-skills)**: haga preguntas sobre cómo se mueven las cuentas y las personas a través de recorridos activos
 
-* **[Recorrido Build skill](#journey-build-skill)** - Crear, actualizar y optimizar recorridos a partir de mensajes en lenguaje natural
-* **[Aptitud para observar el Recorrido](#journey-observability-skill)** - Haga preguntas sobre cómo se mueven las cuentas y las personas a través de los recorridos activos
+Haga clic en el icono _Preguntar a[!DNL Coworker]_ ( ![Preguntar a [!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ) en la parte superior de la aplicación para abrir la interfaz [!DNL Coworker].
 
-## Recorrido Generar aptitud
+## aptitudes de creación de recorridos {#journey-creation-skills}
 
-La aptitud para crear Recorridos traduce sus objetivos de marketing, estrategia de participación y KPI en recorridos completos de clientes B2B. Aborda tres desafíos clave a los que se enfrentan los especialistas en marketing B2B en la actualidad:
+Las habilidades de creación de recorridos traducen sus objetivos de marketing, estrategia de participación y KPI en recorridos completos de clientes B2B. Abordan tres desafíos clave a los que se enfrentan los especialistas en marketing B2B en la actualidad:
 
 * Hacer frente a recorridos de clientes cada vez más complejos (complejidad de audiencia, contenido y mensajería, y omnicanal)
 * Mayor eficiencia a la luz de presupuestos más ajustados
 * Averiguar cómo se debe estructurar el recorrido óptimo del cliente
 
-Como especialista en marketing, puede utilizar esta aptitud para lo siguiente:
+Como experto en marketing, puede utilizar estas habilidades para lo siguiente:
 
 * **Crear**: traduzca sus objetivos de marketing, productos, estrategia de participación y KPI a un recorrido personalizado del cliente con automatización y condiciones
 * **Recomendar**: aproveche la participación de marketing anterior y otros datos históricos para optimizar la creación de recorridos
@@ -69,13 +69,13 @@ Como especialista en marketing, puede utilizar esta aptitud para lo siguiente:
 
 ### Uso básico
 
-Para utilizar la aptitud de Journey Agent Build, escriba en la ventana de mensajes lo que desea crear, utilizando lenguaje natural:
+Para utilizar las aptitudes de creación de recorridos, escriba en la ventana del símbolo del sistema [!DNL Coworker] lo que desea crear mediante lenguaje natural:
 
 &quot;Cree un recorrido B2B para invitar a los responsables de la toma de decisiones a un roadshow en cuentas comprometidas que probablemente abra una nueva canalización&quot;.
 
-![Solicitud B2B del agente de Recorrido para la aptitud de compilación](./assets/journey-agent-tasks.png)
+![aptitud de creación de Recorridos para petición B2B en [!DNL CX Coworker]](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}
 
-Cuantos más detalles proporcione, mejor será la respuesta. Si ya dispone de material de marketing que describe el evento, el producto, etc., péguelo en el mensaje para que el agente comprenda mejor el objetivo.
+Cuantos más detalles proporcione, mejor será la respuesta. Si ya dispone de material de marketing que describe el evento, el producto, etc., péguelo en el mensaje para que [!DNL Coworker] comprenda mejor el objetivo.
 
 &quot;Actúe como estratega de recorrido B2B para crear un recorrido de cuentas de cliente de varias fases que nutra y involucre a los responsables de la toma de decisiones y a los profesionales de marketing en la fase de exploración temprana de `<Solution Name>`. El objetivo es convertir a los visitantes anónimos en contactos conocidos, profundizar la participación con contenido relevante en `<domain>`.com y crear posibles clientes cualificados para el alcance de ventas de `<Product Name>`. Utilice canales como correo electrónico y medios de pago, aprovechando los segmentos de audiencia y el contenido existentes. Estructurar el recorrido a través de las etapas de sensibilización, consideración y evaluación durante 4-6 semanas, con déclencheur, acciones y objetivos claros para cada etapa. Incluya KPI como tasas de conversión, puntuaciones de participación y solicitudes de demostración, y devuelva el resultado como un flujo de recorrido estructurado&quot;.
 
@@ -86,11 +86,11 @@ Esta solicitud detallada proporciona lo siguiente:
 * **Formato estructurado**: use viñetas, pasos numerados o plantillas.
 * **Asignación de funciones**: especifique la función de AI - &#39;Actuar como analista de datos...&#39;
 
-Utilice el agente para repetir el refinamiento: Inicie simple y, a continuación, perfeccione el mensaje en función de los resultados. Los bucles de comentarios mejoran los resultados con el tiempo.
+Comience con un mensaje sencillo y, a continuación, aclare la pregunta en función de los resultados. Utilice las indicaciones de seguimiento para iterar.
 
 ### Creación de recorridos B2B de extremo a extremo
 
-La aptitud para crear Recorridos puede generar un flujo de recorridos de extremo a extremo (recorrido de cuenta o persona) a partir de mensajes de texto y metadatos en lenguaje natural, a través de una experiencia de conversación en lugar de una interfaz de usuario tradicional.
+Las habilidades de creación de recorridos pueden generar un flujo de recorrido de extremo a extremo (recorrido de cuenta o persona) a partir de mensajes de texto y metadatos en lenguaje natural, a través de una experiencia de conversación en lugar de una interfaz de usuario tradicional.
 
 Ejemplos de mensajes de Recorrido de extremo a extremo:
 
@@ -107,25 +107,21 @@ Puede actuar como diseñador de recorridos B2B para crear un recorrido de cuenta
 * Estructurar el recorrido en `awareness`, `consideration` y `evaluation` etapas durante 4-6 semanas, con déclencheur, acciones y objetivos claros para cada etapa.
 * Incluya KPI, como `conversion rates`, `engagement scores` y `demo requests`, y devuelva el resultado como un flujo de recorrido estructurado.
 
-## Recorrido Aptitud de observación
+## Habilidades de observabilidad de recorrido {#journey-observability-skills}
 
-La habilidad Observabilidad del Recorrido le permite hacer preguntas en lenguaje natural sobre cómo se mueven las cuentas y las personas a través de sus recorridos B2B, sin necesidad de explorar los mapas de recorrido, los registros o los paneles. Cubre dos áreas principales: progresión del recorrido y observabilidad de la sincronización de datos.
+Las habilidades de observabilidad del recorrido le permiten hacer preguntas en lenguaje natural sobre cómo las cuentas y las personas se mueven a través de sus recorridos B2B, sin necesidad de explorar los mapas de recorrido, los registros o los paneles. Cubren dos áreas principales: progresión del recorrido y observabilidad de la sincronización de datos.
 
-Puede acceder a él en dos lugares dentro de Journey Optimizer B2B Edition:
-
-* **Asistente de carril derecho en el mapa del recorrido**: haga preguntas específicas del recorrido directamente desde el mapa del recorrido. El nombre del recorrido se inserta automáticamente en el contexto.
-
-* **Página del Asistente de pantalla completa**: una vista conversacional más grande adecuada para preguntas complejas o de varias cuentas y para explorar múltiples recorridos.
+![Solicitud y respuesta de observabilidad de Recorrido en [!DNL CX Coworker]](./assets/journey-observability-prompt-response.png){width="800" zoomable="yes"}
 
 ### Insight de recorrido de nivel de cuenta
 
 Rastree cómo una cuenta específica fluyó a través de un recorrido haciendo preguntas como:
 
-* &quot;Dame información básica de la cuenta de ACME Industries&quot;.
+* &quot;Dame información básica sobre las cuentas de Bodea Cloud&quot;.
 * &quot;Cuéntame cómo pasó la cuenta Northstar Services por la Estrategia de Nutrición ABM del recorrido&quot;.
 * &quot;¿Cuándo comenzó este recorrido la cuenta Contoso LLC?&quot;
 
-### Razonamiento y recuentos de rutas de nodos divididos
+### Razonamiento y recuentos de rutas divididas
 
 Comprenda por qué se tomó una sucursal y cuántas personas o cuentas siguieron cada ruta:
 
@@ -133,13 +129,13 @@ Comprenda por qué se tomó una sucursal y cuántas personas o cuentas siguieron
 * &quot;Dame el recuento de personas para cada ruta en el nodo dividido node-459c7c&quot;.
 * &quot;Muéstrame gente en la ruta de San José para la Cuenta8&quot;.
 
-El agente inspecciona la lógica dividida, los atributos de cuenta y las actividades para explicar las decisiones de enrutamiento y devolver recuentos por ruta o listas de personas.
+Las aptitudes de observación de recorridos analizan la lógica dividida, los atributos de cuenta y las actividades para explicar las decisiones de enrutamiento y los recuentos de devoluciones por ruta o listas de personas.
 
 ### Resultados del recorrido a nivel de personas
 
 Analice los resultados individuales dentro de una cuenta o en todo un recorrido, lo que resulta especialmente útil para comprar análisis de grupo y rastrear la conducta del responsable de la toma de decisiones en comparación con la del influenciador:
 
-* &quot;Dame recuento de personas en cada ruta para este nodo dividido para Account123&quot;.
+* &quot;Dame gente cuenta en cada ruta dividida para el recorrido de Bodea Next Web Engagement&quot;.
 * &quot;Enumerar personas en la ruta de omisión oculta&quot;.
 * &quot;Muéstrame a las personas en la ruta de ubicación de San Diego para esta cuenta&quot;.
 
@@ -160,7 +156,7 @@ En el caso de los recorridos que llevan a canales externos como LinkedIn, puede 
 
 ### Sincronización de datos y observabilidad de canalización
 
-La habilidad Observabilidad también puede mostrar información de estado de sincronización de datos para ayudar a solucionar el problema de por qué una cuenta o posible cliente no se incluyó en un recorrido:
+Las habilidades de observabilidad del recorrido también pueden mostrar información de estado de sincronización de datos para ayudar a solucionar por qué una cuenta o posible cliente no se incluyó en un recorrido:
 
 * Métricas y estado del trabajo de exportación de audiencias externas
 * Programaciones de segmentación por lotes y horas de finalización

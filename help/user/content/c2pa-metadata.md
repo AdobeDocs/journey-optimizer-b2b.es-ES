@@ -1,6 +1,6 @@
 ---
 title: Metadatos de C2PA
-description: Descubra cómo Adobe Journey Optimizer B2B edition aplica automáticamente los metadatos de C2PA a las imágenes generadas o editadas con herramientas de IA generativa y qué significa esto para su contenido.
+description: Descubra cómo Adobe Journey Optimizer B2B Edition aplica automáticamente los metadatos de C2PA a las imágenes generadas o editadas con herramientas de IA generativa y qué significa esto para su contenido.
 feature: Assets, Content
 hide: true
 role: User
@@ -8,21 +8,25 @@ autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 14e960aa56ce951f3606ffe35e0481c659021ad6
+    internal-label: User
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # Metadatos de C2PA
 
 Las organizaciones de marketing están más preocupadas que nunca por la transparencia del contenido, la divulgación de la IA y la prevención de la manipulación de activos. Content Authenticity Initiative (CAI) en Adobe crea herramientas compatibles con el estándar técnico de [Coalición para la procedencia y autenticidad del contenido](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA). Los _metadatos de C2PA_ son información cifrada y a prueba de manipulaciones que ayuda a los espectadores a comprender el linaje del contenido y a garantizar la integridad de los recursos de la marca. Esta información incluye:
@@ -39,7 +43,7 @@ Para obtener información completa sobre el historial de recursos, puede usar la
 
 Los metadatos de C2PA persisten con el archivo de imagen. Cuando se carga o exporta una imagen generada o editada con IA generativa desde [!DNL Adobe Journey Optimizer B2B Edition], se conservan sus metadatos de C2PA.
 
-Para obtener más información sobre cómo adjuntar automáticamente metadatos de C2PA en las aplicaciones empresariales de Adobe CX, consulte [_Transparencia del contenido de inteligencia artificial aplicada generativa_](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} en la guía de IA en CX Enterprise.
+Para obtener más información acerca de los datos adjuntos automáticos de los metadatos de C2PA en las aplicaciones de Adobe CX Enterprise, consulte [_Transparencia del contenido de inteligencia artificial aplicada generativa_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} en la guía API de CX Enterprise.
 
 >[!NOTE]
 >
@@ -77,7 +81,7 @@ Cuando se crea una nueva imagen a partir de un mensaje de texto, una imagen de r
 * Recorte una imagen de titular generada para adaptarla a una página web. Los metadatos de C2PA se conservan a través del recorte.
 * Utilice una foto de archivo cargada como fondo de correo electrónico y córtela para que se ajuste a la pantalla. Si la foto de archivo no contiene información de IA generativa, no se crean metadatos de C2PA.
 
-Al realizar un ajuste en un archivo de imagen, como recortarlo a dimensiones solicitadas, conserva sus metadatos de C2PA solo si la imagen de origen ya lo tenía. Al recortar se vuelven a crear los píxeles de la imagen, lo que normalmente elimina esos metadatos de C2PA, por lo que el asistente de IA los lee de la imagen de origen antes de recortarlos y, a continuación, los vuelve a crear y a adjuntar al resultado recortado. El recorte en sí no agrega una nueva acción de IA generativa; conserva la existente.
+Al realizar un ajuste en un archivo de imagen, como recortarlo a dimensiones solicitadas, conserva sus metadatos de C2PA solo si la imagen de origen ya lo tenía. Al recortar se vuelven a crear los píxeles de la imagen, lo que normalmente elimina esos metadatos de C2PA, por lo que las herramientas de IA generativas los leen de la imagen de origen antes de recortarlos y, a continuación, los vuelven a crear y a adjuntar al resultado recortado. El recorte en sí no agrega una nueva acción de IA generativa; conserva la existente.
 
 ### Añadir una superposición de texto
 

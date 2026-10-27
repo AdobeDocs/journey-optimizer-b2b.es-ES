@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '633'
 ht-degree: 5%
 ---
 
@@ -59,7 +59,7 @@ Para obtener una lista actualizada de las regulaciones admitidas, consulte [_Res
 * **[!UICONTROL Permisos de Privacy Service]** - `Privacy Read Permission` y `Privacy Write Permission`
 * **[!UICONTROL Control de datos]** - `View Privacy Console`
 
-Consulte [_Administrar permisos para Privacy Service_](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/permissions){target="_blank"} en la guía [!DNL Privacy Service] para obtener información más detallada.
+Consulte [_Administrar permisos para Privacy Service_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"} en la guía [!DNL Privacy Service] para obtener información más detallada.
 
 >[!ENDSHADEBOX]
 
@@ -88,7 +88,7 @@ Utilice la opción **[!UICONTROL Tipo de regulación]** de la parte superior der
 
      * El posible cliente asociado en [!DNL Marketo Engage].
      * Registros de persona y cuenta creados en [!DNL Journey Optimizer B2B Edition].
-     * Historial de conversaciones del asistente de IA que hace referencia a la información personal de la persona.
+     * [!DNL Coworker] historial de conversaciones de chat que hace referencia a la información personal de la persona.
 
 1. Para **[!UICONTROL Productos]**, seleccione **[!UICONTROL Marketo]**.
 

@@ -1,26 +1,28 @@
 ---
 title: Comprar plantillas de rol de grupo
-description: Cree plantillas de funciones con asignación automática condicional para identificar a los responsables de la toma de decisiones y a las partes interesadas en la compra de grupos en Journey Optimizer B2B edition.
+description: Cree plantillas de funciones con asignación automática condicional para identificar a los responsables de la toma de decisiones y a las partes interesadas en la compra de grupos en Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1435'
 ht-degree: 5%
-
 ---
-
 # Plantillas de función del grupo de compras
 
 En un mercado B2B, varias personas suelen tomar decisiones de compra. Esas personas participan en el proceso de adopción de decisiones de acuerdo con su función dentro de la organización. Cree plantillas de funciones de grupo de compra que contengan un grupo de definiciones de funciones según cada tipo de oferta de producto o caso de uso de cuenta.
@@ -29,9 +31,9 @@ En un mercado B2B, varias personas suelen tomar decisiones de compra. Esas perso
 
 >[!BEGINSHADEBOX]
 
-## Audience Agent B2B
+## Aptitudes de audiencia
 
-[Audience Agent B2B](../agents/audience-agent-b2b.md) puede generar una plantilla de roles de grupo de compra a partir de la detección de intención de origen y la asignación de personas. En el flujo guiado, puede identificar personas vinculadas a un producto, revisar las asignaciones de funciones a personas recomendadas por IA y refinar la plantilla con lenguaje natural antes de publicarla.
+Use [aptitudes de audiencia para personas y cuentas B2B](../agents/audience-agent-b2b.md) para generar una plantilla de rol de grupo de compra a partir de la detección de intención de origen y la asignación de personas. En el flujo guiado, puede identificar personas vinculadas a un producto, revisar las asignaciones de funciones a personas recomendadas por IA y refinar la plantilla con lenguaje natural antes de publicarla.
 
 **Indicadores para intentarlo:**
 
@@ -39,7 +41,7 @@ En un mercado B2B, varias personas suelen tomar decisiones de compra. Esas perso
 * Agregar `<role>` asignado a `<persona>`
 * Eliminar `<role>` / `<persona>`
 
-![Audience Agent B2B está creando una plantilla de roles de grupo de compra](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+![Plantilla de rol de grupo de compra generada con aptitudes de audiencia.](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -171,7 +173,7 @@ Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener
 
 1. En el cuadro de diálogo, cambie el valor **[!UICONTROL Miembros necesarios]** para cada rol definido según sea necesario.
 
-   Puede escribir el valor o hacer clic en **&plus;** o **−** para aumentarlo o reducirlo.
+   Puede escribir el valor o hacer clic en **&amp;plus;** o **−** para aumentarlo o reducirlo.
 
    ![Cuadro de diálogo de configuración de puntuación de integridad de plantilla de roles](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -223,4 +225,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo resumen {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
