@@ -69,7 +69,7 @@ El generador de scripts está disponible en el [editor de personalización](./pe
 
    >[!BEGINSHADEBOX]
 
-   La primera vez que acceda al Generador de scripts, revise las [_[!UICONTROL Condiciones de uso de la inteligencia artificial aplicada generativa ]_](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} y confirme el acuerdo.
+   La primera vez que acceda al Generador de scripts, revise las [_[!UICONTROL Condiciones de uso de la inteligencia artificial aplicada generativa &#x200B;]_](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} y confirme el acuerdo.
 
    ![Cuadro de diálogo del acuerdo de condiciones de uso de inteligencia artificial generativa en el Generador de scripts](./assets/personalization-script-builder-gen-ai-terms.png){width="400"}
 
