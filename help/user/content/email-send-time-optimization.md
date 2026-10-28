@@ -28,9 +28,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '477'
 ht-degree: 0%
 ---
 # Optimización del tiempo de envío del correo electrónico
@@ -46,16 +46,16 @@ Actualmente, la optimización del tiempo de envío es compatible con:
 * **Tipo de Recorrido**: Recorridos de persona
 * **Canal**: Correo electrónico
 * **Configuración**: _Enviar correo electrónico_ nodo de acción
-* **Informes**: asistente de IA a través de la habilidad de observación de Recorrido
+* **Informes**: [!DNL Coworker] conversa a través de las habilidades de observación de recorrido
 
-  Las perspectivas de rendimiento, como el uso, el alza de la participación y las comparaciones de STO frente a no STO, están disponibles mediante consultas en lenguaje natural en el asistente de IA.
+  Las perspectivas de rendimiento, como el uso, el alza de la participación y las comparaciones de STO frente a no STO, están disponibles mediante consultas en lenguaje natural en el chat de [!DNL Coworker].
 
 >[!BEGINSHADEBOX]
 
 Hay muchas **_mejoras futuras_** planificadas para STO:
 
 * Compatibilidad con _Recorridos de cuenta_
-* Configuración global de STO en el área _[!UICONTROL Admin]_
+* Configuración global de STO en el área _[!UICONTROL Administración]_
 * Habilitación de STO de nivel de recorrido
 * Divisiones de prueba/control configurables
 * Un tablero de informes de STO dedicado
@@ -90,4 +90,4 @@ Puede configurar la optimización del tiempo de envío al [agregar un nodo _[!UI
 
 ## Perspectivas de STO
 
-Las perspectivas de STO se entregan a través del _Asistente de IA_ con la [_aptitud de observación_](../agents/journey-agent.md#journey-observability-skill) de Journey Agent. Puede consultar el uso, las métricas de participación, los resultados de pruebas/control, el rendimiento del nodo y el impacto general en los recorridos.
+Las perspectivas de STO se entregan a través del _[!DNL Coworker]chat_ usando las [_habilidades de observabilidad de recorrido_](../agents/journey-agent.md#journey-observability-skills). Puede consultar el uso, las métricas de participación, los resultados de pruebas/control, el rendimiento del nodo y el impacto general en los recorridos.

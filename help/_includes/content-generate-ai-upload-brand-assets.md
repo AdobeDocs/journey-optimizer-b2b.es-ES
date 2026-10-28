@@ -1,13 +1,11 @@
 ---
 title: 'Ayudante de inteligencia artificial aplicada al contenido: cargar recursos de marca'
 description: Sección reutilizada sobre el uso de la opción cargar recursos de marca para generar contenido
-source-git-commit: 699a7aaaf7c0b9faebb00e677e9a3a03f1c186f4
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
-
 ---
-
 # Ayudante de inteligencia artificial aplicada al contenido: cargar recursos de marca
 
 Cargue contenido de referencia para tener un contenido preciso y sin marca. Sin estos recursos, el contenido se basa en información disponible públicamente.

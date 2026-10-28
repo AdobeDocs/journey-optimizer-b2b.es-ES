@@ -1,6 +1,6 @@
 ---
 title: Generador de scripts
-description: Utilice Script Builder, un asistente con tecnología de IA en el espacio de diseño de correo electrónico, para generar scripts de personalización de Handlebars y convertir scripts de Marketo Engage Velocity en Journey Optimizer B2B edition.
+description: Utilice Script Builder, un asistente con tecnología de IA en el espacio de diseño de correo electrónico, para generar scripts de personalización de Handlebars y convertir scripts de Marketo Engage Velocity en Journey Optimizer B2B Edition.
 feature: AI Assistant, Generative AI, Personalization, Email Authoring
 role: User, Developer
 badgeBeta: label="Beta" type="informative" tooltip="Actualmente, esta función está en versión beta limitada"
@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 3%
@@ -49,7 +49,7 @@ Para crear una personalización de correo electrónico condicional, como cambiar
 
 >[!IMPORTANT]
 >
->El acceso del usuario al Generador de scripts se controla mediante los mismos permisos utilizados para otras capacidades de IA generativa en [!DNL Journey Optimizer B2B Edition]. Para obtener información sobre cómo conceder permisos de características, consulte [Habilitar el acceso al Asistente de IA](../ai-coworker/enable-ai-assistant-access.md).
+>El acceso del usuario al Generador de scripts se controla mediante los mismos permisos utilizados para otras capacidades de IA generativa en [!DNL Journey Optimizer B2B Edition]. Para obtener información sobre cómo conceder permisos de características, consulte [Habilitar el acceso a las capacidades de IA](../ai-coworker/enable-ai-access.md).
 
 Antes de usar el Generador de scripts, revisa las [directrices y limitaciones](./generative-ai-content.md#general-guidelines-and-limitations) que se aplican a las características de IA generativa de [!DNL Journey Optimizer B2B Edition]. También se requiere la aceptación de [acuerdo del usuario](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} para poder usar las capacidades de IA.
 
