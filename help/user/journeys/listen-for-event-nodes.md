@@ -24,18 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2156'
 ht-degree: 4%
 ---
 # Escuchar un evento
 
 Para llevar a la audiencia al siguiente paso del [recorrido](./journeys-overview.md) cuando se produzca un evento, agrega el nodo _Escuchar un evento_. Según el tipo de recorrido, puede utilizar este nodo para almacenar en déclencheur el siguiente nodo de la recorrido según los eventos de personas o cuentas.
 
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
--->
+![Vídeo](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Vea el vídeo de información general](#overview-video)
 
 ## Recorridos de la cuenta {#account-journeys}
 
@@ -363,8 +361,6 @@ Habilite la opción **[!UICONTROL Timeout]** en las propiedades del nodo para es
 
    Si no desea definir la ruta de acceso, puede desactivar la casilla de verificación _[!UICONTROL Establecer ruta de acceso de tiempo de espera]_.
 
-<!--
- ## Overview video
+## Vídeo resumen
 
->[!VIDEO](https://video.tv.adobe.com/v/3443237/?captions=spa&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3443237/?captions=spa&learn=on)
