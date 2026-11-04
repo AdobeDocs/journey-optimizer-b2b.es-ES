@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
+source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
 workflow-type: tm+mt
-source-wordcount: '5774'
-ht-degree: 60%
+source-wordcount: '5888'
+ht-degree: 58%
 ---
 # Notas de la versión de Journey Optimizer B2B Edition
 
@@ -36,6 +36,20 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+
+## Notas de la versión 2026.10 {#rel-2026-10}
+
+**Fecha de implementación**: 6 de noviembre de 2026
+
+| Tipo | Elemento | Descripción |
+| ---- | ---- | ----------- |
+| Función | Listas de personas | Utilice listas de personas estáticas y dinámicas para segmentar perfiles según los criterios definidos, como atributos demográficos e historial de eventos de experiencia. |
+| Función | Recorrido de etiquetas de nodo | Añada etiquetas a los nodos de recorrido para identificarlos en el lienzo de recorrido. |
+| Mejora | Filtro Miembro de lista de personas | Utilice el filtro _[!UICONTROL Miembro de la lista de personas]_ para incluir o excluir perfiles según su pertenencia a la lista de personas. |
+| Mejora | Acciones de recorrido de lista de personas | Agregar o quitar personas de listas estáticas de personas mediante recorridos de cuenta y persona. |
+
+>[!NOTE]
+>Estos cambios de la versión comienzan el 6 de noviembre de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2026.9 {#rel-2026-9}
 
@@ -50,12 +64,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 
 >[!NOTE]
 >
->Estos cambios de versión comienzan la implementación el 25 de septiembre de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
-
-<!--
-Delayed to Oct
-| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
--->
+>Estos cambios de versión comienzan el 25 de septiembre de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2026.8 {#rel-2026-8}
 
@@ -74,7 +83,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Estos cambios de versión comienzan a implementarse el 14 de agosto de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>La implementación de estos cambios de versión comienza el 14 de agosto de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2026.6 {#rel-2026-6}
 
@@ -89,13 +98,11 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Estos cambios de versión comienzan la implementación el 10 de julio de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>Estos cambios de versión comienzan el 10 de julio de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2026.5 {#rel-2026-5}
 
 **Fecha de implementación**: 22 de mayo de 2026
-
-<!-- Learn more links omitted for 2026.5 items until updated feature documentation is published. -->
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
@@ -111,12 +118,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Estos cambios de versión comienzan a implementarse el 22 de mayo de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
-
-<!--
- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
--->
+>Estos cambios de versión comienzan el 22 de mayo de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2026.3 {#rel-2026-3}
 
@@ -135,7 +137,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Estos cambios de versión comienzan la implementación el 27 de marzo de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>Estos cambios de versión comienzan el 27 de marzo de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 
 ## Notas de la versión 2026.2 {#rel-2026-2}
@@ -151,7 +153,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Estos cambios de versión comienzan la implementación el 20 de febrero de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>Estos cambios de versión comienzan el 20 de febrero de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2026.1 {#rel-2026-1}
 
@@ -167,7 +169,7 @@ Delayed to Oct
 
 >[!NOTE]
 >
->Estos cambios de versión comienzan la implementación el 3 de febrero de 2026, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>Estos cambios de versión comienzan el 3 de febrero de 2026, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Funciones de la IA agéntica {#rel-agents}
 
@@ -199,7 +201,7 @@ Las siguientes funciones de IA agéntica ya están disponibles para Journey Opti
 
 >[!NOTE]
 >
->Los cambios en la versión comienzan a implementarse el 31 de octubre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>Estos cambios de versión comienzan el 31 de octubre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ### Arquitectura actualizada
 
@@ -213,7 +215,7 @@ Esta implementación ofrece varias ventajas:
 
 * **Unifique y escale fácilmente sus datos**: la plataforma actualizada admite modelos de datos complejos, incluidos objetos personalizados, grupos de compra y eventos de cuenta.
 * **Conecte varias instancias de Adobe Marketo Engage**: administre y unifique datos de varios entornos de Adobe Marketo Engage en un solo lugar.
-* **Mantenga sus datos seguros**: las características avanzadas de privacidad y seguridad ayudan a proteger la información de sus clientes.
+* **Protege tus datos**: Las características avanzadas de privacidad y seguridad ayudan a proteger la información de tus clientes.
 * **Diseñado para la escalabilidad a largo plazo**: esta actualización prepara a su organización para la innovación y las mejoras continuas.
 
 >[!NOTE]
@@ -245,7 +247,7 @@ Esta versión incorpora las siguientes nuevas funciones y mejoras:
 
 >[!NOTE]
 >
->Los cambios en la versión comienzan a implementarse el 30 de septiembre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
+>Estos cambios de versión comienzan el 30 de septiembre de 2025, con un despliegue gradual de cada función. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
 
 ## Notas de la versión 2025.8 {#rel-2025-8}
 
