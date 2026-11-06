@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0d7af9ad43f2fce159de48c01d7e1c6c6ae234af
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1414'
 ht-degree: 3%
 ---
 # Experiencias web
@@ -61,7 +61,7 @@ Antes de crear experiencias web, asegúrese de que se cumplen los siguientes req
 
 * Un administrador de productos ha configurado uno o más canales web para definir las direcciones URL (páginas) que se incluirán en una experiencia web. Para obtener más información, vea [Configuraciones del canal Web](../admin/configure-channels-web.md).
 
-* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
+* Su sitio web tiene [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementado para la identificación de visitantes y la entrega de contenido. Asegúrese de que la versión de Adobe Experience Platform Web SDK sea 2.16 o superior.
 
 * Tiene los [permisos](../admin/user-management.md#b2b-product-permissions) necesarios para crear y administrar experiencias web en un recorrido:
   * _[!UICONTROL Experiencias web B2B de autor]_
@@ -192,17 +192,19 @@ En Tratamiento B, seleccione la opción _[!UICONTROL Redirigir a URL]_ para la o
 
 Cuando la campaña web esté activa, puede realizar un seguimiento del rendimiento de la experiencia web definida en Journey Optimizer B2B Edition con respecto a las experiencias web que utilizan una redirección a la página alternativa.
 
-## Prueba de la experiencia web
+<!--
+## Test the web experience
 
-Una vez completado el diseño de contenido para la experiencia web, puede usar la función _Simular contenido_ para obtener una vista previa de las modificaciones en la página web. Si ha insertado contenido personalizado, puede utilizar datos de perfil de prueba para comprobar cómo se procesa el contenido. Las herramientas de simulación están disponibles en la ficha _[!UICONTROL Contenido]_ para la experiencia web o en el editor de diseño visual de contenido.
+After the content design is complete for the web experience, you can use the _Simulate content_ feature to preview your web page modifications. If you inserted personalized content, you can use test profile data to check how the content is rendered. The simulation tools are available from the _[!UICONTROL Content]_ tab for the web experience, or the content visual design editor.
 
-1. Haga clic en **[!UICONTROL Simular contenido]** en la parte superior derecha.
+1. Click **[!UICONTROL Simulate content]** at the top right.
 
-1. Seleccione un perfil de prueba.
+1. Select a test profile.
 
-1. Para comprobar la página web mediante los datos del perfil de prueba, agregue un perfil de prueba.
+1. To check your web page using the test profile data, add a test profile.
 
-<!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
+This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out
+-->
 
 ## Activación de la experiencia web
 
@@ -218,13 +220,13 @@ Para habilitar la entrega de experiencias web, se debe definir la siguiente conf
 
 * En la recopilación de datos de Adobe Experience Platform, asegúrese de que ha definido una secuencia de datos. Asegúrese de que la opción Adobe Journey Optimizer B2B Edition esté habilitada en el servicio Adobe Experience Platform.
 
-  Esta configuración garantiza que Adobe Experience Platform Edge pueda gestionar correctamente los eventos entrantes. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure)
+  Esta configuración garantiza que Adobe Experience Platform Edge pueda gestionar correctamente los eventos entrantes. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
 * En Adobe Experience Platform, asegúrese de tener una política de combinación con la opción _[!UICONTROL Política de combinación activa en Edge]_ habilitada.
 
-  Seleccione una política en el menú Cliente > Perfiles > Políticas de combinación en Experience Platform. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Seleccione una política en el menú Cliente > Perfiles > Políticas de combinación en Experience Platform. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Los canales entrantes de Journey Optimizer B2B Edition utilizan esta política de combinación para activar y publicar correctamente las experiencias web entrantes en Edge. [Más información](https://experienceleague.adobe.com/es/docs/experience-platform/profile/merge-policies/ui-guide)
+  Los canales entrantes de Journey Optimizer B2B Edition utilizan esta política de combinación para activar y publicar correctamente las experiencias web entrantes en Edge. [Más información](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Resolución de problemas
 
