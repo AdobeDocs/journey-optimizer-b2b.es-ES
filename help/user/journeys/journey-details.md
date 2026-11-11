@@ -133,7 +133,7 @@ Utilice los gráficos siguientes para revisar el estado de las personas en las t
 >
 >En los recorridos de personas, el gráfico **[!UICONTROL Estado de las personas en el recorrido]** incluye a las personas que pasaron por el recorrido, incluso si se eliminaron posteriormente. **[!UICONTROL Explorar en profundidad]** excluye a las personas eliminadas, por lo que puede mostrar menos registros que el gráfico. Se espera esta diferencia. Eliminar personas no cambia los recuentos del estado del recorrido histórico.
 
-Para el estado de _[!UICONTROL las personas en el recorrido ], haga clic en el icono_ Más_ ( **...** ) y seleccione **[!UICONTROL Obtener detalles]** para revisar los estados individuales de las personas.
+Para el estado de _[!UICONTROL las personas en el recorrido &#x200B;], haga clic en el icono_ Más_ ( **...** ) y seleccione **[!UICONTROL Obtener detalles]** para revisar los estados individuales de las personas.
 
 ## participación de recorrido {#person-journey-engagement}
 
