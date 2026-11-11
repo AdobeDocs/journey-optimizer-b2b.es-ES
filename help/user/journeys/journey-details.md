@@ -1,7 +1,7 @@
 ---
-title: Detalles de Recorrido
-description: Monitorice el rendimiento del recorrido de la cuenta con las tasas de finalización, las métricas de participación, los análisis de correo electrónico/SMS y las perspectivas de IA en Journey Optimizer B2B Edition.
-feature: Dashboards, Account Journeys
+title: Detalles del recorrido
+description: Monitorice el rendimiento del recorrido de personas y cuentas en Adobe Journey Optimizer B2B Edition. Revise las métricas de finalización, participación y canal para cada recorrido.
+feature: Dashboards, Account Journeys, Person Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
 autotag-review: 2026-03-30T23:21:08.953Z
@@ -19,51 +19,63 @@ feature_v2:
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
     internal-label: Account Journeys
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
+    internal-label: Person Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c053f91ea231cd8517e2329b7170aa08c33dc24
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '843'
 ht-degree: 0%
 ---
 # Detalles del recorrido
 
-Al hacer clic en el nombre de un recorrido de cuenta activo, se muestran los detalles del recorrido. La pestaña _[!UICONTROL Información general]_ proporciona información útil sobre el recorrido, incluidos resúmenes de IA generativos.
+En [!DNL Adobe Journey Optimizer B2B Edition], abra una cuenta publicada o un recorrido de persona y seleccione la pestaña **[!UICONTROL Información general]**. Revise el progreso, la participación y el rendimiento del canal del recorrido seleccionado.
 
-Este tablero proporciona una visión general completa de un recorrido de cuentas seleccionado, en el que se detalla el progreso de las cuentas mediante los gráficos de líneas y círculos que categorizan y cuantifican las finalizaciones, las actividades en curso y las anulaciones a lo largo del tiempo. Ayuda a los equipos de marketing a evaluar la eficacia de los canales de correo electrónico y SMS a través de las métricas clave de envío y participación. Para ver las métricas de correo electrónico agregadas en todos los recorridos, consulte el [informe de rendimiento del correo electrónico](../dashboards/email-performance-dashboard.md).
+Los recorridos de cuenta informan del progreso de las cuentas. Los recorridos de personas informan del progreso de las personas. Los widgets y las etiquetas de métricas disponibles difieren según el tipo de recorrido. Seleccione la pestaña correspondiente para ver los detalles del panel.
 
-Esta descripción general está disponible para los recorridos de cuentas publicadas y los datos tardan aproximadamente cuatro horas en empezar a rellenar los gráficos y tablas.
+Para las métricas de correo electrónico agregadas en los recorridos, usa el [informe de rendimiento de correo electrónico](../dashboards/email-performance-dashboard.md).
 
-![Acceder a los detalles del recorrido activo](./assets/journey-detail-overview.png){width="700" zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB recorridos de cuenta]
+
+El panel de recorrido de cuentas muestra el progreso de la cuenta, la participación, el rendimiento del canal y los resúmenes de IA generativos. Los datos tardan aproximadamente cuatro horas en empezar a rellenar los gráficos y tablas.
+
+![Pestaña Información general del recorrido de cuentas que muestra el progreso, la participación y el rendimiento del canal.](./assets/journey-detail-overview-account.png){width="700" zoomable="yes"}
 
 ## finalización del recorrido
 
 Esta sección presenta dos métricas de finalización:
 
-* **[!UICONTROL Estado del Recorrido]**: este gráfico circular ofrece un desglose de los estados de recorrido al categorizar las cuentas en _Completadas_, _En curso_ y _Anuladas_. Cada segmento está etiquetado con los porcentajes y números de cuenta correspondientes en el borde exterior del gráfico.
-* **[!UICONTROL Finalización de Recorridos a lo largo del tiempo]**: este gráfico de líneas realiza un seguimiento del número de cuentas que han completado su recorrido a lo largo del tiempo. El eje horizontal asigna la cronología, mientras que el eje vertical cuantifica las cuentas, lo que proporciona una vista directa de las tendencias de finalización.
+* **[!UICONTROL Estado de las cuentas en el recorrido]**: Muestra el recuento total de cuentas y un desglose por estado de recorrido, que incluye _Finalizado_, _En curso_ y _Anulado_. Cada segmento muestra un estado, un porcentaje y un recuento de cuentas.
+* **[!UICONTROL Cuentas completadas a lo largo del tiempo]**: Muestra el número de cuentas que completaron el recorrido a lo largo del tiempo. El eje horizontal muestra fechas y el eje vertical muestra recuentos de cuentas.
+
+>[!NOTE]
+>
+>En los recorridos de cuentas, el gráfico **[!UICONTROL Estado de las cuentas del recorrido]** incluye las cuentas que pasaron por el recorrido, incluso si se eliminaron posteriormente. **[!UICONTROL Explorar en profundidad]** excluye las cuentas eliminadas, por lo que puede mostrar menos registros que el gráfico. Se espera esta diferencia. La eliminación de cuentas no cambia los recuentos de estado de los recorridos históricos.
 
 ## participación de recorrido
 
 Esta sección presenta dos métricas de participación:
 
 * **[!UICONTROL Participación por cuentas]**: este gráfico circular segmenta las cuentas de un recorrido en las categorías _Participado_ y _No comprometido_. La figura central muestra el recuento total. Esta visualización proporciona una comprensión rápida de la participación general de la cuenta.
-* **Participación de personas**: esta visualización muestra el número total de personas calificadas como _comprometidas_ en un recorrido.
+* **[!UICONTROL Participación de personas]**: Muestra el número de personas con actividades de participación en el recorrido. Este valor cuenta las personas, no las actividades de participación.
 
 ## rendimiento del recorrido
 
 Esta sección presenta dos métricas vitales:
 
 * **[!UICONTROL Tasa de finalización de Recorridos]** - Porcentaje de cuentas que han completado correctamente su recorrido.
-* **[!UICONTROL duración del Recorrido]**: el tiempo promedio que tardan las cuentas en completar su recorrido.
+* **[!UICONTROL Tiempo promedio de finalización de recorridos]**: El tiempo promedio que tardaron las cuentas en completar el recorrido, mostrado en días.
 
-## Rendimiento de correo electrónico y SMS
+## Rendimiento de canal {#email-and-sms-performance}
 
-Las tablas de rendimiento proporcionan información detallada sobre la eficacia de los canales de correo electrónico y SMS. Cada tabla muestra métricas, como tasas de entrega y tasas de clics, que le ayudan a evaluar el impacto de cada punto de contacto de comunicación. Las siguientes tablas muestran las métricas de correo electrónico y SMS solo para este recorrido. Para las mismas métricas de correo electrónico en todos los recorridos, usa el [informe de rendimiento del correo electrónico](../dashboards/email-performance-dashboard.md).
+El tablero incluye **[!UICONTROL rendimiento de correo electrónico]**, **[!UICONTROL rendimiento de SMS]** y **[!UICONTROL rendimiento de WhatsApp]** tablas para el recorrido de cuenta seleccionado. Utilice las métricas de entrega y participación disponibles para evaluar cada punto de contacto de comunicación.
 
 **[!UICONTROL Rendimiento de correo electrónico]** columnas de tabla:
 
@@ -83,13 +95,13 @@ Las tablas de rendimiento proporcionan información detallada sobre la eficacia 
 To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
 -->
 
-## Interacción mejorada
+## Acciones adicionales
 
-Interactúe con los datos mediante el icono de acción (**...**) en la parte superior derecha de cada gráfico o tabla.
+Utilice el menú **...** de un gráfico o tabla para acceder a sus acciones disponibles.
 
-### Obtención de detalles
+### Explorar en profundidad
 
-Para el gráfico _[!UICONTROL estado de Recorrido]_, elija **[!UICONTROL Obtener detalles]** para un análisis detallado de los estados de las cuentas individuales.
+Para el gráfico **[!UICONTROL Estado de las cuentas en el recorrido]**, elija **[!UICONTROL Obtener detalles]** para un análisis detallado de los estados de las cuentas individuales.
 
 ![Exploración detallada de los datos del gráfico](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
@@ -102,4 +114,46 @@ Elija **[!UICONTROL Ver más]** para acceder a los datos extendidos. La ventana 
 
 ![Ver datos extendidos](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
 
-Para descargar los datos, haga clic en **[!UICONTROL Descargar CSV]** en la parte superior derecha de la tabla de datos. Para volver al panel _Información general_, haga clic en **[!UICONTROL Cerrar]**.
+Para descargar los datos, seleccione **[!UICONTROL Descargar CSV]**. Para volver al panel _[!UICONTROL Información general]_, seleccione **[!UICONTROL Cerrar]**.
+
+>[!TAB recorridos de personas]
+
+El panel de recorrido de personas muestra la finalización, la participación y el rendimiento del correo electrónico de las personas en el recorrido seleccionado.
+
+![Pestaña Información general del recorrido de personas que muestra el progreso, la participación y el rendimiento del correo electrónico.](./assets/journey-detail-overview-person.png){width="700" zoomable="yes"}
+
+## finalización del recorrido {#person-journey-completion}
+
+Utilice los gráficos siguientes para revisar el estado de las personas en las tendencias de recorrido y finalización:
+
+* **[!UICONTROL Estado de las personas en el recorrido]**: muestra el número total de personas y un desglose por estado de recorrido. Cada segmento muestra un estado, un porcentaje y un recuento de personas.
+* **[!UICONTROL Personas completadas a lo largo del tiempo]**: Muestra el número de personas que completaron el recorrido a lo largo del tiempo. La serie **[!UICONTROL Incremental completado]** muestra las finalizaciones de cada intervalo de tiempo. La serie **[!UICONTROL Acumulativa completada]** muestra el total actual de finalizaciones.
+
+>[!NOTE]
+>
+>En los recorridos de personas, el gráfico **[!UICONTROL Estado de las personas en el recorrido]** incluye a las personas que pasaron por el recorrido, incluso si se eliminaron posteriormente. **[!UICONTROL Explorar en profundidad]** excluye a las personas eliminadas, por lo que puede mostrar menos registros que el gráfico. Se espera esta diferencia. Eliminar personas no cambia los recuentos del estado del recorrido histórico.
+
+Para el estado de _[!UICONTROL las personas en el recorrido ], haga clic en el icono_ Más_ ( **...** ) y seleccione **[!UICONTROL Obtener detalles]** para revisar los estados individuales de las personas.
+
+## participación de recorrido {#person-journey-engagement}
+
+El widget **[!UICONTROL Participación de personas]** muestra el número de personas con actividades de participación en el recorrido. Este valor cuenta las personas, no las actividades de participación.
+
+## rendimiento del recorrido {#person-journey-performance}
+
+Utilice las siguientes métricas para revisar el rendimiento de finalización:
+
+* **[!UICONTROL Tasa de finalización de Recorridos]**: Porcentaje de personas que completaron el recorrido.
+* **[!UICONTROL Tiempo promedio de finalización de recorridos]**: El tiempo promedio que tardaron las personas en completar el recorrido, mostrado en días.
+
+## Rendimiento del correo electrónico {#person-journey-email-performance}
+
+La tabla **[!UICONTROL Rendimiento del correo electrónico]** muestra recuentos para cada recurso de correo electrónico en el recorrido de persona seleccionado, en lugar de tasas:
+
+* **[!UICONTROL Nombre del recurso]**: Nombre del recurso de correo electrónico
+* **[!UICONTROL Enviado]**: número de correos electrónicos enviados
+* **[!UICONTROL Entregado]**: Número de correos electrónicos entregados
+* **[!UICONTROL Abierto]**: Número de correos electrónicos abiertos
+* **[!UICONTROL Se hizo clic]**: Número de correos electrónicos en los que se hizo clic
+
+>[!ENDTABS]
