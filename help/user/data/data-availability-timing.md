@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 827c313f032d482ac2b0a5fa8f41d6506e67b9cb
+source-git-commit: 25cbdfb352740385181a68f96b0b2e6ebc3313e7
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '730'
 ht-degree: 0%
 ---
 # Disponibilidad de datos y tiempo de sincronización {#data-availability}
@@ -85,6 +85,14 @@ Los datos se mueven entre los dos sistemas en cada dirección a un ritmo diferen
 
 * **[!DNL Experience Platform]a[!DNL Journey Optimizer B2B Edition]**: los datos se sincronizan en tiempo casi real y pueden tardar hasta 30 minutos.
 * **[!DNL Journey Optimizer B2B Edition]a[!DNL Experience Platform]**: los datos se sincronizan en microlotes y pueden tardar hasta cuatro horas.
+
+## Cambios de identidad de perfil {#profile-identity-changes}
+
+Los cambios en `identityMap` de un perfil en [!DNL Adobe Experience Platform] pueden romper su asociación con un registro de persona existente en [!DNL Journey Optimizer B2B Edition]. El registro de persona anterior se marca como eliminado y ya no avanza por los recorridos ni por el procesamiento de grupos de compra.
+
+El perfil debe calificar de nuevo para una audiencia activada para [!DNL Journey Optimizer B2B Edition] y ser ingerido de nuevo. Si el registro introducido tiene un ID de persona diferente, se trata como una persona nueva. Si esa persona introduce un recorrido, comenzará desde el principio en lugar de reanudar el progreso del registro anterior.
+
+Los recuentos del estado del recorrido histórico siguen incluyendo el registro de persona eliminado. Sin embargo, **[!UICONTROL Obtener detalles]** excluye los registros eliminados, por lo que el recuento de registros puede ser inferior al recuento del gráfico. Para obtener más información, revise [informe de finalización de recorrido de persona](../journeys/journey-details.md#person-journey-completion).
 
 ## Eventos de actividad y acciones de recorrido {#activity-and-actions}
 
