@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 78d7701e30628aad4b732b2d0858953ba09e26f5
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 7%
@@ -84,7 +84,7 @@ Una prueba es un mensaje de prueba enviado que permite al usuario y a los integr
 
 1. Haga clic en **[!UICONTROL Enviar revisión]** en la parte superior derecha.
 
-   ![Haga clic en Enviar revisión](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![Haga clic en Enviar revisión](assets/email-simulate-content-preview-send-proof.png){width="600"}
 
 1. En la página _Enviar prueba_, escriba la dirección de correo electrónico del primer destinatario.
 
