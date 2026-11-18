@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Notas de la versión de Journey Optimizer B2B Edition
@@ -43,10 +43,10 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
-| Función | Listas de personas | Utilice listas de personas estáticas y dinámicas para segmentar perfiles según los criterios definidos, como atributos demográficos e historial de eventos de experiencia. |
-| Función | Recorrido de etiquetas de nodo | Añada etiquetas a los nodos de recorrido para identificarlos en el lienzo de recorrido. |
-| Mejora | Filtro Miembro de lista de personas | Utilice el filtro _[!UICONTROL Miembro de la lista de personas]_ para incluir o excluir perfiles según su pertenencia a la lista de personas. |
-| Mejora | Acciones de recorrido de lista de personas | Agregar o quitar personas de listas estáticas de personas mediante recorridos de cuenta y persona. |
+| Función | Listas de personas | Utilice listas de personas estáticas y dinámicas para segmentar perfiles según los criterios definidos, como atributos demográficos e historial de eventos de experiencia. [Más información](../audiences/people-lists.md) |
+| Función | Recorrido de etiquetas de nodo | Añada etiquetas a los nodos de recorrido para identificarlos en el lienzo de recorrido. [Más información](../journeys/create-publish-journey.md#label-a-node). |
+| Mejora | Filtros de miembros de lista de personas | Utilice los filtros _[!UICONTROL Miembro de lista de personas]_ para incluir o excluir perfiles según su pertenencia a listas de personas estáticas o dinámicas. [Más información](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Mejora | Acciones de recorrido de lista de personas | Agregar o quitar personas de listas estáticas de personas mediante recorridos de cuenta y persona. [Más información](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >Estos cambios de la versión comienzan el 6 de noviembre de 2026, con un despliegue gradual de cada función y mejora. Las fechas de lanzamiento de las funciones y mejoras están sujetas a cambios.
@@ -108,7 +108,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | ---- | ---- | ----------- |
 | Función | Páginas de aterrizaje | Las páginas de aterrizaje están disponibles en Journey Optimizer B2B Edition para admitir recorridos y programas _(anteriormente una función de programa de Beta)_. <ul><li>Los administradores pueden configurar subdominios y ajustes preestablecidos de página de aterrizaje para habilitar la publicación de páginas de aterrizaje. [Más información](../admin/configure-channels-landing-pages.md)</li><li>Los especialistas en marketing pueden crear, diseñar y publicar páginas de aterrizaje para admitir sus recorridos con contenido web personalizado. [Más información](../content/landing-pages.md)</li></ul> |
 | Función | Formularios | Journey Optimizer B2B Edition ahora admite componentes de formulario reutilizables para habilitar el envío de datos desde las páginas de aterrizaje _(anteriormente una característica del programa Beta)_. <ul><li>Los administradores pueden configurar varios ajustes preestablecidos de formulario con diferentes combinaciones de conjuntos de datos y conexiones de flujo continuo. [Más información](../admin/configure-channels-forms.md)</li><li>Los especialistas en marketing ahora pueden definir componentes de formulario reutilizables para capturar información de los visitantes de la página web. [Más información](../content/forms.md)</li></ul> |
-| Función | Filtro Lista de miembros de la lista de cuentas | Utilice la pertenencia a listas de cuentas como punto de orquestación en los recorridos de cuentas. Los especialistas en marketing pueden crear listas de bloqueados de cuentas, listas de prioridades o cualquier otro tipo de subconjunto de su audiencia y proporcionar a las cuentas experiencias únicas en recorridos según su pertenencia. |
+| Función | Filtro Lista de miembros de la lista de cuentas | Utilice la pertenencia a listas de cuentas como punto de orquestación en los recorridos de cuentas. Los especialistas en marketing pueden crear listas de bloqueados de cuentas, listas de prioridades o cualquier otro tipo de subconjunto de su audiencia y proporcionar a las cuentas experiencias únicas en recorridos según su pertenencia. [Más información](../accounts/account-lists-journeys.md#split-paths-member-of-account-list) |
 | Función | Filtrado del historial de eventos de experiencia | Esta función permite que la orquestación de recorrido B2B utilice la participación histórica para impulsar decisiones basadas en el comportamiento para los miembros de la audiencia. [Más información](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Función | Siguientes nodos de recorrido de mejor ruta | Puede optimizar la toma de decisiones de ruta dividida para los recorridos de persona, refinando la forma en que las audiencias se enrutan por las rutas antes de la activación del recorrido o durante la ejecución. [Más información](../journeys/next-best-path-node.md) |
 | Función | Panel de rendimiento de correo electrónico | El panel Rendimiento de correo electrónico proporciona a los especialistas en marketing una vista unificada de la actividad de correo electrónico en todos los recorridos de Adobe Journey Optimizer B2B Edition. [Más información](../dashboards/email-performance-dashboard.md) |

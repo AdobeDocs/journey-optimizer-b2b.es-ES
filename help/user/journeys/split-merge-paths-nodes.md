@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 4%
+source-wordcount: '3118'
+ht-degree: 3%
 ---
 # Dividir y combinar rutas {#split-paths}
 
@@ -65,10 +65,11 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por cuentas**&#x200B;_
 | Condiciones de ruta | Descripción |
 | --------------- | ----------- |
 | [!UICONTROL Atributos de cuenta] | Atributos del perfil de cuenta, incluidos: <li>Ingresos anuales <li>Ciudad <li>País <li>Cantidad de empleados <li>Industria <li>Nombre <li>Código SIC <li>Estado |
-| [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"} La cuenta tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según la configuración del [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtrado de datos personalizados](#custom-data-filtering)). |
+| [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"} La cuenta tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según la configuración del [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [_Filtrado de datos personalizados_](#custom-data-filtering)). |
 | [!UICONTROL Filtros especiales] > [!UICONTROL La cuenta ha coincidido con el grupo comprador] | La cuenta coincide con uno o más grupos compradores. Se puede evaluar con una o más de las siguientes restricciones para un grupo comprador coincidente: <li>Interés de solución <li>Fase de grupo de compra <li>Estado del grupo de compra <li>Puntaje de participación <li>Puntuación de integridad <li> Número de personas en la función de grupo de compras |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Lista de miembros de cuenta] | La cuenta es o no es miembro de una o varias de las listas de cuentas seleccionadas. (Consulte [_Nodo de rutas divididas - Miembro de cuenta de la lista de cuentas_](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)) |
 
-### Adición de una ruta dividida por nodo de cuenta
+### Adición de una ruta dividida por nodo de cuenta {#add-a-split-path-by-account-node}
 
 1. Vaya al mapa del recorrido.
 
@@ -136,6 +137,12 @@ Por ejemplo, evalúe la preparación del grupo de compra en función de la profu
 
 Para actualizar el estado del grupo o fase de compra de las cuentas identificadas, añada un nodo de acción en la ruta.
 
+### Filtrado de listas de cuentas {#account-list-filtering}
+
+Use el filtro _[!UICONTROL Filtros especiales]_ > _[!UICONTROL Lista de miembros de cuenta]_ para definir una ruta para las cuentas en función de su pertenencia a una [lista de cuentas](../accounts/account-lists.md). Establezca la pertenencia a _true_ para incluir cuentas en las listas o _false_ para excluirlas y seleccione una o más listas de cuentas. Por ejemplo, para mantener las cuentas de una lista de bloqueados fuera de la ruta, agrega el filtro, establece la pertenencia en _false_ y selecciona la lista de bloqueados.
+
+Para ver los pasos, consulte [Nodo de rutas divididas: miembro de cuenta de la lista de cuentas](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list).
+
 ## Dividir rutas por personas
 
 _(recorridos de cuenta y persona)_
@@ -159,8 +166,12 @@ _&#x200B;**Funcionamiento de un nodo de ruta dividida por personas**&#x200B;_
 | [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"}: la persona tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según la configuración del [esquema relacional XDM](../admin/xdm-field-management.md#relational-schemas). (Consulte [Filtrado de datos personalizados](#custom-data-filtering)) |
 | [!UICONTROL Historial de eventos] | Divide a las personas en función de los eventos de experiencia que se produjeron antes de la entrada en el recorrido. Amplíe la carpeta para ver todos los tipos de eventos configurados en [Administración > Configuración de eventos XDM](../admin/configure-aep-events.md) y seleccione uno para agregarlo como filtro. Las restricciones incluyen campos del evento seleccionado, una ventana de tiempo retrospectiva medida desde el momento en que la persona entra en el recorrido y un número mínimo de veces opcional. |
 | [!UICONTROL Atributos de persona] | Atributos del [perfil de persona](../admin/field-mapping.md#xdm-business-person-attributes), entre ellos: <li>Ciudad <li>País <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de personas <li>Número de teléfono <li>Código postal <li>Estado |
-| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Se ha eliminado (predeterminado: `false`)</li><li>Función</li> (Consulte [Filtrado de suscripciones](#membership-filtering)) |
-| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro de audiencia de perfil] | La persona es o no miembro de una o más [!DNL Adobe Experience Platform] audiencias de perfil. (Consulte [Filtrado de suscripciones](#membership-filtering)) |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro del grupo comprador] | La persona es o no un miembro del grupo comprador evaluado según uno o más de los siguientes criterios: <li>Interés de solución</li><li>Estado del grupo de compra</li><li>Puntuación de integridad</li><li>Puntaje de participación</li><li>Se ha eliminado (predeterminado: `false`)</li><li>Función</li> (Consulte [_Filtrado de suscripciones_](#membership-filtering)) |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro de audiencia de perfil] | La persona es o no miembro de una o más [!DNL Adobe Experience Platform] audiencias de perfil. (Consulte [_Filtrado de suscripciones_](#membership-filtering)) |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Lista dinámica de miembros de persona de la cuenta] | (Solo recorridos de persona) La cuenta de la persona es o no miembro de una o más listas de cuentas dinámicas. (Ver [_lista de miembros de la cuenta_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)) |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Lista estática de miembros de persona de la cuenta] | (Solo recorridos de persona) La cuenta de la persona es o no miembro de una o más listas de cuentas estáticas. (Ver [_lista de miembros de la cuenta_](../accounts/account-lists-journeys.md#split-paths-member-of-account-list)) |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Miembro de persona de la lista dinámica de personas] | La persona es o no miembro de una o más listas dinámicas de personas. (Consulte [_Filtrado de suscripciones_](#membership-filtering)) |
+| [!UICONTROL Filtros especiales] > [!UICONTROL Lista estática de miembros de persona] | La persona es o no miembro de una o más listas de personas estáticas. (Consulte [_Filtrado de suscripciones_](#membership-filtering)) |
 
 ### Condiciones de ruta de persona-cuenta
 
@@ -251,10 +262,14 @@ En la sección _[!UICONTROL Filtros especiales]_, use los siguientes filtros par
 
 * _[!UICONTROL Miembro del grupo comprador]_: evalúa si la persona es miembro de un grupo comprador.
 * _[!UICONTROL Miembro de audiencia de perfil]_: evalúa si la persona es miembro de una audiencia de perfil [!DNL Adobe Experience Platform].
+* _[!UICONTROL Lista dinámica de miembros de persona de la cuenta]_ - (solo recorridos de persona) Evalúa si la cuenta de la persona es miembro de una lista dinámica de cuentas. (Ver [Usar listas de cuentas en recorrido](../accounts/account-lists-journeys.md#split-paths-member-of-account-list))
+* _[!UICONTROL Lista estática de miembros de persona de la cuenta]_ - (solo recorridos de persona) Se evalúa si la cuenta de la persona es miembro de una lista estática de cuentas. (Ver [Usar listas de cuentas en recorrido](../accounts/account-lists-journeys.md#split-paths-member-of-account-list))
+* _[!UICONTROL Lista dinámica de miembros de persona de personas]_: evalúa si la persona es miembro de una lista dinámica de personas.
+* _[!UICONTROL Miembro de persona de la lista estática Personas]_ - Evalúa si la persona es miembro de una lista estática de personas.
 
-Para agregar un filtro de pertenencia, arrástrelo desde la carpeta _[!UICONTROL Filtros especiales]_ al área de trabajo de condiciones y establezca la pertenencia en _true_ para incluir miembros o _false_ para excluirlos. Puede combinar ambos filtros en la misma condición de ruta y usar la **[!UICONTROL lógica de filtro]** para que coincidan con alguno o todos ellos.
+Para agregar un filtro de pertenencia, arrástrelo desde la carpeta _[!UICONTROL Filtros especiales]_ al área de trabajo de condiciones y complete la definición de coincidencia para incluir o excluir miembros. Según el filtro, selecciona _true_ o _false_, o elige _is_ o _is not_. Puede combinar estos filtros en la misma condición de ruta y usar la **[!UICONTROL lógica de filtro]** para que coincidan con alguno o todos ellos.
 
-Estos filtros también están disponibles cuando [agrega filtros para un evento](./listen-for-event-nodes.md#membership-filtering) en un nodo _Escuchar un evento_.
+Los filtros _[!UICONTROL Miembro del grupo comprador]_ y _[!UICONTROL Miembro de la audiencia del perfil]_ también están disponibles cuando [agrega filtros para un evento](./listen-for-event-nodes.md#membership-filtering) en un nodo _Escuchar un evento_.
 
 ![Condición de división de ruta por personas para comprar miembros de grupos y perfiles](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
 
@@ -289,6 +304,20 @@ Utilice la restricción _[!UICONTROL Audiencia de perfil]_ para seleccionar una 
 >[!NOTE]
 >
 >El filtro no calcula la pertenencia de la audiencia a tiempo real. Califica a las personas en función de su pertenencia a la audiencia seleccionada a partir de la última ingesta de audiencia por lotes. Solo se pueden evaluar las audiencias que se han introducido en [!DNL Journey Optimizer B2B Edition].
+
+**Listas de miembros de cuenta**
+
+_(solo recorridos de persona)_
+
+Use los filtros _[!UICONTROL Miembro de persona de la lista estática de la cuenta]_ y _[!UICONTROL Miembro de persona de la lista dinámica de la cuenta]_ para enrutar a las personas en función de si su cuenta es miembro de una [lista de cuentas](../accounts/account-lists.md). Establezca el operador en _is_ para incluir a las personas cuya cuenta está en las listas o _no es_ para excluirlas y seleccione una o más listas de cuentas. Por ejemplo, para mantener a las personas en cuentas incluidas en la lista de bloqueados fuera de una ruta de acceso de referencia, agregue el filtro _[!UICONTROL Lista estática de miembros de la cuenta]_, establezca el operador en _no es_ y seleccione su lista de bloqueados.
+
+Para ver los pasos, consulte [Nodo de rutas divididas: miembro de persona de la lista de cuentas](../accounts/account-lists-journeys.md#split-paths-member-of-account-list).
+
+**Listas de miembros de personas**
+
+Utilice los filtros _[!UICONTROL Miembro de persona de la lista estática Personas]_ y _[!UICONTROL Miembro de persona de la lista dinámica Personas]_ para enrutar a las personas según su pertenencia a una [lista de personas](../audiences/people-lists.md). Establezca el operador en _is_ para incluir miembros de la lista o _is not_ para excluirlos y seleccione una o más listas. Por ejemplo, para mantener a los empleados y socios fuera de la ruta de acceso de crianza, agregue el filtro _[!UICONTROL Lista estática de miembros de persona de personas]_, establezca el operador en _no es_ y seleccione la lista de exclusión.
+
+Para ver los pasos, consulte [Dividir rutas según la pertenencia a listas de personas](../audiences/people-lists-journeys.md#split-paths-by-list-membership).
 
 ## Filtrado de datos personalizado {#custom-data-filtering}
 

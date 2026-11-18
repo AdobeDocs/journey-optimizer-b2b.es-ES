@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2358'
 ht-degree: 3%
 ---
 # Iniciar una acción
@@ -129,10 +129,13 @@ En un recorrido de cuenta o persona, utilice una acción para las personas cuand
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Agregar persona a (otro) recorrido] | <li>Recorrido de cuenta (acción en personas) <li>Recorrido de la persona | <li>Seleccionar recorrido de persona en directo |
 | | [!UICONTROL Agregar a la audiencia de cliente externa] | <li>Recorrido de cuenta <li>Recorrido de la persona | <li>Seleccionar el público externo del cliente |
+| | [!UICONTROL Agregar a la lista de personas] | <li>Recorrido de cuenta (acción en personas) <li>Recorrido de la persona | <li>Seleccionar lista de personas estáticas |
 | | [!UICONTROL Asignar a grupo de compra] | <li>Recorrido de cuenta | <li>Seleccionar interés de la solución <li>Seleccionar función |
 | | [!UICONTROL Momento interesante para la persona] | <li>Recorrido de cuenta <li>Recorrido de la persona | <li>Tipo <li>Descripción |
 | | [!UICONTROL Personalizar experiencia web] (Beta) | <li>Recorrido de cuenta | <li>Crear/editar experiencia web |
 | | [!UICONTROL Quitar del grupo de compra] | <li>Recorrido de cuenta | <li>Seleccionar interés de la solución |
+| | [!UICONTROL Quitar de la lista de personas] | <li>Recorrido de cuenta (acción en personas) <li>Recorrido de la persona | <li>Seleccionar lista de personas estáticas |
+| | [!UICONTROL Quitar persona del Recorrido] | <li>Recorrido de la persona | <li>Seleccionar recorrido de la persona |
 | | [!UICONTROL Enviar correo electrónico] | <li>Recorrido de cuenta <li>Recorrido de la persona | <li>Crear correo electrónico <li>Optimización del tiempo de envío (opcional, solo recorrido de persona) |
 | | [!UICONTROL Enviar SMS] | <li>Recorrido de cuenta | <li>Creación de un SMS |
 | | [!UICONTROL Enviar WhatsApp] | <li>Recorrido de cuenta | <li>Crear mensaje de WhatsApp |
@@ -216,6 +219,16 @@ _Para usar una audiencia existente :_
 
 +++
 
++++[!UICONTROL Agregar a la lista de personas]
+
+Utilice esta acción para agregar personas a una [lista de personas](../audiences/people-lists.md) estática. Cuando una persona llega al nodo de acción, el sistema la añade como miembro de la lista seleccionada. Si la persona ya es miembro, la acción se ignorará.
+
+Haga clic en **[!UICONTROL Seleccionar]** para elegir una lista de personas estáticas, o haga clic en **[!UICONTROL Crear]** para crear una nueva lista de personas estáticas. Para obtener más información, consulte [Usar listas de personas en recorridos](../audiences/people-lists-journeys.md).
+
+![Realizar una acción - Agregar a la lista de personas](./assets/node-action-add-to-people-list.png){width="300"}
+
++++
+
 +++[!UICONTROL Asignar a grupo de compra]
 
 Utilice esta acción para agregar perfiles de personas a un [grupo de compra](../buying-groups/buying-groups-overview.md) según el rol y el interés de una solución seleccionados.
@@ -245,6 +258,16 @@ Use esta acción para [crear experiencias personalizadas](../content/web-experie
 Utilice esta acción para quitar perfiles de personas de un [grupo de compra](../buying-groups/buying-groups-overview.md) según el interés de una solución seleccionada.
 
 ![Realizar una acción: eliminar del grupo de compra](./assets/node-action-remove-from-buying-group.png){width="300"}
+
++++
+
++++[!UICONTROL Quitar de la lista de personas]
+
+Utilice esta acción para quitar personas de una [lista de personas](../audiences/people-lists.md) estática. Cuando una persona llega al nodo de acción, el sistema la elimina de la lista seleccionada. Si la persona no es miembro, la acción se ignorará.
+
+Haga clic en **[!UICONTROL Seleccionar]** para elegir la lista de personas estáticas. Para obtener más información, consulte [Usar listas de personas en recorridos](../audiences/people-lists-journeys.md).
+
+![Realizar una acción: eliminar de la lista de personas](./assets/node-action-remove-from-people-list.png){width="300"}
 
 +++
 

@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '914'
 ht-degree: 0%
 ---
 # Uso de listas de cuentas en recorrido
@@ -89,3 +89,70 @@ Por ejemplo, tiene una ruta de recorrido por la que envía un correo electrónic
 1. Para **[!UICONTROL Seleccionar lista de cuentas estáticas activas]**, elija la lista de cuentas a la que desea quitar cuentas.
 
    ![Seleccionar Eliminar de la lista de cuentas](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
+
+## Nodo de rutas divididas: miembro de cuenta de la lista de cuentas {#split-paths-account-member-of-account-list}
+
+**_Solo recorridos de cuenta_**
+
+Use el filtro _[!UICONTROL Account Member of Account List]_ en un nodo [_Split paths_](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node) que se divide por cuentas. La cuenta es o no es miembro de una o varias de las listas de cuentas seleccionadas. Para incluir cuentas en las listas, establezca la pertenencia en `true` o en `false` para excluirlas.
+
+Para excluir cuentas de una lista de bloqueados, agregue el filtro _[!UICONTROL Account Member of Account List]_, establezca la pertenencia a `false` y seleccione la lista.
+
+1. Vaya al mapa del recorrido.
+
+1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **[!UICONTROL Dividir rutas]**.
+
+1. En las propiedades del nodo a la derecha, elija **[!UICONTROL Cuentas]** para la división.
+
+1. Para definir una condición para _[!UICONTROL Ruta 1]_, haga clic en **[!UICONTROL Aplicar condición]**.
+
+1. Defina el filtro de lista de cuentas.
+
+   * En el editor de condiciones, expanda la carpeta _[!UICONTROL Filtros especiales]_ y arrastre el filtro **[!UICONTROL Lista de miembros de cuenta]** al área de trabajo de condiciones.
+
+   * Para incluir cuentas en las listas, establezca la pertenencia en `true` o en `false` para excluirlas.
+
+   * Seleccione una o varias listas de cuentas.
+
+   ![Editor de condiciones de ruta de acceso dividida con el filtro Account Member of Account List](./assets/account-lists-journeys-split-path-account-filter.png){width="700" zoomable="yes"}
+
+   Puede combinar el filtro de pertenencia a una lista de cuentas con otros filtros de cuentas y elegir hacer coincidir todas las condiciones o cualquier condición. Refine las condiciones aplicando la **[!UICONTROL lógica de filtro]** en la parte superior.
+
+1. Haga clic en **[!UICONTROL Finalizado]**.
+
+Continúe configurando el nodo de ruta de acceso dividida como se describe en [Agregar una ruta de acceso dividida por nodo de cuenta](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-account-node).
+
+## Nodo de rutas divididas: persona miembro de la lista de cuentas {#split-paths-member-of-account-list}
+
+**_Solo recorridos de personas_**
+
+Use los filtros de pertenencia a listas de cuentas en un nodo [_Split paths_](../journeys/split-merge-paths-nodes.md) de un recorrido de persona para enrutar a las personas en función de si su cuenta es miembro de una lista de cuentas. Hay dos filtros disponibles:
+
+| Filtro | Descripción |
+| ------ | ----------- |
+| [!UICONTROL Lista dinámica de miembros de persona de la cuenta] | La cuenta de la persona es o no miembro de una o más listas de cuentas dinámicas. |
+| [!UICONTROL Lista estática de miembros de persona de la cuenta] | La cuenta de la persona es o no miembro de una o más listas de cuentas estáticas. |
+
+Para excluir a personas de cuentas incluidas en la lista de bloqueados de una ruta de acceso de referencia, agregue el filtro _[!UICONTROL Person Member of Account Static List]_, establezca el operador en `is not` y seleccione la lista.
+
+1. Vaya al mapa del recorrido.
+
+1. Haga clic en el icono de signo más ( **+** ) en una ruta y elija **[!UICONTROL Dividir rutas]**.
+
+1. Para definir una condición para _[!UICONTROL Ruta 1]_, haga clic en **[!UICONTROL Aplicar condición]**.
+
+1. Definición del filtro de lista de cuentas
+
+   * En el editor de condiciones, expanda la carpeta _[!UICONTROL Filtros especiales]_ y arrastre el filtro **[!UICONTROL Miembro de persona de la lista dinámica de la cuenta]** o **[!UICONTROL Miembro de persona de la lista estática de la cuenta]** al área de trabajo de condiciones.
+
+   * Para incluir a personas cuya cuenta está en la lista, establezca el operador en `is` o en `is not` para excluirlas.
+
+   * Seleccione una o varias listas de cuentas.
+
+     ![Dividir editor de condiciones de ruta con filtros de lista de miembros de persona de cuenta](./assets/account-lists-journeys-split-path-person-member-account-filter.png){width="700" zoomable="yes"}
+
+   Puede combinar los filtros de pertenencia a listas de cuentas con otros filtros de personas y elegir hacer coincidir todas las condiciones o cualquier condición. Refine las condiciones aplicando la **[!UICONTROL lógica de filtro]** en la parte superior.
+
+1. Haga clic en **[!UICONTROL Finalizado]**.
+
+Continúe configurando el nodo de ruta de acceso dividida como se describe en [Agregar una ruta de acceso dividida por nodo de personas](../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node).
