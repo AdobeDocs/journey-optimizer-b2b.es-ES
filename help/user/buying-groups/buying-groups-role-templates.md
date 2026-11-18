@@ -18,9 +18,9 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1454'
 ht-degree: 5%
 ---
 # Plantillas de función del grupo de compras
@@ -102,8 +102,8 @@ Cada rol que defina para la plantilla utiliza un conjunto de filtros o _condicio
 | ---- | --------- |
 | [!UICONTROL Atributos de persona] | Atributos del [perfil de persona](../admin/field-mapping.md#xdm-business-person-attributes), entre ellos: <li>Ciudad <li>País <li>Dirección de correo electrónico <li>Email no válido <li>Email suspendido <li>Nombre <li>Región del estado inferida <li>Cargo <li>Apellido <li>Número de teléfono móvil <li>Puntuación de participación de personas <li>Número de teléfono <li>Código postal <li>Estado |
 | [!UICONTROL Objetos Personalizados] > Tiene `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Función Beta"}: la cuenta o la persona tiene o no registros de esquema relacional. También se puede evaluar según cualquiera de los criterios de objeto personalizados seleccionados, según se han configurado en los [esquemas relacionales XDM](../admin/xdm-field-management.md#relational-schemas). |
-| Filtros especiales | <li>Miembro de la lista (obsoleto) <li>Miembro del programa (obsoleto) |
 | Datos de intención | <li>Intento de categoría <li>Intención del producto <li>Intento de palabra clave <br/> (consulte [_Datos de intención_](../admin/intent-data.md)) |
+| Filtros especiales | <li>[!UICONTROL Tiene una relación de cuenta] <li>[!UICONTROL Miembro del grupo de compra] <li>[!UICONTROL Miembro de la lista] (obsoleto) <li>[!UICONTROL Miembro de audiencia de perfil] <li>[!UICONTROL Miembro de persona de la lista dinámica de personas] <li>[!UICONTROL Lista estática de miembros de persona de personas] |
 
 #### Definir propiedades de rol
 
@@ -173,7 +173,7 @@ Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener
 
 1. En el cuadro de diálogo, cambie el valor **[!UICONTROL Miembros necesarios]** para cada rol definido según sea necesario.
 
-   Puede escribir el valor o hacer clic en **&plus;** o **−** para aumentarlo o reducirlo.
+   Puede escribir el valor o hacer clic en **&amp;plus;** o **−** para aumentarlo o reducirlo.
 
    ![Cuadro de diálogo de configuración de puntuación de integridad de plantilla de roles](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -225,4 +225,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo resumen {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
