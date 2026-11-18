@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 262e06bce2cf9698731eda2cb0a3436c5080fddf
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 26%
+source-wordcount: '1103'
+ht-degree: 23%
 ---
 # Documentación de Adobe Journey Optimizer B2B Edition
 
@@ -27,6 +27,18 @@ Revise este ejemplo de las últimas adiciones y mejoras en la aplicación y docu
 
 >[!BEGINTABS]
 
+>[!TAB Listas de personas]
+
+Cree listas de personas estáticas y dinámicas reutilizables para segmentar perfiles mediante atributos demográficos e historial de eventos de experiencia. Utilice la pertenencia a listas para dirigir a las personas a través de recorridos de cuenta y persona. Utilice acciones de recorrido para agregar o quitar personas de listas estáticas.
+
+[!BADGE Más información]{type=Informative url="/help/user/audiences/people-lists.md" tooltip="Más información sobre las listas de personas"}
+
+>[!TAB etiquetas de nodo de Recorrido]
+
+Añada etiquetas de visualización a los nodos en los recorridos de cuenta y persona para distinguir pasos similares y aclarar su propósito en el lienzo de recorrido.
+
+[!BADGE Más información]{type=Informative url="/help/user/journeys/create-publish-journey.md#label-a-node" tooltip="Obtenga información sobre las etiquetas de nodos de recorrido"}
+
 >[!TAB recorridos de personas]
 
 Orqueste marketing basado en posibles clientes con recorridos de persona, que utilizan audiencias y datos de [!DNL Adobe Experience Platform] para atraer a personas individuales. Los recorridos de personas ahora admiten _Escuchar un evento_, acciones externas, nodos de rutas divididas externas y reentrada de recorrido. Utilícelos junto con los recorridos de la cuenta y los grupos de compra para organizar el recorrido completo de compra.
@@ -38,18 +50,6 @@ Orqueste marketing basado en posibles clientes con recorridos de persona, que ut
 Pruebe las variaciones dentro de un recorrido de cuenta o persona asignando cuentas o personas a diferentes rutas de recorrido en función de los porcentajes definidos. En los recorridos de las personas, la asignación es determinista, por lo que cada persona siempre sigue el mismo camino, lo que permite realizar experimentos controlados.
 
 [!BADGE Más información]{type=Informative url="/help/user/journeys/variant-split-paths-nodes.md" tooltip="Obtenga información sobre las rutas divididas de variante"}
-
->[!TAB Canal de WhatsApp]
-
-Cuando los desarrolladores y los administradores de productos configuran una integración con una cuenta de Meta Business Manager, los especialistas en marketing pueden incluir mensajes de WhatsApp como un canal de contenido en los recorridos de cuenta mediante la API de Meta Cloud. WhatsApp se une al correo electrónico y los SMS como un canal disponible para enviar contenido de recorrido directamente a los miembros de la cuenta.
-
-[!BADGE Más información]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Más información sobre el canal de WhatsApp"}
-
->[!TAB Modelos de IA generativa]
-
-Los diseñadores de correo electrónico ahora pueden seleccionar entre modelos estándar de [!DNL Firefly], modelos personalizados de [!DNL Firefly] formados en recursos específicos de marca y modelos de imagen de terceros aprobados al generar imágenes para contenido de correo electrónico. Esta selección proporciona a los equipos control sobre qué modelo se adapta a su escenario de diseño específico, desde las necesidades de contenido general hasta los casos de uso especializados o de marca.
-
-[!BADGE Más información]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Obtenga información acerca de la selección de modelos de IA generativa"}
 
 >[!TAB Optimización del tiempo de envío]
 
@@ -69,7 +69,7 @@ Ahora puede enviar cuentas o personas a través de un recorrido de cuenta o pers
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Últimas notas de la versión
 
@@ -79,18 +79,19 @@ Manténgase al día con las últimas notas de la versión, las nuevas caracterí
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introducción
 
 Revise la guía de incorporación de [!DNL Journey Optimizer B2B Edition] para administradores y especialistas en marketing.
 
-[Administradores](./setup-ultimate.md)
-[Usuarios](./start/get-started.md)
+[Lista de comprobación para administradores](./setup-ultimate.md)
+
+[Incorporación para usuarios](./start/get-started.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Administrar sus datos
 
@@ -103,7 +104,7 @@ Active los esquemas XDM y los campos que desee utilizar en [!DNL Adobe Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canales de comunicación
 
@@ -115,30 +116,33 @@ Configure y administre correo electrónico, SMS, WhatsApp y otros canales para i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Creación de un recorrido
 
 Diseñe, organice, administre y optimice recorridos personalizados de cuenta y persona.
 
 [Explorar Recorridos](./journeys/journeys-overview.md)
+[Usar listas de cuentas en recorrido](./accounts/account-lists-journeys.md)
+[Usar listas de personas en los recorridos](./audiences/people-lists-journeys.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Comprender la compra de grupos
 
 Directrices detalladas sobre la creación, gestión y optimización de grupos de compra para una segmentación eficaz.
 
-[Más información sobre la compra de grupos](./buying-groups/buying-groups-overview.md)
+[Comprar grupos](./buying-groups/buying-groups-overview.md)
+[Crear grupos de compra](./buying-groups/buying-groups-create.md)
 :::
 
 ::::
 
 <!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=es)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -167,8 +171,8 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
       <strong>Grupos de compras</strong><br/><a href="./buying-groups/buying-groups-overview.md">Información general de los grupos de compra</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Plantillas de funciones</a><br/><a href="./buying-groups/solution-interests.md">Intereses de la solución</a><br/><a href="./buying-groups/buying-groups-create.md">Crear grupos de compras</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Recorridos de la cuenta"><br/>
-      <strong>Recorridos de cuenta</strong><br/><a href="./journeys/journeys-overview.md">Información general de recorridos</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Crear un recorrido de cuenta</a><br/><a href="./journeys/journey-nodes.md">Nodos de recorrido</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Recorridos"><br/>
+      <strong>Recorridos</strong><br/><a href="./journeys/journeys-overview.md">Información general de Recorridos</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Crear una cuenta o recorrido de persona</a><br/><a href="./journeys/journey-nodes.md">nodos de Recorrido</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -184,8 +188,7 @@ Obtenga información acerca de los componentes de un grupo de compras y los conc
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Información y paneles de control"><br/>
       <strong>Información</strong><br/><a href="./dashboards/intelligent-dashboard.md">Panel inteligente</a><br/><a href="./dashboards/engagement-dashboard.md">Panel de participación</a><br/><a href="./dashboards/buying-groups-dashboard.md">Panel de grupos de compras</a><br/><a href="./dashboards/journeys-dashboard.md">Panel de Recorridos</a><br/><a href="./buying-groups/incrm-insights.md">Información en CRM</a>
     </td>
-
-</tr>
+   </tr>
 </table>
 
 >[!BEGINSHADEBOX]
@@ -202,10 +205,10 @@ Para obtener más información, consulte la [documentación de Marketo Qualifier
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=es" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Vídeos y tutoriales</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es" target="_blank">Descripción del producto</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/home" target="_blank">Documentación</a> - <a href="https://business.adobe.com/es/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
+<a href="https://experienceleague.adobe.com/es/docs/experience-platform/landing/home" target="_blank">Documentación</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Recursos para desarrolladores</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/es/docs/experience-platform/rtcdp/home" target="_blank">Documentación</a> - <a href="https://experienceleague.adobe.com/es/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutoriales para desarrolladores</a>
