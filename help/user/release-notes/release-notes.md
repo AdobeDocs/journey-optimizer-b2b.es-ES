@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5899'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Notas de la versión de Journey Optimizer B2B Edition
@@ -35,7 +35,7 @@ Adobe Journey Optimizer B2B Edition ofrece continuamente correcciones de errores
 
 Journey Optimizer B2B Edition está desarrollado de forma nativa sobre [!DNL Adobe Experience Platform] y hereda de él sus últimas innovaciones y mejoras. Obtenga más información sobre estos cambios en las [Notas de la versión de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
+Revise la [descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html?lang=es){target="_blank"} para obtener información sobre los derechos, las protecciones del rendimiento y las limitaciones.
 
 ## Notas de la versión 2026.10 {#rel-2026-10}
 
@@ -44,7 +44,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Tipo | Elemento | Descripción |
 | ---- | ---- | ----------- |
 | Función | Listas de personas | Utilice listas de personas estáticas y dinámicas para segmentar perfiles según los criterios definidos, como atributos demográficos e historial de eventos de experiencia. [Más información](../audiences/people-lists.md) |
-| Función | Recorrido de etiquetas de nodo | Añada etiquetas a los nodos de recorrido para identificarlos en el lienzo de recorrido. |
+| Función | Recorrido de etiquetas de nodo | Añada etiquetas a los nodos de recorrido para identificarlos en el lienzo de recorrido. [Más información](../journeys/create-publish-journey.md#label-a-node). |
 | Mejora | Filtros de miembros de lista de personas | Utilice los filtros _[!UICONTROL Miembro de lista de personas]_ para incluir o excluir perfiles según su pertenencia a listas de personas estáticas o dinámicas. [Más información](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Mejora | Acciones de recorrido de lista de personas | Agregar o quitar personas de listas estáticas de personas mediante recorridos de cuenta y persona. [Más información](../journeys/action-nodes.md#people-actions) |
 
