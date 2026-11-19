@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1373'
 ht-degree: 2%
 ---
 # Creación de mensajes de correo electrónico
@@ -39,7 +39,7 @@ Después de [agregar un recurso de correo electrónico a un nodo de acción de r
 
 Haga clic en **[!UICONTROL Editar contenido del correo electrónico]** en la ficha _[!UICONTROL Detalles]_ del panel derecho.
 
-![Haga clic en Editar contenido de correo electrónico &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Haga clic en Editar contenido de correo electrónico ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Esta acción inicia las herramientas de diseño de correo electrónico, donde puede elegir cómo desea diseñar el correo electrónico entre las siguientes opciones:
 
@@ -102,6 +102,10 @@ Puede personalizar el contenido importado según sea necesario con las herramien
 >[!NOTE]
 >
 > Las plantillas guardadas pueden tener configuraciones de gobernanza (bloqueo de contenido) aplicadas a uno o varios componentes. El espacio de diseño visual proporciona directrices sobre los componentes bloqueados cuando [crea un correo electrónico a partir de una plantilla controlada](./email-authoring-governance.md).
+
+## Añadir módulos
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Añadir estructura y contenido {#structure-content}
 

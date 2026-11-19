@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 3%
 ---
 # Creación de plantilla de correo electrónico
 
-Después de [crear una plantilla de correo electrónico](./email-templates.md#create-an-email-template), use el espacio de diseño visual para crear los componentes estructurales y de contenido en la plantilla de correo electrónico.
+Después de [crear una plantilla de correo electrónico](./email-templates.md#create-an-email-template), use el espacio de diseño visual para definir el diseño y el contenido de la plantilla de correo electrónico.
+
+## Añadir módulos
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Añadir estructura y contenido {#structure-content}
 
