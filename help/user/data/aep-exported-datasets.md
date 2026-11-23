@@ -23,9 +23,9 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
 autotag-review: '2026-09-29T00:00:00.000Z'
-source-git-commit: 801025ee02617d56fc8ab933b59385bca38f5097
+source-git-commit: ddeb4c1a777efa3449470a32784065a14eb6e7d1
 workflow-type: tm+mt
-source-wordcount: '4845'
+source-wordcount: '4862'
 ht-degree: 7%
 ---
 
@@ -388,6 +388,12 @@ Cada registro describe un evento web, de correo electrónico u otra actividad co
 
 ### Cancelar suscripción de correo electrónico (`directMarketing.emailUnsubscribed`)
 
+Los eventos de cancelación de suscripción de correo electrónico se originan en [!DNL Adobe Marketo Engage] y se importan en [!DNL Journey Optimizer B2B Edition].
+
+>[!NOTE]
+>
+>Para este evento, `_experience.journeyOrchestration.stepEvents.journeyID` y `_experience.journeyOrchestration.stepEvents.nodeID` siempre están vacíos.
+
 | Nombre del campo | Relación | Lo que te dice |
 |------------|-------------|-------------|
 | `_id` | Identificación de registro | Identificador de actividad. |
@@ -404,8 +410,8 @@ Cada registro describe un evento web, de correo electrónico u otra actividad co
 | `directMarketing.mailingKey.sourceKey` |  | Identificador completo del contenido del correo electrónico. |
 | `directMarketing.mailingName` |  | Nombre de correo. |
 | `directMarketing.email` |  | Correo electrónico. |
-| `_experience.journeyOrchestration.stepEvents.journeyID` | Coincide con `AJOB2B-1_5_4-person_journey` (`_id`) | id de recorrido (si se atribuye). |
-| `_experience.journeyOrchestration.stepEvents.nodeID` | Coincide con `AJOB2B-1_5_4-person_journey_node` (`_id`) | id del nodo de recorrido (si se atribuye). |
+| `_experience.journeyOrchestration.stepEvents.journeyID` |  | Siempre vacío para los eventos de cancelación de suscripción de correo electrónico. |
+| `_experience.journeyOrchestration.stepEvents.nodeID` |  | Siempre vacío para los eventos de cancelación de suscripción de correo electrónico. |
 
 ### Correo electrónico abierto (`directMarketing.emailOpened`)
 
