@@ -28,7 +28,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 876251dd1b69fc768c790daf0b9b1482015d69af
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -90,4 +90,4 @@ Puede configurar la optimización del tiempo de envío al [agregar un nodo _[!UI
 
 ## Perspectivas de STO
 
-Las perspectivas de STO se entregan a través del _[!DNL Coworker]chat_ usando las [_habilidades de observabilidad de recorrido_](../agents/journey-agent.md#journey-observability-skills). Puede consultar el uso, las métricas de participación, los resultados de pruebas/control, el rendimiento del nodo y el impacto general en los recorridos.
+Las perspectivas de STO se entregan a través del _[!DNL Coworker]chat_ usando las [_habilidades de observabilidad de recorrido_](../agents/journey-skills.md#journey-observability-skills). Puede consultar el uso, las métricas de participación, los resultados de pruebas/control, el rendimiento del nodo y el impacto general en los recorridos.

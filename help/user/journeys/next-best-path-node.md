@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 8d51e62165a40322efc45af87bbdfcd56e8eefb9
+source-git-commit: 876251dd1b69fc768c790daf0b9b1482015d69af
 workflow-type: tm+mt
 source-wordcount: '1911'
 ht-degree: 0%
@@ -331,4 +331,4 @@ Para un recorrido publicado, abra el mapa del recorrido y seleccione el siguient
 * La puntuación de confianza para cada asignación de ruta
 * Razonamiento a nivel de ruta y de perfil, con detalles ampliables para perfiles individuales
 
-Los resultados en vivo también están disponibles para la Consola de Recorrido y a través de las [habilidades de observación de Recorrido](../agents/journey-agent.md#journey-observability-skills) en el chat de [!DNL Coworker].
+Los resultados en vivo también están disponibles para la Consola de Recorrido y a través de las [habilidades de observación de Recorrido](../agents/journey-skills.md#journey-observability-skills) en el chat de [!DNL Coworker].

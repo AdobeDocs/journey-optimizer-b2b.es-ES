@@ -18,7 +18,7 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 5%
@@ -33,7 +33,7 @@ En un mercado B2B, varias personas suelen tomar decisiones de compra. Esas perso
 
 ## Aptitudes de audiencia
 
-Use [aptitudes de audiencia para personas y cuentas B2B](../agents/audience-agent-b2b.md) para generar una plantilla de rol de grupo de compra a partir de la detección de intención de origen y la asignación de personas. En el flujo guiado, puede identificar personas vinculadas a un producto, revisar las asignaciones de funciones a personas recomendadas por IA y refinar la plantilla con lenguaje natural antes de publicarla.
+Use [aptitudes de audiencia para personas y cuentas B2B](../agents/audience-skills-b2b.md) para generar una plantilla de rol de grupo de compra a partir de la detección de intención de origen y la asignación de personas. En el flujo guiado, puede identificar personas vinculadas a un producto, revisar las asignaciones de funciones a personas recomendadas por IA y refinar la plantilla con lenguaje natural antes de publicarla.
 
 **Indicadores para intentarlo:**
 
@@ -173,7 +173,7 @@ Consulte las [Puntuaciones de integridad](./completeness-scores.md) para obtener
 
 1. En el cuadro de diálogo, cambie el valor **[!UICONTROL Miembros necesarios]** para cada rol definido según sea necesario.
 
-   Puede escribir el valor o hacer clic en **&plus;** o **−** para aumentarlo o reducirlo.
+   Puede escribir el valor o hacer clic en **&amp;plus;** o **−** para aumentarlo o reducirlo.
 
    ![Cuadro de diálogo de configuración de puntuación de integridad de plantilla de roles](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -225,4 +225,4 @@ Puede eliminar una plantilla de funciones si se encuentra en el estado _Borrador
 
 ## Vídeo resumen {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453303/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
