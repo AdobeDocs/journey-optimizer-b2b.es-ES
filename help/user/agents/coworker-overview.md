@@ -43,7 +43,7 @@ Busque los recorridos de cuenta y persona existentes, cree nuevos recorridos de 
 
 [!DNL Coworker] respeta los [permisos de productos](../admin/user-management.md#b2b-product-permissions) existentes de su organización. Solo puede realizar las acciones que ya tiene permiso para realizar. Los administradores controlan cuándo tiene acceso de escritura. Para conocer los requisitos de acceso, consulte [Habilitar el acceso de IA](../ai-coworker/enable-ai-access.md).
 
-[!DNL Coworker] funciona en todo el ecosistema de Adobe, no solo en [!DNL Journey Optimizer B2B Edition]. Para conocer sus capacidades más amplias, consulte la [descripción general de Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview){target="_blank"}. Para obtener instrucciones sobre cómo abrir la aplicación e iniciar conversaciones, usa la [guía de la interfaz del colaborador](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
+[!DNL Coworker] funciona en todo el ecosistema de Adobe, no solo en [!DNL Journey Optimizer B2B Edition]. Para conocer sus capacidades más amplias, consulte la [descripción general de Adobe CX Enterprise Coworker Chat](https://experienceleague.adobe.com/es/docs/coworker/content/chat/overview){target="_blank"}. Para obtener instrucciones sobre cómo abrir la aplicación e iniciar conversaciones, usa la [guía de la interfaz del colaborador](https://experienceleague.adobe.com/es/docs/coworker/content/chat/ui-guide){target="_blank"}.
 
 ## aptitudes de recorrido {#skills}
 

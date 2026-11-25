@@ -50,7 +50,7 @@ Para ver los identificadores de aptitudes de búsqueda, creación y reglas y sus
 * [Guía de creación de Recorridos](#journey-creation-skills): prepare un informe y revise un borrador antes de crearlo.
 * [Guía de observabilidad de Recorrido](#journey-observability-skills): haga preguntas sobre cómo se mueven las cuentas y las personas a través de los recorridos activos.
 
-Para obtener instrucciones sobre cómo abrir la aplicación e iniciar conversaciones, usa la [guía de la interfaz del colaborador](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
+Para obtener instrucciones sobre cómo abrir la aplicación e iniciar conversaciones, usa la [guía de la interfaz del colaborador](https://experienceleague.adobe.com/es/docs/coworker/content/chat/ui-guide){target="_blank"}.
 
 ## aptitudes de creación de recorridos {#journey-creation-skills}
 

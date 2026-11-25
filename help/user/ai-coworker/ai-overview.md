@@ -58,7 +58,7 @@ Usar la interfaz de aplicación [!DNL CX Enterprise Coworker] para todos los flu
 
 Para ver las tareas de recorrido admitidas, los requisitos de aprobación y los flujos de trabajo de ejemplo, consulte [Colaborador en Adobe Journey Optimizer B2B Edition](../agents/coworker-overview.md).
 
-Para obtener instrucciones sobre cómo abrir la aplicación, iniciar conversaciones y utilizar características de chat, consulta la [guía de la interfaz de CX Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
+Para obtener instrucciones sobre cómo abrir la aplicación, iniciar conversaciones y utilizar características de chat, consulta la [guía de la interfaz de CX Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/chat/ui-guide){target="_blank"}.
 
 Considere qué tipo de consulta necesita antes de enviar una consulta de chat de [!DNL Coworker].
 
@@ -117,4 +117,4 @@ Con una comprensión general del chat de [!DNL Coworker], proceda a habilitarlo 
 
 * [Habilitar acceso a las capacidades de IA](./enable-ai-access.md)
 * [Guía de preguntas](./question-guidance.md)
-* [Guía de la interfaz de CX Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [Guía de la interfaz de CX Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/chat/ui-guide){target="_blank"}
