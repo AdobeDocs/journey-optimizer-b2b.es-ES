@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '895'
 ht-degree: 7%
 ---
 # Funciones de IA en Journey Optimizer B2B Edition
@@ -54,7 +54,9 @@ Use las capacidades de IA en [!DNL Adobe Journey Optimizer B2B Edition] para gen
 
 ## Usar la aplicación [!DNL Coworker] {#coworker-app}
 
-Usar la interfaz de aplicación [!DNL CX Enterprise Coworker] para todos los flujos de trabajo de chat que no sean la generación de contenido. Haga preguntas sobre el producto, explore las perspectivas operativas y utilice [aptitudes de recorrido](../agents/journey-agent.md) y [aptitudes de audiencia para cuentas B2B y personas](../agents/audience-agent-b2b.md). La generación de contenido permanece disponible en [!DNL Journey Optimizer B2B Edition].
+Usar la interfaz de aplicación [!DNL CX Enterprise Coworker] para todos los flujos de trabajo de chat que no sean la generación de contenido. Haga preguntas sobre el producto, explore las perspectivas operativas y utilice [aptitudes de recorrido](../agents/journey-skills.md) y [aptitudes de audiencia para cuentas B2B y personas](../agents/audience-skills-b2b.md). La generación de contenido permanece disponible en [!DNL Journey Optimizer B2B Edition].
+
+Para ver las tareas de recorrido admitidas, los requisitos de aprobación y los flujos de trabajo de ejemplo, consulte [Colaborador en Adobe Journey Optimizer B2B Edition](../agents/coworker-overview.md).
 
 Para obtener instrucciones sobre cómo abrir la aplicación, iniciar conversaciones y utilizar características de chat, consulta la [guía de la interfaz de CX Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/chat/ui-guide){target="_blank"}.
 
@@ -78,7 +80,7 @@ _Datos operativos_ se refieren a respuestas que [!DNL Coworker] genera acerca de
 * ¿Cuántas audiencias de cuenta nunca se han utilizado en ningún recorrido?
 * ¿Qué recorridos activos usan el interés de la solución _x_?
 
-Puede hacer [!DNL Coworker] preguntas sobre sus perspectivas operativas en los siguientes dominios:
+En la tabla siguiente se describen las preguntas de información operativa, no todas las capacidades de [!DNL Coworker]. La creación y la modificación de recorridos son [flujos de trabajo de aptitudes de recorrido](../agents/coworker-overview.md#skills) independientes. Estos flujos de trabajo admiten recorridos de cuenta y persona, con cambios aplicados a borradores guardados.
 
 | Dominio | Metadatos admitidos | Metadatos no admitidos |
 | --- | --- | --- |

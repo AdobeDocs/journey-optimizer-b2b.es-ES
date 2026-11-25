@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
 source-wordcount: '5901'
 ht-degree: 58%
@@ -112,7 +112,7 @@ Revise la [descripción del producto](https://helpx.adobe.com/es/legal/product-d
 | Función | Filtrado del historial de eventos de experiencia | Esta función permite que la orquestación de recorrido B2B utilice la participación histórica para impulsar decisiones basadas en el comportamiento para los miembros de la audiencia. [Más información](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Función | Siguientes nodos de recorrido de mejor ruta | Puede optimizar la toma de decisiones de ruta dividida para los recorridos de persona, refinando la forma en que las audiencias se enrutan por las rutas antes de la activación del recorrido o durante la ejecución. [Más información](../journeys/next-best-path-node.md) |
 | Función | Panel de rendimiento de correo electrónico | El panel Rendimiento de correo electrónico proporciona a los especialistas en marketing una vista unificada de la actividad de correo electrónico en todos los recorridos de Adobe Journey Optimizer B2B Edition. [Más información](../dashboards/email-performance-dashboard.md) |
-| Mejora | Aptitudes de Audience Agent B2B | Se han actualizado las aptitudes de Audience Agent B2B, incluida la creación de plantillas de grupo de compra con tecnología de IA. Utilice la asignación de intención y personalidad de origen para generar plantillas de grupo de compra, revisar las asignaciones de función a persona recomendadas por IA y refinar las plantillas con lenguaje natural antes de publicarlas. [Más información](../agents/audience-agent-b2b.md) |
+| Mejora | Aptitudes de Audience Agent B2B | Se han actualizado las aptitudes de Audience Agent B2B, incluida la creación de plantillas de grupo de compra con tecnología de IA. Utilice la asignación de intención y personalidad de origen para generar plantillas de grupo de compra, revisar las asignaciones de función a persona recomendadas por IA y refinar las plantillas con lenguaje natural antes de publicarlas. [Más información](../agents/audience-skills-b2b.md) |
 | Mejora | Panel de información general de recorridos: recorridos de persona | Los recorridos de persona (Beta) ahora incluyen una ficha _[!UICONTROL Información general]_ con los mismos análisis que los recorridos de cuenta, incluida la distribución de la tasa de finalización de recorridos, los recorridos por tipo de participación y las acciones de obtención de detalles y exportación. [Más información](../dashboards/journeys-dashboard.md) |
 | Mejora | Compatibilidad con conjuntos de datos relacionales de AEP | Los nuevos conjuntos de datos relacionales ahora aparecen en el entorno limitado de AEP, junto con los conjuntos de datos existentes. |
 
@@ -177,8 +177,8 @@ Las siguientes funciones de IA agéntica ya están disponibles para Journey Opti
 
 | Agente | Actualización | Descripción |
 | ----- | ------ | ----------- |
-| Journey Build Agent | Nuevo y actualizado | Journey Build Agent analiza, idea y crea recorridos de forma conjunta en tiempo real, lo que permite a los especialistas en marketing iniciar sesión más rápido, mejorar la participación y generar tasas de conversión más altas. [Más información](../agents/journey-agent.md) |
-| Audience Agent | Nuevo | Audience Agent identifica y crea automáticamente grupos de compra con datos estructurados y no estructurados. Ayuda a los especialistas en marketing a dirigirse a las personas adecuadas de forma más rápida y precisa. [Más información](../agents/audience-agent-b2b.md) |
+| Journey Build Agent | Nuevo y actualizado | Journey Build Agent analiza, idea y crea recorridos de forma conjunta en tiempo real, lo que permite a los especialistas en marketing iniciar sesión más rápido, mejorar la participación y generar tasas de conversión más altas. [Más información](../agents/journey-skills.md) |
+| Audience Agent | Nuevo | Audience Agent identifica y crea automáticamente grupos de compra con datos estructurados y no estructurados. Ayuda a los especialistas en marketing a dirigirse a las personas adecuadas de forma más rápida y precisa. [Más información](../agents/audience-skills-b2b.md) |
 | [!DNL Marketo Qualifier] | Nuevo | [!DNL Adobe Marketo Qualifier] es una aplicación controlada por IA que se integra con [!DNL Journey Optimizer B2B Edition]. Implementa Account Qualification Agent y está diseñado para optimizar los flujos de trabajo para los representantes de desarrollo empresarial (BDR). Automatiza los flujos de trabajo de cualificación de clientes potenciales, alcance y participación del comprador en todos los canales. [Más información](https://experienceleague.adobe.com/es/docs/marketo-qualifier/using/home){target="_blank"} |
 
 ## Notas de la versión 2025.10 {#rel-2025-10}
